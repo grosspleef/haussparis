@@ -10,6 +10,8 @@ import {
 } from '@/components/ProcessSections'
 import { ValuesSection } from '@/components/ValuesSection'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import type { Locale } from '@/lib/routes'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -55,12 +57,22 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   }
 }
 
+// Languages available for this page (from alternates.languages in generateMetadata)
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de']
+const localeUrls: Partial<Record<Locale, string>> = {
+  en: '/en/our-process',
+  fr: '/fr/notre-processus',
+  it: '/it/il-processo',
+  de: '/de/unser-prozess',
+}
+
 export default async function UnserProzess(props: Props) {
   const params = await props.params
   setRequestLocale(params.locale)
   const t = await getTranslations('ProcessPage')
-  
+
   return (
+    <AvailableLocalesProvider availableLocales={availableLocales} localeUrls={localeUrls}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('description')}</p>
@@ -76,6 +88,7 @@ export default async function UnserProzess(props: Props) {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

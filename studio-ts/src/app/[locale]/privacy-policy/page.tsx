@@ -4,6 +4,8 @@ import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { PageIntro } from '@/components/PageIntro'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import type { Locale } from '@/lib/routes'
 
 export async function generateMetadata({
   params,
@@ -51,10 +53,21 @@ export async function generateMetadata({
   }
 }
 
+// Languages available for this page (from alternates.languages in generateMetadata)
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
+const localeUrls: Partial<Record<Locale, string>> = {
+  en: '/en/privacy-policy',
+  fr: '/fr/politique-de-confidentialite',
+  it: '/it/privacy-policy',
+  de: '/de/datenschutz',
+  es: '/es/politica-de-privacidad',
+}
+
 export default function PrivacyPolicyPage() {
   const t = useTranslations('PrivacyPolicy')
 
   return (
+    <AvailableLocalesProvider availableLocales={availableLocales} localeUrls={localeUrls}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('lastUpdated')}</p>
@@ -183,5 +196,6 @@ export default function PrivacyPolicyPage() {
         </FadeIn>
       </Container>
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }

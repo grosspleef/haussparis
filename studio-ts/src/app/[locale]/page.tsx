@@ -7,6 +7,8 @@ import { HomeBuildSection, HomeDiscoverSection } from '@/components/ProcessSecti
 import { ValuesSection } from '@/components/ValuesSection'
 import { TestimonialsSection } from '@/components/TestimonialsSection'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import type { Locale } from '@/lib/routes'
 
 function Clients() {
   const t = useTranslations('HomePage.highlights')
@@ -108,9 +110,17 @@ export async function generateMetadata({
   }
 }
 
+// Languages available for this page (from alternates.languages in generateMetadata)
+const availableLocales: Locale[] = ['en', 'fr']
+const localeUrls: Partial<Record<Locale, string>> = {
+  en: '/en',
+  fr: '/fr',
+}
+
 export default function Home() {
   const t = useTranslations('HomePage.hero')
   return (
+    <AvailableLocalesProvider availableLocales={availableLocales} localeUrls={localeUrls}>
     <RootLayout>
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
@@ -138,5 +148,6 @@ export default function Home() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }

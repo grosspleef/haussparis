@@ -11,6 +11,8 @@ import { PageIntro } from '@/components/PageIntro'
 import { SocialMedia } from '@/components/SocialMedia'
 import { RootLayout } from '@/components/RootLayout'
 import { ContactForm } from '@/components/ContactForm'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import type { Locale } from '@/lib/routes'
 
 function ContactDetails() {
   const t = useTranslations('ContactPage')
@@ -124,12 +126,23 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   }
 }
 
+// Languages available for this page (from alternates.languages in generateMetadata)
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
+const localeUrls: Partial<Record<Locale, string>> = {
+  en: '/en/contact',
+  fr: '/fr/contact',
+  it: '/it/contatti',
+  de: '/de/kontakt',
+  es: '/es/contacto',
+}
+
 export default async function Contact(props: Props) {
   const params = await props.params
   setRequestLocale(params.locale)
   const t = await getTranslations('ContactPage')
-  
+
   return (
+    <AvailableLocalesProvider availableLocales={availableLocales} localeUrls={localeUrls}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('description')}</p>
@@ -142,5 +155,6 @@ export default async function Contact(props: Props) {
         </div>
       </Container>
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }

@@ -4,6 +4,8 @@ import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { PageIntro } from '@/components/PageIntro'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import type { Locale } from '@/lib/routes'
 
 export async function generateMetadata({
   params,
@@ -51,10 +53,21 @@ export async function generateMetadata({
   }
 }
 
+// Languages available for this page (from alternates.languages in generateMetadata)
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
+const localeUrls: Partial<Record<Locale, string>> = {
+  en: '/en/terms-of-service',
+  fr: '/fr/conditions-generales',
+  it: '/it/terms-of-service',
+  de: '/de/nutzungsbedingungen',
+  es: '/es/terminos-de-servicio',
+}
+
 export default function TermsOfServicePage() {
   const t = useTranslations('TermsOfService')
 
   return (
+    <AvailableLocalesProvider availableLocales={availableLocales} localeUrls={localeUrls}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('lastUpdated')}</p>
@@ -206,5 +219,6 @@ export default function TermsOfServicePage() {
         </FadeIn>
       </Container>
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }

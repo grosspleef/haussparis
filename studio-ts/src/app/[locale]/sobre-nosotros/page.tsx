@@ -14,6 +14,8 @@ import { StatList, StatListItem } from '@/components/StatList'
 import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
 import { loadArticles } from '@/lib/mdx'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import type { Locale } from '@/lib/routes'
 
 async function Culture({ locale }: { locale: string }) {
   const t = await getTranslations({ locale, namespace: 'AboutPage.culture' })
@@ -153,16 +155,27 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   }
 }
 
+// Languages available for this page (from alternates.languages in generateMetadata)
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
+const localeUrls: Partial<Record<Locale, string>> = {
+  en: '/en/about',
+  fr: '/fr/a-propos',
+  it: '/it/chi-siamo',
+  de: '/de/uber-uns',
+  es: '/es/sobre-nosotros',
+}
+
 export default async function SobreNosotros(props: Props) {
   const params = await props.params
   setRequestLocale(params.locale)
   const t = await getTranslations('AboutPage')
   const tStats = await getTranslations('AboutPage.stats')
   const tBlog = await getTranslations('AboutPage.blog')
-  
+
   let blogArticles = (await loadArticles(params.locale)).slice(0, 2)
 
   return (
+    <AvailableLocalesProvider availableLocales={availableLocales} localeUrls={localeUrls}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro1')}</p>
@@ -193,6 +206,7 @@ export default async function SobreNosotros(props: Props) {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

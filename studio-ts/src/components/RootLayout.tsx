@@ -8,8 +8,8 @@ import {
   useRef,
   useState,
 } from 'react'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { Link } from '@/i18n/routing'
+import { usePathname, useParams } from 'next/navigation'
 import clsx from 'clsx'
 import { motion, MotionConfig, useReducedMotion } from 'framer-motion'
 import { useTranslations } from 'next-intl'
@@ -18,9 +18,17 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Footer } from '@/components/Footer'
 import { GridPattern } from '@/components/GridPattern'
+import { LanguageSelector } from '@/components/LanguageSelector'
 import { Logo, Logomark } from '@/components/Logo'
 import { Offices } from '@/components/Offices'
 import { SocialMedia } from '@/components/SocialMedia'
+import {
+  servicesSlugs,
+  aboutSlugs,
+  processSlugs,
+  contactSlugs,
+  type Locale,
+} from '@/lib/routes'
 
 const RootLayoutContext = createContext<{
   logoHovered: boolean
@@ -61,6 +69,8 @@ function Header({
 }) {
   let { logoHovered, setLogoHovered } = useContext(RootLayoutContext)!
   const t = useTranslations('Header')
+  const params = useParams()
+  const locale = (params?.locale as Locale) || 'en'
 
   return (
     <Container>
@@ -83,7 +93,8 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="/contact" invert={invert}>
+          <LanguageSelector invert={invert} />
+          <Button href={`/${contactSlugs[locale]}`} invert={invert}>
             {t('contact')}
           </Button>
           <button
@@ -143,15 +154,17 @@ function NavigationItem({
 
 function Navigation() {
   const t = useTranslations('Navigation')
+  const params = useParams()
+  const locale = (params?.locale as Locale) || 'en'
 
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/services">{t('services')}</NavigationItem>
-        <NavigationItem href="/about">{t('about')}</NavigationItem>
+        <NavigationItem href={`/${servicesSlugs[locale]}`}>{t('services')}</NavigationItem>
+        <NavigationItem href={`/${aboutSlugs[locale]}`}>{t('about')}</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">{t('process')}</NavigationItem>
+        <NavigationItem href={`/${processSlugs[locale]}`}>{t('process')}</NavigationItem>
         <NavigationItem href="/blog">{t('blog')}</NavigationItem>
       </NavigationRow>
     </nav>
@@ -253,7 +266,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
                   </div>
                   <div className="sm:border-l sm:border-transparent sm:pl-16">
                     <h2 className="font-display text-base font-semibold text-white">
-                      {t('followUs')}
+                      {t('messaging')}
                     </h2>
                     <SocialMedia className="mt-6" invert />
                   </div>
