@@ -1,0 +1,410 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-25',
+  title: 'Comment Agrandir Visuellement un Petit Appartement Parisien',
+  description: 'Découvrez toutes les astuces d\'architectes d\'intérieur pour agrandir visuellement votre petit appartement à Paris : miroirs, couleurs claires, mobilier adapté, éclairage et solutions de rangement.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Comment Agrandir Visuellement un Petit Appartement à Paris',
+  description: 'Découvrez toutes les astuces d\'architectes d\'intérieur pour agrandir visuellement votre petit appartement à Paris : miroirs, couleurs claires, mobilier adapté, éclairage et solutions de rangement.',
+  keywords: [
+    'agrandir visuellement',
+    'petit appartement Paris',
+    'miroirs agrandir espace',
+    'couleurs claires appartement',
+    'optimisation espace',
+    'studio Paris astuces',
+    'petit espace décoration',
+    'architecte intérieur petit appartement',
+    'aménagement studio Paris',
+    'gagner place appartement'
+  ],
+  openGraph: {
+    title: 'Comment Agrandir Visuellement un Petit Appartement Parisien | Hauss Paris',
+    description: 'Découvrez toutes les astuces d\'architectes d\'intérieur pour agrandir visuellement votre petit appartement à Paris : miroirs, couleurs claires, mobilier adapté, éclairage et solutions de rangement.',
+    type: 'article',
+    publishedTime: '2026-01-25T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/comment-agrandir-visuellement-petit-appartement/agrandir-petit-appartement-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Agrandir visuellement un petit appartement parisien',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/comment-agrandir-visuellement-petit-appartement',
+    languages: {
+      'fr': '/fr/blog/comment-agrandir-visuellement-petit-appartement',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelle couleur choisir pour agrandir visuellement un petit appartement ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les couleurs claires et neutres sont idéales : blanc cassé, beige, gris perle, taupe clair. Ces teintes réfléchissent la lumière et créent une sensation d'espace. Évitez les couleurs sombres sur les murs principaux, mais vous pouvez les utiliser par touches pour créer de la profondeur. Le blanc pur peut paraître froid, préférez des nuances légèrement chaudes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment placer les miroirs pour agrandir un petit espace ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Placez les miroirs face à une source de lumière naturelle (fenêtre) ou face à une vue dégagée pour maximiser l'effet d'agrandissement. Un grand miroir du sol au plafond double visuellement l'espace. Évitez de placer un miroir face à un mur encombré. Les miroirs sur les portes de placard sont particulièrement efficaces dans les entrées et chambres."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel mobilier choisir pour un petit appartement parisien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Privilégiez les meubles multifonctions (canapé-lit, table extensible, lit avec rangements), les meubles sur pieds qui laissent voir le sol, les meubles transparents ou en verre, et les rangements verticaux. Évitez les meubles massifs et préférez des pièces aux lignes épurées. Les meubles sur mesure optimisent chaque centimètre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment optimiser l'éclairage dans un petit appartement ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Multipliez les sources lumineuses à différentes hauteurs : plafonniers, appliques murales, lampadaires, lampes de table. Évitez l'éclairage central unique qui écrase l'espace. Les LED sous les meubles hauts créent une ambiance et agrandissent visuellement. Maximisez la lumière naturelle avec des rideaux légers ou des stores."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Comment Agrandir Visuellement un Petit Appartement Parisien",
+  "description": "Découvrez toutes les astuces d'architectes d'intérieur pour agrandir visuellement votre petit appartement à Paris : miroirs, couleurs claires, mobilier adapté, éclairage et solutions de rangement.",
+  "image": "https://haussparis.com/blog/comment-agrandir-visuellement-petit-appartement/agrandir-petit-appartement-hero.jpg",
+  "datePublished": "2026-01-25T09:00:00Z",
+  "dateModified": "2026-01-25T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/fr/blog/comment-agrandir-visuellement-petit-appartement"
+  },
+  "keywords": "agrandir visuellement, petit appartement Paris, miroirs agrandir espace, couleurs claires appartement, optimisation espace, studio Paris astuces",
+  "articleSection": "Aménagement",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+Vivre dans un petit appartement à Paris est une réalité pour des millions de Parisiens. Avec un prix au mètre carré parmi les plus élevés au monde, chaque centimètre compte. Pourtant, petit ne signifie pas forcément étriqué ou inconfortable. Avec les bonnes techniques d'aménagement, vous pouvez transformer votre studio de 25m² ou votre deux-pièces de 35m² en un espace qui semble deux fois plus grand.
+
+Les architectes d'intérieur connaissent des dizaines d'astuces pour créer une illusion d'espace sans pousser les murs. Miroirs stratégiquement placés, palette de couleurs réfléchie, mobilier adapté, éclairage étudié : autant de leviers qui, combinés intelligemment, métamorphosent complètement la perception de votre intérieur.
+
+**Hauss Paris** vous accompagne dans l'optimisation de votre petit appartement parisien en vous mettant en relation avec des architectes d'intérieur spécialisés dans les petites surfaces. **Découvrez comment sublimer votre espace, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Optimisez votre petit appartement</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#miroirs" className="text-neutral-600 hover:text-neutral-950 transition">1. L'Art des Miroirs : Doubler Visuellement Votre Espace</a></li>
+      <li><a href="#couleurs" className="text-neutral-600 hover:text-neutral-950 transition">2. La Palette de Couleurs Idéale pour Agrandir</a></li>
+      <li><a href="#mobilier" className="text-neutral-600 hover:text-neutral-950 transition">3. Mobilier et Agencement : Les Règles d'Or</a></li>
+      <li><a href="#eclairage" className="text-neutral-600 hover:text-neutral-950 transition">4. L'Éclairage : Créer de la Profondeur</a></li>
+      <li><a href="#rangement" className="text-neutral-600 hover:text-neutral-950 transition">5. Solutions de Rangement Intelligentes</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="miroirs">L'Art des Miroirs : Doubler Visuellement Votre Espace</h2>
+
+Le miroir est l'allié numéro un de tout petit appartement. Utilisé correctement, il peut littéralement doubler la perception de l'espace. Mais attention, un miroir mal placé peut avoir l'effet inverse et créer une sensation de confusion.
+
+### Où Placer Vos Miroirs pour un Effet Maximum
+
+#### Face à une source de lumière naturelle
+
+La règle d'or est simple : placez toujours votre miroir face à une fenêtre ou à une source de lumière naturelle. Le miroir capte la lumière et la redistribue dans toute la pièce, créant une sensation d'ouverture et de luminosité. Dans un appartement parisien où les fenêtres sont souvent limitées, cette technique est particulièrement efficace.
+
+#### Face à une vue dégagée
+
+Si votre miroir reflète un mur encombré ou un espace désordonné, vous doublez visuellement le désordre. En revanche, s'il reflète une perspective, une enfilade de pièces ou simplement un espace dégagé, l'effet d'agrandissement est spectaculaire. Dans les appartements haussmanniens, placer un miroir dans l'axe d'une enfilade de portes crée une profondeur remarquable.
+
+#### Dans les zones de passage
+
+L'entrée est souvent le parent pauvre des petits appartements parisiens. Un grand miroir dans cette zone de transition donne immédiatement une impression d'espace plus généreux. De plus, il est pratique pour vérifier sa tenue avant de sortir.
+
+### Types de Miroirs et Leurs Effets
+
+#### Le grand miroir du sol au plafond
+
+C'est la solution la plus radicale et la plus efficace. Un miroir qui couvre tout un pan de mur, du sol au plafond, crée l'illusion d'une pièce qui se prolonge. Dans un salon de 15m², cette technique peut donner l'impression d'un espace de 25m². L'investissement est conséquent (comptez 800 à 2000€ pose comprise selon la taille), mais le résultat est spectaculaire.
+
+#### Les miroirs sur portes de placard
+
+Solution deux-en-un particulièrement astucieuse : vos portes de placard deviennent des surfaces réfléchissantes qui agrandissent la pièce. Cette technique est parfaite dans une chambre ou une entrée. Le coût est modéré et l'installation simple.
+
+#### Les compositions de petits miroirs
+
+Plusieurs miroirs de formes et tailles différentes créent un effet décoratif tout en agrandissant l'espace. Cette solution est idéale si vous souhaitez ajouter une touche design à votre intérieur. Attention cependant à ne pas en abuser : au-delà de 3-4 miroirs, l'effet devient confus.
+
+### Erreurs à Éviter avec les Miroirs
+
+- **Placer un miroir face à un autre miroir** : L'effet de mise en abyme est déstabilisant et peut donner le vertige.
+- **Multiplier les miroirs dans une même pièce** : Un ou deux grands miroirs sont plus efficaces que dix petits.
+- **Placer un miroir face à la porte d'entrée** : Selon le feng shui, mais aussi visuellement, cette configuration est à éviter.
+- **Choisir un miroir trop petit** : Un miroir de taille insuffisante perd tout effet d'agrandissement.
+
+---
+
+<h2 id="couleurs">La Palette de Couleurs Idéale pour Agrandir</h2>
+
+Les couleurs ont un impact psychologique puissant sur notre perception de l'espace. Une palette bien choisie peut transformer un petit appartement sombre en un cocon lumineux et aéré.
+
+### Les Couleurs qui Agrandissent
+
+#### Le blanc et ses nuances
+
+Le blanc reste la valeur sûre pour agrandir visuellement un espace. Il réfléchit toute la lumière et crée une toile de fond neutre qui recule les murs. Cependant, le blanc pur peut paraître froid et clinique, surtout dans les appartements parisiens peu lumineux. Privilégiez les blancs chauds : blanc cassé, blanc crème, blanc lin, blanc ivoire.
+
+#### Les gris clairs
+
+Le gris perle, le gris tourterelle ou le gris argile sont des alternatives élégantes au blanc. Ces teintes apportent de la sophistication tout en conservant l'effet d'agrandissement. Elles sont particulièrement adaptées aux appartements haussmanniens où elles mettent en valeur les moulures et éléments architecturaux.
+
+#### Les beiges et taupes clairs
+
+Ces couleurs chaudes créent une atmosphère enveloppante sans rétrécir l'espace. Le beige sable, le taupe clair ou le grège (gris-beige) sont parfaits pour un intérieur cosy mais spacieux. Ils se marient parfaitement avec le parquet ancien qu'on trouve dans la plupart des appartements parisiens.
+
+### La Règle du Ton sur Ton
+
+Pour maximiser l'effet d'agrandissement, utilisez des variations d'une même couleur dans tout l'appartement. Par exemple, un blanc cassé sur les murs, un blanc plus lumineux au plafond, et un beige clair sur les plinthes. Cette continuité visuelle évite les ruptures qui segmentent l'espace.
+
+### Les Touches de Couleur : Comment les Intégrer
+
+Un appartement entièrement blanc peut manquer de personnalité. Vous pouvez introduire des touches de couleur, mais de manière stratégique :
+
+- **Sur un seul pan de mur** : Un mur d'accent en couleur plus soutenue crée de la profondeur sans rétrécir l'espace. Choisissez de préférence le mur le plus éloigné de l'entrée.
+- **Par le mobilier et les accessoires** : Coussins, rideaux, tapis, objets décoratifs... Les couleurs vives par touches apportent du caractère sans impacter la perception de l'espace.
+- **Au sol** : Un tapis coloré délimite les zones et apporte de la chaleur sans toucher aux murs.
+
+### Le Plafond : L'Astuce Méconnue
+
+Le plafond est souvent négligé, alors qu'il représente une surface importante. Pour donner une impression de hauteur :
+
+- **Peignez-le dans un blanc plus lumineux que les murs** : Cette légère différence de ton crée l'illusion d'un plafond plus haut.
+- **Évitez absolument les couleurs sombres au plafond** : Elles écrasent l'espace de manière dramatique.
+- **Continuez la couleur des murs légèrement sur le plafond** (10-15cm) pour créer un effet d'élévation.
+
+---
+
+<h2 id="mobilier">Mobilier et Agencement : Les Règles d'Or</h2>
+
+Le choix et le placement du mobilier sont déterminants dans la perception de l'espace. Un appartement encombré de meubles massifs paraîtra toujours plus petit qu'un espace épuré avec du mobilier adapté.
+
+### Les Caractéristiques du Mobilier Idéal
+
+#### Des meubles sur pieds
+
+Les meubles qui laissent voir le sol créent une sensation de légèreté et d'espace. Un canapé sur pieds, une table basse surélevée, un buffet haut sur pieds : ces détails font une différence significative. Le sol visible en continu agrandit visuellement la pièce.
+
+#### Des matériaux transparents
+
+Verre, plexiglas, acrylique : les matériaux transparents sont vos alliés. Une table basse en verre, des chaises transparentes style Philippe Starck, une console en acrylique... Ces pièces occupent l'espace fonctionnellement sans l'encombrer visuellement.
+
+#### Des lignes épurées
+
+Privilégiez les meubles aux lignes simples et contemporaines. Les meubles ornementés, les courbes excessives ou les détails chargés alourdissent l'espace. Le style scandinave ou minimaliste est particulièrement adapté aux petites surfaces.
+
+### Le Mobilier Multifonction : Investissez Malin
+
+Dans un petit appartement, chaque meuble doit mériter sa place. Les meubles multifonctions sont essentiels :
+
+- **Le canapé-lit** : Indispensable dans un studio, il permet de recevoir des amis tout en optimisant l'espace. Les modèles récents sont confortables en version nuit comme en version jour.
+- **La table extensible** : Une table pour 2 au quotidien qui se déploie pour 6 convives. Les systèmes d'extension sont aujourd'hui très performants et discrets.
+- **Le lit avec rangements** : Tiroirs sous le sommier, tête de lit avec niches... Chaque centimètre sous et autour du lit peut être exploité.
+- **Le bureau escamotable** : Un plateau qui se replie contre le mur quand vous ne travaillez pas. Idéal pour créer un espace de télétravail dans un studio.
+
+### L'Agencement Optimal
+
+#### Dégagez les circulations
+
+Laissez des passages libres d'au moins 80cm entre les meubles. Une circulation fluide donne une impression d'espace. Évitez de placer des obstacles dans les axes de passage naturels.
+
+#### Exploitez les angles
+
+Les angles sont souvent des espaces perdus. Un meuble d'angle, une étagère en coin ou un bureau en angle exploitent ces zones tout en libérant l'espace central.
+
+#### Créez des zones visuelles
+
+Dans un studio, délimitez les espaces (salon, chambre, bureau) sans cloisonner. Un tapis sous le canapé définit le salon, un paravent ajouré suggère la séparation avec le coin nuit sans bloquer la lumière.
+
+---
+
+<h2 id="eclairage">L'Éclairage : Créer de la Profondeur</h2>
+
+L'éclairage est un élément souvent sous-estimé dans l'aménagement des petits espaces. Pourtant, une lumière bien pensée peut transformer radicalement la perception de votre appartement.
+
+### Maximiser la Lumière Naturelle
+
+#### Libérez vos fenêtres
+
+Dans un petit appartement parisien, chaque rayon de soleil est précieux. Évitez d'encombrer les rebords de fenêtre et choisissez des traitements de fenêtre légers : stores vénitiens, voilages transparents, rideaux en lin clair. Bannissez les rideaux épais et sombres qui bloquent la lumière.
+
+#### Les vitres propres
+
+Cela semble évident, mais des vitres sales peuvent réduire la luminosité de 20 à 30%. Un nettoyage régulier, surtout à Paris où la pollution noircit rapidement les fenêtres, fait une différence notable.
+
+### Multiplier les Sources Lumineuses
+
+#### Bannissez le plafonnier central unique
+
+Un seul point lumineux au centre du plafond crée des ombres dures et écrase l'espace. Préférez plusieurs sources lumineuses réparties dans la pièce :
+
+- **Appliques murales** : Elles éclairent sans encombrer le sol et créent une lumière indirecte flatteuse.
+- **Lampadaires** : Placés dans les angles, ils apportent de la hauteur et éclairent les zones sombres.
+- **Lampes de table** : Sur un buffet, une console ou une table de nuit, elles créent des îlots de lumière chaleureux.
+- **LED intégrées** : Sous les meubles hauts de cuisine, dans les niches, derrière un meuble TV... Les rubans LED créent une ambiance et une impression de profondeur.
+
+#### Variez les températures de couleur
+
+Les ampoules blanc chaud (2700-3000K) créent une atmosphère cosy, idéale pour le salon et la chambre. Les blancs neutres (4000K) sont parfaits pour la cuisine et le bureau. Évitez les blancs froids (5000K+) qui donnent un aspect clinique.
+
+### Techniques d'Éclairage pour Agrandir
+
+#### L'éclairage indirect
+
+Diriger la lumière vers le plafond ou les murs plutôt que vers le sol donne une impression de volume. Les appliques orientables, les lampadaires à vasque ou les corniches lumineuses sont parfaits pour cela.
+
+#### L'éclairage des angles
+
+Éclairer les coins de la pièce repousse visuellement les murs. Un lampadaire ou une lampe de table dans chaque angle élimine les zones d'ombre qui rétrécissent l'espace.
+
+---
+
+<h2 id="rangement">Solutions de Rangement Intelligentes</h2>
+
+Le désordre est l'ennemi juré des petits espaces. Un appartement encombré paraît toujours plus petit. Investir dans des solutions de rangement intelligentes est donc essentiel.
+
+### Exploiter la Hauteur
+
+#### Les rangements jusqu'au plafond
+
+Dans un appartement parisien avec ses plafonds de 2,50m à 3,20m, l'espace vertical est une ressource précieuse. Des placards ou étagères qui montent jusqu'au plafond exploitent chaque centimètre. Les objets peu utilisés (valises, décorations de Noël) trouvent leur place en hauteur.
+
+#### Les mezzanines
+
+Si votre plafond dépasse 3m (courant dans l'haussmannien), une mezzanine peut créer une pièce supplémentaire : chambre, bureau, espace de rangement. C'est un investissement conséquent mais qui peut doubler votre surface habitable.
+
+### Les Rangements Cachés
+
+#### Sous les escaliers
+
+Si vous avez un appartement en duplex, l'espace sous l'escalier est souvent gaspillé. Des tiroirs sur mesure ou un placard intégré peuvent y stocker énormément.
+
+#### Dans les plinthes
+
+Des plinthes tiroirs de 15-20cm de haut offrent un rangement invisible pour les objets plats : magazines, chaussures, jouets d'enfants.
+
+#### Sous le lit
+
+Un lit surélevé de 40cm avec des tiroirs en dessous peut remplacer une commode entière. Les lits coffres avec relevage hydraulique offrent encore plus de volume de stockage.
+
+### Le Sur-Mesure : L'Investissement Rentable
+
+Dans un petit appartement aux formes parfois biscornues (c'est le charme de Paris), le mobilier standard laisse souvent des espaces perdus. Le sur-mesure, réalisé par un menuisier ou proposé par des enseignes spécialisées, exploite chaque recoin.
+
+Un dressing sur mesure dans une chambre de 9m² est plus fonctionnel qu'une armoire standard dans une chambre de 12m². Le coût est plus élevé au départ (comptez 500 à 1500€/m linéaire), mais le gain d'espace et de confort au quotidien est considérable.
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Quelle couleur choisir pour agrandir visuellement un petit appartement ?
+
+Les couleurs claires et neutres sont idéales : blanc cassé, beige, gris perle, taupe clair. Ces teintes réfléchissent la lumière et créent une sensation d'espace. Évitez les couleurs sombres sur les murs principaux, mais vous pouvez les utiliser par touches sur un seul pan de mur pour créer de la profondeur. Le blanc pur peut paraître froid, préférez donc des nuances légèrement chaudes comme le blanc crème ou le blanc lin.
+
+### Comment placer les miroirs pour agrandir un petit espace ?
+
+Placez les miroirs face à une source de lumière naturelle (fenêtre) ou face à une vue dégagée pour maximiser l'effet d'agrandissement. Un grand miroir du sol au plafond double visuellement l'espace. Évitez de placer un miroir face à un mur encombré ou face à un autre miroir. Les miroirs sur les portes de placard sont particulièrement efficaces dans les entrées et chambres.
+
+### Quel mobilier choisir pour un petit appartement parisien ?
+
+Privilégiez les meubles multifonctions (canapé-lit, table extensible, lit avec rangements), les meubles sur pieds qui laissent voir le sol, les meubles transparents ou en verre, et les rangements verticaux jusqu'au plafond. Évitez les meubles massifs et préférez des pièces aux lignes épurées. Les meubles sur mesure optimisent chaque centimètre et sont particulièrement adaptés aux appartements parisiens aux formes parfois atypiques.
+
+### Comment optimiser l'éclairage dans un petit appartement ?
+
+Multipliez les sources lumineuses à différentes hauteurs : appliques murales, lampadaires dans les angles, lampes de table. Évitez l'éclairage central unique qui écrase l'espace. Les rubans LED sous les meubles hauts créent une ambiance et agrandissent visuellement. Maximisez la lumière naturelle avec des rideaux légers ou des stores vénitiens qui laissent passer la lumière tout en préservant l'intimité.
+
+---
+
+## Transformez Votre Petit Appartement en Espace de Vie Optimal
+
+Agrandir visuellement un petit appartement parisien n'est pas une question de magie, mais de technique. Miroirs stratégiquement placés, palette de couleurs réfléchie, mobilier adapté, éclairage étudié, rangements optimisés : en combinant ces différents leviers, vous pouvez transformer radicalement la perception de votre espace.
+
+Bien sûr, chaque appartement est unique, avec ses contraintes et ses atouts. C'est pourquoi l'accompagnement d'un architecte d'intérieur spécialisé dans les petites surfaces peut faire toute la différence. Il saura identifier les solutions les plus adaptées à votre configuration et à votre mode de vie.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur experts des petits espaces parisiens. **Découvrez comment optimiser votre appartement, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

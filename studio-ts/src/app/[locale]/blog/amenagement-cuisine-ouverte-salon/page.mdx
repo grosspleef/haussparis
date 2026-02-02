@@ -1,0 +1,504 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-23',
+  title: 'Aménagement Cuisine Ouverte sur Salon : Guide Complet',
+  description: 'Découvrez comment aménager une cuisine ouverte sur salon dans votre appartement parisien : configurations, ventilation, matériaux, îlot central et solutions de rangement pour un espace convivial et fonctionnel.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Aménagement Cuisine Ouverte sur Salon : Guide 2026 | Paris',
+  description: 'Découvrez comment aménager une cuisine ouverte sur salon dans votre appartement parisien : configurations, ventilation, matériaux, îlot central et solutions de rangement.',
+  keywords: [
+    'cuisine ouverte',
+    'aménagement cuisine salon',
+    'cuisine américaine Paris',
+    'îlot central cuisine',
+    'ouvrir cuisine salon',
+    'cuisine ouverte appartement',
+    'rénovation cuisine Paris',
+    'cuisine semi-ouverte',
+    'architecte cuisine Paris',
+    'cuisine haussmannien'
+  ],
+  openGraph: {
+    title: 'Aménagement Cuisine Ouverte sur Salon : Guide Complet | Hauss Paris',
+    description: 'Découvrez comment aménager une cuisine ouverte sur salon dans votre appartement parisien : configurations, ventilation, matériaux et solutions pratiques.',
+    type: 'article',
+    publishedTime: '2026-01-23T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/amenagement-cuisine-ouverte-salon/cuisine-ouverte-salon-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Cuisine ouverte sur salon dans un appartement parisien',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/amenagement-cuisine-ouverte-salon',
+    languages: {
+      'fr': '/fr/blog/amenagement-cuisine-ouverte-salon',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Peut-on ouvrir une cuisine sur le salon dans un appartement haussmannien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, dans la plupart des cas. Les cuisines haussmanniennes sont généralement séparées par des cloisons non porteuses qu'on peut supprimer. Cependant, si la cloison est porteuse, il faudra installer une IPN ou une poutre de renfort. Une étude structure par un bureau d'études est indispensable. L'autorisation de la copropriété est obligatoire dans tous les cas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel budget prévoir pour ouvrir une cuisine sur le salon à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le budget varie selon l'ampleur : simple ouverture de cloison non porteuse (3000-8000€), ouverture avec IPN pour mur porteur (8000-15000€), rénovation complète de la cuisine avec ouverture (25000-60000€ selon les finitions). Prévoyez toujours une marge de 15-20% pour les imprévus."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment éviter les odeurs de cuisine dans le salon ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La ventilation est cruciale : installez une hotte puissante (minimum 400m³/h, idéalement 600-800m³/h) avec évacuation extérieure si possible, sinon avec filtres à charbon actif de qualité. Optez pour une hotte aspirante proche des plaques. Les hottes de plafond ou intégrées au plan de travail sont très efficaces. Complétez avec une VMC performante."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Îlot ou péninsule : que choisir pour une cuisine ouverte ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L'îlot central nécessite au minimum 15m² de cuisine ouverte pour circuler confortablement (90cm autour). Il offre plus de rangements et peut intégrer cuisson ou évier. La péninsule (îlot rattaché à un mur) convient aux espaces plus petits (à partir de 10m²) et permet aussi de créer un bar. Le choix dépend de votre surface disponible."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Aménagement Cuisine Ouverte sur Salon : Guide Complet",
+  "description": "Découvrez comment aménager une cuisine ouverte sur salon dans votre appartement parisien.",
+  "image": "https://haussparis.com/blog/amenagement-cuisine-ouverte-salon/cuisine-ouverte-salon-hero.jpg",
+  "datePublished": "2026-01-23T09:00:00Z",
+  "dateModified": "2026-01-23T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/fr/blog/amenagement-cuisine-ouverte-salon"
+  },
+  "keywords": "cuisine ouverte, aménagement cuisine salon, cuisine américaine Paris, îlot central cuisine, ouvrir cuisine salon",
+  "articleSection": "Aménagement",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+La cuisine ouverte sur le salon est devenue un incontournable de l'aménagement moderne. Fini le temps où la personne qui cuisine était isolée dans une pièce fermée pendant que les invités profitaient du salon. Aujourd'hui, la cuisine est un espace de vie à part entière, un lieu de convivialité où l'on prépare les repas tout en participant à la conversation.
+
+Dans les appartements parisiens, souvent contraints en surface, ouvrir la cuisine sur le salon permet de gagner en luminosité, en sensation d'espace et en convivialité. Mais cette transformation ne s'improvise pas : questions de structure, de ventilation, de matériaux et d'agencement doivent être soigneusement pensées pour éviter les écueils.
+
+**Hauss Paris** vous accompagne dans votre projet de cuisine ouverte en vous mettant en relation avec des architectes d'intérieur spécialisés. **Transformez votre espace de vie, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Créez votre cuisine ouverte</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#avantages" className="text-neutral-600 hover:text-neutral-950 transition">1. Les Avantages d'une Cuisine Ouverte</a></li>
+      <li><a href="#configurations" className="text-neutral-600 hover:text-neutral-950 transition">2. Les Différentes Configurations Possibles</a></li>
+      <li><a href="#ventilation" className="text-neutral-600 hover:text-neutral-950 transition">3. Ventilation : La Clé du Succès</a></li>
+      <li><a href="#materiaux" className="text-neutral-600 hover:text-neutral-950 transition">4. Choix des Matériaux et Finitions</a></li>
+      <li><a href="#ilot" className="text-neutral-600 hover:text-neutral-950 transition">5. Îlot ou Péninsule : Comment Choisir</a></li>
+      <li><a href="#rangement" className="text-neutral-600 hover:text-neutral-950 transition">6. Solutions de Rangement</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">7. Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="avantages">Les Avantages d'une Cuisine Ouverte</h2>
+
+Ouvrir une cuisine sur le salon transforme profondément un appartement. Cette configuration présente de nombreux avantages qui expliquent son succès auprès des Parisiens.
+
+### Gain de Luminosité
+
+Dans les appartements parisiens, les cuisines sont souvent reléguées dans des espaces sombres, éloignés des fenêtres. En ouvrant sur le salon, la lumière naturelle pénètre enfin dans la cuisine. C'est un gain de confort considérable au quotidien, tant pour cuisiner que pour le plaisir des yeux.
+
+Dans un appartement haussmannien où les pièces de réception donnent sur rue avec de grandes fenêtres, ouvrir la cuisine vers ces espaces lumineux transforme radicalement l'atmosphère.
+
+### Sensation d'Espace
+
+Abattre la cloison entre cuisine et salon crée visuellement un grand volume unifié. Même si la surface reste identique, la sensation d'espace est décuplée. Dans un appartement de 50m² où chaque mètre carré compte, cet effet est particulièrement appréciable.
+
+Les perspectives visuelles s'allongent, le regard porte plus loin, et l'appartement semble instantanément plus grand et plus aéré.
+
+### Convivialité au Quotidien
+
+C'est l'avantage le plus évident : fini l'isolement de celui ou celle qui cuisine. Vous préparez le dîner tout en surveillant les enfants qui font leurs devoirs, vous discutez avec vos invités tout en finalisant l'entrée, vous regardez la télé tout en préparant le petit-déjeuner.
+
+La cuisine devient un espace de vie à part entière, intégré au flux de la maison. C'est un changement de mode de vie autant qu'un changement architectural.
+
+### Valorisation Immobilière
+
+Une cuisine ouverte moderne et bien conçue est un atout majeur lors de la revente ou de la location. Les acheteurs et locataires recherchent ce type de configuration qui correspond aux modes de vie actuels. Un appartement avec cuisine ouverte se vend plus vite et parfois plus cher qu'un bien équivalent avec cuisine fermée.
+
+---
+
+<h2 id="configurations">Les Différentes Configurations Possibles</h2>
+
+Il n'existe pas une seule façon d'ouvrir une cuisine sur le salon. Selon votre appartement, vos besoins et vos contraintes, plusieurs configurations sont envisageables.
+
+### La Cuisine Totalement Ouverte
+
+C'est la configuration la plus radicale : la cloison est entièrement supprimée, créant un grand espace unifié cuisine-salon. Cette solution maximise la sensation d'espace et la luminosité.
+
+**Avantages :**
+- Maximum de lumière et d'espace
+- Grande convivialité
+- Circulation fluide
+
+**Inconvénients :**
+- Odeurs et bruits de cuisine dans le salon
+- Désordre visible
+- Pas de possibilité de fermer
+
+**Idéal pour :** Les personnes organisées qui rangent au fur et à mesure, les cuisiniers occasionnels, les couples sans enfants.
+
+### La Cuisine Semi-Ouverte avec Verrière
+
+Une verrière d'intérieur remplace la cloison pleine. Elle laisse passer la lumière tout en créant une séparation visuelle et phonique partielle. C'est le meilleur compromis entre ouverture et intimité.
+
+**Avantages :**
+- Lumière préservée
+- Séparation visuelle discrète
+- Atténuation des bruits et odeurs
+- Style industriel très tendance
+
+**Inconvénients :**
+- Coût supérieur (2000-8000€ pour la verrière)
+- Entretien des vitres
+
+**Idéal pour :** Les amateurs de style industriel, ceux qui veulent le meilleur des deux mondes.
+
+### La Cuisine Semi-Ouverte avec Passe-Plat
+
+Une large ouverture est créée dans la cloison existante, éventuellement équipée d'un plan de travail qui sert de passe-plat et de bar. La cloison basse qui reste crée une séparation fonctionnelle.
+
+**Avantages :**
+- Coût modéré
+- Rangements possibles côté cuisine
+- Bar pratique pour les repas rapides
+- Séparation des espaces maintenue
+
+**Inconvénients :**
+- Ouverture limitée
+- Moins de lumière qu'une ouverture totale
+
+**Idéal pour :** Les budgets modérés, les familles avec enfants, ceux qui cuisinent souvent.
+
+### La Cuisine avec Îlot Séparateur
+
+L'îlot central fait office de transition entre l'espace cuisine et l'espace salon. Il peut intégrer un plan de cuisson, un évier, ou simplement servir de plan de travail et de rangement.
+
+**Avantages :**
+- Délimitation naturelle des espaces
+- Plan de travail supplémentaire
+- Rangements intégrés
+- Possibilité d'intégrer cuisson ou évier
+
+**Inconvénients :**
+- Nécessite une surface suffisante (minimum 15m² pour l'ensemble)
+- Coût élevé si raccordements nécessaires
+
+**Idéal pour :** Les grands appartements, les passionnés de cuisine, les familles.
+
+---
+
+<h2 id="ventilation">Ventilation : La Clé du Succès</h2>
+
+La principale crainte avec une cuisine ouverte concerne les odeurs et les fumées de cuisson qui se répandent dans le salon. Une ventilation bien pensée est donc essentielle pour réussir votre projet.
+
+### Choisir la Bonne Hotte
+
+#### La puissance nécessaire
+
+La puissance d'une hotte se mesure en m³/h (mètres cubes d'air aspiré par heure). Pour une cuisine ouverte, il faut être généreux :
+
+- **Minimum : 400 m³/h** pour une utilisation légère
+- **Recommandé : 600-800 m³/h** pour une utilisation normale
+- **Optimal : 800-1000 m³/h** pour les cuisiniers assidus
+
+La règle de base est de renouveler l'air de la pièce 10 à 12 fois par heure. Pour un espace cuisine-salon de 40m² avec 2,50m de hauteur sous plafond (100m³), il faut donc une hotte d'au moins 1000 m³/h en théorie, mais 600-800 m³/h suffisent en pratique avec une bonne ventilation complémentaire.
+
+#### Évacuation extérieure vs recyclage
+
+- **Évacuation extérieure** : L'air aspiré est rejeté à l'extérieur via une gaine. C'est la solution la plus efficace, mais elle nécessite un accès vers l'extérieur et l'accord de la copropriété.
+- **Recyclage avec filtres à charbon** : L'air est filtré puis renvoyé dans la pièce. Moins efficace, mais plus simple à installer. Exige un entretien régulier des filtres (remplacement tous les 3-6 mois).
+
+### Les Différents Types de Hottes
+
+#### Hotte murale classique
+
+Installée contre le mur au-dessus des plaques, c'est la solution la plus courante et la plus économique. Efficace et disponible dans tous les styles.
+
+#### Hotte îlot
+
+Suspendue au plafond au-dessus d'un îlot central. Plus coûteuse et nécessite un raccordement aérien, mais indispensable si la cuisson est sur l'îlot.
+
+#### Hotte de plafond intégrée
+
+Encastrée dans le plafond, elle est quasi invisible et très performante. Solution haut de gamme (3000-8000€) parfaite pour les cuisines design.
+
+#### Hotte plan de travail (downdraft)
+
+Intégrée au plan de travail, elle aspire les fumées à la source avant qu'elles ne montent. Très discrète et efficace, mais coûteuse (2000-5000€).
+
+### La VMC : Complément Indispensable
+
+Une VMC (Ventilation Mécanique Contrôlée) performante complète l'action de la hotte en renouvelant l'air en continu. Dans un appartement ancien, c'est souvent l'occasion de mettre à niveau le système de ventilation global.
+
+---
+
+<h2 id="materiaux">Choix des Matériaux et Finitions</h2>
+
+Dans une cuisine ouverte sur le salon, les matériaux doivent être à la fois fonctionnels (résistants, faciles à nettoyer) et esthétiques (en harmonie avec le salon). C'est un équilibre délicat à trouver.
+
+### Les Plans de Travail
+
+#### Le quartz
+
+Composite de quartz naturel et de résine, c'est le matériau star des cuisines contemporaines. Ultra résistant, non poreux, disponible dans de nombreuses couleurs et finitions. Prix : 300-600€/m linéaire posé.
+
+#### Le granit
+
+Pierre naturelle élégante et très résistante. Chaque plan est unique avec ses veines naturelles. Nécessite un traitement hydrofuge régulier. Prix : 250-500€/m linéaire posé.
+
+#### Le Dekton/Néolith
+
+Surfaces ultra-compactes de nouvelle génération. Résistantes aux rayures, à la chaleur, aux UV. Idéales pour une cuisine ouverte avec îlot. Prix : 400-800€/m linéaire posé.
+
+#### Le bois massif
+
+Chaleureux et naturel, il apporte une touche cosy parfaite pour faire le lien avec le salon. Nécessite un entretien régulier (huile). Prix : 200-400€/m linéaire posé.
+
+### Les Façades de Meubles
+
+#### Le laqué mat
+
+Finition contemporaine par excellence, le laqué mat offre un aspect velouté très élégant. Attention aux traces de doigts. Prix : gamme moyenne à haute.
+
+#### Le mélaminé
+
+Solution économique avec un choix immense de décors (bois, couleurs, textures). Qualité variable selon les fabricants. Prix : gamme économique.
+
+#### Le bois massif ou plaqué
+
+Pour une cuisine chaleureuse qui dialogue avec un salon au parquet ancien. Chêne, noyer, frêne... Prix : gamme moyenne à haute.
+
+### Le Sol : Créer une Continuité
+
+Dans une cuisine ouverte, le choix du sol est stratégique. Deux approches sont possibles :
+
+#### Un seul sol continu
+
+Le même revêtement dans toute la pièce cuisine-salon crée une unité visuelle et agrandit l'espace. Si vous optez pour du parquet dans le salon, il peut se prolonger dans la cuisine (parquet vitrifié résistant à l'eau) ou être remplacé par un carrelage imitation parquet pour plus de praticité.
+
+#### Deux sols avec transition soignée
+
+Un carrelage dans la cuisine, un parquet dans le salon. Cette option permet de choisir le revêtement optimal pour chaque zone. La transition doit être soignée : barre de seuil élégante, jonction en biais, ou même absence de barre avec joint de dilatation discret.
+
+---
+
+<h2 id="ilot">Îlot ou Péninsule : Comment Choisir</h2>
+
+L'îlot central est devenu l'élément phare des cuisines ouvertes. Mais est-il adapté à votre espace ? Faut-il préférer une péninsule ?
+
+### L'Îlot Central
+
+#### Avantages
+
+- **Plan de travail supplémentaire** : idéal pour préparer à plusieurs
+- **Rangements** : tiroirs, placards, niche pour électroménager
+- **Possibilité d'intégrer cuisson ou évier** : pour cuisiner face au salon
+- **Bar intégré** : côté salon, avec tabourets
+- **Élément central** : structure l'espace et crée une transition naturelle
+
+#### Contraintes
+
+- **Surface minimale** : comptez au moins 15m² pour l'ensemble cuisine ouverte avec îlot, afin de conserver 90cm de circulation tout autour
+- **Raccordements** : si l'îlot intègre évier ou plaque, il faut amener eau, évacuation et électricité au sol (travaux conséquents)
+- **Budget** : un îlot équipé coûte 3000 à 15000€ selon les finitions et équipements
+
+#### Dimensions idéales
+
+- Largeur : 90 à 120cm
+- Longueur : selon l'espace, généralement 150 à 250cm
+- Hauteur plan de travail : 90cm (standard) ou 95cm (confort)
+- Hauteur bar : 110cm (pour tabourets hauts)
+
+### La Péninsule
+
+La péninsule est un îlot rattaché à un mur ou à un meuble existant. Elle offre les mêmes avantages qu'un îlot mais avec moins de contraintes.
+
+#### Avantages
+
+- **Adapté aux petits espaces** : fonctionne à partir de 10m²
+- **Raccordements simplifiés** : un seul côté à alimenter
+- **Structure l'espace** : sépare cuisine et salon sans encombrer
+- **Coût réduit** : pas besoin de finitions sur 4 côtés
+
+#### Configuration type
+
+La péninsule prolonge le plan de travail perpendiculairement au mur, créant un "L" ou un "U" ouvert. Côté salon, elle peut accueillir des tabourets pour un espace bar.
+
+### Comment Décider ?
+
+| Critère | Îlot | Péninsule |
+|---------|------|-----------|
+| Surface disponible | 15m² minimum | 10m² minimum |
+| Budget | Plus élevé | Plus accessible |
+| Flexibilité | Circulation à 360° | Circulation à 180° |
+| Raccordements | Complexes au sol | Simples depuis le mur |
+| Impact visuel | Fort, élément central | Modéré, dans la continuité |
+
+---
+
+<h2 id="rangement">Solutions de Rangement</h2>
+
+Une cuisine ouverte sur le salon impose d'être organisé : le désordre est visible depuis le salon. Des solutions de rangement bien pensées sont donc essentielles.
+
+### Maximiser les Rangements Fermés
+
+#### Les meubles hauts
+
+Dans une cuisine ouverte, les meubles hauts peuvent paraître encombrants visuellement. Deux approches :
+- **Limiter les meubles hauts** au strict nécessaire et compenser par d'autres rangements
+- **Opter pour des meubles hauts jusqu'au plafond** qui offrent énormément de rangement et évitent la poussière au-dessus
+
+#### Les grands tiroirs
+
+Les tiroirs sont plus pratiques que les placards : tout est visible et accessible. Privilégiez les grands tiroirs avec aménagements intérieurs (range-couverts, range-épices, séparateurs).
+
+#### L'armoire colonne
+
+Une armoire colonne (60cm de large, du sol au plafond) offre un volume de rangement considérable. Elle peut intégrer le four encastré et le réfrigérateur pour un effet épuré.
+
+### Le Garde-Manger ou Cellier
+
+Si l'espace le permet, un garde-manger fermé à proximité de la cuisine ouverte est idéal. Il stocke les provisions, le petit électroménager peu utilisé, les stocks... Tout ce qui encombre est caché, et la cuisine ouverte reste épurée.
+
+Dans les appartements haussmanniens, l'ancienne entrée de service ou un couloir peuvent être convertis en cellier.
+
+### Les Solutions Astucieuses
+
+#### Le meuble d'angle optimisé
+
+Les angles sont souvent mal exploités. Des systèmes de plateaux pivotants ou de tiroirs en angle maximisent cet espace.
+
+#### Le tiroir sous évier
+
+L'espace sous l'évier est souvent gaspillé. Des kits d'aménagement permettent d'y ranger produits d'entretien et poubelles de tri.
+
+#### Les rangements dans l'îlot
+
+L'îlot central peut intégrer énormément de rangement : tiroirs des deux côtés, niches ouvertes pour les livres de cuisine, casiers à bouteilles...
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Peut-on ouvrir une cuisine sur le salon dans un appartement haussmannien ?
+
+Oui, dans la plupart des cas. Les cuisines haussmanniennes sont généralement séparées du salon par des cloisons non porteuses (briques creuses ou colombages) qu'on peut supprimer sans difficulté. Cependant, si la cloison est porteuse (pierre ou brique pleine), il faudra installer une IPN ou une poutre de renfort, ce qui augmente le coût et la complexité. Une étude structure par un bureau d'études est indispensable pour déterminer la nature du mur. L'autorisation de la copropriété est obligatoire dans tous les cas.
+
+### Quel budget prévoir pour ouvrir une cuisine sur le salon à Paris ?
+
+Le budget varie considérablement selon l'ampleur du projet :
+- **Simple ouverture de cloison non porteuse** : 3000-8000€ (démolition, évacuation, finitions)
+- **Ouverture avec IPN pour mur porteur** : 8000-15000€ (étude structure, IPN, travaux)
+- **Rénovation complète de la cuisine avec ouverture** : 25000-60000€ selon les finitions et équipements
+
+Prévoyez toujours une marge de 15-20% pour les imprévus, fréquents dans l'ancien.
+
+### Comment éviter les odeurs de cuisine dans le salon ?
+
+La ventilation est la clé. Installez une hotte puissante (minimum 400m³/h, idéalement 600-800m³/h) avec évacuation extérieure si possible, sinon avec filtres à charbon actif de qualité renouvelés régulièrement. Choisissez une hotte avec une bonne capacité d'aspiration proche des plaques : les hottes de plafond ou intégrées au plan de travail (downdraft) sont particulièrement efficaces. Complétez avec une VMC performante pour le renouvellement d'air continu.
+
+### Îlot ou péninsule : que choisir pour une cuisine ouverte ?
+
+L'îlot central nécessite au minimum 15m² de cuisine ouverte pour circuler confortablement (90cm tout autour). Il offre plus de flexibilité, de rangements et peut intégrer cuisson ou évier. La péninsule (îlot rattaché à un mur) convient aux espaces plus petits (à partir de 10m²) et simplifie les raccordements. Elle permet aussi de créer un espace bar côté salon. Le choix dépend principalement de votre surface disponible et de votre budget.
+
+---
+
+## Créez la Cuisine Ouverte de Vos Rêves
+
+Une cuisine ouverte sur le salon transforme radicalement un appartement parisien. Elle apporte lumière, sensation d'espace et convivialité au quotidien. Mais pour réussir ce projet, il faut anticiper les questions de structure, de ventilation, de matériaux et d'agencement.
+
+Un architecte d'intérieur spécialisé vous accompagne dans toutes ces étapes : étude de faisabilité, conception de l'agencement optimal, choix des matériaux et équipements, coordination des artisans. Il transforme votre vision en réalité, dans le respect de votre budget et des contraintes de votre appartement.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur experts en aménagement de cuisines ouvertes à Paris. **Imaginez votre nouvelle cuisine, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

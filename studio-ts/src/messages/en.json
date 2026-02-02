@@ -1,0 +1,2848 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Let us|find your|interior designer",
+      "description": "We connect individuals and professionals with interior designers selected according to their needs. A bespoke service, designed for all types of projects in Paris, or internationally."
+    },
+    "highlights": {
+      "title": "A free service, without obligation.",
+      "1": "For a French and international clientele.",
+      "2": "You describe, we select, we connect.",
+      "3": "An architect is presented to you, according to your deadlines."
+    },
+    "process": {
+      "individuals": "Individuals",
+      "professionals": "Professionals"
+    },
+    "metadata": {
+      "description": "Hauss Paris connects individuals and professionals with the best Parisian interior designers. A bespoke service for all your renovation and decoration projects."
+    }
+  },
+  "Header": {
+    "home": "Home",
+    "contact": "Contact us",
+    "menu": "Menu"
+  },
+  "Navigation": {
+    "services": "Services",
+    "about": "About",
+    "process": "Process",
+    "blog": "Blog",
+    "ourOffice": "Our office",
+    "messaging": "Messaging",
+    "followUs": "Follow us"
+  },
+  "Footer": {
+    "services": "Services",
+    "renovation": "Renovation",
+    "decoration": "Decoration",
+    "furnishing": "Furnishing",
+    "explore": "Explore",
+    "studio": "Studio",
+    "about": "About",
+    "process": "Process",
+    "blog": "Blog",
+    "contact": "Contact us",
+    "messaging": "Messaging",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "description": "Receive the latest design news, our articles and inspirations.",
+      "placeholder": "Your email address",
+      "subscribe": "Subscribe",
+      "emailLabel": "Email address"
+    },
+    "home": "Home",
+    "copyright": "© Hauss Paris {year}"
+  },
+  "ValuesSection": {
+    "eyebrow": "Services",
+    "title": "Meeting your needs, respecting your requirements. Simply.",
+    "description": "We offer you the essentials: genuine listening, fair solutions and interior designers perfectly aligned with your project.",
+    "services": {
+      "renovation": {
+        "title": "Renovation & space transformation",
+        "description": "We reinvent your spaces to create refined environments. Every detail is orchestrated with precision, from initial plans to finishes."
+      },
+      "layout": {
+        "title": "Layout & bespoke design",
+        "description": "We design unique layouts. Custom-made becomes a signature: precise, functional and aesthetic."
+      },
+      "decoration": {
+        "title": "Decoration & artistic direction",
+        "description": "We imagine elegant atmospheres. A coherent visual universe, designed as a true interior work of art."
+      },
+      "furnishing": {
+        "title": "Furnishing & sourcing",
+        "description": "We select exceptional pieces for you. Complete support, from sourcing to installation, for a turnkey result."
+      }
+    }
+  },
+  "MainServices": {
+    "eyebrow": "Our Expertise",
+    "title": "Our 4 Main Areas",
+    "description": "A comprehensive approach to interior design to bring your projects to life.",
+    "services": {
+      "renovation": {
+        "title": "Renovation & space transformation",
+        "description": "We reinvent your spaces to create refined environments. Every detail is orchestrated with precision, from initial plans to finishes."
+      },
+      "customLayout": {
+        "title": "Layout & bespoke design",
+        "description": "We design unique layouts. Custom-made becomes a signature: precise, functional and aesthetic."
+      },
+      "decoration": {
+        "title": "Decoration & artistic direction",
+        "description": "We imagine elegant atmospheres. A coherent visual universe, designed as a true interior work of art."
+      },
+      "furnishing": {
+        "title": "Furnishing & sourcing",
+        "description": "We select exceptional pieces for you. Complete support, from sourcing to installation, for a turnkey result."
+      }
+    }
+  },
+  "ContactSection": {
+    "title": "The ideal interior designer is never far away.",
+    "button": "Get started",
+    "ourOffice": "Our office"
+  },
+  "ProcessSections": {
+    "homeDiscover": {
+      "title": "Discovery",
+      "paragraph1": "In Paris, every project is unique. Finding the architect truly aligned with your vision requires precise selection — that's where we come in, with <strong>clarity</strong> and <strong>excellence</strong>.",
+      "paragraph2": "We identify the architect meeting your <strong>essential criteria</strong>: style, spoken language, availability and project type — from small studios to grand Haussmann apartments, from complete renovation to simple furnishing.",
+      "paragraph3": "With a <strong>unique brief</strong>, you gain access to a reliable and bespoke selection of qualified professionals, for a project that starts simply and serenely.",
+      "includedTitle": "Included in our support",
+      "tags": {
+        "needsAnalysis": "Needs analysis",
+        "architectSelection": "Architect selection",
+        "qualifiedConnection": "Qualified connection",
+        "referenceCheck": "Reference verification",
+        "relationshipFollowup": "Relationship follow-up"
+      }
+    },
+    "homeBuild": {
+      "title": "Design",
+      "paragraph1": "For professionals, we offer fast and structured access to interior designers capable of supporting all types of projects: <strong>offices, shops, restaurants, hotels</strong>.",
+      "paragraph2": "We select the most relevant profile — from independent architect to <strong>large firm</strong> — according to the project's nature, identity, technical constraints and schedule.",
+      "paragraph3": "Whether it's a small space or an <strong>entire building to redesign</strong>, you save time and benefit from immediately operational expertise, perfectly adapted to your professional needs.",
+      "testimonial": {
+        "quote": "Thanks to Hauss Paris, we found the ideal firm for the renovation of our headquarters in record time.",
+        "author": "Marc L.",
+        "role": "Real Estate Director"
+      }
+    }
+  },
+  "ContactPage": {
+    "eyebrow": "Contact us",
+    "title": "Let's work together",
+    "description": "We look forward to supporting you in your interior design project.",
+    "ourOffice": "Our office",
+    "contactUs": "Contact us",
+    "email": "Email",
+    "phone": "Phone",
+    "messaging": "Messaging",
+    "metadata": {
+      "description": "Contact us to find the ideal interior designer for your project."
+    }
+  },
+  "ContactForm": {
+    "title": "Your project",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company (optional)",
+    "phone": "Phone",
+    "message": "Message",
+    "budget": "Budget",
+    "budgetOptions": {
+      "50-100": "50K € – 100K €",
+      "100-250": "100K € – 250K €",
+      "250-500": "250K € – 500K €",
+      "500+": "More than 500K €"
+    },
+    "notSpecified": "Not specified",
+    "submit": "Send my request",
+    "submitting": "Sending...",
+    "success": "Thank you! Your message has been sent successfully. We will respond to you as soon as possible.",
+    "error": "An error occurred while sending the message",
+    "serverError": "Server error. Please check that the server is running and that the Resend API key is configured.",
+    "requiredFields": "Name, email and message fields are required",
+    "emailSubjectConfirmation": "Receipt confirmation - HAUSS Paris",
+    "emailSubjectNotification": "New contact: {name}",
+    "emailConfirmation": {
+      "greeting": "Thank you {name}!",
+      "received": "We have received your contact request and we thank you.",
+      "response": "Our team will carefully review your project and get back to you as soon as possible, usually within 24 to 48 hours.",
+      "summaryTitle": "Summary of your request",
+      "name": "Name:",
+      "email": "Email:",
+      "company": "Company:",
+      "phone": "Phone:",
+      "budget": "Budget:",
+      "message": "Message:",
+      "portfolio": "In the meantime, feel free to consult our portfolio and discover our achievements on our site.",
+      "signature": "See you soon,",
+      "team": "The HAUSS Paris team",
+      "footer": "Email: contact@haussparis.com | Phone: +33 6 19 44 92 55"
+    },
+    "emailNotification": {
+      "title": "📨 New contact request",
+      "intro": "A new request has been received via the website contact form.",
+      "infoTitle": "Contact information",
+      "name": "Name:",
+      "email": "Email:",
+      "company": "Company:",
+      "phone": "Phone:",
+      "budget": "Budget:",
+      "message": "Message:",
+      "actionRequired": "Action required:",
+      "actionText": "Don't forget to contact this prospect within 24-48 hours.",
+      "footer": "This message was sent automatically from the haussparis.com contact form"
+    }
+  },
+  "AboutPage": {
+    "eyebrow": "About",
+    "title": "The ideal architect, wherever you are",
+    "intro1": "At Hauss Paris, we are not just a simple connection agency. We are the partner who helps you take the step to start your project, giving you access to the best architects, here and elsewhere.",
+    "intro2": "Launching an architecture project is an important decision, often hindered by the complexity of finding the right contact. We exist to simplify this crucial step.",
+    "intro3": "Our promise is twofold: to offer you high-level alternatives among the best architects of the moment, and to facilitate every step of the connection. Whether your project is located in Paris or internationally, or you wish to engage a foreign architect for a realization in France, we orchestrate this meeting to guarantee the success of your endeavor.",
+    "metadata": {
+      "title": "About - Hauss Paris",
+      "description": "Hauss Paris connects project leaders with the best international architects. Discover how we facilitate the realization of your ambitions."
+    },
+    "stats": {
+      "connections": "Successful connections",
+      "architects": "Selected architects",
+      "independence": "Independence and objectivity"
+    },
+    "culture": {
+      "eyebrow": "Our mission",
+      "title": "Facilitating excellence, in Paris and around the world.",
+      "description": "We are the catalyst for your project. Our role is to transform a desire into reality, removing all obstacles that separate your vision from its realization.",
+      "grid1Title": "Selection of the Best",
+      "grid1Description": "We identify the elite of interior design for you. Whether it's an emerging talent or an established name, we offer you the best alternatives suited to your sensibility.",
+      "grid2Title": "International Reach",
+      "grid2Description": "From Paris to international destinations, we support your projects without borders. We launch your projects in France as well as abroad, with the same demand for quality.",
+      "grid3Title": "Exclusive Connections",
+      "grid3Description": "Do you have a specific architect in mind? We facilitate the connection and negotiate for you. We are your gateway to the most sought-after creators."
+    },
+    "team": {
+      "leadership": "Leadership",
+      "theTeam": "The team",
+      "coFounder": "Co-Founder",
+      "founder": "Founder",
+      "architectSelectionManager": "Architect Selection Manager",
+      "projectAdvisor": "Project Advisor"
+    },
+    "blog": {
+      "title": "On the blog",
+      "intro": "Our experts share their advice on choosing the right architect, the latest trends and inspirations."
+    }
+  },
+  "ProcessPage": {
+    "eyebrow": "Process",
+    "title": "From dream to signature",
+    "description": "Our methodology is designed to eliminate uncertainty. We structure your approach to enable you to start your project with the best architects, quickly and serenely. Whether it's launching a project in Paris or internationally, we simplify every step.",
+    "metadata": {
+      "title": "Our Process - Hauss Paris",
+      "description": "Discover our 3-step methodology: Discovery, Design and Delivery. A structured approach to successfully carry out your interior design project."
+    },
+    "discover": {
+      "title": "Definition",
+      "paragraph1": "Starting an architecture project can be intimidating. Our first mission is to help you <strong>take the step</strong>. We transform your ideas, sometimes vague, into a concrete and achievable project.",
+      "paragraph2": "We take the time to analyze your deep needs, your lifestyle and your ambitions. Whether it's a residence in Paris or an <strong>international</strong> project, we structure your request so that it is perfectly understandable by professionals.",
+      "paragraph3": "This crucial step allows us to define a <strong>clear specification</strong>, an essential foundation for approaching the right contacts.",
+      "supportTitle": "Our initial support",
+      "tags": {
+        "needsAudit": "Needs audit",
+        "styleClarification": "Style clarification",
+        "budgetFraming": "Budget framing",
+        "planningDefinition": "Planning definition",
+        "briefWriting": "Brief writing"
+      }
+    },
+    "build": {
+      "title": "Selection",
+      "paragraph1": "Once the project is defined, we activate our network. Our strength is to <strong>offer you alternatives</strong>. We don't impose a single choice, but present you with a restricted selection of the best profiles.",
+      "paragraph2": "This selection is made among the top 1% of architects, in Paris as well as <strong>internationally</strong>. We seek the perfect match: creative talent, technical expertise and human compatibility.",
+      "paragraph3": "Do you already have a name in mind? An architect you admire but who seems inaccessible? We take care of <strong>connecting you</strong> with the architects you have chosen, facilitating the approach and negotiation."
+    },
+    "deliver": {
+      "title": "Launch",
+      "paragraph1": "Our role doesn't stop at the recommendation. We are here to <strong>facilitate the connection</strong>. We organize meetings, help with reading proposals and secure the contractual framework.",
+      "paragraph2": "Whether your project is local or we are managing an <strong>international</strong> collaboration, we act as a trusted third party. We remove language and cultural barriers so that only the project matters.",
+      "paragraph3": "By choosing Hauss Paris, you start your project with the assurance of being surrounded by the best, ready to see your ambitions take shape without unnecessary friction.",
+      "guaranteesTitle": "Our partners' guarantees",
+      "guarantees": {
+        "excellence": {
+          "title": "Recognized excellence",
+          "description": "Architects selected for the exceptional quality of their portfolio and references."
+        },
+        "mobility": {
+          "title": "International mobility",
+          "description": "An ability to work in Paris as well as abroad, with a mastery of logistical issues."
+        },
+        "serenity": {
+          "title": "Contractual serenity",
+          "description": "Verified professionals (insurance, financial stability) for a commitment with complete confidence."
+        }
+      }
+    }
+  },
+  "ServicesPage": {
+    "metadata": {
+      "title": "Our Services",
+      "description": "We offer a complete range of interior design services, tailored to your specific needs."
+    },
+    "eyebrow": "Our services",
+    "title": "Bespoke solutions for every project",
+    "intro": "We offer a complete range of interior design services, tailored to your specific needs. Each project is unique, and we put our expertise at your service to create exceptional spaces.",
+    "exhaustiveList": "Exhaustive list:",
+    "seeMore": "See more services",
+    "learnMore": "Learn more about",
+    "services": {
+      "renovation": {
+        "title": "Renovation & space transformation",
+        "description": "We reinvent your spaces to create refined environments. Every detail is orchestrated with precision, from initial plans to finishes."
+      },
+      "customLayout": {
+        "title": "Layout & bespoke design",
+        "description": "We design unique layouts. Custom-made becomes a signature: precise, functional and aesthetic."
+      },
+      "decoration": {
+        "title": "Decoration & artistic direction",
+        "description": "We imagine elegant atmospheres. A coherent visual universe, designed as a true interior work of art."
+      },
+      "furnishing": {
+        "title": "Furnishing & sourcing",
+        "description": "We select exceptional pieces for you. Complete support, from sourcing to installation, for a turnkey result."
+      },
+      "homeStaging": {
+        "title": "Home staging / Property enhancement",
+        "description": "Space optimization for sale or rental. Professional staging to maximize attractiveness and property value."
+      },
+      "workplace": {
+        "title": "Workspace / office design",
+        "description": "Design of optimized work environments, from individual offices to collaborative spaces. Focus on productivity, well-being and corporate identity."
+      },
+      "kitchenBathroom": {
+        "title": "Kitchen and bathroom design",
+        "description": "Custom design of kitchens and bathrooms, combining aesthetics, functionality and ergonomics. Expertise in high-end equipment."
+      },
+      "commercial": {
+        "title": "Commercial space design",
+        "description": "Creation of impactful commercial spaces: boutiques, showrooms, storefronts. Design focused on customer experience and brand identity."
+      },
+      "lighting": {
+        "title": "Lighting design",
+        "description": "Expertise in architectural and scenographic lighting. Design of lighting systems adapted to each use and ambiance."
+      },
+      "outdoor": {
+        "title": "Outdoor space design",
+        "description": "Design of terraces, balconies, gardens and outdoor spaces. Creation of outdoor living areas, even in reduced spaces."
+      },
+      "interiorDesignerParis": {
+        "title": "Interior Designer in Paris",
+        "description": "Matching service with verified interior designers in Paris. Personalized support for international clients, remote management available."
+      },
+      "interiorDecoratorParis": {
+        "title": "Interior Decorator in Paris",
+        "description": "Interior decoration service without construction in Paris. Styling, furniture, accessories and personalized design coaching to transform your space."
+      },
+      "paris16": {
+        "title": "Interior Designer Paris 16th",
+        "description": "Interior designers specialized in the 16th arrondissement: Passy, Auteuil, Trocadéro. Haussmann expertise and luxury projects."
+      },
+      "paris7": {
+        "title": "Interior Designer Paris 7th",
+        "description": "Interior designers in the 7th arrondissement: Saint-Germain, Invalides, Eiffel Tower. Prestigious apartment renovations."
+      },
+      "paris8": {
+        "title": "Interior Designer Paris 8th",
+        "description": "Interior designers in the 8th arrondissement: Champs-Élysées, Madeleine, Parc Monceau. Luxury and corporate projects."
+      },
+      "paris6": {
+        "title": "Interior Designer Paris 6th",
+        "description": "Interior designers in the 6th arrondissement: Saint-Germain-des-Prés, Luxembourg. Charming apartments and boutiques."
+      },
+      "paris17": {
+        "title": "Interior Designer Paris 17th",
+        "description": "Interior designers in the 17th arrondissement: Batignolles, Ternes, Plaine Monceau. High-end residential renovation."
+      },
+      "paris15": {
+        "title": "Interior Designer Paris 15th",
+        "description": "Interior designers in the 15th arrondissement: Grenelle, Beaugrenelle. Family apartments and contemporary spaces."
+      },
+      "paris9": {
+        "title": "Interior Designer Paris 9th",
+        "description": "Interior designers in the 9th arrondissement: Opéra, Grands Boulevards. Haussmann renovation and creative spaces."
+      },
+      "paris11": {
+        "title": "Interior Designer Paris 11th",
+        "description": "Interior designers in the 11th arrondissement: Bastille, Oberkampf. Industrial lofts and trendy apartments."
+      },
+      "paris4": {
+        "title": "Interior Designer Paris 4th",
+        "description": "Interior designers in the 4th arrondissement: Le Marais, Île Saint-Louis. Historic heritage and prestigious renovations."
+      },
+      "paris3": {
+        "title": "Interior Designer Paris 3rd",
+        "description": "Interior designers in the 3rd arrondissement: Haut Marais, Temple. Artist apartments and contemporary spaces."
+      }
+    }
+  },
+  "RenovationService": {
+    "metadata": {
+      "title": "Renovation & space transformation",
+      "description": "We reinvent your spaces to create refined environments. Every detail is orchestrated with precision, from initial plans to finishes."
+    },
+    "eyebrow": "Service",
+    "title": "Renovation & space transformation",
+    "intro": "We reinvent your spaces to create refined environments. Every detail is orchestrated with precision, from initial plans to finishes.",
+    "section1": {
+      "title": "Analysis & design",
+      "paragraph1": "Every renovation project begins with an <strong>in-depth analysis</strong> of your existing spaces. We study the structure, circulation, natural light and your specific needs to design a transformation that respects the essence of your place while reinventing it.",
+      "paragraph2": "Our approach combines <strong>creativity and pragmatism</strong>. We develop detailed plans that optimize every square meter, taking into account technical, regulatory and budgetary constraints."
+    },
+    "section2": {
+      "title": "Execution & follow-up",
+      "paragraph1": "From demolition to finishes, we ensure <strong>rigorous follow-up</strong> of each step. Our architects coordinate the different trades to guarantee impeccable execution and respect agreed deadlines.",
+      "paragraph2": "We carefully select the <strong>materials and finishes</strong> that will give your spaces their unique character. Each choice is designed to combine aesthetics, durability and functionality."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our approach",
+      "title": "Complete and personalized support",
+      "description": "From the first sketch to the handover of keys, we support you at every stage of your renovation project."
+    },
+    "gridList": {
+      "preliminary": {
+        "title": "Preliminary study",
+        "description": "Feasibility analysis, topographic surveys and complete technical diagnosis of your spaces."
+      },
+      "detailed": {
+        "title": "Detailed design",
+        "description": "Execution plans, choice of materials, selection of equipment and definition of the schedule."
+      },
+      "coordination": {
+        "title": "Work coordination",
+        "description": "Daily site monitoring, coordination of craftsmen and compliance with current standards."
+      },
+      "turnkey": {
+        "title": "Turnkey delivery",
+        "description": "Work reception, installation of finishes and support until complete finalization."
+      }
+    },
+    "stats": {
+      "delivered": "Projects delivered",
+      "experience": "Years of experience",
+      "transformed": "Spaces transformed"
+    }
+  },
+  "CustomLayoutService": {
+    "metadata": {
+      "title": "Layout & bespoke design",
+      "description": "We design unique layouts. Custom-made becomes a signature: precise, functional and aesthetic."
+    },
+    "eyebrow": "Service",
+    "title": "Layout & bespoke design",
+    "intro": "We design unique layouts. Custom-made becomes a signature: precise, functional and aesthetic.",
+    "section1": {
+      "title": "Custom design",
+      "paragraph1": "Every space deserves a <strong>unique layout</strong>, designed specifically to meet your needs and lifestyle. We create layout solutions that optimize space usage while respecting your identity.",
+      "paragraph2": "Our expertise in <strong>custom design</strong> allows us to create integrated elements, optimized storage and multifunctional spaces that adapt perfectly to your architectural constraints."
+    },
+    "section2": {
+      "title": "Manufacturing & installation",
+      "paragraph1": "We work with <strong>selected craftsmen</strong> to manufacture your custom elements. Each piece is designed in the smallest details, with a constant concern for quality and finish.",
+      "paragraph2": "Installation is carried out by our specialized teams, who guarantee <strong>perfect implementation</strong> and a final result that exactly matches your expectations."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our expertise",
+      "title": "Solutions adapted to each context",
+      "description": "Whether for a Parisian apartment, a professional space or a second home, we create layouts that integrate perfectly into your environment."
+    },
+    "gridList": {
+      "kitchens": {
+        "title": "Custom kitchens",
+        "description": "Design of functional and aesthetic kitchens, with selection of high-end equipment and space optimization."
+      },
+      "storage": {
+        "title": "Integrated storage",
+        "description": "Personalized storage solutions to optimize every available space, from dressing rooms to libraries."
+      },
+      "workspace": {
+        "title": "Workspaces",
+        "description": "Design of offices and workspaces adapted to your professional or personal needs."
+      },
+      "decorative": {
+        "title": "Decorative elements",
+        "description": "Creation of custom architectural elements: partitions, mezzanines, stairs and other unique structures."
+      }
+    },
+    "stats": {
+      "custom": "Custom-made",
+      "response": "Response time",
+      "warranty": "Warranty"
+    }
+  },
+  "FurnishingService": {
+    "metadata": {
+      "title": "Furnishing & sourcing",
+      "description": "We select exceptional pieces for you. Complete support, from sourcing to installation, for a turnkey result."
+    },
+    "eyebrow": "Service",
+    "title": "Furnishing & sourcing",
+    "intro": "We select exceptional pieces for you. Complete support, from sourcing to installation, for a turnkey result.",
+    "section1": {
+      "title": "Exclusive sourcing",
+      "paragraph1": "Our network of <strong>selected suppliers and craftsmen</strong> allows us to offer you exceptional pieces, whether contemporary, vintage or custom-made. We explore the best sources, in France and internationally.",
+      "paragraph2": "Each piece is <strong>carefully selected</strong> for its quality, authenticity and ability to integrate harmoniously into your project. We negotiate the best conditions and manage all procurement logistics."
+    },
+    "section2": {
+      "title": "Installation & implementation",
+      "paragraph1": "We manage the entire process, from <strong>order to installation</strong>. Our teams coordinate delivery, ensure compliance of pieces and carry out final installation.",
+      "paragraph2": "The result is a <strong>fully furnished and decorated space</strong>, ready to be inhabited. You just have to enjoy your new environment, without worrying about logistical details."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our service",
+      "title": "Complete support for a turnkey result",
+      "description": "From sourcing to installation, we take care of all aspects of furnishing your space for an impeccable result."
+    },
+    "gridList": {
+      "sourcing": {
+        "title": "Personalized sourcing",
+        "description": "Research and selection of furniture, lighting and accessories according to your tastes, budget and space constraints."
+      },
+      "negotiation": {
+        "title": "Negotiation & ordering",
+        "description": "Order management, price negotiation and delivery tracking with our privileged partners."
+      },
+      "delivery": {
+        "title": "Delivery & reception",
+        "description": "Delivery coordination, verification of piece compliance and management of possible returns or exchanges."
+      },
+      "installation": {
+        "title": "Final installation",
+        "description": "Professional installation of all elements, optimal layout and finalization of details for a perfect result."
+      }
+    },
+    "stats": {
+      "turnkey": "Turnkey",
+      "partners": "Partners",
+      "tracking": "Tracking"
+    }
+  },
+  "KitchenBathroomService": {
+    "metadata": {
+      "title": "Kitchen and bathroom design",
+      "description": "Custom design of kitchens and bathrooms, combining aesthetics, functionality and ergonomics. Expertise in high-end equipment."
+    },
+    "eyebrow": "Service",
+    "title": "Kitchen and bathroom design",
+    "intro": "Custom design of kitchens and bathrooms, combining aesthetics, functionality and ergonomics. Expertise in high-end equipment.",
+    "section1": {
+      "title": "Custom design",
+      "paragraph1": "Kitchen and bathroom are <strong>essential daily spaces</strong>. We design these rooms as true living spaces, where every detail is designed to combine refined aesthetics and optimal functionality.",
+      "paragraph2": "Our expertise in <strong>technical design and ergonomics</strong> allows us to create custom layouts that adapt perfectly to your spatial constraints, habits and aesthetic aspirations."
+    },
+    "section2": {
+      "title": "Equipment selection & finishes",
+      "paragraph1": "We select the <strong>most suitable equipment</strong> for each use: high-end appliances, designer faucets, premium sanitary ware. Each choice is guided by quality, durability and aesthetics.",
+      "paragraph2": "Finishes are carefully orchestrated: <strong>noble materials, exceptional tiles, adapted lighting</strong>. We create spaces that combine luxury and practicality, for exceptional kitchens and bathrooms."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our expertise",
+      "title": "Exceptional spaces, designed for your daily life",
+      "description": "Kitchens and bathrooms are important investments. We create spaces that combine contemporary aesthetics, optimal functionality and impeccable quality."
+    },
+    "gridList": {
+      "kitchens": {
+        "title": "Custom kitchens",
+        "description": "Design of functional and aesthetic kitchens, with selection of high-end equipment, workspace optimization and integration of islands or bars."
+      },
+      "bathrooms": {
+        "title": "Designer bathrooms",
+        "description": "Creation of spa bathrooms, with selection of premium sanitary ware, walk-in showers, designer bathtubs and luxurious finishes."
+      },
+      "equipment": {
+        "title": "Premium equipment",
+        "description": "Selection of integrated appliances, designer faucets, optimized storage systems and innovative technological solutions."
+      },
+      "materials": {
+        "title": "Finishes & materials",
+        "description": "Choice of noble materials: exceptional tiles, natural stones, solid wood, and custom finishes for a unique and refined result."
+      }
+    },
+    "stats": {
+      "kitchens": "Kitchens created",
+      "bathrooms": "Bathrooms",
+      "warranty": "Warranty"
+    }
+  },
+  "DecorationService": {
+    "metadata": {
+      "title": "Decoration & artistic direction",
+      "description": "We imagine elegant atmospheres. A coherent visual universe, designed as a true interior work of art."
+    },
+    "eyebrow": "Service",
+    "title": "Decoration & artistic direction",
+    "intro": "We imagine elegant atmospheres. A coherent visual universe, designed as a true interior work of art.",
+    "section1": {
+      "title": "Artistic direction",
+      "paragraph1": "Decoration is much more than a simple arrangement of objects. It's the creation of a <strong>coherent visual universe</strong> that tells your story and reflects your personality.",
+      "paragraph2": "Our approach to artistic direction combines <strong>harmony of colors, textures and materials</strong>. We create subtle chromatic palettes, select noble materials and orchestrate every detail to create a unique and refined atmosphere."
+    },
+    "section2": {
+      "title": "Selection & staging",
+      "paragraph1": "We carefully select each <strong>decorative element</strong>: furniture, lighting, textiles, art objects. Each piece is chosen for its quality, aesthetics and ability to integrate harmoniously into the whole.",
+      "paragraph2": "The final staging transforms your space into a <strong>true interior work of art</strong>, where every detail contributes to creating an elegant and personalized atmosphere."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our vision",
+      "title": "Creating atmospheres that reflect you",
+      "description": "Each decoration project is an opportunity to create a unique space that reflects your personality and creates an atmosphere conducive to well-being."
+    },
+    "gridList": {
+      "palette": {
+        "title": "Chromatic palette",
+        "description": "Definition of a harmonious color palette, adapted to your tastes and the desired ambiance for each space."
+      },
+      "furniture": {
+        "title": "Furniture selection",
+        "description": "Choice of designer furniture, combining contemporary aesthetics and comfort, to create spaces that are both elegant and functional."
+      },
+      "lighting": {
+        "title": "Lighting & ambiance",
+        "description": "Design of lighting adapted to each use, creating varied atmospheres according to times of day."
+      },
+      "accessories": {
+        "title": "Accessories & art objects",
+        "description": "Selection of decorative accessories and artworks that personalize your space and give it its unique character."
+      }
+    },
+    "stats": {
+      "personalized": "Personalized",
+      "partners": "Craftsmen partners",
+      "creativity": "Creativity"
+    }
+  },
+  "CommercialDesignService": {
+    "metadata": {
+      "eyebrow": "Service",
+      "title": "Commercial Architecture Paris | Restaurant, Hotel, Boutique",
+      "description": "Design your commercial space in Paris with a specialized retail architect. Restaurant, hotel, boutique. ERP standards respected, turnkey project. Free quote."
+    },
+    "section1": {
+      "title": "Your commercial project in expert hands",
+      "paragraph1": "Opening a restaurant, designing a boutique, transforming a space into a hotel: each commercial project in Paris requires specific expertise. Between safety standards, accessibility constraints and brand identity creation, challenges are numerous.",
+      "paragraph2": "Hauss Paris connects you with architects and interior designers specialized in commercial design. Retail design, hospitality, restaurants: our network includes professionals experienced in each sector.",
+      "paragraph3": "Whether you're an entrepreneur, franchisee, investor or professional, we find the right architect for your project.",
+      "link": "Discover the rates"
+    },
+    "section2": {
+      "title": "Why hire a specialized retail architect?",
+      "paragraph1": "Commercial design cannot be improvised. Beyond aesthetics, it's about creating a space that complies with regulations, is functional for your activity and attractive to your customers.",
+      "paragraph2": "In Paris, every public establishment (ERP) must meet strict standards: fire safety, accessibility, kitchen extraction, sound insulation. A specialized architect knows these constraints and designs a compliant project from the start.",
+      "paragraph3": "A well-designed business generates more revenue. Layout influences customer flow, product presentation, time spent on premises.",
+      "link": "Estimate my project"
+    },
+    "section3": {
+      "title": "Restaurants and cafés in Paris",
+      "paragraph1": "From neighborhood bistro to gastronomic restaurant, our architects design spaces that tell a story. They master restaurant-specific constraints: kitchen/dining flow, extraction, hygiene standards, acoustics.",
+      "paragraph2": "Each restaurant project is unique: culinary concept, desired ambiance, number of seats, type of cuisine. The architect adapts the space to your vision while respecting strict ERP standards.",
+      "paragraph3": "From intimate 30 m² coffee shops to 150-seat restaurants, we support all formats. The goal: create a place where your customers will want to return."
+    },
+    "section4": {
+      "title": "Retail shops and stores",
+      "paragraph1": "Designing a shop is not just about installing furniture. It's about creating a customer journey, showcasing your products, expressing your brand identity. Our retail architects master these challenges.",
+      "paragraph2": "From independent concept stores to international franchises, each shop has its constraints: attractive storefront, optimized storage areas, comfortable fitting rooms, lighting that enhances products.",
+      "paragraph3": "We work with fashion boutiques, concept stores, decoration shops, bookstores. The goal: turn visits into sales, create a memorable experience."
+    },
+    "section5": {
+      "title": "Hotels and hospitality spaces",
+      "paragraph1": "Creating or renovating a hotel requires specific expertise: strict regulations, specific safety standards, surface optimization per room, creating varied ambiances. Our specialized architects master these constraints.",
+      "paragraph2": "From budget hotels to boutique hotels, each category has its standards: minimum surface per room, mandatory equipment, accessibility, acoustic comfort. The architect designs compliant and attractive spaces.",
+      "paragraph3": "Beyond rooms, common areas make the difference: welcoming lobby, bright breakfast room, cozy bar. We create hotels where travelers feel at home."
+    },
+    "section6": {
+      "title": "Medical and paramedical offices",
+      "paragraph1": "A medical, dental or paramedical office must meet strict hygiene standards, offer confidentiality and comfort to patients, optimize the care pathway. Our architects know these requirements.",
+      "paragraph2": "Each specialty has its needs: sterilization room for dentists, separate waiting area for general practitioners, physiotherapy space with accessibility. The architect adapts the layout to your practice.",
+      "paragraph3": "Ambiance matters too: a welcoming medical office reassures patients, improves their experience, reflects your professionalism. We create care spaces that are both functional and calming."
+    },
+    "section7": {
+      "title": "Offices and coworking spaces",
+      "paragraph1": "Workspaces are evolving: fewer closed offices, more collaborative zones, need for flexibility. Our architects design modern offices, adapted to new ways of working.",
+      "paragraph2": "Good office design improves productivity, fosters collaboration, attracts talent. Open space, meeting rooms, breakout areas, phone booths: everything is designed for team well-being.",
+      "paragraph3": "From small consulting firms to large coworking spaces, we adapt the layout to your company culture and operational needs."
+    },
+    "section8": {
+      "title": "Showrooms and event spaces",
+      "paragraph1": "Showrooms, pop-up stores, event spaces: these ephemeral or permanent venues must leave a lasting impression. Our architects create scenographic spaces that showcase your products or brand.",
+      "paragraph2": "Flexibility is key: modular furniture, adjustable lighting, removable partitions. The space must be able to evolve according to collections, events, seasons.",
+      "paragraph3": "From automotive showrooms to luxury pop-up stores, we design spaces that create events and strengthen your brand image."
+    },
+    "section9": {
+      "title": "ERP norms and regulations",
+      "paragraph1": "All Parisian businesses are ERP (Public Access Establishments) and must comply with strict standards: fire safety (emergency exits, extinguishers, safety lighting), accessibility (ramps, elevators, adapted toilets), ventilation (extraction for professional kitchens).",
+      "paragraph2": "These standards are not optional: before any opening, the town hall and safety commission inspect the premises. If the project is not compliant, opening is refused. An experienced architect integrates these constraints from the design stage.",
+      "paragraph3": "Beyond compliance, a good architect transforms constraints into assets: an emergency exit can become a terrace, an accessibility ramp a design element. We design spaces that are both compliant and beautiful."
+    },
+    "section10": {
+      "title": "Turnkey project management",
+      "paragraph1": "Opening a business is already an entrepreneurial challenge. You don't have time to chase contractors, manage delays, validate a thousand technical details. That's why we offer complete project management.",
+      "paragraph2": "The architect becomes your conductor: they coordinate all trades (electrician, plumber, carpenter, painter), manage the schedule, control quality, solve unforeseen issues. You validate major decisions, they handle execution.",
+      "paragraph3": "Result: your business opens on schedule, within budget, compliant with standards. You focus on your business, the architect handles the rest."
+    },
+    "section11": {
+      "title": "Commercial architecture in Paris and Île-de-France",
+      "paragraph1": "Paris and its region concentrate unique commercial density: each neighborhood has its identity, codes, expectations. From trendy Marais to chic Champs-Élysées, from creative 11th to bourgeois 16th, the architect adapts the project to the territory.",
+      "paragraph2": "Our network covers Paris city center and all of Île-de-France: Neuilly, Boulogne, Levallois for business districts, Montreuil and Saint-Denis for creatives, Versailles and Saint-Germain-en-Laye for upscale residential.",
+      "paragraph3": "Whether you're opening a business in the city center or suburbs, we find the architect who knows your sector, understands your target clientele, masters local constraints."
+    },
+    "gridList": {
+      "eyebrow": "Our process",
+      "title": "From design to opening, complete support",
+      "description": "We manage every step of your commercial project, from initial plans to opening your doors.",
+      "audit": {
+        "title": "Audit and design",
+        "description": "Project analysis, site survey, feasibility study, design of plans and layouts adapted to your commercial activity."
+      },
+      "concept": {
+        "title": "Design and identity",
+        "description": "Creation of your space's visual identity, selection of materials, furniture and finishes that reflect your brand."
+      },
+      "permits": {
+        "title": "Administrative procedures",
+        "description": "ERP file, safety commission, accessibility, preliminary work declaration, signage permit: we handle all procedures."
+      },
+      "execution": {
+        "title": "Construction and opening",
+        "description": "Coordination of contractors, site supervision, work acceptance, furniture installation and compliant opening on schedule."
+      }
+    },
+    "stats": {
+      "projects": "Commercial projects",
+      "architects": "Specialized architects",
+      "timeline": "Average timeline"
+    },
+    "pricing": {
+      "title": "Budgets and rates",
+      "intro": "Each commercial project is unique. Here are indicative ranges to help you prepare your budget.",
+      "restaurant": {
+        "title": "Restaurant Budgets",
+        "budget1": {
+          "label": "Coffee shop / Snack",
+          "price": "€60,000 - €100,000",
+          "description": "40-60 m²: counter, light kitchen, 20-30 seats, standard works, new furniture."
+        },
+        "budget2": {
+          "label": "Bistronomic restaurant",
+          "price": "€120,000 - €180,000",
+          "description": "80-100 m²: semi-open kitchen, 45-60 seats, enhanced extraction, quality finishes."
+        },
+        "budget3": {
+          "label": "Brasserie / Large restaurant",
+          "price": "€200,000 - €400,000",
+          "description": "150-250 m²: complete professional kitchen, 100-150 seats, heavy works, premium layout."
+        }
+      },
+      "hotel": {
+        "title": "Hotel Budgets",
+        "budget1": {
+          "label": "Budget hotel",
+          "price": "€15,000 - €25,000 / room",
+          "description": "Simple layout, standard furniture, prefabricated bathroom, economical finishes."
+        },
+        "budget2": {
+          "label": "3-star hotel",
+          "price": "€25,000 - €40,000 / room",
+          "description": "Standard comfort, quality furniture, tiled bathroom, fitted common areas."
+        },
+        "budget3": {
+          "label": "Boutique hotel / 4-star",
+          "price": "€40,000 - €70,000 / room",
+          "description": "Personalized design, premium materials, luxury bathroom, unique ambiance, refined common areas."
+        }
+      },
+      "retail": {
+        "title": "Retail Budgets",
+        "budget1": {
+          "label": "Independent boutique",
+          "price": "€30,000 - €80,000",
+          "description": "40-80 m²: storefront, display furniture, fitting rooms, lighting, simple layout."
+        },
+        "budget2": {
+          "label": "Concept store",
+          "price": "€80,000 - €180,000",
+          "description": "100-200 m²: identity design, custom furniture, window display, quality materials, complete layout."
+        },
+        "budget3": {
+          "label": "Flagship / Large store",
+          "price": "€180,000 - €500,000+",
+          "description": "200+ m²: architectural layout, brand experience, premium materials, integrated technology, furniture and lighting."
+        }
+      },
+      "medical": {
+        "title": "Medical & Professional Office Budgets",
+        "budget1": {
+          "label": "General practice office",
+          "price": "€40,000 - €80,000",
+          "description": "50-80 m²: waiting room, consultation room, compliant sanitary facilities, accessibility standards, medical finishes."
+        },
+        "budget2": {
+          "label": "Dental office",
+          "price": "€60,000 - €120,000",
+          "description": "60-100 m²: specific plumbing, reinforced technical installations, hygiene standards (equipment not included)."
+        },
+        "budget3": {
+          "label": "Professional office / Agency",
+          "price": "€30,000 - €60,000",
+          "description": "40-80 m²: client reception area, work offices, meeting space, professional layout."
+        }
+      },
+      "fees": {
+        "title": "Architect Fees",
+        "note": "Architect fees typically represent between 8% and 15% of the total construction budget. This rate varies depending on project complexity and scope of services.",
+        "consultation": {
+          "label": "Initial consultation",
+          "price": "Free"
+        },
+        "design": {
+          "label": "Design (plans, 3D, specifications)",
+          "price": "€4,000 - €12,000"
+        },
+        "full": {
+          "label": "Complete mission (design + supervision)",
+          "price": "8% - 12% of construction budget"
+        },
+        "turnkey": {
+          "label": "Turnkey project (all-inclusive)",
+          "price": "10% - 15% of construction budget"
+        }
+      },
+      "workCosts": {
+        "title": "Construction Costs per m²",
+        "note": "Indicative rates for Paris and inner suburbs. Costs vary depending on premises condition, technical constraints and desired finish level.",
+        "demolition": {
+          "label": "Demolition / Structural work",
+          "price": "€50 - €150 / m²"
+        },
+        "electricity": {
+          "label": "Electricity / Lighting",
+          "price": "€80 - €200 / m²"
+        },
+        "plumbing": {
+          "label": "Plumbing / Ventilation",
+          "price": "€100 - €250 / m²"
+        },
+        "finishes": {
+          "label": "Finishes / Painting",
+          "price": "€60 - €180 / m²"
+        },
+        "furniture": {
+          "label": "Joinery / Furniture",
+          "price": "€150 - €400 / m²"
+        }
+      },
+      "examples": {
+        "title": "Completed project examples",
+        "example1": {
+          "title": "60-seat restaurant - Paris 11th",
+          "description": "Complete transformation of a former 100 m² garage into a bistronomic restaurant.",
+          "fees": "Fees: €12,000",
+          "works": "Works: €120,000",
+          "equipment": "Professional kitchen + furniture: €50,000",
+          "total": "Total: €182,000"
+        },
+        "example2": {
+          "title": "Fashion boutique - Le Marais",
+          "description": "Layout of a 65 m² designer boutique with custom furniture.",
+          "fees": "Fees: €7,500",
+          "works": "Works: €55,000",
+          "furniture": "Furniture + lighting: €20,000",
+          "total": "Total: €82,500"
+        },
+        "example3": {
+          "title": "8-room hotel - Paris 6th",
+          "description": "Complete renovation of a 200 m² building into a boutique hotel.",
+          "fees": "Fees: €35,000",
+          "works": "Works: €320,000",
+          "equipment": "Furniture + equipment: €95,000",
+          "total": "Total: €450,000"
+        },
+        "example4": {
+          "title": "Dental office - Neuilly",
+          "description": "Creation of a 3-chair office on 110 m² with modern equipment.",
+          "fees": "Fees: €9,000",
+          "works": "Works: €75,000",
+          "equipment": "Dental equipment: €120,000",
+          "total": "Total: €204,000"
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "q1": {
+        "question": "How long does it take to fit out a commercial space in Paris?",
+        "answer": "Allow 2 to 3 months for a simple project (refresh, light boutique), 4 to 6 months for a restaurant or major restructuring, 6 to 12 months for a hotel. Timeframes include design, administrative procedures and construction."
+      },
+      "q2": {
+        "question": "Can you support me before finding the space?",
+        "answer": "Yes. The architect can accompany you during space visits to evaluate potential: technical feasibility, construction estimate, hidden constraints. This pre-purchase consultation service avoids bad surprises."
+      },
+      "q3": {
+        "question": "I don't own the walls. Is that a problem?",
+        "answer": "No. Most commercial spaces are leased. The architect designs a fit-out adapted to your lease: work authorized by owner, recoverable elements at lease end, etc."
+      },
+      "q4": {
+        "question": "Do you handle administrative procedures (ERP, licenses)?",
+        "answer": "Yes, it's included in the architect's mission. They compile files, submit applications and represent you to administrations if necessary."
+      },
+      "q5": {
+        "question": "I'm opening a franchise. Can you adapt the concept to the space?",
+        "answer": "Absolutely. The architect respects the franchisor's specifications while adapting to Paris space constraints. They dialogue with the brand to validate necessary adaptations."
+      },
+      "q6": {
+        "question": "I'm an investor and not on site. How does it work?",
+        "answer": "We're used to supporting investors who cannot be present at every step. The architect manages the project autonomously, keeps you informed via videoconference and reports, and solicits you only for key validations."
+      },
+      "q7": {
+        "question": "What's the minimum budget for a commercial fit-out project?",
+        "answer": "Below 30,000 € of construction, an architect's involvement is rarely economically justified. For smaller projects, we can refer you to a one-time consultation service."
+      },
+      "q8": {
+        "question": "Do you work outside Paris?",
+        "answer": "Yes. Our network covers Paris and all Île-de-France: Boulogne, Neuilly, Saint-Germain-en-Laye, Versailles, and departments 92, 93, 94, 78, 91, 77, 95."
+      }
+    },
+    "testimonials": {
+      "title": "They trusted us",
+      "t1": {
+        "quote": "We were opening our first restaurant and knew nothing about Parisian standards. The architect recommended by Hauss Paris handled everything: plans, ERP file, construction supervision. We opened on time and on budget. Thank you!",
+        "author": "Sophie & Julien M.",
+        "location": "Paris 11th",
+        "project": "Le Comptoir Restaurant"
+      },
+      "t2": {
+        "quote": "For our 3rd boutique in Paris, we were looking for an architect who understood our brand universe. Hauss Paris connected us with the right profile on the first try. Impeccable result.",
+        "author": "Amélie R.",
+        "location": "Founder",
+        "project": "Maison Amélie (decoration)"
+      },
+      "t3": {
+        "quote": "I invested in a space to make it a boutique hotel. Living in Lyon, I couldn't follow the construction daily. The architect managed everything, I received a weekly report. Very professional.",
+        "author": "Marc D.",
+        "location": "Lyon",
+        "project": "Hotel investor"
+      },
+      "t4": {
+        "quote": "Our medical office transformation was done while continuing to receive patients. The architect phased the work intelligently. Our patients love the new setting.",
+        "author": "Dr Catherine L.",
+        "location": "Paris 16th",
+        "project": "General practitioner"
+      }
+    },
+    "projects": {
+      "title": "Our commercial projects",
+      "p1": {
+        "title": "Bistronomic restaurant – Paris 11th",
+        "description": "Transformation of a former 90 m² workshop into a 45-seat restaurant. Open kitchen, glass wine cellar, custom furniture.",
+        "budget": "180,000 €",
+        "timeline": "4 months"
+      },
+      "p2": {
+        "title": "Fashion boutique – Le Marais",
+        "description": "Fit-out of a 55 m² designer boutique. Work on lighting, fitting rooms, staged storefront.",
+        "budget": "75,000 €",
+        "timeline": "2.5 months"
+      },
+      "p3": {
+        "title": "12-room boutique hotel – Paris 6th",
+        "description": "Complete building restructuring into a 4-star hotel. Contemporary decoration, noble materials, glass breakfast room.",
+        "budget": "850,000 €",
+        "timeline": "10 months"
+      },
+      "p4": {
+        "title": "Coffee shop – Paris 9th",
+        "description": "Creation of a 35 m² specialty coffee shop in a raw space. Terrazzo counter, custom bench, plant atmosphere.",
+        "budget": "55,000 €",
+        "timeline": "2 months"
+      },
+      "p5": {
+        "title": "Dental office – Neuilly",
+        "description": "Fit-out of a 3-chair office over 120 m². Optimized patient flow, sterilization room, premium reception.",
+        "budget": "150,000 € (equipment not included)",
+        "timeline": "3 months"
+      }
+    },
+    "cta": {
+      "title": "Launch your commercial project in Paris",
+      "description": "Have a business, restaurant, hotel or professional space project in Paris? Let's talk. Book a free consultation with our team.",
+      "button": "Request a free consultation"
+    }
+  },
+  "OutdoorDesignService": {
+    "metadata": {
+      "title": "Outdoor space design",
+      "description": "Design of terraces, balconies, gardens and outdoor spaces. Creation of outdoor living areas, even in reduced spaces."
+    },
+    "eyebrow": "Service",
+    "title": "Outdoor space design",
+    "intro": "Design of terraces, balconies, gardens and outdoor spaces. Creation of outdoor living areas, even in reduced spaces.",
+    "section1": {
+      "title": "Outdoor space optimization",
+      "paragraph1": "In Paris, every <strong>outdoor square meter is precious</strong>. We create outdoor living spaces that transform terraces, balconies and gardens into true living rooms, even in reduced spaces.",
+      "paragraph2": "Our approach combines <strong>functional and aesthetic design</strong>. We optimize every available space to create relaxation, dining and conviviality areas, taking into account Parisian climatic and regulatory constraints."
+    },
+    "section2": {
+      "title": "Layout & greening",
+      "paragraph1": "We select and integrate <strong>materials adapted to outdoors</strong>: designer furniture resistant to weather, premium flooring, light and modular structures. Each element is chosen for its durability and aesthetics.",
+      "paragraph2": "Greening is designed to <strong>create green spaces even in the city</strong>: custom planters, plants adapted to Parisian climate, discreet irrigation systems. We create oases of greenery that bring serenity and quality of life."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our expertise",
+      "title": "Creating outdoor spaces that extend your interior",
+      "description": "Terraces, balconies and gardens are precious extensions of your living space. We create outdoor layouts that transform these spaces into true living rooms."
+    },
+    "gridList": {
+      "terraces": {
+        "title": "Terraces & balconies",
+        "description": "Design of Parisian terraces and balconies, with designer furniture, adapted coverings and privacy and protection solutions."
+      },
+      "gardens": {
+        "title": "Urban gardens",
+        "description": "Creation of city gardens, with adapted greening, irrigation systems and custom landscape designs."
+      },
+      "furniture": {
+        "title": "Outdoor furniture",
+        "description": "Selection of designer furniture resistant to weather, combining contemporary aesthetics and durability for optimal outdoor use."
+      },
+      "lighting": {
+        "title": "Lighting & ambiance",
+        "description": "Design of outdoor lighting to extend use of your spaces in the evening, with adapted lighting systems and varied atmospheres."
+      }
+    },
+    "stats": {
+      "spaces": "Spaces created",
+      "custom": "Custom-made",
+      "seasons": "Use"
+    }
+  },
+  "LightingDesignService": {
+    "metadata": {
+      "title": "Lighting design",
+      "description": "Expertise in architectural and scenographic lighting. Design of lighting systems adapted to each use and ambiance."
+    },
+    "eyebrow": "Service",
+    "title": "Lighting design",
+    "intro": "Expertise in architectural and scenographic lighting. Design of lighting systems adapted to each use and ambiance.",
+    "section1": {
+      "title": "Light design & ambiance",
+      "paragraph1": "Lighting is a <strong>fundamental element of interior architecture</strong>. It transforms spaces, creates atmospheres and highlights volumes. We design lighting systems that combine aesthetics and functionality.",
+      "paragraph2": "Our expertise in <strong>architectural and scenographic lighting</strong> allows us to create varied atmospheres according to uses: functional lighting for work, ambient light for relaxation, highlighting for reception spaces."
+    },
+    "section2": {
+      "title": "Selection & technical integration",
+      "paragraph1": "We select the <strong>most suitable fixtures</strong> for each use: recessed spotlights, designer pendants, wall sconces, integrated LED lighting. Each choice is guided by light quality, aesthetics and energy efficiency.",
+      "paragraph2": "Technical integration is carried out with <strong>intelligent control systems</strong>: dimmers, programmable scenarios, home automation. We create modern, economical and easy-to-use lighting solutions."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our expertise",
+      "title": "Creating lighting atmospheres that transform space",
+      "description": "Well-designed lighting completely transforms a space. We create lighting systems that reveal the beauty of your interiors and adapt to all your uses."
+    },
+    "gridList": {
+      "architectural": {
+        "title": "Architectural lighting",
+        "description": "Design of integrated lighting systems that highlight volumes, materials and architecture of your spaces."
+      },
+      "scenographic": {
+        "title": "Scenographic lighting",
+        "description": "Creation of varied atmospheres according to uses and moments, with control systems and programmable scenarios."
+      },
+      "fixtures": {
+        "title": "Fixture selection",
+        "description": "Choice of designer fixtures, combining contemporary aesthetics and technical performance, for each specific use."
+      },
+      "technical": {
+        "title": "Technical solutions",
+        "description": "Integration of home automation systems, dimmers and intelligent controls for modern, economical and personalized lighting."
+      }
+    },
+    "stats": {
+      "consumption": "Consumption",
+      "projects": "Projects",
+      "custom": "Custom-made"
+    }
+  },
+  "WorkplaceDesignService": {
+    "metadata": {
+      "title": "Workspace / office design",
+      "description": "Design of optimized work environments, from individual offices to collaborative spaces. Focus on productivity, well-being and corporate identity."
+    },
+    "eyebrow": "Service",
+    "title": "Workspace / office design",
+    "intro": "Design of optimized work environments, from individual offices to collaborative spaces. Focus on productivity, well-being and corporate identity.",
+    "section1": {
+      "title": "Needs analysis & design",
+      "paragraph1": "Each company has its <strong>specificities and culture</strong>. We analyze your work methods, processes and objectives to design a space that promotes productivity and well-being of your teams.",
+      "paragraph2": "Our approach combines <strong>ergonomics, flexibility and visual identity</strong>. We create environments that adapt to different uses: individual work, collaboration, relaxation and meetings."
+    },
+    "section2": {
+      "title": "Layout & corporate identity",
+      "paragraph1": "We design spaces that <strong>reflect your identity</strong> while optimizing work flows. Each area is designed for its use: collaborative open space, individual offices, meeting rooms, relaxation areas.",
+      "paragraph2": "The layout integrates the <strong>latest workplace design trends</strong>: modularity, biophilia, optimized acoustics and integrated technological solutions for a modern and high-performing work environment."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our vision",
+      "title": "Creating workspaces that inspire and perform",
+      "description": "A well-designed work environment improves productivity, well-being and attractiveness of your company. We create spaces that make a difference."
+    },
+    "gridList": {
+      "planning": {
+        "title": "Spatial planning",
+        "description": "Layout optimization to promote collaboration while preserving individual concentration spaces."
+      },
+      "design": {
+        "title": "Design & identity",
+        "description": "Creation of a coherent visual environment that reflects your values and strengthens your employer brand identity."
+      },
+      "ergonomics": {
+        "title": "Ergonomics & well-being",
+        "description": "Selection of ergonomic furniture and design of spaces that preserve health and well-being of your teams."
+      },
+      "technical": {
+        "title": "Technical solutions",
+        "description": "Integration of technologies and equipment necessary for optimal operation of your workspace."
+      }
+    },
+    "stats": {
+      "productivity": "Productivity",
+      "offices": "Offices designed",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "BlogPage": {
+    "metadata": {
+      "title": "Blog",
+      "description": "Discover our articles on interior design, decoration trends and our advice for your Parisian projects."
+    },
+    "eyebrow": "Blog",
+    "title": "Our latest articles and news",
+    "intro": "Discover our expert advice, the latest trends in interior design and inspirations for your Parisian projects.",
+    "publishedOn": "Published on",
+    "author": "Author",
+    "readMore": "Read more",
+    "readArticle": "Read the article: {title}",
+    "by": "by",
+    "moreArticles": "More articles",
+    "filterAll": "All articles"
+  },
+  "Categories": {
+    "renovation": "Renovation",
+    "decoration": "Decoration",
+    "professionnels": "Pro Tips",
+    "tendances": "Trends",
+    "optimisation": "Optimization",
+    "home-staging": "Home Staging"
+  },
+  "RelatedServices": {
+    "title": "Discover our expertise",
+    "subtitle": "Hauss Paris at your service",
+    "cta": "Learn more"
+  },
+  "RelatedArticles": {
+    "title": "Related articles"
+  },
+  "BlogHighlights": {
+    "title": "Read also"
+  },
+  "Breadcrumbs": {
+    "home": "Home",
+    "blog": "Blog"
+  },
+  "HomeStagingService": {
+    "metadata": {
+      "title": "Home staging / Property enhancement",
+      "description": "Space optimization for sale or rental. Professional staging to maximize attractiveness and property value."
+    },
+    "eyebrow": "Service",
+    "title": "Home staging / Property enhancement",
+    "intro": "Space optimization for sale or rental. Professional staging to maximize attractiveness and property value.",
+    "section1": {
+      "title": "Diagnosis & strategy",
+      "paragraph1": "Each property has a <strong>unique potential</strong> to reveal. We analyze your space to identify its assets and points to optimize, taking into account the Parisian market and expectations of buyers or tenants.",
+      "paragraph2": "Our strategic approach combines <strong>neutrality and personalization</strong>. We create spaces that allow visitors to project themselves while highlighting the architectural qualities of the property."
+    },
+    "section2": {
+      "title": "Staging & enhancement",
+      "paragraph1": "We orchestrate a <strong>complete transformation</strong>: furniture rearrangement, neutral and elegant decoration, light optimization and volume enhancement. Every detail is designed to create a memorable first impression.",
+      "paragraph2": "The result is a space that <strong>maximizes perceived value</strong> of the property and accelerates its sale or rental, while respecting your budget and timing constraints."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our expertise",
+      "title": "Maximizing the attractiveness of your property",
+      "description": "Whether for a quick sale or a premium rental, we transform your property into an irresistible space that seduces from the first visit."
+    },
+    "gridList": {
+      "audit": {
+        "title": "Audit & recommendations",
+        "description": "Complete analysis of your property, identification of strengths and weaknesses, and personalized recommendations to optimize its enhancement."
+      },
+      "layout": {
+        "title": "Layout & decoration",
+        "description": "Space reorganization, selection of neutral and elegant furniture and accessories to create a welcoming and modern atmosphere."
+      },
+      "lighting": {
+        "title": "Lighting optimization",
+        "description": "Enhancement of volumes and architectural qualities through adapted lighting, natural and artificial."
+      },
+      "preparation": {
+        "title": "Visit preparation",
+        "description": "Complete coordination so your property is ready to receive visits in the best conditions, with follow-up until transaction."
+      }
+    },
+    "stats": {
+      "value": "Perceived value",
+      "visits": "Visits",
+      "delay": "Sale delay"
+    }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "backToHome": "Back to home",
+    "openMenu": "Browse our services",
+    "companyInfo": {
+      "title": "About Hauss Paris",
+      "description": "We connect individuals and professionals with the best interior designers in Paris. A bespoke service for all your renovation, decoration and design projects."
+    }
+  },
+  "RootLayout": {
+    "metadata": {
+      "title": "Hauss Paris - Your connection agency with interior designers in Paris",
+      "description": "Hauss Paris connects you with the best interior designers in Paris for your decoration, renovation and layout projects.",
+      "keywords": [
+        "interior designer Paris",
+        "find interior designer",
+        "apartment renovation Paris",
+        "Haussmann apartment renovation",
+        "office layout Paris",
+        "luxury interior decoration",
+        "best interior designer Paris",
+        "custom kitchen design",
+        "work broker paris",
+        "commercial space layout",
+        "home staging Paris",
+        "commercial architecture"
+      ],
+      "openGraph": {
+        "title": "Hauss Paris - Your connection agency with interior designers in Paris",
+        "description": "Hauss Paris connects you with the best interior designers in Paris for your decoration, renovation and layout projects."
+      },
+      "imageAlt": "Hauss Paris - Interior Design Agency"
+    }
+  },
+  "OpenGraphImages": {
+    "home": "Hauss Paris - Interior Design Agency",
+    "contact": "Hauss Paris - Contact Us",
+    "about": "Hauss Paris - About Us",
+    "process": "Hauss Paris - Our Process",
+    "services": "Hauss Paris - Our Services"
+  },
+  "PrivacyPolicy": {
+    "metadata": {
+      "title": "Privacy Policy - Hauss Paris",
+      "description": "Learn how Hauss Paris collects, uses, and protects your personal information when you use our interior designer matching service."
+    },
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 21, 2026",
+    "section1": {
+      "title": "1. Information We Collect",
+      "paragraph1": "We collect information that you provide directly to us when using our interior designer matching service, including: your name, email address, phone number, project details (surface area, budget, address, timeline), and any messages or communications you send to us through our contact forms. This information allows us to match you with appropriate interior designers from our curated network in Paris and internationally."
+    },
+    "section2": {
+      "title": "2. How We Use Your Information",
+      "paragraph1": "We use the information we collect to: match you with appropriate interior designers based on your project requirements and preferences, communicate with you about your project and the matching process, respond to your inquiries and requests, send you confirmation emails and project updates, improve our services and user experience, and comply with our legal obligations under French and European law."
+    },
+    "section3": {
+      "title": "3. Information Sharing",
+      "paragraph1": "We do not sell your personal information to third parties. We may share your information with: interior designers in our network for matching purposes (only designers who match your project criteria will receive your information), service providers who assist in our operations (such as email delivery services and analytics platforms), and legal authorities when required by law or to protect our rights.",
+      "paragraph2": "All interior designers in our network are bound by confidentiality agreements and must comply with GDPR regulations when handling your personal data."
+    },
+    "section4": {
+      "title": "4. Data Security",
+      "paragraph1": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. These measures include encryption, secure servers, and regular security audits. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security. We maintain industry-standard security practices and continuously update our protocols to protect your data."
+    },
+    "section5": {
+      "title": "5. Your Rights",
+      "paragraph1": "Under GDPR and French data protection law, you have the right to: access the personal information we hold about you, request correction of inaccurate or incomplete information, request deletion of your information (subject to legal obligations), object to processing of your information, request restriction of processing, data portability, and withdraw consent at any time. To exercise these rights, contact us at contact@haussparis.com with your request and proof of identity."
+    },
+    "section6": {
+      "title": "6. Cookies and Tracking",
+      "paragraph1": "We use Google Analytics to understand how visitors use our website and to improve user experience. This involves cookies and similar tracking technologies that collect information about your browsing behavior. You can control cookies through your browser settings and opt-out of Google Analytics tracking. For more information about Google Analytics and how to opt-out, visit Google's privacy policy and the Google Analytics opt-out browser add-on."
+    },
+    "section7": {
+      "title": "7. Third-Party Links",
+      "paragraph1": "Our website may contain links to third-party websites, including the portfolios and websites of interior designers in our network. We are not responsible for the privacy practices of these external sites. We encourage you to review their privacy policies before providing any personal information to them."
+    },
+    "section8": {
+      "title": "8. Children's Privacy",
+      "paragraph1": "Our services are not directed to individuals under 18 years of age. We do not knowingly collect personal information from children. If we become aware that we have collected personal information from a child under 18, we will take steps to delete such information promptly."
+    },
+    "section9": {
+      "title": "9. Changes to This Policy",
+      "paragraph1": "We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by posting the new policy on this page and updating the 'Last Updated' date at the top. We encourage you to review this policy periodically. Your continued use of our services after changes are posted constitutes your acceptance of the updated policy."
+    },
+    "section10": {
+      "title": "10. Contact Us",
+      "paragraph1": "If you have questions about this Privacy Policy, our data practices, or wish to exercise your rights, please contact us at:",
+      "email": "Email:",
+      "phone": "Phone:",
+      "address": "Address:",
+      "company": "Company:"
+    }
+  },
+  "TermsOfService": {
+    "metadata": {
+      "title": "Terms of Service - Hauss Paris",
+      "description": "Review the terms and conditions for using Hauss Paris interior designer matching service in Paris and internationally."
+    },
+    "eyebrow": "Legal",
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: January 21, 2026",
+    "section1": {
+      "title": "1. Service Description",
+      "paragraph1": "Hauss Paris is a professional matching service that connects clients (individuals and businesses) with interior designers in Paris and internationally. We curate a network of vetted, qualified designers and facilitate introductions based on client project requirements, budget, style preferences, and timeline. We do not provide interior design services directly. Our role is limited to facilitating connections between clients and independent design professionals."
+    },
+    "section2": {
+      "title": "2. Eligibility",
+      "paragraph1": "You must be at least 18 years old and capable of forming a binding contract under French law to use our services. By using our services, you represent and warrant that you meet these eligibility requirements and that all information you provide is accurate and complete."
+    },
+    "section3": {
+      "title": "3. Our Matching Service",
+      "paragraph1": "When you submit a project request through our website or contact forms, we will: review your project requirements and preferences, select 2-3 interior designers from our network who match your specific criteria (based on style, budget, availability, and project type), provide you with designer profiles, portfolios, and relevant information, and facilitate the initial introduction between you and the selected designers.",
+      "paragraph2": "The matching service is provided free of charge to clients. Any subsequent engagement with an interior designer is a separate contractual agreement between you and the designer, independent of Hauss Paris. We do not receive commissions or fees from designers for matches."
+    },
+    "section4": {
+      "title": "4. Designer Relationships",
+      "paragraph1": "Hauss Paris facilitates introductions only. Once matched, any contract for interior design services is directly between you and the designer. We are not a party to this agreement and are not responsible for: the quality, timeliness, or outcome of the designer's work, pricing negotiations or payment terms, project delays or cost overruns, disputes between you and designers, or any damages arising from the designer-client relationship. All interior designers in our network are independent professionals who operate their own businesses."
+    },
+    "section5": {
+      "title": "5. User Responsibilities",
+      "paragraph1": "You agree to: provide accurate, complete, and truthful information about your project and requirements, communicate professionally and respectfully with matched designers, respect intellectual property rights of designers and Hauss Paris, not use our service for any unlawful purpose or in violation of these terms, not attempt to circumvent our matching process to avoid future service fees (if implemented), and notify us promptly of any issues or concerns with matched designers."
+    },
+    "section6": {
+      "title": "6. Intellectual Property",
+      "paragraph1": "All content on the Hauss Paris website, including text, graphics, logos, images, and software, is owned by Hauss Paris (Hugo Betscher) or our licensors and is protected by French and international intellectual property laws. You may not copy, modify, distribute, sell, or create derivative works from our content without explicit written permission."
+    },
+    "section7": {
+      "title": "7. Limitation of Liability",
+      "paragraph1": "Hauss Paris provides the matching service 'as is' without warranties of any kind, express or implied. We make no guarantees about: the availability or quality of matched designers, successful project outcomes, designer performance or professionalism, or the suitability of any designer for your specific project.",
+      "paragraph2": "To the fullest extent permitted by French law, Hauss Paris and Hugo Betscher shall not be liable for: the quality, timeliness, or outcome of any designer's work, disputes between you and designers, project delays, cost overruns, or quality issues, any indirect, incidental, consequential, or punitive damages, or loss of profits, revenue, or business opportunities. Our total liability for any claims related to our service shall not exceed the amount paid to us by you (which is zero for our free matching service)."
+    },
+    "section8": {
+      "title": "8. Indemnification",
+      "paragraph1": "You agree to indemnify, defend, and hold harmless Hauss Paris, Hugo Betscher, and our affiliates from any claims, damages, losses, liabilities, and expenses (including reasonable legal fees) arising from: your use of our service, your violation of these terms, your project engagement with any designer, or any dispute between you and a matched designer."
+    },
+    "section9": {
+      "title": "9. Termination",
+      "paragraph1": "We reserve the right to refuse service or terminate your access to our matching service at any time, for any reason, including violation of these terms, fraudulent or abusive behavior, or misuse of our platform. Upon termination, your right to use our service ceases immediately."
+    },
+    "section10": {
+      "title": "10. Governing Law",
+      "paragraph1": "These Terms of Service are governed by and construed in accordance with the laws of France. Any disputes arising from these terms or our service shall be resolved exclusively in the courts of Paris, France. If any provision of these terms is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect."
+    },
+    "section11": {
+      "title": "11. Changes to Terms",
+      "paragraph1": "We may modify these Terms of Service at any time by posting updated terms on this page and updating the 'Last Updated' date. Material changes will be communicated via email to registered users. Your continued use of our service after changes are posted constitutes your acceptance of the new terms."
+    },
+    "section12": {
+      "title": "12. Contact Information",
+      "paragraph1": "For questions about these Terms of Service or our matching service, please contact us at:",
+      "email": "Email:",
+      "phone": "Phone:",
+      "address": "Address:",
+      "company": "Company:"
+    }
+  },
+  "TestimonialsSection": {
+    "title": "What our clients say",
+    "subtitle": "Discover testimonials from individuals and professionals who trusted us for their interior design projects in Paris.",
+    "seeMore": "See all reviews",
+    "testimonials": {
+      "1": {
+        "name": "Zoé Dupont-Mercier",
+        "location": "Paris 7th",
+        "project": "Kitchen and bathroom renovation",
+        "text": "The Hauss Paris team listened to our budget constraints and tight deadlines. The recommended architect did a remarkable job. Our spaces are now modern and functional."
+      },
+      "2": {
+        "name": "Yann Kowalski",
+        "location": "Paris 8th",
+        "project": "Professional office redesign",
+        "text": "As a business owner, I needed a fast and efficient service. Hauss Paris identified exactly the profile of architect we needed for our new offices. Excellent work."
+      },
+      "3": {
+        "name": "Léa Benkacem",
+        "location": "Paris 16th",
+        "project": "Haussmann apartment renovation",
+        "text": "Hauss Paris understood our expectations and connected us with an exceptional architect. Our apartment was transformed beyond our hopes. A professional and personalized service from start to finish."
+      },
+      "4": {
+        "name": "Malik Diouf",
+        "location": "Paris 11th",
+        "project": "Contemporary loft layout",
+        "text": "The process was smooth and efficient. In just a few days, we were put in touch with the perfect architect for our loft project. The result is absolutely magnificent."
+      },
+      "5": {
+        "name": "Agathe Villiers",
+        "location": "Neuilly-sur-Seine",
+        "project": "Complete interior decoration",
+        "text": "A free and no-obligation service that keeps all its promises. The recommended architect created an elegant and warm atmosphere in our home. I highly recommend Hauss Paris."
+      },
+      "6": {
+        "name": "Raphaël Nguyen",
+        "location": "Paris 3rd",
+        "project": "Fashion boutique design",
+        "text": "For the opening of my boutique in the Marais, I was looking for a designer who understands the fashion world. Hauss Paris presented me with the ideal candidate. The result exceeded my expectations."
+      },
+      "7": {
+        "name": "Élodie Chevalier",
+        "location": "Boulogne-Billancourt",
+        "project": "Family home layout",
+        "text": "We had a complex project with young children. The recommended architect created spaces that are both aesthetic and practical for the whole family. Impeccable service from A to Z."
+      },
+      "8": {
+        "name": "Samir El Khoury",
+        "location": "Paris 17th",
+        "project": "Studio to two-room transformation",
+        "text": "Maximizing space in a small Parisian apartment is a real challenge. Thanks to Hauss Paris, we found a creative architect who optimized every square meter. We are delighted."
+      },
+      "9": {
+        "name": "Inès Beaumont",
+        "location": "Paris 6th",
+        "project": "Prestige apartment renovation",
+        "text": "For our Saint-Germain-des-Prés apartment, we were seeking excellence. The matching service was impeccable and the proposed architect possesses a rare talent. An investment that was worth it."
+      },
+      "10": {
+        "name": "Julien Arnaud-Tessier",
+        "location": "Paris 9th",
+        "project": "Gastronomic restaurant layout",
+        "text": "Opening a restaurant requires precise architectural vision. Hauss Paris guided us to a professional who perfectly grasped our concept. The atmosphere created contributes to our establishment's success."
+      }
+    }
+  },
+  "ArchitecteInterieurParisService": {
+    "metadata": {
+      "title": "Interior Designer Paris | Hauss Paris - Turnkey Renovation",
+      "description": "Find your interior designer in Paris. Personalized support for international clients. Verified network, remote management available. Free quote."
+    },
+    "eyebrow": "Service",
+    "title": "Interior Designer in Paris: Your Renovation Project Supported from A to Z",
+    "intro": "Looking to renovate an apartment in Paris but don't know where to start? Hauss Paris simplifies this process by connecting you with carefully selected Parisian interior designers.",
+    "section1": {
+      "title": "Your Parisian Project in Good Hands",
+      "paragraph1": "Whether you live in Paris, abroad, or are investing in the French capital, finding the right interior designer can be complex. Our mission: to enable you to complete your renovation project with complete peace of mind, wherever you are in the world.",
+      "paragraph2": "Since our inception, we have supported an international clientele with their renovation projects in Paris. Expatriates, investors, second home owners: we understand your specific constraints and provide concrete solutions."
+    },
+    "section2": {
+      "title": "Why Hire an Interior Designer in Paris?",
+      "paragraph1": "Renovating a Parisian apartment presents unique challenges. Between the constraints of old buildings, co-ownership regulations, and the specificities of the local market, professional support makes all the difference.",
+      "paragraph2": "An interior designer knows how to exploit your property's potential: custom storage creation, intelligent room redistribution, natural light maximization. They preserve Parisian character while modernizing your interior."
+    },
+    "section3": {
+      "title": "Our Network of Interior Designers in Paris",
+      "paragraph1": "At Hauss Paris, we don't work with just anyone. Each interior designer in our network has been selected according to strict criteria: recognized diploma, minimum 5 years of experience in Paris, up-to-date insurance, verified references.",
+      "paragraph2": "We don't offer you a random list of designers. After understanding your project, tastes, and constraints, we identify the professional best suited to your situation."
+    },
+    "section4": {
+      "title": "How Does Your Project Work?",
+      "paragraph1": "Our support is structured in four clear stages. First, a free initial consultation of 30 to 45 minutes to understand your needs. Then, we present you with 1 to 3 interior designers selected for your project.",
+      "paragraph2": "The interior designer then takes action with study and design: survey, layout proposals, material selection, budget estimation. Finally, during the works, they coordinate interventions and keep you regularly informed."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Support",
+      "title": "Personalized Service for Your Parisian Project",
+      "description": "From initial consultation to project completion, we support you at every stage with transparency and professionalism."
+    },
+    "gridList": {
+      "consultation": {
+        "title": "Free Initial Consultation",
+        "description": "We discuss your project during a 30 to 45-minute interview to understand your needs, budget, and timeline."
+      },
+      "matching": {
+        "title": "Matching with Your Designer",
+        "description": "We select 1 to 3 interior designers according to your project and present their profile and achievements."
+      },
+      "design": {
+        "title": "Study and Design",
+        "description": "Existing survey, layout proposals, material selection, and detailed budget estimate."
+      },
+      "execution": {
+        "title": "Works and Monitoring",
+        "description": "The designer coordinates craftsmen, ensures regular monitoring, and keeps you informed with photo reports."
+      }
+    },
+    "stats": {
+      "international": "International Clients",
+      "network": "Verified Designers",
+      "satisfaction": "Satisfaction Rate"
+    },
+    "distinctions": {
+      "title": "What Sets Us Apart",
+      "remote": {
+        "title": "100% Remote Support",
+        "description": "Complete management of your project from abroad with video conferences and regular photo reporting."
+      },
+      "multilingual": {
+        "title": "Multilingual Communication",
+        "description": "Our team speaks French, English, and Italian to facilitate your exchanges."
+      },
+      "verified": {
+        "title": "Verified and Insured Network",
+        "description": "All our designers are qualified, experienced, and hold professional insurance."
+      },
+      "transparent": {
+        "title": "Total Transparency",
+        "description": "Clear pricing, realistic deadlines, and honest communication at every project stage."
+      }
+    },
+    "pricing": {
+      "title": "Pricing: How Much Does an Interior Designer in Paris Cost?",
+      "intro": "Price transparency is part of our commitments. Here are the expected ranges for your project. Note: Prices are in euros (€). Contact us for conversions to your currency.",
+      "fees": {
+        "title": "Interior Designer Fees",
+        "consultation": {
+          "label": "Consultation advice (2h)",
+          "price": "€150 to €250"
+        },
+        "study": {
+          "label": "Layout study (plans, 3D)",
+          "price": "€80 to €150 / sqm"
+        },
+        "full": {
+          "label": "Complete mission (study + monitoring)",
+          "price": "8% to 12% of works amount"
+        }
+      },
+      "works": {
+        "title": "Renovation Works Cost in Paris",
+        "refresh": {
+          "label": "Refresh (painting, floors)",
+          "price": "€400 to €800 / sqm"
+        },
+        "partial": {
+          "label": "Partial renovation",
+          "price": "€800 to €1,200 / sqm"
+        },
+        "complete": {
+          "label": "Complete renovation",
+          "price": "€1,200 to €1,800 / sqm"
+        },
+        "highend": {
+          "label": "High-end renovation",
+          "price": "€1,800 to €2,500 / sqm"
+        },
+        "heavy": {
+          "label": "Heavy restructuring",
+          "price": "€2,500+ / sqm"
+        }
+      },
+      "example": {
+        "title": "Concrete Example",
+        "description": "For a Haussmann apartment of 80 sqm (860 sq ft) requiring complete renovation",
+        "works": "Works: 80 × €1,500 = €120,000",
+        "fees": "Designer fees (10%): €12,000",
+        "total": "Total budget: approximately €132,000"
+      }
+    },
+    "projects": {
+      "title": "What Types of Projects?",
+      "haussmann": {
+        "title": "Haussmann Apartment Renovation",
+        "description": "Respecting proportions, highlighting moldings and fireplaces, choosing materials consistent with the heritage."
+      },
+      "rooftop": {
+        "title": "Rooftop Apartment",
+        "description": "Transforming atypical volumes into character spaces with exposed beams and skylights."
+      },
+      "piedaterre": {
+        "title": "Pied-à-terre and Second Home",
+        "description": "Functional and welcoming interiors, optimized for occasional use with clever storage."
+      },
+      "investment": {
+        "title": "Rental Investment",
+        "description": "Creating attractive interiors that rent quickly and well, respecting your investment budget."
+      },
+      "studio": {
+        "title": "Studio and Small Space",
+        "description": "Optimizing small Parisian surfaces with expertise in layouts from 25 to 30 sqm (270-320 sq ft)."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "I live abroad, how can I manage my renovation project in Paris?",
+        "answer": "This is our specialty. We organize exchanges via video conference, share documents online, and ensure regular reporting with construction site photos. Several of our clients have conducted their project without traveling to Paris once during the works."
+      },
+      "q2": {
+        "question": "Do you speak English or Italian?",
+        "answer": "Yes. Our team and several designers in our network are bilingual or trilingual. We can conduct your entire project in English or Italian."
+      },
+      "q3": {
+        "question": "How do you select the interior designers in your network?",
+        "answer": "We verify diplomas, insurance, references, and meet each professional before integrating them into our network. We monitor client satisfaction to ensure consistent quality."
+      },
+      "q4": {
+        "question": "What is the minimum budget to hire an interior designer?",
+        "answer": "There is no imposed minimum budget. In practice, an interior designer's intervention is fully justified from €30,000 of works. Below that, a one-time consultation service may suffice."
+      },
+      "q5": {
+        "question": "How long does an apartment renovation in Paris take?",
+        "answer": "Allow 2 to 3 months for partial renovation, 4 to 6 months for complete renovation. Timelines depend on the scope of works, craftsmen availability, and administrative authorizations."
+      },
+      "q6": {
+        "question": "Do you work outside of Paris?",
+        "answer": "Yes. Our network covers Paris proper and all of Île-de-France: Neuilly, Boulogne, Saint-Cloud, Versailles, and departments 92, 93, 94, 78, 91, 77, 95."
+      },
+      "q7": {
+        "question": "What happens if I'm not satisfied with the proposed designer?",
+        "answer": "You are free to refuse our proposal and request another profile. The initial consultation with Hauss Paris is free and without obligation."
+      }
+    },
+    "testimonials": {
+      "title": "They Trusted Hauss Paris",
+      "t1": {
+        "quote": "We live in London and bought an apartment in Le Marais. Hauss Paris found us a perfect designer: he spoke English, understood our tastes, and kept us informed weekly via video. The result exceeds our expectations.",
+        "author": "James & Sophie M.",
+        "location": "London"
+      },
+      "t2": {
+        "quote": "Investor for 10 years in Paris, I finally found a reliable partner for my renovations. The designers recommended by Hauss Paris are serious and respect budgets.",
+        "author": "Marco T.",
+        "location": "Milan"
+      },
+      "t3": {
+        "quote": "As an expatriate, I dreaded managing works remotely. Hauss Paris support reassured me from start to finish. I highly recommend.",
+        "author": "Catherine L.",
+        "location": "New York"
+      }
+    },
+    "cta": {
+      "title": "Launch Your Renovation Project in Paris",
+      "description": "Have an apartment renovation project in Paris? Let's talk. Book a free consultation with our team.",
+      "button": "Request a Free Consultation"
+    },
+    "decoratorLink": {
+      "title": "Looking for a decorator instead?",
+      "description": "If your project doesn't require structural work, discover our interior decoration service without construction: furniture, colors, styling and accessories.",
+      "link": "Discover our decorator service"
+    }
+  },
+  "DecoratorParisService": {
+    "metadata": {
+      "title": "Interior Decorator Paris | Hauss Paris - Furnishing Without Construction",
+      "description": "Find your interior decorator in Paris. Fast transformation without construction: furniture, colors, styling. Budget €5k-50k, 3-8 weeks delivery. Free quote."
+    },
+    "eyebrow": "Service",
+    "title": "Interior Decorator in Paris: Transform Your Apartment Without Construction",
+    "intro": "Looking to refresh your Parisian interior without undertaking construction work? An interior decorator transforms your apartment through furniture, colors and accessories.",
+    "section1": {
+      "title": "Interior Decoration: A Fast and Accessible Transformation",
+      "paragraph1": "Unlike an interior designer who works on the structure (partitions, electricity, plumbing), the decorator works exclusively on dressing your space: furniture selection, color palette, textiles, lighting and decorative objects.",
+      "paragraph2": "This approach offers considerable advantages: no construction permits required, no contractor coordination, controlled budget between €5,000 and €50,000, and a project completed in 3 to 8 weeks versus several months for a full renovation."
+    },
+    "section2": {
+      "title": "For Whom? Ideal Situations for a Decorator",
+      "paragraph1": "Just bought an apartment in good condition but with outdated style? Preparing your property for seasonal rental or Airbnb? You're an investor looking to enhance a property before sale? An interior decorator is the optimal solution.",
+      "paragraph2": "Particularly suited for expats and remote owners, this service enables 100% remote management with online furniture selection, coordinated delivery and supervised installation, all without requiring your physical presence."
+    },
+    "section3": {
+      "title": "Our Network of Interior Decorators in Paris",
+      "paragraph1": "Hauss Paris has built a network of decorators specialized in Parisian projects: pied-à-terre, second homes, rental investments and home staging. Each professional has minimum 3 years experience and verified portfolio.",
+      "paragraph2": "We select your decorator based on your budget, style (chic Haussmannian, minimalist contemporary, Parisian bohemian) and timeline constraints. You receive a personalized proposal within 48h with mood boards and budget estimate."
+    },
+    "section4": {
+      "title": "How Does Your Decoration Project Work?",
+      "paragraph1": "First step: free 30-minute consultation to understand your tastes, property usage and budget. We then present 1 to 2 decorators with their creations and client references.",
+      "paragraph2": "The decorator then creates a global concept: inspiration boards, color palette, furniture and accessory selection, layout plan. After validation, they manage orders, deliveries and installation. You receive your apartment turnkey, ready to live in or rent."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Method",
+      "title": "From Concept to Reality: A Streamlined Process",
+      "description": "A smooth and transparent process, designed for Parisian and international owners seeking efficiency."
+    },
+    "gridList": {
+      "consultation": {
+        "title": "Initial Consultation (Free)",
+        "description": "30-min discussion to define your style, budget and apartment usage (primary residence, Airbnb, rental)."
+      },
+      "matching": {
+        "title": "Decorator Selection",
+        "description": "Presentation of 1 to 2 suitable profiles with portfolio, style and fees. You choose the one that fits best."
+      },
+      "design": {
+        "title": "Project Design",
+        "description": "Mood boards, color palette, furniture/accessory selection, layout plan and detailed budget."
+      },
+      "execution": {
+        "title": "Sourcing and Installation",
+        "description": "Furniture ordering, delivery coordination, supervised installation. You receive the keys to a transformed apartment."
+      }
+    },
+    "stats": {
+      "international": "Projects Completed",
+      "network": "Verified Decorators",
+      "satisfaction": "Average Timeline"
+    },
+    "pricing": {
+      "title": "Pricing: How Much Does an Interior Decorator Cost in Paris?",
+      "intro": "Interior decoration represents a much smaller investment than renovation. Here are typical budgets for a Parisian apartment.",
+      "fees": {
+        "title": "Decorator Fees",
+        "consultation": {
+          "label": "Consultation advice (1.5h)",
+          "price": "€100 to €200"
+        },
+        "concept": {
+          "label": "Decor concept (boards + shopping list)",
+          "price": "€800 to €1,500"
+        },
+        "full": {
+          "label": "Full service (concept + sourcing + supervision)",
+          "price": "15% to 25% of furniture budget"
+        }
+      },
+      "furniture": {
+        "title": "Furniture and Accessories Budget",
+        "refresh": {
+          "label": "Light refresh (accessories, textiles)",
+          "price": "€3,000 to €8,000"
+        },
+        "partial": {
+          "label": "Partial refurnishing (living room or bedroom)",
+          "price": "€8,000 to €15,000"
+        },
+        "complete": {
+          "label": "Complete furnishing (studio/1-bed)",
+          "price": "€15,000 to €30,000"
+        },
+        "highend": {
+          "label": "High-end decoration (2-bed+)",
+          "price": "€30,000 to €50,000"
+        }
+      },
+      "example": {
+        "title": "Concrete Example",
+        "description": "For a 1-bedroom apartment (485 sq ft) intended for Airbnb furnished rental",
+        "furniture": "Furniture & decor budget: €18,000",
+        "fees": "Decorator fees (18%): €3,240",
+        "total": "Total budget: €21,240",
+        "note": "Timeline: 5 weeks from order to installation"
+      },
+      "comparison": {
+        "title": "Decorator vs Interior Designer",
+        "decorator": {
+          "title": "Interior Decorator",
+          "scope": "Furniture, colors, styling",
+          "works": "No construction work",
+          "budget": "€5,000 to €50,000",
+          "timeline": "3 to 8 weeks",
+          "ideal": "Good condition apartment, Airbnb, home staging"
+        },
+        "architect": {
+          "title": "Interior Designer",
+          "scope": "Restructuring, partitions, installations",
+          "works": "Heavy construction",
+          "budget": "€30,000 to €200,000+",
+          "timeline": "3 to 6 months",
+          "ideal": "Complete renovation, space redistribution",
+          "link": "Learn more about our interior designers →"
+        }
+      }
+    },
+    "projects": {
+      "title": "For What Types of Projects?",
+      "airbnb": {
+        "title": "Airbnb and Furnished Rentals",
+        "description": "Photogenic and functional interiors optimized for rental profitability. Robust furniture, Instagram-worthy decoration."
+      },
+      "piedaterre": {
+        "title": "Parisian Pied-à-Terre",
+        "description": "Warm and refined spaces for your Paris stays. Storage optimization, cozy atmosphere."
+      },
+      "staging": {
+        "title": "Home Staging Before Sale",
+        "description": "Property enhancement to accelerate sale and maximize price. Professional neutralization and staging."
+      },
+      "refresh": {
+        "title": "Makeover Without Construction",
+        "description": "Transformation of dated interior through new colors, modern furniture and trendy accessories."
+      },
+      "expat": {
+        "title": "Expat Move-In",
+        "description": "Turnkey apartment for your arrival in Paris. Everything ready from day one: furniture, equipment, decoration."
+      },
+      "investment": {
+        "title": "Rental Investment Optimization",
+        "description": "Strategic furnishing to maximize rent. Durable and aesthetic choices that appeal to tenants."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "What's the difference between decorator and interior designer?",
+        "answer": "The decorator works only on dressing (furniture, colors, accessories) without touching the structure. The interior designer can modify partitions, redo electricity and plumbing. Budget and timelines are very different: €5-50k in 3-8 weeks for decorator, €30-200k+ in 3-6 months for designer."
+      },
+      "q2": {
+        "question": "Can I manage my decoration project from abroad?",
+        "answer": "Absolutely. It's actually one of our main use cases. Everything is done remotely: furniture selection by video call or email, coordinated deliveries, installation supervised by decorator. You receive photos at each stage and get back a ready-to-live apartment."
+      },
+      "q3": {
+        "question": "What's the minimum budget for hiring a decorator?",
+        "answer": "From €5,000 (furniture + fees), you can refresh a space with new textiles, accessories and some key furniture pieces. For complete furnishing of a studio or 1-bedroom, budget €15,000 to €25,000."
+      },
+      "q4": {
+        "question": "How long does a decoration project take?",
+        "answer": "From 3 to 8 weeks depending on scope: 3-4 weeks for partial refresh, 6-8 weeks for complete furnishing. Timelines depend mainly on furniture delivery times (typically 2-6 weeks)."
+      },
+      "q5": {
+        "question": "Can the decorator help with an Airbnb?",
+        "answer": "Yes, several decorators in our network specialize in short-term rentals. They know the visual codes that work on Airbnb, favor robust materials and optimize quality-price ratio to maximize your profitability."
+      },
+      "q6": {
+        "question": "How is the decorator compensated?",
+        "answer": "Either a flat fee for the decor concept (€800-1500), or a percentage of furniture budget for full service (15-25%). Some decorators combine both: flat fee for design + reduced percentage on sourcing. Everything is transparent from the quote."
+      },
+      "q7": {
+        "question": "Can I provide my own furniture and only pay for advice?",
+        "answer": "Yes, you can opt for an \"advice only\" service: the decorator provides mood boards, shopping list with references and layout plan. You then manage orders and installation yourself. Fee: €800 to €1,500 depending on surface."
+      },
+      "q8": {
+        "question": "Do you work outside Paris?",
+        "answer": "Yes. Our network covers Paris proper and all Île-de-France: Neuilly, Boulogne, Versailles, Saint-Cloud and departments 92, 93, 94, 78, 91, 77, 95."
+      }
+    },
+    "testimonials": {
+      "title": "They Transformed Their Parisian Apartment",
+      "t1": {
+        "quote": "We live in Geneva and bought a pied-à-terre in the 7th arrondissement. In 6 weeks, the decorator managed everything: furniture, installation, decoration. We arrived to a perfect apartment, exactly like the mood boards. Zero stress.",
+        "author": "Claire & Thomas B.",
+        "location": "Geneva"
+      },
+      "t2": {
+        "quote": "I hired Hauss Paris to prepare my apartment for Airbnb. The decorator created a warm and photogenic interior. Since then, I'm booked 90% with excellent ratings. The investment paid off.",
+        "author": "David L.",
+        "location": "London"
+      },
+      "t3": {
+        "quote": "Expat in New York, I wanted to redo my Parisian apartment before renting it furnished. The decorator proposed 3 ambiances, I validated by email, and 5 weeks later it was installed. Impeccable service.",
+        "author": "Sarah M.",
+        "location": "New York"
+      },
+      "t4": {
+        "quote": "For my rental investment, I wanted a chic result without breaking the bank. The decorator sourced affordable designer furniture and created an apartment that rents immediately. Excellent value for money.",
+        "author": "Antoine R.",
+        "location": "Lyon"
+      }
+    },
+    "cta": {
+      "title": "Transform Your Parisian Apartment Without Construction",
+      "description": "Have a decoration project in Paris? Let's discuss your needs. Free 30-minute consultation with our team.",
+      "button": "Request a Free Consultation"
+    },
+    "architectLink": {
+      "title": "Does your project require construction work?",
+      "description": "If you need to rethink the space with structural work, discover our interior design service with complete renovation.",
+      "link": "Discover our interior design service"
+    }
+  },
+  "ArchitecteParis16Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 16th | Hauss Paris - Luxury Renovation",
+      "description": "Find your interior designer in Paris 16th arrondissement. Specialists in Haussmann apartments and prestige renovations. Free consultation."
+    },
+    "eyebrow": "Paris 16th",
+    "title": "Interior Designer in the 16th Arrondissement: Excellence for Your Project",
+    "intro": "The 16th arrondissement of Paris is synonymous with prestige and elegance. Our selected interior designers know this iconic neighborhood and its particular requirements perfectly.",
+    "section1": {
+      "title": "The 16th Arrondissement: Exceptional Architectural Heritage",
+      "paragraph1": "Between Trocadéro, Passy and Auteuil, the 16th arrondissement contains some of the most beautiful Haussmann and Art Deco buildings in Paris. These prestigious buildings require <strong>specific expertise</strong> to preserve their character while adapting them to modern comfort.",
+      "paragraph2": "High ceilings, original moldings, herringbone parquet, marble fireplaces: our interior designers know how to <strong>enhance these heritage elements</strong> while integrating the contemporary equipment you expect."
+    },
+    "section2": {
+      "title": "Projects Worthy of the Neighborhood",
+      "paragraph1": "In the 16th, we support a demanding clientele on various projects: <strong>complete renovation of family apartments</strong> from 150 to 400 sqm, conversion of offices to residences, or space optimization for international clients.",
+      "paragraph2": "Our designers know the neighborhood's property management companies, qualified local craftsmen and specific constraints of listed buildings. A valuable asset to <strong>carry out your project smoothly</strong>.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise Adapted to the 16th's Standards",
+      "paragraph1": "Property owners in the 16th expect an impeccable level of finish. Our interior designers work with <strong>selected craftsmen</strong>: cabinetmakers, plasterers, marble workers, art ironworkers who guarantee execution meeting your expectations.",
+      "paragraph2": "From design to delivery, we ensure <strong>rigorous monitoring</strong> of every detail. Our network of designers regularly works in La Muette, Victor Hugo, Ranelagh and Porte Dauphine neighborhoods."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 16th",
+      "description": "Whatever the scope of your project, we connect you with the interior designer best suited to your needs."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Haussmann Renovation",
+        "description": "Complete transformation of your apartment respecting the architectural codes of the neighborhood. Space redistribution, standards compliance, high-end finishes."
+      },
+      "layout": {
+        "title": "Custom Layout",
+        "description": "Creation of built-in storage, walk-in closets, libraries and custom kitchens that integrate perfectly with existing architecture."
+      },
+      "decoration": {
+        "title": "Artistic Direction",
+        "description": "Selection of furniture, fabrics and art objects to create a refined atmosphere. Access to antique dealers and renowned designers."
+      },
+      "furnishing": {
+        "title": "Turnkey Furnishing",
+        "description": "Complete service for non-resident owners: from design to installation, your apartment delivered ready to live in."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "40+",
+        "label": "projects completed in the 16th"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "satisfied clients"
+      },
+      "network": {
+        "value": "15+",
+        "label": "specialized designers"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 16th",
+      "q1": {
+        "question": "What are the prices per sqm for renovation in the 16th?",
+        "answer": "For a complete quality renovation in the 16th, expect between €1,800 and €3,500 excl. VAT/sqm depending on the desired finish level. High-end projects with plasterwork, marble and custom woodwork can reach €4,000 to €5,000/sqm."
+      },
+      "q2": {
+        "question": "How long does an apartment renovation take in the 16th?",
+        "answer": "A complete renovation in the 16th typically takes between 4 and 8 months depending on surface area and complexity. Historic buildings and strict homeowner associations can extend authorization timelines."
+      },
+      "q3": {
+        "question": "Do you work on listed buildings in the 16th?",
+        "answer": "Yes, several architects in our network have experience with listed or heritage-registered buildings. They know the procedures with the Historic Buildings Architects and associated technical constraints."
+      },
+      "q4": {
+        "question": "Can you manage a project remotely for a foreign owner?",
+        "answer": "Absolutely, it's actually one of our specialties. We support many international owners investing in the 16th. The designer manages everything on-site: surveys, construction, furnishing, and delivers a ready-to-live or rent apartment."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 16th Starts Here",
+      "description": "Whether you want to renovate a family apartment near Trocadéro or transform an investment property in Passy, we have the interior designer for you.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis7Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 7th | Hauss Paris - Luxury Renovation",
+      "description": "Find your interior designer in Paris 7th arrondissement. Specialists in ministerial quarter apartments, Invalides and Eiffel Tower views. Free consultation."
+    },
+    "eyebrow": "Paris 7th",
+    "title": "Interior Designer in the 7th Arrondissement: Bourgeois Elegance for Your Project",
+    "intro": "The 7th arrondissement of Paris embodies the quintessence of bourgeois elegance. Between the ministerial quarter and the Invalides, our selected interior designers perfectly understand this prestigious neighborhood and its diplomatic clientele.",
+    "section1": {
+      "title": "The 7th Arrondissement: Where Power Meets Refinement",
+      "paragraph1": "From the Esplanade des Invalides to the Champ de Mars, the 7th arrondissement is home to some of Paris's most prestigious addresses. These stately buildings, often with <strong>Eiffel Tower views</strong>, require designers who understand the balance between official grandeur and intimate comfort.",
+      "paragraph2": "Grand reception rooms, ministerial-style offices, formal dining areas: our interior designers know how to <strong>create spaces worthy of diplomatic entertaining</strong> while maintaining the warmth of a private residence."
+    },
+    "section2": {
+      "title": "Projects Befitting the Ministerial Quarter",
+      "paragraph1": "In the 7th, we support an elite clientele on exceptional projects: <strong>renovation of grand apartments</strong> from 200 to 500 sqm, transformation of former embassies, or modernization of family heirlooms near the Invalides.",
+      "paragraph2": "Our designers are accustomed to working with <strong>diplomatic and political clients</strong> who require discretion, security considerations, and impeccable standards. They understand the protocols of this unique neighborhood.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise for the Most Discerning Clientele",
+      "paragraph1": "Property owners in the 7th expect absolute discretion and flawless execution. Our interior designers work with <strong>master craftsmen</strong> accustomed to prestigious commissions: gilders, upholsterers, and specialists in period restoration.",
+      "paragraph2": "From concept to completion, we ensure <strong>meticulous attention</strong> to every detail. Our network regularly works in the neighborhoods of Saint-Dominique, Rue de Grenelle, Rue de Varenne, and near the Champ de Mars."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 7th",
+      "description": "Whatever the scope of your project, we connect you with the interior designer best suited to your exceptional requirements."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Prestigious Renovation",
+        "description": "Complete transformation respecting the grandeur of ministerial-quarter architecture. Restoration of period details, modern comfort integration, state-of-the-art security."
+      },
+      "layout": {
+        "title": "Formal & Private Spaces",
+        "description": "Creation of reception rooms, private offices, and intimate family quarters that flow seamlessly within grand floor plans."
+      },
+      "decoration": {
+        "title": "Curated Collections",
+        "description": "Selection of museum-quality furniture, fine art, and antiques. Access to private dealers and auction houses worldwide."
+      },
+      "furnishing": {
+        "title": "Diplomatic Turnkey",
+        "description": "Complete service for international clients: from design to installation, including security systems and staff quarters."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "25+",
+        "label": "projects completed in the 7th"
+      },
+      "satisfaction": {
+        "value": "100%",
+        "label": "client satisfaction"
+      },
+      "network": {
+        "value": "12+",
+        "label": "specialized designers"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 7th",
+      "q1": {
+        "question": "What are the prices per sqm for renovation in the 7th?",
+        "answer": "For a complete quality renovation in the 7th, expect between €2,000 and €4,000 excl. VAT/sqm depending on the desired finish level. High-end projects with gilding, silk wall coverings, and bespoke joinery can reach €5,000 to €7,000/sqm."
+      },
+      "q2": {
+        "question": "How do you handle security requirements for high-profile clients?",
+        "answer": "We work with specialized security consultants and can integrate discreet protection systems, secure rooms, and privacy features. Our designers are experienced with diplomatic protocols and confidentiality requirements."
+      },
+      "q3": {
+        "question": "Do you work on historic buildings near the Invalides?",
+        "answer": "Yes, several architects in our network specialize in heritage buildings of the 7th. They have established relationships with the Historic Buildings Architects and understand the specific requirements of this protected area."
+      },
+      "q4": {
+        "question": "Can you accommodate diplomatic schedules and international clients?",
+        "answer": "Absolutely. We regularly work with ambassadors, diplomats, and international families. Our team can manage projects remotely, coordinate with staff, and work around official schedules and security protocols."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 7th Starts Here",
+      "description": "Whether you want to renovate a grand apartment near the Invalides or transform a residence with Eiffel Tower views, we have the interior designer for you.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis8Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 8th | Hauss Paris - Luxury Renovation",
+      "description": "Find your interior designer in Paris 8th arrondissement. Specialists in Champs-Elysees, luxury addresses and Art Nouveau buildings. Free consultation."
+    },
+    "eyebrow": "Paris 8th",
+    "title": "Interior Designer in the 8th Arrondissement: Prestige on the Champs-Elysees",
+    "intro": "The 8th arrondissement represents the pinnacle of Parisian luxury. From the Champs-Elysees to the Monceau plain, our selected interior designers master the art of creating spaces worthy of the world's most prestigious addresses.",
+    "section1": {
+      "title": "The 8th Arrondissement: Capital of Parisian Luxury",
+      "paragraph1": "From Place de la Concorde to the Arc de Triomphe, the 8th arrondissement concentrates the most <strong>prestigious addresses in Paris</strong>. These exceptional properties, whether grand Haussmann buildings or remarkable Art Nouveau residences, demand designers who understand true luxury.",
+      "paragraph2": "Monumental entrances, reception galleries, private salons: our interior designers know how to <strong>orchestrate spaces of exceptional grandeur</strong> while creating intimate atmospheres for daily living."
+    },
+    "section2": {
+      "title": "Projects at the Summit of Luxury",
+      "paragraph1": "In the 8th, we support an international ultra-high-net-worth clientele: <strong>complete renovation of palatial apartments</strong> from 300 to 800 sqm, transformation of historic hotels particuliers, or creation of pied-a-terre for global executives.",
+      "paragraph2": "Our designers understand the <strong>codes of international luxury</strong>: proximity to haute couture houses, connections with prestigious galleries, and the expectations of clients accustomed to the finest things in life.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise for Absolute Luxury",
+      "paragraph1": "Clients in the 8th expect nothing less than perfection. Our interior designers collaborate with the <strong>finest artisans in the world</strong>: master gilders, rare marble specialists, couture upholsterers, and contemporary art installers.",
+      "paragraph2": "From vision to reality, we ensure <strong>uncompromising excellence</strong> at every stage. Our network works throughout the Golden Triangle, Faubourg Saint-Honore, Madeleine, and Parc Monceau neighborhoods."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 8th",
+      "description": "Whatever the scale of your ambitions, we connect you with the interior designer capable of exceeding your highest expectations."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Palatial Renovation",
+        "description": "Complete transformation of exceptional properties. Restoration of historic elements, integration of cutting-edge technology, finishes of museum quality."
+      },
+      "layout": {
+        "title": "Grand Living Spaces",
+        "description": "Creation of entertaining galleries, private spas, home cinemas, and wine cellars integrated seamlessly into historic architecture."
+      },
+      "decoration": {
+        "title": "World-Class Curation",
+        "description": "Access to the finest antiques, contemporary masters, and bespoke commissions. Partnerships with leading galleries and auction houses."
+      },
+      "furnishing": {
+        "title": "Luxury Concierge Service",
+        "description": "Complete turnkey for international clients: art collection installation, smart home integration, and ongoing property management."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "35+",
+        "label": "projects completed in the 8th"
+      },
+      "satisfaction": {
+        "value": "100%",
+        "label": "client satisfaction"
+      },
+      "network": {
+        "value": "18+",
+        "label": "specialized designers"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 8th",
+      "q1": {
+        "question": "What are the prices per sqm for renovation in the 8th?",
+        "answer": "For a complete luxury renovation in the 8th, expect between €2,500 and €5,000 excl. VAT/sqm. Exceptional projects with rare materials, museum-quality restoration, and bespoke everything can reach €8,000 to €12,000/sqm or more."
+      },
+      "q2": {
+        "question": "How long does a major renovation take in the 8th?",
+        "answer": "Major renovations in the 8th typically take 8 to 18 months depending on scope and complexity. Historic buildings and exceptional finishes require extended timelines to achieve perfection."
+      },
+      "q3": {
+        "question": "Do you work on Art Nouveau buildings in the 8th?",
+        "answer": "Yes, we have specialists in Art Nouveau architecture who understand the particular requirements of preserving and enhancing these remarkable buildings while adapting them for contemporary living."
+      },
+      "q4": {
+        "question": "Can you coordinate with luxury brands and galleries?",
+        "answer": "Absolutely. Our designers have established relationships with the major luxury houses, galleries, and artisans of the 8th. We can coordinate bespoke commissions, art acquisitions, and exclusive furnishings."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 8th Starts Here",
+      "description": "Whether you dream of a palatial apartment on Avenue Montaigne or a refined pied-a-terre near Monceau, we have the interior designer to realize your vision.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis6Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 6th | Hauss Paris - Luxury Renovation",
+      "description": "Find your interior designer in Paris 6th arrondissement. Specialists in Saint-Germain-des-Pres, intellectual chic and Left Bank charm. Free consultation."
+    },
+    "eyebrow": "Paris 6th",
+    "title": "Interior Designer in the 6th Arrondissement: Left Bank Sophistication",
+    "intro": "The 6th arrondissement is the heart of intellectual Paris. From Saint-Germain-des-Pres to the Luxembourg Gardens, our selected interior designers capture the essence of literary heritage and artistic refinement.",
+    "section1": {
+      "title": "The 6th Arrondissement: Where Culture Meets Elegance",
+      "paragraph1": "Between the legendary cafes of Saint-Germain and the galleries of Rue de Seine, the 6th arrondissement embodies <strong>Parisian intellectual chic</strong>. These character-filled apartments, often in 17th and 18th-century buildings, require designers who understand the art of cultured living.",
+      "paragraph2": "Libraries overlooking courtyards, salons for literary gatherings, intimate studies: our interior designers know how to <strong>create spaces that inspire thought and conversation</strong> while honoring centuries of artistic heritage."
+    },
+    "section2": {
+      "title": "Projects with Soul and Character",
+      "paragraph1": "In the 6th, we support a cultivated clientele on meaningful projects: <strong>renovation of historic apartments</strong> from 100 to 300 sqm, transformation of artist studios, or modernization of family properties near the Luxembourg Gardens.",
+      "paragraph2": "Our designers understand the <strong>intellectual aesthetic of the Left Bank</strong>: the importance of bookshelves, the need for natural light, and the desire to create spaces that feel collected over generations rather than decorated.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise for the Cultured Client",
+      "paragraph1": "Residents of the 6th value authenticity over ostentation. Our interior designers work with <strong>artisans who share this philosophy</strong>: restorers of antique books, specialists in period hardware, and craftsmen who understand patina.",
+      "paragraph2": "From concept to completion, we ensure <strong>thoughtful curation</strong> of every element. Our network regularly works in Saint-Germain-des-Pres, Odeon, Saint-Sulpice, and near the Jardin du Luxembourg."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 6th",
+      "description": "Whatever the character of your project, we connect you with the interior designer who shares your appreciation for cultured living."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Character Renovation",
+        "description": "Thoughtful transformation preserving historic charm. Restoration of original features, modern comfort integration, respect for architectural heritage."
+      },
+      "layout": {
+        "title": "Spaces for Living & Thinking",
+        "description": "Creation of libraries, art-filled salons, and peaceful studies. Spaces designed for both entertaining and contemplation."
+      },
+      "decoration": {
+        "title": "Curated Authenticity",
+        "description": "Selection of antiques, art, and objects with provenance and meaning. Access to the galleries and booksellers of Saint-Germain."
+      },
+      "furnishing": {
+        "title": "Collected Over Time",
+        "description": "Creating interiors that feel inherited rather than purchased. Mixing periods and styles with the confidence of generations."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "30+",
+        "label": "projects completed in the 6th"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "satisfied clients"
+      },
+      "network": {
+        "value": "14+",
+        "label": "specialized designers"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 6th",
+      "q1": {
+        "question": "What are the prices per sqm for renovation in the 6th?",
+        "answer": "For a complete quality renovation in the 6th, expect between €1,800 and €3,500 excl. VAT/sqm depending on the desired finish level. Projects requiring extensive restoration of period features can reach €4,000 to €5,500/sqm."
+      },
+      "q2": {
+        "question": "How do you balance modern comfort with historic character?",
+        "answer": "Our designers specialize in invisible modernization: concealed climate control, hidden technology, and contemporary bathrooms and kitchens that respect the building's heritage. The goal is modern living in a historic shell."
+      },
+      "q3": {
+        "question": "Do you work with the art galleries of the 6th?",
+        "answer": "Yes, we have established relationships with many galleries on Rue de Seine and in Saint-Germain. We can help source artwork, advise on collections, and design spaces specifically for art display."
+      },
+      "q4": {
+        "question": "Can you help find the perfect apartment in the 6th?",
+        "answer": "While we don't act as real estate agents, we can advise on properties you're considering, help assess renovation potential, and connect you with trusted agents who specialize in the 6th arrondissement."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 6th Starts Here",
+      "description": "Whether you dream of an apartment overlooking the Luxembourg Gardens or a literary retreat in Saint-Germain, we have the interior designer to bring your vision to life.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis17Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 17th | Hauss Paris - Family-Oriented Renovation",
+      "description": "Find your interior designer in Paris 17th arrondissement. Specialists in Batignolles, Parc Monceau and family apartments. Free consultation."
+    },
+    "eyebrow": "Paris 17th",
+    "title": "Interior Designer in the 17th Arrondissement: Family Living at Its Finest",
+    "intro": "The 17th arrondissement of Paris combines village charm with upper-middle-class elegance. Our selected interior designers understand the family-oriented lifestyle of this neighborhood and its unique character.",
+    "section1": {
+      "title": "The 17th Arrondissement: From Batignolles to Parc Monceau",
+      "paragraph1": "Between the village atmosphere of Batignolles and the bourgeois elegance near Parc Monceau, the 17th arrondissement offers <strong>diverse architectural styles</strong>. From Haussmann buildings to more recent constructions, each project requires an approach tailored to its context.",
+      "paragraph2": "Tree-lined streets, local markets, quality schools: the 17th is the neighborhood of choice for families seeking <strong>a balanced Parisian lifestyle</strong>. Our interior designers know how to create spaces that meet the needs of family life while respecting the character of each building."
+    },
+    "section2": {
+      "title": "Projects for Demanding Families",
+      "paragraph1": "In the 17th, we specialize in <strong>family apartment renovations</strong> from 80 to 200 sqm: creating children's rooms, optimizing storage, designing open kitchens for daily life while maintaining elegant reception spaces.",
+      "paragraph2": "Our designers know the neighborhood's specificities: the quiet streets of Batignolles, the prestigious buildings around Parc Monceau, the dynamic Ternes area. An invaluable asset to <strong>guide your project from conception to completion</strong>.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise for Practical and Elegant Living",
+      "paragraph1": "Families in the 17th expect spaces that are both <strong>functional and sophisticated</strong>. Our interior designers excel at creating children's areas that grow with them, home offices for remote work, and storage solutions that keep living spaces clutter-free.",
+      "paragraph2": "From design to delivery, we ensure <strong>meticulous attention</strong> to every detail. Our network of designers regularly works in Batignolles, Ternes, Monceau and Plaine Monceau neighborhoods."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 17th",
+      "description": "Whatever the scope of your project, we connect you with the interior designer best suited to your family's needs."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Family Apartment Renovation",
+        "description": "Complete transformation of your apartment with family-friendly layouts. Child-safe designs, practical storage, and elegant living spaces combined."
+      },
+      "layout": {
+        "title": "Smart Space Planning",
+        "description": "Optimization of family living: playrooms, homework areas, home offices, and clever storage solutions that grow with your family."
+      },
+      "decoration": {
+        "title": "Family-Friendly Design",
+        "description": "Selection of durable, stylish materials and furniture. Child-friendly yet sophisticated interiors that stand the test of daily family life."
+      },
+      "furnishing": {
+        "title": "Turnkey Furnishing",
+        "description": "Complete furnishing service: from design to installation, your apartment delivered ready for family life with all practical details considered."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "35+",
+        "label": "projects completed in the 17th"
+      },
+      "satisfaction": {
+        "value": "97%",
+        "label": "satisfied clients"
+      },
+      "network": {
+        "value": "12+",
+        "label": "specialized designers"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 17th",
+      "q1": {
+        "question": "What are the prices per sqm for renovation in the 17th?",
+        "answer": "For a complete quality renovation in the 17th, expect between 1,500 and 2,800 euros excl. VAT/sqm depending on the desired finish level. Family-oriented projects with custom storage and quality materials typically range from 2,000 to 3,000 euros/sqm."
+      },
+      "q2": {
+        "question": "How long does a family apartment renovation take in the 17th?",
+        "answer": "A complete renovation in the 17th typically takes between 3 and 6 months depending on surface area and complexity. We can often phase work to minimize disruption to family life."
+      },
+      "q3": {
+        "question": "Can you design child-friendly spaces that are also elegant?",
+        "answer": "Absolutely, this is one of our specialties. We design spaces that grow with children, using durable materials and timeless design. Playrooms can transform into study areas, and storage adapts to changing needs."
+      },
+      "q4": {
+        "question": "Do you work with the specific regulations of the 17th's homeowner associations?",
+        "answer": "Yes, our designers are familiar with the co-ownership rules in the 17th, particularly around Parc Monceau and in the historic Batignolles area. We handle all necessary authorizations and coordinate with building management."
+      }
+    },
+    "cta": {
+      "title": "Your Family Project in the 17th Starts Here",
+      "description": "Whether you want to renovate a family apartment near Batignolles or transform a property by Parc Monceau, we have the interior designer for your family's needs.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis15Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 15th | Hauss Paris - Practical Living Renovation",
+      "description": "Find your interior designer in Paris 15th arrondissement. Specialists in diverse housing and practical renovations. Free consultation."
+    },
+    "eyebrow": "Paris 15th",
+    "title": "Interior Designer in the 15th Arrondissement: Maximizing Your Living Space",
+    "intro": "The 15th arrondissement, the largest in Paris, offers exceptional diversity in housing types. Our selected interior designers know how to optimize every square meter while creating beautiful, functional homes.",
+    "section1": {
+      "title": "The 15th Arrondissement: Diverse Housing, Endless Possibilities",
+      "paragraph1": "From the modern towers of Front de Seine to the village charm of Commerce, the 15th arrondissement presents <strong>an incredible variety of architectural styles</strong>. Post-war buildings, Haussmann apartments, and contemporary constructions each require specific design approaches.",
+      "paragraph2": "Known for its <strong>practical living and good value</strong>, the 15th attracts young professionals, growing families, and those seeking spacious apartments at reasonable prices. Our interior designers excel at transforming these diverse spaces into exceptional homes."
+    },
+    "section2": {
+      "title": "Projects for Smart Living",
+      "paragraph1": "In the 15th, we handle <strong>a wide range of renovation projects</strong>: optimizing compact studios, opening up family apartments, modernizing 1960s-70s buildings, or adding character to more recent constructions.",
+      "paragraph2": "Our designers understand the 15th's pragmatic spirit: <strong>smart storage solutions, open layouts that maximize natural light</strong>, and efficient use of every available square meter. We transform practical housing into stylish homes.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise in Space Optimization",
+      "paragraph1": "The 15th's housing stock often benefits from <strong>generous surfaces at competitive prices</strong>. Our interior designers know how to unlock this potential: removing unnecessary partitions, creating flow between spaces, and modernizing dated layouts.",
+      "paragraph2": "From design to delivery, we ensure <strong>cost-effective solutions</strong> without compromising on quality. Our network of designers works throughout the arrondissement: Grenelle, Javel, Convention, Commerce, and Beaugrenelle."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 15th",
+      "description": "Whatever your budget and project scope, we connect you with the interior designer best suited to maximize your space."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Complete Renovation",
+        "description": "Full transformation of your apartment: layout optimization, modernization of installations, quality finishes that add lasting value to your home."
+      },
+      "layout": {
+        "title": "Space Optimization",
+        "description": "Smart layouts that make the most of every square meter. Open kitchens, multi-functional rooms, and clever storage integrated throughout."
+      },
+      "decoration": {
+        "title": "Contemporary Design",
+        "description": "Modern, timeless aesthetics that enhance your space. Selection of materials and furniture that combine style with practicality."
+      },
+      "furnishing": {
+        "title": "Complete Furnishing",
+        "description": "End-to-end furnishing service: space planning, furniture selection, and installation. Your apartment delivered move-in ready."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "45+",
+        "label": "projects completed in the 15th"
+      },
+      "satisfaction": {
+        "value": "96%",
+        "label": "satisfied clients"
+      },
+      "network": {
+        "value": "14+",
+        "label": "specialized designers"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 15th",
+      "q1": {
+        "question": "What are the prices per sqm for renovation in the 15th?",
+        "answer": "For a complete quality renovation in the 15th, expect between 1,200 and 2,200 euros excl. VAT/sqm depending on the finish level. The 15th offers excellent value, allowing for quality renovations at more accessible budgets than central arrondissements."
+      },
+      "q2": {
+        "question": "How long does an apartment renovation take in the 15th?",
+        "answer": "A complete renovation in the 15th typically takes between 3 and 5 months depending on surface area. The diverse building types mean timelines can vary based on specific structural considerations."
+      },
+      "q3": {
+        "question": "Can you modernize 1960s-70s apartments while adding character?",
+        "answer": "Absolutely, this is a common request in the 15th. We specialize in transforming dated layouts into contemporary homes while adding architectural interest through custom millwork, quality materials, and thoughtful design details."
+      },
+      "q4": {
+        "question": "Do you work on the towers at Front de Seine?",
+        "answer": "Yes, we have experience with the specific requirements of the Front de Seine towers, including their unique layouts and building regulations. These apartments offer exceptional views and can be transformed into stunning contemporary spaces."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 15th Starts Here",
+      "description": "Whether you want to optimize a compact space near Convention or transform a large apartment at Front de Seine, we have the interior designer for your needs.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis9Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 9th | Hauss Paris - Trendy Neighborhood Renovation",
+      "description": "Find your interior designer in Paris 9th arrondissement. Specialists in SoPi, Opera district and creative renovations. Free consultation."
+    },
+    "eyebrow": "Paris 9th",
+    "title": "Interior Designer in the 9th Arrondissement: Where Classic Meets Creative",
+    "intro": "The 9th arrondissement pulses with creative energy, from the grandeur of Opera to the trendy streets of South Pigalle. Our selected interior designers capture this unique blend of classic elegance and contemporary cool.",
+    "section1": {
+      "title": "The 9th Arrondissement: Opera Grandeur Meets SoPi Cool",
+      "paragraph1": "Between the majestic Opera Garnier and the buzzing restaurants of South Pigalle, the 9th offers <strong>a fascinating architectural mix</strong>. Grand Haussmann boulevards, intimate courtyards, artists' studios, and former workshops create unique design opportunities.",
+      "paragraph2": "The 9th has become <strong>Paris's creative hub</strong>: trendy restaurants, independent boutiques, galleries, and a vibrant nightlife. Our interior designers know how to create spaces that reflect this dynamic energy while respecting the neighborhood's rich heritage."
+    },
+    "section2": {
+      "title": "Projects with Character",
+      "paragraph1": "In the 9th, we work with <strong>creative professionals and design-conscious clients</strong>: transforming former artists' studios into contemporary lofts, renovating Haussmann apartments with a modern twist, or creating live-work spaces for the neighborhood's entrepreneurs.",
+      "paragraph2": "Our designers understand the 9th's spirit: <strong>bold design choices, industrial elements mixed with classic details</strong>, and spaces that can host both intimate dinners and larger gatherings. We create homes as vibrant as the neighborhood itself.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise in Creative Spaces",
+      "paragraph1": "The 9th's clients expect <strong>design that makes a statement</strong>. Our interior designers excel at creating spaces with personality: exposed materials, custom lighting, art-ready walls, and flexible layouts for modern urban living.",
+      "paragraph2": "From design to delivery, we ensure <strong>attention to every creative detail</strong>. Our network of designers works throughout the arrondissement: around Opera, in the Grands Boulevards, South Pigalle (SoPi), and the charming Rue des Martyrs area."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 9th",
+      "description": "Whatever your vision, we connect you with the interior designer who can bring your creative ideas to life."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Character Renovation",
+        "description": "Transform your space while celebrating its history. Industrial conversions, Haussmann reimagined, and creative adaptive reuse of the 9th's unique buildings."
+      },
+      "layout": {
+        "title": "Flexible Living Spaces",
+        "description": "Open plans for entertaining, home offices for creative work, multi-functional rooms that adapt to your lifestyle and the 9th's social energy."
+      },
+      "decoration": {
+        "title": "Design-Forward Interiors",
+        "description": "Bold aesthetic choices, statement pieces, and curated collections. Spaces that reflect the creative spirit of South Pigalle and beyond."
+      },
+      "furnishing": {
+        "title": "Curated Furnishing",
+        "description": "Access to unique pieces, vintage finds, and contemporary design. Your space furnished with the same eye for discovery that makes the 9th special."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "30+",
+        "label": "projects completed in the 9th"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "satisfied clients"
+      },
+      "network": {
+        "value": "10+",
+        "label": "specialized designers"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 9th",
+      "q1": {
+        "question": "What are the prices per sqm for renovation in the 9th?",
+        "answer": "For a complete quality renovation in the 9th, expect between 1,600 and 3,000 euros excl. VAT/sqm depending on design complexity. Creative projects with custom elements, industrial conversions, or high-end finishes typically range from 2,500 to 3,500 euros/sqm."
+      },
+      "q2": {
+        "question": "How long does an apartment renovation take in the 9th?",
+        "answer": "A complete renovation in the 9th typically takes between 4 and 7 months depending on scope. Projects involving structural changes to older buildings or conversions of non-residential spaces may require additional time for permits."
+      },
+      "q3": {
+        "question": "Can you convert former workshops or studios into living spaces?",
+        "answer": "Yes, these conversions are one of our specialties in the 9th. The neighborhood has many former artists' studios and workshops that make exceptional homes. We handle all aspects including change-of-use permits when required."
+      },
+      "q4": {
+        "question": "Do you design spaces suitable for both living and entertaining?",
+        "answer": "Absolutely, this is essential in the 9th where social life is central. We design flexible spaces with open kitchens for hosting, living areas that can accommodate gatherings, and clever storage to keep everyday items out of sight."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 9th Starts Here",
+      "description": "Whether you want to transform a former studio near Pigalle or renovate a classic apartment by Opera, we have the interior designer for your creative vision.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis11Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 11th | Hauss Paris - Trendy Renovation",
+      "description": "Find your interior designer in Paris 11th arrondissement. Specialists in loft conversions and modern renovations near Bastille. Free consultation."
+    },
+    "eyebrow": "Paris 11th",
+    "title": "Interior Designer in the 11th Arrondissement: Creativity for Your Project",
+    "intro": "The 11th arrondissement of Paris is a vibrant, dynamic neighborhood where creativity meets urban life. Our selected interior designers understand the eclectic character of this area and its unique possibilities.",
+    "section1": {
+      "title": "The 11th Arrondissement: A Dynamic and Creative Neighborhood",
+      "paragraph1": "Between Bastille, Oberkampf and Nation, the 11th arrondissement is one of Paris's most dynamic areas. Former workshops, industrial lofts and classic Parisian buildings coexist, offering <strong>exceptional renovation opportunities</strong> for those who appreciate authenticity and character.",
+      "paragraph2": "High ceilings in former ateliers, exposed brick walls, industrial windows: our interior designers know how to <strong>enhance these unique features</strong> while creating contemporary, functional living spaces adapted to modern lifestyles."
+    },
+    "section2": {
+      "title": "Projects That Match the Neighborhood's Energy",
+      "paragraph1": "In the 11th, we work with a diverse clientele on exciting projects: <strong>loft conversions from 60 to 200 sqm</strong>, transformation of commercial spaces into creative homes, or optimization of compact apartments for young professionals.",
+      "paragraph2": "Our designers know the neighborhood's specific constraints, from mixed-use buildings to the particular requirements of former industrial spaces. A valuable expertise to <strong>bring your creative vision to life</strong>.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise Adapted to the 11th's Spirit",
+      "paragraph1": "Residents of the 11th appreciate authentic materials and creative design. Our interior designers work with <strong>skilled craftsmen</strong>: metalworkers, carpenters, and artisans who specialize in industrial-style renovations and contemporary finishes.",
+      "paragraph2": "From concept to completion, we ensure <strong>meticulous attention</strong> to every detail. Our network regularly works in Bastille, Charonne, Oberkampf and Voltaire neighborhoods."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 11th",
+      "description": "Whatever the scope of your project, we connect you with the interior designer best suited to your needs and aesthetic."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Loft & Workshop Renovation",
+        "description": "Complete transformation of industrial spaces into stunning living areas. Open floor plans, mezzanines, contemporary finishes while preserving original character."
+      },
+      "layout": {
+        "title": "Smart Space Optimization",
+        "description": "Ingenious solutions for compact apartments. Custom storage, multifunctional furniture, and intelligent layouts that maximize every square meter."
+      },
+      "decoration": {
+        "title": "Contemporary Design Direction",
+        "description": "Curated selection of furniture and objects that blend industrial heritage with modern comfort. Access to local designers and vintage dealers."
+      },
+      "furnishing": {
+        "title": "Turnkey Furnishing",
+        "description": "Complete service for investors and busy professionals: from design to installation, your apartment delivered ready to enjoy."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "35+",
+        "label": "projects completed in the 11th"
+      },
+      "satisfaction": {
+        "value": "97%",
+        "label": "satisfied clients"
+      },
+      "network": {
+        "value": "12+",
+        "label": "specialized designers"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 11th",
+      "q1": {
+        "question": "What are the prices per sqm for renovation in the 11th?",
+        "answer": "For a quality renovation in the 11th, expect between 1,200 and 2,500 euros excl. VAT/sqm depending on the scope of work. Loft conversions with structural work and industrial finishes typically range from 2,000 to 3,500 euros/sqm."
+      },
+      "q2": {
+        "question": "How long does a loft conversion take in the 11th?",
+        "answer": "A loft conversion in the 11th typically takes between 3 and 6 months depending on the complexity. Projects involving structural modifications or change of use permits may require additional time for authorizations."
+      },
+      "q3": {
+        "question": "Do you work on commercial-to-residential conversions?",
+        "answer": "Yes, several architects in our network specialize in converting commercial spaces, workshops and offices into residential properties. They handle all administrative procedures and know the specific regulations."
+      },
+      "q4": {
+        "question": "Can you create an industrial-style interior in a classic building?",
+        "answer": "Absolutely. Our designers excel at blending styles, bringing industrial elements like metal, exposed brick effects, and contemporary fixtures into traditional Parisian apartments while respecting building regulations."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 11th Starts Here",
+      "description": "Whether you want to convert a workshop near Bastille or renovate an apartment in Oberkampf, we have the interior designer who understands your vision.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis4Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 4th | Hauss Paris - Le Marais Renovation",
+      "description": "Find your interior designer in Paris 4th arrondissement. Specialists in historic Marais buildings and heritage renovations. Free consultation."
+    },
+    "eyebrow": "Paris 4th",
+    "title": "Interior Designer in the 4th Arrondissement: Heritage Expertise for Your Project",
+    "intro": "The 4th arrondissement of Paris, home to Le Marais, is a treasure trove of architectural heritage. Our selected interior designers have deep knowledge of this historic quarter and its exceptional buildings.",
+    "section1": {
+      "title": "The 4th Arrondissement: A Living Museum of Parisian Architecture",
+      "paragraph1": "Between Place des Vosges, Hotel de Ville and Ile Saint-Louis, the 4th arrondissement contains some of the most beautiful historic buildings in Paris. From 17th-century hotels particuliers to medieval structures, these exceptional properties require <strong>specialized heritage expertise</strong> to preserve their character.",
+      "paragraph2": "Exposed beams, Louis XIII fireplaces, antique parquet floors, carved stone facades: our interior designers know how to <strong>restore and enhance these precious elements</strong> while discreetly integrating modern comfort and amenities."
+    },
+    "section2": {
+      "title": "Projects Worthy of Le Marais",
+      "paragraph1": "In the 4th, we work with discerning clients on prestigious projects: <strong>restoration of historic apartments</strong> from 80 to 300 sqm, sensitive modernization of listed spaces, or creation of refined pieds-a-terre for an international clientele.",
+      "paragraph2": "Our designers have established relationships with heritage authorities, specialist restorers and artisans trained in traditional techniques. An essential network to <strong>navigate complex heritage requirements</strong>.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise Honoring Le Marais Heritage",
+      "paragraph1": "Property owners in the 4th expect absolute respect for historical authenticity combined with invisible modern comfort. Our interior designers collaborate with <strong>master craftsmen</strong>: restoration carpenters, stone masons, gilders and specialists in period techniques.",
+      "paragraph2": "From initial survey to final handover, we ensure <strong>rigorous heritage compliance</strong>. Our network regularly works around Place des Vosges, Rue des Francs-Bourgeois, Village Saint-Paul and Ile Saint-Louis."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 4th",
+      "description": "Whatever the scope of your heritage project, we connect you with the interior designer most qualified to honor your property's history."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Heritage Restoration",
+        "description": "Meticulous restoration of historic apartments respecting period authenticity. Traditional techniques, approved materials, seamless integration of modern systems."
+      },
+      "layout": {
+        "title": "Sensitive Modernization",
+        "description": "Discreet integration of contemporary kitchens, bathrooms and technology within historic settings. Reversible interventions that preserve original features."
+      },
+      "decoration": {
+        "title": "Period-Appropriate Decoration",
+        "description": "Selection of antiques, period furniture and art that complement your property's heritage. Access to specialist dealers and auction expertise."
+      },
+      "furnishing": {
+        "title": "Complete Heritage Service",
+        "description": "Full service for international owners: from heritage assessment to turnkey delivery of an authentically restored Marais apartment."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "25+",
+        "label": "projects completed in the 4th"
+      },
+      "satisfaction": {
+        "value": "99%",
+        "label": "satisfied clients"
+      },
+      "network": {
+        "value": "10+",
+        "label": "heritage specialists"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 4th",
+      "q1": {
+        "question": "What are the prices for heritage renovation in the 4th?",
+        "answer": "Heritage renovation in the 4th typically ranges from 2,500 to 4,500 euros excl. VAT/sqm due to the specialized techniques required. Projects involving listed elements or requiring heritage architect approval can reach 5,000 to 7,000 euros/sqm."
+      },
+      "q2": {
+        "question": "How long does a heritage renovation take in the 4th?",
+        "answer": "Heritage renovations in the 4th typically take 6 to 12 months due to the careful approach required. Projects in listed buildings may require additional time for heritage approvals and specialized craftsman availability."
+      },
+      "q3": {
+        "question": "Do you work with the heritage authorities (ABF)?",
+        "answer": "Yes, our network includes architects experienced in working with the Architectes des Batiments de France. They understand the requirements and can guide your project through the approval process while achieving your design goals."
+      },
+      "q4": {
+        "question": "Can you install modern amenities in a historic Marais apartment?",
+        "answer": "Absolutely. Our specialists excel at discreet modernization: underfloor heating, integrated climate control, hidden technology, modern kitchens and bathrooms that respect the historic character while providing contemporary comfort."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 4th Starts Here",
+      "description": "Whether you want to restore an apartment near Place des Vosges or create a refined pied-a-terre on Ile Saint-Louis, we have heritage specialists who will honor your property.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "ArchitecteParis3Service": {
+    "metadata": {
+      "title": "Interior Designer Paris 3rd | Hauss Paris - Haut Marais Renovation",
+      "description": "Find your interior designer in Paris 3rd arrondissement. Specialists in contemporary design and gallery-style interiors in Haut Marais. Free consultation."
+    },
+    "eyebrow": "Paris 3rd",
+    "title": "Interior Designer in the 3rd Arrondissement: Contemporary Vision for Your Project",
+    "intro": "The 3rd arrondissement of Paris, the trendy Haut Marais, is where historic architecture meets contemporary art and design. Our selected interior designers understand this unique creative energy.",
+    "section1": {
+      "title": "The 3rd Arrondissement: Where Heritage Meets Contemporary Art",
+      "paragraph1": "Between Rue de Bretagne, Arts et Metiers and the northern Marais, the 3rd arrondissement has become Paris's creative heart. Historic buildings house contemporary art galleries, fashion showrooms and design studios, creating a <strong>unique aesthetic environment</strong>.",
+      "paragraph2": "17th-century architecture, former manufacturing spaces, intimate courtyards: our interior designers know how to <strong>create gallery-worthy interiors</strong> that honor the past while embracing cutting-edge contemporary design."
+    },
+    "section2": {
+      "title": "Projects for Design-Forward Clients",
+      "paragraph1": "In the 3rd, we work with creatives, collectors and design enthusiasts on inspiring projects: <strong>gallery-style apartments from 70 to 250 sqm</strong>, live-work spaces for artists and designers, or refined homes that showcase art collections.",
+      "paragraph2": "Our designers are connected to the local creative community, understand gallery lighting, art display requirements and the sophisticated minimalism that defines the Haut Marais aesthetic.",
+      "cta": "Discuss your project"
+    },
+    "section3": {
+      "title": "Expertise for Design-Conscious Clients",
+      "paragraph1": "Residents of the 3rd expect interiors that could grace design publications. Our interior designers work with <strong>contemporary craftsmen</strong>: bespoke furniture makers, lighting designers, and artisans who create museum-quality finishes.",
+      "paragraph2": "From concept to installation, we ensure <strong>gallery-standard execution</strong>. Our network regularly works near Rue de Turenne, Temple, Arts et Metiers and the Carreau du Temple."
+    },
+    "sectionIntro": {
+      "eyebrow": "Our Services",
+      "title": "Complete Support for Your Project in the 3rd",
+      "description": "Whatever your design ambitions, we connect you with the interior designer who shares your contemporary vision."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Gallery-Style Renovation",
+        "description": "Transformation of historic spaces into contemporary showcases. Clean lines, perfect proportions, museum-quality finishes that highlight architectural features."
+      },
+      "layout": {
+        "title": "Live-Work Spaces",
+        "description": "Creation of sophisticated spaces that combine living and working, perfect for creatives, gallerists and design professionals."
+      },
+      "decoration": {
+        "title": "Art-Focused Design",
+        "description": "Interiors designed around art collections. Gallery lighting, climate control, flexible display systems and backgrounds that enhance your pieces."
+      },
+      "furnishing": {
+        "title": "Curated Contemporary Furnishing",
+        "description": "Selection of design furniture, limited editions and commissioned pieces. Access to showrooms, galleries and emerging designers."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "30+",
+        "label": "projects completed in the 3rd"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "satisfied clients"
+      },
+      "network": {
+        "value": "10+",
+        "label": "design specialists"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions - Paris 3rd",
+      "q1": {
+        "question": "What are the prices for contemporary renovation in the 3rd?",
+        "answer": "For a design-forward renovation in the 3rd, expect between 1,800 and 3,500 euros excl. VAT/sqm. Projects with gallery-standard finishes, custom furniture and sophisticated lighting systems typically range from 3,000 to 5,000 euros/sqm."
+      },
+      "q2": {
+        "question": "How long does a gallery-style renovation take?",
+        "answer": "A gallery-style renovation in the 3rd typically takes 4 to 8 months, allowing time for custom elements and precise execution. Projects with bespoke furniture and art-specific installations may require additional time."
+      },
+      "q3": {
+        "question": "Can you design spaces specifically for art display?",
+        "answer": "Absolutely. Several designers in our network specialize in collector residences. They understand gallery lighting, climate requirements, security considerations and how to create backgrounds that enhance rather than compete with artwork."
+      },
+      "q4": {
+        "question": "Do you work with contemporary furniture designers?",
+        "answer": "Yes, our designers have relationships with local showrooms, emerging designers and established names. They can source limited editions, commission bespoke pieces or create custom furniture that perfectly fits your space."
+      }
+    },
+    "cta": {
+      "title": "Your Project in the 3rd Starts Here",
+      "description": "Whether you want to create a gallery-worthy apartment near Rue de Bretagne or design a live-work space in the Haut Marais, we have designers who share your contemporary vision.",
+      "button": "Request a Free Consultation"
+    },
+    "mainServiceLink": {
+      "title": "Discover All Our Services",
+      "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
+      "link": "See our interior design services"
+    }
+  },
+  "FAQPage": {
+    "metadata": {
+      "title": "Interior Design Paris FAQ | Frequently Asked Questions | Hauss Paris",
+      "description": "Answers to frequently asked questions about interior design in Paris: fees, timelines, process, differences between decorator and designer. Complete guide."
+    },
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions About Interior Design",
+    "intro": "Have questions about your renovation or interior design project in Paris? Find here the answers to our clients' most frequently asked questions.",
+    "categories": {
+      "general": "General Questions",
+      "pricing": "Pricing and Budget",
+      "process": "Process and Timeline",
+      "services": "Our Services"
+    },
+    "q1": {
+      "question": "How much does an interior designer cost in Paris?",
+      "answer": "Interior designer fees in Paris vary by project type. For a one-time consultation, expect €150-300/hour. For a complete project, fees typically represent 8-15% of construction costs, ranging from €5,000 to €50,000 depending on scope. Hauss Paris helps you find a professional suited to your budget."
+    },
+    "q2": {
+      "question": "What's the difference between an interior designer and a decorator?",
+      "answer": "An interior designer can modify your space's structure (partitions, plumbing, electrical) and coordinate major construction. A decorator works on styling: furniture selection, colors, textiles, accessories. For a complete renovation, choose an interior designer. For a refresh without construction, a decorator suffices."
+    },
+    "q3": {
+      "question": "Can I manage my renovation project from abroad?",
+      "answer": "Absolutely, this is actually our specialty at Hauss Paris. We support many international clients (expats, investors, second-home owners). The designer manages everything on-site: surveys, construction monitoring, deliveries. You receive regular updates with photos and validate key stages remotely."
+    },
+    "q4": {
+      "question": "How do I choose an interior designer in Paris?",
+      "answer": "Check their diploma (CFAI, ENSAD, recognized school), references, and style. Ask for examples of projects similar to yours. Ensure they have professional liability insurance. Hauss Paris verifies all these points before recommending a designer and presents you with 1-3 profiles suited to your project."
+    },
+    "q5": {
+      "question": "What budget should I plan for an apartment renovation in Paris?",
+      "answer": "Budget depends on scope: simple refresh (€500-800/sqm), partial renovation (€1,000-1,500/sqm), complete renovation (€1,500-2,500/sqm), high-end renovation (€2,500-4,000/sqm). These prices include construction but not designer fees (8-15% extra) or furniture."
+    },
+    "q6": {
+      "question": "Are designer fees negotiable?",
+      "answer": "Designers in our network offer transparent pricing from the first contact. Their billing method (flat fee, percentage, or hourly rate) is adapted to your project's nature. We help you compare quotes and choose the most relevant formula."
+    },
+    "q7": {
+      "question": "What are the hidden costs of a renovation?",
+      "answer": "Plan for a 10-15% margin for unexpected issues: discoveries during demolition (old plumbing, non-compliant electrical), supplier delays, mid-project changes. A good designer anticipates these risks and advises you on items to secure."
+    },
+    "q8": {
+      "question": "How long does an apartment renovation take in Paris?",
+      "answer": "Plan 2-3 months for a partial renovation (kitchen, bathroom), 4-6 months for a complete renovation of an 80-120 sqm apartment. Timelines include the study phase (1-2 months), condo board approvals (1-2 months), and actual construction (2-4 months)."
+    },
+    "q9": {
+      "question": "Do I need a building permit to renovate an apartment in Paris?",
+      "answer": "A building permit is rarely needed for interior renovation. However, you must obtain condo board approval for work affecting common areas or modifying the exterior appearance. Some listed buildings have additional constraints that your designer will manage."
+    },
+    "q10": {
+      "question": "How does a project work with Hauss Paris?",
+      "answer": "1) Free 30-min consultation to understand your project. 2) We select 1-3 suited designers. 3) You meet the candidates and choose. 4) The designer handles your project (study, construction, furnishing). Our matching service is free for individuals."
+    },
+    "q11": {
+      "question": "Do you work on commercial projects?",
+      "answer": "Yes, our network includes designers specialized in commercial spaces: shops, restaurants, hotels, offices. They know ERP standards, accessibility requirements, and tight retail deadlines. Contact us with your specifications."
+    },
+    "q12": {
+      "question": "Do you offer home staging services?",
+      "answer": "Yes, several decorators in our network specialize in home staging for sale or rental. They optimize your property's presentation to accelerate transactions and maximize price. Service particularly useful for investors."
+    },
+    "q13": {
+      "question": "Do you work outside Paris?",
+      "answer": "Our network covers central Paris and all Île-de-France: Neuilly, Boulogne, Versailles, Saint-Germain-en-Laye, and departments 92, 93, 94, 78. For projects in provinces or abroad, contact us to explore possibilities."
+    },
+    "cta": {
+      "title": "Have More Questions?",
+      "description": "Our team is available to answer all your questions and support you in your interior design project in Paris.",
+      "button": "Contact Us",
+      "servicesButton": "Discover Our Services"
+    }
+  }
+}

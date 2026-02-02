@@ -1,0 +1,525 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import { StatList, StatListItem } from '@/components/StatList'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-20',
+  title: 'Ristrutturazione Appartamento Parigi: Guida Completa 2026',
+  description: 'Scopri tutto ciò che devi sapere per ristrutturare un appartamento a Parigi: prezzo al m², tipi di ristrutturazione, tempi, procedure amministrative, specificità haussmanniane e 7 fasi chiave del progetto.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondatore',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'it',
+}
+
+export const metadata = {
+  title: 'Ristrutturazione Appartamento Parigi: Trova il Tuo Architetto',
+  description: 'Scopri tutto ciò che devi sapere per ristrutturare un appartamento a Parigi: prezzo al m², tipi di ristrutturazione, tempi, procedure amministrative, specificità haussmanniane e 7 fasi chiave del progetto.',
+  keywords: [
+    'ristrutturazione appartamento Parigi',
+    'architetto interni Parigi',
+    'prezzo ristrutturazione Parigi',
+    'ristrutturazione haussmanniano',
+    'architetto Parigi',
+    'lavori appartamento Parigi',
+    'budget ristrutturazione Parigi',
+    'ristrutturazione completa Parigi',
+    'condominio Parigi lavori',
+    'architetto ristrutturazione Parigi'
+  ],
+  openGraph: {
+    title: 'Ristrutturazione Appartamento Parigi: Guida Completa 2026 | Hauss Paris',
+    description: 'Scopri tutto ciò che devi sapere per ristrutturare un appartamento a Parigi: prezzo al m², tipi di ristrutturazione, tempi, procedure amministrative, specificità haussmanniane e 7 fasi chiave del progetto.',
+    type: 'article',
+    publishedTime: '2026-01-20T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/renovation-appartement-paris-guide-complet/renovation-appartement-paris-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Ristrutturazione appartamento Parigi - Guida completa',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/it/blog/ristrutturazione-appartamento-parigi-guida-completa',
+    languages: {
+      'fr': '/fr/blog/renovation-appartement-paris-guide-complet',
+      'en': '/en/blog/apartment-renovation-paris-complete-guide',
+      'es': '/es/blog/renovacion-apartamento-paris-guia-completa',
+      'de': '/de/blog/wohnungsrenovierung-paris-kompletter-leitfaden',
+      'it': '/it/blog/ristrutturazione-appartamento-parigi-guida-completa',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Ho bisogno di un architetto per ristrutturare il mio appartamento a Parigi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un architetto d'interni non è legalmente obbligatorio per lavori semplici (pittura, cambio rivestimenti), ma diventa indispensabile quando modifichi la distribuzione, rinnovi completamente una cucina o un bagno, tocchi gli impianti elettrici o idraulici, o investi più di 30.000€ nella tua ristrutturazione. Ottimizza il tuo budget (risparmi del 20-30%), evita errori costosi e garantisce un risultato professionale che valorizza il tuo immobile del 15-30%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo richiede una ristrutturazione di appartamento a Parigi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La durata dipende dall'ampiezza: Ristrutturazione leggera 2-4 settimane, Ristrutturazione parziale 1-3 mesi, Ristrutturazione completa 3-6 mesi, Ristrutturazione pesante 6-12 mesi. A questo si aggiungono le procedure amministrative (autorizzazione condominio, dichiarazione lavori) che richiedono da 2 a 8 settimane supplementari secondo la complessità."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso ristrutturare il mio appartamento a Parigi senza autorizzazione?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, l'autorizzazione del condominio è SEMPRE obbligatoria, anche per lavori che ti sembrano minori. Ristrutturare senza autorizzazione ti espone a: diffida dell'amministratore, azione giudiziaria del condominio, obbligo di ripristino a tue spese e difficoltà in caso di futura vendita."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qual è il prezzo di una ristrutturazione completa di un 50m² a Parigi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Per una ristrutturazione completa di un appartamento di 50m² a Parigi, conta tra 60.000€ e 125.000€ secondo il livello di finiture, cioè 1.200-2.500€ al m². Le variabili chiave sono: stato iniziale, tipo di edificio (haussmanniano più caro), livello di finiture (IKEA vs alta gamma) e vincoli di accesso."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Ristrutturazione Appartamento Parigi: Guida Completa 2026",
+  "description": "Scopri tutto ciò che devi sapere per ristrutturare un appartamento a Parigi: prezzo al m², tipi di ristrutturazione, tempi, procedure amministrative, specificità haussmanniane e 7 fasi chiave del progetto.",
+  "image": "https://haussparis.com/blog/renovation-appartement-paris-guide-complet/renovation-appartement-paris-hero.jpg",
+  "datePublished": "2026-01-20T09:00:00Z",
+  "dateModified": "2026-01-20T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondatore",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/it/blog/ristrutturazione-appartamento-parigi-guida-completa"
+  },
+  "keywords": "ristrutturazione appartamento Parigi, architetto interni Parigi, prezzo ristrutturazione Parigi, ristrutturazione haussmanniano, architetto Parigi, lavori appartamento Parigi, budget ristrutturazione Parigi, ristrutturazione completa Parigi, condominio Parigi lavori, architetto ristrutturazione Parigi",
+  "articleSection": "Ristrutturazione",
+  "inLanguage": "it-IT"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduzione
+
+Ristrutturare un appartamento a Parigi può rapidamente diventare un grattacapo: trovare il giusto architetto d'interni, gestire le procedure amministrative con il condominio, rispettare il budget senza sacrificare la qualità... Sogni di trasformare il tuo spazio ma non sai da dove cominciare?
+
+Tra i vincoli specifici degli edifici parigini, i regolamenti condominiali rigidi e la difficoltà di trovare rapidamente un professionista affidabile, il tuo progetto di ristrutturazione appartamento a Parigi merita di essere accompagnato dall'esperto giusto.
+
+**Hauss Paris** semplifica questa ricerca: ti mettiamo in contatto con architetti d'interni selezionati, specializzati nella ristrutturazione a Parigi. Matching personalizzato secondo il tuo stile, budget e tipo di progetto. **Trovi il tuo architetto ideale, gratuitamente e senza impegno.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trova il tuo architetto</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Descrivi il tuo progetto • Gratuito e senza impegno
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Indice</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#perche-ristrutturare" className="text-neutral-600 hover:text-neutral-950 transition">1. Perché Ristrutturare il Tuo Appartamento a Parigi nel 2026?</a></li>
+      <li><a href="#tipo-ristrutturazione" className="text-neutral-600 hover:text-neutral-950 transition">2. Quale Tipo di Ristrutturazione per il Tuo Appartamento Parigino?</a></li>
+      <li><a href="#costo-ristrutturazione" className="text-neutral-600 hover:text-neutral-950 transition">3. Quanto Costa una Ristrutturazione di Appartamento a Parigi nel 2026?</a></li>
+      <li><a href="#fasi-chiave" className="text-neutral-600 hover:text-neutral-950 transition">4. Ristrutturazione Appartamento Parigi: Le 7 Fasi Chiave</a></li>
+      <li><a href="#specificita-parigi" className="text-neutral-600 hover:text-neutral-950 transition">5. Le Specificità di una Ristrutturazione di Appartamento a Parigi</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Domande Frequenti sulla Ristrutturazione di Appartamento a Parigi</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="perche-ristrutturare">Perché Ristrutturare il Tuo Appartamento a Parigi nel 2026?</h2>
+
+La ristrutturazione di un appartamento parigino è molto più di un semplice rinnovo estetico. È un investimento strategico che trasforma la tua quotidianità e valorizza il tuo patrimonio.
+
+### Valorizzare il Tuo Patrimonio Immobiliare
+
+Il mercato immobiliare parigino è uno dei più dinamici d'Europa, e gli acquirenti cercano immobili chiavi in mano. Un appartamento ristrutturato con gusto si vende in media **dal 20 al 30% più caro** di un immobile da ristrutturare di superficie equivalente. Ancora di più, si vende **due volte più velocemente**: 45 giorni contro 90 giorni in media per un immobile che necessita lavori.
+
+Se affitti il tuo immobile, una ristrutturazione curata ti permette di aumentare il tuo affitto dal 15 al 25% attirando inquilini più stabili e solvibili. Nei quartieri più ricercati come il 16°, il 7° o il Marais, questa plusvalenza può rappresentare diverse centinaia di euro al mese.
+
+### Migliorare il Tuo Comfort di Vita Quotidiano
+
+A Parigi, ogni metro quadrato conta. Una ristrutturazione ben pensata ottimizza i tuoi spazi e trasforma il tuo appartamento in un luogo di vita funzionale e piacevole. Modernizzare la tua cucina per creare uno spazio conviviale, rifare completamente il tuo bagno per guadagnare in comfort, o installare un isolamento acustico performante nella tua camera: tanti piccoli dettagli che cambiano radicalmente il tuo quotidiano.
+
+Gli edifici parigini antichi, in particolare gli edifici haussmanniani, soffrono spesso di un isolamento termico e acustico insufficiente. Una ristrutturazione energetica può ridurre la tua bolletta del riscaldamento dal 40 al 60% migliorando significativamente il tuo comfort.
+
+### Adattare la Tua Abitazione alle Tue Esigenze
+
+La tua vita evolve, e il tuo appartamento deve seguire. Famiglia che si allarga? Bisogno urgente di un ufficio per il telelavoro? Voglia di creare una cabina armadio su misura o sistemare una camera aggiuntiva? La ristrutturazione ti permette di adattare perfettamente il tuo spazio al tuo stile di vita attuale.
+
+Molti parigini approfittano anche dell'acquisto di un immobile da ristrutturare per entrare nel mercato immobiliare a un prezzo più accessibile. Un appartamento che necessita lavori costa dal 15 al 25% in meno, e dopo la ristrutturazione, disponi di un immobile nuovo perfettamente adattato ai tuoi gusti.
+
+---
+
+<h2 id="tipo-ristrutturazione">Quale Tipo di Ristrutturazione per il Tuo Appartamento Parigino?</h2>
+
+Non tutte le ristrutturazioni sono uguali. Secondo lo stato del tuo appartamento, il tuo budget e le tue ambizioni, diverse opzioni si offrono a te. Ecco come orientarti.
+
+### Ristrutturazione Leggera: Il Rinnovo Express
+
+**In cosa consiste?** Mantieni la distribuzione esistente e ti concentri sull'aspetto estetico: nuova pittura, cambio dei rivestimenti pavimento (parquet, piastrelle), sostituzione dei lampadari e delle maniglie delle porte. È il "ritocco" che ridà splendore al tuo appartamento.
+
+<StatList>
+  <StatListItem value="200-500 €/m²" label="Budget" />
+  <StatListItem value="2-4 settimane" label="Durata" />
+  <StatListItem value="Facoltativo" label="Architetto" />
+</StatList>
+
+**Ideale per:** Preparare un affitto, rinfrescare un appartamento già funzionale, o investire con un budget limitato.
+
+### Ristrutturazione Parziale: Modernizzare le Stanze Chiave
+
+**In cosa consiste?** Rinnovi completamente una o due stanze strategiche, generalmente la cucina e il bagno, mentre rinfreschi il resto dell'appartamento. Gli impianti elettrici e idraulici di queste stanze sono rifatti completamente.
+
+<StatList>
+  <StatListItem value="500-1.200 €/m²" label="Budget" />
+  <StatListItem value="1-3 mesi" label="Durata" />
+  <StatListItem value="Consigliato" label="Architetto" />
+</StatList>
+
+**Ideale per:** Modernizzare un appartamento degli anni 80-90 la cui distribuzione ti conviene globalmente.
+
+### Ristrutturazione Completa: Rifare Tutto da Capo
+
+**In cosa consiste?** Metti l'appartamento a nudo: elettricità, idraulica, tramezzi, pavimenti, tutto viene rifatto. Riparti su una base sana con installazioni a norma e finiture di qualità secondo le tue scelte.
+
+<StatList>
+  <StatListItem value="1.200-2.500 €/m²" label="Budget" />
+  <StatListItem value="3-6 mesi" label="Durata" />
+  <StatListItem value="Indispensabile" label="Architetto" />
+</StatList>
+
+**Ideale per:** Appartamenti antichi non ristrutturati da 30+ anni, o dopo l'acquisto di un immobile che necessita una rimessa a norma completa.
+
+### Ristrutturazione Pesante: Ristrutturare Completamente
+
+**In cosa consiste?** Modifichi la struttura stessa dell'appartamento: spostamento o eliminazione di muri portanti, creazione di soppalchi, modifica delle aperture, riorganizzazione completa della distribuzione delle stanze.
+
+<StatList>
+  <StatListItem value="2.000-4.000+ €/m²" label="Budget" />
+  <StatListItem value="6-12 mesi" label="Durata" />
+  <StatListItem value="Obbligatorio" label="Architetto" />
+</StatList>
+
+**Ideale per:** Appartamenti haussmanniani da riorganizzare, grandi spazi da trasformare, o progetti ambiziosi che combinano diverse piccole superfici.
+
+---
+
+<h2 id="costo-ristrutturazione">Quanto Costa una Ristrutturazione di Appartamento a Parigi nel 2026?</h2>
+
+Il budget è spesso la prima domanda che ti poni. A Parigi, i prezzi di ristrutturazione sono dal 15 al 25% più alti che in provincia, principalmente a causa del costo della manodopera specializzata, della complessità di accesso ai cantieri e dei vincoli urbani specifici. Ma con una buona pianificazione, il tuo investimento sarà rapidamente ammortizzato.
+
+### Prezzi Medi per Tipo di Ristrutturazione a Parigi
+
+Ecco le fasce di prezzo constatate nel 2026 per la ristrutturazione di appartamenti a Parigi:
+
+- **Ristrutturazione leggera:** 200-500 € / m² → Un monolocale di 25m² costerà tra 5.000€ e 12.500€
+- **Ristrutturazione parziale:** 500-1.200 € / m² → Un bilocale di 45m² costerà tra 22.500€ e 54.000€
+- **Ristrutturazione completa:** 1.200-2.500 € / m² → Un trilocale di 65m² costerà tra 78.000€ e 162.500€
+- **Ristrutturazione pesante:** 2.000-4.000+ € / m² → Un quadrilocale di 90m² costerà tra 180.000€ e 360.000€+
+
+> **Importante:** Queste fasce sono indicative. Il prezzo finale dipende da numerosi fattori: stato iniziale, tipo di edificio, arrondissement, livello di finiture, vincoli tecnici e amministrativi.
+
+### I 7 Fattori che Influenzano il Costo della Tua Ristrutturazione
+
+#### 1. La superficie e lo stato iniziale
+
+Più grande è il tuo appartamento, più diminuisce il prezzo al m² (economie di scala sugli acquisti raggruppati di materiali). Al contrario, un appartamento molto degradato necessiterà lavori di rimessa a norma che aumentano la fattura dal 20 al 40%.
+
+#### 2. Il tipo di edificio
+
+Ristrutturare un appartamento in un edificio haussmanniano è generalmente dal 25 al 35% più caro di un immobile degli anni 70. Perché? Soffitti molto alti (3,20m in media), modanature ed elementi patrimoniali da preservare, assenza totale di isolamento originale, muri portanti spessi che necessitano materiale specializzato.
+
+#### 3. L'arrondissement
+
+I vincoli di accesso al cantiere variano secondo i quartieri. Nel Marais o sull'Île Saint-Louis, la strettezza delle vie e l'assenza di ascensore possono aumentare i costi dal 10 al 15%. Al contrario, gli edifici recenti del 13° o 15° sono più facili da accedere.
+
+#### 4. Il livello di finiture
+
+Le finiture rappresentano dal 30 al 40% del budget totale. Tra piastrelle standard a 25€/m² e marmo italiano a 200€/m², tra una cucina IKEA a 3.000€ e una cucina alta gamma a 20.000€, gli scarti sono considerevoli. Un architetto ti aiuta a dare priorità ai tuoi investimenti.
+
+#### 5. I vincoli tecnici
+
+Se la tua elettricità data del 1970 (con fili in tessuto!) o la tua idraulica è in piombo, la rimessa a norma è obbligatoria e rappresenta un sovracosto da 8.000 a 15.000€ secondo la superficie.
+
+#### 6. I vincoli amministrativi
+
+Appartamento in un edificio classificato? Situato in un settore salvaguardato (Marais, Quartiere Latino)? Dovrai ottenere l'accordo dell'Architetto degli Edifici di Francia (ABF), che può allungare i tempi e imporre materiali specifici più costosi.
+
+#### 7. Il periodo dei lavori
+
+Programmare i tuoi lavori in bassa stagione (gennaio-febbraio, novembre) può farti risparmiare dal 10 al 15% sulla manodopera. Gli artigiani sono più disponibili e più flessibili sulle loro tariffe.
+
+### Il Costo di un Architetto d'Interni: Un Investimento Redditizio
+
+Molti esitano a ricorrere a un architetto per paura del costo aggiuntivo. È tuttavia un **errore di economia** che può costarti molto di più.
+
+#### Quanto costa un architetto d'interni a Parigi?
+
+- **Onorari in percentuale:** dall'8 al 15% dell'importo totale dei lavori (10-12% in media a Parigi)
+- **Forfait** per piccoli progetti: 3.000-8.000€
+- **Tariffa oraria** per missione consulenza: 80-150€/h (raro per ristrutturazione completa)
+
+Per una ristrutturazione completa di 80.000€, gli onorari dell'architetto rappresentano quindi 8.000-12.000€. Questo può sembrare elevato, ma ecco perché è in realtà un eccellente investimento:
+
+#### Il ROI di un Architetto: Calcolo Reale
+
+**Esempio: Ristrutturazione di un 60m² - Budget 80.000€**
+
+- Onorari architetto (10%): **8.000€**
+- Risparmi grazie alla sua rete di artigiani: **-6.000€** (negoziazione raggruppata, tariffe preferenziali)
+- Errori evitati (scelte sbagliate, difetti): **-12.000€** (30% del budget secondo studi)
+- Ottimizzazione della distribuzione e degli acquisti: **-5.000€** (nessun sovradimensionamento, scelte pertinenti)
+
+**→ Costo NETTO dell'architetto: 0€** (anzi risparmi di 5.000€)
+**+ Plusvalenza qualitativa:** Risultato professionale, coerenza estetica, valorizzazione dell'immobile (+15-30% alla rivendita)
+
+> **Verdetto:** Un buon architetto si ripaga da solo. Non paghi 8.000€, investi per risparmiare molto di più e ottenere un risultato di qualità professionale.
+
+<div className="not-prose my-12">
+  <div className="rounded-3xl bg-neutral-100 p-6 sm:p-10">
+    <h3 className="font-display text-base font-semibold text-neutral-950">
+      Quale tipo di ristrutturazione per il tuo progetto? Parliamone.
+    </h3>
+    <div className="mt-6">
+      <Button href="/contact">Descrivi il tuo progetto gratuitamente</Button>
+    </div>
+  </div>
+</div>
+
+---
+
+<h2 id="fasi-chiave">Ristrutturazione Appartamento Parigi: Le 7 Fasi Chiave</h2>
+
+Ristrutturare un appartamento a Parigi segue un processo ben definito. Ecco come si svolge un progetto tipo dal primo incontro al trasloco.
+
+### Fase 1: Definire il Tuo Progetto e Budget (1-2 settimane)
+
+Prima di contattare chiunque, prenditi il tempo per chiarire i tuoi desideri. Quali stanze vuoi ristrutturare? Qual è il tuo budget realistico? Quale stile ti attrae (moderno, classico, industriale)? Crea una bacheca Pinterest con le tue ispirazioni.
+
+> **È in questa fase che Hauss Paris interviene per trovare l'architetto perfettamente adattato al tuo progetto.**
+
+### Fase 2: Trovare il Tuo Architetto d'Interni (2-6 settimane tradizionalmente)
+
+Tradizionalmente, questa fase è la più dispendiosa in tempo e frustrante: ore di ricerca su Google, Houzz, Instagram, decine di email senza risposta, incontri con professionisti non disponibili o non allineati con la tua visione...
+
+**Con Hauss Paris, tutto cambia:** compili un questionario dettagliato sul tuo progetto, e ti proponiamo 2-3 profili di architetti prequalificati, disponibili e perfettamente adattati alle tue esigenze. Incontri rapidamente i professionisti giusti.
+
+### Fase 3: Studio di Fattibilità e Progetto Preliminare (3-4 settimane)
+
+L'architetto si sposta a casa tua per prendere le misure precise, realizzare una diagnosi tecnica (stato degli impianti elettrici, idraulici, struttura). Ti presenta poi diversi schizzi con diverse opzioni di distribuzione e una prima stima di budget cifrata.
+
+È il momento delle decisioni: aprire la cucina sul soggiorno? Creare una cabina armadio? Modificare il bagno? L'architetto ti consiglia sulla fattibilità e l'impatto di ogni opzione.
+
+### Fase 4: Concezione e Validazione del Progetto (2-4 settimane)
+
+Una volta validato il progetto preliminare, l'architetto produce i piani definitivi in 2D e 3D, il capitolato d'appalto dettagliato per ogni corpo di mestiere, e ti aiuta a scegliere tutti i materiali (piastrelle, parquet, pitture, rubinetteria, lampadari...). Ricevi preventivi dettagliati da ogni artigiano.
+
+È la tua ultima occasione per modificare elementi prima del lancio del cantiere. Prenditi il tempo per validare bene ogni dettaglio.
+
+### Fase 5: Procedure Amministrative (2-8 settimane secondo progetto)
+
+Prima di attaccare i lavori, diverse autorizzazioni sono necessarie a Parigi:
+
+- **Autorizzazione del condominio:** SEMPRE obbligatoria, anche per lavori "semplici"
+- **Dichiarazione preventiva di lavori:** Se modifichi l'aspetto esterno (finestre, balcone) o crei superficie
+- **Permesso di costruire:** Se tocchi la struttura o crei più di 20m² di superficie
+- **Assicurazione danni:** Fortemente raccomandata (obbligatoria se rivendita entro 10 anni)
+
+**Buone notizie:** Il tuo architetto gestisce tutte queste procedure per te. Devi solo firmare i documenti.
+
+### Fase 6: Lavori di Ristrutturazione (2-6 mesi secondo ampiezza)
+
+Il cantiere parte! I lavori seguono sempre lo stesso ordine logico:
+
+#### Le 3 fasi del cantiere
+
+1. **Demolizione e opere grezze** (1-2 settimane): Rimozione dell'esistente, smontaggio tramezzi
+2. **Seconda opera** (3-8 settimane): Elettricità, idraulica, isolamento, tramezzi, falegnameria
+3. **Finiture** (2-4 settimane): Pittura, pavimenti, posa cucina e bagno, lampadari
+
+#### Il ruolo dell'architetto durante i lavori
+
+Coordina tutti gli artigiani (idraulico, elettricista, piastrellista, imbianchino...), supervisiona ogni fase, valida la qualità del lavoro, e si assicura del rispetto della pianificazione e del budget. Sei informato regolarmente, ma è lui che gestisce il quotidiano del cantiere.
+
+### Fase 7: Ricezione e Finiture (1-2 settimane)
+
+Alla fine del cantiere, l'architetto organizza una visita di ricezione in tua presenza. Ispezioni ogni dettaglio e stabilisci una lista delle eventuali riserve (piccole imperfezioni da correggere). Gli artigiani hanno poi 2 settimane per eliminare queste riserve.
+
+Una volta tutto validato, puoi trasferirti nel tuo appartamento completamente ristrutturato!
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Pronto a lanciare il tuo progetto? Trova il tuo architetto</Button>
+</div>
+
+---
+
+<h2 id="specificita-parigi">Le Specificità di una Ristrutturazione di Appartamento a Parigi</h2>
+
+Ristrutturare a Parigi non è come ristrutturare altrove in Francia. La capitale impone vincoli unici che è essenziale conoscere prima di lanciarsi.
+
+### Vincoli di Condominio e Regolamenti Rigidi
+
+#### L'autorizzazione preventiva: obbligatoria in tutti i casi
+
+**L'autorizzazione preventiva è SEMPRE obbligatoria**, anche per lavori che ti sembrano minori. Prima di toccare il minimo muro, devi sottomettere il tuo progetto all'amministratore del condominio. Secondo l'ampiezza dei lavori, l'autorizzazione sarà data dall'amministratore solo o necessiterà un voto in assemblea generale.
+
+#### Orari di lavoro da rispettare
+
+I regolamenti condominiali parigini sono particolarmente rigidi sugli orari: generalmente, i lavori rumorosi sono autorizzati unicamente dal lunedì al venerdì dalle 8h alle 19h (a volte 18h). Il sabato, è spesso limitato alle 9h-13h, e la domenica è quasi sistematicamente vietata. Deroghe eccezionali possono essere ottenute per cantieri urgenti, ma sono rare.
+
+#### Lavori che toccano le parti comuni
+
+Se i tuoi lavori toccano le parti comuni (sostituzione di finestre che danno sulla strada, creazione di un'apertura verso la tromba delle scale, lavori sulla facciata), un voto in assemblea generale è obbligatorio. Conta da 2 a 6 mesi per ottenere questa autorizzazione.
+
+### Edifici Classificati e Zone Protette
+
+Parigi conta numerosi settori salvaguardati (Marais, Quartiere Latino, Montmartre...) e migliaia di edifici classificati o iscritti ai Monumenti Storici. Se il tuo appartamento si situa in uno di questi perimetri, **l'Architetto degli Edifici di Francia (ABF) deve validare il tuo progetto**.
+
+L'ABF è molto esigente su tutto ciò che è visibile dall'esterno: finestre, persiane, balconi, ma anche a volte sugli allestimenti interni se l'edificio è classificato. I tempi di istruttoria possono raggiungere da 3 a 6 mesi, e l'ABF può imporre materiali o colori specifici, generalmente più costosi.
+
+> **Buono a sapersi:** Un architetto abituato a lavorare a Parigi conosce questi vincoli a menadito e sa come presentare il tuo dossier per massimizzare le tue possibilità di ottenere rapidamente le autorizzazioni.
+
+### Appartamenti Haussmanniani: Un Caso Molto Particolare
+
+Gli edifici haussmanniani (costruiti tra il 1850 e il 1870) rappresentano circa il 60% del parco immobiliare parigino intramuros. Le loro caratteristiche uniche impattano direttamente il costo e la complessità della ristrutturazione:
+
+#### Le sfide tecniche degli appartamenti haussmanniani
+
+- **Soffitti alti (3,20m in media):** Magnifico per il volume, ma necessita ponteggi e aumenta le quantità di pittura e il tempo di lavoro (+20-30% sulla seconda opera)
+- **Modanature, rosoni, cornici:** Elementi patrimoniali da preservare assolutamente. Il loro restauro necessita artigiani specializzati (stuccatori-ornamentisti) i cui prezzi sono elevati (80-150€ l'ora)
+- **Parquet antico:** Spesso in rovere massello di grande qualità, ma necessitante una ristrutturazione completa (levigatura, vetrificazione). Budget: 50-90€/m²
+- **Assenza totale di isolamento:** I muri esterni hanno da 50 a 80cm di spessore ma non hanno nessun isolamento termico. Isolamento dall'interno obbligatorio, ma attenzione a non snaturare i volumi
+- **Installazioni d'epoca:** Elettricità e idraulica spesso d'origine o degli anni 1950-60, rimessa a norma obbligatoria e complessa
+
+#### La sfida principale
+
+Riuscire a modernizzare completamente l'appartamento (comfort, attrezzature, isolamento) preservando il suo fascino autentico. È precisamente il cuore del mestiere degli architetti d'interni specializzati nel patrimonio parigino.
+
+---
+
+<h2 id="faq">Domande Frequenti sulla Ristrutturazione di Appartamento a Parigi</h2>
+
+### Ho bisogno di un architetto per ristrutturare il mio appartamento a Parigi?
+
+Un architetto d'interni non è legalmente obbligatorio per lavori semplici (pittura, cambio rivestimenti), ma diventa **indispensabile** quando:
+
+- Modifichi la distribuzione (spostamento di tramezzi, anche non portanti)
+- Rinnovi completamente una cucina o un bagno
+- Tocchi gli impianti elettrici o idraulici
+- Investi più di 30.000€ nella tua ristrutturazione
+
+Perché? Perché ottimizza il tuo budget (risparmi del 20-30%), evita errori costosi, coordina tutti gli artigiani, gestisce le procedure amministrative, e ti garantisce un risultato professionale che valorizza il tuo immobile dal 15 al 30%.
+
+**In sintesi:** Per un semplice rinnovo, è facoltativo. Per tutto il resto, è il tuo migliore investimento.
+
+### Quanto tempo richiede una ristrutturazione di appartamento a Parigi?
+
+La durata dipende dall'ampiezza del tuo progetto:
+
+- **Ristrutturazione leggera:** 2-4 settimane
+- **Ristrutturazione parziale:** 1-3 mesi
+- **Ristrutturazione completa:** 3-6 mesi
+- **Ristrutturazione pesante:** 6-12 mesi
+
+A questo si aggiungono le procedure amministrative (autorizzazione condominio, dichiarazione lavori, permesso di costruire se necessario) che richiedono da 2 a 8 settimane supplementari secondo la complessità.
+
+**Consiglio:** Queste procedure possono essere condotte in parallelo della fase di concezione con l'architetto, il che ottimizza la pianificazione globale.
+
+### Posso ristrutturare il mio appartamento a Parigi senza autorizzazione?
+
+**No, l'autorizzazione del condominio è SEMPRE obbligatoria**, anche per lavori che ti sembrano minori. Ristrutturare senza autorizzazione ti espone a:
+
+- Una diffida dell'amministratore
+- Un'azione giudiziaria del condominio
+- L'obbligo di rimettere in stato a tue spese
+- Difficoltà durante una futura vendita (diagnosi e atto notarile)
+
+**Ciò che necessita un'autorizzazione:** Tutto ciò che tocca la struttura, l'idraulica, l'elettricità, le aperture, l'aspetto esterno, o che genera rumore.
+
+**Ciò che generalmente non necessita autorizzazione:** Unicamente la pittura dei muri e il cambio dei rivestimenti del pavimento senza toccare la struttura.
+
+Il tuo architetto gestisce tutte queste autorizzazioni per te e conosce le procedure a menadito.
+
+### Qual è il prezzo di una ristrutturazione completa di un 50m² a Parigi?
+
+Per una **ristrutturazione completa di un appartamento di 50m² a Parigi**, conta tra **60.000€ e 125.000€** secondo il livello di finiture, cioè 1.200-2.500€ al m².
+
+**Dettaglio del budget tipo per 50m²:**
+
+- Demolizione ed evacuazione: 3.000-5.000€
+- Opere grezze e tramezzi: 8.000-12.000€
+- Elettricità: 6.000-10.000€
+- Idraulica: 5.000-9.000€
+- Cucina attrezzata: 8.000-20.000€
+- Bagno: 7.000-15.000€
+- Pavimenti (parquet/piastrelle): 5.000-9.000€
+- Pittura e finiture: 6.000-10.000€
+- Falegnameria: 4.000-8.000€
+- Onorari architetto (10%): 6.000-12.000€
+
+**Variabili chiave:** Stato iniziale, tipo di edificio (haussmanniano più caro), livello di finiture (IKEA vs alta gamma), vincoli di accesso.
+
+---
+
+## Trasforma il Tuo Appartamento Parigino Ora
+
+Ristrutturare un appartamento a Parigi è un progetto ambizioso che esige esperienza, coordinazione e visione. Con il giusto architetto d'interni al tuo fianco, la tua ristrutturazione si trasforma in un'esperienza fluida e gratificante, dal primo schizzo al trasloco finale.
+
+**Hauss Paris** ti semplifica questa ricerca e ti mette direttamente in contatto con i migliori professionisti parigini, perfettamente adattati al tuo progetto specifico. **Incontri rapidamente gli architetti di cui hai bisogno. Gratuitamente. Senza impegno.**
+
+Più di 500 parigini ci hanno già dato fiducia per trovare il loro architetto ideale. Perché non tu?
+
+    </div>
+  </FadeIn>
+</Container>

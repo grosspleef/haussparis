@@ -1,0 +1,521 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-24',
+  title: 'Rénovation Appartement Ancien : Les 10 Erreurs à Éviter',
+  description: 'Découvrez les erreurs les plus courantes lors de la rénovation d\'un appartement ancien à Paris et comment les éviter : budget, réglementation, structure, choix des artisans et préservation du patrimoine.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Rénovation Appartement Ancien : 10 Erreurs à Éviter | Paris',
+  description: 'Découvrez les erreurs les plus courantes lors de la rénovation d\'un appartement ancien à Paris et comment les éviter : budget, réglementation, structure, choix des artisans et préservation du patrimoine.',
+  keywords: [
+    'erreurs rénovation',
+    'appartement ancien',
+    'rénovation haussmannien',
+    'pièges à éviter',
+    'rénovation Paris erreurs',
+    'budget rénovation',
+    'copropriété travaux',
+    'architecte rénovation ancien',
+    'travaux appartement ancien',
+    'conseils rénovation Paris'
+  ],
+  openGraph: {
+    title: 'Rénovation Appartement Ancien : Les 10 Erreurs à Éviter | Hauss Paris',
+    description: 'Découvrez les erreurs les plus courantes lors de la rénovation d\'un appartement ancien à Paris et comment les éviter : budget, réglementation, structure, choix des artisans.',
+    type: 'article',
+    publishedTime: '2026-01-24T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/renovation-appartement-ancien-erreurs-eviter/erreurs-renovation-ancien-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Erreurs à éviter en rénovation d\'appartement ancien',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/renovation-appartement-ancien-erreurs-eviter',
+    languages: {
+      'fr': '/fr/blog/renovation-appartement-ancien-erreurs-eviter',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelle marge de sécurité prévoir dans le budget de rénovation d'un appartement ancien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pour un appartement ancien à Paris, prévoyez une marge de sécurité de 15 à 20% du budget initial. Les imprévus sont quasi systématiques : problèmes d'électricité cachés, canalisations vétustes, humidité dans les murs, structure fragilisée. Plus l'appartement est ancien et moins il a été entretenu, plus cette marge doit être importante."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on abattre un mur porteur dans un appartement haussmannien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, mais avec de strictes précautions. L'intervention d'un bureau d'études structure est obligatoire pour calculer les charges et définir le renforcement nécessaire (IPN, poutre). L'autorisation de la copropriété est indispensable. Le coût est élevé (5000 à 15000€) et les risques importants en cas de travaux mal exécutés. Ne jamais tenter cette opération sans professionnels qualifiés."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment choisir un bon artisan pour rénover un appartement ancien à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vérifiez les assurances (décennale, RC Pro), demandez des références de chantiers similaires (appartements anciens), consultez les avis en ligne, et privilégiez le bouche-à-oreille. Les artisans recommandés par un architecte sont généralement fiables car leur réputation en dépend. Méfiez-vous des devis anormalement bas et des artisans qui acceptent tout sans visite préalable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il déclarer des travaux de rénovation à la copropriété ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, toujours. Même pour des travaux apparemment simples, l'autorisation de la copropriété est obligatoire dès que vous touchez à l'électricité, la plomberie, les cloisons ou que vous générez du bruit. Rénover sans autorisation vous expose à des poursuites judiciaires, l'obligation de remettre en état à vos frais, et des problèmes lors de la revente."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Rénovation Appartement Ancien : Les 10 Erreurs à Éviter",
+  "description": "Découvrez les erreurs les plus courantes lors de la rénovation d'un appartement ancien à Paris et comment les éviter.",
+  "image": "https://haussparis.com/blog/renovation-appartement-ancien-erreurs-eviter/erreurs-renovation-ancien-hero.jpg",
+  "datePublished": "2026-01-24T09:00:00Z",
+  "dateModified": "2026-01-24T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/fr/blog/renovation-appartement-ancien-erreurs-eviter"
+  },
+  "keywords": "erreurs rénovation, appartement ancien, rénovation haussmannien, pièges à éviter, rénovation Paris erreurs, budget rénovation",
+  "articleSection": "Rénovation",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+Rénover un appartement ancien à Paris est un projet passionnant mais semé d'embûches. Entre les contraintes spécifiques aux immeubles historiques, les réglementations strictes de la copropriété et les surprises que réservent les vieilles bâtisses, les pièges sont nombreux. Chaque année, des milliers de Parisiens voient leur projet de rénovation déraper : budgets explosés, délais rallongés, travaux à refaire, conflits avec les voisins ou le syndic.
+
+Ces erreurs ne sont pourtant pas une fatalité. La plupart peuvent être évitées avec une bonne préparation et l'accompagnement de professionnels expérimentés. Après avoir accompagné des centaines de projets de rénovation à Paris, nous avons identifié les 10 erreurs les plus fréquentes et les plus coûteuses.
+
+**Hauss Paris** vous accompagne dans votre projet de rénovation en vous mettant en relation avec des architectes d'intérieur spécialisés dans les appartements anciens parisiens. **Évitez les pièges et réussissez votre rénovation, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte spécialisé</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#erreur-1" className="text-neutral-600 hover:text-neutral-950 transition">1. Sous-Estimer le Budget</a></li>
+      <li><a href="#erreur-2" className="text-neutral-600 hover:text-neutral-950 transition">2. Ignorer les Règles de Copropriété</a></li>
+      <li><a href="#erreur-3" className="text-neutral-600 hover:text-neutral-950 transition">3. Ne Pas Faire de Diagnostic Technique</a></li>
+      <li><a href="#erreur-4" className="text-neutral-600 hover:text-neutral-950 transition">4. Mal Choisir Ses Artisans</a></li>
+      <li><a href="#erreur-5" className="text-neutral-600 hover:text-neutral-950 transition">5. Négliger la Structure du Bâtiment</a></li>
+      <li><a href="#erreur-6" className="text-neutral-600 hover:text-neutral-950 transition">6. Détruire le Patrimoine Architectural</a></li>
+      <li><a href="#erreur-7" className="text-neutral-600 hover:text-neutral-950 transition">7. Sous-Dimensionner l'Électricité</a></li>
+      <li><a href="#erreur-8" className="text-neutral-600 hover:text-neutral-950 transition">8. Négliger l'Isolation</a></li>
+      <li><a href="#erreur-9" className="text-neutral-600 hover:text-neutral-950 transition">9. Vouloir Tout Faire Soi-Même</a></li>
+      <li><a href="#erreur-10" className="text-neutral-600 hover:text-neutral-950 transition">10. Ne Pas Prévoir de Planning Réaliste</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="erreur-1">Erreur n°1 : Sous-Estimer le Budget</h2>
+
+C'est l'erreur la plus fréquente et la plus douloureuse. La grande majorité des projets de rénovation dépassent le budget initial, souvent de 20 à 50%. Dans le cas des appartements anciens, cette dérive peut être encore plus importante.
+
+### Pourquoi les Budgets Dérapent
+
+#### Les imprévus techniques
+
+Dans un appartement ancien, les mauvaises surprises sont quasi systématiques. Derrière le joli plâtre d'origine, on découvre souvent des installations électriques dangereuses (fils en tissu des années 1950), des canalisations en plomb à remplacer, de l'humidité infiltrée dans les murs, ou des planchers fragilisés. Chaque découverte génère des travaux supplémentaires non prévus au devis initial.
+
+#### La méconnaissance des prix parisiens
+
+Les prix de rénovation à Paris sont 15 à 30% plus élevés qu'en province. De plus, les appartements anciens, notamment haussmanniens, nécessitent souvent des artisans spécialisés dont les tarifs sont plus élevés. Beaucoup de propriétaires basent leur estimation sur des fourchettes nationales et se retrouvent confrontés à une réalité parisienne bien différente.
+
+#### Les changements en cours de chantier
+
+"Tant qu'on y est, on pourrait aussi..." Cette phrase a ruiné des budgets entiers. Les modifications en cours de chantier sont toujours plus coûteuses que si elles avaient été prévues dès le départ : démolition de ce qui vient d'être fait, commandes de matériaux supplémentaires, désorganisation du planning des artisans.
+
+### Comment Éviter Cette Erreur
+
+- **Prévoyez une marge de sécurité de 15 à 20%** du budget initial, voire 25% pour un appartement très ancien ou jamais rénové.
+- **Faites réaliser un diagnostic technique complet** avant de chiffrer les travaux (nous y reviendrons).
+- **Fixez vos choix avant le début du chantier** et tenez-vous-y. Chaque modification coûte cher.
+- **Faites appel à un architecte** qui sécurise le chiffrage et négocie avec les artisans.
+
+---
+
+<h2 id="erreur-2">Erreur n°2 : Ignorer les Règles de Copropriété</h2>
+
+À Paris, la quasi-totalité des appartements sont en copropriété. Ignorer les règles qui s'y appliquent peut transformer votre rénovation en cauchemar juridique et relationnel.
+
+### Ce Que Beaucoup de Propriétaires Ignorent
+
+#### L'autorisation est TOUJOURS obligatoire
+
+Même pour des travaux qui vous semblent mineurs, vous devez informer la copropriété et obtenir son autorisation. Changement de carrelage dans la salle de bains ? Autorisation nécessaire (impact acoustique). Déplacement d'une cloison non porteuse ? Autorisation nécessaire. Remplacement des fenêtres ? Autorisation et souvent vote en AG.
+
+#### Les horaires de travaux sont stricts
+
+Les règlements de copropriété parisiens limitent généralement les travaux bruyants au lundi-vendredi 8h-19h et samedi 9h-13h. Le dimanche et les jours fériés sont interdits. Certaines copropriétés sont encore plus restrictives. Enfreindre ces règles génère des conflits avec les voisins et peut entraîner l'arrêt du chantier.
+
+#### Les parties communes sont sacrées
+
+Si vos travaux impactent les parties communes (colonnes d'eau, façade, cage d'escalier), un vote en assemblée générale est obligatoire. Les délais pour obtenir cette autorisation peuvent atteindre 6 mois si l'AG n'est pas proche.
+
+### Les Conséquences d'une Rénovation Non Autorisée
+
+- Mise en demeure du syndic d'arrêter les travaux
+- Action en justice de la copropriété
+- Obligation de remettre en état à vos frais
+- Amendes et dommages-intérêts
+- Problèmes lors de la revente (le notaire vérifie les autorisations)
+
+### Comment Éviter Cette Erreur
+
+- **Consultez le règlement de copropriété** avant de planifier vos travaux.
+- **Prévenez le syndic par écrit** (lettre recommandée) dès la phase de projet.
+- **Anticipez les délais d'AG** si vos travaux nécessitent un vote.
+- **Informez vos voisins** directement, en plus des démarches officielles. La courtoisie évite bien des conflits.
+
+---
+
+<h2 id="erreur-3">Erreur n°3 : Ne Pas Faire de Diagnostic Technique</h2>
+
+Se lancer dans une rénovation sans connaître l'état réel de l'appartement, c'est naviguer à l'aveugle. Les mauvaises surprises sont alors garanties.
+
+### Ce Qu'un Diagnostic Technique Révèle
+
+#### L'état des installations électriques
+
+Dans les appartements anciens, l'électricité est souvent la première source de problèmes. Fils en tissu, absence de terre, tableau vétuste, puissance insuffisante... Un diagnostic électrique identifie ces défauts et permet de chiffrer précisément la mise aux normes.
+
+#### L'état de la plomberie
+
+Canalisations en plomb (interdites), colonnes d'évacuation en fonte fissurée, arrivées d'eau sous-dimensionnées... La plomberie des appartements anciens réserve souvent des surprises coûteuses.
+
+#### La présence de matériaux dangereux
+
+L'amiante était largement utilisée jusqu'en 1997 (dalles de sol, colle de carrelage, flocages). Le plomb est présent dans les peintures des immeubles d'avant 1949. Ces matériaux nécessitent des procédures de dépose spécifiques et coûteuses.
+
+#### L'état de la structure
+
+Planchers affaissés, poutres fragilisées, murs fissurés... Un diagnostic structure identifie les fragilités qui devront être traitées avant toute rénovation.
+
+### Combien Coûte un Diagnostic Complet
+
+Comptez 500 à 1500€ pour un diagnostic complet (électricité, plomberie, amiante, plomb, structure) d'un appartement de 50 à 80m². C'est un investissement minime comparé aux économies qu'il permet en évitant les mauvaises surprises.
+
+---
+
+<h2 id="erreur-4">Erreur n°4 : Mal Choisir Ses Artisans</h2>
+
+Le choix des artisans est déterminant pour la réussite de votre rénovation. Un mauvais choix peut transformer votre projet en cauchemar : malfaçons, retards, abandons de chantier, surfacturations.
+
+### Les Signaux d'Alerte à Repérer
+
+#### Le devis anormalement bas
+
+Si un devis est 30 à 40% moins cher que les autres, méfiez-vous. Soit l'artisan a oublié des postes (vous paierez des "suppléments"), soit il utilise des matériaux de mauvaise qualité, soit il travaille sans assurances, soit il ne finira jamais le chantier.
+
+#### L'artisan qui accepte tout sans visiter
+
+Un professionnel sérieux ne chiffre jamais un projet sans avoir vu l'appartement. Si un artisan vous envoie un devis après une simple description téléphonique, fuyez.
+
+#### L'absence d'assurances
+
+Demandez systématiquement l'attestation d'assurance décennale et de responsabilité civile professionnelle. Sans ces assurances, vous n'avez aucun recours en cas de malfaçon.
+
+### Comment Bien Choisir
+
+- **Demandez des références** de chantiers similaires (appartements anciens à Paris) et contactez ces anciens clients.
+- **Vérifiez les avis en ligne** sur Google, Houzz, ou les réseaux professionnels.
+- **Privilégiez le bouche-à-oreille** auprès de vos proches qui ont récemment rénové.
+- **Passez par un architecte** qui a son réseau d'artisans de confiance et engage sa réputation sur leurs prestations.
+
+---
+
+<h2 id="erreur-5">Erreur n°5 : Négliger la Structure du Bâtiment</h2>
+
+Dans un appartement ancien, la structure est le nerf de la guerre. Ignorer ses contraintes peut avoir des conséquences dramatiques : fissures, affaissements, voire effondrements.
+
+### Comprendre la Structure des Immeubles Anciens
+
+#### Les immeubles haussmanniens (1850-1914)
+
+Ces immeubles ont une structure caractéristique : façades porteuses en pierre de taille, murs de refend intérieurs porteurs, planchers en bois sur solives. Les murs porteurs sont généralement épais (40 à 60cm) et en pierre ou brique. Les cloisons non porteuses sont en briques creuses ou en colombages.
+
+#### Les immeubles plus anciens (avant 1850)
+
+La structure est souvent plus hétérogène, avec des murs en moellons, des planchers à différents niveaux, des ajouts successifs au fil des siècles. Ces immeubles nécessitent une attention particulière.
+
+### Les Risques d'une Intervention Non Maîtrisée
+
+#### Toucher à un mur porteur sans étude
+
+Ouvrir une porte dans un mur porteur ou l'abattre sans renforcement adapté peut provoquer des fissures dans tout l'immeuble, voire un effondrement partiel. Les dégâts concernent alors non seulement votre appartement mais aussi ceux des voisins : vous êtes responsable.
+
+#### Surcharger un plancher ancien
+
+Les planchers bois des appartements anciens ont une capacité de charge limitée. Installer une baignoire en fonte de 300kg remplie d'eau, ou un aquarium géant, peut entraîner un affaissement dangereux.
+
+### Comment Éviter Cette Erreur
+
+- **Faites intervenir un bureau d'études structure** avant toute modification de cloison suspecte.
+- **Ne touchez JAMAIS à un mur porteur** sans étude préalable et renforcement adapté (IPN, poutre).
+- **Consultez les plans de la copropriété** qui indiquent généralement les murs porteurs.
+- **En cas de doute, abstenez-vous** et demandez l'avis d'un professionnel.
+
+---
+
+<h2 id="erreur-6">Erreur n°6 : Détruire le Patrimoine Architectural</h2>
+
+Les appartements anciens parisiens regorgent d'éléments patrimoniaux qui font leur charme et leur valeur : moulures, parquet ancien, cheminées de marbre, portes à panneaux, corniches... Les détruire est une erreur patrimoniale mais aussi financière.
+
+### Ce Qui Fait la Valeur d'un Appartement Ancien
+
+#### Les moulures et corniches
+
+Les moulures d'un appartement haussmannien sont souvent en plâtre moulé de grande qualité. Leur restauration par un staffeur coûte certes cher (80-150€/heure), mais leur remplacement par des moulures en polystyrène est une hérésie qui dévalorise le bien.
+
+#### Le parquet ancien
+
+Le parquet point de Hongrie ou à bâtons rompus d'un appartement haussmannien est en chêne massif de 23mm d'épaisseur. Il peut être rénové indéfiniment (ponçage, vitrification) et a une durée de vie de 100 ans ou plus. Le remplacer par du parquet flottant est une perte de valeur considérable.
+
+#### Les cheminées
+
+Même si vous ne les utilisez plus pour le chauffage, les cheminées de marbre sont des éléments décoratifs majeurs. Les supprimer pour "gagner de la place" est une erreur qui dévalue l'appartement de plusieurs dizaines de milliers d'euros.
+
+### Comment Préserver Tout en Modernisant
+
+L'enjeu d'une bonne rénovation d'appartement ancien est de moderniser le confort (électricité, plomberie, isolation, cuisine, salle de bains) tout en préservant le caractère. C'est précisément l'expertise des architectes d'intérieur spécialisés dans le patrimoine parisien.
+
+---
+
+<h2 id="erreur-7">Erreur n°7 : Sous-Dimensionner l'Électricité</h2>
+
+L'électricité est souvent le parent pauvre des rénovations. Beaucoup de propriétaires conservent une installation vétuste ou font une mise aux normes a minima, sans anticiper leurs besoins réels.
+
+### Les Besoins Électriques Actuels
+
+Un appartement moderne nécessite une puissance et un nombre de prises bien supérieurs à ce qui existait dans les années 1970 :
+
+- **Cuisine** : four, plaques, hotte, réfrigérateur, lave-vaisselle, micro-ondes, robots...
+- **Salle de bains** : sèche-serviettes, sèche-cheveux, rasoir électrique...
+- **Salon** : TV, box internet, ordinateur, lampes, chargeurs multiples...
+- **Chambre** : lampes de chevet, chargeurs, climatisation...
+
+### Les Erreurs Fréquentes
+
+#### Conserver un compteur sous-dimensionné
+
+Un compteur 6kVA peut suffire pour un studio, mais devient insuffisant pour un appartement familial équipé. Les disjonctions répétées sont non seulement agaçantes mais aussi dangereuses.
+
+#### Ne pas mettre assez de prises
+
+La norme NF C 15-100 impose un minimum de prises par pièce, mais ce minimum est souvent insuffisant pour un usage confortable. Prévoir 20 à 30% de prises supplémentaires évite les multiprises disgracieuses et dangereuses.
+
+#### Oublier les arrivées spécifiques
+
+Certains équipements nécessitent des alimentations dédiées : plaque de cuisson, four, lave-linge, sèche-linge, climatisation... Ces lignes doivent être prévues dès la conception.
+
+### Comment Éviter Cette Erreur
+
+- **Faites réaliser une étude électrique complète** avant les travaux.
+- **Listez tous vos équipements** actuels et futurs.
+- **Prévoyez large** : il est facile et peu coûteux d'ajouter des prises pendant les travaux, mais très coûteux après.
+- **Passez en 9kVA ou 12kVA** si nécessaire, le surcoût est minime.
+
+---
+
+<h2 id="erreur-8">Erreur n°8 : Négliger l'Isolation</h2>
+
+Les appartements anciens parisiens, notamment haussmanniens, n'ont aucune isolation d'origine. Les murs de pierre ou de brique transmettent le froid, la chaleur et le bruit sans filtrage. Une rénovation sans amélioration de l'isolation est une occasion manquée.
+
+### Les Enjeux de l'Isolation
+
+#### Le confort thermique
+
+Sans isolation, vous chauffez les murs autant que l'air intérieur. La facture de chauffage explose et le confort reste médiocre : murs froids en hiver, surchauffe en été.
+
+#### Le confort acoustique
+
+Les bruits des voisins, de la rue, de la cage d'escalier s'infiltrent partout. Une bonne isolation acoustique transforme la qualité de vie, surtout dans les quartiers animés.
+
+#### La performance énergétique
+
+Le DPE (Diagnostic de Performance Énergétique) est devenu un critère majeur pour les acheteurs et locataires. Un appartement mal isolé est classé F ou G, ce qui impacte sa valeur et, depuis 2025, sa capacité à être loué.
+
+### Les Solutions Adaptées aux Appartements Anciens
+
+L'isolation par l'extérieur est rarement possible en copropriété. Il faut donc isoler par l'intérieur, ce qui présente des contraintes :
+
+- **Perte de surface** : 5 à 10cm d'isolant sur chaque mur extérieur réduit la surface habitable.
+- **Préservation du patrimoine** : l'isolant ne doit pas masquer les moulures et éléments décoratifs.
+- **Gestion de l'humidité** : une isolation mal posée peut créer des problèmes de condensation.
+
+Un architecte spécialisé trouve le bon compromis entre performance thermique, préservation du caractère et optimisation de l'espace.
+
+---
+
+<h2 id="erreur-9">Erreur n°9 : Vouloir Tout Faire Soi-Même</h2>
+
+Le "DIY" (Do It Yourself) est à la mode, et les tutoriels YouTube donnent l'impression que tout est accessible. Mais dans un appartement ancien, certains travaux nécessitent impérativement des professionnels.
+
+### Ce Que Vous Pouvez Faire Vous-Même
+
+- Peinture des murs et plafonds (avec une bonne préparation)
+- Pose de papier peint
+- Montage de meubles en kit
+- Petite décoration
+
+### Ce Qui Nécessite Absolument un Professionnel
+
+#### L'électricité
+
+Toute intervention sur l'électricité (au-delà du changement d'une prise) doit être réalisée par un électricien qualifié. Les risques d'électrocution et d'incendie sont réels, et une installation non conforme n'est pas couverte par les assurances.
+
+#### La plomberie
+
+Les fuites d'eau sont la première cause de sinistres en appartement. Une plomberie mal réalisée peut causer des dégâts considérables chez vous et chez vos voisins.
+
+#### La structure
+
+Toute intervention touchant à la structure (cloisons, murs, planchers) nécessite un professionnel. Les conséquences d'une erreur peuvent être dramatiques.
+
+#### La pose de revêtements techniques
+
+Carrelage, parquet collé, chape... Ces travaux semblent simples mais nécessitent un savoir-faire que seuls des professionnels maîtrisent. Un carrelage mal posé se décolle, un parquet mal posé gondole.
+
+### Le Calcul Économique Réel
+
+Le DIY semble économique, mais :
+- Votre temps a une valeur
+- Vous devez acheter ou louer des outils
+- Les erreurs coûtent cher à corriger
+- Le résultat est rarement au niveau professionnel
+- Vous n'avez aucune garantie en cas de problème
+
+---
+
+<h2 id="erreur-10">Erreur n°10 : Ne Pas Prévoir de Planning Réaliste</h2>
+
+"Les travaux dureront 2 mois" devient souvent "4 mois... puis 6 mois". Les retards sont une constante des chantiers de rénovation, surtout dans l'ancien.
+
+### Pourquoi les Chantiers Dérapent
+
+#### Les imprévus techniques
+
+Chaque découverte (canalisation vétuste, électricité à refaire, problème d'humidité) génère des travaux supplémentaires et des délais additionnels.
+
+#### La coordination des artisans
+
+Un chantier implique de nombreux corps d'état qui doivent intervenir dans un ordre précis. Si le plombier a du retard, le carreleur ne peut pas commencer, ce qui décale le peintre, etc.
+
+#### Les délais d'approvisionnement
+
+Certains matériaux (carrelage spécifique, robinetterie haut de gamme, menuiseries sur mesure) ont des délais de livraison de 4 à 12 semaines. S'ils n'ont pas été commandés assez tôt, le chantier s'arrête.
+
+### Comment Établir un Planning Réaliste
+
+- **Ajoutez 30 à 50%** au délai annoncé pour un appartement ancien.
+- **Prévoyez les délais administratifs** (copropriété, déclarations) EN PLUS du chantier.
+- **Commandez les matériaux à longs délais** dès la validation du projet.
+- **Confiez la coordination à un architecte** qui gère le planning et relance les artisans.
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Quelle marge de sécurité prévoir dans le budget de rénovation d'un appartement ancien ?
+
+Pour un appartement ancien à Paris, prévoyez une marge de sécurité de **15 à 20% du budget initial**, voire 25% pour un appartement très ancien ou jamais rénové. Les imprévus sont quasi systématiques : problèmes d'électricité cachés, canalisations vétustes, humidité dans les murs, structure fragilisée. Cette marge vous permet d'absorber les surprises sans stress financier.
+
+### Peut-on abattre un mur porteur dans un appartement haussmannien ?
+
+Oui, mais avec de strictes précautions. L'intervention d'un **bureau d'études structure** est obligatoire pour calculer les charges et définir le renforcement nécessaire (IPN, poutre). L'autorisation de la copropriété est indispensable. Le coût est élevé (5000 à 15000€) et les risques importants en cas de travaux mal exécutés. Ne tentez jamais cette opération sans professionnels qualifiés.
+
+### Comment choisir un bon artisan pour rénover un appartement ancien à Paris ?
+
+Vérifiez les assurances (décennale, RC Pro), demandez des références de chantiers similaires (appartements anciens) et contactez ces anciens clients. Consultez les avis en ligne et privilégiez le bouche-à-oreille. Les artisans recommandés par un architecte sont généralement fiables car leur réputation en dépend. Méfiez-vous des devis anormalement bas et des artisans qui acceptent tout sans visite préalable.
+
+### Faut-il déclarer des travaux de rénovation à la copropriété ?
+
+Oui, **toujours**. Même pour des travaux apparemment simples, l'autorisation de la copropriété est obligatoire dès que vous touchez à l'électricité, la plomberie, les cloisons ou que vous générez du bruit. Rénover sans autorisation vous expose à des poursuites judiciaires, l'obligation de remettre en état à vos frais, et des problèmes lors de la revente.
+
+---
+
+## Évitez les Pièges, Réussissez Votre Rénovation
+
+Rénover un appartement ancien à Paris est un projet complexe qui nécessite expertise et anticipation. Les 10 erreurs que nous avons décrites sont évitables, à condition d'être bien accompagné.
+
+Un architecte d'intérieur spécialisé dans les appartements anciens connaît ces pièges et sait les éviter. Il sécurise votre budget, gère les démarches administratives, coordonne les artisans de confiance et garantit un résultat à la hauteur de vos attentes.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur spécialisés dans la rénovation d'appartements anciens à Paris. **Évitez les erreurs coûteuses, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

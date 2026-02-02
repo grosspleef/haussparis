@@ -1,0 +1,270 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-05',
+  title: '¿Cómo encontrar un buen diseñador de interiores en París?',
+  description: '¿Cómo encontrar un diseñador de interiores en París? Criterios de selección, certificaciones CFAI, preguntas, errores a evitar. Guía completa 2026.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fundador',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'es',
+}
+
+export const metadata = {
+  title: 'Encontrar un diseñador de interiores en París: Guía completa para elegir bien',
+  description: '¿Cómo encontrar un diseñador de interiores en París? Criterios de selección, certificaciones CFAI, preguntas, errores a evitar. Guía completa 2026.',
+  keywords: [
+    'encontrar diseñador interiores París',
+    'diseñador interiores París',
+    'arquitecto de interiores París',
+    'encontrar arquitecto interiores',
+    'elegir diseñador interiores',
+    'CFAI París',
+    'certificación diseñador interiores',
+    'coste diseñador interiores',
+    'primera reunión diseñador interiores',
+    'renovar apartamento París',
+    'preguntas diseñador interiores',
+    'errores diseñador interiores'
+  ],
+  openGraph: {
+    title: 'Encontrar un diseñador de interiores en París: Guía completa para elegir bien',
+    description: '¿Cómo encontrar un diseñador de interiores en París? Criterios de selección, certificaciones CFAI, preguntas, errores a evitar. Guía completa 2026.',
+    type: 'article',
+    publishedTime: '2026-01-05T09:00:00Z',
+    authors: ['Hugo Betscher'],
+  },
+  alternates: {
+    canonical: '/es/blog/encontrar-disenador-interiores-paris',
+    languages: {
+      'fr': '/fr/blog/trouver-architecte-interieur-paris',
+      'en': '/en/blog/find-interior-designer-paris',
+      'it': '/it/blog/trovare-architetto-interni-parigi',
+      'de': '/de/blog/innenarchitekt-paris-finden',
+      'es': '/es/blog/encontrar-disenador-interiores-paris',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cómo puedo verificar si un diseñador de interiores está certificado por el CFAI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Puede buscar el nombre del profesional en el directorio en línea del CFAI (cfai.fr). Si aparece su perfil, significa que ha sido reconocido como competente tras la verificación de su formación y experiencia. También puede contactar directamente con la secretaría del CFAI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿La primera reunión con un diseñador de interiores es gratuita?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las prácticas varían. Algunos ofrecen una primera reunión gratuita de 30 minutos a 1 hora. Otros cobran entre 80 y 200 € por esta consulta, cantidad que a veces se descuenta de los honorarios si se firma un contrato. Pregunte antes de concertar la cita."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuántos diseñadores de interiores debo conocer antes de decidir?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Se recomienda conocer al menos 2 o 3 profesionales para comparar enfoques, honorarios y sentir con quién conecta mejor. Más de 4 o 5 reuniones podrían dispersar su energía."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puede un diseñador de interiores trabajar en un inmueble que aún no he comprado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, y es incluso recomendable. Un diseñador de interiores puede evaluar el potencial de desarrollo, identificar restricciones técnicas y estimar los costes de renovación antes de la compra. Este servicio puede ayudarle a evitar sorpresas desagradables y negociar el precio."
+      }
+    }
+  ]
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+<div className="not-prose mb-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Tabla de contenidos</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#donde-buscar" className="text-neutral-600 hover:text-neutral-950 transition">1. ¿Dónde buscar un diseñador de interiores en París?</a></li>
+      <li><a href="#criterios-verificar" className="text-neutral-600 hover:text-neutral-950 transition">2. ¿Qué criterios verificar antes de elegir?</a></li>
+      <li><a href="#preguntas-primera-reunion" className="text-neutral-600 hover:text-neutral-950 transition">3. ¿Qué preguntas hacer en la primera reunión?</a></li>
+      <li><a href="#comparar-presupuestos" className="text-neutral-600 hover:text-neutral-950 transition">4. ¿Cómo comparar varios presupuestos?</a></li>
+      <li><a href="#errores-evitar" className="text-neutral-600 hover:text-neutral-950 transition">5. ¿Qué errores evitar en la búsqueda?</a></li>
+      <li><a href="#intermediario-especializado" className="text-neutral-600 hover:text-neutral-950 transition">6. ¿Por qué recurrir a un intermediario especializado?</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">7. FAQ</a></li>
+    </ol>
+  </nav>
+</div>
+
+<h2 id="donde-buscar">¿Dónde buscar un diseñador de interiores en París?</h2>
+
+¿Tiene un proyecto de renovación o acondicionamiento en París y busca al profesional ideal para acompañarle? **Encontrar un buen diseñador de interiores en la capital puede parecer complejo ante la multitud de opciones disponibles.** Entre profesionales certificados, decoradores que se hacen pasar por arquitectos y agencias con tarifas muy variables, ¿cómo orientarse?
+
+El primer paso es identificar las buenas fuentes para su búsqueda. El <a href="https://www.cfai.fr/fr" target="_blank" rel="noopener noreferrer">directorio del CFAI</a> (Consejo Francés de Arquitectos de Interiores) es una referencia esencial: solo enumera profesionales cuyas competencias han sido reconocidas mediante un procedimiento exigente. Las plataformas especializadas como Houzz o Archidvisor también le permiten consultar portfolios y opiniones verificadas de clientes.
+
+El boca a boca sigue siendo un enfoque fiable, especialmente si conoce personas que han realizado proyectos similares al suyo. **Un apartamento haussmanniano en el distrito 16 no requiere las mismas competencias que un loft en el 11.** Pregunte a su entorno, pero también a profesionales inmobiliarios o artesanos de la construcción que trabajan regularmente con diseñadores de interiores.
+
+---
+
+<h2 id="criterios-verificar">¿Qué criterios verificar antes de elegir?</h2>
+
+<h3>La certificación CFAI: una garantía de competencia</h3>
+
+A diferencia de la profesión de arquitecto DPLG, **la profesión de diseñador de interiores no está regulada en Francia**. Teóricamente, cualquiera puede arrogarse el título. Por eso la certificación emitida por el Consejo Francés de Arquitectos de Interiores constituye una referencia esencial.
+
+Para obtener el título de "diseñador de interiores CFAI", el profesional debe tener un diploma de una escuela reconocida por el CFAI con 3 años de experiencia profesional, o haber superado con éxito un examen de reconocimiento de competencias. Esta certificación garantiza una formación sólida (mínimo 5 años de estudios) y una experiencia verificada.
+
+<h3>Los seguros obligatorios: garantía decenal y responsabilidad civil profesional</h3>
+
+Todo diseñador de interiores que realice misiones de dirección de obra está obligado a suscribir un seguro de garantía decenal y un seguro de responsabilidad civil profesional. Estas garantías, impuestas por la Ley Spinetta de 1978 y los artículos 1792 y siguientes del Código Civil francés, le protegen en caso de defectos o daños.
+
+**Solicite siempre un certificado de seguro actualizado.** Debe mencionar los datos de contacto del asegurador, el número de contrato y el ámbito de cobertura geográfica. Un profesional serio lo proporcionará espontáneamente y mencionará esta información en sus presupuestos y facturas.
+
+<h3>El portfolio: verificar la adecuación con su proyecto</h3>
+
+Cada diseñador de interiores desarrolla una sensibilidad estética específica y áreas de especialización. Algunos destacan en la renovación de apartamentos haussmannianos, otros en espacios contemporáneos o en superficies pequeñas.
+
+Pida ver realizaciones comparables a su proyecto en términos de superficie, tipo de construcción, presupuesto y restricciones técnicas. **Un buen portfolio debe mostrar imágenes de antes/después, detalles de acabados e idealmente referencias de clientes.**
+
+---
+
+<h2 id="preguntas-primera-reunion">¿Qué preguntas hacer en la primera reunión?</h2>
+
+<h3>Preguntas sobre el recorrido y las competencias</h3>
+
+La primera reunión con un diseñador de interiores es decisiva. **Prepare una lista de preguntas para evaluar su profesionalidad y su adecuación a su proyecto.** Comience por su trayectoria: ¿Qué formación ha seguido? ¿Está certificado por el CFAI? ¿Cuántos años de práctica tiene?
+
+Pregunte sobre su experiencia en proyectos similares al suyo. ¿Ya ha renovado apartamentos en su distrito? ¿Conoce las especificidades de los edificios de su época (haussmanniano, años 30, contemporáneo)? ¿Qué dificultades ha encontrado y cómo las ha resuelto?
+
+<h3>Preguntas sobre la metodología y la organización</h3>
+
+Cada diseñador de interiores tiene su propio método de trabajo. Pídale que le explique las fases de su intervención, desde el estudio preliminar hasta la entrega final. **¿Quiénes serán sus interlocutores en el día a día?** ¿Trabaja solo o en equipo? ¿Utiliza subcontratistas?
+
+Aclare también el alcance de su misión. ¿Ofrece solo el diseño (planos, visualizaciones 3D) o también se encarga de la dirección de obra? ¿Puede asistirle en los trámites administrativos si es necesario (declaración previa, acuerdo de la copropiedad)?
+
+<h3>Preguntas sobre el presupuesto y los plazos</h3>
+
+Aborde la cuestión financiera desde la primera reunión. **¿Cuál es su modo de facturación** (porcentaje, tarifa fija, tarifa horaria)? ¿Cuáles son las tarifas habituales para un proyecto comparable? ¿Estas tarifas son con o sin IVA?
+
+Pregunte también por una estimación de los plazos: ¿Cuánto tiempo para la fase de diseño? ¿Para las obras? ¿Hay restricciones de planificación que anticipar (disponibilidad de los artesanos, tiempos de fabricación de los muebles a medida)?
+
+---
+
+<h2 id="comparar-presupuestos">¿Cómo comparar varios presupuestos de diseñadores de interiores?</h2>
+
+<h3>Verificar que los alcances de las prestaciones sean idénticos</h3>
+
+La comparación de presupuestos de diseñadores de interiores solo es pertinente si las prestaciones propuestas son equivalentes. **Un precio más bajo puede ocultar una misión incompleta**: sin dirección de obra, número limitado de revisiones de planos, sin visualización 3D...
+
+Para cada presupuesto, identifique con precisión lo que está incluido en las fases de estudio (levantamiento de planos, planos, secciones, perspectivas, fichas de materiales), en las fases de consulta (redacción de pliegos de condiciones, análisis de ofertas, negociación) y en las fases de ejecución (dirección de obra, reuniones de obra, recepción).
+
+<h3>Analizar el desglose de los honorarios</h3>
+
+Los diseñadores de interiores pueden facturar de diferentes maneras. El porcentaje sobre el coste de las obras (generalmente 10-15%) es el más frecuente para las misiones completas. La tarifa fija por m² conviene bien a los proyectos bien definidos. La tarifa horaria se aplica más bien a las asesorías puntuales.
+
+**Solicite un desglose de los honorarios por fase** para comprender la distribución del trabajo e identificar posibles partidas omitidas. Un presupuesto bien estructurado detalla las diferentes fases y permite una comparación objetiva.
+
+<h3>Evaluar el feeling y la comunicación</h3>
+
+Más allá de las cifras, **la calidad de la relación humana es determinante** para el éxito de un proyecto que puede durar varios meses. Evalúe la capacidad de respuesta del profesional (tiempo de respuesta a sus solicitudes), su escucha y su pedagogía para explicar las elecciones técnicas.
+
+Un buen diseñador de interiores debe ser capaz de cuestionar sus ideas respetando su gusto y sus restricciones. Si el feeling no es bueno desde la primera reunión, es poco probable que la colaboración sea fluida.
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/es/contacto">Permítanos encontrar un diseñador de interiores para usted</Button>
+</div>
+
+---
+
+<h2 id="errores-evitar">¿Qué errores evitar en la búsqueda?</h2>
+
+<h3>Elegir solo por el precio</h3>
+
+El precio es naturalmente importante, pero **un diseñador de interiores demasiado barato debería alertarle**. Tarifas inusualmente bajas pueden indicar falta de experiencia, seguro insuficiente o servicio de mala calidad que le costará más al final (errores a corregir, retrasos, defectos).
+
+A la inversa, un precio elevado no garantiza automáticamente la calidad. Elija un profesional cuyas tarifas estén en línea con el mercado parisino y estén justificadas por competencias verificables.
+
+<h3>Descuidar la verificación de seguros</h3>
+
+Demasiados particulares olvidan solicitar certificados de seguro antes de firmar. **En caso de siniestro, la ausencia de garantía decenal puede tener consecuencias financieras catastróficas.** Una fuga de agua por mala instalación, un problema estructural no detectado... los riesgos existen incluso en proyectos aparentemente simples.
+
+Verifique que el seguro esté vigente (fecha de validez), que cubra las actividades de dirección de obra y que el perímetro geográfico incluya París e Île-de-France.
+
+<h3>Confundir decorador y diseñador de interiores</h3>
+
+Un decorador trabaja sobre la estética: elección de colores, muebles, telas, accesorios. **Un diseñador de interiores va más allá**, repensando los volúmenes, modificando la distribución y supervisando obras técnicas (electricidad, fontanería, tabiques).
+
+Si su proyecto implica modificaciones estructurales o redistribución del espacio, un decorador no tiene las competencias ni los seguros requeridos. Asegúrese de dirigirse al profesional adecuado según el tipo de obras.
+
+<h3>Confiar solo en las fotos de Instagram</h3>
+
+Las redes sociales son útiles para descubrir el trabajo de un diseñador de interiores, pero **las fotos no lo cuentan todo**. No muestran el respeto de los plazos, la gestión del presupuesto ni la calidad de la comunicación con el cliente.
+
+Pida siempre referencias de clientes que pueda contactar directamente. Sus comentarios sobre el desarrollo real del proyecto serán mucho más reveladores que una bonita imagen de Instagram.
+
+---
+
+<h2 id="intermediario-especializado">¿Por qué recurrir a un intermediario especializado?</h2>
+
+Encontrar al diseñador de interiores adecuado requiere tiempo: identificar a los profesionales pertinentes, verificar sus referencias, comparar los presupuestos, evaluar la compatibilidad humana... **Para un particular que descubre este mundo, el camino puede ser largo e incierto.**
+
+Es precisamente para esto que existen los servicios de intermediación especializados. Su valor añadido reside en el conocimiento profundo del mercado parisino, la precalificación de los profesionales y la capacidad de identificar rápidamente los perfiles adaptados a cada proyecto.
+
+**Hauss Paris acompaña a particulares y empresas en sus proyectos de arquitectura de interiores en París.** Como intermediario especializado, facilitamos la conexión entre su proyecto y un diseñador de interiores que corresponda a sus necesidades, su estilo, su presupuesto y su forma de trabajar.
+
+Tanto si desea renovar un estudio, rehacer un apartamento familiar o transformar un edificio haussmanniano en los barrios de lujo, analizamos su proyecto y le presentamos profesionales cuyas competencias y sensibilidad corresponden a sus expectativas. Nuestro conocimiento del mercado parisino y nuestra red de diseñadores de interiores cualificados le harán ganar un tiempo precioso y asegurarán su elección.
+
+Del estudio al gran apartamento haussmanniano, para una clientela española e internacional, ofrecemos un enfoque humano y estructurado que le permite avanzar en su proyecto con serenidad.
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/es/contacto">Permítanos encontrar un diseñador de interiores para usted</Button>
+</div>
+
+---
+
+<h2 id="faq">FAQ: Sus preguntas sobre cómo encontrar un diseñador de interiores</h2>
+
+<h3>¿Cómo puedo verificar si un diseñador de interiores está certificado por el CFAI?</h3>
+
+Puede buscar el nombre del profesional en el <a href="https://www.cfai.fr/fr" target="_blank" rel="noopener noreferrer">directorio en línea del CFAI</a>. Si aparece su perfil, significa que ha sido reconocido como competente por el Consejo Francés de Arquitectos de Interiores tras un procedimiento exigente que incluye la verificación de su formación y experiencia profesional. También puede contactar directamente con la secretaría del CFAI para confirmar su inscripción.
+
+<h3>¿La primera reunión con un diseñador de interiores es gratuita?</h3>
+
+Las prácticas varían según el profesional. Algunos ofrecen una primera reunión gratuita (de 30 minutos a 1 hora) para evaluar el proyecto y establecer un primer contacto. Otros cobran entre 80 y 200 € por esta consulta, cantidad que a veces se descuenta de los honorarios si se firma un contrato. **Pregunte siempre antes de concertar la cita** para evitar sorpresas.
+
+<h3>¿Cuántos diseñadores de interiores debo conocer antes de decidir?</h3>
+
+Se recomienda conocer al menos 2 o 3 profesionales para tener puntos de comparación pertinentes. Esto le permite evaluar diferentes enfoques, comparar tarifas y sobre todo **sentir con quién conecta mejor**. Más de 4 o 5 reuniones arriesgan dispersar su energía y perder eficacia.
+
+<h3>¿Puede un diseñador de interiores trabajar en un inmueble que aún no he comprado?</h3>
+
+Sí, y es incluso recomendable. Un diseñador de interiores puede acompañarle en la evaluación de un inmueble antes de la compra, para estimar el potencial de desarrollo, identificar las restricciones técnicas y presupuestar las obras necesarias. **Este servicio de asesoramiento previo a la compra puede ayudarle a evitar sorpresas desagradables** y negociar el precio de compra con pleno conocimiento de causa.
+
+---
+
+*Fuentes: CFAI (Consejo Francés de Arquitectos de Interiores), Ley Spinetta 1978, artículos 1792 y siguientes del Código Civil francés*
+
+    </div>
+  </FadeIn>
+</Container>
+

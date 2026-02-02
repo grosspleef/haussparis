@@ -1,0 +1,2849 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "Laissez-nous trouver votre architecte d'intérieur.",
+      "description": "Nous connectons particuliers et professionnels à des architectes d'intérieur sélectionnés selon leurs besoins. Un service sur mesure, pensé pour tous types de projets à Paris, ou à l'international."
+    },
+    "highlights": {
+      "title": "Un service gratuit, sans engagement.",
+      "1": "Pour une clientèle française et internationale.",
+      "2": "Vous décrivez, nous sélectionnons, nous connectons.",
+      "3": "Un architecte vous est présenté, selon vos délais."
+    },
+    "process": {
+      "individuals": "Particuliers",
+      "professionals": "Professionnels"
+    },
+    "metadata": {
+      "description": "Hauss Paris connecte particuliers et professionnels aux meilleurs architectes d'intérieur parisiens. Un service sur mesure pour tous vos projets de rénovation et décoration."
+    }
+  },
+  "Header": {
+    "home": "Accueil",
+    "contact": "Contactez-nous",
+    "menu": "Menu"
+  },
+  "Navigation": {
+    "services": "Services",
+    "about": "À propos",
+    "process": "Processus",
+    "blog": "Blog",
+    "ourOffice": "Notre bureau",
+    "messaging": "Messagerie",
+    "followUs": "Suivez-nous"
+  },
+  "Footer": {
+    "services": "Services",
+    "renovation": "Rénovation",
+    "decoration": "Décoration",
+    "furnishing": "Ameublement",
+    "explore": "Explorer",
+    "studio": "Studio",
+    "about": "À propos",
+    "process": "Processus",
+    "blog": "Blog",
+    "contact": "Contactez-nous",
+    "messaging": "Messagerie",
+    "legal": "Légal",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions Générales",
+    "newsletter": {
+      "title": "Inscrivez-vous à notre newsletter",
+      "description": "Recevez les dernières actualités design, nos articles et inspirations.",
+      "placeholder": "Votre adresse email",
+      "subscribe": "S'inscrire",
+      "emailLabel": "Adresse email"
+    },
+    "home": "Accueil",
+    "copyright": "© Hauss Paris {year}"
+  },
+  "ValuesSection": {
+    "eyebrow": "Services",
+    "title": "Répondre à vos besoins, respecter vos exigences. Simplement.",
+    "description": "Nous vous offrons l'essentiel : une écoute réelle, des solutions justes et des architectes d'intérieur parfaitement alignés avec votre projet.",
+    "services": {
+      "renovation": {
+        "title": "Rénovation & transformation d'espaces",
+        "description": "Nous réinventons vos volumes pour créer des espaces raffinés. Chaque détail est orchestré avec exigence, du plan initial aux finitions."
+      },
+      "layout": {
+        "title": "Agencement & conception sur mesure",
+        "description": "Nous concevons des aménagements uniques. Le sur-mesure devient signature : précis, fonctionnel et esthétique."
+      },
+      "decoration": {
+        "title": "Décoration & direction artistique",
+        "description": "Nous imaginons des atmosphères élégantes. Un univers visuel cohérent, conçu comme une véritable œuvre d'art intérieure."
+      },
+      "furnishing": {
+        "title": "Ameublement & sourcing",
+        "description": "Nous choisissons pour vous des pièces d'exception. Un accompagnement complet, du sourcing à la mise en place, pour un résultat clé-en-main."
+      }
+    }
+  },
+  "MainServices": {
+    "eyebrow": "Nos Expertises",
+    "title": "Nos 4 Grands Domaines",
+    "description": "Une approche globale de l'architecture d'intérieur pour donner vie à vos projets.",
+    "services": {
+      "renovation": {
+        "title": "Rénovation & transformation d'espaces",
+        "description": "Nous réinventons vos espaces pour créer des environnements raffinés. Chaque détail est orchestré avec exigence, du plan initial aux finitions."
+      },
+      "customLayout": {
+        "title": "Agencement & conception sur mesure",
+        "description": "Nous concevons des aménagements uniques. Le sur-mesure devient signature : précis, fonctionnel et esthétique."
+      },
+      "decoration": {
+        "title": "Décoration & direction artistique",
+        "description": "Nous imaginons des atmosphères élégantes. Un univers visuel cohérent, conçu comme une véritable œuvre d'art intérieure."
+      },
+      "furnishing": {
+        "title": "Ameublement & sourcing",
+        "description": "Nous choisissons pour vous des pièces d'exception. Un accompagnement complet, du sourcing à la mise en place, pour un résultat clé-en-main."
+      }
+    }
+  },
+  "ContactSection": {
+    "title": "L'architecte d'intérieur idéal n'est jamais loin.",
+    "button": "Commencer",
+    "ourOffice": "Notre bureau"
+  },
+  "ProcessSections": {
+    "homeDiscover": {
+      "title": "Découverte",
+      "paragraph1": "À Paris, chaque projet est unique. Trouver l'architecte réellement aligné avec votre vision demande une sélection précise — c'est là que nous intervenons, avec <strong>clarté</strong> et <strong>exigence</strong>.",
+      "paragraph2": "Nous identifions pour vous l'architecte répondant à vos <strong>critères essentiels</strong> : style, langue parlée, disponibilité et type de projet — du petit studio au grand appartement haussmannien, de la rénovation intégrale au simple ameublement.",
+      "paragraph3": "Avec un <strong>brief unique</strong>, vous accédez à une sélection fiable et sur mesure de professionnels qualifiés, pour un projet qui démarre simplement et sereinement.",
+      "includedTitle": "Inclus dans notre accompagnement",
+      "tags": {
+        "needsAnalysis": "Analyse des besoins",
+        "architectSelection": "Sélection d'architectes",
+        "qualifiedConnection": "Mise en relation qualifiée",
+        "referenceCheck": "Vérification des références",
+        "relationshipFollowup": "Suivi de la relation"
+      }
+    },
+    "homeBuild": {
+      "title": "Conception",
+      "paragraph1": "Pour les professionnels, nous offrons un accès rapide et structuré à des architectes d'intérieur capables d'accompagner tous types de projets : <strong>bureaux, commerces, restaurants, hôtels</strong>.",
+      "paragraph2": "Nous sélectionnons le profil le plus pertinent — de l'architecte indépendant au <strong>cabinet d'envergure</strong> — selon la nature du projet, son identité, ses contraintes techniques et son calendrier.",
+      "paragraph3": "Qu'il s'agisse d'un espace restreint ou d'un <strong>immeuble entier à repenser</strong>, vous gagnez du temps et bénéficiez d'une expertise immédiatement opérationnelle, parfaitement adaptée à vos besoins professionnels.",
+      "testimonial": {
+        "quote": "Grâce à Hauss Paris, nous avons trouvé le cabinet idéal pour la rénovation de notre siège social en un temps record.",
+        "author": "Marc L.",
+        "role": "Directeur Immobilier"
+      }
+    }
+  },
+  "ContactPage": {
+    "eyebrow": "Contactez-nous",
+    "title": "Travaillons ensemble",
+    "description": "Nous sommes impatients de vous accompagner dans votre projet d'aménagement intérieur.",
+    "ourOffice": "Notre bureau",
+    "contactUs": "Contactez-nous",
+    "email": "Email",
+    "phone": "Téléphone",
+    "messaging": "Messagerie",
+    "metadata": {
+      "description": "Contactez-nous pour trouver l'architecte d'intérieur idéal pour votre projet."
+    }
+  },
+  "ContactForm": {
+    "title": "Votre projet",
+    "name": "Nom",
+    "email": "Email",
+    "company": "Entreprise (optionnel)",
+    "phone": "Téléphone",
+    "message": "Message",
+    "budget": "Budget",
+    "budgetOptions": {
+      "50-100": "50K € – 100K €",
+      "100-250": "100K € – 250K €",
+      "250-500": "250K € – 500K €",
+      "500+": "Plus de 500K €"
+    },
+    "notSpecified": "Non spécifié",
+    "submit": "Envoyer ma demande",
+    "submitting": "Envoi en cours...",
+    "success": "Merci ! Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.",
+    "error": "Une erreur est survenue lors de l'envoi du message",
+    "serverError": "Erreur du serveur. Vérifiez que le serveur est bien démarré et que la clé API Resend est configurée.",
+    "requiredFields": "Les champs nom, email et message sont requis",
+    "emailSubjectConfirmation": "Confirmation de réception - HAUSS Paris",
+    "emailSubjectNotification": "Nouveau contact : {name}",
+    "emailConfirmation": {
+      "greeting": "Merci {name} !",
+      "received": "Nous avons bien reçu votre demande de contact et nous vous en remercions.",
+      "response": "Notre équipe va étudier votre projet avec attention et reviendra vers vous dans les plus brefs délais, généralement sous 24 à 48 heures.",
+      "summaryTitle": "Récapitulatif de votre demande",
+      "name": "Nom :",
+      "email": "Email :",
+      "company": "Entreprise :",
+      "phone": "Téléphone :",
+      "budget": "Budget :",
+      "message": "Message :",
+      "portfolio": "En attendant, n'hésitez pas à consulter notre portfolio et découvrir nos réalisations sur notre site.",
+      "signature": "À très bientôt,",
+      "team": "L'équipe HAUSS Paris",
+      "footer": "Email : contact@haussparis.com | Téléphone : +33 6 19 44 92 55"
+    },
+    "emailNotification": {
+      "title": "📨 Nouvelle demande de contact",
+      "intro": "Une nouvelle demande a été reçue via le formulaire de contact du site.",
+      "infoTitle": "Informations du contact",
+      "name": "Nom :",
+      "email": "Email :",
+      "company": "Entreprise :",
+      "phone": "Téléphone :",
+      "budget": "Budget :",
+      "message": "Message :",
+      "actionRequired": "Action requise :",
+      "actionText": "N'oubliez pas de recontacter ce prospect dans les 24-48h.",
+      "footer": "Ce message a été envoyé automatiquement depuis le formulaire de contact de haussparis.com"
+    }
+  },
+  "AboutPage": {
+    "eyebrow": "À propos",
+    "title": "L'architecte idéal, où que vous soyez",
+    "intro1": "Chez Hauss Paris, nous ne sommes pas une simple agence de mise en relation. Nous sommes le partenaire qui vous aide à franchir le pas pour démarrer votre projet, en vous donnant accès aux meilleurs architectes, ici et ailleurs.",
+    "intro2": "Lancer un projet d'architecture est une décision importante, souvent freinée par la complexité de trouver le bon interlocuteur. Nous existons pour simplifier cette étape cruciale.",
+    "intro3": "Notre promesse est double : vous proposer des alternatives de haut vol parmi les meilleurs architectes du moment, et faciliter chaque étape de la mise en relation. Que votre projet soit situé à Paris ou à l'international, ou que vous souhaitiez engager un architecte étranger pour une réalisation en France, nous orchestrons cette rencontre pour garantir le succès de votre entreprise.",
+    "metadata": {
+      "title": "À propos - Hauss Paris",
+      "description": "Hauss Paris connecte les porteurs de projets aux meilleurs architectes internationaux. Découvrez comment nous facilitons la réalisation de vos ambitions."
+    },
+    "stats": {
+      "connections": "Mises en relation réussies",
+      "architects": "Architectes sélectionnés",
+      "independence": "Indépendance et objectivité"
+    },
+    "culture": {
+      "eyebrow": "Notre mission",
+      "title": "Faciliter l'excellence, à Paris et dans le monde.",
+      "description": "Nous sommes le catalyseur de votre projet. Notre rôle est de transformer une envie en réalité, en levant tous les freins qui séparent votre vision de sa concrétisation.",
+      "grid1Title": "Sélection des Meilleurs",
+      "grid1Description": "Nous identifions pour vous l'élite de l'architecture d'intérieur. Que ce soit un talent émergent ou un nom établi, nous vous proposons les meilleures alternatives adaptées à votre sensibilité.",
+      "grid2Title": "Portée Internationale",
+      "grid2Description": "De Paris à l'international, nous accompagnons vos projets sans frontières. Nous lançons vos réalisations en France comme à l'étranger, avec la même exigence de qualité.",
+      "grid3Title": "Connexions Exclusives",
+      "grid3Description": "Vous avez un architecte précis en tête ? Nous facilitons la mise en relation et négocions pour vous. Nous sommes votre porte d'entrée vers les créateurs les plus convoités."
+    },
+    "team": {
+      "leadership": "Direction",
+      "theTeam": "L'équipe",
+      "coFounder": "Co-Fondateur",
+      "coFounderFemale": "Co-Fondatrice",
+      "founder": "Fondateur",
+      "architectSelectionManager": "Responsable Sélection Architectes",
+      "projectAdvisor": "Conseillère Projet"
+    },
+    "blog": {
+      "title": "Sur le blog",
+      "intro": "Nos experts partagent leurs conseils pour bien choisir son architecte, les dernières tendances et des inspirations."
+    }
+  },
+  "ProcessPage": {
+    "eyebrow": "Processus",
+    "title": "Du rêve à la signature",
+    "description": "Notre méthodologie est conçue pour éliminer l'incertitude. Nous structurons votre démarche pour vous permettre de démarrer votre projet avec les meilleurs architectes, rapidement et sereinement. Qu'il s'agisse de lancer un projet à Paris ou à l'international, nous simplifions chaque étape.",
+    "metadata": {
+      "title": "Notre Processus - Hauss Paris",
+      "description": "Découvrez notre méthodologie en 3 étapes : Découverte, Conception et Réalisation. Une approche structurée pour mener à bien votre projet d'architecture d'intérieur."
+    },
+    "discover": {
+      "title": "Définition",
+      "paragraph1": "Démarrer un projet d'architecture peut être intimidant. Notre première mission est de vous aider à <strong>franchir le pas</strong>. Nous transformons vos idées, parfois floues, en un projet concret et réalisable.",
+      "paragraph2": "Nous prenons le temps d'analyser vos besoins profonds, votre style de vie et vos ambitions. Qu'il s'agisse d'une résidence à Paris ou d'un projet <strong>international</strong>, nous structurons votre demande pour qu'elle soit parfaitement compréhensible par les professionnels.",
+      "paragraph3": "Cette étape cruciale permet de définir un <strong>cahier des charges clair</strong>, fondation indispensable pour solliciter les bons interlocuteurs.",
+      "supportTitle": "Notre accompagnement initial",
+      "tags": {
+        "needsAudit": "Audit des besoins",
+        "styleClarification": "Clarification du style",
+        "budgetFraming": "Cadrage budgétaire",
+        "planningDefinition": "Définition du planning",
+        "briefWriting": "Rédaction du brief"
+      }
+    },
+    "build": {
+      "title": "Sélection",
+      "paragraph1": "Une fois le projet défini, nous activons notre réseau. Notre force est de vous <strong>proposer des alternatives</strong>. Nous ne vous imposons pas un choix unique, mais vous présentons une sélection restreinte des meilleurs profils.",
+      "paragraph2": "Cette sélection s'opère parmi le top 1% des architectes, à Paris comme à l'<strong>international</strong>. Nous cherchons l'adéquation parfaite : talent créatif, expertise technique et compatibilité humaine.",
+      "paragraph3": "Vous avez déjà un nom en tête ? Un architecte que vous admirez mais qui semble inaccessible ? Nous nous chargeons de <strong>vous connecter</strong> avec les architectes que vous avez choisis, en facilitant l'approche et la négociation."
+    },
+    "deliver": {
+      "title": "Lancement",
+      "paragraph1": "Notre rôle ne s'arrête pas à la recommandation. Nous sommes là pour <strong>faciliter la mise en relation</strong>. Nous organisons les rencontres, aidons à la lecture des propositions et sécurisons le cadre contractuel.",
+      "paragraph2": "Que votre projet soit local ou que nous pilotions une collaboration <strong>internationale</strong>, nous agissons comme un tiers de confiance. Nous levons les barrières linguistiques et culturelles pour que seul le projet compte.",
+      "paragraph3": "En choisissant Hauss Paris, vous démarrez votre projet avec l'assurance d'être entouré des meilleurs, prêt à voir vos ambitions prendre forme sans friction inutile.",
+      "guaranteesTitle": "Les garanties de nos partenaires",
+      "guarantees": {
+        "excellence": {
+          "title": "Excellence reconnue",
+          "description": "Des architectes sélectionnés pour la qualité exceptionnelle de leur portfolio et leurs références."
+        },
+        "mobility": {
+          "title": "Mobilité internationale",
+          "description": "Une capacité à intervenir à Paris comme à l'étranger, avec une maîtrise des enjeux logistiques."
+        },
+        "serenity": {
+          "title": "Sérénité contractuelle",
+          "description": "Des professionnels vérifiés (assurances, solidité financière) pour un engagement en toute confiance."
+        }
+      }
+    }
+  },
+  "ServicesPage": {
+    "metadata": {
+      "title": "Nos Services",
+      "description": "Nous offrons une gamme complète de services d'architecture d'intérieur, adaptés à vos besoins spécifiques."
+    },
+    "eyebrow": "Nos services",
+    "title": "Des solutions sur mesure pour chaque projet",
+    "intro": "Nous offrons une gamme complète de services d'architecture d'intérieur, adaptés à vos besoins spécifiques. Chaque projet est unique, et nous mettons notre expertise à votre service pour créer des espaces exceptionnels.",
+    "exhaustiveList": "Liste exhaustive :",
+    "seeMore": "Voir plus de services",
+    "learnMore": "En savoir plus sur",
+    "services": {
+      "renovation": {
+        "title": "Rénovation & transformation d'espaces",
+        "description": "Nous réinventons vos espaces pour créer des environnements raffinés. Chaque détail est orchestré avec exigence, du plan initial aux finitions."
+      },
+      "customLayout": {
+        "title": "Agencement & conception sur mesure",
+        "description": "Nous concevons des aménagements uniques. Le sur-mesure devient signature : précis, fonctionnel et esthétique."
+      },
+      "decoration": {
+        "title": "Décoration & direction artistique",
+        "description": "Nous imaginons des atmosphères élégantes. Un univers visuel cohérent, conçu comme une véritable œuvre d'art intérieure."
+      },
+      "furnishing": {
+        "title": "Ameublement & sourcing",
+        "description": "Nous choisissons pour vous des pièces d'exception. Un accompagnement complet, du sourcing à la mise en place, pour un résultat clé-en-main."
+      },
+      "homeStaging": {
+        "title": "Home staging / Mise en valeur immobilière",
+        "description": "Optimisation de l'espace pour la vente ou la location. Mise en scène professionnelle pour maximiser l'attractivité et la valeur du bien."
+      },
+      "workplace": {
+        "title": "Design d'espaces de travail / bureaux",
+        "description": "Conception d'environnements de travail optimisés, du bureau individuel aux espaces collaboratifs. Focus sur productivité, bien-être et identité d'entreprise."
+      },
+      "kitchenBathroom": {
+        "title": "Design de cuisine et salle de bain",
+        "description": "Conception sur mesure de cuisines et salles de bain, alliant esthétique, fonctionnalité et ergonomie. Expertise en équipements haut de gamme."
+      },
+      "commercial": {
+        "title": "Design d'espaces commerciaux",
+        "description": "Création d'espaces commerciaux impactants : boutiques, showrooms, vitrines. Design orienté expérience client et identité de marque."
+      },
+      "lighting": {
+        "title": "Conseil en éclairage",
+        "description": "Expertise en éclairage architectural et scénographique. Conception de systèmes d'éclairage adaptés à chaque usage et ambiance."
+      },
+      "outdoor": {
+        "title": "Design d'espaces extérieurs",
+        "description": "Aménagement de terrasses, balcons, jardins et espaces extérieurs. Création d'espaces de vie en extérieur, même dans des surfaces réduites."
+      },
+      "interiorDesignerParis": {
+        "title": "Architecte d'intérieur à Paris",
+        "description": "Service de mise en relation avec des architectes d'intérieur vérifiés à Paris. Accompagnement personnalisé pour clients internationaux, gestion à distance possible."
+      },
+      "interiorDecoratorParis": {
+        "title": "Décorateur d'intérieur à Paris",
+        "description": "Service de décoration d'intérieur sans travaux à Paris. Styling, mobilier, accessoires et coaching déco personnalisé pour transformer votre espace."
+      },
+      "paris16": {
+        "title": "Architecte d'intérieur Paris 16",
+        "description": "Architectes d'intérieur spécialisés dans le 16ème arrondissement : Passy, Auteuil, Trocadéro. Expertise haussmannien et projets haut de gamme."
+      },
+      "paris7": {
+        "title": "Architecte d'intérieur Paris 7",
+        "description": "Architectes d'intérieur dans le 7ème arrondissement : Saint-Germain, Invalides, Tour Eiffel. Rénovation d'appartements prestigieux."
+      },
+      "paris8": {
+        "title": "Architecte d'intérieur Paris 8",
+        "description": "Architectes d'intérieur dans le 8ème arrondissement : Champs-Élysées, Madeleine, Parc Monceau. Projets luxe et corporate."
+      },
+      "paris6": {
+        "title": "Architecte d'intérieur Paris 6",
+        "description": "Architectes d'intérieur dans le 6ème arrondissement : Saint-Germain-des-Prés, Luxembourg. Appartements de charme et boutiques."
+      },
+      "paris17": {
+        "title": "Architecte d'intérieur Paris 17",
+        "description": "Architectes d'intérieur dans le 17ème arrondissement : Batignolles, Ternes, Plaine Monceau. Rénovation résidentielle haut de gamme."
+      },
+      "paris15": {
+        "title": "Architecte d'intérieur Paris 15",
+        "description": "Architectes d'intérieur dans le 15ème arrondissement : Grenelle, Beaugrenelle. Appartements familiaux et espaces contemporains."
+      },
+      "paris9": {
+        "title": "Architecte d'intérieur Paris 9",
+        "description": "Architectes d'intérieur dans le 9ème arrondissement : Opéra, Grands Boulevards. Rénovation haussmannienne et espaces créatifs."
+      },
+      "paris11": {
+        "title": "Architecte d'intérieur Paris 11",
+        "description": "Architectes d'intérieur dans le 11ème arrondissement : Bastille, Oberkampf. Lofts industriels et appartements tendance."
+      },
+      "paris4": {
+        "title": "Architecte d'intérieur Paris 4",
+        "description": "Architectes d'intérieur dans le 4ème arrondissement : Le Marais, Île Saint-Louis. Patrimoine historique et rénovations de prestige."
+      },
+      "paris3": {
+        "title": "Architecte d'intérieur Paris 3",
+        "description": "Architectes d'intérieur dans le 3ème arrondissement : Haut Marais, Temple. Appartements d'artistes et espaces contemporains."
+      }
+    }
+  },
+  "RenovationService": {
+    "metadata": {
+      "title": "Rénovation & transformation d'espaces",
+      "description": "Nous réinventons vos espaces pour créer des environnements raffinés. Chaque détail est orchestré avec exigence, du plan initial aux finitions."
+    },
+    "eyebrow": "Service",
+    "title": "Rénovation & transformation d'espaces",
+    "intro": "Nous réinventons vos espaces pour créer des environnements raffinés. Chaque détail est orchestré avec exigence, du plan initial aux finitions.",
+    "section1": {
+      "title": "Analyse & conception",
+      "paragraph1": "Chaque projet de rénovation commence par une <strong>analyse approfondie</strong> de vos espaces existants. Nous étudions la structure, la circulation, la lumière naturelle et vos besoins spécifiques pour concevoir une transformation qui respecte l'essence de votre lieu tout en le réinventant.",
+      "paragraph2": "Notre approche combine <strong>créativité et pragmatisme</strong>. Nous élaborons des plans détaillés qui optimisent chaque mètre carré, en tenant compte des contraintes techniques, réglementaires et budgétaires."
+    },
+    "section2": {
+      "title": "Exécution & suivi",
+      "paragraph1": "De la démolition aux finitions, nous assurons un <strong>suivi rigoureux</strong> de chaque étape. Nos architectes coordonnent les différents corps de métier pour garantir une exécution impeccable et respecter les délais convenus.",
+      "paragraph2": "Nous sélectionnons avec soin les <strong>matériaux et finitions</strong> qui donneront à vos espaces leur caractère unique. Chaque choix est pensé pour allier esthétique, durabilité et fonctionnalité."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre approche",
+      "title": "Un accompagnement complet et personnalisé",
+      "description": "De la première esquisse à la remise des clés, nous vous accompagnons à chaque étape de votre projet de rénovation."
+    },
+    "gridList": {
+      "preliminary": {
+        "title": "Étude préalable",
+        "description": "Analyse de faisabilité, relevés topographiques et diagnostic technique complet de vos espaces."
+      },
+      "detailed": {
+        "title": "Conception détaillée",
+        "description": "Plans d'exécution, choix des matériaux, sélection des équipements et définition du planning."
+      },
+      "coordination": {
+        "title": "Coordination des travaux",
+        "description": "Suivi quotidien du chantier, coordination des artisans et respect des normes en vigueur."
+      },
+      "turnkey": {
+        "title": "Livraison clé-en-main",
+        "description": "Réception des travaux, mise en place des finitions et accompagnement jusqu'à la finalisation complète."
+      }
+    },
+    "stats": {
+      "delivered": "Projets livrés",
+      "experience": "Années d'expérience",
+      "transformed": "Espaces transformés"
+    }
+  },
+  "CustomLayoutService": {
+    "metadata": {
+      "title": "Agencement & conception sur mesure",
+      "description": "Nous concevons des aménagements uniques. Le sur-mesure devient signature : précis, fonctionnel et esthétique."
+    },
+    "eyebrow": "Service",
+    "title": "Agencement & conception sur mesure",
+    "intro": "Nous concevons des aménagements uniques. Le sur-mesure devient signature : précis, fonctionnel et esthétique.",
+    "section1": {
+      "title": "Design sur mesure",
+      "paragraph1": "Chaque espace mérite un <strong>agencement unique</strong>, pensé spécifiquement pour répondre à vos besoins et à votre mode de vie. Nous créons des solutions d'aménagement qui optimisent l'utilisation de l'espace tout en respectant votre identité.",
+      "paragraph2": "Notre expertise en <strong>conception sur mesure</strong> nous permet de créer des éléments intégrés, des rangements optimisés et des espaces multifonctionnels qui s'adaptent parfaitement à vos contraintes architecturales."
+    },
+    "section2": {
+      "title": "Fabrication & installation",
+      "paragraph1": "Nous travaillons avec des <strong>artisans sélectionnés</strong> pour fabriquer vos éléments sur mesure. Chaque pièce est conçue dans les moindres détails, avec un souci constant de qualité et de finition.",
+      "paragraph2": "L'installation est réalisée par nos équipes spécialisées, qui garantissent une <strong>mise en place parfaite</strong> et un rendu final qui correspond exactement à vos attentes."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre expertise",
+      "title": "Des solutions adaptées à chaque contexte",
+      "description": "Que ce soit pour un appartement parisien, un espace professionnel ou une résidence secondaire, nous créons des agencements qui s'intègrent parfaitement à votre environnement."
+    },
+    "gridList": {
+      "kitchens": {
+        "title": "Cuisines sur mesure",
+        "description": "Conception de cuisines fonctionnelles et esthétiques, avec sélection d'équipements haut de gamme et optimisation de l'espace."
+      },
+      "storage": {
+        "title": "Rangements intégrés",
+        "description": "Solutions de rangement personnalisées pour optimiser chaque espace disponible, des dressings aux bibliothèques."
+      },
+      "workspace": {
+        "title": "Espaces de travail",
+        "description": "Aménagement de bureaux et espaces de travail adaptés à vos besoins professionnels ou personnels."
+      },
+      "decorative": {
+        "title": "Éléments décoratifs",
+        "description": "Création d'éléments architecturaux sur mesure : cloisons, mezzanines, escaliers et autres structures uniques."
+      }
+    },
+    "stats": {
+      "custom": "Sur mesure",
+      "response": "Délai de réponse",
+      "warranty": "Garantie"
+    }
+  },
+  "FurnishingService": {
+    "metadata": {
+      "title": "Ameublement & sourcing",
+      "description": "Nous choisissons pour vous des pièces d'exception. Un accompagnement complet, du sourcing à la mise en place, pour un résultat clé-en-main."
+    },
+    "eyebrow": "Service",
+    "title": "Ameublement & sourcing",
+    "intro": "Nous choisissons pour vous des pièces d'exception. Un accompagnement complet, du sourcing à la mise en place, pour un résultat clé-en-main.",
+    "section1": {
+      "title": "Sourcing exclusif",
+      "paragraph1": "Notre réseau de <strong>fournisseurs et artisans sélectionnés</strong> nous permet de vous proposer des pièces d'exception, qu'elles soient contemporaines, vintage ou sur mesure. Nous explorons les meilleures sources, en France et à l'international.",
+      "paragraph2": "Chaque pièce est <strong>soigneusement sélectionnée</strong> pour sa qualité, son authenticité et sa capacité à s'intégrer harmonieusement dans votre projet. Nous négocions les meilleures conditions et gérons toute la logistique d'approvisionnement."
+    },
+    "section2": {
+      "title": "Installation & mise en place",
+      "paragraph1": "Nous gérons l'ensemble du processus, de la <strong>commande à l'installation</strong>. Nos équipes coordonnent la livraison, s'assurent de la conformité des pièces et réalisent la mise en place finale.",
+      "paragraph2": "Le résultat est un <strong>espace entièrement meublé et décoré</strong>, prêt à être habité. Vous n'avez qu'à profiter de votre nouvel environnement, sans vous soucier des détails logistiques."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre service",
+      "title": "Un accompagnement complet pour un résultat clé-en-main",
+      "description": "Du sourcing à l'installation, nous prenons en charge tous les aspects de l'ameublement de votre espace pour un résultat impeccable."
+    },
+    "gridList": {
+      "sourcing": {
+        "title": "Sourcing personnalisé",
+        "description": "Recherche et sélection de mobilier, luminaires et accessoires selon vos goûts, votre budget et les contraintes de votre espace."
+      },
+      "negotiation": {
+        "title": "Négociation & commande",
+        "description": "Gestion des commandes, négociation des prix et suivi des livraisons auprès de nos partenaires privilégiés."
+      },
+      "delivery": {
+        "title": "Livraison & réception",
+        "description": "Coordination des livraisons, vérification de la conformité des pièces et gestion des éventuels retours ou échanges."
+      },
+      "installation": {
+        "title": "Installation finale",
+        "description": "Mise en place professionnelle de tous les éléments, agencement optimal et finalisation des détails pour un rendu parfait."
+      }
+    },
+    "stats": {
+      "turnkey": "Clé-en-main",
+      "partners": "Partenaires",
+      "tracking": "Suivi"
+    }
+  },
+  "KitchenBathroomService": {
+    "metadata": {
+      "title": "Design de cuisine et salle de bain",
+      "description": "Conception sur mesure de cuisines et salles de bain, alliant esthétique, fonctionnalité et ergonomie. Expertise en équipements haut de gamme."
+    },
+    "eyebrow": "Service",
+    "title": "Design de cuisine et salle de bain",
+    "intro": "Conception sur mesure de cuisines et salles de bain, alliant esthétique, fonctionnalité et ergonomie. Expertise en équipements haut de gamme.",
+    "section1": {
+      "title": "Conception sur mesure",
+      "paragraph1": "La cuisine et la salle de bain sont des espaces <strong>essentiels du quotidien</strong>. Nous concevons ces pièces comme de véritables espaces de vie, où chaque détail est pensé pour allier esthétique raffinée et fonctionnalité optimale.",
+      "paragraph2": "Notre expertise en <strong>design technique et ergonomie</strong> nous permet de créer des agencements sur mesure qui s'adaptent parfaitement à vos contraintes spatiales, vos habitudes et vos aspirations esthétiques."
+    },
+    "section2": {
+      "title": "Sélection d'équipements & finitions",
+      "paragraph1": "Nous sélectionnons pour vous les <strong>équipements les plus performants</strong> : électroménager haut de gamme, robinetterie design, sanitaires premium. Chaque choix est guidé par la qualité, la durabilité et l'esthétique.",
+      "paragraph2": "Les finitions sont soigneusement orchestrées : <strong>matériaux nobles, carrelages d'exception, éclairage adapté</strong>. Nous créons des espaces qui allient luxe et praticité, pour des cuisines et salles de bain d'exception."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre expertise",
+      "title": "Des espaces d'exception, pensés pour votre quotidien",
+      "description": "Cuisines et salles de bain sont des investissements importants. Nous créons des espaces qui allient esthétique contemporaine, fonctionnalité optimale et qualité irréprochable."
+    },
+    "gridList": {
+      "kitchens": {
+        "title": "Cuisines sur mesure",
+        "description": "Conception de cuisines fonctionnelles et esthétiques, avec sélection d'équipements haut de gamme, optimisation de l'espace de travail et intégration d'îlots ou de bars."
+      },
+      "bathrooms": {
+        "title": "Salles de bain design",
+        "description": "Création de salles de bain spa, avec sélection de sanitaires premium, douches à l'italienne, baignoires design et finitions luxueuses."
+      },
+      "equipment": {
+        "title": "Équipements premium",
+        "description": "Sélection d'électroménager intégré, robinetterie design, systèmes de rangement optimisés et solutions technologiques innovantes."
+      },
+      "materials": {
+        "title": "Finitions & matériaux",
+        "description": "Choix de matériaux nobles : carrelages d'exception, pierres naturelles, bois massif, et finitions sur mesure pour un rendu unique et raffiné."
+      }
+    },
+    "stats": {
+      "kitchens": "Cuisines créées",
+      "bathrooms": "Salles de bain",
+      "warranty": "Garantie"
+    }
+  },
+  "DecorationService": {
+    "metadata": {
+      "title": "Décoration & direction artistique",
+      "description": "Nous imaginons des atmosphères élégantes. Un univers visuel cohérent, conçu comme une véritable œuvre d'art intérieure."
+    },
+    "eyebrow": "Service",
+    "title": "Décoration & direction artistique",
+    "intro": "Nous imaginons des atmosphères élégantes. Un univers visuel cohérent, conçu comme une véritable œuvre d'art intérieure.",
+    "section1": {
+      "title": "Direction artistique",
+      "paragraph1": "La décoration est bien plus qu'un simple agencement d'objets. C'est la création d'un <strong>univers visuel cohérent</strong> qui raconte votre histoire et reflète votre personnalité.",
+      "paragraph2": "Notre approche de la direction artistique combine <strong>harmonie des couleurs, textures et matières</strong>. Nous créons des palettes chromatiques subtiles, sélectionnons des matériaux nobles et orchestrons chaque détail pour créer une atmosphère unique et raffinée."
+    },
+    "section2": {
+      "title": "Sélection & mise en scène",
+      "paragraph1": "Nous sélectionnons avec soin chaque <strong>élément décoratif</strong> : mobilier, luminaires, textiles, objets d'art. Chaque pièce est choisie pour sa qualité, son esthétique et sa capacité à s'intégrer harmonieusement dans l'ensemble.",
+      "paragraph2": "La mise en scène finale transforme votre espace en une <strong>véritable œuvre d'art intérieure</strong>, où chaque détail contribue à créer une atmosphère élégante et personnalisée."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre vision",
+      "title": "Créer des atmosphères qui vous ressemblent",
+      "description": "Chaque projet de décoration est une opportunité de créer un espace unique, qui reflète votre personnalité et crée une atmosphère propice au bien-être."
+    },
+    "gridList": {
+      "palette": {
+        "title": "Palette chromatique",
+        "description": "Définition d'une palette de couleurs harmonieuse, adaptée à vos goûts et à l'ambiance souhaitée pour chaque espace."
+      },
+      "furniture": {
+        "title": "Sélection de mobilier",
+        "description": "Choix de mobilier design, alliant esthétique contemporaine et confort, pour créer des espaces à la fois élégants et fonctionnels."
+      },
+      "lighting": {
+        "title": "Éclairage & ambiance",
+        "description": "Conception d'un éclairage adapté à chaque usage, créant des ambiances variées selon les moments de la journée."
+      },
+      "accessories": {
+        "title": "Accessoires & objets d'art",
+        "description": "Sélection d'accessoires décoratifs et d'œuvres d'art qui personnalisent votre espace et lui donnent son caractère unique."
+      }
+    },
+    "stats": {
+      "personalized": "Personnalisé",
+      "partners": "Partenaires artisans",
+      "creativity": "Créativité"
+    }
+  },
+  "CommercialDesignService": {
+    "metadata": {
+      "eyebrow": "Service",
+      "title": "Architecture commerciale Paris | Restaurant, Hôtel, Boutique",
+      "description": "Aménagez votre commerce à Paris avec un architecte spécialisé retail. Restaurant, hôtel, boutique. Normes ERP respectées, projet clé en main. Devis gratuit."
+    },
+    "section1": {
+      "title": "Votre projet commercial entre les mains d'experts",
+      "paragraph1": "Ouvrir un restaurant, aménager une boutique, transformer un local en hôtel : chaque projet commercial à Paris demande une expertise spécifique. Entre les normes de sécurité, les contraintes d'accessibilité et l'identité de marque à créer, les défis sont nombreux.",
+      "paragraph2": "Hauss Paris vous met en relation avec des architectes et architectes d'intérieur spécialisés dans l'aménagement commercial. Retail design, hôtellerie, restauration : notre réseau comprend des professionnels expérimentés dans chaque secteur.",
+      "paragraph3": "Que vous soyez entrepreneur, franchisé, investisseur ou professionnel libéral, nous trouvons l'architecte adapté à votre projet.",
+      "link": "Découvrir les tarifs"
+    },
+    "section2": {
+      "title": "Pourquoi faire appel à un architecte spécialisé retail ?",
+      "paragraph1": "L'aménagement d'un commerce ne s'improvise pas. Au-delà de l'esthétique, il s'agit de créer un espace conforme aux réglementations, fonctionnel pour votre activité et attractif pour vos clients.",
+      "paragraph2": "À Paris, tout établissement recevant du public (ERP) doit respecter des normes strictes : sécurité incendie, accessibilité PMR, extraction pour les cuisines, isolation phonique. Un architecte spécialisé connaît ces contraintes et conçoit un projet conforme dès le départ.",
+      "paragraph3": "Un commerce bien conçu génère plus de chiffre d'affaires. L'agencement influence le parcours client, la mise en valeur des produits, le temps passé sur place.",
+      "link": "Estimer mon projet"
+    },
+    "section3": {
+      "title": "Restaurants et cafés à Paris",
+      "paragraph1": "De la brasserie de quartier au restaurant gastronomique, nos architectes conçoivent des espaces qui racontent une histoire. Ils maîtrisent les contraintes spécifiques de la restauration : flux cuisine/salle, extraction, normes d'hygiène, acoustique.",
+      "paragraph2": "Chaque projet de restaurant est unique : concept culinaire, ambiance recherchée, nombre de couverts, type de cuisine. L'architecte adapte l'espace à votre vision tout en respectant les normes ERP strictes.",
+      "paragraph3": "Du coffee shop intimiste de 30 m² au restaurant de 150 couverts, nous accompagnons tous les formats. L'objectif : créer un lieu où vos clients auront envie de revenir."
+    },
+    "section4": {
+      "title": "Boutiques et commerces retail",
+      "paragraph1": "L'aménagement d'une boutique ne se résume pas à installer des meubles. C'est créer un parcours client, mettre en scène vos produits, exprimer l'identité de votre marque. Nos architectes retail maîtrisent ces enjeux.",
+      "paragraph2": "Du concept store indépendant à la franchise internationale, chaque boutique a ses contraintes : vitrine attractive, zones de stockage optimisées, cabines d'essayage confortables, éclairage qui sublime les produits.",
+      "paragraph3": "Nous travaillons avec des boutiques de mode, des concept stores, des magasins de décoration, des librairies. L'objectif : transformer le passage en vente, créer une expérience mémorable."
+    },
+    "section5": {
+      "title": "Hôtels et espaces d'accueil",
+      "paragraph1": "Créer ou rénover un hôtel demande une expertise pointue : réglementation stricte, normes de sécurité spécifiques, optimisation de la surface par chambre, création d'ambiances variées. Nos architectes spécialisés maîtrisent ces contraintes.",
+      "paragraph2": "De l'hôtel économique à l'hôtel boutique, chaque catégorie a ses standards : surface minimale par chambre, équipements obligatoires, accessibilité PMR, confort acoustique. L'architecte conçoit des espaces conformes et attractifs.",
+      "paragraph3": "Au-delà des chambres, les espaces communs font la différence : lobby accueillant, salle de petit-déjeuner lumineuse, bar cosy. Nous créons des hôtels où les voyageurs se sentent bien."
+    },
+    "section6": {
+      "title": "Cabinets médicaux et paramédicaux",
+      "paragraph1": "Un cabinet médical, dentaire ou paramédical doit répondre à des normes d'hygiène strictes, offrir confidentialité et confort aux patients, optimiser le parcours de soins. Nos architectes connaissent ces impératifs.",
+      "paragraph2": "Chaque spécialité a ses besoins : salle de stérilisation pour les dentistes, zone d'attente séparée pour les généralistes, espace kinésithérapie avec accès PMR. L'architecte adapte l'agencement à votre pratique.",
+      "paragraph3": "L'ambiance compte aussi : un cabinet médical accueillant rassure les patients, améliore leur expérience, reflète votre professionnalisme. Nous créons des espaces de soin à la fois fonctionnels et apaisants."
+    },
+    "section7": {
+      "title": "Bureaux et espaces de coworking",
+      "paragraph1": "Les espaces de travail évoluent : moins de bureaux fermés, plus de zones collaboratives, besoin de flexibilité. Nos architectes conçoivent des bureaux modernes, adaptés aux nouvelles façons de travailler.",
+      "paragraph2": "Un bon aménagement de bureau améliore la productivité, favorise la collaboration, attire les talents. Open space, salles de réunion, espaces de détente, phone boxes : tout est pensé pour le bien-être des équipes.",
+      "paragraph3": "Du petit cabinet de conseil au grand espace de coworking, nous adaptons l'aménagement à votre culture d'entreprise et à vos besoins opérationnels."
+    },
+    "section8": {
+      "title": "Showrooms et espaces événementiels",
+      "paragraph1": "Showrooms, pop-up stores, espaces événementiels : ces lieux éphémères ou permanents doivent marquer les esprits. Nos architectes créent des espaces scénographiques qui mettent en valeur vos produits ou votre marque.",
+      "paragraph2": "La flexibilité est clé : mobilier modulable, éclairage ajustable, cloisons démontables. L'espace doit pouvoir évoluer selon les collections, les événements, les saisons.",
+      "paragraph3": "Du showroom automobile au pop-up store de luxe, nous concevons des espaces qui créent l'événement et renforcent votre image de marque."
+    },
+    "section9": {
+      "title": "Normes et réglementation ERP",
+      "paragraph1": "Tous les commerces parisiens sont des ERP (Établissements Recevant du Public) et doivent respecter des normes strictes : sécurité incendie (issues de secours, extincteurs, éclairage de sécurité), accessibilité PMR (rampes, ascenseurs, sanitaires adaptés), ventilation (extraction pour cuisines professionnelles).",
+      "paragraph2": "Ces normes ne sont pas optionnelles : avant toute ouverture, la mairie et la commission de sécurité inspectent le local. Si le projet n'est pas conforme, l'ouverture est refusée. Un architecte expérimenté intègre ces contraintes dès la conception.",
+      "paragraph3": "Au-delà de la conformité, un bon architecte transforme les contraintes en atouts : une sortie de secours peut devenir une terrasse, une rampe PMR un élément design. Nous concevons des espaces conformes et beaux."
+    },
+    "section10": {
+      "title": "Gestion de projet clés en main",
+      "paragraph1": "Ouvrir un commerce est déjà un défi entrepreneurial. Vous n'avez pas le temps de courir après les artisans, gérer les retards, valider mille détails techniques. C'est pourquoi nous proposons une gestion de projet complète.",
+      "paragraph2": "L'architecte devient votre chef d'orchestre : il coordonne tous les corps de métier (électricien, plombier, menuisier, peintre), gère le planning, contrôle la qualité, résout les imprévus. Vous validez les grandes décisions, il gère l'exécution.",
+      "paragraph3": "Résultat : votre commerce ouvre à la date prévue, dans le budget annoncé, conforme aux normes. Vous vous concentrez sur votre métier, l'architecte s'occupe du reste."
+    },
+    "section11": {
+      "title": "Architecture commerciale à Paris et Île-de-France",
+      "paragraph1": "Paris et sa région concentrent une densité commerciale unique : chaque quartier a son identité, ses codes, ses attentes. Du Marais branché aux Champs-Élysées chic, du 11e créatif au 16e bourgeois, l'architecte adapte le projet au territoire.",
+      "paragraph2": "Notre réseau couvre Paris intra-muros et toute l'Île-de-France : Neuilly, Boulogne, Levallois pour les quartiers d'affaires, Montreuil et Saint-Denis pour les créatifs, Versailles et Saint-Germain-en-Laye pour le résidentiel haut de gamme.",
+      "paragraph3": "Que vous ouvriez un commerce en centre-ville ou en périphérie, nous trouvons l'architecte qui connaît votre secteur, comprend votre clientèle cible, maîtrise les contraintes locales."
+    },
+    "gridList": {
+      "eyebrow": "Notre processus",
+      "title": "De la conception à l'ouverture, un accompagnement complet",
+      "description": "Nous gérons chaque étape de votre projet commercial, des premiers plans à l'ouverture de vos portes.",
+      "audit": {
+        "title": "Audit et conception",
+        "description": "Analyse de votre projet, relevé du local, étude de faisabilité, conception des plans et des aménagements adaptés à votre activité commerciale."
+      },
+      "concept": {
+        "title": "Design et identité",
+        "description": "Création de l'identité visuelle de votre espace, choix des matériaux, du mobilier et des finitions qui reflètent votre marque."
+      },
+      "permits": {
+        "title": "Démarches administratives",
+        "description": "Dossier ERP, commission de sécurité, accessibilité PMR, déclaration préalable de travaux, autorisation d'enseigne : nous gérons toutes les démarches."
+      },
+      "execution": {
+        "title": "Travaux et ouverture",
+        "description": "Coordination des artisans, suivi de chantier, réception des travaux, installation du mobilier et ouverture conforme dans les délais."
+      }
+    },
+    "stats": {
+      "projects": "Projets commerciaux",
+      "architects": "Architectes spécialisés",
+      "timeline": "Délai moyen"
+    },
+    "pricing": {
+      "title": "Budgets et tarifs",
+      "intro": "Chaque projet commercial est unique. Voici des fourchettes indicatives pour vous aider à préparer votre budget.",
+      "restaurant": {
+        "title": "Budgets Restaurant",
+        "budget1": {
+          "label": "Coffee shop / Snack",
+          "price": "60 000 € - 100 000 €",
+          "description": "40-60 m² : comptoir, cuisine légère, 20-30 places assises, travaux standard, mobilier neuf."
+        },
+        "budget2": {
+          "label": "Restaurant bistronomique",
+          "price": "120 000 € - 180 000 €",
+          "description": "80-100 m² : cuisine semi-ouverte, 45-60 couverts, extraction renforcée, finitions soignées."
+        },
+        "budget3": {
+          "label": "Brasserie / Grand restaurant",
+          "price": "200 000 € - 400 000 €",
+          "description": "150-250 m² : cuisine professionnelle complète, 100-150 couverts, travaux lourds, aménagement premium."
+        }
+      },
+      "hotel": {
+        "title": "Budgets Hôtel",
+        "budget1": {
+          "label": "Hôtel économique",
+          "price": "15 000 € - 25 000 € / chambre",
+          "description": "Aménagement simple, mobilier standard, salle de bain préfabriquée, finitions économiques."
+        },
+        "budget2": {
+          "label": "Hôtel 3 étoiles",
+          "price": "25 000 € - 40 000 € / chambre",
+          "description": "Confort standard, mobilier de qualité, salle de bain carrelée, espaces communs aménagés."
+        },
+        "budget3": {
+          "label": "Hôtel boutique / 4 étoiles",
+          "price": "40 000 € - 70 000 € / chambre",
+          "description": "Design personnalisé, matériaux nobles, salle de bain premium, ambiance unique, espaces communs soignés."
+        }
+      },
+      "retail": {
+        "title": "Budgets Boutique",
+        "budget1": {
+          "label": "Boutique indépendante",
+          "price": "40 000 € - 90 000 €",
+          "description": "40-80 m² : vitrine, zone de vente, cabines d'essayage, réserve, travaux standard, éclairage adapté."
+        },
+        "budget2": {
+          "label": "Concept store",
+          "price": "100 000 € - 200 000 €",
+          "description": "100-150 m² : aménagement sur mesure, scénographie produits, mobilier design, éclairage architectural."
+        },
+        "budget3": {
+          "label": "Flagship / grande surface",
+          "price": "200 000 € - 500 000 €",
+          "description": "200+ m² : travaux structurels, identité forte, expérience client premium, équipements haut de gamme."
+        }
+      },
+      "medical": {
+        "title": "Budgets Cabinet médical",
+        "budget1": {
+          "label": "Cabinet médical généraliste",
+          "price": "35 000 € - 70 000 €",
+          "description": "50-80 m² : salle de consultation, salle d'attente, secrétariat, sanitaires adaptés, normes d'hygiène."
+        },
+        "budget2": {
+          "label": "Cabinet dentaire",
+          "price": "80 000 € - 150 000 €",
+          "description": "80-120 m² : 2-3 fauteuils, salle de stérilisation, radiologie, plomberie spécifique (hors équipements dentaires)."
+        },
+        "budget3": {
+          "label": "Cabinet paramédical / Kinésithérapeute",
+          "price": "40 000 € - 90 000 €",
+          "description": "60-100 m² : boxes de soins, vestiaires, accessibilité PMR renforcée, équipements spécialisés."
+        }
+      },
+      "fees": {
+        "title": "Honoraires architecte",
+        "note": "Les honoraires de l'architecte représentent généralement entre 8% et 15% du montant total des travaux. Ce taux varie selon la complexité du projet et l'étendue de la mission.",
+        "consultation": {
+          "label": "Consultation initiale",
+          "price": "Gratuite"
+        },
+        "design": {
+          "label": "Conception (plans, 3D, descriptif)",
+          "price": "4 000 € - 12 000 €"
+        },
+        "full": {
+          "label": "Mission complète (conception + suivi)",
+          "price": "8% - 12% du budget travaux"
+        },
+        "turnkey": {
+          "label": "Projet clés en main (tout compris)",
+          "price": "10% - 15% du budget travaux"
+        }
+      },
+      "workCosts": {
+        "title": "Coût des travaux au m²",
+        "note": "Tarifs indicatifs pour Paris et petite couronne. Les coûts varient selon l'état du local, les contraintes techniques et le niveau de finition souhaité.",
+        "demolition": {
+          "label": "Démolition / Gros œuvre",
+          "price": "50 € - 150 € / m²"
+        },
+        "electricity": {
+          "label": "Électricité / Éclairage",
+          "price": "80 € - 200 € / m²"
+        },
+        "plumbing": {
+          "label": "Plomberie / Ventilation",
+          "price": "100 € - 250 € / m²"
+        },
+        "finishes": {
+          "label": "Revêtements / Peinture",
+          "price": "60 € - 180 € / m²"
+        },
+        "furniture": {
+          "label": "Menuiserie / Mobilier",
+          "price": "150 € - 400 € / m²"
+        }
+      },
+      "examples": {
+        "title": "Exemples de projets réalisés",
+        "example1": {
+          "title": "Restaurant 60 couverts - Paris 11e",
+          "description": "Transformation complète d'un ancien garage de 100 m² en restaurant bistronomique.",
+          "fees": "Honoraires : 12 000 €",
+          "works": "Travaux : 120 000 €",
+          "equipment": "Cuisine pro + mobilier : 50 000 €",
+          "total": "Total : 182 000 €"
+        },
+        "example2": {
+          "title": "Boutique de mode - Le Marais",
+          "description": "Aménagement d'une boutique de créateur de 65 m² avec mobilier sur mesure.",
+          "fees": "Honoraires : 7 500 €",
+          "works": "Travaux : 55 000 €",
+          "furniture": "Mobilier + éclairage : 20 000 €",
+          "total": "Total : 82 500 €"
+        },
+        "example3": {
+          "title": "Hôtel 8 chambres - Paris 6e",
+          "description": "Rénovation complète d'un immeuble de 200 m² en hôtel boutique.",
+          "fees": "Honoraires : 35 000 €",
+          "works": "Travaux : 320 000 €",
+          "equipment": "Mobilier + équipements : 95 000 €",
+          "total": "Total : 450 000 €"
+        },
+        "example4": {
+          "title": "Cabinet dentaire - Neuilly",
+          "description": "Création d'un cabinet de 3 fauteuils sur 110 m² avec équipements modernes.",
+          "fees": "Honoraires : 9 000 €",
+          "works": "Travaux : 75 000 €",
+          "equipment": "Équipements dentaires : 120 000 €",
+          "total": "Total : 204 000 €"
+        }
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": {
+        "question": "Combien de temps faut-il pour aménager un commerce à Paris ?",
+        "answer": "Comptez 2 à 3 mois pour un projet simple (rafraîchissement, boutique légère), 4 à 6 mois pour un restaurant ou une restructuration importante, 6 à 12 mois pour un hôtel. Les délais incluent la conception, les démarches administratives et les travaux."
+      },
+      "q2": {
+        "question": "Pouvez-vous m'accompagner avant même d'avoir trouvé le local ?",
+        "answer": "Oui. L'architecte peut vous accompagner lors de visites de locaux pour évaluer leur potentiel : faisabilité technique, estimation des travaux, contraintes cachées. Cette prestation de conseil avant achat évite les mauvaises surprises."
+      },
+      "q3": {
+        "question": "Je ne suis pas propriétaire des murs. Est-ce un problème ?",
+        "answer": "Non. La majorité des commerces sont en location. L'architecte conçoit un aménagement adapté à votre bail : travaux autorisés par le propriétaire, éléments récupérables en fin de bail, etc."
+      },
+      "q4": {
+        "question": "Gérez-vous les démarches administratives (ERP, licences) ?",
+        "answer": "Oui, c'est inclus dans la mission de l'architecte. Il constitue les dossiers, dépose les demandes et vous représente auprès des administrations si nécessaire."
+      },
+      "q5": {
+        "question": "J'ouvre une franchise. Pouvez-vous adapter le concept au local ?",
+        "answer": "Absolument. L'architecte respecte le cahier des charges du franchiseur tout en s'adaptant aux contraintes du local parisien. Il dialogue avec l'enseigne pour valider les adaptations nécessaires."
+      },
+      "q6": {
+        "question": "Je suis investisseur et je ne suis pas sur place. Comment ça se passe ?",
+        "answer": "Nous sommes habitués à accompagner des investisseurs qui ne peuvent pas être présents à chaque étape. L'architecte gère le projet en autonomie, vous tient informé par visioconférence et comptes-rendus, et vous sollicite uniquement pour les validations clés."
+      },
+      "q7": {
+        "question": "Quel est le budget minimum pour un projet d'aménagement commercial ?",
+        "answer": "En dessous de 30 000 € de travaux, l'intervention d'un architecte est rarement justifiée économiquement. Pour des projets plus modestes, nous pouvons vous orienter vers une prestation de conseil ponctuel."
+      },
+      "q8": {
+        "question": "Intervenez-vous en dehors de Paris ?",
+        "answer": "Oui. Notre réseau couvre Paris et toute l'Île-de-France : Boulogne, Neuilly, Saint-Germain-en-Laye, Versailles, et les départements 92, 93, 94, 78, 91, 77, 95."
+      }
+    },
+    "testimonials": {
+      "title": "Ils nous ont fait confiance",
+      "t1": {
+        "quote": "On ouvrait notre premier restaurant et on ne connaissait rien aux normes parisiennes. L'architecte recommandé par Hauss Paris a tout géré : les plans, le dossier ERP, le suivi de chantier. On a ouvert dans les temps et dans le budget. Merci !",
+        "author": "Sophie & Julien M.",
+        "location": "Paris 11e",
+        "project": "Restaurant Le Comptoir"
+      },
+      "t2": {
+        "quote": "Pour notre 3e boutique à Paris, on cherchait un architecte qui comprenne notre univers de marque. Hauss Paris nous a mis en relation avec le bon profil du premier coup. Résultat impeccable.",
+        "author": "Amélie R.",
+        "location": "Fondatrice",
+        "project": "Maison Amélie (décoration)"
+      },
+      "t3": {
+        "quote": "J'ai investi dans un local pour en faire un hôtel boutique. Vivant à Lyon, je ne pouvais pas suivre le chantier au quotidien. L'architecte a tout piloté, je recevais un compte-rendu chaque semaine. Très professionnel.",
+        "author": "Marc D.",
+        "location": "Lyon",
+        "project": "Investisseur hôtelier"
+      },
+      "t4": {
+        "quote": "La transformation de notre cabinet médical s'est faite en continuant à recevoir des patients. L'architecte a phasé les travaux intelligemment. Nos patients adorent le nouveau cadre.",
+        "author": "Dr Catherine L.",
+        "location": "Paris 16e",
+        "project": "Médecin généraliste"
+      }
+    },
+    "projects": {
+      "title": "Nos réalisations commerciales",
+      "p1": {
+        "title": "Restaurant bistronomique – Paris 11e",
+        "description": "Transformation d'un ancien atelier de 90 m² en restaurant de 45 couverts. Cuisine ouverte, cave vitrée, mobilier sur mesure.",
+        "budget": "180 000 €",
+        "timeline": "4 mois"
+      },
+      "p2": {
+        "title": "Boutique de mode – Le Marais",
+        "description": "Aménagement d'une boutique de créateur de 55 m². Travail sur la lumière, cabines d'essayage, vitrine scénographiée.",
+        "budget": "75 000 €",
+        "timeline": "2,5 mois"
+      },
+      "p3": {
+        "title": "Hôtel boutique 12 chambres – Paris 6e",
+        "description": "Restructuration complète d'un immeuble en hôtel 4 étoiles. Décoration contemporaine, matériaux nobles, petit-déjeuner en verrière.",
+        "budget": "850 000 €",
+        "timeline": "10 mois"
+      },
+      "p4": {
+        "title": "Coffee shop – Paris 9e",
+        "description": "Création d'un café de spécialité de 35 m² dans un local brut. Comptoir en terrazzo, banquette sur mesure, ambiance végétale.",
+        "budget": "55 000 €",
+        "timeline": "2 mois"
+      },
+      "p5": {
+        "title": "Cabinet dentaire – Neuilly",
+        "description": "Aménagement d'un cabinet de 3 fauteuils sur 120 m². Parcours patient optimisé, salle de stérilisation, accueil premium.",
+        "budget": "150 000 € (hors équipements dentaires)",
+        "timeline": "3 mois"
+      }
+    },
+    "cta": {
+      "title": "Lancez votre projet commercial à Paris",
+      "description": "Vous avez un projet de commerce, restaurant, hôtel ou espace professionnel à Paris ? Parlons-en. Réservez une consultation gratuite avec notre équipe.",
+      "button": "Demander une consultation gratuite"
+    }
+  },
+  "OutdoorDesignService": {
+    "metadata": {
+      "title": "Design d'espaces extérieurs",
+      "description": "Aménagement de terrasses, balcons, jardins et espaces extérieurs. Création d'espaces de vie en extérieur, même dans des surfaces réduites."
+    },
+    "eyebrow": "Service",
+    "title": "Design d'espaces extérieurs",
+    "intro": "Aménagement de terrasses, balcons, jardins et espaces extérieurs. Création d'espaces de vie en extérieur, même dans des surfaces réduites.",
+    "section1": {
+      "title": "Optimisation de l'espace extérieur",
+      "paragraph1": "À Paris, chaque <strong>mètre carré extérieur est précieux</strong>. Nous créons des espaces de vie en extérieur qui transforment terrasses, balcons et jardins en véritables pièces à vivre, même dans des surfaces réduites.",
+      "paragraph2": "Notre approche combine <strong>design fonctionnel et esthétique</strong>. Nous optimisons chaque espace disponible pour créer des zones de détente, de repas et de convivialité, en tenant compte des contraintes climatiques et réglementaires parisiennes."
+    },
+    "section2": {
+      "title": "Aménagement & végétalisation",
+      "paragraph1": "Nous sélectionnons et intégrons des <strong>matériaux adaptés à l'extérieur</strong> : mobilier design résistant aux intempéries, revêtements de sol premium, structures légères et modulaires. Chaque élément est choisi pour sa durabilité et son esthétique.",
+      "paragraph2": "La végétalisation est pensée pour <strong>créer des espaces verts même en ville</strong> : jardinières sur mesure, plantes adaptées au climat parisien, systèmes d'irrigation discrets. Nous créons des oasis de verdure qui apportent sérénité et qualité de vie."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre expertise",
+      "title": "Créer des espaces extérieurs qui prolongent votre intérieur",
+      "description": "Terrasses, balcons et jardins sont des extensions précieuses de votre espace de vie. Nous créons des aménagements extérieurs qui transforment ces espaces en véritables pièces à vivre."
+    },
+    "gridList": {
+      "terraces": {
+        "title": "Terrasses & balcons",
+        "description": "Aménagement de terrasses et balcons parisiens, avec mobilier design, revêtements adaptés et solutions d'intimité et de protection."
+      },
+      "gardens": {
+        "title": "Jardins urbains",
+        "description": "Création de jardins en ville, avec végétalisation adaptée, systèmes d'irrigation et aménagements paysagers sur mesure."
+      },
+      "furniture": {
+        "title": "Mobilier extérieur",
+        "description": "Sélection de mobilier design résistant aux intempéries, alliant esthétique contemporaine et durabilité pour un usage extérieur optimal."
+      },
+      "lighting": {
+        "title": "Éclairage & ambiance",
+        "description": "Conception d'éclairage extérieur pour prolonger l'utilisation de vos espaces en soirée, avec systèmes d'éclairage adaptés et ambiances variées."
+      }
+    },
+    "stats": {
+      "spaces": "Espaces créés",
+      "custom": "Sur mesure",
+      "seasons": "Utilisation"
+    }
+  },
+  "LightingDesignService": {
+    "metadata": {
+      "title": "Conseil en éclairage",
+      "description": "Expertise en éclairage architectural et scénographique. Conception de systèmes d'éclairage adaptés à chaque usage et ambiance."
+    },
+    "eyebrow": "Service",
+    "title": "Conseil en éclairage",
+    "intro": "Expertise en éclairage architectural et scénographique. Conception de systèmes d'éclairage adaptés à chaque usage et ambiance.",
+    "section1": {
+      "title": "Conception lumière & ambiance",
+      "paragraph1": "L'éclairage est un <strong>élément fondamental de l'architecture intérieure</strong>. Il transforme les espaces, crée des ambiances et met en valeur les volumes. Nous concevons des systèmes d'éclairage qui allient esthétique et fonctionnalité.",
+      "paragraph2": "Notre expertise en <strong>éclairage architectural et scénographique</strong> nous permet de créer des ambiances variées selon les usages : éclairage fonctionnel pour le travail, lumière d'ambiance pour la détente, mise en valeur pour les espaces de réception."
+    },
+    "section2": {
+      "title": "Sélection & intégration technique",
+      "paragraph1": "Nous sélectionnons les <strong>luminaires les plus adaptés</strong> à chaque usage : spots encastrés, suspensions design, appliques murales, éclairage LED intégré. Chaque choix est guidé par la qualité de la lumière, l'esthétique et l'efficacité énergétique.",
+      "paragraph2": "L'intégration technique est réalisée avec <strong>systèmes de contrôle intelligents</strong> : variateurs, scénarios programmables, domotique. Nous créons des solutions d'éclairage modernes, économes et faciles à utiliser."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre expertise",
+      "title": "Créer des ambiances lumineuses qui transforment l'espace",
+      "description": "Un éclairage bien conçu transforme complètement un espace. Nous créons des systèmes d'éclairage qui révèlent la beauté de vos intérieurs et s'adaptent à tous vos usages."
+    },
+    "gridList": {
+      "architectural": {
+        "title": "Éclairage architectural",
+        "description": "Conception de systèmes d'éclairage intégrés qui mettent en valeur les volumes, les matériaux et l'architecture de vos espaces."
+      },
+      "scenographic": {
+        "title": "Éclairage scénographique",
+        "description": "Création d'ambiances variées selon les usages et les moments, avec systèmes de contrôle et scénarios programmables."
+      },
+      "fixtures": {
+        "title": "Sélection de luminaires",
+        "description": "Choix de luminaires design, alliant esthétique contemporaine et performance technique, pour chaque usage spécifique."
+      },
+      "technical": {
+        "title": "Solutions techniques",
+        "description": "Intégration de systèmes domotiques, variateurs et contrôles intelligents pour un éclairage moderne, économe et personnalisé."
+      }
+    },
+    "stats": {
+      "consumption": "Consommation",
+      "projects": "Projets",
+      "custom": "Sur mesure"
+    }
+  },
+  "WorkplaceDesignService": {
+    "metadata": {
+      "title": "Design d'espaces de travail / bureaux",
+      "description": "Conception d'environnements de travail optimisés, du bureau individuel aux espaces collaboratifs. Focus sur productivité, bien-être et identité d'entreprise."
+    },
+    "eyebrow": "Service",
+    "title": "Design d'espaces de travail / bureaux",
+    "intro": "Conception d'environnements de travail optimisés, du bureau individuel aux espaces collaboratifs. Focus sur productivité, bien-être et identité d'entreprise.",
+    "section1": {
+      "title": "Analyse des besoins & conception",
+      "paragraph1": "Chaque entreprise a ses <strong>spécificités et sa culture</strong>. Nous analysons vos modes de travail, vos processus et vos objectifs pour concevoir un espace qui favorise la productivité et le bien-être de vos équipes.",
+      "paragraph2": "Notre approche combine <strong>ergonomie, flexibilité et identité visuelle</strong>. Nous créons des environnements qui s'adaptent aux différents usages : travail individuel, collaboration, détente et réunions."
+    },
+    "section2": {
+      "title": "Aménagement & identité d'entreprise",
+      "paragraph1": "Nous concevons des espaces qui <strong>reflètent votre identité</strong> tout en optimisant les flux de travail. Chaque zone est pensée pour son usage : open space collaboratif, bureaux individuels, salles de réunion, espaces de détente.",
+      "paragraph2": "L'aménagement intègre les <strong>dernières tendances du workplace design</strong> : modularité, biophilie, acoustique optimisée et solutions technologiques intégrées pour un environnement de travail moderne et performant."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre vision",
+      "title": "Créer des espaces de travail qui inspirent et performant",
+      "description": "Un environnement de travail bien conçu améliore la productivité, le bien-être et l'attractivité de votre entreprise. Nous créons des espaces qui font la différence."
+    },
+    "gridList": {
+      "planning": {
+        "title": "Planification spatiale",
+        "description": "Optimisation de l'agencement pour favoriser la collaboration tout en préservant les espaces de concentration individuelle."
+      },
+      "design": {
+        "title": "Design & identité",
+        "description": "Création d'un environnement visuel cohérent qui reflète vos valeurs et renforce l'identité de votre marque employeur."
+      },
+      "ergonomics": {
+        "title": "Ergonomie & bien-être",
+        "description": "Sélection de mobilier ergonomique et conception d'espaces qui préservent la santé et le bien-être de vos équipes."
+      },
+      "technical": {
+        "title": "Solutions techniques",
+        "description": "Intégration des technologies et des équipements nécessaires au fonctionnement optimal de votre espace de travail."
+      }
+    },
+    "stats": {
+      "productivity": "Productivité",
+      "offices": "Bureaux conçus",
+      "satisfaction": "Satisfaction"
+    }
+  },
+  "BlogPage": {
+    "metadata": {
+      "title": "Blog",
+      "description": "Découvrez nos articles sur l'architecture d'intérieur, les tendances déco et nos conseils pour vos projets à Paris."
+    },
+    "eyebrow": "Blog",
+    "title": "Nos derniers articles et actualités",
+    "intro": "Découvrez nos conseils d'experts, les dernières tendances en architecture d'intérieur et des inspirations pour vos projets parisiens.",
+    "publishedOn": "Publié le",
+    "author": "Auteur",
+    "readMore": "Lire la suite",
+    "readArticle": "Lire la suite : {title}",
+    "by": "par",
+    "moreArticles": "Plus d'articles",
+    "filterAll": "Tous les articles"
+  },
+  "Categories": {
+    "renovation": "Rénovation",
+    "decoration": "Décoration",
+    "professionnels": "Conseils Pros",
+    "tendances": "Tendances",
+    "optimisation": "Optimisation",
+    "home-staging": "Home Staging"
+  },
+  "RelatedServices": {
+    "title": "Découvrez nos expertises",
+    "subtitle": "Hauss Paris à votre service",
+    "cta": "En savoir plus"
+  },
+  "RelatedArticles": {
+    "title": "Articles similaires"
+  },
+  "BlogHighlights": {
+    "title": "À lire aussi"
+  },
+  "Breadcrumbs": {
+    "home": "Accueil",
+    "blog": "Blog"
+  },
+  "HomeStagingService": {
+    "metadata": {
+      "title": "Home staging / Mise en valeur immobilière",
+      "description": "Optimisation de l'espace pour la vente ou la location. Mise en scène professionnelle pour maximiser l'attractivité et la valeur du bien."
+    },
+    "eyebrow": "Service",
+    "title": "Home staging / Mise en valeur immobilière",
+    "intro": "Optimisation de l'espace pour la vente ou la location. Mise en scène professionnelle pour maximiser l'attractivité et la valeur du bien.",
+    "section1": {
+      "title": "Diagnostic & stratégie",
+      "paragraph1": "Chaque bien immobilier possède un <strong>potentiel unique</strong> à révéler. Nous analysons votre espace pour identifier ses atouts et les points à optimiser, en tenant compte du marché parisien et des attentes des acheteurs ou locataires.",
+      "paragraph2": "Notre approche stratégique combine <strong>neutralité et personnalisation</strong>. Nous créons des espaces qui permettent aux visiteurs de se projeter tout en mettant en valeur les qualités architecturales du bien."
+    },
+    "section2": {
+      "title": "Mise en scène & valorisation",
+      "paragraph1": "Nous orchestrons une <strong>transformation complète</strong> : réaménagement du mobilier, décoration neutre et élégante, optimisation de la lumière et mise en valeur des volumes. Chaque détail est pensé pour créer une première impression mémorable.",
+      "paragraph2": "Le résultat est un espace qui <strong>maximise la valeur perçue</strong> du bien et accélère sa vente ou sa location, tout en respectant votre budget et vos contraintes de timing."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre expertise",
+      "title": "Maximiser l'attractivité de votre bien immobilier",
+      "description": "Que ce soit pour une vente rapide ou une location premium, nous transformons votre bien en un espace irrésistible qui séduit dès la première visite."
+    },
+    "gridList": {
+      "audit": {
+        "title": "Audit & recommandations",
+        "description": "Analyse complète de votre bien, identification des points forts et faibles, et recommandations personnalisées pour optimiser sa valorisation."
+      },
+      "layout": {
+        "title": "Réaménagement & décoration",
+        "description": "Réorganisation des espaces, sélection de mobilier et d'accessoires neutres et élégants pour créer une atmosphère accueillante et moderne."
+      },
+      "lighting": {
+        "title": "Optimisation de l'éclairage",
+        "description": "Mise en valeur des volumes et des qualités architecturales grâce à un éclairage adapté, naturel et artificiel."
+      },
+      "preparation": {
+        "title": "Préparation aux visites",
+        "description": "Coordination complète pour que votre bien soit prêt à recevoir les visites dans les meilleures conditions, avec un suivi jusqu'à la transaction."
+      }
+    },
+    "stats": {
+      "value": "Valeur perçue",
+      "visits": "Visites",
+      "delay": "Délai de vente"
+    }
+  },
+  "NotFound": {
+    "title": "Page non trouvée",
+    "description": "Désolé, nous n'avons pas pu trouver la page que vous recherchez.",
+    "backToHome": "Retour à l'accueil",
+    "openMenu": "Découvrir nos services",
+    "companyInfo": {
+      "title": "À propos de Hauss Paris",
+      "description": "Nous mettons en relation particuliers et professionnels avec les meilleurs architectes d'intérieur à Paris. Un service sur-mesure pour tous vos projets de rénovation, décoration et aménagement."
+    }
+  },
+  "RootLayout": {
+    "metadata": {
+      "title": "Hauss Paris - Votre agence de mise en relation avec des architectes d'intérieur à Paris",
+      "description": "Hauss Paris vous met en relation avec les meilleurs architectes d'intérieur à Paris pour vos projets de décoration, rénovation et aménagement.",
+      "keywords": [
+        "architecte intérieur Paris",
+        "trouver architecte intérieur",
+        "rénovation appartement Paris",
+        "rénovation appartement haussmannien",
+        "aménagement bureaux Paris",
+        "décoration intérieur luxe",
+        "meilleur architecte intérieur Paris",
+        "conception cuisine sur mesure",
+        "courtier travaux paris",
+        "agencement espace commercial",
+        "home staging Paris",
+        "architecture commerciale"
+      ],
+      "openGraph": {
+        "title": "Hauss Paris - Votre agence de mise en relation avec des architectes d'intérieur à Paris",
+        "description": "Hauss Paris vous met en relation avec les meilleurs architectes d'intérieur à Paris pour vos projets de décoration, rénovation et aménagement."
+      },
+      "imageAlt": "Hauss Paris - Agence d'Architecture d'Intérieur"
+    }
+  },
+  "OpenGraphImages": {
+    "home": "Hauss Paris - Agence d'Architecture d'Intérieur",
+    "contact": "Hauss Paris - Nous Contacter",
+    "about": "Hauss Paris - À Propos",
+    "process": "Hauss Paris - Notre Processus",
+    "services": "Hauss Paris - Nos Services"
+  },
+  "PrivacyPolicy": {
+    "metadata": {
+      "title": "Politique de Confidentialité - Hauss Paris",
+      "description": "Découvrez comment Hauss Paris collecte, utilise et protège vos informations personnelles lorsque vous utilisez notre service de mise en relation avec des architectes d'intérieur."
+    },
+    "eyebrow": "Légal",
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 21 janvier 2026",
+    "section1": {
+      "title": "1. Informations que nous collectons",
+      "paragraph1": "Nous collectons les informations que vous nous fournissez directement lors de l'utilisation de notre service de mise en relation avec des architectes d'intérieur, notamment : votre nom, adresse e-mail, numéro de téléphone, détails du projet (surface, budget, adresse, délais), et tout message ou communication que vous nous envoyez via nos formulaires de contact. Ces informations nous permettent de vous mettre en relation avec les architectes d'intérieur appropriés de notre réseau à Paris et à l'international."
+    },
+    "section2": {
+      "title": "2. Comment nous utilisons vos informations",
+      "paragraph1": "Nous utilisons les informations collectées pour : vous mettre en relation avec des architectes d'intérieur appropriés en fonction de vos besoins et préférences de projet, communiquer avec vous au sujet de votre projet et du processus de mise en relation, répondre à vos demandes et questions, vous envoyer des e-mails de confirmation et des mises à jour de projet, améliorer nos services et l'expérience utilisateur, et nous conformer à nos obligations légales en vertu du droit français et européen."
+    },
+    "section3": {
+      "title": "3. Partage des informations",
+      "paragraph1": "Nous ne vendons pas vos informations personnelles à des tiers. Nous pouvons partager vos informations avec : les architectes d'intérieur de notre réseau à des fins de mise en relation (seuls les architectes correspondant à vos critères de projet recevront vos informations), les prestataires de services qui nous assistent dans nos opérations (tels que les services de livraison d'e-mails et les plateformes d'analyse), et les autorités légales lorsque la loi l'exige ou pour protéger nos droits.",
+      "paragraph2": "Tous les architectes d'intérieur de notre réseau sont liés par des accords de confidentialité et doivent se conformer au RGPD lors du traitement de vos données personnelles."
+    },
+    "section4": {
+      "title": "4. Sécurité des données",
+      "paragraph1": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos informations personnelles contre l'accès non autorisé, la modification, la divulgation ou la destruction. Ces mesures incluent le chiffrement, des serveurs sécurisés et des audits de sécurité réguliers. Cependant, aucune méthode de transmission sur Internet n'est sécurisée à 100 % et nous ne pouvons garantir une sécurité absolue. Nous maintenons des pratiques de sécurité conformes aux normes de l'industrie et mettons continuellement à jour nos protocoles pour protéger vos données."
+    },
+    "section5": {
+      "title": "5. Vos droits",
+      "paragraph1": "En vertu du RGPD et de la loi française sur la protection des données, vous avez le droit de : accéder aux informations personnelles que nous détenons sur vous, demander la correction d'informations inexactes ou incomplètes, demander la suppression de vos informations (sous réserve d'obligations légales), vous opposer au traitement de vos informations, demander la limitation du traitement, la portabilité des données, et retirer votre consentement à tout moment. Pour exercer ces droits, contactez-nous à contact@haussparis.com avec votre demande et une preuve d'identité."
+    },
+    "section6": {
+      "title": "6. Cookies et suivi",
+      "paragraph1": "Nous utilisons Google Analytics pour comprendre comment les visiteurs utilisent notre site Web et pour améliorer l'expérience utilisateur. Cela implique des cookies et des technologies de suivi similaires qui collectent des informations sur votre comportement de navigation. Vous pouvez contrôler les cookies via les paramètres de votre navigateur et refuser le suivi de Google Analytics. Pour plus d'informations sur Google Analytics et comment vous désinscrire, visitez la politique de confidentialité de Google et le module complémentaire de navigateur de désactivation de Google Analytics."
+    },
+    "section7": {
+      "title": "7. Liens vers des sites tiers",
+      "paragraph1": "Notre site Web peut contenir des liens vers des sites Web tiers, y compris les portfolios et sites Web des architectes d'intérieur de notre réseau. Nous ne sommes pas responsables des pratiques de confidentialité de ces sites externes. Nous vous encourageons à consulter leurs politiques de confidentialité avant de leur fournir des informations personnelles."
+    },
+    "section8": {
+      "title": "8. Confidentialité des enfants",
+      "paragraph1": "Nos services ne sont pas destinés aux personnes de moins de 18 ans. Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si nous apprenons que nous avons collecté des informations personnelles auprès d'un enfant de moins de 18 ans, nous prendrons des mesures pour supprimer rapidement ces informations."
+    },
+    "section9": {
+      "title": "9. Modifications de cette politique",
+      "paragraph1": "Nous pouvons mettre à jour cette Politique de Confidentialité de temps à autre pour refléter les changements dans nos pratiques ou les exigences légales. Nous vous informerons de tout changement important en publiant la nouvelle politique sur cette page et en mettant à jour la date de 'Dernière mise à jour' en haut. Nous vous encourageons à consulter cette politique périodiquement. Votre utilisation continue de nos services après la publication des modifications constitue votre acceptation de la politique mise à jour."
+    },
+    "section10": {
+      "title": "10. Nous contacter",
+      "paragraph1": "Si vous avez des questions sur cette Politique de Confidentialité, nos pratiques en matière de données, ou si vous souhaitez exercer vos droits, veuillez nous contacter à :",
+      "email": "E-mail :",
+      "phone": "Téléphone :",
+      "address": "Adresse :",
+      "company": "Entreprise :"
+    }
+  },
+  "TermsOfService": {
+    "metadata": {
+      "title": "Conditions Générales d'Utilisation - Hauss Paris",
+      "description": "Consultez les conditions générales d'utilisation du service de mise en relation avec des architectes d'intérieur Hauss Paris à Paris et à l'international."
+    },
+    "eyebrow": "Légal",
+    "title": "Conditions Générales d'Utilisation",
+    "lastUpdated": "Dernière mise à jour : 21 janvier 2026",
+    "section1": {
+      "title": "1. Description du service",
+      "paragraph1": "Hauss Paris est un service professionnel de mise en relation qui connecte les clients (particuliers et professionnels) avec des architectes d'intérieur à Paris et à l'international. Nous gérons un réseau d'architectes vérifiés et qualifiés et facilitons les présentations en fonction des exigences du projet client, du budget, des préférences de style et des délais. Nous ne fournissons pas directement de services d'architecture d'intérieur. Notre rôle se limite à faciliter les connexions entre les clients et les professionnels du design indépendants."
+    },
+    "section2": {
+      "title": "2. Éligibilité",
+      "paragraph1": "Vous devez avoir au moins 18 ans et être capable de conclure un contrat contraignant en vertu du droit français pour utiliser nos services. En utilisant nos services, vous déclarez et garantissez que vous remplissez ces conditions d'éligibilité et que toutes les informations que vous fournissez sont exactes et complètes."
+    },
+    "section3": {
+      "title": "3. Notre service de mise en relation",
+      "paragraph1": "Lorsque vous soumettez une demande de projet via notre site Web ou nos formulaires de contact, nous allons : examiner les exigences et préférences de votre projet, sélectionner 2 à 3 architectes d'intérieur de notre réseau qui correspondent à vos critères spécifiques (en fonction du style, du budget, de la disponibilité et du type de projet), vous fournir des profils d'architectes, des portfolios et des informations pertinentes, et faciliter la présentation initiale entre vous et les architectes sélectionnés.",
+      "paragraph2": "Le service de mise en relation est fourni gratuitement aux clients. Tout engagement ultérieur avec un architecte d'intérieur est un accord contractuel distinct entre vous et l'architecte, indépendant de Hauss Paris. Nous ne recevons pas de commissions ou de frais des architectes pour les mises en relation."
+    },
+    "section4": {
+      "title": "4. Relations avec les architectes",
+      "paragraph1": "Hauss Paris facilite uniquement les présentations. Une fois la mise en relation effectuée, tout contrat de services d'architecture d'intérieur est directement entre vous et l'architecte. Nous ne sommes pas partie à cet accord et ne sommes pas responsables de : la qualité, la ponctualité ou le résultat du travail de l'architecte, les négociations de prix ou les conditions de paiement, les retards de projet ou les dépassements de coûts, les litiges entre vous et les architectes, ou tout dommage découlant de la relation architecte-client. Tous les architectes d'intérieur de notre réseau sont des professionnels indépendants qui exploitent leurs propres entreprises."
+    },
+    "section5": {
+      "title": "5. Responsabilités de l'utilisateur",
+      "paragraph1": "Vous acceptez de : fournir des informations exactes, complètes et véridiques sur votre projet et vos exigences, communiquer de manière professionnelle et respectueuse avec les architectes mis en relation, respecter les droits de propriété intellectuelle des architectes et de Hauss Paris, ne pas utiliser notre service à des fins illégales ou en violation de ces conditions, ne pas tenter de contourner notre processus de mise en relation pour éviter les futurs frais de service (si mis en place), et nous informer rapidement de tout problème ou préoccupation concernant les architectes mis en relation."
+    },
+    "section6": {
+      "title": "6. Propriété intellectuelle",
+      "paragraph1": "Tout le contenu du site Web de Hauss Paris, y compris le texte, les graphiques, les logos, les images et les logiciels, est la propriété de Hauss Paris (Hugo Betscher) ou de nos concédants de licence et est protégé par les lois françaises et internationales sur la propriété intellectuelle. Vous ne pouvez pas copier, modifier, distribuer, vendre ou créer des œuvres dérivées de notre contenu sans autorisation écrite explicite."
+    },
+    "section7": {
+      "title": "7. Limitation de responsabilité",
+      "paragraph1": "Hauss Paris fournit le service de mise en relation « tel quel » sans garanties d'aucune sorte, expresses ou implicites. Nous ne garantissons pas : la disponibilité ou la qualité des architectes mis en relation, la réussite des résultats du projet, la performance ou le professionnalisme de l'architecte, ou l'adéquation d'un architecte pour votre projet spécifique.",
+      "paragraph2": "Dans toute la mesure permise par le droit français, Hauss Paris et Hugo Betscher ne seront pas responsables de : la qualité, la ponctualité ou le résultat du travail d'un architecte, les litiges entre vous et les architectes, les retards de projet, les dépassements de coûts ou les problèmes de qualité, tout dommage indirect, accessoire, consécutif ou punitif, ou la perte de profits, de revenus ou d'opportunités commerciales. Notre responsabilité totale pour toute réclamation liée à notre service ne dépassera pas le montant que vous nous avez payé (qui est zéro pour notre service de mise en relation gratuit)."
+    },
+    "section8": {
+      "title": "8. Indemnisation",
+      "paragraph1": "Vous acceptez d'indemniser, de défendre et de dégager de toute responsabilité Hauss Paris, Hugo Betscher et nos affiliés de toute réclamation, dommage, perte, responsabilité et dépense (y compris les frais juridiques raisonnables) découlant de : votre utilisation de notre service, votre violation de ces conditions, votre engagement de projet avec un architecte, ou tout litige entre vous et un architecte mis en relation."
+    },
+    "section9": {
+      "title": "9. Résiliation",
+      "paragraph1": "Nous nous réservons le droit de refuser le service ou de mettre fin à votre accès à notre service de mise en relation à tout moment, pour quelque raison que ce soit, y compris la violation de ces conditions, un comportement frauduleux ou abusif, ou une utilisation abusive de notre plateforme. En cas de résiliation, votre droit d'utiliser notre service cesse immédiatement."
+    },
+    "section10": {
+      "title": "10. Droit applicable",
+      "paragraph1": "Ces Conditions Générales d'Utilisation sont régies et interprétées conformément aux lois de la France. Tout litige découlant de ces conditions ou de notre service sera résolu exclusivement par les tribunaux de Paris, France. Si une disposition de ces conditions est jugée invalide ou inapplicable, les dispositions restantes resteront pleinement en vigueur."
+    },
+    "section11": {
+      "title": "11. Modifications des conditions",
+      "paragraph1": "Nous pouvons modifier ces Conditions Générales d'Utilisation à tout moment en publiant des conditions mises à jour sur cette page et en mettant à jour la date de 'Dernière mise à jour'. Les changements importants seront communiqués par e-mail aux utilisateurs enregistrés. Votre utilisation continue de notre service après la publication des modifications constitue votre acceptation des nouvelles conditions."
+    },
+    "section12": {
+      "title": "12. Coordonnées",
+      "paragraph1": "Pour toute question concernant ces Conditions Générales d'Utilisation ou notre service de mise en relation, veuillez nous contacter à :",
+      "email": "E-mail :",
+      "phone": "Téléphone :",
+      "address": "Adresse :",
+      "company": "Entreprise :"
+    }
+  },
+  "TestimonialsSection": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Découvrez les témoignages de particuliers et professionnels qui nous ont fait confiance pour leurs projets d'architecture d'intérieur à Paris.",
+    "seeMore": "Voir tous les avis",
+    "testimonials": {
+      "1": {
+        "name": "Zoé Dupont-Mercier",
+        "location": "Paris 7ème",
+        "project": "Rénovation cuisine et salle de bain",
+        "text": "L'équipe de Hauss Paris a été à l'écoute de nos contraintes budgétaires et de nos délais serrés. L'architecte proposé a réalisé un travail remarquable. Nos espaces sont maintenant modernes et fonctionnels."
+      },
+      "2": {
+        "name": "Yann Kowalski",
+        "location": "Paris 8ème",
+        "project": "Réaménagement bureaux professionnels",
+        "text": "En tant que chef d'entreprise, j'avais besoin d'un service rapide et efficace. Hauss Paris a su identifier exactement le profil d'architecte dont nous avions besoin pour nos nouveaux bureaux. Excellent travail."
+      },
+      "3": {
+        "name": "Léa Benkacem",
+        "location": "Paris 16ème",
+        "project": "Rénovation appartement haussmannien",
+        "text": "Hauss Paris a su comprendre nos attentes et nous a mis en relation avec un architecte exceptionnel. Notre appartement a été transformé au-delà de nos espérances. Un service professionnel et personnalisé du début à la fin."
+      },
+      "4": {
+        "name": "Malik Diouf",
+        "location": "Paris 11ème",
+        "project": "Aménagement loft contemporain",
+        "text": "Le processus était fluide et efficace. En quelques jours seulement, nous avons été mis en contact avec l'architecte parfait pour notre projet de loft. Le résultat est absolument magnifique."
+      },
+      "5": {
+        "name": "Agathe Villiers",
+        "location": "Neuilly-sur-Seine",
+        "project": "Décoration intérieure complète",
+        "text": "Un service gratuit et sans engagement qui tient toutes ses promesses. L'architecte recommandé a su créer une ambiance élégante et chaleureuse dans notre maison. Je recommande vivement Hauss Paris."
+      },
+      "6": {
+        "name": "Raphaël Nguyen",
+        "location": "Paris 3ème",
+        "project": "Design boutique de mode",
+        "text": "Pour l'ouverture de ma boutique dans le Marais, je cherchais un designer qui comprenne l'univers de la mode. Hauss Paris m'a présenté le candidat idéal. Le résultat a dépassé mes attentes."
+      },
+      "7": {
+        "name": "Élodie Chevalier",
+        "location": "Boulogne-Billancourt",
+        "project": "Aménagement maison familiale",
+        "text": "Nous avions un projet complexe avec des enfants en bas âge. L'architecte recommandé a su créer des espaces à la fois esthétiques et pratiques pour toute la famille. Service impeccable de A à Z."
+      },
+      "8": {
+        "name": "Samir El Khoury",
+        "location": "Paris 17ème",
+        "project": "Transformation studio en deux-pièces",
+        "text": "Maximiser l'espace dans un petit appartement parisien est un vrai défi. Grâce à Hauss Paris, nous avons trouvé un architecte créatif qui a su optimiser chaque mètre carré. Nous sommes ravis."
+      },
+      "9": {
+        "name": "Inès Beaumont",
+        "location": "Paris 6ème",
+        "project": "Rénovation appartement de prestige",
+        "text": "Pour notre appartement Saint-Germain-des-Prés, nous recherchions l'excellence. Le service de mise en relation a été irréprochable et l'architecte proposé possède un talent rare. Un investissement qui en valait la peine."
+      },
+      "10": {
+        "name": "Julien Arnaud-Tessier",
+        "location": "Paris 9ème",
+        "project": "Aménagement restaurant gastronomique",
+        "text": "L'ouverture d'un restaurant demande une vision architecturale précise. Hauss Paris nous a orientés vers un professionnel qui a parfaitement saisi notre concept. L'atmosphère créée contribue au succès de notre établissement."
+      }
+    }
+  },
+  "ArchitecteInterieurParisService": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris | Hauss Paris - Rénovation clé en main",
+      "description": "Trouvez votre architecte d'intérieur à Paris. Accompagnement personnalisé pour clients internationaux. Réseau vérifié, gestion à distance possible. Devis gratuit."
+    },
+    "eyebrow": "Service",
+    "title": "Architecte d'intérieur à Paris : votre projet de rénovation accompagné de A à Z",
+    "intro": "Vous souhaitez rénover un appartement à Paris mais vous ne savez pas par où commencer ? Hauss Paris simplifie cette démarche en vous mettant en relation avec des architectes d'intérieur parisiens rigoureusement sélectionnés.",
+    "section1": {
+      "title": "Votre projet parisien entre de bonnes mains",
+      "paragraph1": "Que vous viviez à Paris, à l'étranger ou que vous investissiez dans la capitale française, trouver le bon architecte d'intérieur peut s'avérer complexe. Notre mission : vous permettre de concrétiser votre projet de rénovation en toute sérénité, où que vous soyez dans le monde.",
+      "paragraph2": "Depuis notre création, nous accompagnons une clientèle internationale dans leurs projets de rénovation à Paris. Expatriés, investisseurs, propriétaires de résidences secondaires : nous comprenons vos contraintes spécifiques et y apportons des solutions concrètes."
+    },
+    "section2": {
+      "title": "Pourquoi faire appel à un architecte d'intérieur à Paris ?",
+      "paragraph1": "Rénover un appartement parisien présente des défis uniques. Entre les contraintes des immeubles anciens, les réglementations de copropriété et les spécificités du marché local, un accompagnement professionnel fait toute la différence.",
+      "paragraph2": "Un architecte d'intérieur sait exploiter le potentiel de votre bien : création de rangements sur mesure, redistribution intelligente des pièces, maximisation de la lumière naturelle. Il préserve le cachet parisien tout en modernisant votre intérieur."
+    },
+    "section3": {
+      "title": "Notre réseau d'architectes d'intérieur à Paris",
+      "paragraph1": "Chez Hauss Paris, nous ne travaillons pas avec n'importe qui. Chaque architecte d'intérieur de notre réseau a été sélectionné selon des critères stricts : diplôme reconnu, minimum 5 ans d'expérience à Paris, assurances à jour, références vérifiées.",
+      "paragraph2": "Nous ne vous proposons pas une liste d'architectes au hasard. Après avoir compris votre projet, vos goûts et vos contraintes, nous identifions le professionnel le plus adapté à votre situation."
+    },
+    "section4": {
+      "title": "Comment se déroule votre projet ?",
+      "paragraph1": "Notre accompagnement s'articule en quatre étapes claires. D'abord une consultation initiale gratuite de 30 à 45 minutes pour comprendre vos besoins. Ensuite, nous vous présentons 1 à 3 architectes d'intérieur sélectionnés pour votre projet.",
+      "paragraph2": "L'architecte d'intérieur entre ensuite en action avec l'étude et conception : relevé, propositions d'aménagement, sélection des matériaux, estimation budgétaire. Enfin, pendant les travaux, il coordonne les interventions et vous tient informé régulièrement."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre accompagnement",
+      "title": "Un service personnalisé pour votre projet parisien",
+      "description": "De la consultation initiale à la réception des travaux, nous vous accompagnons à chaque étape avec transparence et professionnalisme."
+    },
+    "gridList": {
+      "consultation": {
+        "title": "Consultation initiale gratuite",
+        "description": "Nous échangeons sur votre projet lors d'un entretien de 30 à 45 minutes pour comprendre vos besoins, votre budget et vos délais."
+      },
+      "matching": {
+        "title": "Matching avec votre architecte",
+        "description": "Nous sélectionnons 1 à 3 architectes d'intérieur selon votre projet et vous présentons leur profil et réalisations."
+      },
+      "design": {
+        "title": "Étude et conception",
+        "description": "Relevé de l'existant, propositions d'aménagement, sélection des matériaux et estimation budgétaire détaillée."
+      },
+      "execution": {
+        "title": "Travaux et suivi",
+        "description": "L'architecte coordonne les artisans, assure le suivi régulier et vous tient informé avec des comptes-rendus photo."
+      }
+    },
+    "stats": {
+      "international": "Clients",
+      "network": "Architectes vérifiés",
+      "satisfaction": "Taux de satisfaction"
+    },
+    "distinctions": {
+      "title": "Ce qui nous distingue",
+      "remote": {
+        "title": "Accompagnement 100% à distance",
+        "description": "Gestion complète de votre projet depuis l'étranger avec visioconférences et reporting photo régulier."
+      },
+      "multilingual": {
+        "title": "Communication multilingue",
+        "description": "Notre équipe parle français, anglais et italien pour faciliter vos échanges."
+      },
+      "verified": {
+        "title": "Réseau vérifié et assuré",
+        "description": "Tous nos architectes sont diplômés, expérimentés et disposent des assurances professionnelles."
+      },
+      "transparent": {
+        "title": "Transparence totale",
+        "description": "Tarifs clairs, délais réalistes et communication honnête à chaque étape du projet."
+      }
+    },
+    "pricing": {
+      "title": "Tarifs : combien coûte un architecte d'intérieur à Paris ?",
+      "intro": "La transparence sur les prix fait partie de nos engagements. Voici les ordres de grandeur à prévoir pour votre projet.",
+      "fees": {
+        "title": "Honoraires de l'architecte d'intérieur",
+        "consultation": {
+          "label": "Consultation conseil (2h)",
+          "price": "150 € à 250 €"
+        },
+        "study": {
+          "label": "Étude d'aménagement (plans, 3D)",
+          "price": "80 € à 150 € / m²"
+        },
+        "full": {
+          "label": "Mission complète (étude + suivi)",
+          "price": "8% à 12% du montant des travaux"
+        }
+      },
+      "works": {
+        "title": "Coût des travaux de rénovation à Paris",
+        "refresh": {
+          "label": "Rafraîchissement (peinture, sols)",
+          "price": "400 € à 800 € / m²"
+        },
+        "partial": {
+          "label": "Rénovation partielle",
+          "price": "800 € à 1 200 € / m²"
+        },
+        "complete": {
+          "label": "Rénovation complète",
+          "price": "1 200 € à 1 800 € / m²"
+        },
+        "highend": {
+          "label": "Rénovation haut de gamme",
+          "price": "1 800 € à 2 500 € / m²"
+        },
+        "heavy": {
+          "label": "Restructuration lourde",
+          "price": "2 500 € et plus / m²"
+        }
+      },
+      "example": {
+        "title": "Exemple concret",
+        "description": "Pour un appartement haussmannien de 80m² nécessitant une rénovation complète",
+        "works": "Travaux : 80 × 1 500 € = 120 000 €",
+        "fees": "Honoraires architecte (10%) : 12 000 €",
+        "total": "Budget total : environ 132 000 €"
+      }
+    },
+    "projects": {
+      "title": "Pour quels types de projets ?",
+      "haussmann": {
+        "title": "Rénovation d'appartement haussmannien",
+        "description": "Respect des proportions, mise en valeur des moulures et cheminées, choix de matériaux cohérents avec le patrimoine."
+      },
+      "rooftop": {
+        "title": "Appartement sous les toits",
+        "description": "Transformation des volumes atypiques en espaces de caractère avec poutres apparentes et verrières."
+      },
+      "piedaterre": {
+        "title": "Pied-à-terre et résidence secondaire",
+        "description": "Intérieurs fonctionnels et accueillants, optimisés pour un usage ponctuel avec rangements malins."
+      },
+      "investment": {
+        "title": "Investissement locatif",
+        "description": "Création d'intérieurs attractifs qui se louent vite et bien, en respectant votre budget d'investissement."
+      },
+      "studio": {
+        "title": "Studio et petit espace",
+        "description": "Optimisation des petites surfaces parisiennes avec expertise dans l'aménagement de 25 à 30m²."
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": {
+        "question": "Je vis à l'étranger, comment gérer mon projet de rénovation à Paris ?",
+        "answer": "C'est notre spécialité. Nous organisons les échanges par visioconférence, partageons les documents en ligne et assurons un reporting régulier avec photos du chantier. Plusieurs de nos clients ont mené leur projet sans se déplacer à Paris."
+      },
+      "q2": {
+        "question": "Parlez-vous anglais ou italien ?",
+        "answer": "Oui. Notre équipe et plusieurs architectes de notre réseau sont bilingues ou trilingues. Nous pouvons conduire l'intégralité de votre projet en anglais ou en italien."
+      },
+      "q3": {
+        "question": "Comment sélectionnez-vous les architectes d'intérieur de votre réseau ?",
+        "answer": "Nous vérifions les diplômes, les assurances, les références et rencontrons chaque professionnel avant de l'intégrer à notre réseau. Nous suivons la satisfaction des clients pour garantir un niveau de qualité constant."
+      },
+      "q4": {
+        "question": "Quel budget minimum pour faire appel à un architecte d'intérieur ?",
+        "answer": "Il n'y a pas de budget minimum imposé. En pratique, l'intervention d'un architecte d'intérieur se justifie pleinement à partir de 30 000 € de travaux. En dessous, une prestation de conseil ponctuel peut suffire."
+      },
+      "q5": {
+        "question": "Combien de temps dure une rénovation d'appartement à Paris ?",
+        "answer": "Comptez 2 à 3 mois pour une rénovation partielle, 4 à 6 mois pour une rénovation complète. Les délais dépendent de l'ampleur des travaux, de la disponibilité des artisans et des autorisations administratives."
+      },
+      "q6": {
+        "question": "Intervenez-vous en dehors de Paris ?",
+        "answer": "Oui. Notre réseau couvre Paris intra-muros et toute l'Île-de-France : Neuilly, Boulogne, Saint-Cloud, Versailles, et les départements 92, 93, 94, 78, 91, 77, 95."
+      },
+      "q7": {
+        "question": "Que se passe-t-il si je ne suis pas satisfait de l'architecte proposé ?",
+        "answer": "Vous êtes libre de refuser notre proposition et de demander un autre profil. La consultation initiale avec Hauss Paris est gratuite et sans engagement."
+      }
+    },
+    "testimonials": {
+      "title": "Ils ont fait confiance à Hauss Paris",
+      "t1": {
+        "quote": "Nous vivons à Londres et avons acheté un appartement dans le Marais. Hauss Paris nous a trouvé un architecte parfait : il parlait anglais, comprenait nos goûts et nous a tenu informés chaque semaine par visio. Le résultat dépasse nos attentes.",
+        "author": "James & Sophie M.",
+        "location": "Londres"
+      },
+      "t2": {
+        "quote": "Investisseur depuis 10 ans à Paris, j'ai enfin trouvé un partenaire fiable pour mes rénovations. Les architectes recommandés par Hauss Paris sont sérieux et respectent les budgets.",
+        "author": "Marco T.",
+        "location": "Milan"
+      },
+      "t3": {
+        "quote": "En tant qu'expatriée, je redoutais de gérer des travaux à distance. L'accompagnement de Hauss Paris m'a rassurée du début à la fin. Je recommande vivement.",
+        "author": "Catherine L.",
+        "location": "New York"
+      }
+    },
+    "cta": {
+      "title": "Lancez votre projet de rénovation à Paris",
+      "description": "Vous avez un projet d'appartement à rénover à Paris ? Parlons-en. Réservez une consultation gratuite avec notre équipe.",
+      "button": "Demander une consultation gratuite"
+    },
+    "decoratorLink": {
+      "title": "Vous cherchez plutôt un décorateur ?",
+      "description": "Si votre projet ne nécessite pas de travaux structurels, découvrez notre service de décoration d'intérieur sans travaux : mobilier, couleurs, styling et accessoires.",
+      "link": "Découvrir le service décorateur"
+    }
+  },
+  "DecoratorParisService": {
+    "metadata": {
+      "title": "Décorateur d'intérieur Paris | Hauss Paris - Décoration sans travaux",
+      "description": "Trouvez votre décorateur d'intérieur à Paris. Transformation rapide sans travaux : mobilier, couleurs, styling. Budget 5k-50k€, délai 3-8 semaines. Devis gratuit."
+    },
+    "eyebrow": "Service",
+    "title": "Décorateur d'intérieur à Paris : transformez votre appartement sans travaux",
+    "intro": "Vous souhaitez donner un nouveau souffle à votre intérieur parisien sans entreprendre de travaux ? Un décorateur d'intérieur transforme votre appartement par le mobilier, les couleurs et les accessoires.",
+    "section1": {
+      "title": "Décoration d'intérieur : une transformation rapide et accessible",
+      "paragraph1": "Contrairement à l'architecte d'intérieur qui intervient sur la structure (cloisons, électricité, plomberie), le décorateur travaille uniquement sur l'habillage de votre espace : choix des meubles, palette de couleurs, textiles, luminaires et objets de décoration.",
+      "paragraph2": "Cette approche présente des avantages considérables : pas de déclaration de travaux, pas de coordination d'artisans, budget maîtrisé entre 5 000 € et 50 000 €, et un projet réalisé en 3 à 8 semaines contre plusieurs mois pour une rénovation complète."
+    },
+    "section2": {
+      "title": "Pour qui ? Les situations idéales pour un décorateur",
+      "paragraph1": "Vous venez d'acheter un appartement en bon état mais au style daté ? Vous préparez votre bien pour la location saisonnière ou Airbnb ? Vous êtes investisseur et cherchez à valoriser un bien avant la vente ? Le décorateur d'intérieur est la solution optimale.",
+      "paragraph2": "Particulièrement adapté aux expatriés et propriétaires à distance, ce service permet une gestion 100% à distance avec sélection de mobilier en ligne, livraison coordonnée et installation supervisée, le tout sans nécessiter votre présence sur place."
+    },
+    "section3": {
+      "title": "Notre réseau de décorateurs d'intérieur à Paris",
+      "paragraph1": "Hauss Paris a constitué un réseau de décorateurs spécialisés dans les projets parisiens : pied-à-terre, résidences secondaires, investissements locatifs et home staging. Chaque professionnel possède minimum 3 ans d'expérience et un portfolio vérifié.",
+      "paragraph2": "Nous sélectionnons votre décorateur selon votre budget, votre style (haussmannien chic, contemporain épuré, bohème parisien) et vos contraintes de délai. Vous recevez une proposition personnalisée en 48h avec planches d'ambiance et estimation budgétaire."
+    },
+    "section4": {
+      "title": "Comment se déroule votre projet de décoration ?",
+      "paragraph1": "Première étape : consultation gratuite de 30 minutes pour comprendre vos goûts, usage du lieu et budget. Nous vous présentons ensuite 1 à 2 décorateurs avec leurs créations et références clients.",
+      "paragraph2": "Le décorateur crée ensuite un concept global : planches d'inspiration, palette de couleurs, sélection de mobilier et accessoires, plan d'agencement. Après validation, il gère les commandes, réceptions et installation. Vous recevez votre appartement clé en main, prêt à vivre ou à louer."
+    },
+    "sectionIntro": {
+      "eyebrow": "Notre méthode",
+      "title": "De l'idée à la réalisation : un parcours simplifié",
+      "description": "Un processus fluide et transparent, pensé pour les propriétaires parisiens et internationaux qui recherchent l'efficacité."
+    },
+    "gridList": {
+      "consultation": {
+        "title": "Consultation initiale (gratuite)",
+        "description": "Échange de 30 min pour définir votre style, votre budget et l'usage de l'appartement (résidence principale, Airbnb, location)."
+      },
+      "matching": {
+        "title": "Sélection de votre décorateur",
+        "description": "Présentation de 1 à 2 profils adaptés avec portfolio, style et tarifs. Vous choisissez celui qui vous correspond."
+      },
+      "design": {
+        "title": "Conception du projet",
+        "description": "Planches d'ambiance, palette de couleurs, sélection mobilier/accessoires, plan d'agencement et budget détaillé."
+      },
+      "execution": {
+        "title": "Sourcing et installation",
+        "description": "Commande du mobilier, coordination des livraisons, installation supervisée. Vous recevez les clés d'un appartement transformé."
+      }
+    },
+    "stats": {
+      "international": "Projets réalisés",
+      "network": "Décorateurs vérifiés",
+      "satisfaction": "Délai moyen"
+    },
+    "pricing": {
+      "title": "Tarifs : combien coûte un décorateur d'intérieur à Paris ?",
+      "intro": "La décoration d'intérieur représente un investissement bien inférieur à une rénovation. Voici les budgets typiques pour un appartement parisien.",
+      "fees": {
+        "title": "Honoraires du décorateur",
+        "consultation": {
+          "label": "Consultation conseil (1h30)",
+          "price": "100 € à 200 €"
+        },
+        "concept": {
+          "label": "Concept déco (planches + shopping list)",
+          "price": "800 € à 1 500 €"
+        },
+        "full": {
+          "label": "Mission complète (concept + sourcing + suivi)",
+          "price": "15% à 25% du budget mobilier"
+        }
+      },
+      "furniture": {
+        "title": "Budget mobilier et accessoires",
+        "refresh": {
+          "label": "Refresh léger (accessoires, textiles)",
+          "price": "3 000 € à 8 000 €"
+        },
+        "partial": {
+          "label": "Réaménagement partiel (salon ou chambre)",
+          "price": "8 000 € à 15 000 €"
+        },
+        "complete": {
+          "label": "Ameublement complet (studio/2P)",
+          "price": "15 000 € à 30 000 €"
+        },
+        "highend": {
+          "label": "Décoration haut de gamme (3P+)",
+          "price": "30 000 € à 50 000 €"
+        }
+      },
+      "example": {
+        "title": "Exemple concret",
+        "description": "Pour un appartement 2 pièces (45m²) destiné à la location meublée Airbnb",
+        "furniture": "Budget mobilier & déco : 18 000 €",
+        "fees": "Honoraires décorateur (18%) : 3 240 €",
+        "total": "Budget total : 21 240 €",
+        "note": "Délai : 5 semaines de la commande à l'installation"
+      },
+      "comparison": {
+        "title": "Décorateur vs Architecte d'intérieur",
+        "decorator": {
+          "title": "Décorateur d'intérieur",
+          "scope": "Mobilier, couleurs, styling",
+          "works": "Aucun travaux",
+          "budget": "5 000 € à 50 000 €",
+          "timeline": "3 à 8 semaines",
+          "ideal": "Appartement en bon état, Airbnb, home staging"
+        },
+        "architect": {
+          "title": "Architecte d'intérieur",
+          "scope": "Restructuration, cloisons, installations",
+          "works": "Travaux lourds",
+          "budget": "30 000 € à 200 000 €+",
+          "timeline": "3 à 6 mois",
+          "ideal": "Rénovation complète, redistribution des espaces",
+          "link": "En savoir plus sur nos architectes d'intérieur →"
+        }
+      }
+    },
+    "projects": {
+      "title": "Pour quels types de projets ?",
+      "airbnb": {
+        "title": "Airbnb et location meublée",
+        "description": "Intérieurs photogéniques et fonctionnels optimisés pour la rentabilité locative. Mobilier robuste, décoration instagrammable."
+      },
+      "piedaterre": {
+        "title": "Pied-à-terre parisien",
+        "description": "Espaces chaleureux et raffinés pour vos séjours à Paris. Optimisation des rangements, atmosphère cosy."
+      },
+      "staging": {
+        "title": "Home staging avant vente",
+        "description": "Valorisation de votre bien pour accélérer la vente et maximiser le prix. Neutralisation et mise en scène professionnelle."
+      },
+      "refresh": {
+        "title": "Relooking sans travaux",
+        "description": "Transformation d'un intérieur daté par de nouvelles couleurs, mobilier moderne et accessoires tendance."
+      },
+      "expat": {
+        "title": "Installation d'expatriés",
+        "description": "Appartement clé en main pour votre arrivée à Paris. Tout est prêt dès le premier jour : meubles, équipement, décoration."
+      },
+      "investment": {
+        "title": "Optimisation investissement locatif",
+        "description": "Aménagement stratégique pour maximiser le loyer. Choix durables et esthétiques qui plaisent aux locataires."
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "q1": {
+        "question": "Quelle différence entre décorateur et architecte d'intérieur ?",
+        "answer": "Le décorateur intervient uniquement sur l'habillage (mobilier, couleurs, accessoires) sans toucher à la structure. L'architecte d'intérieur peut modifier les cloisons, refaire l'électricité et la plomberie. Budget et délais sont très différents : 5-50k€ en 3-8 semaines pour le décorateur, 30-200k€+ en 3-6 mois pour l'architecte."
+      },
+      "q2": {
+        "question": "Puis-je gérer mon projet de décoration depuis l'étranger ?",
+        "answer": "Absolument. C'est même l'un de nos cas d'usage principaux. Tout se fait à distance : sélection du mobilier en visioconférence ou par email, livraisons coordonnées, installation supervisée par le décorateur. Vous recevez des photos à chaque étape et récupérez un appartement prêt à vivre."
+      },
+      "q3": {
+        "question": "Quel budget minimum pour faire appel à un décorateur ?",
+        "answer": "À partir de 5 000 € (mobilier + honoraires), vous pouvez rafraîchir un espace avec de nouveaux textiles, accessoires et quelques meubles clés. Pour un ameublement complet d'un studio ou 2 pièces, comptez 15 000 € à 25 000 €."
+      },
+      "q4": {
+        "question": "Combien de temps prend un projet de décoration ?",
+        "answer": "De 3 à 8 semaines selon l'ampleur : 3-4 semaines pour un refresh partiel, 6-8 semaines pour un ameublement complet. Les délais dépendent surtout des délais de livraison du mobilier (2-6 semaines en général)."
+      },
+      "q5": {
+        "question": "Le décorateur peut-il m'aider pour un Airbnb ?",
+        "answer": "Oui, plusieurs décorateurs de notre réseau sont spécialisés dans les locations saisonnières. Ils connaissent les codes visuels qui plaisent sur Airbnb, privilégient des matériaux robustes et optimisent le rapport qualité/prix pour maximiser votre rentabilité."
+      },
+      "q6": {
+        "question": "Comment fonctionne la rémunération du décorateur ?",
+        "answer": "Soit un forfait pour le concept déco (800-1500€), soit un pourcentage sur le budget mobilier pour une mission complète (15-25%). Certains décorateurs combinent les deux : forfait pour la conception + pourcentage réduit sur le sourcing. Tout est transparent dès le devis."
+      },
+      "q7": {
+        "question": "Puis-je fournir mes propres meubles et ne payer que pour le conseil ?",
+        "answer": "Oui, vous pouvez opter pour une mission « conseil uniquement » : le décorateur vous remet planches d'ambiance, liste shopping avec références et plan d'agencement. Vous gérez ensuite les commandes et l'installation vous-même. Tarif : 800 € à 1 500 € selon la surface."
+      },
+      "q8": {
+        "question": "Intervenez-vous en dehors de Paris ?",
+        "answer": "Oui. Notre réseau couvre Paris intra-muros et toute l'Île-de-France : Neuilly, Boulogne, Versailles, Saint-Cloud et les départements 92, 93, 94, 78, 91, 77, 95."
+      }
+    },
+    "testimonials": {
+      "title": "Ils ont transformé leur appartement parisien",
+      "t1": {
+        "quote": "Nous vivons à Genève et avons acheté un pied-à-terre dans le 7ème. En 6 semaines, le décorateur a tout géré : mobilier, installation, décoration. Nous sommes arrivés dans un appartement parfait, exactement comme sur les planches. Aucun stress.",
+        "author": "Claire & Thomas B.",
+        "location": "Genève"
+      },
+      "t2": {
+        "quote": "J'ai fait appel à Hauss Paris pour préparer mon appartement pour Airbnb. Le décorateur a créé un intérieur chaleureux et photogénique. Depuis, je suis booké à 90% avec d'excellentes notes. L'investissement est rentabilisé.",
+        "author": "David L.",
+        "location": "Londres"
+      },
+      "t3": {
+        "quote": "Expatriée à New York, je voulais refaire mon appartement parisien avant de le louer meublé. Le décorateur m'a proposé 3 ambiances, j'ai validé par email, et 5 semaines plus tard c'était installé. Service impeccable.",
+        "author": "Sarah M.",
+        "location": "New York"
+      },
+      "t4": {
+        "quote": "Pour mon investissement locatif, je cherchais un résultat chic sans exploser le budget. Le décorateur a sourcé du mobilier design abordable et créé un appartement qui se loue immédiatement. Excellent rapport qualité-prix.",
+        "author": "Antoine R.",
+        "location": "Lyon"
+      }
+    },
+    "cta": {
+      "title": "Transformez votre appartement parisien sans travaux",
+      "description": "Vous avez un projet de décoration à Paris ? Échangeons sur vos besoins. Consultation gratuite de 30 minutes avec notre équipe.",
+      "button": "Demander une consultation gratuite"
+    },
+    "architectLink": {
+      "title": "Votre projet nécessite des travaux ?",
+      "description": "Si vous avez besoin de repenser l'espace avec des travaux structurels, découvrez notre service d'architecture d'intérieur avec rénovation complète.",
+      "link": "Découvrir le service architecte"
+    }
+  },
+  "ArchitecteParis16Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 16 | Hauss Paris - Rénovation haut de gamme",
+      "description": "Trouvez votre architecte d'intérieur dans le 16ème arrondissement de Paris. Spécialistes des appartements haussmanniens et rénovations de prestige. Devis gratuit."
+    },
+    "eyebrow": "Paris 16ème",
+    "title": "Architecte d'intérieur dans le 16ème arrondissement : l'excellence au service de votre projet",
+    "intro": "Le 16ème arrondissement de Paris est synonyme de prestige et d'élégance. Nos architectes d'intérieur sélectionnés connaissent parfaitement ce quartier emblématique et ses exigences particulières.",
+    "section1": {
+      "title": "Le 16ème arrondissement : un patrimoine architectural d'exception",
+      "paragraph1": "Entre Trocadéro, Passy et Auteuil, le 16ème arrondissement concentre certains des plus beaux immeubles haussmanniens et Art déco de Paris. Ces bâtiments prestigieux requièrent une <strong>expertise spécifique</strong> pour préserver leur caractère tout en les adaptant au confort moderne.",
+      "paragraph2": "Hauts plafonds, moulures d'origine, parquets en point de Hongrie, cheminées en marbre : nos architectes d'intérieur savent <strong>sublimer ces éléments patrimoniaux</strong> tout en intégrant les équipements contemporains que vous attendez."
+    },
+    "section2": {
+      "title": "Des projets à la hauteur du quartier",
+      "paragraph1": "Dans le 16ème, nous accompagnons une clientèle exigeante sur des projets variés : <strong>rénovation complète d'appartements familiaux</strong> de 150 à 400 m², transformation de bureaux en habitations, ou optimisation d'espaces pour une clientèle internationale.",
+      "paragraph2": "Nos architectes connaissent les syndics de copropriété du quartier, les artisans locaux qualifiés et les contraintes spécifiques des immeubles classés. Un atout précieux pour <strong>mener votre projet sereinement</strong>.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise adaptée au standing du 16ème",
+      "paragraph1": "Les propriétaires du 16ème attendent un niveau de finition irréprochable. Nos architectes d'intérieur travaillent avec des <strong>artisans sélectionnés</strong> : ébénistes, staffeurs, marbriers, ferronniers d'art qui garantissent une exécution à la hauteur de vos attentes.",
+      "paragraph2": "De la conception à la livraison, nous assurons un <strong>suivi rigoureux</strong> de chaque détail. Notre réseau d'architectes intervient régulièrement dans les quartiers de la Muette, Victor Hugo, Ranelagh et Porte Dauphine."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 16ème",
+      "description": "Quelle que soit l'envergure de votre projet, nous vous mettons en relation avec l'architecte d'intérieur le plus adapté à vos besoins."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation haussmannienne",
+        "description": "Transformation complète de votre appartement dans le respect des codes architecturaux du quartier. Redistribution des espaces, mise aux normes, finitions haut de gamme."
+      },
+      "layout": {
+        "title": "Aménagement sur mesure",
+        "description": "Création de rangements intégrés, dressings, bibliothèques et cuisines sur mesure qui s'intègrent parfaitement à l'architecture existante."
+      },
+      "decoration": {
+        "title": "Direction artistique",
+        "description": "Sélection de mobilier, tissus et objets d'art pour créer une atmosphère raffinée. Accès à des pièces d'antiquaires et designers renommés."
+      },
+      "furnishing": {
+        "title": "Ameublement clé en main",
+        "description": "Service complet pour propriétaires non-résidents : de la conception à l'installation, votre appartement livré prêt à vivre."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "40+",
+        "label": "projets réalisés dans le 16ème"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "de clients satisfaits"
+      },
+      "network": {
+        "value": "15+",
+        "label": "architectes spécialisés"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 16ème",
+      "q1": {
+        "question": "Quels sont les prix au m² pour une rénovation dans le 16ème ?",
+        "answer": "Pour une rénovation complète de qualité dans le 16ème, comptez entre 1 800 € et 3 500 € HT/m² selon le niveau de finition souhaité. Les projets haut de gamme avec staffs, marbres et menuiseries sur mesure peuvent atteindre 4 000 à 5 000 €/m²."
+      },
+      "q2": {
+        "question": "Combien de temps dure une rénovation d'appartement dans le 16ème ?",
+        "answer": "Une rénovation complète dans le 16ème prend généralement entre 4 et 8 mois selon la surface et la complexité. Les immeubles anciens et les copropriétés strictes peuvent allonger les délais d'obtention des autorisations."
+      },
+      "q3": {
+        "question": "Travaillez-vous sur les immeubles classés du 16ème ?",
+        "answer": "Oui, plusieurs architectes de notre réseau ont l'expérience des immeubles classés ou inscrits au patrimoine. Ils connaissent les démarches auprès des Architectes des Bâtiments de France et les contraintes techniques associées."
+      },
+      "q4": {
+        "question": "Pouvez-vous gérer un projet à distance pour un propriétaire étranger ?",
+        "answer": "Absolument, c'est même une de nos spécialités. Nous accompagnons de nombreux propriétaires internationaux qui investissent dans le 16ème. L'architecte gère tout sur place : relevés, travaux, ameublement, et vous livre un appartement prêt à habiter ou à louer."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 16ème commence ici",
+      "description": "Que vous souhaitiez rénover un appartement familial près du Trocadéro ou transformer un bien d'investissement à Passy, nous avons l'architecte d'intérieur qu'il vous faut.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis7Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 7 | Hauss Paris - Rénovation de prestige",
+      "description": "Trouvez votre architecte d'intérieur dans le 7ème arrondissement de Paris. Spécialistes du quartier ministériel, Invalides et vue Tour Eiffel. Devis gratuit."
+    },
+    "eyebrow": "Paris 7ème",
+    "title": "Architecte d'intérieur dans le 7ème arrondissement : l'élégance bourgeoise au service de votre projet",
+    "intro": "Le 7ème arrondissement de Paris incarne la quintessence de l'élégance bourgeoise. Entre le quartier ministériel et les Invalides, nos architectes d'intérieur sélectionnés comprennent parfaitement ce quartier prestigieux et sa clientèle diplomatique.",
+    "section1": {
+      "title": "Le 7ème arrondissement : là où le pouvoir rencontre le raffinement",
+      "paragraph1": "De l'Esplanade des Invalides au Champ de Mars, le 7ème arrondissement abrite certaines des adresses les plus prestigieuses de Paris. Ces immeubles majestueux, souvent avec <strong>vue sur la Tour Eiffel</strong>, nécessitent des architectes qui comprennent l'équilibre entre grandeur officielle et confort intime.",
+      "paragraph2": "Grandes pièces de réception, bureaux de style ministériel, salles à manger d'apparat : nos architectes d'intérieur savent <strong>créer des espaces dignes des réceptions diplomatiques</strong> tout en préservant la chaleur d'une résidence privée."
+    },
+    "section2": {
+      "title": "Des projets à la hauteur du quartier ministériel",
+      "paragraph1": "Dans le 7ème, nous accompagnons une clientèle d'élite sur des projets d'exception : <strong>rénovation de grands appartements</strong> de 200 à 500 m², transformation d'anciennes ambassades, ou modernisation de biens familiaux près des Invalides.",
+      "paragraph2": "Nos architectes sont habitués à travailler avec des <strong>clients diplomatiques et politiques</strong> qui exigent discrétion, considérations sécuritaires et standards irréprochables. Ils comprennent les protocoles de ce quartier unique.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise pour la clientèle la plus exigeante",
+      "paragraph1": "Les propriétaires du 7ème attendent une discrétion absolue et une exécution sans faille. Nos architectes d'intérieur travaillent avec des <strong>maîtres artisans</strong> habitués aux commandes de prestige : doreurs, tapissiers et spécialistes de la restauration d'époque.",
+      "paragraph2": "De la conception à la réalisation, nous assurons une <strong>attention méticuleuse</strong> à chaque détail. Notre réseau intervient régulièrement dans les quartiers de Saint-Dominique, rue de Grenelle, rue de Varenne et près du Champ de Mars."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 7ème",
+      "description": "Quelle que soit l'envergure de votre projet, nous vous mettons en relation avec l'architecte d'intérieur le plus adapté à vos exigences exceptionnelles."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation de prestige",
+        "description": "Transformation complète respectant la grandeur de l'architecture du quartier ministériel. Restauration des détails d'époque, intégration du confort moderne, sécurité de pointe."
+      },
+      "layout": {
+        "title": "Espaces officiels et privés",
+        "description": "Création de pièces de réception, bureaux privés et quartiers familiaux intimes qui s'articulent harmonieusement dans les grands plans."
+      },
+      "decoration": {
+        "title": "Collections d'exception",
+        "description": "Sélection de mobilier de qualité muséale, beaux-arts et antiquités. Accès aux marchands privés et maisons de ventes du monde entier."
+      },
+      "furnishing": {
+        "title": "Clé en main diplomatique",
+        "description": "Service complet pour clients internationaux : de la conception à l'installation, incluant systèmes de sécurité et logements du personnel."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "25+",
+        "label": "projets réalisés dans le 7ème"
+      },
+      "satisfaction": {
+        "value": "100%",
+        "label": "de satisfaction client"
+      },
+      "network": {
+        "value": "12+",
+        "label": "architectes spécialisés"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 7ème",
+      "q1": {
+        "question": "Quels sont les prix au m² pour une rénovation dans le 7ème ?",
+        "answer": "Pour une rénovation complète de qualité dans le 7ème, comptez entre 2 000 € et 4 000 € HT/m² selon le niveau de finition souhaité. Les projets haut de gamme avec dorures, revêtements muraux en soie et menuiseries sur mesure peuvent atteindre 5 000 à 7 000 €/m²."
+      },
+      "q2": {
+        "question": "Comment gérez-vous les exigences de sécurité pour les clients de haut rang ?",
+        "answer": "Nous travaillons avec des consultants en sécurité spécialisés et pouvons intégrer des systèmes de protection discrets, des pièces sécurisées et des dispositifs de confidentialité. Nos architectes connaissent les protocoles diplomatiques et les exigences de confidentialité."
+      },
+      "q3": {
+        "question": "Travaillez-vous sur les immeubles historiques près des Invalides ?",
+        "answer": "Oui, plusieurs architectes de notre réseau sont spécialisés dans les bâtiments patrimoniaux du 7ème. Ils ont établi des relations avec les Architectes des Bâtiments de France et comprennent les exigences spécifiques de ce secteur protégé."
+      },
+      "q4": {
+        "question": "Pouvez-vous vous adapter aux emplois du temps diplomatiques et clients internationaux ?",
+        "answer": "Absolument. Nous travaillons régulièrement avec des ambassadeurs, diplomates et familles internationales. Notre équipe peut gérer des projets à distance, coordonner avec le personnel et s'adapter aux emplois du temps officiels et protocoles de sécurité."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 7ème commence ici",
+      "description": "Que vous souhaitiez rénover un grand appartement près des Invalides ou transformer une résidence avec vue sur la Tour Eiffel, nous avons l'architecte d'intérieur qu'il vous faut.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis8Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 8 | Hauss Paris - Rénovation de luxe",
+      "description": "Trouvez votre architecte d'intérieur dans le 8ème arrondissement de Paris. Spécialistes des Champs-Élysées, adresses de luxe et immeubles Art nouveau. Devis gratuit."
+    },
+    "eyebrow": "Paris 8ème",
+    "title": "Architecte d'intérieur dans le 8ème arrondissement : le prestige des Champs-Élysées",
+    "intro": "Le 8ème arrondissement représente le summum du luxe parisien. Des Champs-Élysées à la plaine Monceau, nos architectes d'intérieur sélectionnés maîtrisent l'art de créer des espaces dignes des adresses les plus prestigieuses au monde.",
+    "section1": {
+      "title": "Le 8ème arrondissement : capitale du luxe parisien",
+      "paragraph1": "De la Place de la Concorde à l'Arc de Triomphe, le 8ème arrondissement concentre les <strong>adresses les plus prestigieuses de Paris</strong>. Ces propriétés d'exception, qu'il s'agisse de grands immeubles haussmanniens ou de remarquables résidences Art nouveau, exigent des architectes qui comprennent le vrai luxe.",
+      "paragraph2": "Entrées monumentales, galeries de réception, salons privés : nos architectes d'intérieur savent <strong>orchestrer des espaces d'une grandeur exceptionnelle</strong> tout en créant des atmosphères intimes pour le quotidien."
+    },
+    "section2": {
+      "title": "Des projets au sommet du luxe",
+      "paragraph1": "Dans le 8ème, nous accompagnons une clientèle internationale ultra-fortunée : <strong>rénovation complète d'appartements palatins</strong> de 300 à 800 m², transformation d'hôtels particuliers historiques, ou création de pied-à-terre pour dirigeants internationaux.",
+      "paragraph2": "Nos architectes comprennent les <strong>codes du luxe international</strong> : proximité des maisons de haute couture, connexions avec les galeries prestigieuses et attentes de clients habitués à ce qu'il y a de plus raffiné.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise pour le luxe absolu",
+      "paragraph1": "Les clients du 8ème n'acceptent rien de moins que la perfection. Nos architectes d'intérieur collaborent avec les <strong>meilleurs artisans au monde</strong> : maîtres doreurs, spécialistes des marbres rares, tapissiers haute couture et installateurs d'art contemporain.",
+      "paragraph2": "De la vision à la réalité, nous assurons une <strong>excellence sans compromis</strong> à chaque étape. Notre réseau intervient dans tout le Triangle d'Or, le Faubourg Saint-Honoré, la Madeleine et le quartier du Parc Monceau."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 8ème",
+      "description": "Quelle que soit l'ampleur de vos ambitions, nous vous mettons en relation avec l'architecte d'intérieur capable de dépasser vos plus hautes attentes."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation palatiale",
+        "description": "Transformation complète de propriétés d'exception. Restauration des éléments historiques, intégration de technologies de pointe, finitions de qualité muséale."
+      },
+      "layout": {
+        "title": "Grands espaces de vie",
+        "description": "Création de galeries de réception, spas privés, cinémas et caves à vin intégrés harmonieusement dans l'architecture historique."
+      },
+      "decoration": {
+        "title": "Curation d'excellence mondiale",
+        "description": "Accès aux plus belles antiquités, maîtres contemporains et commandes sur mesure. Partenariats avec les galeries et maisons de ventes de premier plan."
+      },
+      "furnishing": {
+        "title": "Service conciergerie luxe",
+        "description": "Clé en main complet pour clients internationaux : installation de collections d'art, intégration domotique et gestion continue de la propriété."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "35+",
+        "label": "projets réalisés dans le 8ème"
+      },
+      "satisfaction": {
+        "value": "100%",
+        "label": "de satisfaction client"
+      },
+      "network": {
+        "value": "18+",
+        "label": "architectes spécialisés"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 8ème",
+      "q1": {
+        "question": "Quels sont les prix au m² pour une rénovation dans le 8ème ?",
+        "answer": "Pour une rénovation de luxe complète dans le 8ème, comptez entre 2 500 € et 5 000 € HT/m². Les projets exceptionnels avec matériaux rares, restauration de qualité muséale et sur-mesure intégral peuvent atteindre 8 000 à 12 000 €/m² ou plus."
+      },
+      "q2": {
+        "question": "Combien de temps dure une rénovation majeure dans le 8ème ?",
+        "answer": "Les rénovations majeures dans le 8ème prennent généralement de 8 à 18 mois selon l'envergure et la complexité. Les immeubles historiques et finitions exceptionnelles nécessitent des délais prolongés pour atteindre la perfection."
+      },
+      "q3": {
+        "question": "Travaillez-vous sur les immeubles Art nouveau du 8ème ?",
+        "answer": "Oui, nous avons des spécialistes de l'architecture Art nouveau qui comprennent les exigences particulières de préservation et de mise en valeur de ces bâtiments remarquables tout en les adaptant à la vie contemporaine."
+      },
+      "q4": {
+        "question": "Pouvez-vous coordonner avec les maisons de luxe et galeries ?",
+        "answer": "Absolument. Nos architectes ont établi des relations avec les grandes maisons de luxe, galeries et artisans du 8ème. Nous pouvons coordonner des commandes sur mesure, acquisitions d'art et ameublement exclusif."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 8ème commence ici",
+      "description": "Que vous rêviez d'un appartement palatin avenue Montaigne ou d'un pied-à-terre raffiné près de Monceau, nous avons l'architecte d'intérieur pour réaliser votre vision.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis6Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 6 | Hauss Paris - Rénovation de charme",
+      "description": "Trouvez votre architecte d'intérieur dans le 6ème arrondissement de Paris. Spécialistes de Saint-Germain-des-Prés, chic intellectuel et charme Rive Gauche. Devis gratuit."
+    },
+    "eyebrow": "Paris 6ème",
+    "title": "Architecte d'intérieur dans le 6ème arrondissement : la sophistication de la Rive Gauche",
+    "intro": "Le 6ème arrondissement est le cœur du Paris intellectuel. De Saint-Germain-des-Prés au Jardin du Luxembourg, nos architectes d'intérieur sélectionnés captent l'essence de l'héritage littéraire et du raffinement artistique.",
+    "section1": {
+      "title": "Le 6ème arrondissement : là où la culture rencontre l'élégance",
+      "paragraph1": "Entre les cafés légendaires de Saint-Germain et les galeries de la rue de Seine, le 6ème arrondissement incarne le <strong>chic intellectuel parisien</strong>. Ces appartements de caractère, souvent dans des immeubles des 17ème et 18ème siècles, nécessitent des architectes qui comprennent l'art de vivre cultivé.",
+      "paragraph2": "Bibliothèques donnant sur des cours, salons pour réunions littéraires, bureaux intimistes : nos architectes d'intérieur savent <strong>créer des espaces qui inspirent la réflexion et la conversation</strong> tout en honorant des siècles d'héritage artistique."
+    },
+    "section2": {
+      "title": "Des projets avec âme et caractère",
+      "paragraph1": "Dans le 6ème, nous accompagnons une clientèle cultivée sur des projets significatifs : <strong>rénovation d'appartements historiques</strong> de 100 à 300 m², transformation d'ateliers d'artistes, ou modernisation de biens familiaux près du Jardin du Luxembourg.",
+      "paragraph2": "Nos architectes comprennent l'<strong>esthétique intellectuelle de la Rive Gauche</strong> : l'importance des bibliothèques, le besoin de lumière naturelle et le désir de créer des espaces qui semblent collectionnés au fil des générations plutôt que décorés.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise pour le client cultivé",
+      "paragraph1": "Les résidents du 6ème valorisent l'authenticité plutôt que l'ostentation. Nos architectes d'intérieur travaillent avec des <strong>artisans qui partagent cette philosophie</strong> : restaurateurs de livres anciens, spécialistes de la quincaillerie d'époque et artisans qui comprennent la patine.",
+      "paragraph2": "De la conception à la réalisation, nous assurons une <strong>curation réfléchie</strong> de chaque élément. Notre réseau intervient régulièrement à Saint-Germain-des-Prés, Odéon, Saint-Sulpice et près du Jardin du Luxembourg."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 6ème",
+      "description": "Quel que soit le caractère de votre projet, nous vous mettons en relation avec l'architecte d'intérieur qui partage votre appréciation de l'art de vivre cultivé."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation de caractère",
+        "description": "Transformation réfléchie préservant le charme historique. Restauration des éléments d'origine, intégration du confort moderne, respect du patrimoine architectural."
+      },
+      "layout": {
+        "title": "Espaces pour vivre et réfléchir",
+        "description": "Création de bibliothèques, salons remplis d'art et bureaux paisibles. Des espaces conçus tant pour recevoir que pour la contemplation."
+      },
+      "decoration": {
+        "title": "Authenticité curatée",
+        "description": "Sélection d'antiquités, d'art et d'objets avec provenance et sens. Accès aux galeries et libraires de Saint-Germain."
+      },
+      "furnishing": {
+        "title": "Collectionné au fil du temps",
+        "description": "Création d'intérieurs qui semblent hérités plutôt qu'achetés. Mélange des époques et styles avec l'assurance des générations."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "30+",
+        "label": "projets réalisés dans le 6ème"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "de clients satisfaits"
+      },
+      "network": {
+        "value": "14+",
+        "label": "architectes spécialisés"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 6ème",
+      "q1": {
+        "question": "Quels sont les prix au m² pour une rénovation dans le 6ème ?",
+        "answer": "Pour une rénovation complète de qualité dans le 6ème, comptez entre 1 800 € et 3 500 € HT/m² selon le niveau de finition souhaité. Les projets nécessitant une restauration importante des éléments d'époque peuvent atteindre 4 000 à 5 500 €/m²."
+      },
+      "q2": {
+        "question": "Comment équilibrez-vous confort moderne et caractère historique ?",
+        "answer": "Nos architectes sont spécialistes de la modernisation invisible : climatisation dissimulée, technologie cachée et salles de bains et cuisines contemporaines qui respectent le patrimoine du bâtiment. L'objectif est un mode de vie moderne dans une coquille historique."
+      },
+      "q3": {
+        "question": "Travaillez-vous avec les galeries d'art du 6ème ?",
+        "answer": "Oui, nous avons établi des relations avec de nombreuses galeries de la rue de Seine et de Saint-Germain. Nous pouvons aider à sourcer des œuvres d'art, conseiller sur les collections et concevoir des espaces spécifiquement pour l'exposition d'art."
+      },
+      "q4": {
+        "question": "Pouvez-vous aider à trouver l'appartement parfait dans le 6ème ?",
+        "answer": "Bien que nous n'agissions pas comme agents immobiliers, nous pouvons conseiller sur les biens que vous envisagez, aider à évaluer le potentiel de rénovation et vous mettre en contact avec des agents de confiance spécialisés dans le 6ème arrondissement."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 6ème commence ici",
+      "description": "Que vous rêviez d'un appartement donnant sur le Jardin du Luxembourg ou d'une retraite littéraire à Saint-Germain, nous avons l'architecte d'intérieur pour donner vie à votre vision.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis17Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 17 | Hauss Paris - Rénovation familiale",
+      "description": "Trouvez votre architecte d'intérieur dans le 17ème arrondissement de Paris. Spécialistes des Batignolles, Parc Monceau et appartements familiaux. Devis gratuit."
+    },
+    "eyebrow": "Paris 17ème",
+    "title": "Architecte d'intérieur dans le 17ème arrondissement : l'art de vivre en famille",
+    "intro": "Le 17ème arrondissement de Paris allie charme villageois et élégance bourgeoise. Nos architectes d'intérieur sélectionnés comprennent le mode de vie familial de ce quartier et son caractère unique.",
+    "section1": {
+      "title": "Le 17ème arrondissement : des Batignolles au Parc Monceau",
+      "paragraph1": "Entre l'atmosphère village des Batignolles et l'élégance bourgeoise près du Parc Monceau, le 17ème arrondissement offre une <strong>diversité de styles architecturaux</strong>. Des immeubles haussmanniens aux constructions plus récentes, chaque projet nécessite une approche adaptée à son contexte.",
+      "paragraph2": "Rues arborées, marchés de quartier, écoles de qualité : le 17ème est le quartier de prédilection des familles cherchant <strong>un art de vivre parisien équilibré</strong>. Nos architectes d'intérieur savent créer des espaces répondant aux besoins de la vie familiale tout en respectant le caractère de chaque immeuble."
+    },
+    "section2": {
+      "title": "Des projets pour des familles exigeantes",
+      "paragraph1": "Dans le 17ème, nous sommes spécialisés dans les <strong>rénovations d'appartements familiaux</strong> de 80 à 200 m² : création de chambres d'enfants, optimisation des rangements, conception de cuisines ouvertes pour le quotidien tout en préservant des espaces de réception élégants.",
+      "paragraph2": "Nos architectes connaissent les spécificités du quartier : les rues calmes des Batignolles, les immeubles prestigieux autour du Parc Monceau, le quartier dynamique des Ternes. Un atout précieux pour <strong>accompagner votre projet de la conception à la réalisation</strong>.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise pour un quotidien pratique et élégant",
+      "paragraph1": "Les familles du 17ème attendent des espaces à la fois <strong>fonctionnels et sophistiqués</strong>. Nos architectes d'intérieur excellent dans la création d'espaces enfants évolutifs, de bureaux pour le télétravail, et de solutions de rangement qui préservent l'élégance des pièces de vie.",
+      "paragraph2": "De la conception à la livraison, nous assurons un <strong>suivi méticuleux</strong> de chaque détail. Notre réseau d'architectes intervient régulièrement dans les quartiers des Batignolles, Ternes, Monceau et Plaine Monceau."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 17ème",
+      "description": "Quelle que soit l'envergure de votre projet, nous vous mettons en relation avec l'architecte d'intérieur le plus adapté aux besoins de votre famille."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation d'appartement familial",
+        "description": "Transformation complète de votre appartement avec des aménagements adaptés à la famille. Conceptions sécurisées pour les enfants, rangements pratiques et espaces de vie élégants."
+      },
+      "layout": {
+        "title": "Aménagement intelligent",
+        "description": "Optimisation de la vie familiale : salles de jeux, espaces devoirs, bureaux de télétravail et solutions de rangement évolutives."
+      },
+      "decoration": {
+        "title": "Décoration adaptée à la famille",
+        "description": "Sélection de matériaux et mobilier durables et élégants. Des intérieurs sophistiqués adaptés aux enfants qui résistent aux épreuves du quotidien familial."
+      },
+      "furnishing": {
+        "title": "Ameublement clé en main",
+        "description": "Service complet d'ameublement : de la conception à l'installation, votre appartement livré prêt pour la vie de famille avec tous les détails pratiques pensés."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "35+",
+        "label": "projets réalisés dans le 17ème"
+      },
+      "satisfaction": {
+        "value": "97%",
+        "label": "de clients satisfaits"
+      },
+      "network": {
+        "value": "12+",
+        "label": "architectes spécialisés"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 17ème",
+      "q1": {
+        "question": "Quels sont les prix au m² pour une rénovation dans le 17ème ?",
+        "answer": "Pour une rénovation complète de qualité dans le 17ème, comptez entre 1 500 € et 2 800 € HT/m² selon le niveau de finition souhaité. Les projets familiaux avec rangements sur mesure et matériaux de qualité se situent généralement entre 2 000 et 3 000 €/m²."
+      },
+      "q2": {
+        "question": "Combien de temps dure une rénovation d'appartement familial dans le 17ème ?",
+        "answer": "Une rénovation complète dans le 17ème prend généralement entre 3 et 6 mois selon la surface et la complexité. Nous pouvons souvent échelonner les travaux pour minimiser les perturbations de la vie familiale."
+      },
+      "q3": {
+        "question": "Pouvez-vous concevoir des espaces adaptés aux enfants tout en restant élégants ?",
+        "answer": "Absolument, c'est l'une de nos spécialités. Nous concevons des espaces qui grandissent avec les enfants, utilisant des matériaux durables et un design intemporel. Les salles de jeux peuvent se transformer en espaces d'étude, et les rangements s'adaptent aux besoins évolutifs."
+      },
+      "q4": {
+        "question": "Travaillez-vous avec les réglementations spécifiques des copropriétés du 17ème ?",
+        "answer": "Oui, nos architectes connaissent les règles des copropriétés du 17ème, particulièrement autour du Parc Monceau et dans le quartier historique des Batignolles. Nous gérons toutes les autorisations nécessaires et coordonnons avec les syndics."
+      }
+    },
+    "cta": {
+      "title": "Votre projet familial dans le 17ème commence ici",
+      "description": "Que vous souhaitiez rénover un appartement familial près des Batignolles ou transformer un bien près du Parc Monceau, nous avons l'architecte d'intérieur pour les besoins de votre famille.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis15Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 15 | Hauss Paris - Rénovation optimisée",
+      "description": "Trouvez votre architecte d'intérieur dans le 15ème arrondissement de Paris. Spécialistes de l'optimisation d'espace et des rénovations pratiques. Devis gratuit."
+    },
+    "eyebrow": "Paris 15ème",
+    "title": "Architecte d'intérieur dans le 15ème arrondissement : optimiser chaque mètre carré",
+    "intro": "Le 15ème arrondissement, le plus vaste de Paris, offre une diversité exceptionnelle de types d'habitat. Nos architectes d'intérieur sélectionnés savent optimiser chaque mètre carré tout en créant des intérieurs beaux et fonctionnels.",
+    "section1": {
+      "title": "Le 15ème arrondissement : diversité des logements, possibilités infinies",
+      "paragraph1": "Des tours modernes du Front de Seine au charme village du quartier Commerce, le 15ème arrondissement présente <strong>une incroyable variété de styles architecturaux</strong>. Immeubles d'après-guerre, appartements haussmanniens et constructions contemporaines nécessitent chacun des approches de conception spécifiques.",
+      "paragraph2": "Réputé pour son <strong>côté pratique et son bon rapport qualité-prix</strong>, le 15ème attire jeunes actifs, familles en expansion et ceux qui recherchent des appartements spacieux à prix raisonnables. Nos architectes d'intérieur excellent dans la transformation de ces espaces variés en intérieurs d'exception."
+    },
+    "section2": {
+      "title": "Des projets pour un habitat intelligent",
+      "paragraph1": "Dans le 15ème, nous prenons en charge <strong>une large gamme de projets de rénovation</strong> : optimisation de studios compacts, décloisonnement d'appartements familiaux, modernisation d'immeubles des années 60-70, ou apport de caractère aux constructions récentes.",
+      "paragraph2": "Nos architectes comprennent l'esprit pragmatique du 15ème : <strong>solutions de rangement intelligentes, plans ouverts maximisant la lumière naturelle</strong>, et utilisation efficace de chaque mètre carré disponible. Nous transformons des logements pratiques en intérieurs élégants.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise en optimisation d'espace",
+      "paragraph1": "Le parc immobilier du 15ème bénéficie souvent de <strong>surfaces généreuses à prix compétitifs</strong>. Nos architectes d'intérieur savent libérer ce potentiel : suppression de cloisons inutiles, création de circulation entre les espaces et modernisation des aménagements dépassés.",
+      "paragraph2": "De la conception à la livraison, nous assurons des <strong>solutions économiques</strong> sans compromis sur la qualité. Notre réseau d'architectes intervient dans tout l'arrondissement : Grenelle, Javel, Convention, Commerce et Beaugrenelle."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 15ème",
+      "description": "Quel que soit votre budget et l'envergure de votre projet, nous vous mettons en relation avec l'architecte d'intérieur le plus adapté pour optimiser votre espace."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation complète",
+        "description": "Transformation totale de votre appartement : optimisation des volumes, modernisation des installations, finitions de qualité qui valorisent durablement votre bien."
+      },
+      "layout": {
+        "title": "Optimisation des espaces",
+        "description": "Aménagements intelligents qui tirent le meilleur de chaque mètre carré. Cuisines ouvertes, pièces multifonctions et rangements intégrés dans tout l'appartement."
+      },
+      "decoration": {
+        "title": "Design contemporain",
+        "description": "Esthétique moderne et intemporelle qui valorise votre espace. Sélection de matériaux et mobilier alliant style et praticité."
+      },
+      "furnishing": {
+        "title": "Ameublement complet",
+        "description": "Service d'ameublement de A à Z : plan d'implantation, sélection du mobilier et installation. Votre appartement livré prêt à habiter."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "45+",
+        "label": "projets réalisés dans le 15ème"
+      },
+      "satisfaction": {
+        "value": "96%",
+        "label": "de clients satisfaits"
+      },
+      "network": {
+        "value": "14+",
+        "label": "architectes spécialisés"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 15ème",
+      "q1": {
+        "question": "Quels sont les prix au m² pour une rénovation dans le 15ème ?",
+        "answer": "Pour une rénovation complète de qualité dans le 15ème, comptez entre 1 200 € et 2 200 € HT/m² selon le niveau de finition. Le 15ème offre un excellent rapport qualité-prix, permettant des rénovations de qualité à des budgets plus accessibles que les arrondissements centraux."
+      },
+      "q2": {
+        "question": "Combien de temps dure une rénovation d'appartement dans le 15ème ?",
+        "answer": "Une rénovation complète dans le 15ème prend généralement entre 3 et 5 mois selon la surface. La diversité des types d'immeubles signifie que les délais peuvent varier selon les contraintes structurelles spécifiques."
+      },
+      "q3": {
+        "question": "Pouvez-vous moderniser des appartements des années 60-70 en leur ajoutant du caractère ?",
+        "answer": "Absolument, c'est une demande courante dans le 15ème. Nous sommes spécialisés dans la transformation d'aménagements datés en intérieurs contemporains, tout en ajoutant un intérêt architectural par des menuiseries sur mesure, des matériaux de qualité et des détails de conception réfléchis."
+      },
+      "q4": {
+        "question": "Travaillez-vous sur les tours du Front de Seine ?",
+        "answer": "Oui, nous avons l'expérience des exigences spécifiques des tours du Front de Seine, y compris leurs aménagements uniques et les réglementations de l'immeuble. Ces appartements offrent des vues exceptionnelles et peuvent être transformés en espaces contemporains remarquables."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 15ème commence ici",
+      "description": "Que vous souhaitiez optimiser un espace compact près de Convention ou transformer un grand appartement au Front de Seine, nous avons l'architecte d'intérieur pour vos besoins.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis9Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 9 | Hauss Paris - Rénovation quartier tendance",
+      "description": "Trouvez votre architecte d'intérieur dans le 9ème arrondissement de Paris. Spécialistes de SoPi, quartier Opéra et rénovations créatives. Devis gratuit."
+    },
+    "eyebrow": "Paris 9ème",
+    "title": "Architecte d'intérieur dans le 9ème arrondissement : quand le classique rencontre le créatif",
+    "intro": "Le 9ème arrondissement vibre d'énergie créative, de la majesté de l'Opéra aux rues tendance de South Pigalle. Nos architectes d'intérieur sélectionnés capturent ce mélange unique d'élégance classique et de modernité branchée.",
+    "section1": {
+      "title": "Le 9ème arrondissement : la grandeur de l'Opéra rencontre le cool de SoPi",
+      "paragraph1": "Entre le majestueux Opéra Garnier et les restaurants animés de South Pigalle, le 9ème offre <strong>un mix architectural fascinant</strong>. Grands boulevards haussmanniens, cours intimistes, ateliers d'artistes et anciens lieux de production créent des opportunités de design uniques.",
+      "paragraph2": "Le 9ème est devenu <strong>le hub créatif de Paris</strong> : restaurants tendance, boutiques indépendantes, galeries et vie nocturne vibrante. Nos architectes d'intérieur savent créer des espaces qui reflètent cette énergie dynamique tout en respectant le riche patrimoine du quartier."
+    },
+    "section2": {
+      "title": "Des projets avec du caractère",
+      "paragraph1": "Dans le 9ème, nous travaillons avec <strong>des professionnels créatifs et des clients sensibles au design</strong> : transformation d'anciens ateliers d'artistes en lofts contemporains, rénovation d'appartements haussmanniens avec une touche moderne, ou création d'espaces de vie et de travail pour les entrepreneurs du quartier.",
+      "paragraph2": "Nos architectes comprennent l'esprit du 9ème : <strong>des choix de design audacieux, des éléments industriels mêlés à des détails classiques</strong>, et des espaces pouvant accueillir aussi bien des dîners intimes que des rassemblements plus larges. Nous créons des intérieurs aussi vibrants que le quartier lui-même.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise dans les espaces créatifs",
+      "paragraph1": "Les clients du 9ème attendent <strong>un design qui fait impression</strong>. Nos architectes d'intérieur excellent dans la création d'espaces avec de la personnalité : matériaux bruts apparents, éclairages sur mesure, murs prêts à accueillir des œuvres d'art et agencements flexibles pour la vie urbaine moderne.",
+      "paragraph2": "De la conception à la livraison, nous assurons une <strong>attention à chaque détail créatif</strong>. Notre réseau d'architectes intervient dans tout l'arrondissement : autour de l'Opéra, sur les Grands Boulevards, à South Pigalle (SoPi) et dans le charmant quartier de la Rue des Martyrs."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 9ème",
+      "description": "Quelle que soit votre vision, nous vous mettons en relation avec l'architecte d'intérieur qui peut donner vie à vos idées créatives."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation de caractère",
+        "description": "Transformez votre espace en célébrant son histoire. Reconversions industrielles, réinvention du haussmannien et réhabilitation créative des bâtiments uniques du 9ème."
+      },
+      "layout": {
+        "title": "Espaces de vie flexibles",
+        "description": "Plans ouverts pour recevoir, bureaux pour le travail créatif, pièces multifonctionnelles qui s'adaptent à votre style de vie et à l'énergie sociale du 9ème."
+      },
+      "decoration": {
+        "title": "Intérieurs design",
+        "description": "Choix esthétiques audacieux, pièces statement et collections curatées. Des espaces qui reflètent l'esprit créatif de South Pigalle et au-delà."
+      },
+      "furnishing": {
+        "title": "Ameublement curé",
+        "description": "Accès à des pièces uniques, trouvailles vintage et design contemporain. Votre espace meublé avec le même œil pour la découverte qui fait la particularité du 9ème."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "30+",
+        "label": "projets réalisés dans le 9ème"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "de clients satisfaits"
+      },
+      "network": {
+        "value": "10+",
+        "label": "architectes spécialisés"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 9ème",
+      "q1": {
+        "question": "Quels sont les prix au m² pour une rénovation dans le 9ème ?",
+        "answer": "Pour une rénovation complète de qualité dans le 9ème, comptez entre 1 600 € et 3 000 € HT/m² selon la complexité du design. Les projets créatifs avec éléments sur mesure, reconversions industrielles ou finitions haut de gamme se situent généralement entre 2 500 et 3 500 €/m²."
+      },
+      "q2": {
+        "question": "Combien de temps dure une rénovation d'appartement dans le 9ème ?",
+        "answer": "Une rénovation complète dans le 9ème prend généralement entre 4 et 7 mois selon l'envergure. Les projets impliquant des modifications structurelles dans des immeubles anciens ou des reconversions de locaux non résidentiels peuvent nécessiter un temps supplémentaire pour les autorisations."
+      },
+      "q3": {
+        "question": "Pouvez-vous convertir d'anciens ateliers ou studios en espaces de vie ?",
+        "answer": "Oui, ces conversions sont l'une de nos spécialités dans le 9ème. Le quartier compte de nombreux anciens ateliers d'artistes et locaux de production qui font des habitations exceptionnelles. Nous gérons tous les aspects y compris les changements de destination si nécessaire."
+      },
+      "q4": {
+        "question": "Concevez-vous des espaces adaptés à la vie quotidienne et aux réceptions ?",
+        "answer": "Absolument, c'est essentiel dans le 9ème où la vie sociale est centrale. Nous concevons des espaces flexibles avec des cuisines ouvertes pour recevoir, des séjours pouvant accueillir des rassemblements et des rangements astucieux pour garder les objets du quotidien hors de vue."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 9ème commence ici",
+      "description": "Que vous souhaitiez transformer un ancien atelier près de Pigalle ou rénover un appartement classique près de l'Opéra, nous avons l'architecte d'intérieur pour votre vision créative.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis11Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 11 | Hauss Paris - Rénovation tendance",
+      "description": "Trouvez votre architecte d'intérieur dans le 11ème arrondissement de Paris. Spécialistes des lofts et rénovations modernes près de Bastille. Devis gratuit."
+    },
+    "eyebrow": "Paris 11ème",
+    "title": "Architecte d'intérieur dans le 11ème arrondissement : créativité au service de votre projet",
+    "intro": "Le 11ème arrondissement de Paris est un quartier vibrant et dynamique où la créativité rencontre la vie urbaine. Nos architectes d'intérieur sélectionnés comprennent le caractère éclectique de ce secteur et ses possibilités uniques.",
+    "section1": {
+      "title": "Le 11ème arrondissement : un quartier dynamique et créatif",
+      "paragraph1": "Entre Bastille, Oberkampf et Nation, le 11ème arrondissement est l'un des secteurs les plus dynamiques de Paris. Anciens ateliers, lofts industriels et immeubles parisiens classiques cohabitent, offrant des <strong>opportunités de rénovation exceptionnelles</strong> pour ceux qui apprécient l'authenticité et le caractère.",
+      "paragraph2": "Hauts plafonds d'anciens ateliers, murs en briques apparentes, verrières industrielles : nos architectes d'intérieur savent <strong>valoriser ces caractéristiques uniques</strong> tout en créant des espaces de vie contemporains et fonctionnels adaptés aux modes de vie modernes."
+    },
+    "section2": {
+      "title": "Des projets à l'image du quartier",
+      "paragraph1": "Dans le 11ème, nous accompagnons une clientèle diversifiée sur des projets enthousiasmants : <strong>transformation de lofts de 60 à 200 m²</strong>, conversion d'espaces commerciaux en habitations créatives, ou optimisation d'appartements compacts pour jeunes actifs.",
+      "paragraph2": "Nos architectes connaissent les contraintes spécifiques du quartier, des immeubles mixtes aux exigences particulières des anciens espaces industriels. Une expertise précieuse pour <strong>concrétiser votre vision créative</strong>.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise adaptée à l'esprit du 11ème",
+      "paragraph1": "Les habitants du 11ème apprécient les matériaux authentiques et le design créatif. Nos architectes d'intérieur travaillent avec des <strong>artisans qualifiés</strong> : métalliers, menuisiers et artisans spécialisés dans les rénovations style industriel et les finitions contemporaines.",
+      "paragraph2": "Du concept à la réalisation, nous assurons une <strong>attention méticuleuse</strong> à chaque détail. Notre réseau intervient régulièrement dans les quartiers de Bastille, Charonne, Oberkampf et Voltaire."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 11ème",
+      "description": "Quelle que soit l'envergure de votre projet, nous vous mettons en relation avec l'architecte d'intérieur le plus adapté à vos besoins et votre esthétique."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation de lofts et ateliers",
+        "description": "Transformation complète d'espaces industriels en lieux de vie exceptionnels. Plans ouverts, mezzanines, finitions contemporaines tout en préservant le caractère original."
+      },
+      "layout": {
+        "title": "Optimisation intelligente de l'espace",
+        "description": "Solutions ingénieuses pour appartements compacts. Rangements sur mesure, meubles multifonctions et agencements intelligents qui maximisent chaque mètre carré."
+      },
+      "decoration": {
+        "title": "Direction artistique contemporaine",
+        "description": "Sélection soignée de mobilier et objets mêlant héritage industriel et confort moderne. Accès à des designers locaux et chineurs de vintage."
+      },
+      "furnishing": {
+        "title": "Ameublement clé en main",
+        "description": "Service complet pour investisseurs et professionnels occupés : de la conception à l'installation, votre appartement livré prêt à vivre."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "35+",
+        "label": "projets réalisés dans le 11ème"
+      },
+      "satisfaction": {
+        "value": "97%",
+        "label": "de clients satisfaits"
+      },
+      "network": {
+        "value": "12+",
+        "label": "architectes spécialisés"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 11ème",
+      "q1": {
+        "question": "Quels sont les prix au m² pour une rénovation dans le 11ème ?",
+        "answer": "Pour une rénovation de qualité dans le 11ème, comptez entre 1 200 et 2 500 € HT/m² selon l'ampleur des travaux. Les transformations de lofts avec travaux de structure et finitions industrielles varient généralement de 2 000 à 3 500 €/m²."
+      },
+      "q2": {
+        "question": "Combien de temps dure une transformation de loft dans le 11ème ?",
+        "answer": "Une transformation de loft dans le 11ème prend généralement entre 3 et 6 mois selon la complexité. Les projets impliquant des modifications structurelles ou des changements de destination peuvent nécessiter un délai supplémentaire pour les autorisations."
+      },
+      "q3": {
+        "question": "Travaillez-vous sur les conversions local commercial vers habitation ?",
+        "answer": "Oui, plusieurs architectes de notre réseau sont spécialisés dans la conversion d'espaces commerciaux, ateliers et bureaux en logements. Ils gèrent toutes les démarches administratives et connaissent les réglementations spécifiques."
+      },
+      "q4": {
+        "question": "Peut-on créer un intérieur style industriel dans un immeuble classique ?",
+        "answer": "Absolument. Nos architectes excellent dans le mélange des styles, apportant des éléments industriels comme le métal, les effets de briques apparentes et les équipements contemporains dans des appartements parisiens traditionnels tout en respectant les réglementations."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 11ème commence ici",
+      "description": "Que vous souhaitiez transformer un atelier près de Bastille ou rénover un appartement à Oberkampf, nous avons l'architecte d'intérieur qui comprend votre vision.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis4Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 4 | Hauss Paris - Rénovation Le Marais",
+      "description": "Trouvez votre architecte d'intérieur dans le 4ème arrondissement de Paris. Spécialistes des immeubles historiques du Marais et rénovations patrimoniales. Devis gratuit."
+    },
+    "eyebrow": "Paris 4ème",
+    "title": "Architecte d'intérieur dans le 4ème arrondissement : expertise patrimoniale pour votre projet",
+    "intro": "Le 4ème arrondissement de Paris, écrin du Marais, est un trésor de patrimoine architectural. Nos architectes d'intérieur sélectionnés possèdent une connaissance approfondie de ce quartier historique et de ses bâtiments exceptionnels.",
+    "section1": {
+      "title": "Le 4ème arrondissement : un musée vivant de l'architecture parisienne",
+      "paragraph1": "Entre la Place des Vosges, l'Hôtel de Ville et l'Île Saint-Louis, le 4ème arrondissement abrite certains des plus beaux édifices historiques de Paris. Des hôtels particuliers du XVIIème siècle aux structures médiévales, ces propriétés exceptionnelles requièrent une <strong>expertise patrimoniale spécialisée</strong> pour préserver leur caractère.",
+      "paragraph2": "Poutres apparentes, cheminées Louis XIII, parquets anciens, façades en pierre sculptée : nos architectes d'intérieur savent <strong>restaurer et sublimer ces éléments précieux</strong> tout en intégrant discrètement le confort et les équipements modernes."
+    },
+    "section2": {
+      "title": "Des projets dignes du Marais",
+      "paragraph1": "Dans le 4ème, nous accompagnons des clients exigeants sur des projets prestigieux : <strong>restauration d'appartements historiques</strong> de 80 à 300 m², modernisation sensible d'espaces classés, ou création de pieds-à-terre raffinés pour une clientèle internationale.",
+      "paragraph2": "Nos architectes entretiennent des relations établies avec les autorités du patrimoine, les restaurateurs spécialisés et les artisans formés aux techniques traditionnelles. Un réseau essentiel pour <strong>naviguer les exigences patrimoniales complexes</strong>.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise honorant le patrimoine du Marais",
+      "paragraph1": "Les propriétaires du 4ème attendent un respect absolu de l'authenticité historique combiné à un confort moderne invisible. Nos architectes d'intérieur collaborent avec des <strong>maîtres artisans</strong> : menuisiers restaurateurs, tailleurs de pierre, doreurs et spécialistes des techniques d'époque.",
+      "paragraph2": "Du relevé initial à la réception finale, nous assurons une <strong>conformité patrimoniale rigoureuse</strong>. Notre réseau intervient régulièrement autour de la Place des Vosges, Rue des Francs-Bourgeois, Village Saint-Paul et Île Saint-Louis."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 4ème",
+      "description": "Quelle que soit l'envergure de votre projet patrimonial, nous vous mettons en relation avec l'architecte d'intérieur le plus qualifié pour honorer l'histoire de votre bien."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Restauration patrimoniale",
+        "description": "Restauration méticuleuse d'appartements historiques respectant l'authenticité d'époque. Techniques traditionnelles, matériaux agréés, intégration harmonieuse des systèmes modernes."
+      },
+      "layout": {
+        "title": "Modernisation sensible",
+        "description": "Intégration discrète de cuisines, salles de bains et technologies contemporaines dans des cadres historiques. Interventions réversibles préservant les éléments d'origine."
+      },
+      "decoration": {
+        "title": "Décoration d'époque",
+        "description": "Sélection d'antiquités, mobilier d'époque et art qui complètent le patrimoine de votre bien. Accès à des marchands spécialisés et expertise en ventes aux enchères."
+      },
+      "furnishing": {
+        "title": "Service patrimonial complet",
+        "description": "Service intégral pour propriétaires internationaux : de l'évaluation patrimoniale à la livraison clé en main d'un appartement du Marais authentiquement restauré."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "25+",
+        "label": "projets réalisés dans le 4ème"
+      },
+      "satisfaction": {
+        "value": "99%",
+        "label": "de clients satisfaits"
+      },
+      "network": {
+        "value": "10+",
+        "label": "spécialistes du patrimoine"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 4ème",
+      "q1": {
+        "question": "Quels sont les prix pour une rénovation patrimoniale dans le 4ème ?",
+        "answer": "Une rénovation patrimoniale dans le 4ème varie généralement de 2 500 à 4 500 € HT/m² en raison des techniques spécialisées requises. Les projets impliquant des éléments classés ou nécessitant l'approbation d'un architecte du patrimoine peuvent atteindre 5 000 à 7 000 €/m²."
+      },
+      "q2": {
+        "question": "Combien de temps dure une rénovation patrimoniale dans le 4ème ?",
+        "answer": "Les rénovations patrimoniales dans le 4ème prennent généralement 6 à 12 mois en raison de l'approche minutieuse requise. Les projets dans des immeubles classés peuvent nécessiter un délai supplémentaire pour les autorisations et la disponibilité des artisans spécialisés."
+      },
+      "q3": {
+        "question": "Travaillez-vous avec les autorités du patrimoine (ABF) ?",
+        "answer": "Oui, notre réseau comprend des architectes expérimentés dans le travail avec les Architectes des Bâtiments de France. Ils comprennent les exigences et peuvent guider votre projet à travers le processus d'approbation tout en atteignant vos objectifs de conception."
+      },
+      "q4": {
+        "question": "Peut-on installer des équipements modernes dans un appartement historique du Marais ?",
+        "answer": "Absolument. Nos spécialistes excellent dans la modernisation discrète : chauffage au sol, climatisation intégrée, technologie cachée, cuisines et salles de bains modernes qui respectent le caractère historique tout en offrant le confort contemporain."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 4ème commence ici",
+      "description": "Que vous souhaitiez restaurer un appartement près de la Place des Vosges ou créer un pied-à-terre raffiné sur l'Île Saint-Louis, nous avons des spécialistes du patrimoine qui honoreront votre bien.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "ArchitecteParis3Service": {
+    "metadata": {
+      "title": "Architecte d'intérieur Paris 3 | Hauss Paris - Rénovation Haut Marais",
+      "description": "Trouvez votre architecte d'intérieur dans le 3ème arrondissement de Paris. Spécialistes du design contemporain et intérieurs style galerie dans le Haut Marais. Devis gratuit."
+    },
+    "eyebrow": "Paris 3ème",
+    "title": "Architecte d'intérieur dans le 3ème arrondissement : vision contemporaine pour votre projet",
+    "intro": "Le 3ème arrondissement de Paris, le Haut Marais tendance, est le lieu où l'architecture historique rencontre l'art et le design contemporains. Nos architectes d'intérieur sélectionnés comprennent cette énergie créative unique.",
+    "section1": {
+      "title": "Le 3ème arrondissement : où le patrimoine rencontre l'art contemporain",
+      "paragraph1": "Entre la Rue de Bretagne, Arts et Métiers et le nord du Marais, le 3ème arrondissement est devenu le cœur créatif de Paris. Des bâtiments historiques abritent galeries d'art contemporain, showrooms de mode et studios de design, créant un <strong>environnement esthétique unique</strong>.",
+      "paragraph2": "Architecture du XVIIème siècle, anciens espaces manufacturiers, cours intimistes : nos architectes d'intérieur savent <strong>créer des intérieurs dignes de galeries</strong> qui honorent le passé tout en embrassant le design contemporain de pointe."
+    },
+    "section2": {
+      "title": "Des projets pour clients avant-gardistes",
+      "paragraph1": "Dans le 3ème, nous accompagnons créatifs, collectionneurs et passionnés de design sur des projets inspirants : <strong>appartements style galerie de 70 à 250 m²</strong>, espaces de vie et travail pour artistes et designers, ou demeures raffinées mettant en valeur des collections d'art.",
+      "paragraph2": "Nos architectes sont connectés à la communauté créative locale, comprennent l'éclairage de galerie, les exigences d'exposition d'art et le minimalisme sophistiqué qui définit l'esthétique du Haut Marais.",
+      "cta": "Discuter de votre projet"
+    },
+    "section3": {
+      "title": "Une expertise pour clients sensibles au design",
+      "paragraph1": "Les habitants du 3ème attendent des intérieurs dignes de publications de design. Nos architectes d'intérieur travaillent avec des <strong>artisans contemporains</strong> : créateurs de mobilier sur mesure, designers lumière et artisans réalisant des finitions qualité musée.",
+      "paragraph2": "Du concept à l'installation, nous assurons une <strong>exécution aux standards de galerie</strong>. Notre réseau intervient régulièrement près de la Rue de Turenne, Temple, Arts et Métiers et le Carreau du Temple."
+    },
+    "sectionIntro": {
+      "eyebrow": "Nos services",
+      "title": "Un accompagnement complet pour votre projet dans le 3ème",
+      "description": "Quelles que soient vos ambitions de design, nous vous mettons en relation avec l'architecte d'intérieur qui partage votre vision contemporaine."
+    },
+    "gridList": {
+      "renovation": {
+        "title": "Rénovation style galerie",
+        "description": "Transformation d'espaces historiques en écrins contemporains. Lignes épurées, proportions parfaites, finitions qualité musée mettant en valeur les éléments architecturaux."
+      },
+      "layout": {
+        "title": "Espaces de vie et travail",
+        "description": "Création d'espaces sophistiqués combinant habitat et travail, parfaits pour créatifs, galeristes et professionnels du design."
+      },
+      "decoration": {
+        "title": "Design centré sur l'art",
+        "description": "Intérieurs conçus autour des collections d'art. Éclairage de galerie, climatisation, systèmes d'accrochage flexibles et fonds qui subliment vos œuvres."
+      },
+      "furnishing": {
+        "title": "Ameublement contemporain curé",
+        "description": "Sélection de mobilier design, éditions limitées et pièces commanditées. Accès aux showrooms, galeries et designers émergents."
+      }
+    },
+    "stats": {
+      "projects": {
+        "value": "30+",
+        "label": "projets réalisés dans le 3ème"
+      },
+      "satisfaction": {
+        "value": "98%",
+        "label": "de clients satisfaits"
+      },
+      "network": {
+        "value": "10+",
+        "label": "spécialistes du design"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes - Paris 3ème",
+      "q1": {
+        "question": "Quels sont les prix pour une rénovation contemporaine dans le 3ème ?",
+        "answer": "Pour une rénovation orientée design dans le 3ème, comptez entre 1 800 et 3 500 € HT/m². Les projets avec finitions standards galerie, mobilier sur mesure et systèmes d'éclairage sophistiqués varient généralement de 3 000 à 5 000 €/m²."
+      },
+      "q2": {
+        "question": "Combien de temps dure une rénovation style galerie ?",
+        "answer": "Une rénovation style galerie dans le 3ème prend généralement 4 à 8 mois, permettant le temps nécessaire pour les éléments sur mesure et une exécution précise. Les projets avec mobilier bespoke et installations spécifiques à l'art peuvent nécessiter un délai supplémentaire."
+      },
+      "q3": {
+        "question": "Pouvez-vous concevoir des espaces spécifiquement pour l'exposition d'art ?",
+        "answer": "Absolument. Plusieurs designers de notre réseau sont spécialisés dans les résidences de collectionneurs. Ils comprennent l'éclairage de galerie, les exigences climatiques, les considérations de sécurité et comment créer des fonds qui subliment plutôt que concurrencent les œuvres."
+      },
+      "q4": {
+        "question": "Travaillez-vous avec des designers de mobilier contemporain ?",
+        "answer": "Oui, nos architectes entretiennent des relations avec les showrooms locaux, designers émergents et noms établis. Ils peuvent sourcer des éditions limitées, commander des pièces sur mesure ou créer du mobilier personnalisé parfaitement adapté à votre espace."
+      }
+    },
+    "cta": {
+      "title": "Votre projet dans le 3ème commence ici",
+      "description": "Que vous souhaitiez créer un appartement digne d'une galerie près de la Rue de Bretagne ou concevoir un espace de vie et travail dans le Haut Marais, nous avons des architectes qui partagent votre vision contemporaine.",
+      "button": "Demander une consultation gratuite"
+    },
+    "mainServiceLink": {
+      "title": "Découvrez tous nos services",
+      "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
+      "link": "Voir nos services d'architecture d'intérieur"
+    }
+  },
+  "FAQPage": {
+    "metadata": {
+      "title": "FAQ Architecture d'intérieur Paris | Questions fréquentes | Hauss Paris",
+      "description": "Réponses aux questions fréquentes sur l'architecture d'intérieur à Paris : tarifs, délais, processus, différences entre décorateur et architecte. Guide complet."
+    },
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes sur l'architecture d'intérieur",
+    "intro": "Vous vous posez des questions sur votre projet de rénovation ou d'aménagement intérieur à Paris ? Retrouvez ici les réponses aux questions les plus fréquentes de nos clients.",
+    "categories": {
+      "general": "Questions générales",
+      "pricing": "Tarifs et budget",
+      "process": "Processus et délais",
+      "services": "Nos services"
+    },
+    "q1": {
+      "question": "Combien coûte un architecte d'intérieur à Paris ?",
+      "answer": "Les honoraires d'un architecte d'intérieur à Paris varient selon le type de mission. Pour une consultation ponctuelle, comptez 150 à 300 €/heure. Pour un projet complet, les honoraires représentent généralement 8 à 15% du montant des travaux, soit 5 000 € à 50 000 € selon l'ampleur du projet. Hauss Paris vous aide à trouver le professionnel adapté à votre budget."
+    },
+    "q2": {
+      "question": "Quelle est la différence entre un architecte d'intérieur et un décorateur ?",
+      "answer": "L'architecte d'intérieur peut modifier la structure de votre espace (cloisons, plomberie, électricité) et coordonner des travaux lourds. Le décorateur intervient sur l'habillage : choix du mobilier, couleurs, textiles, accessoires. Pour une rénovation complète, privilégiez un architecte d'intérieur. Pour rafraîchir sans travaux, un décorateur suffit."
+    },
+    "q3": {
+      "question": "Puis-je gérer mon projet de rénovation depuis l'étranger ?",
+      "answer": "Absolument, c'est même notre spécialité chez Hauss Paris. Nous accompagnons de nombreux clients internationaux (expatriés, investisseurs, propriétaires de résidences secondaires). L'architecte gère tout sur place : relevés, suivi de chantier, livraisons. Vous recevez des comptes-rendus réguliers avec photos et validez les étapes clés à distance."
+    },
+    "q4": {
+      "question": "Comment choisir son architecte d'intérieur à Paris ?",
+      "answer": "Vérifiez son diplôme (CFAI, ENSAD, école reconnue), ses références et son style. Demandez des exemples de projets similaires au vôtre. Assurez-vous qu'il est assuré en responsabilité civile professionnelle. Hauss Paris vérifie tous ces points avant de recommander un architecte et vous présente 1 à 3 profils adaptés à votre projet."
+    },
+    "q5": {
+      "question": "Quel budget prévoir pour une rénovation d'appartement à Paris ?",
+      "answer": "Le budget dépend de l'ampleur des travaux : rafraîchissement simple (500-800 €/m²), rénovation partielle (1 000-1 500 €/m²), rénovation complète (1 500-2 500 €/m²), rénovation haut de gamme (2 500-4 000 €/m²). Ces prix incluent les travaux mais pas les honoraires de l'architecte (8-15% en plus) ni le mobilier."
+    },
+    "q6": {
+      "question": "Les honoraires de l'architecte sont-ils négociables ?",
+      "answer": "Les architectes de notre réseau proposent des tarifs transparents dès le premier contact. Leur mode de facturation (forfait, pourcentage ou tarif horaire) est adapté à la nature de votre projet. Nous vous aidons à comparer les devis et à choisir la formule la plus pertinente."
+    },
+    "q7": {
+      "question": "Quels sont les coûts cachés d'une rénovation ?",
+      "answer": "Prévoyez une marge de 10 à 15% pour les imprévus : découvertes lors de la démolition (plomberie vétuste, électricité non conforme), délais fournisseurs, modifications en cours de projet. Un bon architecte anticipe ces risques et vous conseille sur les postes à sécuriser."
+    },
+    "q8": {
+      "question": "Combien de temps dure une rénovation d'appartement à Paris ?",
+      "answer": "Comptez 2 à 3 mois pour une rénovation partielle (cuisine, salle de bain), 4 à 6 mois pour une rénovation complète d'un appartement de 80-120 m². Les délais incluent la phase d'étude (1-2 mois), les autorisations de copropriété (1-2 mois) et les travaux proprement dits (2-4 mois)."
+    },
+    "q9": {
+      "question": "Faut-il un permis de construire pour rénover un appartement à Paris ?",
+      "answer": "Un permis de construire est rarement nécessaire pour une rénovation intérieure. En revanche, vous devez obtenir l'accord de la copropriété pour les travaux touchant les parties communes ou modifiant l'aspect extérieur. Certains immeubles classés imposent des contraintes supplémentaires que votre architecte saura gérer."
+    },
+    "q10": {
+      "question": "Comment se déroule un projet avec Hauss Paris ?",
+      "answer": "1) Consultation gratuite de 30 min pour comprendre votre projet. 2) Nous sélectionnons 1 à 3 architectes adaptés. 3) Vous rencontrez les candidats et choisissez. 4) L'architecte prend en charge votre projet (étude, travaux, ameublement). Notre service de mise en relation est gratuit pour les particuliers."
+    },
+    "q11": {
+      "question": "Intervenez-vous sur des projets commerciaux ?",
+      "answer": "Oui, notre réseau inclut des architectes spécialisés dans les espaces commerciaux : boutiques, restaurants, hôtels, bureaux. Ils connaissent les normes ERP, les contraintes d'accessibilité et les délais serrés du commerce. Contactez-nous avec votre cahier des charges."
+    },
+    "q12": {
+      "question": "Proposez-vous des services de home staging ?",
+      "answer": "Oui, plusieurs décorateurs de notre réseau sont spécialisés en home staging pour la vente ou la location. Ils optimisent la présentation de votre bien pour accélérer la transaction et maximiser le prix. Service particulièrement utile pour les investisseurs."
+    },
+    "q13": {
+      "question": "Travaillez-vous en dehors de Paris ?",
+      "answer": "Notre réseau couvre Paris intra-muros et toute l'Île-de-France : Neuilly, Boulogne, Versailles, Saint-Germain-en-Laye, et les départements 92, 93, 94, 78. Pour les projets en province ou à l'étranger, contactez-nous pour étudier les possibilités."
+    },
+    "cta": {
+      "title": "Vous avez d'autres questions ?",
+      "description": "Notre équipe est disponible pour répondre à toutes vos interrogations et vous accompagner dans votre projet d'architecture d'intérieur à Paris.",
+      "button": "Contactez-nous",
+      "servicesButton": "Découvrir nos services"
+    }
+  }
+}

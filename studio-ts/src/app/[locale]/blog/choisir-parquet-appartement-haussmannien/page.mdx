@@ -1,0 +1,491 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import { StatList, StatListItem } from '@/components/StatList'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-18',
+  title: 'Choisir le Parquet pour un Appartement Haussmannien : Guide Expert',
+  description: 'Découvrez comment choisir le parquet idéal pour votre appartement haussmannien à Paris : point de Hongrie, bâtons rompus, restauration ou remplacement, finitions et prix.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Choisir le Parquet Appartement Haussmannien : Guide 2026',
+  description: 'Découvrez comment choisir le parquet idéal pour votre appartement haussmannien à Paris : point de Hongrie, bâtons rompus, restauration ou remplacement, finitions et prix.',
+  keywords: [
+    'parquet haussmannien',
+    'point de Hongrie',
+    'choisir parquet Paris',
+    'parquet bâtons rompus',
+    'restauration parquet',
+    'ponçage parquet Paris',
+    'parquet chêne massif',
+    'vitrification parquet',
+    'prix parquet Paris',
+    'parquet appartement ancien'
+  ],
+  openGraph: {
+    title: 'Choisir le Parquet pour un Appartement Haussmannien | Hauss Paris',
+    description: 'Découvrez comment choisir le parquet idéal pour votre appartement haussmannien à Paris : point de Hongrie, bâtons rompus, restauration ou remplacement.',
+    type: 'article',
+    publishedTime: '2026-01-18T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/choisir-parquet-appartement-haussmannien/parquet-haussmannien-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Parquet point de Hongrie dans un appartement haussmannien',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/choisir-parquet-appartement-haussmannien',
+    languages: {
+      'fr': '/fr/blog/choisir-parquet-appartement-haussmannien',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelle est la différence entre le point de Hongrie et les bâtons rompus ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le point de Hongrie et les bâtons rompus sont deux motifs de pose en chevrons, mais avec une différence technique. Le point de Hongrie a des lames coupées en biseau (généralement à 45° ou 60°) qui se rejoignent en pointe, créant un motif en V parfait. Les bâtons rompus ont des lames rectangulaires qui se chevauchent perpendiculairement, créant un motif en zigzag avec des angles droits. Le point de Hongrie est plus prestigieux et plus coûteux à poser."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on poncer un parquet ancien plusieurs fois ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, un parquet massif peut être poncé 5 à 7 fois au cours de sa vie, à condition que l'épaisseur d'usure le permette. Un parquet massif de 23mm a environ 7mm d'épaisseur d'usure. Chaque ponçage retire 0,5 à 1mm. Un parquet contrecollé avec 2-4mm de couche noble ne peut être poncé que 1 à 2 fois. Avant de poncer, vérifiez l'épaisseur restante et l'état des languettes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quel est le prix d'un parquet point de Hongrie à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le prix d'un parquet point de Hongrie à Paris varie selon le type : contrecollé de qualité 80-150€/m² fourni posé, massif chêne standard 150-250€/m² fourni posé, massif chêne premium 250-400€/m² fourni posé. À cela s'ajoutent la préparation du support (20-40€/m² si nécessaire), la finition (15-30€/m² pour vitrification), et les plinthes (25-50€/m linéaire). Pour un appartement de 60m², comptez 12000 à 25000€ tout compris en milieu de gamme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il restaurer ou remplacer un parquet haussmannien ancien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si le parquet est en bon état structurel (lames non pourries, lambourdes saines), la restauration est préférable : elle préserve le patrimoine et coûte moins cher (50-90€/m² pour ponçage + vitrification). Le remplacement s'impose si plus de 30% des lames sont endommagées, si les lambourdes sont attaquées, ou si vous souhaitez changer de motif. Un parquet ancien bien restauré a plus de cachet et de valeur qu'un parquet neuf."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Choisir le Parquet pour un Appartement Haussmannien : Guide Expert",
+  "description": "Découvrez comment choisir le parquet idéal pour votre appartement haussmannien à Paris.",
+  "image": "https://haussparis.com/blog/choisir-parquet-appartement-haussmannien/parquet-haussmannien-hero.jpg",
+  "datePublished": "2026-01-18T09:00:00Z",
+  "dateModified": "2026-01-18T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/fr/blog/choisir-parquet-appartement-haussmannien"
+  },
+  "keywords": "parquet haussmannien, point de Hongrie, choisir parquet Paris, parquet bâtons rompus, restauration parquet",
+  "articleSection": "Rénovation",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+Le parquet est l'âme d'un appartement haussmannien. Ce sol en bois massif, posé il y a parfois 150 ans, raconte l'histoire de l'immeuble et contribue puissamment à son caractère. Point de Hongrie dans les pièces de réception, bâtons rompus dans les chambres, parquet droit dans les espaces de service : chaque motif avait sa place dans la hiérarchie des pièces du XIXe siècle.
+
+Aujourd'hui, le parquet haussmannien reste un atout majeur. Il peut être restauré pour retrouver sa splendeur d'origine, ou remplacé par un parquet neuf qui respecte l'esprit du lieu. Mais entre les différentes essences, motifs, finitions et techniques de pose, le choix peut sembler complexe.
+
+**Hauss Paris** vous accompagne dans le choix et la rénovation de votre parquet en vous mettant en relation avec des architectes d'intérieur et des artisans spécialisés. **Sublimez votre parquet haussmannien, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre expert parquet</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#types" className="text-neutral-600 hover:text-neutral-950 transition">1. Les Types de Parquet Haussmannien</a></li>
+      <li><a href="#restauration" className="text-neutral-600 hover:text-neutral-950 transition">2. Restauration ou Remplacement ?</a></li>
+      <li><a href="#essences" className="text-neutral-600 hover:text-neutral-950 transition">3. Les Essences de Bois</a></li>
+      <li><a href="#finitions" className="text-neutral-600 hover:text-neutral-950 transition">4. Les Finitions du Parquet</a></li>
+      <li><a href="#prix" className="text-neutral-600 hover:text-neutral-950 transition">5. Prix et Budget</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="types">Les Types de Parquet Haussmannien</h2>
+
+L'architecture haussmannienne a codifié les motifs de parquet selon l'importance des pièces. Comprendre ces codes permet de faire des choix cohérents avec l'esprit du lieu.
+
+### Le Point de Hongrie : Le Roi des Parquets
+
+Le point de Hongrie est le motif le plus prestigieux, réservé aux pièces de réception (salon, salle à manger) des appartements bourgeois.
+
+#### Caractéristiques techniques
+
+Les lames sont coupées en biseau à leurs extrémités, généralement à 45° ou 52° (historiquement) ou 60° (plus contemporain). Elles se rejoignent en pointe pour former un motif en V parfait, créant une perspective visuelle remarquable.
+
+#### Dimensions traditionnelles
+
+- Longueur des lames : 40 à 60cm
+- Largeur : 7 à 10cm
+- Épaisseur : 23mm (massif traditionnel) ou 14-15mm (contrecollé)
+
+#### L'effet visuel
+
+Le point de Hongrie crée un mouvement dynamique qui guide le regard. Traditionnellement, les pointes sont orientées vers la source de lumière (les fenêtres) pour un effet optimal.
+
+### Les Bâtons Rompus : L'Élégance Accessible
+
+Les bâtons rompus ressemblent au point de Hongrie mais sont techniquement différents et moins coûteux.
+
+#### Caractéristiques techniques
+
+Les lames sont rectangulaires (non biseautées) et se chevauchent perpendiculairement. Le motif forme un zigzag avec des angles à 90° plutôt que des pointes.
+
+#### Avantages
+
+- Pose plus simple et donc moins coûteuse
+- Moins de chutes (lames non biseautées)
+- Effet visuel proche du point de Hongrie
+- Historiquement utilisé dans les chambres et pièces secondaires
+
+### Le Parquet Droit (à l'Anglaise)
+
+Le parquet droit, avec ses lames parallèles de longueurs variables, était utilisé dans les pièces de service et les couloirs des appartements haussmanniens.
+
+#### Pose à l'anglaise à coupe perdue
+
+Les lames de longueurs différentes sont posées en quinconce sans recherche de motif. C'est la pose la plus économique.
+
+#### Pose à l'anglaise à coupe de pierre
+
+Les joints sont alignés une rangée sur deux, créant un motif plus régulier.
+
+### Le Parquet Versailles et Chantilly
+
+Ces motifs en panneaux (généralement 100x100cm) étaient réservés aux appartements les plus luxueux et aux hôtels particuliers. On les trouve rarement dans les appartements haussmanniens classiques, mais ils peuvent être un choix pour une rénovation haut de gamme.
+
+---
+
+<h2 id="restauration">Restauration ou Remplacement ?</h2>
+
+Face à un parquet ancien, la question se pose toujours : faut-il le restaurer ou le remplacer ? La réponse dépend de plusieurs facteurs.
+
+### Quand Restaurer ?
+
+La restauration est préférable dans la plupart des cas. Elle préserve le patrimoine, coûte généralement moins cher qu'un remplacement de qualité équivalente, et conserve le cachet authentique du parquet ancien.
+
+#### Conditions favorables à la restauration
+
+- Parquet structurellement sain (lambourdes en bon état)
+- Moins de 20-30% de lames à remplacer
+- Épaisseur suffisante pour ponçage (minimum 15mm d'épaisseur totale)
+- Pas de dégâts d'eau majeurs (gondolage généralisé)
+
+#### Le processus de restauration
+
+1. **Diagnostic** : évaluation de l'état du parquet et des lambourdes
+2. **Réparations** : remplacement des lames abîmées, reclouage des lames décollées, traitement des grincements
+3. **Ponçage** : passage de plusieurs grains (gros à fin) pour retrouver le bois brut
+4. **Finition** : vitrification, huilage ou cirage selon le résultat souhaité
+
+<StatList>
+  <StatListItem value="50-70 €/m²" label="Ponçage + vitrification" />
+  <StatListItem value="60-90 €/m²" label="Ponçage + huile" />
+  <StatListItem value="20-40 €/m²" label="Remplacement lames (fourni posé)" />
+</StatList>
+
+### Quand Remplacer ?
+
+Le remplacement s'impose dans certaines situations, malgré la perte patrimoniale.
+
+#### Conditions nécessitant un remplacement
+
+- Lambourdes pourries ou attaquées par les insectes xylophages
+- Plus de 40-50% de lames endommagées
+- Parquet ayant déjà été poncé de nombreuses fois (épaisseur insuffisante)
+- Changement de motif souhaité (passer d'un parquet droit à un point de Hongrie)
+- Problèmes structurels du plancher
+
+#### Le processus de remplacement
+
+1. **Dépose** de l'ancien parquet et des lambourdes si nécessaire
+2. **Préparation du support** : ragréage ou pose de nouvelles lambourdes
+3. **Pose du nouveau parquet** : collé, cloué ou flottant selon le type
+4. **Finition** : ponçage fin et application du traitement choisi
+
+### Le Parquet de Récupération : Le Meilleur Compromis ?
+
+Une alternative intéressante : le parquet ancien de récupération. Des entreprises spécialisées récupèrent des parquets dans des bâtiments en démolition ou rénovation et les reconditionnent.
+
+#### Avantages
+
+- Authenticité et patine du bois ancien
+- Qualité de bois souvent supérieure aux productions actuelles
+- Cohérence stylistique avec un appartement haussmannien
+- Démarche écologique (réemploi)
+
+#### Inconvénients
+
+- Prix variable selon la disponibilité
+- Quantités limitées (prévoir des marges)
+- État parfois irrégulier
+
+**Prix** : 80 à 200€/m² pour du point de Hongrie de récupération, fourniture seule.
+
+---
+
+<h2 id="essences">Les Essences de Bois</h2>
+
+Le choix de l'essence impacte l'esthétique, la durabilité et le prix du parquet.
+
+### Le Chêne : L'Essence Reine
+
+Le chêne représente plus de 80% des parquets haussmanniens d'origine et reste le choix de référence aujourd'hui.
+
+#### Caractéristiques
+
+- **Dureté** : excellente (classe A), résistant au trafic intense
+- **Stabilité** : bonne, peu de déformations
+- **Esthétique** : veinage marqué, aspect chaleureux
+- **Patine** : se bonifie avec le temps
+
+#### Les différentes qualités de chêne
+
+- **Premier choix (A)** : veinage régulier, peu de noeuds, couleur homogène
+- **Nature (AB)** : quelques noeuds et variations de couleur acceptés
+- **Rustique (BC)** : noeuds, aubier, variations prononcées
+
+Le choix dépend de l'esthétique recherchée : le premier choix est plus élégant et classique, le rustique plus authentique et contemporain.
+
+### Les Autres Essences
+
+#### Le châtaignier
+
+Moins cher que le chêne, avec un aspect similaire. Légèrement moins dur.
+
+#### Le noyer
+
+Bois brun foncé, très élégant mais rare et cher. Parfait pour créer un contraste avec des moulures blanches.
+
+#### Les bois exotiques (teck, merbau, wengé)
+
+Très durs et résistants, mais stylistiquement inadaptés aux appartements haussmanniens. À éviter dans un contexte patrimonial.
+
+---
+
+<h2 id="finitions">Les Finitions du Parquet</h2>
+
+La finition détermine l'aspect final du parquet et conditionne son entretien futur.
+
+### La Vitrification (Vernis)
+
+La vitrification crée un film protecteur transparent à la surface du bois.
+
+#### Avantages
+
+- **Protection** : le bois est protégé des taches, de l'eau, de l'usure
+- **Entretien facile** : un coup de serpillière humide suffit
+- **Durabilité** : 10 à 15 ans avant rénovation
+
+#### Inconvénients
+
+- **Aspect** : moins naturel, parfois brillant
+- **Réparation** : difficile de réparer localement (il faut reponcer toute la surface)
+- **Toucher** : moins agréable que l'huile
+
+#### Les types de vitrificateurs
+
+- **À l'eau** : peu d'odeur, séchage rapide, aspect plus naturel
+- **Polyuréthane** : plus résistant, aspect plus "plastique"
+- **Finition mat** : aspect le plus naturel, très tendance
+- **Finition satinée** : compromis entre mat et brillant
+- **Finition brillante** : aspect traditionnel, demande plus d'entretien
+
+**Prix** : 15 à 30€/m² (produit + application).
+
+### L'Huile
+
+L'huile pénètre dans le bois et le nourrit sans créer de film en surface.
+
+#### Avantages
+
+- **Aspect naturel** : le bois reste mat et garde son toucher
+- **Réparation locale** : on peut réhuiler une zone sans tout refaire
+- **Patine** : le bois se patine naturellement avec le temps
+- **Ambiance** : parfait pour un intérieur chaleureux et authentique
+
+#### Inconvénients
+
+- **Entretien régulier** : passage d'huile d'entretien 1 à 2 fois par an
+- **Taches** : le bois est plus sensible, les liquides doivent être essuyés rapidement
+- **Durée de vie** : nécessite un réhuilage complet tous les 5 à 10 ans
+
+**Prix** : 20 à 40€/m² (produit + application).
+
+### La Cire
+
+La cire traditionnelle est peu utilisée aujourd'hui en raison de son entretien contraignant.
+
+#### Caractéristiques
+
+- Aspect mat et doux au toucher
+- Patine magnifique avec le temps
+- Nécessite un entretien régulier (cirage)
+- Sensible à l'eau et aux taches
+
+La cire est réservée aux amateurs de parquet traditionnel prêts à l'entretenir.
+
+### Quelle Finition pour un Appartement Haussmannien ?
+
+Pour respecter l'esprit haussmannien, l'huile ou la vitrification mate sont recommandées. Le brillant est à éviter dans les intérieurs contemporains mais peut convenir pour un style plus classique.
+
+---
+
+<h2 id="prix">Prix et Budget</h2>
+
+Le budget parquet varie considérablement selon que vous restaurez l'existant ou posez du neuf, et selon la qualité choisie.
+
+### Prix de la Restauration
+
+<StatList>
+  <StatListItem value="50-70 €/m²" label="Ponçage + vitrification" />
+  <StatListItem value="60-90 €/m²" label="Ponçage + huile" />
+  <StatListItem value="100-150 €/m²" label="Restauration complète (réparations incluses)" />
+</StatList>
+
+Pour un appartement de 60m², comptez 3000 à 9000€ pour une restauration complète.
+
+### Prix d'un Parquet Neuf
+
+#### Parquet contrecollé
+
+- **Point de Hongrie** : 80-150€/m² fourni posé
+- **Bâtons rompus** : 70-130€/m² fourni posé
+- **Pose droite** : 50-100€/m² fourni posé
+
+#### Parquet massif
+
+- **Point de Hongrie** : 150-400€/m² fourni posé
+- **Bâtons rompus** : 120-300€/m² fourni posé
+- **Pose droite** : 80-180€/m² fourni posé
+
+### Exemple de Budget Complet
+
+Pour un appartement haussmannien de 60m² avec pose de point de Hongrie neuf :
+
+| Poste | Fourchette basse | Fourchette haute |
+|-------|------------------|------------------|
+| Dépose ancien parquet | 600€ | 1200€ |
+| Préparation support | 1200€ | 2400€ |
+| Parquet (fourniture) | 4800€ | 12000€ |
+| Pose | 3000€ | 6000€ |
+| Finition | 900€ | 1800€ |
+| Plinthes | 1200€ | 2400€ |
+| **TOTAL** | **11700€** | **25800€** |
+
+### Astuces pour Optimiser le Budget
+
+- **Restaurez plutôt que remplacez** si l'état le permet
+- **Choisissez du contrecollé de qualité** plutôt que du massif entrée de gamme
+- **Point de Hongrie dans le salon, bâtons rompus dans les chambres** : historiquement cohérent et moins coûteux
+- **Ponçage et finition groupés** avec plusieurs appartements de l'immeuble : économies sur les frais de déplacement
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Quelle est la différence entre le point de Hongrie et les bâtons rompus ?
+
+Le point de Hongrie et les bâtons rompus sont deux motifs de pose en chevrons qui se ressemblent mais diffèrent techniquement. Le **point de Hongrie** a des lames coupées en biseau (généralement à 45°, 52° ou 60°) qui se rejoignent en pointe, créant un motif en V parfait et une perspective visuelle élégante. Les **bâtons rompus** ont des lames rectangulaires (non biseautées) qui se chevauchent perpendiculairement, créant un motif en zigzag avec des angles à 90°. Le point de Hongrie est plus prestigieux et plus coûteux à poser (plus de chutes, pose plus technique).
+
+### Peut-on poncer un parquet ancien plusieurs fois ?
+
+Oui, un parquet massif peut être poncé **5 à 7 fois** au cours de sa vie, à condition que l'épaisseur d'usure le permette. Un parquet massif traditionnel de 23mm a environ 7mm d'épaisseur d'usure (au-dessus de la languette). Chaque ponçage retire 0,5 à 1mm selon l'état initial et la technique. Un parquet contrecollé avec 2-4mm de couche noble ne peut être poncé que 1 à 2 fois. Avant de poncer, un professionnel vérifie l'épaisseur restante et l'état des languettes pour s'assurer que l'opération est possible.
+
+### Quel est le prix d'un parquet point de Hongrie à Paris ?
+
+Le prix d'un parquet point de Hongrie à Paris varie selon le type choisi. En **contrecollé de qualité** : 80-150€/m² fourni posé. En **massif chêne standard** : 150-250€/m² fourni posé. En **massif chêne premium** : 250-400€/m² fourni posé. À ces prix s'ajoutent la préparation du support si nécessaire (20-40€/m²), la finition (15-30€/m² pour vitrification, 20-40€/m² pour huile), et les plinthes (25-50€/m linéaire). Pour un appartement de 60m², le budget total varie de **12000 à 25000€** en milieu de gamme.
+
+### Faut-il restaurer ou remplacer un parquet haussmannien ancien ?
+
+La **restauration** est préférable si le parquet est en bon état structurel : lambourdes saines, moins de 30% de lames à remplacer, épaisseur suffisante pour ponçage. Elle coûte moins cher (50-90€/m² pour ponçage + finition) et préserve le patrimoine et le cachet authentique. Le **remplacement** s'impose si plus de 40% des lames sont endommagées, si les lambourdes sont attaquées (pourriture, insectes), si l'épaisseur est insuffisante, ou si vous souhaitez changer de motif. Un parquet ancien bien restauré a généralement plus de valeur et de charme qu'un parquet neuf.
+
+---
+
+## Sublimez le Parquet de Votre Appartement Haussmannien
+
+Le parquet est un élément central de l'identité d'un appartement haussmannien. Qu'il s'agisse de restaurer un sol centenaire ou de poser un parquet neuf digne de l'écrin architectural, ce projet mérite une attention particulière et l'intervention de professionnels qualifiés.
+
+Un architecte d'intérieur vous conseille sur le choix du motif et de la finition en cohérence avec votre projet global. Des artisans spécialisés assurent une pose ou une restauration dans les règles de l'art. Ensemble, ils subliment votre parquet pour des décennies à venir.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur et des parqueteurs experts des appartements haussmanniens à Paris. **Donnez une nouvelle vie à votre parquet, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

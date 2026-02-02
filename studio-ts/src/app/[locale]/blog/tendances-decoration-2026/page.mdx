@@ -1,0 +1,508 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-21',
+  title: 'Tendances Décoration Intérieure 2026 : Le Guide Complet',
+  description: 'Découvrez les grandes tendances décoration et design intérieur 2026 : couleurs, matériaux durables, design biophilique, maison connectée et nouvelles façons d\'habiter son intérieur.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Tendances Décoration Intérieure 2026 : Couleurs, Matériaux, Styles',
+  description: 'Découvrez les grandes tendances décoration et design intérieur 2026 : couleurs, matériaux durables, design biophilique, maison connectée et nouvelles façons d\'habiter.',
+  keywords: [
+    'tendances décoration 2026',
+    'design intérieur tendances',
+    'couleurs 2026',
+    'décoration intérieure 2026',
+    'tendances déco',
+    'design biophilique',
+    'matériaux durables',
+    'maison connectée',
+    'intérieur tendance',
+    'style décoration 2026'
+  ],
+  openGraph: {
+    title: 'Tendances Décoration Intérieure 2026 : Le Guide Complet | Hauss Paris',
+    description: 'Découvrez les grandes tendances décoration et design intérieur 2026 : couleurs, matériaux durables, design biophilique, maison connectée.',
+    type: 'article',
+    publishedTime: '2026-01-21T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/tendances-decoration-2026/tendances-deco-2026-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Tendances décoration intérieure 2026',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/tendances-decoration-2026',
+    languages: {
+      'fr': '/fr/blog/tendances-decoration-2026',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quelles sont les couleurs tendance en décoration pour 2026 ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En 2026, les couleurs tendance sont les teintes terreuses chaudes (terracotta, ocre, brun cannelle), les verts nature (vert sauge, vert olive, vert forêt), les bleus profonds et apaisants (bleu nuit, bleu pétrole), et les neutres chauds (beige rosé, grège, taupe). Le blanc pur cède la place aux blancs cassés et crème pour plus de chaleur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce que le design biophilique ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le design biophilique intègre la nature dans les espaces intérieurs pour améliorer le bien-être. Il inclut les plantes vertes, les matériaux naturels (bois, pierre, lin), la lumière naturelle maximisée, les vues sur l'extérieur, les motifs organiques, et les éléments d'eau. Des études montrent que ce design réduit le stress et améliore la productivité."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment intégrer la domotique dans sa décoration ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La domotique 2026 se fait discrète et design. Privilégiez les interrupteurs et thermostats au design épuré qui s'intègrent à votre décoration. Cachez les enceintes connectées dans des meubles ou optez pour des modèles design. L'éclairage connecté (Philips Hue, etc.) permet des ambiances personnalisées sans installation visible. Les stores automatisés remplacent les moteurs apparents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quels matériaux privilégier pour une décoration durable en 2026 ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pour une décoration durable, privilégiez le bois certifié FSC ou PEFC, les matériaux recyclés (verre recyclé, plastique océanique recyclé, métal récupéré), les textiles naturels (lin, chanvre, coton bio, laine), la pierre naturelle locale, et les peintures écologiques sans COV. Le mobilier de seconde main et vintage est aussi une démarche durable et tendance."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Tendances Décoration Intérieure 2026 : Le Guide Complet",
+  "description": "Découvrez les grandes tendances décoration et design intérieur 2026.",
+  "image": "https://haussparis.com/blog/tendances-decoration-2026/tendances-deco-2026-hero.jpg",
+  "datePublished": "2026-01-21T09:00:00Z",
+  "dateModified": "2026-01-21T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/fr/blog/tendances-decoration-2026"
+  },
+  "keywords": "tendances décoration 2026, design intérieur tendances, couleurs 2026, décoration intérieure 2026, tendances déco",
+  "articleSection": "Décoration",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+Le monde de la décoration intérieure évolue constamment, influencé par les changements sociétaux, les préoccupations environnementales et les nouvelles façons de vivre son chez-soi. En 2026, plusieurs grandes tendances se dessinent, toutes portées par un même désir : créer des intérieurs qui font du bien, à soi et à la planète.
+
+Après des années de minimalisme parfois froid et d'intérieurs "Instagram" standardisés, 2026 marque un retour vers l'authenticité, la chaleur et la personnalisation. Les intérieurs deviennent plus vivants, plus connectés à la nature, plus technologiques aussi, mais de manière invisible et intelligente.
+
+**Hauss Paris** vous accompagne dans la création d'un intérieur qui vous ressemble, en phase avec les tendances actuelles. Que ce soit pour un projet de [décoration](/fr/services/decoration) ou d'[ameublement](/fr/services/ameublement), **trouvez l'architecte d'intérieur qui donnera vie à votre vision, gratuitement et sans engagement.** Pour vous aider à définir votre style, consultez également notre [guide pour choisir votre style d'intérieur](/fr/blog/guide-choix-style-interieur).
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Créez votre intérieur tendance</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#couleurs" className="text-neutral-600 hover:text-neutral-950 transition">1. Les Couleurs Tendance 2026</a></li>
+      <li><a href="#materiaux" className="text-neutral-600 hover:text-neutral-950 transition">2. Matériaux Naturels et Durables</a></li>
+      <li><a href="#biophilique" className="text-neutral-600 hover:text-neutral-950 transition">3. Le Design Biophilique</a></li>
+      <li><a href="#connectee" className="text-neutral-600 hover:text-neutral-950 transition">4. La Maison Connectée et Intelligente</a></li>
+      <li><a href="#styles" className="text-neutral-600 hover:text-neutral-950 transition">5. Les Styles Dominants</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="couleurs">Les Couleurs Tendance 2026</h2>
+
+La palette 2026 se caractérise par un retour aux teintes naturelles et enveloppantes. Fini le blanc clinique et le gris froid qui ont dominé les années 2010 : place à la chaleur et à la profondeur.
+
+### Les Teintes Terreuses : Enracinement et Chaleur
+
+Les couleurs inspirées de la terre sont au cœur de la tendance 2026. Elles évoquent la nature, le retour aux sources, la stabilité.
+
+#### Le terracotta
+
+Cette teinte chaude orange-brun reste incontournable. Elle apporte immédiatement de la chaleur à un intérieur et se marie parfaitement avec le bois, le lin et les matériaux naturels. En 2026, on l'utilise par touches (coussins, céramiques, un pan de mur) plutôt qu'en total look.
+
+#### L'ocre et le moutarde
+
+Ces jaunes terreux, ni trop vifs ni trop ternes, réchauffent les espaces sans les surcharger. Parfaits pour dynamiser un salon aux tons neutres.
+
+#### Le brun cannelle et le caramel
+
+Ces bruns chaleureux remplacent le taupe et le grège des années précédentes. Plus gourmands, plus enveloppants, ils créent des ambiances cocooning très actuelles.
+
+### Les Verts Nature : Sérénité et Connexion au Vivant
+
+Le vert est LA couleur de 2026. Toutes ses nuances envahissent nos intérieurs, reflétant notre besoin de reconnexion avec la nature.
+
+#### Le vert sauge
+
+Doux et sophistiqué, le vert sauge (gris-vert clair) est la star de l'année. Il fonctionne aussi bien en couleur principale (murs du salon, cuisine) qu'en accent. Il se marie à merveille avec les bois clairs et les blancs cassés.
+
+#### Le vert olive
+
+Plus soutenu, le vert olive apporte du caractère sans être agressif. Parfait pour une chambre ou un bureau.
+
+#### Le vert forêt
+
+Ce vert profond et intense fait son grand retour. En pan de mur d'accent ou en mobilier (canapé velours vert forêt), il crée des intérieurs sophistiqués et enveloppants.
+
+### Les Bleus Profonds : Calme et Élégance
+
+Le bleu évolue en 2026 : moins de bleus vifs ou électriques, plus de bleus profonds et apaisants.
+
+#### Le bleu nuit
+
+Presque noir, ce bleu intense crée des ambiances dramatiques et élégantes. Parfait pour une chambre ou un salon bibliothèque.
+
+#### Le bleu pétrole
+
+Entre bleu et vert, ce coloris sophistiqué fonctionne en toutes saisons et avec de nombreux styles (contemporain, art déco, industriel).
+
+### Les Neutres Évoluent
+
+Le blanc pur et le gris cèdent la place à des neutres plus chaleureux.
+
+#### Le beige rosé (blush)
+
+Cette teinte entre beige et rose poudré adoucit les intérieurs. Elle remplace avantageusement le blanc sur les murs pour une ambiance plus accueillante.
+
+#### Le grège chaud
+
+Le gris-beige se réchauffe et s'adoucit. Les grèges tendance 2026 tirent vers le crème plutôt que vers le gris.
+
+---
+
+<h2 id="materiaux">Matériaux Naturels et Durables</h2>
+
+La tendance 2026 est résolument tournée vers les matériaux naturels, durables et locaux. La conscience écologique transforme nos choix décoratifs.
+
+### Le Bois sous Toutes ses Formes
+
+Le bois reste le matériau star, mais son utilisation évolue.
+
+#### Les essences locales privilégiées
+
+Chêne, frêne, hêtre, noyer français... Les essences locales sont privilégiées aux bois exotiques. Elles ont un bilan carbone meilleur et valorisent le savoir-faire local.
+
+#### Les finitions naturelles
+
+Exit les vernis brillants ! Place aux finitions huile ou cire qui préservent l'aspect naturel du bois et sont plus saines (pas de COV).
+
+#### Le bois de récupération
+
+Poutres anciennes, planches de récupération, meubles chinés... Le bois ancien apporte caractère et histoire tout en étant une démarche écologique.
+
+### La Pierre Naturelle
+
+La pierre fait un retour remarqué dans les intérieurs 2026.
+
+#### Le travertin
+
+Cette pierre calcaire aux tons crème et beige, avec ses cavités caractéristiques, est partout : tables basses, consoles, plans de vasque, revêtements muraux.
+
+#### Les pierres locales
+
+Calcaire de Bourgogne, pierre de Paris, granit breton... Les pierres régionales remplacent le marbre importé dans une logique de circuit court.
+
+### Les Textiles Naturels
+
+Les fibres naturelles dominent, portées par les préoccupations environnementales et le désir de matières "vraies".
+
+#### Le lin
+
+Rideaux, housses de canapé, linge de lit... Le lin est partout en 2026. Sa texture légèrement froissée, son aspect naturel et sa durabilité en font un favori.
+
+#### Le chanvre
+
+Moins connu que le lin mais tout aussi écologique, le chanvre fait son apparition en décoration. Tapis, coussins, rideaux...
+
+#### La laine bouclée
+
+Les textiles en laine bouclée (boucle, teddy) apportent de la texture et de la chaleur. Fauteuils, canapés, plaids...
+
+### Les Matériaux Recyclés
+
+L'upcycling et le recyclage deviennent des arguments de vente.
+
+#### Le verre recyclé
+
+Plans de travail, carrelages, objets décoratifs... Le verre recyclé offre des textures et des couleurs uniques.
+
+#### Le plastique océanique recyclé
+
+Certaines marques proposent du mobilier et des textiles fabriqués à partir de plastique récupéré dans les océans. Une démarche qui séduit les consommateurs conscients.
+
+---
+
+<h2 id="biophilique">Le Design Biophilique</h2>
+
+Le design biophilique, qui vise à reconnecter l'homme à la nature dans son habitat, n'est plus une niche : il devient mainstream en 2026.
+
+### Qu'est-ce que le Design Biophilique ?
+
+Le terme "biophilie" désigne notre affinité innée avec le vivant. Le design biophilique intègre cette connexion dans nos espaces de vie à travers plusieurs principes.
+
+### Les Plantes : Au-delà de la Décoration
+
+Les plantes ne sont plus de simples accessoires décoratifs mais des éléments structurants de l'intérieur.
+
+#### Les murs végétaux
+
+Les murs végétalisés se démocratisent avec des systèmes plus accessibles et faciles d'entretien. Même un petit mur végétal de 1m² transforme un espace.
+
+#### Les grandes plantes architecturales
+
+Figuier lyrata, monstera géant, palmier d'intérieur... Les grandes plantes deviennent des éléments de design à part entière, sculptant l'espace.
+
+#### Les plantes suspendues
+
+Pothos retombants, hoyas, chaînes de cœurs... Les plantes en suspension créent de la verticalité et remplissent les espaces vides.
+
+### La Lumière Naturelle Maximisée
+
+Le design biophilique accorde une importance capitale à la lumière naturelle.
+
+#### Fenêtres dégagées
+
+Moins de rideaux épais, plus de stores discrets ou de voilages légers qui laissent passer la lumière.
+
+#### Puits de lumière et verrières
+
+Quand c'est possible, l'ajout de sources de lumière zénithale transforme un intérieur.
+
+#### Positionnement des espaces de vie
+
+Les pièces où l'on vit le plus (salon, bureau) sont positionnées face aux fenêtres.
+
+### Les Matières et Motifs Organiques
+
+Le design biophilique favorise les formes et textures inspirées de la nature.
+
+#### Les formes courbes
+
+Fini les angles droits omniprésents. Les meubles aux formes organiques, arrondies, inspirées de la nature se multiplient.
+
+#### Les textures naturelles
+
+Bois brut, pierre non polie, textiles au tissage apparent... Les imperfections et irrégularités sont valorisées.
+
+#### Les motifs naturels
+
+Motifs floraux, feuillages, vagues... Les imprimés inspirés de la nature reviennent, mais de manière subtile et contemporaine.
+
+### L'Eau dans l'Intérieur
+
+L'eau, élément apaisant par excellence, trouve sa place dans les intérieurs 2026.
+
+#### Les fontaines d'intérieur
+
+Discrètes et design, les fontaines d'intérieur apportent le son relaxant de l'eau courante.
+
+#### Les aquariums intégrés
+
+Au-delà du traditionnel aquarium sur meuble, des installations sur mesure intègrent l'aquarium dans le mobilier ou les cloisons.
+
+---
+
+<h2 id="connectee">La Maison Connectée et Intelligente</h2>
+
+La domotique poursuit sa progression, mais elle évolue vers plus de discrétion et d'intelligence.
+
+### L'Invisible et le Design
+
+En 2026, la technologie se fait oublier tout en étant omniprésente.
+
+#### Les interfaces minimalistes
+
+Les interrupteurs et thermostats connectés adoptent des designs épurés qui s'intègrent à la décoration. Exit les boîtiers plastique blancs, place aux finitions laiton, bois ou verre fumé.
+
+#### La disparition des câbles
+
+Chargeurs intégrés dans les meubles, alimentations cachées, câbles dans les murs... L'objectif est de faire disparaître toute trace technologique visible.
+
+#### Les enceintes design
+
+Les enceintes connectées deviennent des objets décoratifs à part entière ou se cachent dans des meubles, derrière des tableaux acoustiques.
+
+### L'Éclairage Intelligent
+
+L'éclairage connecté transforme l'ambiance d'un intérieur à la demande.
+
+#### Scénarios d'ambiance
+
+Réveil progressif le matin, ambiance cocooning le soir, mode soirée pour recevoir... Les scénarios lumineux s'adaptent à chaque moment.
+
+#### Rythme circadien
+
+Les systèmes évolués adaptent la température de couleur au rythme naturel : lumière froide et stimulante le matin, chaude et apaisante le soir.
+
+### La Gestion Énergétique
+
+L'intelligence de la maison se met au service des économies d'énergie.
+
+#### Thermostats intelligents
+
+Apprentissage des habitudes, détection de présence, optimisation en fonction du coût de l'énergie... Les thermostats deviennent de vrais copilotes énergétiques.
+
+#### Stores automatisés
+
+Les stores et volets se gèrent automatiquement selon l'ensoleillement et la température pour optimiser le confort thermique naturellement.
+
+---
+
+<h2 id="styles">Les Styles Dominants</h2>
+
+Plusieurs courants stylistiques cohabitent en 2026, chacun avec sa personnalité.
+
+### Le Nouveau Classique Parisien
+
+L'élégance haussmannienne réinterprétée de manière contemporaine.
+
+#### Les codes
+
+- Respect des moulures et éléments patrimoniaux
+- Parquet ancien restauré
+- Mobilier contemporain aux lignes épurées
+- Palette neutre rehaussée de touches de couleur
+- Art contemporain sur les murs
+
+Ce style fonctionne particulièrement bien dans les appartements parisiens anciens où il marie héritage et modernité.
+
+### Le Japandi
+
+La fusion entre minimalisme japonais et design scandinave continue de séduire.
+
+#### Les codes
+
+- Mobilier bas et lignes épurées
+- Bois clair et naturel
+- Palette neutre (beige, gris doux, blanc cassé)
+- Textiles naturels (lin, coton)
+- Objets artisanaux et imparfaits (wabi-sabi)
+- Plantes vertes en touches
+
+### Le Warm Minimalism
+
+Le minimalisme se réchauffe et s'humanise.
+
+#### Les codes
+
+- Espaces épurés mais pas froids
+- Matériaux naturels omniprésents
+- Couleurs neutres chaudes
+- Textures variées qui apportent de la vie
+- Quelques objets soigneusement choisis plutôt que beaucoup
+
+### Le Maximalism Assumé
+
+À l'opposé du minimalisme, le maximalisme s'assume en 2026.
+
+#### Les codes
+
+- Accumulation organisée d'objets et de couleurs
+- Papiers peints à motifs audacieux
+- Mélanges de styles et d'époques
+- Couleurs vives et contrastées
+- Art omniprésent
+
+Ce style demande une vraie maîtrise pour éviter le chaos visuel. L'accompagnement d'un architecte d'intérieur est précieux.
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Quelles sont les couleurs tendance en décoration pour 2026 ?
+
+En 2026, les couleurs tendance sont les **teintes terreuses chaudes** (terracotta, ocre, brun cannelle), les **verts nature** (vert sauge, vert olive, vert forêt), les **bleus profonds et apaisants** (bleu nuit, bleu pétrole), et les **neutres chauds** (beige rosé, grège, taupe crème). Le blanc pur cède la place aux blancs cassés et crème pour plus de chaleur et d'authenticité. Ces couleurs reflètent un désir de reconnexion à la nature et de création d'intérieurs enveloppants.
+
+### Qu'est-ce que le design biophilique ?
+
+Le design biophilique intègre la nature dans les espaces intérieurs pour améliorer le bien-être de leurs habitants. Il repose sur plusieurs principes : **présence de plantes** (murs végétaux, grandes plantes, suspensions), **matériaux naturels** (bois, pierre, lin, laine), **lumière naturelle maximisée**, **vues sur l'extérieur** ou la végétation, **motifs et formes organiques** inspirés de la nature, et parfois des **éléments d'eau** (fontaines, aquariums). Des études scientifiques montrent que ce type de design réduit le stress, améliore la concentration et la productivité.
+
+### Comment intégrer la domotique dans sa décoration ?
+
+La domotique 2026 se fait discrète et design. **Choisissez des interfaces esthétiques** : interrupteurs et thermostats aux finitions soignées (laiton, verre, bois) qui s'intègrent à votre décoration. **Cachez les enceintes connectées** dans des meubles ou optez pour des modèles design qui sont aussi des objets décoratifs. **L'éclairage connecté** (Philips Hue, etc.) permet des ambiances personnalisées sans installation visible. **Les stores automatisés** avec moteurs dissimulés remplacent élégamment les manœuvres manuelles. L'objectif est que la technologie soit présente mais invisible.
+
+### Quels matériaux privilégier pour une décoration durable en 2026 ?
+
+Pour une décoration durable, privilégiez le **bois certifié FSC ou PEFC** issu de forêts gérées durablement, idéalement local (chêne, frêne, noyer français). Les **matériaux recyclés** gagnent en qualité : verre recyclé, plastique océanique transformé, métal récupéré. Les **textiles naturels** (lin, chanvre, coton bio, laine) sont à privilégier aux synthétiques. La **pierre naturelle locale** a un meilleur bilan carbone que le marbre importé. Les **peintures écologiques** sans COV protègent la santé. Enfin, le **mobilier de seconde main et vintage** est la démarche la plus durable qui soit, tout en étant très tendance.
+
+---
+
+## Créez l'Intérieur de 2026 Qui Vous Ressemble
+
+Les tendances décoration 2026 convergent vers un même objectif : créer des intérieurs qui font du bien. Chaleureux, connectés à la nature, intelligents mais discrets, durables et responsables... Ces espaces de vie reflètent nos aspirations actuelles.
+
+Mais au-delà des tendances, l'essentiel est de créer un intérieur qui VOUS ressemble. Un architecte d'intérieur vous aide à naviguer parmi ces inspirations pour construire un projet cohérent, adapté à votre personnalité, votre mode de vie et votre budget.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur qui sauront traduire vos envies en un intérieur unique. **Imaginez votre nouvel espace de vie, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

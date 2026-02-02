@@ -1,0 +1,286 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-08',
+  title: '¿Cuánto cuesta un diseñador de interiores en París?',
+  description: 'Coste diseñador de interiores París 2026: 80-200 €/h o 10-15% de las obras. Precio por m², tarifa fija, IVA. Guía completa para presupuestar su proyecto.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fundador',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'es',
+}
+
+export const metadata = {
+  title: '¿Cuánto cuesta un diseñador de interiores en París? Tarifas 2026',
+  description: 'Coste diseñador de interiores París 2026: 80-200 €/h o 10-15% de las obras. Precio por m², tarifa fija, IVA. Guía completa para presupuestar su proyecto.',
+  keywords: [
+    'coste diseñador interiores',
+    'tarifa diseñador interiores',
+    'precio diseñador interiores m2',
+    'honorarios diseñador interiores',
+    'presupuesto diseñador interiores',
+    'diseñador interiores París precio',
+    'arquitecto de interiores París',
+    'coste arquitecto interiores',
+    'renovación apartamento París coste',
+    'dirección de obra precio',
+    'porcentaje diseñador interiores',
+    'diseñador interiores barato'
+  ],
+  openGraph: {
+    title: '¿Cuánto cuesta un diseñador de interiores en París? Tarifas 2026',
+    description: 'Coste diseñador de interiores París 2026: 80-200 €/h o 10-15% de las obras. Precio por m², tarifa fija, IVA. Guía completa para presupuestar su proyecto.',
+    type: 'article',
+    publishedTime: '2026-01-08T09:00:00Z',
+    authors: ['Hugo Betscher'],
+  },
+  alternates: {
+    canonical: '/es/blog/tarifas-disenador-interiores-paris',
+    languages: {
+      'fr': '/fr/blog/tarif-architecte-interieur-paris',
+      'en': '/en/blog/interior-designer-fees-paris',
+      'it': '/it/blog/tariffe-architetto-interni-parigi',
+      'de': '/de/blog/kosten-innenarchitekt-paris',
+      'es': '/es/blog/tarifas-disenador-interiores-paris',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuánto cobra de media un diseñador de interiores en París?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las tarifas varían según el modo de facturación: de 100 € a 250 € la hora para el asesoramiento, del 10% al 15% del importe de las obras para una misión completa, o de 100 € a 200 € por m² para una tarifa fija por superficie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Están los honorarios del diseñador de interiores sujetos al IVA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, los honorarios generalmente se expresan sin IVA. Deberá añadir el IVA del 20% para obtener el importe total a pagar. Algunos arquitectos muestran directamente los precios con IVA, verifique siempre antes de comparar presupuestos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puede un diseñador de interiores ayudarme a reducir el coste de las obras?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, un diseñador de interiores experimentado puede optimizar su presupuesto gracias a su conocimiento de los precios del mercado, su red de artesanos y su capacidad de negociación. Generalmente recupera el importe de sus honorarios mediante el ahorro obtenido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la diferencia entre tarifa fija y porcentaje?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La tarifa fija ofrece una visibilidad total sobre el coste de la misión, independientemente del importe final de las obras. El porcentaje alinea los intereses del arquitecto con la realización efectiva del proyecto pero puede aumentar si el presupuesto de las obras aumenta."
+      }
+    }
+  ]
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+<div className="not-prose mb-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Tabla de contenidos</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#modos-facturacion" className="text-neutral-600 hover:text-neutral-950 transition">1. Los diferentes modos de facturación</a></li>
+      <li><a href="#tarifas-mercado" className="text-neutral-600 hover:text-neutral-950 transition">2. Tarifas medias del mercado parisino</a></li>
+      <li><a href="#factores-precio" className="text-neutral-600 hover:text-neutral-950 transition">3. Los factores que influyen en el precio</a></li>
+      <li><a href="#que-incluyen" className="text-neutral-600 hover:text-neutral-950 transition">4. ¿Qué incluyen los honorarios?</a></li>
+      <li><a href="#comparar-presupuestos" className="text-neutral-600 hover:text-neutral-950 transition">5. ¿Cómo comparar los presupuestos?</a></li>
+      <li><a href="#optimizar-presupuesto" className="text-neutral-600 hover:text-neutral-950 transition">6. ¿Cómo optimizar su presupuesto?</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">7. FAQ</a></li>
+    </ol>
+  </nav>
+</div>
+
+<h2 id="modos-facturacion">Los diferentes modos de facturación</h2>
+
+**Las tarifas de un diseñador de interiores pueden presentarse de varias maneras**, lo que dificulta a veces la comparación. Comprender estos diferentes modos de facturación es esencial para evaluar correctamente los presupuestos y elegir la fórmula más adaptada a su proyecto.
+
+<h3>La tarifa horaria</h3>
+
+La tarifa horaria se utiliza generalmente para los asesoramientos puntuales, las consultas iniciales o las misiones de alcance limitado. Las tarifas oscilan generalmente entre **100 € y 250 € la hora** sin IVA según la experiencia del profesional y su notoriedad.
+
+Este modo de facturación es particularmente adecuado para: una primera consulta para evaluar un proyecto, asesoramiento específico (elección de materiales, planos de color), pequeñas misiones de decoración.
+
+<h3>El porcentaje sobre las obras</h3>
+
+Este es el modo de facturación más frecuente para las misiones completas de arquitectura de interiores. Los honorarios representan un porcentaje del coste total de las obras, generalmente **entre el 10% y el 15% sin IVA**.
+
+Por ejemplo, para obras estimadas en 100.000 € sin IVA, los honorarios del diseñador de interiores serán de 10.000 € a 15.000 € sin IVA. Este método alinea los intereses del arquitecto con la realización del proyecto, ya que su remuneración depende del buen desarrollo de las obras.
+
+<h3>La tarifa fija por superficie</h3>
+
+Algunos diseñadores de interiores proponen una tarifa fija calculada sobre la superficie del espacio a diseñar. Las tarifas varían generalmente **de 100 € a 200 € por m²** sin IVA para una misión completa.
+
+Para un apartamento de 80 m², cuente entonces de 8.000 € a 16.000 € sin IVA. Esta fórmula ofrece una visibilidad clara sobre el coste de la misión desde el principio del proyecto.
+
+---
+
+<h2 id="tarifas-mercado">Tarifas medias del mercado parisino</h2>
+
+<h3>Rangos de precios según el tipo de misión</h3>
+
+En París, las tarifas de los diseñadores de interiores varían considerablemente según el alcance de la misión:
+
+**Asesoramiento/Consulta:**
+- Consulta inicial (1-2h): 150 € a 400 €
+- Informe de asesoramiento decorativo: 500 € a 1.500 €
+- Plano de color y materiales: 800 € a 2.000 €
+
+**Misión de diseño:**
+- Planos y perspectivas 3D: 2.000 € a 6.000 €
+- Diseño completo sin dirección de obra: 4.000 € a 10.000 €
+
+**Misión completa (diseño + dirección de obra):**
+- Pequeñas superficies (menos de 50 m²): 8.000 € a 15.000 €
+- Superficies medias (50-100 m²): 12.000 € a 25.000 €
+- Grandes superficies (más de 100 m²): 20.000 € a 50.000 €+
+
+<h3>Especificidades del mercado parisino</h3>
+
+Los precios en París son generalmente más elevados que en el resto de Francia, de un 20% a un 30% de media. Este sobrecoste se explica por: el coste de la vida más elevado, la complejidad de los proyectos parisinos (edificios antiguos, restricciones de copropiedad), la competencia por los buenos artesanos.
+
+---
+
+<h2 id="factores-precio">Los factores que influyen en el precio</h2>
+
+<h3>La experiencia y la notoriedad</h3>
+
+Un diseñador de interiores con 20 años de experiencia y referencias prestigiosas cobrará más que un joven profesional. Este sobrecoste se justifica generalmente por una mayor eficiencia, una red de artesanos más amplia y una mejor capacidad de anticipación.
+
+<h3>La complejidad del proyecto</h3>
+
+Varios elementos pueden aumentar el coste de una misión:
+- Restricciones técnicas particulares (techos bajos, columnas, desniveles)
+- Patrimonio protegido o edificios históricos
+- Plazos cortos que imponen una organización intensiva
+- Obras nocturnas o durante horarios especiales
+
+<h3>El alcance de las prestaciones</h3>
+
+Un presupuesto puede incluir más o menos prestaciones: número de revisiones de planos, visualizaciones 3D, paneles de materiales, seguimiento de obra. **Un presupuesto bajo puede ocultar prestaciones reducidas** que necesitarán complementos.
+
+---
+
+<h2 id="que-incluyen">¿Qué incluyen los honorarios de un diseñador de interiores?</h2>
+
+<h3>Fase de estudio y diseño</h3>
+
+Esta fase incluye generalmente:
+- Visita al lugar y levantamiento de planos del existente
+- Análisis de necesidades y restricciones
+- Realización de planos (estado existente, proyecto, secciones)
+- Visualizaciones 3D y perspectivas
+- Selección de materiales y acabados
+- Pliego de condiciones técnico
+
+<h3>Fase de consulta</h3>
+
+Esta fase comprende:
+- Redacción del pliego de condiciones detallado
+- Consulta a las empresas
+- Análisis de los presupuestos
+- Negociación con los artesanos
+- Establecimiento del calendario de obra
+
+<h3>Fase de dirección de obra</h3>
+
+La dirección de obra incluye:
+- Coordinación de las empresas
+- Reuniones de obra regulares
+- Verificación de la conformidad de los trabajos
+- Gestión de los imprevistos
+- Recepción de los trabajos
+
+---
+
+<h2 id="comparar-presupuestos">¿Cómo comparar los presupuestos de diseñadores de interiores?</h2>
+
+<h3>Verificar el alcance de las prestaciones</h3>
+
+Antes de comparar los precios, asegúrese de que los presupuestos cubren las mismas prestaciones. Un presupuesto bajo puede no incluir:
+- La dirección de obra
+- El número de visitas a obra
+- Las visualizaciones 3D
+- Las reuniones de validación
+
+<h3>Comprender el modo de facturación</h3>
+
+Compruebe si los precios se indican sin IVA o con IVA incluido (diferencia del 20%). Para los porcentajes, verifique sobre qué base se calcula: coste total de las obras, solo las obras técnicas, IVA incluido o sin IVA.
+
+<h3>Evaluar los servicios complementarios</h3>
+
+Algunos arquitectos incluyen servicios de valor añadido: compras de decoración, gestión de los seguros, asistencia administrativa. Estos servicios tienen un valor que debe tenerse en cuenta en la comparación.
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/es/contacto">Obtenga un presupuesto personalizado</Button>
+</div>
+
+---
+
+<h2 id="optimizar-presupuesto">¿Cómo optimizar su presupuesto?</h2>
+
+<h3>Definir claramente sus necesidades desde el principio</h3>
+
+Cuanto más preciso sea su brief, más eficiente podrá ser el arquitecto. Prepare: fotos de inspiración, su presupuesto global, sus plazos, sus restricciones imperativos. Esto evitará revisiones costosas.
+
+<h3>Elegir el modo de facturación adaptado</h3>
+
+El porcentaje es interesante si el importe de las obras aún no está definido con precisión. La tarifa fija ofrece más seguridad si tiene un presupuesto estricto. La tarifa horaria conviene para misiones puntuales.
+
+<h3>Aprovechar la experiencia del arquitecto</h3>
+
+Un buen diseñador de interiores conoce los precios del mercado y puede hacer optimizaciones que compensen sus honorarios. No dude en pedirle consejo para reducir los costes de las obras sin sacrificar la calidad.
+
+---
+
+<h2 id="faq">FAQ: Sus preguntas sobre las tarifas de los diseñadores de interiores</h2>
+
+<h3>¿Cuánto cobra de media un diseñador de interiores en París?</h3>
+
+Las tarifas varían según el modo de facturación: de 100 € a 250 € la hora para el asesoramiento, del 10% al 15% del importe de las obras para una misión completa, o de 100 € a 200 € por m² para una tarifa fija por superficie. Para un proyecto de renovación de un apartamento parisino de 80 m², cuente de 10.000 € a 20.000 € sin IVA para una misión completa.
+
+<h3>¿Están los honorarios del diseñador de interiores sujetos al IVA?</h3>
+
+Sí, los honorarios generalmente se expresan sin IVA. Deberá añadir el IVA del 20% para obtener el importe total a pagar. Algunos arquitectos muestran directamente los precios con IVA incluido, **verifique siempre antes de comparar presupuestos** para hacer una comparación justa.
+
+<h3>¿Puede un diseñador de interiores ayudarme a reducir el coste de las obras?</h3>
+
+Absolutamente. Un diseñador de interiores experimentado puede optimizar su presupuesto gracias a: su conocimiento de los precios del mercado, su red de artesanos de confianza, su capacidad de negociación, su experiencia para proponer alternativas menos costosas. **Generalmente recupera el importe de sus honorarios mediante el ahorro obtenido** en las obras.
+
+<h3>¿Cuál es la diferencia entre tarifa fija y porcentaje?</h3>
+
+La **tarifa fija** ofrece una visibilidad total sobre el coste de la misión desde el principio, independientemente del importe final de las obras. Es tranquilizador para los presupuestos estrictos. El **porcentaje** alinea los intereses del arquitecto con la realización efectiva del proyecto, pero los honorarios pueden aumentar si el presupuesto de las obras aumenta. Cada fórmula tiene sus ventajas según su situación.
+
+---
+
+*Fuentes: UNSFA (Unión Nacional de Sindicatos Franceses de Arquitectos), CFAI (Consejo Francés de Arquitectos de Interiores), estudio Hauss Paris 2025*
+
+    </div>
+  </FadeIn>
+</Container>
+

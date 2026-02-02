@@ -1,0 +1,525 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import { StatList, StatListItem } from '@/components/StatList'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-20',
+  title: 'Paris Apartment Renovation: Complete Guide 2026',
+  description: 'Everything you need to know to renovate an apartment in Paris: price per m², renovation types, timelines, administrative procedures, Haussmann specifics, and 7 key project stages.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Founder',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'en',
+}
+
+export const metadata = {
+  title: 'Paris Apartment Renovation: Find Your Architect',
+  description: 'Everything you need to know to renovate an apartment in Paris: price per m², renovation types, timelines, administrative procedures, Haussmann specifics, and 7 key project stages.',
+  keywords: [
+    'apartment renovation Paris',
+    'interior architect Paris',
+    'Paris renovation cost',
+    'Haussmann renovation',
+    'Paris architect',
+    'apartment works Paris',
+    'renovation budget Paris',
+    'complete renovation Paris',
+    'Paris condo renovation',
+    'renovation architect Paris'
+  ],
+  openGraph: {
+    title: 'Paris Apartment Renovation: Complete Guide 2026 | Hauss Paris',
+    description: 'Everything you need to know to renovate an apartment in Paris: price per m², renovation types, timelines, administrative procedures, Haussmann specifics, and 7 key project stages.',
+    type: 'article',
+    publishedTime: '2026-01-20T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/apartment-renovation-paris-complete-guide/renovation-appartement-paris-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Paris apartment renovation - Complete guide',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/en/blog/apartment-renovation-paris-complete-guide',
+    languages: {
+      'fr': '/fr/blog/renovation-appartement-paris-guide-complet',
+      'en': '/en/blog/apartment-renovation-paris-complete-guide',
+      'es': '/es/blog/renovacion-apartamento-paris-guia-completa',
+      'de': '/de/blog/wohnungsrenovierung-paris-kompletter-leitfaden',
+      'it': '/it/blog/ristrutturazione-appartamento-parigi-guida-completa',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need an architect to renovate my Paris apartment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An interior architect is not legally required for simple work (painting, floor covering replacement), but becomes essential when you modify the layout, completely renovate a kitchen or bathroom, affect electrical or plumbing installations, or invest more than €30,000 in your renovation. They optimize your budget (20-30% savings), avoid costly mistakes, and guarantee a professional result that adds 15 to 30% value to your property."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a Paris apartment renovation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Duration depends on your project's scope: Light renovation 2-4 weeks, Partial renovation 1-3 months, Complete renovation 3-6 months, Heavy renovation 6-12 months. Add administrative procedures (condominium authorization, work declaration) which take 2 to 8 additional weeks depending on complexity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I renovate my Paris apartment without authorization?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, condominium authorization is ALWAYS mandatory, even for work that seems minor to you. Renovating without authorization exposes you to a formal notice from the syndic, legal action from the condominium, obligation to restore at your own expense, and difficulties during a future sale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the price of a complete renovation for a 50m² in Paris?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a complete renovation of a 50m² apartment in Paris, expect between €60,000 and €125,000 depending on finish level, or €1,200 to €2,500 per m². Key variables include: initial condition, building type (Haussmann more expensive), finish level (IKEA vs. high-end), and access constraints."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Paris Apartment Renovation: Complete Guide 2026",
+  "description": "Everything you need to know to renovate an apartment in Paris: price per m², renovation types, timelines, administrative procedures, Haussmann specifics, and 7 key project stages.",
+  "image": "https://haussparis.com/blog/apartment-renovation-paris-complete-guide/renovation-appartement-paris-hero.jpg",
+  "datePublished": "2026-01-20T09:00:00Z",
+  "dateModified": "2026-01-20T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Founder",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/en/blog/apartment-renovation-paris-complete-guide"
+  },
+  "keywords": "apartment renovation Paris, interior architect Paris, Paris renovation cost, Haussmann renovation, Paris architect, apartment works Paris, renovation budget Paris, complete renovation Paris, Paris condo renovation, renovation architect Paris",
+  "articleSection": "Renovation",
+  "inLanguage": "en-US"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+Renovating an apartment in Paris can quickly become a headache: finding the right interior architect, managing administrative procedures with the condominium, staying within your budget without sacrificing quality... You dream of transforming your space, but don't know where to start?
+
+Between the specific constraints of Parisian buildings, strict condominium regulations, and the difficulty of finding a trustworthy professional available quickly, your Paris apartment renovation project deserves to be supported by the right expert.
+
+**Hauss Paris** simplifies this search: we connect you with selected interior architects specialized in Paris renovations. Personalized matching based on your style, budget, and project type. **Find your ideal architect, free and with no commitment.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Find your architect</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Describe your project • Free and with no commitment
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Table of Contents</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#why-renovate" className="text-neutral-600 hover:text-neutral-950 transition">1. Why Renovate Your Paris Apartment in 2026?</a></li>
+      <li><a href="#renovation-types" className="text-neutral-600 hover:text-neutral-950 transition">2. What Type of Renovation for Your Parisian Apartment?</a></li>
+      <li><a href="#renovation-costs" className="text-neutral-600 hover:text-neutral-950 transition">3. How Much Does a Paris Apartment Renovation Cost in 2026?</a></li>
+      <li><a href="#key-steps" className="text-neutral-600 hover:text-neutral-950 transition">4. Paris Apartment Renovation: The 7 Key Steps</a></li>
+      <li><a href="#paris-specifics" className="text-neutral-600 hover:text-neutral-950 transition">5. Specifics of Paris Apartment Renovation</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Frequently Asked Questions About Paris Apartment Renovation</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="why-renovate">Why Renovate Your Paris Apartment in 2026?</h2>
+
+Renovating a Parisian apartment is much more than a simple aesthetic refresh. It's a strategic investment that transforms your daily life and adds value to your property.
+
+### Increase Your Property Value
+
+The Paris real estate market is one of Europe's most dynamic, and buyers seek turnkey properties. A tastefully renovated apartment sells on average **20 to 30% more** than a similar-sized property requiring renovation. Moreover, it sells **twice as fast**: 45 days versus 90 days on average for a property needing work.
+
+If you rent your property, a quality renovation allows you to increase your rent by 15 to 25% while attracting more stable and solvent tenants. In sought-after neighborhoods like the 16th, 7th, or Marais districts, this added value can represent several hundred euros per month.
+
+### Improve Your Daily Comfort
+
+In Paris, every square meter counts. A well-designed renovation optimizes your spaces and transforms your apartment into a functional and pleasant living environment. Modernizing your kitchen to create a convivial space, completely redoing your bathroom for added comfort, or installing effective soundproofing in your bedroom: so many small details that radically change your daily life.
+
+Old Parisian buildings, especially Haussmann structures, often suffer from insufficient thermal and acoustic insulation. Energy renovation can reduce your heating bill by 40 to 60% while significantly improving your comfort.
+
+### Adapt Your Home to Your Needs
+
+Your life evolves, and your apartment must follow. Growing family? Urgent need for a home office? Desire to create a custom dressing room or add an extra bedroom? Renovation allows you to perfectly adapt your space to your current lifestyle.
+
+Many Parisians also take advantage of purchasing a property requiring renovation to enter the real estate market at a more accessible price. An apartment needing work costs 15 to 25% less, and after renovation, you have a new property perfectly suited to your tastes.
+
+---
+
+<h2 id="renovation-types">What Type of Renovation for Your Parisian Apartment?</h2>
+
+Not all renovations are alike. Depending on your apartment's condition, your budget, and your ambitions, several options are available. Here's how to navigate them.
+
+### Light Renovation: Express Refresh
+
+**What does it involve?** You keep the existing layout and focus on aesthetics: new paint, flooring replacement (parquet, tiles), changing light fixtures and door handles. It's the "fresh touch" that brings new life to your apartment.
+
+<StatList>
+  <StatListItem value="€200-500/m²" label="Budget" />
+  <StatListItem value="2-4 weeks" label="Duration" />
+  <StatListItem value="Optional" label="Architect" />
+</StatList>
+
+**Ideal for:** Preparing for rental, refreshing an already functional apartment, or investing with a limited budget.
+
+### Partial Renovation: Modernize Key Rooms
+
+**What does it involve?** You completely renovate one or two strategic rooms, usually the kitchen and bathroom, while refreshing the rest of the apartment. Electrical and plumbing installations in these rooms are redone from scratch.
+
+<StatList>
+  <StatListItem value="€500-1,200/m²" label="Budget" />
+  <StatListItem value="1-3 months" label="Duration" />
+  <StatListItem value="Recommended" label="Architect" />
+</StatList>
+
+**Ideal for:** Modernizing an 80s-90s apartment whose layout generally suits you.
+
+### Complete Renovation: Everything Brand New
+
+**What does it involve?** You strip the apartment bare: electricity, plumbing, partitions, floors, everything is redone. You start from a clean slate with code-compliant installations and quality finishes according to your choices.
+
+<StatList>
+  <StatListItem value="€1,200-2,500/m²" label="Budget" />
+  <StatListItem value="3-6 months" label="Duration" />
+  <StatListItem value="Essential" label="Architect" />
+</StatList>
+
+**Ideal for:** Old apartments not renovated for 30+ years, or after purchasing a property requiring complete code compliance.
+
+### Heavy Renovation: Complete Restructuring
+
+**What does it involve?** You modify the very structure of the apartment: moving or removing load-bearing walls, creating mezzanines, modifying openings, completely reorganizing room distribution.
+
+<StatList>
+  <StatListItem value="€2,000-4,000+/m²" label="Budget" />
+  <StatListItem value="6-12 months" label="Duration" />
+  <StatListItem value="Mandatory" label="Architect" />
+</StatList>
+
+**Ideal for:** Haussmann apartments to reorganize, large spaces to transform, or ambitious projects combining several small units.
+
+---
+
+<h2 id="renovation-costs">How Much Does a Paris Apartment Renovation Cost in 2026?</h2>
+
+Budget is often the first question you ask. In Paris, renovation prices are 15 to 25% higher than in the provinces, mainly due to specialized labor costs, construction site access complexity, and specific urban constraints. But with good planning, your investment will quickly pay off.
+
+### Average Prices by Renovation Type in Paris
+
+Here are the price ranges observed in 2026 for Paris apartment renovations:
+
+- **Light renovation:** €200 to €500/m² → A 25m² studio will cost between €5,000 and €12,500
+- **Partial renovation:** €500 to €1,200/m² → A 45m² one-bedroom will cost between €22,500 and €54,000
+- **Complete renovation:** €1,200 to €2,500/m² → A 65m² two-bedroom will cost between €78,000 and €162,500
+- **Heavy renovation:** €2,000 to €4,000+/m² → A 90m² three-bedroom will cost between €180,000 and €360,000+
+
+> **Important:** These ranges are indicative. The final price depends on many factors: initial condition, building type, neighborhood, finish level, technical and administrative constraints.
+
+### The 7 Factors That Influence Your Renovation Cost
+
+#### 1. Surface area and initial condition
+
+The larger your apartment, the lower the price per m² (economies of scale on bulk material purchases). Conversely, a very dilapidated apartment will require code compliance work that increases the bill by 20 to 40%.
+
+#### 2. Building type
+
+Renovating an apartment in a Haussmann building is generally 25 to 35% more expensive than a 1970s property. Why? Very high ceilings (3.20m average), moldings and heritage elements to preserve, total absence of original insulation, thick load-bearing walls requiring specialized equipment.
+
+#### 3. Neighborhood
+
+Construction site access constraints vary by neighborhood. In the Marais or on Île Saint-Louis, narrow streets and absence of elevators can increase costs by 10 to 15%. Conversely, recent buildings in the 13th or 15th are easier to access.
+
+#### 4. Finish level
+
+Finishes represent 30 to 40% of the total budget. Between standard tiling at €25/m² and Italian marble at €200/m², between an IKEA kitchen at €3,000 and a high-end kitchen at €20,000, the differences are considerable. An architect helps you prioritize your investments.
+
+#### 5. Technical constraints
+
+If your electricity dates from 1970 (with fabric-covered wires!) or your plumbing is lead, code compliance is mandatory and represents an additional cost of €8,000 to €15,000 depending on surface area.
+
+#### 6. Administrative constraints
+
+Apartment in a listed building? Located in a protected sector (Marais, Latin Quarter)? You'll need approval from the Architecte des Bâtiments de France (ABF), which can extend deadlines and impose more expensive specific materials.
+
+#### 7. Work period
+
+Scheduling your work during low season (January-February, November) can save you 10 to 15% on labor. Craftsmen are more available and flexible with their rates.
+
+### Founder Cost: A Profitable Investment
+
+Many hesitate to hire an architect for fear of additional cost. Yet it's a **false economy** that can cost you much more.
+
+#### How much does an interior architect cost in Paris?
+
+- **Percentage-based fees:** 8 to 15% of total work amount (10-12% average in Paris)
+- **Fixed fee** for small projects: €3,000 to €8,000
+- **Hourly rate** for consulting: €80 to €150/hour (rare for complete renovation)
+
+For an €80,000 complete renovation, architect fees represent €8,000 to €12,000. This may seem high, but here's why it's actually an excellent investment:
+
+#### Architect ROI: Real Calculation
+
+**Example: 60m² renovation - €80,000 budget**
+
+- Architect fees (10%): **€8,000**
+- Savings through craftsman network: **-€6,000** (group negotiation, preferential rates)
+- Errors avoided (poor choices, defects): **-€12,000** (30% of budget according to studies)
+- Layout and purchase optimization: **-€5,000** (no over-sizing, relevant choices)
+
+**→ NET architect cost: €0** (or even €5,000 savings)
+**+ Qualitative added value:** Professional result, aesthetic coherence, property value increase (+15-30% on resale)
+
+> **Verdict:** A good architect pays for themselves. You're not paying €8,000, you're investing to save much more and achieve professional quality results.
+
+<div className="not-prose my-12">
+  <div className="rounded-3xl bg-neutral-100 p-6 sm:p-10">
+    <h3 className="font-display text-base font-semibold text-neutral-950">
+      What type of renovation for your project? Let's discuss it.
+    </h3>
+    <div className="mt-6">
+      <Button href="/contact">Describe your project for free</Button>
+    </div>
+  </div>
+</div>
+
+---
+
+<h2 id="key-steps">Paris Apartment Renovation: The 7 Key Steps</h2>
+
+Renovating a Paris apartment follows a well-defined process. Here's how a typical project unfolds from the first meeting to move-in.
+
+### Step 1: Define Your Project and Budget (1-2 weeks)
+
+Before contacting anyone, take time to clarify your desires. Which rooms do you want to renovate? What's your realistic budget? What style attracts you (modern, classic, industrial)? Create a Pinterest board with your inspirations.
+
+> **This is where Hauss Paris steps in to find the architect perfectly suited to your project.**
+
+### Step 2: Find Your Interior Architect (2-6 weeks traditionally)
+
+Traditionally, this step is the most time-consuming and frustrating: hours of searching on Google, Houzz, Instagram, dozens of unanswered emails, meetings with professionals who aren't available or aligned with your vision...
+
+**With Hauss Paris, everything changes:** you complete a detailed questionnaire about your project, and we propose 2-3 pre-qualified architect profiles, available, and perfectly suited to your needs. You quickly meet the right professionals.
+
+### Step 3: Feasibility Study and Preliminary Project (3-4 weeks)
+
+The architect visits your home to take precise measurements, perform a technical diagnostic (electrical installations, plumbing, structure condition). They then present several sketches with different layout options and a first detailed budget estimate.
+
+This is the time for decisions: open the kitchen to the living room? Create a dressing room? Modify the bathroom? The architect advises you on feasibility and impact of each option.
+
+### Step 4: Design and Project Validation (2-4 weeks)
+
+Once the preliminary project is validated, the architect produces final plans in 2D and 3D, detailed specifications for each trade, and helps you choose all materials (tiles, parquet, paints, plumbing fixtures, lighting...). You receive detailed quotes from each craftsman.
+
+This is your last chance to modify elements before launching the construction site. Take time to validate every detail.
+
+### Step 5: Administrative Procedures (2-8 weeks depending on project)
+
+Before starting work, several authorizations are necessary in Paris:
+
+- **Condominium authorization:** ALWAYS mandatory, even for "simple" work
+- **Prior work declaration:** If you modify the exterior appearance (windows, balcony) or create surface area
+- **Building permit:** If you affect the structure or create more than 20m² of surface
+- **Damage insurance:** Strongly recommended (mandatory if resale within 10 years)
+
+**Good news:** Your architect handles all these procedures for you. You only need to sign documents.
+
+### Step 6: Renovation Work (2-6 months depending on scope)
+
+Construction begins! Work always follows the same logical order:
+
+#### The 3 construction phases
+
+1. **Demolition and structural work** (1-2 weeks): Removal of existing, partition dismantling
+2. **Finishing work** (3-8 weeks): Electricity, plumbing, insulation, partitions, carpentry
+3. **Finishes** (2-4 weeks): Painting, floors, kitchen and bathroom installation, lighting
+
+#### The architect's role during work
+
+They coordinate all craftsmen (plumber, electrician, tiler, painter...), supervise each stage, validate work quality, and ensure schedule and budget compliance. You're regularly informed, but they manage the construction site's daily operations.
+
+### Step 7: Reception and Finishing Touches (1-2 weeks)
+
+At the construction site's end, the architect organizes a reception visit in your presence. You inspect every detail and establish a list of any reservations (small imperfections to correct). Craftsmen then have 2 weeks to address these reservations.
+
+Once everything is validated, you can move into your completely renovated apartment!
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Ready to launch your project? Find your architect</Button>
+</div>
+
+---
+
+<h2 id="paris-specifics">Specifics of Paris Apartment Renovation</h2>
+
+Renovating in Paris isn't like renovating elsewhere in France. The capital imposes unique constraints essential to know before starting.
+
+### Condominium Constraints and Strict Regulations
+
+#### Prior authorization: mandatory in all cases
+
+**Prior authorization is ALWAYS mandatory**, even for work that seems minor to you. Before touching any wall, you must submit your project to the condominium syndic. Depending on the work scope, authorization will be given by the syndic alone or require a general assembly vote.
+
+#### Work hours to respect
+
+Parisian condominium regulations are particularly strict on hours: generally, noisy work is authorized only Monday to Friday from 8am to 7pm (sometimes 6pm). Saturday is often limited to 9am-1pm, and Sunday is almost systematically prohibited. Exceptional waivers can be obtained for urgent construction sites, but they're rare.
+
+#### Work affecting common areas
+
+If your work affects common areas (replacing street-facing windows, creating an opening to the stairwell, facade work), a general assembly vote is mandatory. Allow 2 to 6 months to obtain this authorization.
+
+### Listed Buildings and Protected Zones
+
+Paris has many protected sectors (Marais, Latin Quarter, Montmartre...) and thousands of buildings listed or registered as Historical Monuments. If your apartment is located in one of these perimeters, **the Architecte des Bâtiments de France (ABF) must validate your project**.
+
+The ABF is very vigilant about everything visible from outside: windows, shutters, balconies, but also sometimes interior layouts if the building is listed. Processing times can reach 3 to 6 months, and the ABF can impose specific materials or colors, generally more expensive.
+
+> **Good to know:** An architect accustomed to working in Paris knows these constraints inside out and knows how to present your file to maximize your chances of quickly obtaining authorizations.
+
+### Haussmann Apartments: A Very Particular Case
+
+Haussmann buildings (built between 1850 and 1870) represent nearly 60% of the Parisian housing stock within the périphérique. Their unique characteristics directly impact renovation cost and complexity:
+
+#### Technical challenges of Haussmann apartments
+
+- **High ceilings (3.20m average):** Magnificent for volume, but requires scaffolding and increases paint quantities and work time (+20 to 30% on finishing work)
+- **Moldings, rosettes, cornices:** Heritage elements to absolutely preserve. Their restoration requires specialized craftsmen (plaster molders) with high rates (€80 to €150 per hour)
+- **Old parquet:** Often high-quality solid oak, but requiring complete renovation (sanding, varnishing). Budget: €50 to €90/m²
+- **Total absence of insulation:** Exterior walls are 50 to 80cm thick but have no thermal insulation. Interior insulation mandatory, but careful not to distort volumes
+- **Period installations:** Electricity and plumbing often original or from the 1950s-60s, mandatory and complex code compliance
+
+#### The main challenge
+
+Successfully modernizing the entire apartment (comfort, equipment, insulation) while preserving its authentic character. This is precisely the core expertise of interior architects specialized in Parisian heritage.
+
+---
+
+<h2 id="faq">Frequently Asked Questions About Paris Apartment Renovation</h2>
+
+### Do I need an architect to renovate my Paris apartment?
+
+An interior architect is not legally required for simple work (painting, floor covering replacement), but becomes **essential** when you:
+
+- Modify the layout (moving partitions, even non-load-bearing ones)
+- Completely renovate a kitchen or bathroom
+- Affect electrical or plumbing installations
+- Invest more than €30,000 in your renovation
+
+Why? Because they optimize your budget (20-30% savings), avoid costly mistakes, coordinate all craftsmen, handle administrative procedures, and guarantee a professional result that adds 15 to 30% value to your property.
+
+**In summary:** For a simple refresh, they're optional. For everything else, it's your best investment.
+
+### How long does a Paris apartment renovation take?
+
+Duration depends on your project's scope:
+
+- **Light renovation:** 2 to 4 weeks
+- **Partial renovation:** 1 to 3 months
+- **Complete renovation:** 3 to 6 months
+- **Heavy renovation:** 6 to 12 months
+
+Add administrative procedures (condominium authorization, work declaration, building permit if necessary) which take 2 to 8 additional weeks depending on complexity.
+
+**Tip:** These procedures can be conducted parallel to the design phase with the architect, optimizing the overall schedule.
+
+### Can I renovate my Paris apartment without authorization?
+
+**No, condominium authorization is ALWAYS mandatory**, even for work that seems minor to you. Renovating without authorization exposes you to:
+
+- A formal notice from the syndic
+- Legal action from the condominium
+- Obligation to restore at your own expense
+- Difficulties during a future sale (diagnostics and notarial deed)
+
+**What requires authorization:** Anything affecting structure, plumbing, electricity, openings, exterior appearance, or generating noise.
+
+**What generally doesn't require authorization:** Only wall painting and floor covering replacement without affecting the structure.
+
+Your architect handles all these authorizations for you and knows the procedures inside out.
+
+### What's the price of a complete renovation for a 50m² in Paris?
+
+For a **complete renovation of a 50m² apartment in Paris**, expect between **€60,000 and €125,000** depending on finish level, or €1,200 to €2,500 per m².
+
+**Typical budget breakdown for 50m²:**
+
+- Demolition and removal: €3,000-5,000
+- Structural work and partitions: €8,000-12,000
+- Electricity: €6,000-10,000
+- Plumbing: €5,000-9,000
+- Equipped kitchen: €8,000-20,000
+- Bathroom: €7,000-15,000
+- Floors (parquet/tiles): €5,000-9,000
+- Painting and finishes: €6,000-10,000
+- Carpentry: €4,000-8,000
+- Architect fees (10%): €6,000-12,000
+
+**Key variables:** Initial condition, building type (Haussmann more expensive), finish level (IKEA vs. high-end), access constraints.
+
+---
+
+## Transform Your Parisian Apartment Now
+
+Renovating a Paris apartment is an ambitious project requiring expertise, coordination, and vision. With the right interior architect by your side, your renovation transforms into a smooth and rewarding experience, from the first sketch to final move-in.
+
+**Hauss Paris** simplifies this search and directly connects you with the best Parisian professionals, perfectly suited to your specific project. **You quickly meet the architects you need. Free. With no commitment.**
+
+Over 500 Parisians have already trusted us to find their ideal architect. Why not you?
+
+    </div>
+  </FadeIn>
+</Container>

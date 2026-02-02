@@ -1,0 +1,483 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import { StatList, StatListItem } from '@/components/StatList'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-19',
+  title: 'Rénovation Salle de Bain Paris : Guide Complet 2026',
+  description: 'Découvrez tout ce qu\'il faut savoir pour rénover votre salle de bain à Paris : prix, plomberie, carrelage, douche italienne et solutions pour petites surfaces. Guide complet par un expert.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Rénovation Salle de Bain Paris : Prix, Conseils et Guide 2026',
+  description: 'Découvrez tout ce qu\'il faut savoir pour rénover votre salle de bain à Paris : prix, plomberie, carrelage, douche italienne et solutions pour petites surfaces.',
+  keywords: [
+    'rénovation salle de bain Paris',
+    'prix salle de bain Paris',
+    'douche italienne Paris',
+    'carrelage salle de bain',
+    'plomberie salle de bain',
+    'petite salle de bain',
+    'architecte salle de bain Paris',
+    'devis salle de bain Paris',
+    'baignoire douche',
+    'meuble vasque'
+  ],
+  openGraph: {
+    title: 'Rénovation Salle de Bain Paris : Guide Complet 2026 | Hauss Paris',
+    description: 'Découvrez tout ce qu\'il faut savoir pour rénover votre salle de bain à Paris : prix, plomberie, carrelage, douche italienne et solutions pour petites surfaces.',
+    type: 'article',
+    publishedTime: '2026-01-19T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/renovation-salle-de-bain-paris-guide-complet/renovation-salle-bain-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Rénovation salle de bain Paris',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/renovation-salle-de-bain-paris-guide-complet',
+    languages: {
+      'fr': '/fr/blog/renovation-salle-de-bain-paris-guide-complet',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quel est le prix d'une rénovation complète de salle de bain à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le prix d'une rénovation complète de salle de bain à Paris varie de 8000 à 25000€ pour une surface de 4 à 6m², selon les finitions et équipements. Rénovation économique : 1500-2500€/m², milieu de gamme : 2500-3500€/m², haut de gamme : 3500-5000€/m². Ces prix incluent la dépose, la plomberie, l'électricité, le carrelage, les sanitaires et la main-d'œuvre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on installer une douche italienne dans un appartement ancien à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, mais avec des contraintes. La douche italienne nécessite un receveur extra-plat ou une pente au sol pour l'évacuation. Dans les appartements anciens, l'épaisseur du plancher peut être insuffisante pour créer la pente nécessaire. Solutions : receveur extra-plat surélevé de quelques centimètres, ou création d'une estrade intégrant l'évacuation. Un plombier expérimenté est indispensable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure une rénovation de salle de bain ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Une rénovation complète de salle de bain dure généralement 2 à 4 semaines de travaux effectifs : 2-3 jours de dépose, 3-5 jours de plomberie et électricité, 4-7 jours de carrelage, 2-3 jours de pose des sanitaires et finitions. Ajoutez les délais de séchage (notamment pour les joints et l'étanchéité) et les éventuels délais de livraison des équipements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment optimiser une petite salle de bain parisienne ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pour optimiser une petite salle de bain : remplacez la baignoire par une douche pour gagner de l'espace, installez un meuble vasque suspendu (sol visible = espace agrandi), optez pour un grand miroir qui double visuellement l'espace, choisissez du carrelage grand format et clair, privilégiez les rangements verticaux, et installez une porte coulissante. Un architecte peut créer des solutions sur mesure."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Rénovation Salle de Bain Paris : Guide Complet 2026",
+  "description": "Découvrez tout ce qu'il faut savoir pour rénover votre salle de bain à Paris.",
+  "image": "https://haussparis.com/blog/renovation-salle-de-bain-paris-guide-complet/renovation-salle-bain-hero.jpg",
+  "datePublished": "2026-01-19T09:00:00Z",
+  "dateModified": "2026-01-19T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/fr/blog/renovation-salle-de-bain-paris-guide-complet"
+  },
+  "keywords": "rénovation salle de bain Paris, prix salle de bain Paris, douche italienne Paris, carrelage salle de bain, plomberie salle de bain",
+  "articleSection": "Rénovation",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+La salle de bain est devenue bien plus qu'un simple espace fonctionnel. C'est un lieu de bien-être, un refuge quotidien où l'on commence et termine sa journée. Dans les appartements parisiens, où l'espace est compté et les salles de bain souvent vétustes, une rénovation bien menée peut transformer radicalement votre qualité de vie.
+
+Mais rénover une salle de bain à Paris comporte des défis spécifiques : contraintes de plomberie des immeubles anciens, petites surfaces à optimiser, réglementations de copropriété strictes, et bien sûr les prix parisiens. C'est pourquoi une bonne préparation et un accompagnement professionnel font toute la différence.
+
+**Hauss Paris** vous accompagne dans votre projet de rénovation de salle de bain en vous mettant en relation avec des architectes d'intérieur spécialisés. **Transformez votre salle de bain, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Rénovez votre salle de bain</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#prix" className="text-neutral-600 hover:text-neutral-950 transition">1. Prix d'une Rénovation de Salle de Bain à Paris</a></li>
+      <li><a href="#plomberie" className="text-neutral-600 hover:text-neutral-950 transition">2. Les Enjeux de la Plomberie</a></li>
+      <li><a href="#carrelage" className="text-neutral-600 hover:text-neutral-950 transition">3. Carrelage et Revêtements</a></li>
+      <li><a href="#equipements" className="text-neutral-600 hover:text-neutral-950 transition">4. Douche, Baignoire et Équipements</a></li>
+      <li><a href="#petites-surfaces" className="text-neutral-600 hover:text-neutral-950 transition">5. Solutions pour Petites Surfaces</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="prix">Prix d'une Rénovation de Salle de Bain à Paris</h2>
+
+Le budget est souvent la première question. À Paris, les prix sont 15 à 25% plus élevés qu'en province, mais avec une bonne planification, vous pouvez maîtriser votre investissement.
+
+### Fourchettes de Prix par Gamme
+
+<StatList>
+  <StatListItem value="1,500-2,500 €/m²" label="Économique" />
+  <StatListItem value="2,500-3,500 €/m²" label="Milieu de gamme" />
+  <StatListItem value="3,500-5,000+ €/m²" label="Haut de gamme" />
+</StatList>
+
+### Exemple de Budget pour une Salle de Bain de 5m²
+
+#### Rénovation économique : 7,500-12,500€
+
+- Carrelage sol et murs entrée de gamme
+- Meuble vasque simple
+- Douche avec receveur standard
+- Robinetterie basique
+- Pose par artisan
+
+#### Rénovation milieu de gamme : 12,500-17,500€
+
+- Carrelage de qualité (grès cérame, faïence)
+- Meuble vasque design avec rangements
+- Douche italienne ou receveur extra-plat
+- Robinetterie marque reconnue
+- Sèche-serviettes électrique
+- Éclairage LED
+
+#### Rénovation haut de gamme : 17,500-25,000€+
+
+- Carrelage grand format ou matériaux nobles
+- Mobilier sur mesure
+- Douche italienne avec paroi en verre trempé
+- Robinetterie design (Grohe, Hansgrohe, Axor)
+- Double vasque si l'espace le permet
+- Niches encastrées
+- Finitions soignées
+
+### Ce qui Fait Varier le Prix
+
+#### La plomberie
+
+Si les arrivées d'eau et évacuations doivent être déplacées, le budget plomberie peut doubler. Si l'installation est vétuste (canalisations en plomb, tuyaux galvanisés), un remplacement complet est nécessaire.
+
+#### L'électricité
+
+Une mise aux normes électrique (obligatoire si l'installation a plus de 30 ans) ajoute 1000 à 3000€. Les salles de bains sont des pièces à risque qui nécessitent des protections spécifiques (différentiel 30mA, volumes de sécurité).
+
+#### Les équipements
+
+L'écart de prix entre les équipements est considérable. Un meuble vasque peut coûter 300€ ou 3000€. Une robinetterie de 50€ à 800€. Faites vos choix en conscience.
+
+---
+
+<h2 id="plomberie">Les Enjeux de la Plomberie</h2>
+
+La plomberie est le nerf de la guerre dans une rénovation de salle de bain. Dans les immeubles parisiens anciens, elle réserve souvent des surprises.
+
+### L'État des Canalisations Existantes
+
+#### Les canalisations en plomb
+
+Encore présentes dans de nombreux immeubles d'avant 1950, les canalisations en plomb doivent être remplacées. Au-delà du risque sanitaire, elles sont souvent corrodées et limitent le débit.
+
+**Budget remplacement** : 2000 à 5000€ selon la configuration.
+
+#### Les tuyaux galvanisés
+
+Courants dans les années 1950-70, ils sont souvent bouchés par le calcaire parisien. Le débit devient insuffisant et les risques de fuite augmentent.
+
+#### Le PER et le multicouche
+
+Ce sont les standards actuels, souples, durables et faciles à mettre en œuvre. Ils remplacent avantageusement les anciennes installations.
+
+### Les Contraintes d'Évacuation
+
+#### La colonne d'évacuation
+
+Dans les immeubles, l'évacuation se fait vers une colonne commune. Sa position est fixe et conditionne l'emplacement possible des équipements (WC, douche, lavabo).
+
+Déplacer un WC loin de la colonne est techniquement possible mais nécessite une pompe de relevage (bruyante) ou une pente importante dans le sol.
+
+#### La pente d'évacuation
+
+L'eau s'écoule par gravité. Il faut une pente minimale de 1 à 2% (1 à 2cm par mètre) entre l'évacuation de la douche ou du lavabo et la colonne. Dans les planchers anciens peu épais, cette contrainte limite les possibilités.
+
+### La Pression d'Eau
+
+Dans les étages élevés des immeubles parisiens, la pression d'eau peut être insuffisante pour certains équipements (douche pluie XXL, jets de massage). Un diagnostic de pression est recommandé avant de choisir vos équipements.
+
+---
+
+<h2 id="carrelage">Carrelage et Revêtements</h2>
+
+Le carrelage représente une part importante du budget et de l'esthétique finale. Son choix mérite une attention particulière.
+
+### Les Types de Carrelage
+
+#### Le grès cérame
+
+C'est le standard actuel pour les salles de bain. Très résistant, imperméable, disponible dans d'innombrables formats, couleurs et finitions (mat, brillant, structuré). Il peut imiter le bois, la pierre, le béton, le métal...
+
+**Prix** : 30 à 150€/m² selon la qualité et le format.
+
+#### La faïence
+
+Traditionnellement utilisée sur les murs, la faïence est moins résistante que le grès mais offre des possibilités décoratives intéressantes (zelliges, carreaux de métro, motifs).
+
+**Prix** : 20 à 100€/m².
+
+#### Le carrelage grand format
+
+Les formats XXL (60x120, 80x160, 120x120) sont très tendance. Ils agrandissent visuellement l'espace et réduisent le nombre de joints. Attention : leur pose est plus technique et coûteuse.
+
+**Prix pose** : +10 à 20€/m² par rapport au format standard.
+
+#### La pierre naturelle
+
+Marbre, travertin, ardoise... La pierre naturelle apporte un luxe indéniable mais nécessite un traitement hydrofuge et un entretien régulier.
+
+**Prix** : 80 à 300€/m².
+
+### Les Alternatives au Carrelage
+
+#### Le béton ciré
+
+Aspect contemporain et absence de joints. Mais attention : l'application est technique, le prix élevé (150-250€/m² posé), et l'entretien contraignant (cire régulière).
+
+#### Le tadelakt
+
+Enduit traditionnel marocain, imperméable et élégant. Parfait pour une ambiance spa. Application par un artisan spécialisé.
+
+**Prix** : 200 à 400€/m² posé.
+
+#### Les panneaux muraux
+
+Panneaux stratifiés ou en résine qui se posent directement sur le mur existant. Rénovation rapide sans dépose du carrelage existant.
+
+**Prix** : 100 à 250€/m² posé.
+
+### Conseils pour le Choix du Carrelage
+
+- **Carrelage clair pour agrandir** : dans une petite salle de bain, privilégiez les teintes claires qui réfléchissent la lumière.
+- **Grand format = moins de joints** : plus facile à entretenir et visuellement plus spacieux.
+- **Attention aux formats différents sol/mur** : la coordination des joints est complexe, prévoyez un plan de calepinage.
+- **Antidérapant au sol** : un classement R10 ou R11 est recommandé pour éviter les glissades.
+
+---
+
+<h2 id="equipements">Douche, Baignoire et Équipements</h2>
+
+Le choix entre douche et baignoire, puis la sélection des équipements, sont des décisions importantes qui impactent votre confort quotidien.
+
+### Douche ou Baignoire ?
+
+#### Les arguments pour la douche
+
+- **Gain de place** : une douche 90x90 prend moins de place qu'une baignoire
+- **Économie d'eau** : 40 à 60 litres contre 150 à 200 litres pour un bain
+- **Accessibilité** : plus facile d'accès, surtout en vieillissant
+- **Rapidité** : douche express le matin
+- **Tendance** : les douches italiennes sont très recherchées
+
+#### Les arguments pour la baignoire
+
+- **Bien-être** : rien ne remplace un bon bain pour se détendre
+- **Enfants** : indispensable pour les jeunes enfants
+- **Valeur à la revente** : une salle de bain avec baignoire est mieux valorisée
+- **Polyvalence** : on peut aussi se doucher dans une baignoire
+
+#### La solution combinée
+
+La baignoire-douche avec paroi permet d'avoir les deux. Certains modèles avec porte facilitent l'accès.
+
+### La Douche Italienne
+
+La douche à l'italienne (plain-pied, sans receveur surélevé) est le must en 2026. Mais sa réalisation dans un appartement ancien comporte des contraintes.
+
+#### Les solutions techniques
+
+- **Receveur extra-plat** (3-4cm) : le compromis le plus courant. Presque au niveau du sol, facile à installer.
+- **Receveur à carreler** : la vraie douche italienne avec carrelage continu. Nécessite une étanchéité parfaite (SPEC).
+- **Caniveau de douche** : évacuation linéaire le long d'un mur, très design.
+
+#### L'étanchéité : point critique
+
+Une douche italienne mal étanchéifiée peut causer des dégâts considérables (infiltrations chez le voisin du dessous). L'application d'un Système de Protection à l'Eau sous Carrelage (SPEC) est indispensable.
+
+### Les Robinetteries
+
+#### Mitigeur ou mélangeur ?
+
+Le mitigeur (une seule manette) est le standard. Plus pratique, plus économe en eau, plus sûr (pas de risque de brûlure).
+
+#### Robinetterie thermostatique
+
+Elle maintient une température constante malgré les variations de pression. Confort et sécurité optimaux, surtout avec des enfants.
+
+**Prix** : 200 à 600€ pour un ensemble de douche thermostatique de qualité.
+
+#### Les marques de référence
+
+- **Grohe** : excellent rapport qualité-prix, garantie 5 ans
+- **Hansgrohe** : design et qualité allemande
+- **Axor** : haut de gamme design (by Hansgrohe)
+- **Jacob Delafon** : valeur sûre française
+- **Roca** : qualité espagnole à prix accessible
+
+---
+
+<h2 id="petites-surfaces">Solutions pour Petites Surfaces</h2>
+
+Les salles de bain parisiennes sont souvent petites (3 à 5m² en moyenne). Chaque centimètre doit être optimisé.
+
+### Astuces d'Agencement
+
+#### Remplacer la baignoire par une douche
+
+Un gain de 0,5 à 1m² immédiat. Une douche 80x120 est plus spacieuse qu'une baignoire tout en prenant moins de place.
+
+#### Mobilier suspendu
+
+Un meuble vasque suspendu laisse voir le sol et agrandit visuellement l'espace. De plus, le nettoyage est facilité.
+
+#### WC suspendu
+
+Le WC suspendu avec bâti-support encastré libère de la place au sol et facilite le nettoyage. Le réservoir est caché dans le mur.
+
+#### Porte coulissante
+
+Une porte battante nécessite un dégagement de 0,5m² pour s'ouvrir. Une porte coulissante (à galandage ou en applique) supprime cette contrainte.
+
+### Maximiser le Rangement
+
+#### Meuble vasque avec rangements
+
+Privilégiez un meuble avec tiroirs plutôt qu'un lavabo sur colonne. Vous gagnez un volume de rangement précieux.
+
+#### Colonne de rangement
+
+Une colonne de 30cm de large du sol au plafond offre un volume de rangement considérable sans encombrer.
+
+#### Niches encastrées
+
+Dans la douche ou au-dessus du lavabo, les niches encastrées dans le mur (créées lors de la rénovation) offrent du rangement sans empiéter sur l'espace.
+
+#### Miroir avec rangement
+
+Une armoire de toilette (miroir avec rangement derrière) est plus utile qu'un simple miroir.
+
+### Agrandir Visuellement
+
+#### Grand miroir
+
+Un miroir qui occupe tout le mur au-dessus du lavabo double visuellement l'espace.
+
+#### Carrelage grand format clair
+
+Moins de joints = espace plus fluide. Les teintes claires réfléchissent la lumière.
+
+#### Paroi de douche transparente
+
+Une paroi en verre transparent plutôt qu'opaque laisse passer le regard et agrandit la pièce.
+
+#### Continuité sol/mur
+
+Le même carrelage au sol et sur les murs crée une continuité visuelle agrandissante.
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Quel est le prix d'une rénovation complète de salle de bain à Paris ?
+
+Le prix d'une rénovation complète de salle de bain à Paris varie de **8000 à 25000€** pour une surface de 4 à 6m², selon les finitions et équipements choisis. En fourchette au m² : rénovation économique 1500-2500€/m², milieu de gamme 2500-3500€/m², haut de gamme 3500-5000€/m². Ces prix incluent la dépose de l'existant, la plomberie, l'électricité, le carrelage, les sanitaires et la main-d'œuvre. Prévoyez une marge de 10-15% pour les imprévus, fréquents dans l'ancien.
+
+### Peut-on installer une douche italienne dans un appartement ancien à Paris ?
+
+Oui, mais avec des contraintes techniques. La douche italienne nécessite un receveur extra-plat ou une pente au sol pour l'évacuation vers la colonne. Dans les appartements anciens, l'épaisseur du plancher peut être insuffisante pour créer cette pente. **Solutions** : receveur extra-plat (3-4cm) légèrement surélevé, ou création d'une estrade intégrant l'évacuation. L'étanchéité (SPEC) est cruciale pour éviter les infiltrations. Un plombier expérimenté dans la rénovation parisienne est indispensable.
+
+### Combien de temps dure une rénovation de salle de bain ?
+
+Une rénovation complète de salle de bain dure généralement **2 à 4 semaines** de travaux effectifs : 2-3 jours de dépose et évacuation, 3-5 jours de plomberie et électricité, 4-7 jours de carrelage (avec temps de séchage), 2-3 jours de pose des sanitaires et finitions. À cela s'ajoutent les délais de séchage incompressibles (mortier, joints, étanchéité) et les éventuels délais de livraison des équipements (4 à 8 semaines pour certains produits). Prévoyez donc 5 à 8 semaines au total entre le lancement et l'utilisation.
+
+### Comment optimiser une petite salle de bain parisienne ?
+
+Pour optimiser une petite salle de bain : **remplacez la baignoire par une douche** pour gagner de l'espace au sol, **installez un meuble vasque suspendu** (sol visible = espace agrandi), **optez pour un grand miroir** qui double visuellement l'espace, **choisissez du carrelage grand format et clair** (moins de joints, plus de lumière), **privilégiez les rangements verticaux** (colonne, niches encastrées), et **installez une porte coulissante** qui ne nécessite pas de dégagement. Un architecte d'intérieur peut créer des solutions sur mesure adaptées à votre configuration.
+
+---
+
+## Transformez Votre Salle de Bain en Espace de Bien-Être
+
+Rénover une salle de bain à Paris est un projet qui demande expertise et anticipation. Entre les contraintes de plomberie des immeubles anciens, les petites surfaces à optimiser et les multiples choix techniques et esthétiques, l'accompagnement d'un professionnel fait toute la différence.
+
+Un architecte d'intérieur spécialisé conçoit l'agencement optimal, sélectionne les bons équipements, coordonne les artisans et garantit une réalisation parfaite. Votre salle de bain devient un véritable espace de bien-être, fonctionnel et élégant.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur experts en rénovation de salle de bain à Paris. **Imaginez votre nouvelle salle de bain, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

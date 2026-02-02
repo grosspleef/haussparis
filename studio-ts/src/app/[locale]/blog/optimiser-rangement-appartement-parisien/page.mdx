@@ -1,0 +1,465 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-22',
+  title: 'Optimiser le Rangement dans un Appartement Parisien',
+  description: 'Découvrez toutes les solutions pour optimiser le rangement dans votre appartement parisien : placards sur mesure, mezzanines, meubles multifonctions et astuces d\'architectes pour gagner de l\'espace.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Optimiser le Rangement Appartement Parisien : Guide 2026',
+  description: 'Découvrez toutes les solutions pour optimiser le rangement dans votre appartement parisien : placards sur mesure, mezzanines, meubles multifonctions et astuces d\'architectes.',
+  keywords: [
+    'rangement appartement Paris',
+    'optimisation espace',
+    'placards sur mesure',
+    'dressing Paris',
+    'mezzanine appartement',
+    'rangement petit appartement',
+    'architecte rangement Paris',
+    'gain de place',
+    'aménagement studio Paris',
+    'solutions rangement'
+  ],
+  openGraph: {
+    title: 'Optimiser le Rangement dans un Appartement Parisien | Hauss Paris',
+    description: 'Découvrez toutes les solutions pour optimiser le rangement dans votre appartement parisien : placards sur mesure, mezzanines, meubles multifonctions.',
+    type: 'article',
+    publishedTime: '2026-01-22T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/optimiser-rangement-appartement-parisien/rangement-appartement-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Optimisation du rangement dans un appartement parisien',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/optimiser-rangement-appartement-parisien',
+    languages: {
+      'fr': '/fr/blog/optimiser-rangement-appartement-parisien',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quel est le prix d'un dressing sur mesure à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le prix d'un dressing sur mesure à Paris varie de 500 à 2000€ par mètre linéaire selon les finitions. Un dressing de 3 mètres linéaires coûte donc entre 1500 et 6000€ pose comprise. Les enseignes comme Schmidt, Lapeyre ou les cuisinistes proposent du semi sur-mesure moins cher (400-800€/ml), tandis qu'un menuisier artisan propose du vrai sur-mesure (800-2000€/ml)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on créer une mezzanine dans un appartement haussmannien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, les appartements haussmanniens sont idéaux pour les mezzanines grâce à leurs hauts plafonds (souvent 3,20m). Pour être confortable, une mezzanine nécessite minimum 1,80m de hauteur en dessous et 1,20m au-dessus (pour s'asseoir dans un lit). Budget : 8000 à 25000€ selon la surface et les finitions. L'autorisation de la copropriété n'est généralement pas nécessaire car c'est un aménagement intérieur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment optimiser le rangement dans un studio à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dans un studio, exploitez la hauteur avec des meubles jusqu'au plafond et éventuellement une mezzanine. Choisissez des meubles multifonctions : lit avec tiroirs, canapé-lit, table pliante. Utilisez les espaces perdus : sous l'escalier, au-dessus des portes, sous les fenêtres. Un dressing d'entrée sur mesure remplace avantageusement une armoire. Enfin, désencombrez régulièrement : dans un petit espace, chaque objet doit mériter sa place."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il une autorisation pour installer des rangements sur mesure ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non, l'installation de rangements sur mesure (placards, dressings, étagères) ne nécessite aucune autorisation car il s'agit d'aménagements intérieurs qui ne touchent pas à la structure ni aux parties communes. Seule exception : si vous souhaitez créer une mezzanine avec modification de la structure (percement de poutres), une étude peut être nécessaire."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Optimiser le Rangement dans un Appartement Parisien",
+  "description": "Découvrez toutes les solutions pour optimiser le rangement dans votre appartement parisien.",
+  "image": "https://haussparis.com/blog/optimiser-rangement-appartement-parisien/rangement-appartement-hero.jpg",
+  "datePublished": "2026-01-22T09:00:00Z",
+  "dateModified": "2026-01-22T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/fr/blog/optimiser-rangement-appartement-parisien"
+  },
+  "keywords": "rangement appartement Paris, optimisation espace, placards sur mesure, dressing Paris, mezzanine appartement",
+  "articleSection": "Aménagement",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+À Paris, le mètre carré est précieux. Avec un prix moyen dépassant les 10 000€/m² dans de nombreux arrondissements, chaque centimètre de rangement compte. Pourtant, de nombreux appartements parisiens regorgent d'espaces perdus : hauteurs sous plafond inexploitées, recoins inutilisés, couloirs trop larges, espaces sous escalier vides.
+
+L'optimisation du rangement n'est pas qu'une question d'organisation : c'est un véritable projet d'aménagement qui peut transformer votre quotidien. Un appartement bien rangé paraît plus grand, plus serein, plus agréable à vivre. Pour découvrir d'autres techniques permettant d'[agrandir visuellement un petit appartement](/fr/blog/comment-agrandir-visuellement-petit-appartement), consultez notre guide dédié. Et contrairement aux idées reçues, il n'est pas nécessaire de sacrifier l'esthétique pour gagner en fonctionnalité.
+
+**Hauss Paris** vous accompagne dans l'optimisation de votre appartement en vous mettant en relation avec des architectes d'intérieur spécialisés dans les espaces parisiens. **Gagnez en espace et en sérénité, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Optimisez votre appartement</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#sur-mesure" className="text-neutral-600 hover:text-neutral-950 transition">1. Les Placards et Dressings Sur Mesure</a></li>
+      <li><a href="#hauteur" className="text-neutral-600 hover:text-neutral-950 transition">2. Exploiter la Hauteur Sous Plafond</a></li>
+      <li><a href="#espaces-perdus" className="text-neutral-600 hover:text-neutral-950 transition">3. Transformer les Espaces Perdus</a></li>
+      <li><a href="#meubles" className="text-neutral-600 hover:text-neutral-950 transition">4. Le Mobilier Multifonction</a></li>
+      <li><a href="#piece-par-piece" className="text-neutral-600 hover:text-neutral-950 transition">5. Solutions Pièce par Pièce</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="sur-mesure">Les Placards et Dressings Sur Mesure</h2>
+
+Dans un appartement parisien aux formes souvent atypiques (poutres apparentes, murs en biais, recoins), le mobilier standard laisse inévitablement des espaces perdus. Le sur-mesure est la solution pour exploiter chaque centimètre. Notre service d'[aménagement sur mesure](/fr/services/amenagement-sur-mesure) vous accompagne dans la conception de solutions parfaitement adaptées à votre espace.
+
+### Pourquoi Choisir le Sur-Mesure
+
+#### S'adapter aux contraintes
+
+Les appartements parisiens, notamment haussmanniens, présentent souvent des particularités : plafonds hauts mais irréguliers, alcôves, cheminées condamnées, poutres, angles biscornus. Un placard sur mesure s'adapte parfaitement à ces contraintes là où un meuble standard laisserait des vides.
+
+#### Maximiser le volume de rangement
+
+Un dressing sur mesure qui monte jusqu'au plafond offre 30 à 50% de volume de rangement supplémentaire par rapport à une armoire standard de 2,20m de haut. Dans un appartement avec des plafonds de 2,80m ou 3,20m, ce gain est considérable.
+
+#### Personnaliser l'aménagement intérieur
+
+Avec le sur-mesure, vous décidez de l'aménagement intérieur : nombre et hauteur des étagères, tiroirs, penderies, compartiments... Chaque élément est pensé pour vos besoins spécifiques.
+
+### Les Différentes Gammes de Sur-Mesure
+
+#### Le semi sur-mesure (enseignes spécialisées)
+
+Les enseignes comme Schmidt, Lapeyre, Mobalpa ou les cuisinistes proposent du "semi sur-mesure" : des modules standard assemblés sur mesure selon vos dimensions. Le rapport qualité-prix est excellent.
+
+- **Prix** : 400 à 800€ par mètre linéaire, pose comprise
+- **Délai** : 4 à 8 semaines
+- **Avantages** : Prix accessible, large choix de finitions
+- **Limites** : Moins de flexibilité sur les dimensions atypiques
+
+#### Le vrai sur-mesure (menuisier artisan)
+
+Un menuisier artisan conçoit et fabrique vos rangements entièrement sur mesure, pièce par pièce. La qualité est supérieure et l'adaptation aux contraintes parfaite.
+
+- **Prix** : 800 à 2000€ par mètre linéaire selon les finitions
+- **Délai** : 6 à 12 semaines
+- **Avantages** : Qualité artisanale, adaptation parfaite, matériaux nobles
+- **Limites** : Budget plus élevé
+
+### L'Investissement Sur-Mesure : Est-ce Rentable ?
+
+Le sur-mesure représente un investissement, mais il est rentabilisé :
+
+- **Gain de mètres carrés** : En optimisant le rangement, vous libérez de l'espace de vie. À 10 000€/m² parisien, chaque mètre carré gagné a une vraie valeur.
+- **Valorisation à la revente** : Des rangements intégrés et bien conçus sont un atout apprécié des acheteurs.
+- **Confort au quotidien** : Un appartement bien rangé est plus agréable à vivre.
+
+---
+
+<h2 id="hauteur">Exploiter la Hauteur Sous Plafond</h2>
+
+Les appartements parisiens, en particulier les haussmanniens, bénéficient souvent de beaux volumes avec des plafonds hauts (2,70m à 3,50m). Cette hauteur est une ressource précieuse pour le rangement.
+
+### Les Mezzanines de Rangement et de Vie
+
+#### La mezzanine chambre
+
+Dans un studio ou un appartement avec de hauts plafonds, une mezzanine peut accueillir un vrai espace nuit. Vous libérez ainsi la totalité du sol pour le séjour.
+
+**Conditions requises :**
+- Hauteur sous plafond d'au moins 4m pour être confortable (1,80m en dessous + 1,40m au-dessus + 0,20m de structure)
+- Ou 3,40m minimum avec un lit bas et un plafond plus contraint
+- Surface au sol suffisante pour l'escalier d'accès
+
+**Budget** : 8000 à 25000€ selon la surface et les finitions.
+
+#### La mezzanine de rangement
+
+Même avec des plafonds plus modestes (2,80-3,20m), une mezzanine partielle au-dessus d'une entrée, d'un couloir ou d'un dressing crée un espace de stockage considérable pour les objets peu utilisés (valises, décorations saisonnières, archives).
+
+**Budget** : 3000 à 8000€ selon la surface.
+
+### Les Rangements en Hauteur
+
+#### Placards jusqu'au plafond
+
+Des placards qui montent jusqu'au plafond maximisent le volume de rangement. La partie haute (au-dessus de 2m) accueille les objets peu utilisés. Un escabeau design ou une échelle de bibliothèque permettent d'y accéder.
+
+#### Étagères hautes
+
+Dans un séjour ou une chambre, une ligne d'étagères courant tout le long du mur à 2m de hauteur offre un rangement supplémentaire tout en décorant l'espace (livres, objets décoratifs).
+
+#### Le pont de lit
+
+Au-dessus du lit, un pont de rangement (ensemble de meubles hauts formant une arche) crée un cocon tout en offrant un volume de rangement considérable.
+
+---
+
+<h2 id="espaces-perdus">Transformer les Espaces Perdus</h2>
+
+Chaque appartement recèle des espaces perdus qui peuvent être transformés en rangements précieux. L'œil d'un architecte d'intérieur permet de les identifier et de les exploiter.
+
+### L'Espace Sous Escalier
+
+Dans les duplex ou les appartements avec mezzanine, l'espace sous l'escalier est souvent gaspillé. Plusieurs solutions :
+
+#### Des tiroirs coulissants
+
+Des tiroirs sur mesure épousent la forme triangulaire de l'escalier. Chaque marche peut avoir son tiroir, créant un volume de rangement impressionnant.
+
+**Budget** : 2000 à 5000€ pour un aménagement complet.
+
+#### Un placard intégré
+
+Un placard avec portes sur mesure cache un espace de rangement généreux. Parfait pour les manteaux, l'aspirateur, ou même un petit bureau.
+
+#### Une bibliothèque
+
+Des étagères sur mesure transforment cet espace en bibliothèque design.
+
+### L'Entrée et le Couloir
+
+L'entrée est le premier espace de rangement d'un appartement : manteaux, chaussures, sacs, clés... Mais elle est souvent négligée.
+
+#### Le meuble d'entrée sur mesure
+
+Un meuble sur mesure qui combine penderie, rangement à chaussures, tiroirs et banquette d'assise transforme l'entrée en espace fonctionnel.
+
+#### Les couloirs
+
+Les couloirs parisiens sont parfois larges (1,20m ou plus). Un rangement de 30-40cm de profondeur peut courir tout le long sans gêner la circulation, offrant un linéaire de rangement considérable.
+
+### Les Renfoncements et Alcôves
+
+Les appartements anciens comportent souvent des renfoncements, des alcôves ou des espaces créés par la suppression d'une ancienne cheminée. Ces recoins sont parfaits pour :
+
+- Un placard intégré avec portes affleurantes
+- Une bibliothèque encastrée
+- Un petit bureau
+- Un dressing compact
+
+### Au-dessus des Portes
+
+L'espace au-dessus des portes (30 à 80cm selon la hauteur sous plafond) est rarement exploité. Des étagères ou des meubles hauts sur mesure peuvent y être installés, particulièrement dans les couloirs et les chambres.
+
+---
+
+<h2 id="meubles">Le Mobilier Multifonction</h2>
+
+Dans un petit appartement, chaque meuble doit justifier sa présence. Le mobilier multifonction répond à plusieurs besoins en un seul objet.
+
+### Le Lit : Champion du Multifonction
+
+#### Le lit avec tiroirs
+
+Les tiroirs intégrés sous le sommier remplacent avantageusement une commode. Certains modèles offrent jusqu'à 6 grands tiroirs.
+
+**Budget** : 800 à 2500€ pour un lit de qualité avec tiroirs.
+
+#### Le lit coffre
+
+Un sommier relevable dévoile un coffre de la taille du matelas. Le volume de rangement est énorme (environ 1m³ pour un lit 140x190).
+
+**Budget** : 600 à 2000€.
+
+#### Le lit mezzanine
+
+Pour les adultes comme pour les enfants, le lit en hauteur libère tout l'espace au sol : bureau, canapé, dressing...
+
+#### Le lit escamotable
+
+Le lit disparaît dans une armoire pendant la journée, libérant la pièce. Les systèmes modernes sont fiables et confortables.
+
+**Budget** : 2000 à 5000€ pour un système de qualité.
+
+### La Table Multifonction
+
+#### La table extensible
+
+Une table pour 2 au quotidien qui se transforme en table pour 6 ou 8 convives. Indispensable dans un petit appartement où l'on aime recevoir.
+
+#### La table pliante murale
+
+Fixée au mur, elle se déplie pour les repas et disparaît ensuite. Parfaite dans une cuisine étroite.
+
+#### La table console extensible
+
+Une console de 40cm de profondeur se déploie en table de salle à manger. Certains modèles passent de 2 à 12 places.
+
+### Le Canapé Intelligent
+
+#### Le canapé-lit
+
+Incontournable dans un studio ou pour recevoir des invités. Les mécanismes récents (rapido, convertible express) sont confortables au quotidien.
+
+#### Le canapé avec rangement
+
+Des coffres intégrés dans l'assise ou les accoudoirs stockent couettes, plaids et coussins.
+
+---
+
+<h2 id="piece-par-piece">Solutions Pièce par Pièce</h2>
+
+Chaque pièce a ses besoins spécifiques en rangement. Voici les solutions les plus efficaces pour chaque espace.
+
+### La Chambre
+
+La chambre doit rester un espace serein. Les rangements doivent être discrets mais efficaces.
+
+#### Le dressing optimisé
+
+Organisez votre dressing en zones :
+- **Penderie haute** (1,70m) : manteaux, robes longues
+- **Penderie basse** (1m) : chemises, vestes, jupes
+- **Tiroirs** : sous-vêtements, chaussettes, accessoires
+- **Étagères** : pulls, t-shirts pliés
+- **Rangement chaussures** : en bas ou sur des systèmes dédiés
+
+#### La tête de lit avec rangement
+
+Une tête de lit épaisse intègre des niches ou des étagères pour livres, réveil, téléphone. Certains modèles incluent des rangements latéraux qui font office de tables de nuit.
+
+### Le Salon
+
+Le salon doit rester accueillant tout en cachant le désordre quotidien. Notre [service de décoration](/fr/services/decoration) peut vous aider à créer un espace à la fois esthétique et fonctionnel.
+
+#### Le meuble TV multifonction
+
+Un meuble TV bien conçu intègre : rangement pour équipements électroniques, tiroirs pour télécommandes et câbles, étagères pour livres et objets décoratifs, et éventuellement un bar.
+
+#### La bibliothèque sur mesure
+
+Une bibliothèque qui couvre un mur entier crée un effet spectaculaire tout en offrant un rangement considérable. Elle peut intégrer le meuble TV, un espace bureau, et des portes pour cacher certaines zones.
+
+### La Cuisine
+
+La cuisine est la pièce où le rangement est le plus crucial.
+
+#### Exploitation maximale des meubles
+
+- **Tiroirs plutôt que placards** : tout est visible et accessible
+- **Meubles jusqu'au plafond** : la partie haute stocke le petit électroménager peu utilisé
+- **Intérieur de portes** : systèmes pour ranger couvercles, planches à découper
+- **Crédence fonctionnelle** : barres et crochets pour ustensiles
+
+#### Le cellier ou garde-manger
+
+Si l'espace le permet, un cellier dédié stocke les provisions et décharge la cuisine.
+
+### La Salle de Bains
+
+Souvent petite, la salle de bains parisienne doit être astucieusement aménagée.
+
+#### Meuble vasque avec rangement
+
+Privilégiez un meuble vasque avec tiroirs plutôt qu'un lavabo sur colonne. Vous gagnez un volume de rangement précieux.
+
+#### Miroir avec rangement
+
+Une armoire de toilette (miroir avec rangement derrière) stocke médicaments, cosmétiques et produits de beauté.
+
+#### Au-dessus des WC
+
+L'espace au-dessus des toilettes est souvent perdu. Un meuble ou des étagères y trouvent parfaitement leur place.
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Quel est le prix d'un dressing sur mesure à Paris ?
+
+Le prix d'un dressing sur mesure à Paris varie de **500 à 2000€ par mètre linéaire** selon les finitions et le prestataire. Un dressing de 3 mètres linéaires coûte donc entre 1500 et 6000€ pose comprise. Les enseignes comme Schmidt, Lapeyre ou les cuisinistes proposent du semi sur-mesure moins cher (400-800€/ml) avec un excellent rapport qualité-prix. Un menuisier artisan propose du vrai sur-mesure (800-2000€/ml) avec une qualité supérieure et une adaptation parfaite aux contraintes de votre appartement.
+
+### Peut-on créer une mezzanine dans un appartement haussmannien ?
+
+Oui, les appartements haussmanniens sont idéaux pour les mezzanines grâce à leurs hauts plafonds (souvent 3,20m ou plus). Pour être confortable, une mezzanine nécessite minimum **1,80m de hauteur en dessous** (pour circuler debout) et **1,20m au-dessus** (pour s'asseoir dans un lit). Avec des plafonds de 3,50m ou plus, vous pouvez créer une vraie chambre en mezzanine. Budget : 8000 à 25000€ selon la surface et les finitions. L'autorisation de la copropriété n'est généralement pas nécessaire car c'est un aménagement intérieur qui ne touche pas à la structure de l'immeuble.
+
+### Comment optimiser le rangement dans un studio à Paris ?
+
+Dans un studio, chaque astuce compte. **Exploitez la hauteur** avec des meubles jusqu'au plafond et éventuellement une mezzanine pour le couchage. **Choisissez des meubles multifonctions** : lit avec tiroirs ou coffre, canapé-lit de qualité, table pliante ou extensible. **Utilisez les espaces perdus** : au-dessus des portes, sous les fenêtres (banquette coffre), dans l'entrée (meuble sur mesure). Un dressing d'entrée sur mesure remplace avantageusement une armoire volumineuse. Enfin, **désencombrez régulièrement** : dans un petit espace, chaque objet doit mériter sa place.
+
+### Faut-il une autorisation pour installer des rangements sur mesure ?
+
+Non, l'installation de rangements sur mesure (placards, dressings, étagères murales, meubles intégrés) ne nécessite **aucune autorisation** de la copropriété car il s'agit d'aménagements intérieurs qui ne touchent pas à la structure de l'immeuble ni aux parties communes. Vous pouvez installer ces rangements librement. Seule exception : si vous souhaitez créer une mezzanine et que cela nécessite des modifications structurelles (ancrage dans des murs porteurs, percement de poutres), une étude technique peut être nécessaire et l'information de la copropriété recommandée.
+
+---
+
+## Optimisez Chaque Centimètre de Votre Appartement
+
+Le rangement est un élément clé du confort de vie dans un appartement parisien. Bien pensé, il transforme un espace encombré en un intérieur serein et fonctionnel. Placards sur mesure, mezzanines, espaces perdus transformés, mobilier multifonction : les solutions sont nombreuses et peuvent être adaptées à chaque configuration et chaque budget.
+
+Un architecte d'intérieur spécialisé dans les appartements parisiens sait identifier les opportunités de rangement que vous ne voyez pas, concevoir des solutions sur mesure adaptées à vos besoins, et coordonner les artisans pour une réalisation parfaite.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur experts en optimisation d'espace à Paris. **Transformez votre appartement, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

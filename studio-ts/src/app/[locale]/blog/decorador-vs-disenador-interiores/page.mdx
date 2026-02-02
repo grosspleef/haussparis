@@ -1,0 +1,275 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-05',
+  title: 'Diseñador de interiores o decorador: ¿Cuál elegir?',
+  description: '¿Diseñador de interiores o decorador? Misiones, competencias, garantías, tarifas: descubra las verdaderas diferencias para elegir al profesional adecuado para su proyecto.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fundador',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'es',
+}
+
+export const metadata = {
+  title: 'Diseñador de interiores o decorador: ¿Cuál elegir para su proyecto?',
+  description: '¿Diseñador de interiores o decorador? Misiones, competencias, garantías, tarifas: descubra las verdaderas diferencias para elegir al profesional adecuado para su proyecto.',
+  keywords: [
+    'diseñador interiores vs decorador',
+    'diferencia diseñador interiores decorador',
+    'elegir diseñador interiores',
+    'arquitecto de interiores o decorador',
+    'elegir decorador',
+    'misiones diseñador interiores',
+    'misiones decorador',
+    'coste diseñador interiores',
+    'coste decorador',
+    'renovación apartamento París',
+    'decoración interiores París'
+  ],
+  openGraph: {
+    title: 'Diseñador de interiores o decorador: ¿Cuál elegir para su proyecto?',
+    description: '¿Diseñador de interiores o decorador? Misiones, competencias, garantías, tarifas: descubra las verdaderas diferencias para elegir al profesional adecuado para su proyecto.',
+    type: 'article',
+    publishedTime: '2026-01-05T09:00:00Z',
+    authors: ['Hugo Betscher'],
+  },
+  alternates: {
+    canonical: '/es/blog/decorador-vs-disenador-interiores',
+    languages: {
+      'fr': '/fr/blog/decorateur-ou-architecte-interieur',
+      'en': '/en/blog/decorator-vs-interior-designer',
+      'it': '/it/blog/decoratore-vs-architetto-interni',
+      'de': '/de/blog/dekorateur-vs-innenarchitekt',
+      'es': '/es/blog/decorador-vs-disenador-interiores',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Puede un decorador encargarse de una renovación completa?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No se recomienda. Un decorador no está formado ni asegurado para supervisar obras estructurales. Para una renovación que implique la modificación de tabiques, electricidad o fontanería, recurra a un diseñador de interiores que podrá coordinar todos los oficios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es la diferencia de coste entre un decorador y un diseñador de interiores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Los decoradores suelen cobrar por hora (80-200 €) o por día (500-1.500 €). Los diseñadores de interiores cobran a menudo un porcentaje sobre las obras (10-15%) o tarifas fijas más elevadas, pero que incluyen la dirección de obra y garantías superiores."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito un diseñador de interiores para renovar una cocina?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para un simple restyling (pintura, accesorios), un decorador es suficiente. Si la renovación implica modificación de la fontanería, electricidad, o derribar un tabique, un diseñador de interiores garantizará la conformidad técnica y coordinará los oficios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo saber si mi proyecto requiere un diseñador de interiores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Necesita un diseñador de interiores si su proyecto incluye: modificación de tabiques o estructura, trabajos de fontanería o electricidad, redistribución del espacio, renovación completa de un apartamento. Para un proyecto puramente estético sin obras, un decorador puede ser suficiente."
+      }
+    }
+  ]
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+<div className="not-prose mb-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Tabla de contenidos</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#definiciones" className="text-neutral-600 hover:text-neutral-950 transition">1. Definiciones: ¿Quién hace qué?</a></li>
+      <li><a href="#formacion-competencias" className="text-neutral-600 hover:text-neutral-950 transition">2. Formación y competencias</a></li>
+      <li><a href="#misiones" className="text-neutral-600 hover:text-neutral-950 transition">3. Misiones y alcance de intervención</a></li>
+      <li><a href="#garantias-seguros" className="text-neutral-600 hover:text-neutral-950 transition">4. Garantías y seguros</a></li>
+      <li><a href="#tarifas-modos-facturacion" className="text-neutral-600 hover:text-neutral-950 transition">5. Tarifas y modos de facturación</a></li>
+      <li><a href="#que-profesional" className="text-neutral-600 hover:text-neutral-950 transition">6. ¿Qué profesional para qué proyecto?</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">7. FAQ</a></li>
+    </ol>
+  </nav>
+</div>
+
+<h2 id="definiciones">Definiciones: ¿Quién hace qué?</h2>
+
+Cuando se trata de diseño de interiores, **la confusión entre decorador y diseñador de interiores es frecuente**. Estos dos profesionales intervienen en el embellecimiento de sus espacios de vida, pero sus competencias, formaciones y ámbitos de intervención difieren significativamente.
+
+El **decorador** (o decorador de interiores) se concentra en los aspectos estéticos del espacio: elección de colores, mobiliario, telas, iluminación, accesorios. Su objetivo es crear una atmósfera armoniosa y agradable que refleje la personalidad del cliente. No interviene en la estructura del espacio.
+
+El **diseñador de interiores**, él, va más allá. Diseña y remodela los espacios de vida integrando tanto la estética como las restricciones técnicas, funcionales y reglamentarias. Puede modificar los volúmenes, repensar la distribución, supervisar las obras y coordinar los diferentes oficios.
+
+---
+
+<h2 id="formacion-competencias">Formación y competencias</h2>
+
+<h3>La formación del decorador</h3>
+
+La profesión de decorador no está regulada en Francia. No existe diploma obligatorio para ejercer. Sin embargo, muchos decoradores han seguido formaciones especializadas: BTS de diseño de espacio, escuelas privadas de decoración, formaciones cortas o reconversiones profesionales.
+
+Las competencias de un decorador se centran en: la armonía de colores, el conocimiento de materiales y textiles, el asesoramiento en mobiliario, la creación de paneles de tendencias y la capacidad de proponer una dirección artística coherente.
+
+<h3>La formación del diseñador de interiores</h3>
+
+El diseñador de interiores posee una formación mucho más completa. **El título de diseñador de interiores CFAI requiere 5 años de estudios en una escuela reconocida** (ENSAD, Camondo, Boulle, Penninghen...) o una validación de experiencia profesional.
+
+Sus competencias abarcan: la lectura e interpretación de planos técnicos, el conocimiento de las normas de construcción, la capacidad de modificar los volúmenes, la coordinación de los oficios y la dirección de obra. Domina los aspectos técnicos (electricidad, fontanería, estructuras) además de los aspectos estéticos.
+
+---
+
+<h2 id="misiones">Misiones y alcance de intervención</h2>
+
+<h3>Las misiones del decorador</h3>
+
+Un decorador interviene principalmente en proyectos que no implican obras importantes. Sus misiones típicas incluyen:
+
+- Asesoramiento en la elección de colores de las paredes
+- Selección de mobiliario y accesorios decorativos
+- Propuesta de iluminación y ambientes
+- Elección de telas, cortinas, alfombras
+- Creación de paneles de tendencias e inspiraciones
+- Personal shopping deco
+
+El decorador trabaja con lo existente. No modifica la estructura ni la distribución del espacio. Su intervención se sitúa generalmente en un presupuesto más contenido, para un impacto principalmente visual.
+
+<h3>Las misiones del diseñador de interiores</h3>
+
+El diseñador de interiores puede asumir misiones mucho más amplias:
+
+- Estudio de viabilidad y diagnóstico del espacio existente
+- Diseño de planos técnicos y perspectivas 3D
+- Modificación de tabiques y redistribución del espacio
+- Redacción de pliegos de condiciones para las obras
+- Selección y coordinación de los artesanos
+- Dirección de obra completa
+- Recepción de las obras
+
+Puede igualmente integrar todas las misiones de un decorador, añadiéndoles la dimensión técnica y la coordinación de las obras.
+
+---
+
+<h2 id="garantias-seguros">Garantías y seguros</h2>
+
+<h3>Las garantías del decorador</h3>
+
+Un decorador no está obligado a suscribir un seguro de garantía decenal, ya que no interviene en obras estructurales. Sin embargo, debe tener un seguro de responsabilidad civil profesional que cubra los eventuales daños causados durante su intervención (deterioro de muebles, errores de asesoramiento).
+
+**El seguro de un decorador no le protege en caso de defectos en las obras**, ya que no está habilitado para supervisarlas. Si le confía trabajos más allá de sus competencias, no estará cubierto.
+
+<h3>Las garantías del diseñador de interiores</h3>
+
+El diseñador de interiores que realiza misiones de dirección de obra está obligado a suscribir:
+
+- Un **seguro de garantía decenal**, que le protege durante 10 años contra los defectos estructurales
+- Un **seguro de responsabilidad civil profesional**, que cubre los errores de diseño o de supervisión
+
+Estas garantías, impuestas por la Ley Spinetta, son esenciales para cualquier proyecto de renovación. **Pida siempre los certificados de seguro antes de firmar un contrato.**
+
+---
+
+<h2 id="tarifas-modos-facturacion">Tarifas y modos de facturación</h2>
+
+<h3>Las tarifas de un decorador</h3>
+
+Los decoradores facturan generalmente de las siguientes maneras:
+
+- **Tarifa horaria**: de 80 € a 200 € la hora
+- **Tarifa por día**: de 500 € a 1.500 € según la experiencia
+- **Paquete de asesoramiento**: de algunos cientos a varios miles de euros
+- **Comisión**: porcentaje sobre las compras realizadas para el cliente
+
+Para un proyecto de decoración de un salón, cuente entre 1.000 € y 5.000 € según la amplitud de la intervención y la notoriedad del decorador.
+
+<h3>Las tarifas de un diseñador de interiores</h3>
+
+Los diseñadores de interiores practican generalmente:
+
+- **Porcentaje sobre las obras**: de 10% a 15% del coste HT de los trabajos
+- **Tarifa fija por m²**: de 100 € a 200 € /m² para una misión completa
+- **Tarifa horaria**: de 100 € a 250 € la hora para el asesoramiento
+
+Para una renovación de apartamento de 80 m² en París con obras estimadas en 100.000 €, los honorarios de un diseñador de interiores se situarán típicamente entre 10.000 € y 15.000 €.
+
+---
+
+<h2 id="que-profesional">¿Qué profesional para qué proyecto?</h2>
+
+<h3>Elija un decorador si...</h3>
+
+- Desea refrescar su interior sin obras
+- Su proyecto se limita a la elección de mobiliario y colores
+- No prevé ninguna modificación de tabiques o instalaciones técnicas
+- Su presupuesto es limitado
+- Busca asesoramiento puntual
+
+<h3>Elija un diseñador de interiores si...</h3>
+
+- Su proyecto implica derribar o crear tabiques
+- Desea modificar la distribución del espacio
+- Hay obras de electricidad, fontanería o calefacción previstas
+- Necesita coordinar varios artesanos
+- Desea una recepción de las obras con garantías
+- La renovación es completa o importante
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/es/contacto">Permítanos encontrar el profesional adecuado para su proyecto</Button>
+</div>
+
+---
+
+<h2 id="faq">FAQ: Sus preguntas sobre decoradores y diseñadores de interiores</h2>
+
+<h3>¿Puede un decorador encargarse de una renovación completa?</h3>
+
+**No se recomienda.** Un decorador no está formado ni asegurado para supervisar obras estructurales (modificación de tabiques, electricidad, fontanería). Para una renovación que implique estos aspectos, recurra a un diseñador de interiores que podrá coordinar todos los oficios y garantizar la conformidad de las obras.
+
+<h3>¿Cuál es la diferencia de coste entre un decorador y un diseñador de interiores?</h3>
+
+Los decoradores suelen cobrar por hora (80-200 €) o por día (500-1.500 €), lo que puede resultar más económico para proyectos limitados. Los diseñadores de interiores cobran a menudo un porcentaje sobre las obras (10-15%) o tarifas fijas más elevadas, pero estas tarifas incluyen la dirección de obra, la coordinación de los oficios y las garantías de seguro. **A escala de un proyecto de renovación completo, las dos opciones pueden resultar equivalentes en precio.**
+
+<h3>¿Necesito un diseñador de interiores para renovar una cocina?</h3>
+
+Depende del alcance del proyecto. Para un simple restyling (cambio de las puertas de los muebles, pintura, cambio de accesorios), un decorador puede ser suficiente. Si la renovación implica modificación de la fontanería, de la electricidad, o derribar un tabique, un diseñador de interiores garantizará la conformidad técnica y coordinará los diferentes oficios.
+
+<h3>¿Cómo saber si mi proyecto requiere un diseñador de interiores?</h3>
+
+Necesita un diseñador de interiores si su proyecto incluye:
+- Modificación de tabiques o de la estructura
+- Trabajos de fontanería o de electricidad
+- Redistribución del espacio
+- Renovación completa de un apartamento
+
+Para un proyecto puramente estético sin obras técnicas, un decorador puede ser suficiente. En caso de duda, una primera consulta con un diseñador de interiores le permitirá evaluar las necesidades reales de su proyecto.
+
+---
+
+*Fuentes: CFAI (Consejo Francés de Arquitectos de Interiores), Ley Spinetta 1978, Código Civil francés*
+
+    </div>
+  </FadeIn>
+</Container>
+

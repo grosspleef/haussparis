@@ -1,0 +1,525 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import { StatList, StatListItem } from '@/components/StatList'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-20',
+  title: 'Wohnungsrenovierung Paris: Kompletter Leitfaden 2026',
+  description: 'Erfahren Sie alles, was Sie wissen müssen, um eine Wohnung in Paris zu renovieren: Preis pro m², Renovierungsarten, Fristen, Verwaltungsverfahren, Haussmann-Besonderheiten und 7 Schlüsselphasen des Projekts.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Gründer',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'de',
+}
+
+export const metadata = {
+  title: 'Wohnungsrenovierung Paris: Finden Sie Ihren Architekten',
+  description: 'Erfahren Sie alles, was Sie wissen müssen, um eine Wohnung in Paris zu renovieren: Preis pro m², Renovierungsarten, Fristen, Verwaltungsverfahren, Haussmann-Besonderheiten und 7 Schlüsselphasen des Projekts.',
+  keywords: [
+    'Wohnungsrenovierung Paris',
+    'Innenarchitekt Paris',
+    'Renovierung Preis Paris',
+    'Haussmann Renovierung',
+    'Architekt Paris',
+    'Wohnung Arbeiten Paris',
+    'Renovierung Budget Paris',
+    'Komplettrenovierung Paris',
+    'Eigentümergemeinschaft Paris Arbeiten',
+    'Architekt Renovierung Paris'
+  ],
+  openGraph: {
+    title: 'Wohnungsrenovierung Paris: Kompletter Leitfaden 2026 | Hauss Paris',
+    description: 'Erfahren Sie alles, was Sie wissen müssen, um eine Wohnung in Paris zu renovieren: Preis pro m², Renovierungsarten, Fristen, Verwaltungsverfahren, Haussmann-Besonderheiten und 7 Schlüsselphasen des Projekts.',
+    type: 'article',
+    publishedTime: '2026-01-20T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/renovation-appartement-paris-guide-complet/renovation-appartement-paris-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Wohnungsrenovierung Paris - Kompletter Leitfaden',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/de/blog/wohnungsrenovierung-paris-kompletter-leitfaden',
+    languages: {
+      'fr': '/fr/blog/renovation-appartement-paris-guide-complet',
+      'en': '/en/blog/apartment-renovation-paris-complete-guide',
+      'es': '/es/blog/renovacion-apartamento-paris-guia-completa',
+      'de': '/de/blog/wohnungsrenovierung-paris-kompletter-leitfaden',
+      'it': '/it/blog/ristrutturazione-appartamento-parigi-guida-completa',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Brauche ich einen Architekten, um meine Wohnung in Paris zu renovieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein Innenarchitekt ist für einfache Arbeiten (Streichen, Bodenbelag wechseln) nicht gesetzlich vorgeschrieben, wird aber unverzichtbar, sobald Sie die Raumaufteilung ändern, eine Küche oder ein Bad komplett renovieren, an Elektro- oder Sanitärinstallationen arbeiten oder mehr als 30.000€ in Ihre Renovierung investieren. Er optimiert Ihr Budget (Einsparungen von 20-30%), vermeidet kostspielige Fehler und garantiert ein professionelles Ergebnis, das Ihre Immobilie um 15 bis 30% aufwertet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie lange dauert eine Wohnungsrenovierung in Paris?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Dauer hängt vom Umfang ab: Leichte Renovierung 2-4 Wochen, Teilrenovierung 1-3 Monate, Komplettrenovierung 3-6 Monate, Umfassende Renovierung 6-12 Monate. Hinzu kommen Verwaltungsverfahren (Genehmigung der Eigentümergemeinschaft, Bauanzeige), die je nach Komplexität 2 bis 8 zusätzliche Wochen dauern."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann ich meine Wohnung in Paris ohne Genehmigung renovieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein, die Genehmigung der Eigentümergemeinschaft ist IMMER obligatorisch, auch für kleinere Arbeiten. Eine Renovierung ohne Genehmigung setzt Sie aus: Mahnung der Verwaltung, Gerichtsverfahren der Eigentümergemeinschaft, Verpflichtung zur Wiederherstellung auf Ihre Kosten und Schwierigkeiten beim späteren Verkauf."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was kostet eine Komplettrenovierung einer 50m² Wohnung in Paris?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Für eine Komplettrenovierung einer 50m² Wohnung in Paris rechnen Sie mit 60.000€ bis 125.000€ je nach Ausstattungsniveau, also 1.200 bis 2.500€ pro m². Wichtige Variablen sind: Ausgangszustand, Gebäudetyp (Haussmann teurer), Ausstattungsniveau (IKEA vs. Hochwertig) und Zugangsbeschränkungen."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Wohnungsrenovierung Paris: Kompletter Leitfaden 2026",
+  "description": "Erfahren Sie alles, was Sie wissen müssen, um eine Wohnung in Paris zu renovieren: Preis pro m², Renovierungsarten, Fristen, Verwaltungsverfahren, Haussmann-Besonderheiten und 7 Schlüsselphasen des Projekts.",
+  "image": "https://haussparis.com/blog/renovation-appartement-paris-guide-complet/renovation-appartement-paris-hero.jpg",
+  "datePublished": "2026-01-20T09:00:00Z",
+  "dateModified": "2026-01-20T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Gründer",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/de/blog/wohnungsrenovierung-paris-kompletter-leitfaden"
+  },
+  "keywords": "Wohnungsrenovierung Paris, Innenarchitekt Paris, Renovierung Preis Paris, Haussmann Renovierung, Architekt Paris, Wohnung Arbeiten Paris, Renovierung Budget Paris, Komplettrenovierung Paris, Eigentümergemeinschaft Paris Arbeiten, Architekt Renovierung Paris",
+  "articleSection": "Renovierung",
+  "inLanguage": "de-DE"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Einführung
+
+Die Renovierung einer Wohnung in Paris kann schnell zum Kopfzerbrechen werden: den richtigen Innenarchitekten finden, Verwaltungsverfahren mit der Eigentümergemeinschaft managen, das Budget einhalten ohne auf Qualität zu verzichten... Sie träumen davon, Ihren Raum zu verwandeln, wissen aber nicht, wo Sie anfangen sollen?
+
+Zwischen den spezifischen Einschränkungen der Pariser Gebäude, den strengen Hausordnungen und der Schwierigkeit, schnell einen vertrauenswürdigen Profi zu finden, verdient Ihr Wohnungsrenovierungsprojekt in Paris die Begleitung durch den richtigen Experten.
+
+**Hauss Paris** vereinfacht diese Suche: Wir bringen Sie mit ausgewählten Innenarchitekten zusammen, die auf Renovierungen in Paris spezialisiert sind. Personalisiertes Matching nach Ihrem Stil, Budget und Projekttyp. **Sie finden Ihren idealen Architekten, kostenlos und unverbindlich.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Finden Sie Ihren Architekten</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Beschreiben Sie Ihr Projekt • Kostenlos und unverbindlich
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Inhaltsverzeichnis</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#warum-renovieren" className="text-neutral-600 hover:text-neutral-950 transition">1. Warum Ihre Wohnung in Paris 2026 Renovieren?</a></li>
+      <li><a href="#renovierungsart" className="text-neutral-600 hover:text-neutral-950 transition">2. Welche Renovierungsart für Ihre Pariser Wohnung?</a></li>
+      <li><a href="#kosten-renovierung" className="text-neutral-600 hover:text-neutral-950 transition">3. Was kostet eine Wohnungsrenovierung in Paris 2026?</a></li>
+      <li><a href="#schluesselphasen" className="text-neutral-600 hover:text-neutral-950 transition">4. Wohnungsrenovierung Paris: Die 7 Schlüsselphasen</a></li>
+      <li><a href="#paris-besonderheiten" className="text-neutral-600 hover:text-neutral-950 transition">5. Die Besonderheiten einer Wohnungsrenovierung in Paris</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Häufig gestellte Fragen zur Wohnungsrenovierung in Paris</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="warum-renovieren">Warum Ihre Wohnung in Paris 2026 Renovieren?</h2>
+
+Die Renovierung einer Pariser Wohnung ist viel mehr als eine einfache ästhetische Auffrischung. Es ist eine strategische Investition, die Ihren Alltag verändert und Ihr Vermögen aufwertet.
+
+### Ihr Immobilienvermögen Aufwerten
+
+Der Pariser Immobilienmarkt ist einer der dynamischsten in Europa, und Käufer suchen schlüsselfertige Immobilien. Eine geschmackvoll renovierte Wohnung verkauft sich im Durchschnitt **20 bis 30% teurer** als eine renovierungsbedürftige Immobilie gleicher Fläche. Noch mehr: Sie verkauft sich **zweimal schneller**: 45 Tage gegenüber 90 Tagen im Durchschnitt für eine renovierungsbedürftige Immobilie.
+
+Wenn Sie Ihre Immobilie vermieten, ermöglicht eine sorgfältige Renovierung, Ihre Miete um 15 bis 25% zu erhöhen und gleichzeitig stabilere und zahlungsfähigere Mieter anzuziehen. In gefragten Arrondissements wie dem 16., 7. oder dem Marais kann dieser Mehrwert mehrere hundert Euro pro Monat bedeuten.
+
+### Ihren Wohnkomfort im Alltag Verbessern
+
+In Paris zählt jeder Quadratmeter. Eine durchdachte Renovierung optimiert Ihre Räume und verwandelt Ihre Wohnung in einen funktionalen und angenehmen Lebensraum. Modernisieren Sie Ihre Küche, um einen gemütlichen Raum zu schaffen, renovieren Sie Ihr Bad komplett für mehr Komfort, oder installieren Sie eine effektive Schalldämmung in Ihrem Schlafzimmer: So viele kleine Details, die Ihren Alltag radikal verändern.
+
+Alte Pariser Gebäude, insbesondere Haussmann-Gebäude, leiden oft unter unzureichender Wärme- und Schalldämmung. Eine energetische Sanierung kann Ihre Heizkosten um 40 bis 60% reduzieren und gleichzeitig Ihren Komfort erheblich verbessern.
+
+### Ihre Wohnung an Ihre Bedürfnisse Anpassen
+
+Ihr Leben entwickelt sich, und Ihre Wohnung sollte folgen. Familie wird größer? Dringender Bedarf an einem Homeoffice? Wunsch nach einem maßgeschneiderten Ankleidezimmer oder zusätzlichen Schlafzimmer? Die Renovierung ermöglicht es Ihnen, Ihren Raum perfekt an Ihren aktuellen Lebensstil anzupassen.
+
+Viele Pariser nutzen auch den Kauf einer renovierungsbedürftigen Immobilie, um zu einem günstigeren Preis in den Immobilienmarkt einzusteigen. Eine renovierungsbedürftige Wohnung kostet 15 bis 25% weniger, und nach der Renovierung haben Sie eine neue Immobilie, die perfekt auf Ihren Geschmack abgestimmt ist.
+
+---
+
+<h2 id="renovierungsart">Welche Renovierungsart für Ihre Pariser Wohnung?</h2>
+
+Nicht alle Renovierungen sind gleich. Je nach Zustand Ihrer Wohnung, Ihrem Budget und Ihren Ambitionen bieten sich verschiedene Optionen an. Hier erfahren Sie, wie Sie sich orientieren können.
+
+### Leichte Renovierung: Die Express-Auffrischung
+
+**Was beinhaltet sie?** Sie behalten die bestehende Raumaufteilung bei und konzentrieren sich auf den ästhetischen Aspekt: neuer Anstrich, Austausch der Bodenbeläge (Parkett, Fliesen), Austausch der Leuchten und Türgriffe. Das ist die "Auffrischung", die Ihrer Wohnung neuen Glanz verleiht.
+
+<StatList>
+  <StatListItem value="200-500 €/m²" label="Budget" />
+  <StatListItem value="2-4 Wochen" label="Dauer" />
+  <StatListItem value="Optional" label="Architekt" />
+</StatList>
+
+**Ideal für:** Vorbereitung einer Vermietung, Auffrischung einer bereits funktionalen Wohnung oder Investition mit begrenztem Budget.
+
+### Teilrenovierung: Die Schlüsselräume Modernisieren
+
+**Was beinhaltet sie?** Sie renovieren ein oder zwei strategische Räume komplett, in der Regel Küche und Bad, während Sie den Rest der Wohnung auffrischen. Die Elektro- und Sanitärinstallationen dieser Räume werden komplett erneuert.
+
+<StatList>
+  <StatListItem value="500-1.200 €/m²" label="Budget" />
+  <StatListItem value="1-3 Monate" label="Dauer" />
+  <StatListItem value="Empfohlen" label="Architekt" />
+</StatList>
+
+**Ideal für:** Modernisierung einer Wohnung aus den 80er-90er Jahren, deren Raumaufteilung Ihnen grundsätzlich zusagt.
+
+### Komplettrenovierung: Alles Neu Machen
+
+**Was beinhaltet sie?** Sie entkernen die Wohnung: Elektrik, Sanitär, Trennwände, Böden, alles wird erneuert. Sie starten auf einer gesunden Basis mit normengerechten Installationen und hochwertigen Oberflächen nach Ihrer Wahl.
+
+<StatList>
+  <StatListItem value="1.200-2.500 €/m²" label="Budget" />
+  <StatListItem value="3-6 Monate" label="Dauer" />
+  <StatListItem value="Unverzichtbar" label="Architekt" />
+</StatList>
+
+**Ideal für:** Alte Wohnungen, die seit 30+ Jahren nicht renoviert wurden, oder nach dem Kauf einer Immobilie, die eine komplette Modernisierung benötigt.
+
+### Umfassende Renovierung: Komplett Umstrukturieren
+
+**Was beinhaltet sie?** Sie ändern die Struktur der Wohnung: Verschieben oder Entfernen von tragenden Wänden, Schaffen von Zwischengeschossen, Ändern von Öffnungen, komplette Neuaufteilung der Raumverteilung.
+
+<StatList>
+  <StatListItem value="2.000-4.000+ €/m²" label="Budget" />
+  <StatListItem value="6-12 Monate" label="Dauer" />
+  <StatListItem value="Obligatorisch" label="Architekt" />
+</StatList>
+
+**Ideal für:** Haussmann-Wohnungen zur Neuaufteilung, große Räume zur Umgestaltung oder ehrgeizige Projekte, die mehrere kleine Flächen kombinieren.
+
+---
+
+<h2 id="kosten-renovierung">Was kostet eine Wohnungsrenovierung in Paris 2026?</h2>
+
+Das Budget ist oft die erste Frage, die Sie sich stellen. In Paris sind die Renovierungspreise 15 bis 25% höher als in der Provinz, hauptsächlich aufgrund der Kosten für spezialisierte Arbeitskräfte, der Komplexität des Baustellen-Zugangs und spezifischer städtischer Einschränkungen. Aber mit guter Planung amortisiert sich Ihre Investition schnell.
+
+### Durchschnittspreise nach Renovierungsart in Paris
+
+Hier sind die 2026 beobachteten Preisspannen für Wohnungsrenovierungen in Paris:
+
+- **Leichte Renovierung:** 200 bis 500 € / m² → Ein 25m² Studio kostet zwischen 5.000€ und 12.500€
+- **Teilrenovierung:** 500 bis 1.200 € / m² → Eine 45m² Wohnung kostet zwischen 22.500€ und 54.000€
+- **Komplettrenovierung:** 1.200 bis 2.500 € / m² → Eine 65m² Wohnung kostet zwischen 78.000€ und 162.500€
+- **Umfassende Renovierung:** 2.000 bis 4.000+ € / m² → Eine 90m² Wohnung kostet zwischen 180.000€ und 360.000€+
+
+> **Wichtig:** Diese Spannen sind Richtwerte. Der endgültige Preis hängt von vielen Faktoren ab: Ausgangszustand, Gebäudetyp, Arrondissement, Ausstattungsniveau, technische und administrative Einschränkungen.
+
+### Die 7 Faktoren, die die Kosten Ihrer Renovierung Beeinflussen
+
+#### 1. Die Fläche und der Ausgangszustand
+
+Je größer Ihre Wohnung, desto niedriger der Preis pro m² (Skaleneffekte bei Materialsammelbestellungen). Umgekehrt benötigt eine stark baufällige Wohnung Modernisierungsarbeiten, die die Rechnung um 20 bis 40% erhöhen.
+
+#### 2. Der Gebäudetyp
+
+Die Renovierung einer Wohnung in einem Haussmann-Gebäude ist in der Regel 25 bis 35% teurer als eine Immobilie aus den 70er Jahren. Warum? Sehr hohe Decken (durchschnittlich 3,20m), Stuckleisten und erhaltenswerte Elemente des Kulturerbes, völlig fehlende Originaldämmung, dicke tragende Wände, die spezialisiertes Material erfordern.
+
+#### 3. Das Arrondissement
+
+Die Zugangseinschränkungen zur Baustelle variieren je nach Viertel. Im Marais oder auf der Île Saint-Louis können die Enge der Straßen und das Fehlen eines Aufzugs die Kosten um 10 bis 15% erhöhen. Umgekehrt sind neuere Gebäude im 13. oder 15. leichter zugänglich.
+
+#### 4. Das Ausstattungsniveau
+
+Die Oberflächen machen 30 bis 40% des Gesamtbudgets aus. Zwischen Standard-Fliesen zu 25€/m² und italienischem Marmor zu 200€/m², zwischen einer IKEA-Küche zu 3.000€ und einer High-End-Küche zu 20.000€ sind die Unterschiede erheblich. Ein Architekt hilft Ihnen, Ihre Investitionen zu priorisieren.
+
+#### 5. Die technischen Einschränkungen
+
+Wenn Ihre Elektrik aus 1970 stammt (mit Stoffkabeln!) oder Ihre Sanitärinstallation aus Blei ist, ist die Modernisierung obligatorisch und stellt einen Mehraufwand von 8.000 bis 15.000€ je nach Fläche dar.
+
+#### 6. Die administrativen Einschränkungen
+
+Wohnung in einem denkmalgeschützten Gebäude? In einem geschützten Sektor (Marais, Quartier Latin)? Sie müssen die Genehmigung des Architekten für Denkmalschutz (ABF) einholen, was die Fristen verlängern und spezifische, teurere Materialien vorschreiben kann.
+
+#### 7. Der Zeitraum der Arbeiten
+
+Die Planung Ihrer Arbeiten in der Nebensaison (Januar-Februar, November) kann Ihnen 10 bis 15% bei den Arbeitskosten einsparen. Handwerker sind verfügbarer und flexibler bei ihren Preisen.
+
+### Die Kosten eines Innenarchitekten: Eine Rentable Investition
+
+Viele zögern, einen Architekten zu beauftragen, aus Angst vor zusätzlichen Kosten. Es ist jedoch ein **Sparfehler**, der Sie viel teurer zu stehen kommen kann.
+
+#### Was kostet ein Innenarchitekt in Paris?
+
+- **Prozentuale Honorare:** 8 bis 15% der Gesamtkosten der Arbeiten (10-12% im Durchschnitt in Paris)
+- **Pauschalpreis** für kleine Projekte: 3.000 bis 8.000€
+- **Stundensatz** für Beratung: 80 bis 150€/h (selten für Komplettrenovierung)
+
+Für eine Komplettrenovierung von 80.000€ betragen die Honorare des Architekten also 8.000 bis 12.000€. Das mag hoch erscheinen, aber hier ist, warum es tatsächlich eine ausgezeichnete Investition ist:
+
+#### Der ROI eines Architekten: Reale Berechnung
+
+**Beispiel: Renovierung von 60m² - Budget 80.000€**
+
+- Architekten-Honorare (10%): **8.000€**
+- Einsparungen durch sein Handwerkernetzwerk: **-6.000€** (Sammelverhandlung, Vorzugspreise)
+- Vermiedene Fehler (falsche Entscheidungen, Mängel): **-12.000€** (30% des Budgets laut Studien)
+- Optimierung der Raumaufteilung und Einkäufe: **-5.000€** (keine Überdimensionierung, relevante Entscheidungen)
+
+**→ NETTO-Kosten des Architekten: 0€** (sogar Einsparungen von 5.000€)
+**+ Qualitativer Mehrwert:** Professionelles Ergebnis, ästhetische Kohärenz, Aufwertung der Immobilie (+15-30% beim Wiederverkauf)
+
+> **Fazit:** Ein guter Architekt zahlt sich selbst. Sie zahlen nicht 8.000€, Sie investieren, um viel mehr zu sparen und ein professionelles Qualitätsergebnis zu erhalten.
+
+<div className="not-prose my-12">
+  <div className="rounded-3xl bg-neutral-100 p-6 sm:p-10">
+    <h3 className="font-display text-base font-semibold text-neutral-950">
+      Welche Renovierungsart für Ihr Projekt? Lassen Sie uns darüber sprechen.
+    </h3>
+    <div className="mt-6">
+      <Button href="/contact">Beschreiben Sie Ihr Projekt kostenlos</Button>
+    </div>
+  </div>
+</div>
+
+---
+
+<h2 id="schluesselphasen">Wohnungsrenovierung Paris: Die 7 Schlüsselphasen</h2>
+
+Die Renovierung einer Wohnung in Paris folgt einem klar definierten Prozess. Hier erfahren Sie, wie ein typisches Projekt vom ersten Treffen bis zum Einzug abläuft.
+
+### Phase 1: Ihr Projekt und Budget Definieren (1-2 Wochen)
+
+Bevor Sie jemanden kontaktieren, nehmen Sie sich Zeit, Ihre Wünsche zu klären. Welche Räume möchten Sie renovieren? Was ist Ihr realistisches Budget? Welcher Stil spricht Sie an (modern, klassisch, industriell)? Erstellen Sie ein Pinterest-Board mit Ihren Inspirationen.
+
+> **In dieser Phase greift Hauss Paris ein, um den perfekt auf Ihr Projekt abgestimmten Architekten zu finden.**
+
+### Phase 2: Ihren Innenarchitekten Finden (2-6 Wochen traditionell)
+
+Traditionell ist diese Phase die zeitaufwändigste und frustrierendste: Stunden der Suche auf Google, Houzz, Instagram, Dutzende E-Mails ohne Antwort, Treffen mit nicht verfügbaren oder nicht auf Ihre Vision ausgerichteten Profis...
+
+**Mit Hauss Paris ändert sich alles:** Sie füllen einen detaillierten Fragebogen zu Ihrem Projekt aus, und wir schlagen Ihnen 2-3 Profile von vorqualifizierten, verfügbaren und perfekt auf Ihre Bedürfnisse abgestimmten Architekten vor. Sie treffen schnell die richtigen Profis.
+
+### Phase 3: Machbarkeitsstudie und Vorentwurf (3-4 Wochen)
+
+Der Architekt kommt zu Ihnen nach Hause, um genaue Maße zu nehmen und eine technische Diagnose (Zustand der Elektro-, Sanitär-, Struktur-Installationen) durchzuführen. Dann präsentiert er Ihnen mehrere Skizzen mit verschiedenen Raumaufteilungsoptionen und eine erste bezifferte Budgetschätzung.
+
+Dies ist der Moment für Entscheidungen: Küche zum Wohnzimmer öffnen? Ankleidezimmer schaffen? Bad ändern? Der Architekt berät Sie zur Machbarkeit und Auswirkung jeder Option.
+
+### Phase 4: Planung und Projektvalidierung (2-4 Wochen)
+
+Sobald der Vorentwurf validiert ist, erstellt der Architekt die endgültigen Pläne in 2D und 3D, das detaillierte Leistungsverzeichnis für jedes Gewerk und hilft Ihnen bei der Auswahl aller Materialien (Fliesen, Parkett, Farben, Armaturen, Leuchten...). Sie erhalten detaillierte Kostenvoranschläge von jedem Handwerker.
+
+Dies ist Ihre letzte Chance, Elemente vor Baubeginn zu ändern. Nehmen Sie sich Zeit, jedes Detail gut zu validieren.
+
+### Phase 5: Verwaltungsverfahren (2-8 Wochen je nach Projekt)
+
+Vor Beginn der Arbeiten sind mehrere Genehmigungen in Paris erforderlich:
+
+- **Genehmigung der Eigentümergemeinschaft:** IMMER obligatorisch, auch für "einfache" Arbeiten
+- **Bauanzeige:** Wenn Sie das äußere Erscheinungsbild ändern (Fenster, Balkon) oder Fläche schaffen
+- **Baugenehmigung:** Wenn Sie die Struktur berühren oder mehr als 20m² Fläche schaffen
+- **Bauherrenhaftpflichtversicherung:** Dringend empfohlen (obligatorisch bei Wiederverkauf innerhalb von 10 Jahren)
+
+**Gute Nachricht:** Ihr Architekt kümmert sich um alle diese Verfahren für Sie. Sie müssen nur die Dokumente unterschreiben.
+
+### Phase 6: Renovierungsarbeiten (2-6 Monate je nach Umfang)
+
+Die Baustelle beginnt! Die Arbeiten folgen immer der gleichen logischen Reihenfolge:
+
+#### Die 3 Phasen der Baustelle
+
+1. **Abriss und Rohbau** (1-2 Wochen): Entfernung des Bestehenden, Abbau von Trennwänden
+2. **Ausbau** (3-8 Wochen): Elektrik, Sanitär, Dämmung, Trennwände, Tischlerei
+3. **Oberflächen** (2-4 Wochen): Streichen, Böden, Einbau Küche und Bad, Leuchten
+
+#### Die Rolle des Architekten während der Arbeiten
+
+Er koordiniert alle Handwerker (Klempner, Elektriker, Fliesenleger, Maler...), überwacht jede Phase, validiert die Qualität der Arbeit und stellt die Einhaltung von Zeitplan und Budget sicher. Sie werden regelmäßig informiert, aber er kümmert sich um den Alltag der Baustelle.
+
+### Phase 7: Abnahme und Fertigstellung (1-2 Wochen)
+
+Am Ende der Baustelle organisiert der Architekt einen Abnahmetermin in Ihrer Anwesenheit. Sie inspizieren jedes Detail und erstellen eine Liste eventueller Vorbehalte (kleine zu korrigierende Mängel). Die Handwerker haben dann 2 Wochen Zeit, diese Vorbehalte zu beheben.
+
+Sobald alles validiert ist, können Sie in Ihre komplett renovierte Wohnung einziehen!
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Bereit, Ihr Projekt zu starten? Finden Sie Ihren Architekten</Button>
+</div>
+
+---
+
+<h2 id="paris-besonderheiten">Die Besonderheiten einer Wohnungsrenovierung in Paris</h2>
+
+Eine Renovierung in Paris ist anders als anderswo in Frankreich. Die Hauptstadt erlegt einzigartige Einschränkungen auf, die Sie vor Projektbeginn kennen sollten.
+
+### Einschränkungen der Eigentümergemeinschaft und Strenge Regelungen
+
+#### Die Vorgenehmigung: in allen Fällen obligatorisch
+
+**Die Vorgenehmigung ist IMMER obligatorisch**, auch für Arbeiten, die Ihnen geringfügig erscheinen. Bevor Sie auch nur eine Wand berühren, müssen Sie Ihr Projekt der Hausverwaltung vorlegen. Je nach Umfang der Arbeiten wird die Genehmigung vom Verwalter allein erteilt oder erfordert eine Abstimmung in der Eigentümerversammlung.
+
+#### Einzuhaltende Arbeitszeiten
+
+Die Hausordnungen in Paris sind besonders streng bei den Arbeitszeiten: In der Regel sind laute Arbeiten nur montags bis freitags von 8 bis 19 Uhr (manchmal 18 Uhr) erlaubt. Samstags ist es oft auf 9-13 Uhr begrenzt, und sonntags ist es fast systematisch verboten. Ausnahmegenehmigungen können für dringende Arbeiten erteilt werden, sind aber selten.
+
+#### Arbeiten an Gemeinschaftseigentum
+
+Wenn Ihre Arbeiten Gemeinschaftseigentum betreffen (Austausch von Straßenfenstern, Schaffung einer Öffnung zum Treppenhaus, Arbeiten an der Fassade), ist eine Abstimmung in der Eigentümerversammlung obligatorisch. Rechnen Sie mit 2 bis 6 Monaten, um diese Genehmigung zu erhalten.
+
+### Denkmalgeschützte Gebäude und Geschützte Zonen
+
+Paris hat zahlreiche geschützte Sektoren (Marais, Quartier Latin, Montmartre...) und Tausende denkmalgeschützte Gebäude. Wenn sich Ihre Wohnung in einem dieser Bereiche befindet, **muss der Architekt für Denkmalschutz (ABF) Ihr Projekt validieren**.
+
+Der ABF ist sehr wählerisch bei allem, was von außen sichtbar ist: Fenster, Fensterläden, Balkone, aber manchmal auch bei Innenausstattungen, wenn das Gebäude denkmalgeschützt ist. Die Bearbeitungsfristen können 3 bis 6 Monate erreichen, und der ABF kann spezifische, in der Regel teurere Materialien oder Farben vorschreiben.
+
+> **Gut zu wissen:** Ein Architekt, der gewohnt ist, in Paris zu arbeiten, kennt diese Einschränkungen in- und auswendig und weiß, wie er Ihre Unterlagen präsentieren muss, um Ihre Chancen auf schnelle Genehmigungen zu maximieren.
+
+### Haussmann-Wohnungen: Ein Sehr Besonderer Fall
+
+Haussmann-Gebäude (erbaut zwischen 1850 und 1870) machen fast 60% des Pariser Wohnungsbestands innerhalb der Stadtgrenzen aus. Ihre einzigartigen Merkmale wirken sich direkt auf die Kosten und Komplexität der Renovierung aus:
+
+#### Die technischen Herausforderungen von Haussmann-Wohnungen
+
+- **Hohe Decken (durchschnittlich 3,20m):** Herrlich für das Volumen, erfordert aber Gerüste und erhöht die Farbmengen und Arbeitszeit (+20 bis 30% beim Ausbau)
+- **Stuckleisten, Rosetten, Gesimse:** Erhaltenswerte Kulturelemente. Ihre Restaurierung erfordert spezialisierte Handwerker (Stuckateure-Ornamentisten), deren Preise hoch sind (80 bis 150€ pro Stunde)
+- **Altes Parkett:** Oft aus massiver Eiche von hoher Qualität, aber benötigt eine komplette Renovierung (Schleifen, Versiegelung). Budget: 50 bis 90€/m²
+- **Völlig fehlende Dämmung:** Die Außenwände sind 50 bis 80cm dick, haben aber keine Wärmedämmung. Innendämmung obligatorisch, aber Vorsicht, die Volumen nicht zu verfälschen
+- **Installationen aus der Zeit:** Elektrik und Sanitär oft original oder aus den 1950-60er Jahren, Modernisierung obligatorisch und komplex
+
+#### Die Hauptherausforderung
+
+Die Wohnung vollständig modernisieren (Komfort, Ausstattung, Dämmung) und gleichzeitig ihren authentischen Charme bewahren. Das ist genau das Kerngeschäft der auf Pariser Kulturerbe spezialisierten Innenarchitekten.
+
+---
+
+<h2 id="faq">Häufig gestellte Fragen zur Wohnungsrenovierung in Paris</h2>
+
+### Brauche ich einen Architekten, um meine Wohnung in Paris zu renovieren?
+
+Ein Innenarchitekt ist für einfache Arbeiten (Streichen, Bodenbelag wechseln) nicht gesetzlich vorgeschrieben, wird aber **unverzichtbar**, sobald Sie:
+
+- Die Raumaufteilung ändern (Verschieben von Trennwänden, auch nicht tragenden)
+- Eine Küche oder ein Bad komplett renovieren
+- An Elektro- oder Sanitärinstallationen arbeiten
+- Mehr als 30.000€ in Ihre Renovierung investieren
+
+Warum? Weil er Ihr Budget optimiert (Einsparungen von 20-30%), kostspielige Fehler vermeidet, alle Handwerker koordiniert, Verwaltungsverfahren managt und Ihnen ein professionelles Ergebnis garantiert, das Ihre Immobilie um 15 bis 30% aufwertet.
+
+**Zusammenfassend:** Für eine einfache Auffrischung ist er optional. Für alles andere ist er Ihre beste Investition.
+
+### Wie lange dauert eine Wohnungsrenovierung in Paris?
+
+Die Dauer hängt vom Umfang Ihres Projekts ab:
+
+- **Leichte Renovierung:** 2 bis 4 Wochen
+- **Teilrenovierung:** 1 bis 3 Monate
+- **Komplettrenovierung:** 3 bis 6 Monate
+- **Umfassende Renovierung:** 6 bis 12 Monate
+
+Hinzu kommen Verwaltungsverfahren (Genehmigung der Eigentümergemeinschaft, Bauanzeige, Baugenehmigung falls erforderlich), die je nach Komplexität 2 bis 8 zusätzliche Wochen dauern.
+
+**Tipp:** Diese Verfahren können parallel zur Planungsphase mit dem Architekten durchgeführt werden, was den Gesamtzeitplan optimiert.
+
+### Kann ich meine Wohnung in Paris ohne Genehmigung renovieren?
+
+**Nein, die Genehmigung der Eigentümergemeinschaft ist IMMER obligatorisch**, auch für Arbeiten, die Ihnen geringfügig erscheinen. Eine Renovierung ohne Genehmigung setzt Sie aus:
+
+- Mahnung der Verwaltung
+- Gerichtsverfahren der Eigentümergemeinschaft
+- Verpflichtung zur Wiederherstellung auf Ihre Kosten
+- Schwierigkeiten beim späteren Verkauf (Diagnosen und notarielle Urkunde)
+
+**Was eine Genehmigung benötigt:** Alles, was die Struktur, Sanitär, Elektrik, Öffnungen, das äußere Erscheinungsbild betrifft oder Lärm erzeugt.
+
+**Was in der Regel keine Genehmigung benötigt:** Nur das Streichen von Wänden und der Austausch von Bodenbelägen ohne Berührung der Struktur.
+
+Ihr Architekt kümmert sich um alle diese Genehmigungen für Sie und kennt die Verfahren in- und auswendig.
+
+### Was kostet eine Komplettrenovierung einer 50m² Wohnung in Paris?
+
+Für eine **Komplettrenovierung einer 50m² Wohnung in Paris** rechnen Sie mit **60.000€ bis 125.000€** je nach Ausstattungsniveau, also 1.200 bis 2.500€ pro m².
+
+**Budget-Details für 50m²:**
+
+- Abriss und Entsorgung: 3.000-5.000€
+- Rohbau und Trennwände: 8.000-12.000€
+- Elektrik: 6.000-10.000€
+- Sanitär: 5.000-9.000€
+- Einbauküche: 8.000-20.000€
+- Bad: 7.000-15.000€
+- Böden (Parkett/Fliesen): 5.000-9.000€
+- Streichen und Oberflächen: 6.000-10.000€
+- Tischlerei: 4.000-8.000€
+- Architekten-Honorare (10%): 6.000-12.000€
+
+**Wichtige Variablen:** Ausgangszustand, Gebäudetyp (Haussmann teurer), Ausstattungsniveau (IKEA vs. High-End), Zugangsbeschränkungen.
+
+---
+
+## Verwandeln Sie Ihre Pariser Wohnung Jetzt
+
+Die Renovierung einer Wohnung in Paris ist ein ehrgeiziges Projekt, das Expertise, Koordination und Vision erfordert. Mit dem richtigen Innenarchitekten an Ihrer Seite verwandelt sich Ihre Renovierung in eine reibungslose und lohnende Erfahrung, von der ersten Skizze bis zum endgültigen Einzug.
+
+**Hauss Paris** vereinfacht diese Suche und bringt Sie direkt mit den besten Pariser Profis zusammen, die perfekt auf Ihr spezifisches Projekt abgestimmt sind. **Sie treffen schnell die Architekten, die Sie brauchen. Kostenlos. Unverbindlich.**
+
+Mehr als 500 Pariser haben uns bereits vertraut, um ihren idealen Architekten zu finden. Warum nicht Sie?
+
+    </div>
+  </FadeIn>
+</Container>

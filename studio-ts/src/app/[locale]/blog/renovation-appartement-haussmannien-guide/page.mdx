@@ -1,0 +1,446 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import { StatList, StatListItem } from '@/components/StatList'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-28',
+  title: 'Rénovation Appartement Haussmannien : Le Guide Ultime 2026',
+  description: 'Le guide complet pour rénover un appartement haussmannien à Paris : contraintes spécifiques, parquet, moulures, cheminées, cuisine, salle de bain, budget au m² et choix du professionnel.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Rénovation Appartement Haussmannien : Guide Ultime 2026',
+  description: 'Le guide complet pour rénover un appartement haussmannien à Paris : contraintes spécifiques, parquet, moulures, cheminées, cuisine, salle de bain, budget au m² et choix du professionnel.',
+  keywords: [
+    'rénovation appartement haussmannien',
+    'rénover haussmannien Paris',
+    'rénovation haussmannien prix',
+    'appartement haussmannien travaux',
+    'rénovation immeuble haussmannien',
+    'architecte intérieur haussmannien',
+    'moulures haussmannien restauration',
+    'parquet haussmannien rénovation',
+    'cheminée haussmannien',
+    'budget rénovation haussmannien'
+  ],
+  openGraph: {
+    title: 'Rénovation Appartement Haussmannien : Le Guide Ultime 2026 | Hauss Paris',
+    description: 'Le guide complet pour rénover un appartement haussmannien à Paris : contraintes spécifiques, parquet, moulures, cheminées, cuisine, salle de bain, budget au m² et choix du professionnel.',
+    type: 'article',
+    publishedTime: '2026-01-28T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/hauss-paris-architecte-interieur-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Rénovation appartement haussmannien Paris - Guide complet',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/renovation-appartement-haussmannien-guide',
+    languages: {
+      'fr': '/fr/blog/renovation-appartement-haussmannien-guide',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quel budget prévoir pour rénover un appartement haussmannien à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le budget pour rénover un appartement haussmannien à Paris se situe entre 1 500 et 3 500 €/m², soit 25 à 35 % de plus qu'un immeuble standard. Pour un 80 m², comptez 120 000 à 280 000 € selon le niveau de finitions. Ce surcoût s'explique par les hauts plafonds (3,20 m en moyenne), la restauration des éléments patrimoniaux (moulures, parquet, cheminées) et l'absence d'isolation d'origine. Les honoraires d'un architecte spécialisé (10-15 % du budget travaux) sont un investissement rentable pour optimiser les coûts et préserver le cachet du lieu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on ouvrir la cuisine sur le salon dans un haussmannien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, c'est l'un des aménagements les plus demandés. Si la cloison est non porteuse, l'ouverture est simple et nécessite uniquement l'accord de la copropriété. Si la cloison est porteuse, il faut poser une poutre IPN ou UPN en remplacement, ce qui nécessite un bureau d'études structure, une autorisation de la copropriété votée en assemblée générale, et un budget supplémentaire de 5 000 à 12 000 €. Un architecte d'intérieur spécialisé vous guide sur la faisabilité et gère toutes les démarches."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Comment restaurer les moulures d'un appartement haussmannien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La restauration des moulures dépend de leur état. Si elles sont intactes mais recouvertes de couches de peinture, un décapage minutieux (chimique ou thermique) suffit, suivi d'un ponçage fin et d'une remise en peinture (budget : 30-60 €/m linéaire). Si des parties sont manquantes ou endommagées, un staffeur-ornemaniste réalise des moulages à partir des éléments existants et reconstitue les parties manquantes en plâtre ou en staff (budget : 80-200 €/m linéaire). La création de moulures neuves complètes coûte 150-350 €/m linéaire."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure la rénovation d'un appartement haussmannien ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La durée d'une rénovation complète d'un appartement haussmannien à Paris est de 4 à 8 mois de travaux, auxquels s'ajoutent 2 à 3 mois de conception et démarches administratives. Les étapes : conception et plans (4-6 semaines), autorisations copropriété (2-8 semaines), démolition et gros œuvre (2-4 semaines), second œuvre (6-10 semaines), restauration patrimoine (2-4 semaines), finitions (3-5 semaines). Les immeubles classés ou en secteur sauvegardé peuvent ajouter 3 à 6 mois pour l'accord de l'Architecte des Bâtiments de France."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Rénovation Appartement Haussmannien : Le Guide Ultime 2026",
+  "description": "Le guide complet pour rénover un appartement haussmannien à Paris : contraintes spécifiques, parquet, moulures, cheminées, cuisine, salle de bain, budget au m² et choix du professionnel.",
+  "image": "https://www.haussparis.com/hauss-paris-architecte-interieur-og.jpg",
+  "datePublished": "2026-01-28T09:00:00Z",
+  "dateModified": "2026-01-28T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://www.haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.haussparis.com/fr/blog/renovation-appartement-haussmannien-guide"
+  },
+  "keywords": "rénovation appartement haussmannien, rénover haussmannien Paris, rénovation haussmannien prix, appartement haussmannien travaux, architecte intérieur haussmannien",
+  "articleSection": "Rénovation",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+L'appartement haussmannien incarne l'art de vivre à la parisienne. Avec ses hauts plafonds, ses moulures ciselées, son parquet en point de Hongrie et ses cheminées en marbre, il possède un cachet unique qui fait rêver le monde entier. Mais rénover un tel appartement ne s'improvise pas : entre la préservation du patrimoine, les contraintes techniques liées à des bâtiments de plus de 150 ans et les exigences modernes de confort, le projet exige une expertise spécifique.
+
+Ce guide est conçu pour vous accompagner à chaque étape de votre rénovation haussmannienne. Que vous veniez d'acquérir un bien à rénover entièrement ou que vous souhaitiez moderniser votre appartement tout en préservant son caractère, vous trouverez ici toutes les informations essentielles : contraintes réglementaires, restauration des éléments patrimoniaux, aménagement des pièces de vie, budget détaillé et choix du bon professionnel.
+
+Pour un panorama complet de la rénovation à Paris, consultez aussi notre [guide complet de la rénovation d'appartement à Paris](/fr/blog/renovation-appartement-paris-guide-complet).
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur spécialisés dans la rénovation haussmannienne. **Trouvez le professionnel idéal pour votre projet, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte haussmannien</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#reconnaitre" className="text-neutral-600 hover:text-neutral-950 transition">1. Reconnaître un Appartement Haussmannien</a></li>
+      <li><a href="#contraintes" className="text-neutral-600 hover:text-neutral-950 transition">2. Les Contraintes Spécifiques de la Rénovation Haussmannienne</a></li>
+      <li><a href="#patrimoine" className="text-neutral-600 hover:text-neutral-950 transition">3. Rénover les Éléments Patrimoniaux</a></li>
+      <li><a href="#cuisine-sdb" className="text-neutral-600 hover:text-neutral-950 transition">4. Cuisine et Salle de Bain en Haussmannien</a></li>
+      <li><a href="#budget" className="text-neutral-600 hover:text-neutral-950 transition">5. Budget et Prix au m²</a></li>
+      <li><a href="#professionnel" className="text-neutral-600 hover:text-neutral-950 transition">6. Choisir le Bon Professionnel</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">7. Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="reconnaitre">Reconnaître un Appartement Haussmannien</h2>
+
+Avant de planifier votre rénovation, il est essentiel de savoir si votre appartement est véritablement haussmannien. Les immeubles construits entre 1853 et 1870, sous la direction du baron Haussmann, présentent des caractéristiques architecturales bien précises qui influencent directement le déroulement et le coût des travaux.
+
+### Les Caractéristiques Architecturales
+
+Un appartement haussmannien se distingue par plusieurs éléments reconnaissables :
+
+- **Hauts plafonds** : 3,00 à 3,50 m dans les étages nobles (2e et 3e), 2,80 à 3,00 m dans les étages supérieurs
+- **Moulures et corniches** : ornements en plâtre au plafond et en partie haute des murs
+- **Parquet massif** : point de Hongrie dans les pièces de réception, bâtons rompus dans les chambres
+- **Cheminées en marbre** : une par pièce principale, souvent ornées de miroirs
+- **Enfilade de pièces** : distribution en longueur avec portes alignées
+- **Fenêtres hautes** : croisées en bois à deux battants avec garde-corps en fer forgé
+- **Façade en pierre de taille** : alignement strict, balcons filants aux 2e et 5e étages
+
+### La Hiérarchie des Étages
+
+L'architecture haussmannienne établit une hiérarchie sociale par étage. Le 2e étage (étage noble) offre les plus beaux volumes et ornements. Les étages supérieurs sont progressivement plus modestes. Cette hiérarchie impacte directement la complexité et le budget de votre rénovation : un appartement au 2e étage aura davantage d'éléments patrimoniaux à restaurer.
+
+### Haussmannien, Post-haussmannien ou Néo-haussmannien ?
+
+Tous les immeubles en pierre de taille ne sont pas haussmanniens. Le **post-haussmannien** (1870-1914) est plus décoratif en façade mais souvent plus simple à l'intérieur. Le **néo-haussmannien** (construit après 2000) reprend les codes esthétiques sans les contraintes techniques des bâtiments anciens. Cette distinction est importante car les contraintes de rénovation diffèrent considérablement.
+
+---
+
+<h2 id="contraintes">Les Contraintes Spécifiques de la Rénovation Haussmannienne</h2>
+
+Rénover un haussmannien n'est pas comme rénover un immeuble des années 1970. Les contraintes sont plus nombreuses mais le résultat est incomparable. Éviter les pièges courants est essentiel : notre article sur les [erreurs à éviter en rénovation d'appartement ancien](/fr/blog/renovation-appartement-ancien-erreurs-eviter) vous aidera à anticiper les problèmes.
+
+### Contraintes Structurelles
+
+#### Les murs porteurs
+
+Les immeubles haussmanniens reposent sur un système de murs porteurs en pierre ou moellons d'une épaisseur de 40 à 80 cm. Ces murs ne peuvent être modifiés qu'après une étude structurelle par un bureau d'études spécialisé. Toute ouverture nécessite la pose d'un linteau en acier (IPN) et l'accord de la copropriété.
+
+#### Les planchers bois
+
+Les planchers sont en bois, composés de solives porteuses sur lesquelles repose le parquet. Leur capacité de charge est limitée par rapport au béton : attention aux surcharges (baignoire en fonte, bibliothèques lourdes, grandes jardinières). Un diagnostic structurel est recommandé pour tout projet ambitieux.
+
+#### L'absence d'isolation
+
+Les murs extérieurs en pierre n'ont aucune isolation thermique d'origine. L'isolation par l'intérieur est possible mais réduit la surface habitable de 5 à 10 cm par mur extérieur. Le choix de l'isolant est crucial pour ne pas créer de problèmes d'humidité dans la pierre.
+
+### Contraintes Réglementaires
+
+#### Copropriété
+
+L'autorisation de la copropriété est obligatoire pour tout travail touchant à la structure, aux parties communes, à la plomberie ou à l'électricité. Un vote en assemblée générale est nécessaire pour les travaux lourds, ce qui peut ajouter 2 à 6 mois au calendrier.
+
+#### Secteurs sauvegardés et immeubles classés
+
+De nombreux haussmanniens se trouvent dans des secteurs protégés (Marais, Quartier Latin, Grands Boulevards). Dans ce cas, l'Architecte des Bâtiments de France (ABF) doit valider les travaux visibles de l'extérieur, voire certains travaux intérieurs. Les délais peuvent atteindre 6 mois.
+
+### Contraintes Techniques
+
+Les installations électriques et de plomberie d'époque nécessitent une mise aux normes complète. Les gaines techniques sont souvent absentes, ce qui complique le passage des réseaux modernes. Les hauteurs sous plafond exceptionnelles augmentent les quantités de matériaux et le temps de travail de 20 à 30 % par rapport à un appartement standard.
+
+Consultez également notre [guide complet sur la rénovation à Paris](/fr/blog/renovation-appartement-paris-guide-complet) pour les démarches administratives détaillées.
+
+---
+
+<h2 id="patrimoine">Rénover les Éléments Patrimoniaux</h2>
+
+La valeur d'un haussmannien réside dans ses éléments d'époque. Les préserver — et les sublimer — est l'enjeu central de toute rénovation réussie. Un [aménagement sur mesure](/fr/services/amenagement-sur-mesure) permet de marier harmonieusement patrimoine et confort moderne.
+
+### Le Parquet : L'Âme de l'Appartement
+
+Le parquet haussmannien en chêne massif est souvent vieux de 150 ans et d'une qualité de bois introuvable aujourd'hui. Sa restauration est presque toujours préférable à son remplacement.
+
+#### Restauration du parquet
+
+- **Ponçage et vitrification** : 50 à 70 €/m² — idéal si le parquet est structurellement sain
+- **Ponçage et huilage** : 60 à 90 €/m² — pour un rendu plus authentique
+- **Restauration complète** (avec remplacement de lames) : 100 à 150 €/m²
+
+Pour tout savoir sur le choix et la restauration du parquet, consultez notre [guide expert du parquet haussmannien](/fr/blog/choisir-parquet-appartement-haussmannien).
+
+#### Quand remplacer ?
+
+Le remplacement s'impose si plus de 40 % des lames sont endommagées, si les lambourdes sont attaquées par l'humidité ou les insectes, ou si vous souhaitez changer de motif. Privilégiez alors un parquet massif en chêne pour rester fidèle à l'esprit du lieu.
+
+### Les Moulures et Corniches
+
+Les ornements en plâtre sont la signature visuelle de l'haussmannien. Leur restauration est un savoir-faire artisanal exercé par des staffeurs-ornemanistes.
+
+<StatList>
+  <StatListItem value="30-60 €/ml" label="Décapage et remise en peinture" />
+  <StatListItem value="80-200 €/ml" label="Restauration partielle (moulage)" />
+  <StatListItem value="150-350 €/ml" label="Création de moulures neuves" />
+</StatList>
+
+**Conseil :** Ne peignez jamais les moulures avant de les avoir décapées. Les couches de peinture successives empâtent les reliefs et dénaturent le dessin original. Un décapage minutieux révèle toute la finesse du travail d'origine.
+
+Pour intégrer ces éléments patrimoniaux dans un intérieur contemporain, découvrez les [tendances décoration 2026](/fr/blog/tendances-decoration-2026).
+
+### Les Cheminées en Marbre
+
+Chaque pièce principale d'un haussmannien possédait sa cheminée. Aujourd'hui non fonctionnelles pour la plupart, elles restent un élément décoratif majeur.
+
+#### Options de rénovation
+
+- **Restauration esthétique** : nettoyage du marbre, remplacement du foyer décoratif, installation d'un miroir d'époque (800 à 2 500 €)
+- **Insert décoratif** : bougies, insert bioéthanol (200 à 1 500 €)
+- **Condamnation soignée** : fermeture discrète du conduit tout en conservant le manteau (300 à 600 €)
+
+> **Important :** Ne jamais supprimer une cheminée haussmannienne, même non fonctionnelle. Elle fait partie de la valeur patrimoniale et marchande de l'appartement. Si elle a été retirée par un précédent propriétaire, sa restitution est un excellent investissement.
+
+### Les Portes et Ferronneries
+
+Les portes intérieures haussmanniennes sont hautes (2,50 à 2,80 m), à deux battants pour les pièces de réception, avec des moulures et des poignées en laiton. Leur restauration coûte 400 à 800 € par porte (décapage, ponçage, remise en peinture, remplacement des quincailleries).
+
+---
+
+<h2 id="cuisine-sdb">Cuisine et Salle de Bain en Haussmannien</h2>
+
+Les cuisines et salles de bain sont les pièces qui nécessitent le plus de travaux dans un haussmannien, car elles n'ont souvent pas été rénovées depuis des décennies. L'enjeu est d'y apporter un confort moderne tout en respectant l'harmonie de l'ensemble.
+
+### La Cuisine Haussmannienne
+
+La cuisine d'origine, souvent exiguë et fermée, ne correspond plus aux usages actuels. L'[aménagement d'une cuisine ouverte sur salon](/fr/blog/amenagement-cuisine-ouverte-salon) est la demande la plus fréquente dans les projets de rénovation haussmannienne.
+
+#### Ouvrir la cuisine sur le salon
+
+L'ouverture de la cuisine est possible dans la plupart des cas, mais la nature de la cloison conditionne la complexité du projet :
+
+- **Cloison non porteuse** : ouverture simple, budget 2 000 à 5 000 €
+- **Cloison porteuse** : pose d'un IPN, étude structure obligatoire, budget 5 000 à 12 000 €
+
+#### Ventilation et extraction
+
+Dans un haussmannien, l'extraction des odeurs de cuisine est un enjeu crucial. Les conduits de ventilation d'origine sont souvent insuffisants. Prévoyez un système d'extraction performant avec un budget de 1 500 à 3 000 €.
+
+Pour retrouver de l'espace, pensez à [optimiser le rangement](/fr/blog/optimiser-rangement-appartement-parisien) avec des solutions sur mesure adaptées aux volumes haussmanniens.
+
+### La Salle de Bain
+
+La salle de bain haussmannienne est souvent le parent pauvre de l'appartement : petite, mal agencée, avec une plomberie vétuste. Sa rénovation est une priorité.
+
+Notre [guide complet de la rénovation salle de bain à Paris](/fr/blog/renovation-salle-de-bain-paris-guide-complet) détaille toutes les étapes. Voici les spécificités en haussmannien :
+
+#### Contraintes spécifiques
+
+- **Plancher bois** : le poids d'une baignoire en fonte (300 kg remplie) nécessite une vérification structurelle. Préférez une baignoire en acrylique ou optez pour une douche italienne.
+- **Évacuations** : les colonnes d'évacuation anciennes sont souvent partagées et leur modification nécessite l'accord de la copropriété.
+- **Étanchéité** : primordiale sur plancher bois. Un système d'étanchéité sous carrelage (SPEC) est indispensable.
+
+<StatList>
+  <StatListItem value="8 000-15 000 €" label="Salle de bain standard" />
+  <StatListItem value="15 000-25 000 €" label="Salle de bain haut de gamme" />
+  <StatListItem value="3 000-6 000 €" label="Salle d'eau compacte" />
+</StatList>
+
+Pour les petits espaces, les techniques pour [agrandir visuellement un petit appartement](/fr/blog/comment-agrandir-visuellement-petit-appartement) s'appliquent parfaitement aux salles de bain haussmanniennes. La rénovation de ces deux pièces peut être confiée à un spécialiste via notre [service cuisine et salle de bain](/fr/services/cuisine-salle-de-bain).
+
+---
+
+<h2 id="budget">Budget et Prix au m²</h2>
+
+La rénovation d'un haussmannien coûte plus cher qu'un appartement standard. Comprendre la structure des coûts permet de budgéter efficacement et d'éviter les mauvaises surprises. Pour une analyse détaillée des tarifs, consultez notre article sur le [tarif d'un architecte d'intérieur à Paris](/fr/blog/tarif-architecte-interieur-paris).
+
+### Prix au m² Selon le Niveau de Rénovation
+
+<StatList>
+  <StatListItem value="800-1 200 €/m²" label="Rafraîchissement avec restauration patrimoine" />
+  <StatListItem value="1 500-2 500 €/m²" label="Rénovation complète" />
+  <StatListItem value="2 500-4 000+ €/m²" label="Rénovation lourde et haut de gamme" />
+</StatList>
+
+### Ventilation du Budget Type (80 m², rénovation complète)
+
+| Poste | Budget estimé |
+|-------|--------------|
+| Démolition et évacuation | 4 000 - 8 000 € |
+| Gros œuvre et structure | 8 000 - 15 000 € |
+| Électricité complète | 10 000 - 16 000 € |
+| Plomberie | 8 000 - 14 000 € |
+| Restauration patrimoine (parquet, moulures, cheminées) | 15 000 - 35 000 € |
+| Cuisine équipée | 10 000 - 25 000 € |
+| Salle de bain | 10 000 - 20 000 € |
+| Peinture et finitions | 8 000 - 14 000 € |
+| Menuiseries intérieures | 5 000 - 10 000 € |
+| Honoraires architecte (12 %) | 15 000 - 25 000 € |
+| **TOTAL** | **120 000 - 210 000 €** |
+
+### Pourquoi le Haussmannien Coûte Plus Cher
+
+Le surcoût de 25 à 35 % par rapport à un immeuble standard s'explique par les hauts plafonds (plus de matériaux, échafaudages nécessaires), la restauration des éléments patrimoniaux par des artisans spécialisés, l'absence d'isolation et de gaines techniques d'origine, et la complexité d'accès aux chantiers (étages élevés sans ascenseur, rues étroites).
+
+Pour comparer avec les tarifs dans les arrondissements prisés, consultez notre article sur la [rénovation dans le Paris 16e](/fr/blog/renovation-appartement-paris-16).
+
+Notre [service rénovation](/fr/services/renovation) vous accompagne dans l'optimisation de votre budget.
+
+<div className="not-prose my-12">
+  <div className="rounded-3xl bg-neutral-100 p-6 sm:p-10">
+    <h3 className="font-display text-base font-semibold text-neutral-950">
+      Besoin d'un devis précis pour votre haussmannien ?
+    </h3>
+    <div className="mt-6">
+      <Button href="/contact">Décrivez votre projet gratuitement</Button>
+    </div>
+  </div>
+</div>
+
+---
+
+<h2 id="professionnel">Choisir le Bon Professionnel</h2>
+
+La rénovation d'un appartement haussmannien exige une double compétence : maîtrise technique des bâtiments anciens et sensibilité esthétique pour préserver le patrimoine. Tous les architectes d'intérieur ne possèdent pas cette expertise. Pour approfondir ce sujet, consultez nos guides pour [trouver un architecte d'intérieur à Paris](/fr/blog/trouver-architecte-interieur-paris) et comprendre la [différence entre décorateur et architecte d'intérieur](/fr/blog/decorateur-ou-architecte-interieur).
+
+### Les Compétences Essentielles
+
+Un architecte spécialisé en haussmannien doit maîtriser :
+
+- La **connaissance du bâti ancien** : structure, matériaux d'époque, pathologies courantes
+- Le **réseau d'artisans spécialisés** : staffeurs, parqueteurs, marbriers, ferronniers d'art
+- La **gestion des contraintes réglementaires** : copropriété, ABF, permis
+- L'**art de marier ancien et moderne** : intégrer le confort contemporain sans dénaturer le cachet
+
+### Les Questions à Poser
+
+Avant de choisir votre architecte, vérifiez son expérience en haussmannien :
+
+- Combien de rénovations haussmanniennes avez-vous réalisées ?
+- Pouvez-vous me montrer des réalisations avant/après ?
+- Travaillez-vous avec des artisans spécialisés en patrimoine (staffeurs, parqueteurs) ?
+- Avez-vous l'habitude des démarches ABF et copropriété ?
+- Quel est votre avis sur la préservation vs la modernisation des éléments d'époque ?
+
+Notre [service d'architecte d'intérieur à Paris](/fr/services/architecte-interieur-paris) vous met en relation avec des professionnels sélectionnés pour leur expertise haussmannienne.
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Quel budget prévoir pour rénover un appartement haussmannien à Paris ?
+
+Le budget se situe entre **1 500 et 3 500 €/m²**, soit 25 à 35 % de plus qu'un immeuble standard. Pour un 80 m², comptez **120 000 à 280 000 €** selon le niveau de finitions. Ce surcoût s'explique par les hauts plafonds (3,20 m en moyenne), la restauration des éléments patrimoniaux (moulures, parquet, cheminées) et l'absence d'isolation d'origine. Les honoraires d'un architecte spécialisé (10-15 % du budget travaux) sont un investissement rentable pour optimiser les coûts et préserver le cachet du lieu.
+
+### Peut-on ouvrir la cuisine sur le salon dans un haussmannien ?
+
+Oui, c'est l'un des aménagements les plus demandés. Si la cloison est **non porteuse**, l'ouverture est simple et nécessite uniquement l'accord de la copropriété. Si la cloison est **porteuse**, il faut poser un linteau en acier (IPN ou UPN), ce qui nécessite une étude structure, un vote en assemblée générale et un budget supplémentaire de 5 000 à 12 000 €. Un architecte d'intérieur spécialisé évalue la faisabilité et gère l'ensemble des démarches.
+
+### Comment restaurer les moulures d'un appartement haussmannien ?
+
+La restauration dépend de l'état des moulures. Si elles sont intactes mais empâtées sous des couches de peinture, un **décapage minutieux** suivi d'un ponçage et d'une remise en peinture suffit (30-60 €/m linéaire). Si des parties sont manquantes ou endommagées, un **staffeur-ornemaniste** réalise des moulages à partir des éléments existants et reconstitue les parties manquantes en plâtre (80-200 €/m linéaire). La création complète de moulures neuves coûte 150-350 €/m linéaire.
+
+### Combien de temps dure la rénovation d'un appartement haussmannien ?
+
+Pour une rénovation complète, comptez **4 à 8 mois de travaux** auxquels s'ajoutent 2 à 3 mois de conception et de démarches administratives. Les étapes se décomposent ainsi : conception et plans (4-6 semaines), autorisations copropriété (2-8 semaines), démolition et gros œuvre (2-4 semaines), second œuvre (6-10 semaines), restauration patrimoine (2-4 semaines), finitions (3-5 semaines). Les immeubles classés ou situés en secteur sauvegardé peuvent nécessiter 3 à 6 mois supplémentaires pour l'accord de l'Architecte des Bâtiments de France.
+
+---
+
+## Lancez la Rénovation de Votre Haussmannien
+
+Rénover un appartement haussmannien est un projet exigeant mais profondément gratifiant. Quand les moulures retrouvent leur finesse, que le parquet brille à nouveau et que les volumes majestueux s'ouvrent sur une cuisine contemporaine, le résultat est à la hauteur du patrimoine exceptionnel de ces immeubles.
+
+Le secret d'une rénovation haussmannienne réussie tient en un mot : **expertise**. Un architecte d'intérieur spécialisé sait préserver ce qui fait le charme de votre appartement tout en y intégrant le confort que vous méritez.
+
+**Hauss Paris** sélectionne pour vous les architectes d'intérieur les plus qualifiés pour la rénovation haussmannienne à Paris. Décrivez votre projet et recevez des profils adaptés. **Gratuitement. Sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte haussmannien</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

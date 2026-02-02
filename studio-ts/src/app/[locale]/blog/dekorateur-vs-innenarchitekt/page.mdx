@@ -1,0 +1,295 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-05',
+  title: 'Innenarchitekt oder Dekorateur: Welchen wählen?',
+  description: 'Innenarchitekt oder Dekorateur? Aufgaben, Kompetenzen, Garantien, Honorare: Entdecken Sie die echten Unterschiede, um den richtigen Fachmann für Ihr Projekt zu wählen.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Gründer',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'de',
+}
+
+export const metadata = {
+  title: 'Dekorateur oder Innenarchitekt: Wie wählt man den richtigen Fachmann?',
+  description: 'Innenarchitekt oder Dekorateur? Aufgaben, Kompetenzen, Garantien, Honorare: Entdecken Sie die echten Unterschiede, um den richtigen Fachmann für Ihr Projekt zu wählen.',
+  keywords: [
+    'Innendekorateur',
+    'Innenarchitekt',
+    'Dekorateur vs Innenarchitekt',
+    'Unterschied Dekorateur Architekt',
+    'Dekorateur oder Architekt wählen',
+    'Innendekoration Paris',
+    'Wohnung renovieren Paris',
+    'Home Staging',
+    'Dekorations-Coach',
+    'CFAI'
+  ],
+  openGraph: {
+    title: 'Dekorateur oder Innenarchitekt: Wie wählt man den richtigen Fachmann?',
+    description: 'Innenarchitekt oder Dekorateur? Aufgaben, Kompetenzen, Garantien, Honorare: Entdecken Sie die echten Unterschiede, um den richtigen Fachmann für Ihr Projekt zu wählen.',
+    type: 'article',
+    publishedTime: '2026-01-05T09:00:00Z',
+    authors: ['Hugo Betscher'],
+  },
+  alternates: {
+    canonical: '/de/blog/dekorateur-vs-innenarchitekt',
+    languages: {
+      'fr': '/fr/blog/decorateur-ou-architecte-interieur',
+      'en': '/en/blog/decorator-vs-interior-designer',
+      'it': '/it/blog/decoratore-vs-architetto-interni',
+      'de': '/de/blog/dekorateur-vs-innenarchitekt',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Kann ein Dekorateur Malerarbeiten überwachen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, ein Dekorateur kann Fertigstellungsarbeiten wie Malen oder Bodenbeläge koordinieren. Er kann jedoch keine Arbeiten überwachen, die die Struktur oder technische Netzwerke betreffen, was in den Bereich des Innenarchitekten fällt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Braucht ein Dekorateur eine zehnjährige Versicherung?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein, die zehnjährige Versicherung ist nur für Arbeiten obligatorisch, die die strukturelle Integrität des Gebäudes betreffen. Allerdings sollte der Dekorateur eine Berufshaftpflichtversicherung haben."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann man einen Innenarchitekten nur für Dekorationsberatung engagieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, aber ihre Stundensätze sind in der Regel höher (100-200 € gegenüber 50-100 €). Wenn Ihre Bedürfnisse auf ästhetische Beratung ohne Bauarbeiten beschränkt sind, wird ein Dekorateur besser geeignet und wirtschaftlicher sein."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie weiß ich, ob mein Projekt strukturelle Arbeiten erfordert?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wenn Sie die Raumaufteilung ändern, Wände abreißen, Küche oder Bad versetzen oder Elektrik/Sanitär erneuern möchten, brauchen Sie einen Innenarchitekten."
+      }
+    }
+  ]
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+<div className="not-prose mb-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Inhaltsverzeichnis</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#aufgaben-dekorateur" className="text-neutral-600 hover:text-neutral-950 transition">1. Was sind die Aufgaben eines Innendekorateurs?</a></li>
+      <li><a href="#unterschiede-architekt" className="text-neutral-600 hover:text-neutral-950 transition">2. Was unterscheidet den Innenarchitekten?</a></li>
+      <li><a href="#vergleichstabelle" className="text-neutral-600 hover:text-neutral-950 transition">3. Vergleichstabelle: Dekorateur vs Innenarchitekt</a></li>
+      <li><a href="#wahl-nach-projekt" className="text-neutral-600 hover:text-neutral-950 transition">4. Welchen Fachmann für Ihr Projekt wählen?</a></li>
+      <li><a href="#andere-berufe" className="text-neutral-600 hover:text-neutral-950 transition">5. Und die anderen Berufe im Innendesign?</a></li>
+      <li><a href="#hauss-paris" className="text-neutral-600 hover:text-neutral-950 transition">6. Wie hilft Ihnen Hauss Paris bei der richtigen Wahl?</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">7. FAQ</a></li>
+    </ol>
+  </nav>
+</div>
+
+<h2 id="aufgaben-dekorateur">Was sind die Aufgaben eines Innendekorateurs?</h2>
+
+Sie möchten Ihre Innenräume auffrischen, ihnen neues Leben einhauchen oder sie einfach harmonischer gestalten? **Der Innendekorateur ist der Spezialist für Ästhetik und Atmosphäre.** Seine Intervention konzentriert sich auf alles, was einen Raum verschönert, ohne seine Struktur zu verändern.
+
+Konkret arbeitet der Dekorateur an der Farbauswahl (Farben, Tapeten), der Auswahl von Möbeln und Textilien (Vorhänge, Teppiche, Kissen), der Anordnung bestehender Möbel, der Beleuchtungsgestaltung (Leuchten, Ambientebeleuchtung) und dekorativen Accessoires. Sein Ziel: eine kohärente Atmosphäre zu schaffen, die Ihre Persönlichkeit widerspiegelt und Ihren täglichen Bedürfnissen entspricht.
+
+**Der Beruf des Innendekorateurs ist in Frankreich nicht reguliert.** Kein Diplom ist gesetzlich vorgeschrieben, um zu praktizieren, obwohl es anerkannte Ausbildungswege gibt (BTS Raumgestaltung, DN MADE Option Raum, <a href="https://www.francecompetences.fr/" target="_blank" rel="noopener noreferrer">RNCP-Zertifizierungen</a>). Diese Zugänglichkeit erklärt die große Vielfalt der Profile auf dem Markt, von talentierten Autodidakten bis zu Absolventen renommierter Schulen.
+
+Der Dekorateur greift niemals in die Gebäudestruktur ein: Er kann keine Wände abreißen, Netzwerke (Elektrik, Sanitär) verlegen oder die Raumaufteilung ändern. Wenn Ihr Projekt diese Art von Arbeiten beinhaltet, brauchen Sie einen anderen Fachmann.
+
+---
+
+<h2 id="unterschiede-architekt">Was unterscheidet den Innenarchitekten?</h2>
+
+Der Innenarchitekt interveniert auf einer tieferen Ebene: **Er überdenkt Volumen, verteilt Räume neu und koordiniert technische Arbeiten.** Wo der Dekorateur einen bestehenden Raum kleidet, transformiert der Innenarchitekt ihn grundlegend.
+
+Seine Aufgaben umfassen die Änderung von Wänden und Anordnungen, die Schaffung oder Verlegung von Nassräumen (Küche, Bad), die Koordination von Gewerken (Elektriker, Klempner, Schreiner), die vollständige Bauüberwachung bis zur Endabnahme und natürlich die gesamte ästhetische Gestaltung.
+
+Obwohl der Beruf ebenfalls nicht reguliert ist, ist die **<a href="https://www.cfai.fr/fr" target="_blank" rel="noopener noreferrer">CFAI-Zertifizierung</a> (Französischer Rat der Innenarchitekten) eine anerkannte Kompetenzgarantie**. Sie erfordert 5 Jahre Ausbildung und 3 Jahre Berufserfahrung. Innenarchitekten, die Bauleistungsaufgaben übernehmen, müssen eine zehnjährige Versicherung haben, ein wesentlicher Schutz für Sie im Falle von Mängeln.
+
+---
+
+<h2 id="vergleichstabelle">Vergleichstabelle: Dekorateur vs Innenarchitekt</h2>
+
+<div className="not-prose my-10">
+  <div className="overflow-x-auto rounded-2xl border border-neutral-200">
+    <table className="w-full text-sm">
+      <thead>
+        <tr className="bg-neutral-950 text-white">
+          <th className="px-4 py-3 text-left font-semibold">Kriterium</th>
+          <th className="px-4 py-3 text-center font-semibold">Innendekorateur</th>
+          <th className="px-4 py-3 text-center font-semibold">Innenarchitekt</th>
+        </tr>
+      </thead>
+      <tbody className="divide-y divide-neutral-100">
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Strukturelle Eingriffe</td>
+          <td className="px-4 py-3 text-center text-red-600 font-medium">Nein</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Ja</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Wandänderungen</td>
+          <td className="px-4 py-3 text-center text-red-600 font-medium">Nein</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Ja</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Netzwerkverlegung (Elektrik, Sanitär)</td>
+          <td className="px-4 py-3 text-center text-red-600 font-medium">Nein</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Ja</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Küchen-/Badschaffung</td>
+          <td className="px-4 py-3 text-center text-red-600 font-medium">Nein</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Ja</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Möbel- und Textilauswahl</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Ja</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Ja</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Farb- und Atmosphärenarbeit</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Ja</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Ja</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Bauleitung</td>
+          <td className="px-4 py-3 text-center text-amber-600 font-medium">Begrenzt</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Vollständig</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Handwerkerkoordination</td>
+          <td className="px-4 py-3 text-center text-amber-600 font-medium">Teilweise</td>
+          <td className="px-4 py-3 text-center text-green-600 font-medium">Vollständig</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Regulierung</td>
+          <td className="px-4 py-3 text-center text-neutral-600">Nicht reguliert</td>
+          <td className="px-4 py-3 text-center text-neutral-600">Nicht reguliert</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Anerkannte Zertifizierung</td>
+          <td className="px-4 py-3 text-center text-neutral-600">Nicht erforderlich</td>
+          <td className="px-4 py-3 text-center text-neutral-600">CFAI (empfohlen)</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Zehnjährige Versicherung</td>
+          <td className="px-4 py-3 text-center text-neutral-600">Nicht erforderlich</td>
+          <td className="px-4 py-3 text-center text-neutral-600">Pflicht für Bauleitung</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Typische Ausbildung</td>
+          <td className="px-4 py-3 text-center text-neutral-600">BTS / DN MADE / privat</td>
+          <td className="px-4 py-3 text-center text-neutral-600">5 Jahre CFAI-Schule</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Richtwert Honorare</td>
+          <td className="px-4 py-3 text-center text-neutral-600">50-100 €/h oder Pauschale</td>
+          <td className="px-4 py-3 text-center text-neutral-600">10-15% des Baubudgets</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+---
+
+<h2 id="wahl-nach-projekt">Welchen Fachmann für Ihr Projekt wählen?</h2>
+
+<h3>Wählen Sie einen Dekorateur, wenn...</h3>
+
+Der Innendekorateur ist die richtige Wahl, wenn Ihr Projekt keine strukturellen Arbeiten erfordert. **Er ist die ideale Lösung, um einem Interieur neues Leben zu geben, ohne große Arbeiten zu unternehmen.**
+
+Wenden Sie sich an einen Dekorateur, wenn Sie:
+- Die Atmosphäre eines Raumes ändern möchten (Farben, Stil)
+- Ihre vorhandenen Möbel umordnen möchten, um den Raum besser zu nutzen
+- Neue Möbel, Beleuchtung oder Textilien auswählen möchten
+- Eine Immobilie für Verkauf oder Vermietung vorbereiten möchten (Home Staging)
+
+<h3>Wählen Sie einen Innenarchitekten, wenn...</h3>
+
+Sobald Ihr Projekt die Änderung des Grundrisses, die Neuverteilung von Räumen oder die Durchführung technischer Arbeiten (Elektrik, Sanitär, Trennwände) beinhaltet, **ist der Innenarchitekt der unverzichtbare Fachmann**.
+
+Ein Innenarchitekt ist unerlässlich, wenn Sie:
+- Räume zusammenlegen oder teilen möchten
+- Eine Wohnung vollständig renovieren
+- Eine Küche oder ein Bad schaffen oder versetzen
+- Elektro- oder Sanitärnetzwerke verlegen möchten
+- Bauarbeiten koordinieren müssen
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/de/kontakt">Lassen Sie sich den richtigen Fachmann empfehlen</Button>
+</div>
+
+---
+
+<h2 id="andere-berufe">Und die anderen Berufe im Innendesign?</h2>
+
+Zwischen Dekorateur und Innenarchitekt gibt es noch andere Fachleute, die bei bestimmten Aspekten Ihres Projekts helfen können:
+
+- **Dekorations-Coach**: Ein Fachmann, der Sie berät und Ihnen hilft, die Dekoration selbst zu realisieren. Ideal für begrenzte Budgets.
+- **Home Stager**: Spezialisiert auf die Aufwertung von Immobilien zum Verkauf, arbeitet er an Neutralität und Attraktivität.
+- **Raumdesigner**: Ein Profil, das oft zwischen Dekorateur und Architekt liegt, ohne unbedingt die Zertifizierungen des Letzteren zu haben.
+
+---
+
+<h2 id="hauss-paris">Wie hilft Ihnen Hauss Paris bei der richtigen Wahl?</h2>
+
+Angesichts all dieser Optionen kann es schwierig sein, sich zurechtzufinden. **Hauss Paris bietet Ihnen eine vereinfachte Lösung: Wir analysieren Ihr Projekt und empfehlen Ihnen den Fachmann, der am besten geeignet ist.**
+
+Unser Netzwerk umfasst CFAI-zertifizierte Innenarchitekten sowie talentierte Dekorateure. Wir kennen ihre Spezialitäten, ihre Arbeitsweise und ihre Tarife. In 48 Stunden können wir Ihnen eine Vorauswahl präsentieren, die auf Ihre Bedürfnisse zugeschnitten ist.
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/de/kontakt">Finden Sie Ihren idealen Fachmann</Button>
+</div>
+
+---
+
+<h2 id="faq">FAQ: Ihre Fragen zu Dekorateur und Innenarchitekt</h2>
+
+<h3>Kann ein Dekorateur Malerarbeiten überwachen?</h3>
+
+Ja, ein Dekorateur kann Fertigstellungsarbeiten wie Malerarbeiten oder den Austausch von Bodenbelägen koordinieren. Er kann jedoch keine Arbeiten überwachen, die die Struktur oder technische Netzwerke betreffen, was in den Bereich des Innenarchitekten fällt.
+
+<h3>Braucht ein Dekorateur eine zehnjährige Versicherung?</h3>
+
+Nein, die zehnjährige Versicherung ist nur für Arbeiten obligatorisch, die die strukturelle Integrität des Gebäudes betreffen. Allerdings sollte der Dekorateur eine Berufshaftpflichtversicherung haben.
+
+<h3>Kann man einen Innenarchitekten nur für Dekorationsberatung engagieren?</h3>
+
+Ja, aber ihre Stundensätze sind in der Regel höher (100-200 € gegenüber 50-100 €). Wenn Ihre Bedürfnisse auf ästhetische Beratung ohne Bauarbeiten beschränkt sind, wird ein Dekorateur besser geeignet und wirtschaftlicher sein.
+
+<h3>Wie weiß ich, ob mein Projekt strukturelle Arbeiten erfordert?</h3>
+
+Wenn Sie die Raumaufteilung ändern, Wände abreißen, Küche oder Bad versetzen oder Elektrik/Sanitär erneuern möchten, brauchen Sie einen Innenarchitekten.
+
+    </div>
+  </FadeIn>
+</Container>
+

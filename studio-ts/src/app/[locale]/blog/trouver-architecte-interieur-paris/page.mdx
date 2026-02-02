@@ -1,0 +1,413 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-01-05',
+  title: 'Comment trouver un bon architecte d\'intérieur à Paris ?',
+  description: 'Comment trouver un architecte d\'intérieur à Paris ? Critères de sélection, certifications CFAI, questions à poser, erreurs à éviter. Guide complet 2026.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Trouver un architecte d\'intérieur à Paris : guide complet pour bien choisir',
+  description: 'Comment trouver un architecte d\'intérieur à Paris ? Critères de sélection, certifications CFAI, questions à poser, erreurs à éviter. Guide complet 2026.',
+  keywords: [
+    'trouver architecte intérieur Paris',
+    'architecte intérieur Paris',
+    'choisir architecte intérieur',
+    'CFAI Paris',
+    'certification architecte intérieur',
+    'devis architecte intérieur',
+    'premier rendez-vous architecte',
+    'rénovation appartement Paris',
+    'questions architecte intérieur',
+    'erreurs architecte intérieur'
+  ],
+  openGraph: {
+    title: 'Trouver un architecte d\'intérieur à Paris : guide complet pour bien choisir',
+    description: 'Comment trouver un architecte d\'intérieur à Paris ? Critères de sélection, certifications CFAI, questions à poser, erreurs à éviter. Guide complet 2026.',
+    type: 'article',
+    publishedTime: '2026-01-05T09:00:00Z',
+    authors: ['Hugo Betscher'],
+  },
+  alternates: {
+    canonical: '/fr/blog/trouver-architecte-interieur-paris',
+    languages: {
+      'fr': '/fr/blog/trouver-architecte-interieur-paris',
+      'en': '/en/blog/find-interior-designer-paris',
+      'it': '/it/blog/trovare-architetto-interni-parigi',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Comment vérifier si un architecte d'intérieur est certifié CFAI ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vous pouvez rechercher le nom du professionnel dans l'annuaire en ligne du CFAI (cfai.fr). Si son profil apparaît, il a été reconnu compétent après vérification de sa formation et expérience. Vous pouvez aussi contacter le secrétariat du CFAI pour confirmer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le premier rendez-vous avec un architecte d'intérieur est-il payant ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les pratiques varient. Certains offrent un premier rendez-vous gratuit de 30 minutes à 1 heure. D'autres facturent cette consultation entre 80 € et 200 €, parfois déduit des honoraires si vous signez. Posez la question avant de prendre rendez-vous."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien d'architectes d'intérieur faut-il rencontrer avant de choisir ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il est recommandé de rencontrer 2 à 3 professionnels minimum pour comparer les approches, tarifs et ressentir avec qui le courant passe le mieux. Au-delà de 4 ou 5 rendez-vous, vous risquez de vous disperser."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Un architecte d'intérieur peut-il intervenir sur un bien que je n'ai pas encore acheté ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, c'est même recommandé. Un architecte d'intérieur peut évaluer le potentiel d'aménagement, identifier les contraintes techniques et chiffrer les travaux avant achat. Cette prestation peut vous éviter de mauvaises surprises et aider à négocier le prix."
+      }
+    }
+  ]
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+<div className="not-prose mb-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#ou-chercher" className="text-neutral-600 hover:text-neutral-950 transition">1. Où chercher un architecte d'intérieur à Paris ?</a></li>
+      <li><a href="#criteres-verifier" className="text-neutral-600 hover:text-neutral-950 transition">2. Quels critères vérifier avant de choisir ?</a></li>
+      <li><a href="#questions-premier-rdv" className="text-neutral-600 hover:text-neutral-950 transition">3. Quelles questions poser lors du premier rendez-vous ?</a></li>
+      <li><a href="#comparer-devis" className="text-neutral-600 hover:text-neutral-950 transition">4. Comment comparer plusieurs devis ?</a></li>
+      <li><a href="#erreurs-eviter" className="text-neutral-600 hover:text-neutral-950 transition">5. Quelles erreurs éviter dans votre recherche ?</a></li>
+      <li><a href="#intermediaire-specialise" className="text-neutral-600 hover:text-neutral-950 transition">6. Pourquoi passer par un intermédiaire spécialisé ?</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">7. FAQ</a></li>
+    </ol>
+  </nav>
+</div>
+
+<h2 id="ou-chercher">Où chercher un architecte d'intérieur à Paris ?</h2>
+
+Vous avez un projet de rénovation ou d'aménagement à Paris et vous cherchez le professionnel idéal pour vous accompagner ? **Trouver un bon [architecte d'intérieur à Paris](/fr/services/architecte-interieur-paris) peut sembler complexe** face à la multitude d'offres disponibles. Entre les professionnels certifiés, les décorateurs qui s'improvisent architectes et les agences aux tarifs très variables, comment s'y retrouver ?
+
+La première étape consiste à identifier les bonnes sources de recherche. L'<a href="https://www.cfai.fr/fr" target="_blank" rel="noopener noreferrer">annuaire du CFAI</a> (Conseil Français des Architectes d'Intérieur) constitue une référence incontournable : il recense uniquement les professionnels dont les compétences ont été reconnues après un processus exigeant. Les plateformes spécialisées comme Houzz ou Archidvisor permettent également de consulter des portfolios et des avis clients vérifiés.
+
+Le bouche-à-oreille reste une valeur sûre, notamment si vous connaissez des personnes ayant réalisé des projets similaires au vôtre. **Un appartement haussmannien dans le 16e arrondissement ne requiert pas les mêmes compétences qu'un loft dans le 11e.** Interrogez votre entourage, mais aussi les professionnels de l'immobilier ou les artisans du bâtiment qui peuvent recommander des architectes d'intérieur avec lesquels ils ont l'habitude de collaborer.
+
+---
+
+<h2 id="criteres-verifier">Quels critères vérifier avant de choisir ?</h2>
+
+### La certification CFAI : un gage de compétence
+
+Contrairement à la profession d'architecte DPLG, **le métier d'architecte d'intérieur n'est pas réglementé en France**. N'importe qui peut théoriquement s'en prévaloir. C'est pourquoi la certification délivrée par le Conseil Français des Architectes d'Intérieur représente un repère essentiel. Pour mieux comprendre les missions de ce professionnel, découvrez notre article sur [le rôle de l'architecte d'intérieur](/fr/blog/role-architecte-interieur). Et si vous hésitez entre différents types de professionnels, notre comparatif [architecte d'intérieur ou décorateur](/fr/blog/decorateur-ou-architecte-interieur) vous aidera à y voir plus clair.
+
+Pour obtenir le titre d'« Architecte d'Intérieur CFAI », le professionnel doit soit être diplômé d'une école reconnue par le CFAI et justifier de 3 années de pratique professionnelle, soit passer avec succès devant une commission de reconnaissance de compétence. Cette certification garantit une formation solide (5 années d'études minimum) et une expérience vérifiée.
+
+### Les assurances obligatoires : décennale et RC Pro
+
+Tout architecte d'intérieur réalisant des missions de maîtrise d'œuvre est soumis à l'obligation de souscrire une assurance décennale et une responsabilité civile professionnelle. Ces garanties, imposées par la loi Spinetta de 1978 et les articles 1792 et suivants du Code civil, vous protègent en cas de malfaçons ou de dommages.
+
+**Exigez systématiquement une attestation d'assurance à jour.** Celle-ci doit mentionner les coordonnées de l'assureur, le numéro de contrat et la couverture géographique. Un professionnel sérieux vous la transmettra spontanément et fera figurer ces informations sur ses devis et factures.
+
+### Le portfolio : vérifier l'adéquation avec votre projet
+
+Chaque architecte d'intérieur développe une sensibilité esthétique et des domaines d'expertise spécifiques. Certains excellent dans la rénovation d'appartements haussmanniens, d'autres dans les espaces contemporains ou les petites surfaces.
+
+Demandez à consulter des réalisations comparables à votre projet en termes de surface, de style architectural, de budget et de contraintes techniques. **Un bon portfolio doit montrer des avant/après, des détails de finitions et idéalement des témoignages de clients.**
+
+<div className="not-prose my-10">
+  <h3 className="font-display text-lg font-semibold text-neutral-950 mb-6">Tableau des critères essentiels à vérifier</h3>
+  <div className="overflow-x-auto rounded-2xl border border-neutral-200">
+    <table className="w-full text-sm">
+      <thead>
+        <tr className="bg-neutral-950 text-white">
+          <th className="px-4 py-3 text-left font-semibold">Critère</th>
+          <th className="px-4 py-3 text-left font-semibold">Ce qu'il faut vérifier</th>
+          <th className="px-4 py-3 text-center font-semibold">Importance</th>
+        </tr>
+      </thead>
+      <tbody className="divide-y divide-neutral-100">
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Certification CFAI</td>
+          <td className="px-4 py-3 text-neutral-600">Inscription à l'annuaire du CFAI</td>
+          <td className="px-4 py-3 text-center text-neutral-950 font-medium">Essentiel</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Assurance décennale</td>
+          <td className="px-4 py-3 text-neutral-600">Attestation à jour, numéro de contrat</td>
+          <td className="px-4 py-3 text-center text-neutral-950 font-medium">Essentiel</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">RC Professionnelle</td>
+          <td className="px-4 py-3 text-neutral-600">Couverture des dommages hors décennale</td>
+          <td className="px-4 py-3 text-center text-neutral-950 font-medium">Essentiel</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Portfolio</td>
+          <td className="px-4 py-3 text-neutral-600">Projets similaires au vôtre</td>
+          <td className="px-4 py-3 text-center text-neutral-600">Important</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Références clients</td>
+          <td className="px-4 py-3 text-neutral-600">Témoignages vérifiables</td>
+          <td className="px-4 py-3 text-center text-neutral-600">Important</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Proximité géographique</td>
+          <td className="px-4 py-3 text-neutral-600">Facilité de suivi de chantier</td>
+          <td className="px-4 py-3 text-center text-neutral-400">Recommandé</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Disponibilité</td>
+          <td className="px-4 py-3 text-neutral-600">Délai de démarrage compatible</td>
+          <td className="px-4 py-3 text-center text-neutral-400">Recommandé</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+---
+
+<h2 id="questions-premier-rdv">Quelles questions poser lors du premier rendez-vous ?</h2>
+
+### Questions sur le parcours et les compétences
+
+Le premier rendez-vous avec un architecte d'intérieur est déterminant. **Préparez une liste de questions pour évaluer son professionnalisme et l'adéquation avec votre projet.** Commencez par son parcours : quelle formation a-t-il suivie ? Est-il certifié CFAI ? Depuis combien d'années exerce-t-il ?
+
+Interrogez-le sur son expérience avec des projets similaires au vôtre. A-t-il déjà rénové des appartements dans votre arrondissement ? Connaît-il les spécificités des immeubles de votre époque (haussmannien, années 30, contemporain) ? Quelles difficultés a-t-il rencontrées et comment les a-t-il résolues ?
+
+### Questions sur la méthodologie et l'organisation
+
+Chaque architecte d'intérieur a sa propre méthode de travail. Demandez-lui de vous expliquer les étapes de son intervention, depuis l'étude préliminaire jusqu'à la réception des travaux. **Qui seront vos interlocuteurs au quotidien ?** Travaille-t-il seul ou en équipe ? Fait-il appel à des sous-traitants ?
+
+Clarifiez également le périmètre de sa mission. Propose-t-il uniquement la conception (plans, visuels 3D) ou assure-t-il également le suivi de chantier ? Peut-il vous accompagner dans les démarches administratives si nécessaire (déclaration préalable, accord de copropriété) ?
+
+### Questions sur le budget et les délais
+
+Abordez la question financière dès le premier rendez-vous. **Quel est son mode de facturation** (pourcentage, forfait, tarif horaire) ? Quels sont ses honoraires habituels pour un projet comparable au vôtre ? Ces honoraires incluent-ils la TVA ? Pour mieux comprendre les grilles tarifaires, consultez notre [guide complet des tarifs d'architectes d'intérieur à Paris](/fr/blog/tarif-architecte-interieur-paris).
+
+Demandez également une estimation des délais : combien de temps pour la phase d'étude ? Pour les travaux ? Y a-t-il des contraintes de planning à anticiper (disponibilité des artisans, délais de fabrication de mobilier sur mesure) ?
+
+<div className="not-prose my-10">
+  <h3 className="font-display text-lg font-semibold text-neutral-950 mb-6">Checklist des questions essentielles</h3>
+  <div className="overflow-x-auto rounded-2xl border border-neutral-200">
+    <table className="w-full text-sm">
+      <thead>
+        <tr className="bg-neutral-950 text-white">
+          <th className="px-4 py-3 text-left font-semibold">Thème</th>
+          <th className="px-4 py-3 text-left font-semibold">Questions à poser</th>
+        </tr>
+      </thead>
+      <tbody className="divide-y divide-neutral-100">
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Parcours</td>
+          <td className="px-4 py-3 text-neutral-600">Formation ? Certification CFAI ? Années d'expérience ?</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Assurances</td>
+          <td className="px-4 py-3 text-neutral-600">Attestation décennale ? RC Pro ?</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Expérience</td>
+          <td className="px-4 py-3 text-neutral-600">Projets similaires réalisés ? Références à contacter ?</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Méthodologie</td>
+          <td className="px-4 py-3 text-neutral-600">Étapes du projet ? Livrables fournis ? Outils utilisés ?</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Organisation</td>
+          <td className="px-4 py-3 text-neutral-600">Travail en équipe ? Sous-traitants ? Interlocuteur unique ?</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Budget</td>
+          <td className="px-4 py-3 text-neutral-600">Mode de facturation ? Estimation des honoraires ? TVA ?</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Délais</td>
+          <td className="px-4 py-3 text-neutral-600">Planning prévisionnel ? Disponibilité pour démarrer ?</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Artisans</td>
+          <td className="px-4 py-3 text-neutral-600">Réseau d'entreprises ? Gestion des appels d'offres ?</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+---
+
+<h2 id="comparer-devis">Comment comparer plusieurs devis d'architectes d'intérieur ?</h2>
+
+### Vérifier que les périmètres sont identiques
+
+Comparer des devis d'architectes d'intérieur n'est pertinent que si les prestations proposées sont équivalentes. **Un tarif plus bas peut masquer une mission incomplète** : absence de suivi de chantier, nombre limité de révisions sur les plans, pas de visuels 3D...
+
+Pour chaque devis, listez précisément ce qui est inclus dans les phases d'étude (relevé de l'existant, plans, coupes, perspectives, planches matériaux), les phases de consultation des entreprises (rédaction du cahier des charges, analyse des devis, négociation) et les phases d'exécution (suivi de chantier, réunions, réception des travaux).
+
+### Analyser le détail des honoraires
+
+Les architectes d'intérieur peuvent facturer de différentes manières. Le pourcentage sur travaux (généralement 10-15 %) est le plus courant pour les missions complètes. Le forfait au m² convient aux projets bien définis. Le tarif horaire s'applique plutôt aux missions de conseil ponctuelles.
+
+**Demandez une ventilation des honoraires par phase** pour comprendre la répartition du travail et identifier d'éventuels postes manquants. Un devis bien structuré détaille les différentes étapes et permet de comparer objectivement.
+
+### Évaluer le feeling et la communication
+
+Au-delà des chiffres, **la qualité de la relation humaine est déterminante** pour la réussite d'un projet qui peut durer plusieurs mois. Évaluez la réactivité du professionnel (délai de réponse à vos sollicitations), sa capacité d'écoute et sa pédagogie pour vous expliquer les choix techniques.
+
+Un bon architecte d'intérieur doit savoir vous challenger sur vos idées tout en respectant vos goûts et contraintes. Si le courant ne passe pas dès le premier rendez-vous, il y a peu de chances que la collaboration soit fluide.
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Laissez-nous vous suggérer un architecte d'intérieur</Button>
+</div>
+
+---
+
+<h2 id="erreurs-eviter">Quelles erreurs éviter dans votre recherche ?</h2>
+
+### Choisir uniquement sur le critère du prix
+
+Le tarif est évidemment important, mais **un architecte d'intérieur trop bon marché doit alerter**. Des honoraires anormalement bas peuvent traduire un manque d'expérience, l'absence d'assurances adéquates ou une prestation au rabais qui vous coûtera plus cher in fine (erreurs à corriger, retards, malfaçons).
+
+À l'inverse, un tarif élevé ne garantit pas automatiquement la qualité. Privilégiez un professionnel dont les honoraires sont cohérents avec le marché parisien et justifiés par des compétences vérifiables.
+
+### Négliger la vérification des assurances
+
+Trop de particuliers oublient de demander les attestations d'assurance avant de signer. **En cas de sinistre, l'absence de garantie décennale peut avoir des conséquences financières désastreuses.** Un dégât des eaux causé par une mauvaise installation, un problème de structure non détecté... les risques existent même sur des projets apparemment simples.
+
+Vérifiez que l'assurance est bien à jour (date de validité), qu'elle couvre les activités de maîtrise d'œuvre et que la zone géographique inclut Paris et l'Île-de-France.
+
+### Confondre décorateur et architecte d'intérieur
+
+Un décorateur d'intérieur intervient sur l'esthétique : choix des couleurs, mobilier, textiles, accessoires. **Un architecte d'intérieur va plus loin** en repensant les volumes, en modifiant l'agencement des pièces, en supervisant des travaux techniques (électricité, plomberie, cloisons).
+
+Si votre projet implique des modifications structurelles ou une redistribution des espaces, un décorateur n'aura pas les compétences ni les assurances requises. Assurez-vous de faire appel au bon professionnel selon la nature de vos travaux.
+
+### Se fier uniquement aux photos Instagram
+
+Les réseaux sociaux sont utiles pour découvrir le travail d'un architecte d'intérieur, mais **les photos ne racontent pas toute l'histoire**. Elles ne montrent ni le respect des délais, ni la gestion du budget, ni la qualité de la communication avec le client.
+
+Demandez toujours des références de clients que vous pourrez contacter directement. Leurs retours d'expérience sur le déroulement concret du projet seront bien plus instructifs qu'une belle image sur Instagram.
+
+<div className="not-prose my-10">
+  <h3 className="font-display text-lg font-semibold text-neutral-950 mb-6">Tableau des erreurs fréquentes et solutions</h3>
+  <div className="overflow-x-auto rounded-2xl border border-neutral-200">
+    <table className="w-full text-sm">
+      <thead>
+        <tr className="bg-neutral-950 text-white">
+          <th className="px-4 py-3 text-left font-semibold">Erreur courante</th>
+          <th className="px-4 py-3 text-left font-semibold">Risque</th>
+          <th className="px-4 py-3 text-left font-semibold">Solution</th>
+        </tr>
+      </thead>
+      <tbody className="divide-y divide-neutral-100">
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Choisir le moins cher</td>
+          <td className="px-4 py-3 text-neutral-600">Prestations incomplètes, malfaçons</td>
+          <td className="px-4 py-3 text-neutral-600">Comparer à périmètre égal</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Oublier les assurances</td>
+          <td className="px-4 py-3 text-neutral-600">Aucun recours en cas de sinistre</td>
+          <td className="px-4 py-3 text-neutral-600">Exiger les attestations</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Confondre décorateur/architecte</td>
+          <td className="px-4 py-3 text-neutral-600">Compétences inadaptées</td>
+          <td className="px-4 py-3 text-neutral-600">Vérifier les qualifications</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Se fier aux réseaux sociaux</td>
+          <td className="px-4 py-3 text-neutral-600">Image déconnectée de la réalité</td>
+          <td className="px-4 py-3 text-neutral-600">Contacter d'anciens clients</td>
+        </tr>
+        <tr className="bg-white">
+          <td className="px-4 py-3 font-medium text-neutral-950">Signer sans RDV sur site</td>
+          <td className="px-4 py-3 text-neutral-600">Projet mal évalué</td>
+          <td className="px-4 py-3 text-neutral-600">Organiser une visite</td>
+        </tr>
+        <tr className="bg-neutral-50/50">
+          <td className="px-4 py-3 font-medium text-neutral-950">Ne pas définir son budget</td>
+          <td className="px-4 py-3 text-neutral-600">Propositions hors budget</td>
+          <td className="px-4 py-3 text-neutral-600">Annoncer l'enveloppe dès le départ</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+---
+
+<h2 id="intermediaire-specialise">Pourquoi passer par un intermédiaire spécialisé ?</h2>
+
+Trouver le bon architecte d'intérieur demande du temps : identifier les professionnels pertinents, vérifier leurs références, comparer les devis, évaluer la compatibilité humaine... **Pour un particulier qui découvre cet univers, le parcours peut s'avérer long et incertain.**
+
+C'est précisément pour simplifier cette démarche que des services de mise en relation spécialisés existent. Leur valeur ajoutée réside dans la connaissance approfondie du marché parisien, la pré-qualification des professionnels et la capacité à identifier rapidement les profils adaptés à chaque projet.
+
+**Hauss Paris accompagne particuliers et professionnels dans leurs projets d'architecture d'intérieur à Paris.** Intermédiaire spécialisé, nous facilitons la rencontre entre votre projet et un architecte d'intérieur adapté à vos besoins, votre style, votre budget et votre manière de travailler.
+
+Que vous souhaitiez rénover un studio, repenser un appartement familial ou transformer un haussmannien dans les beaux quartiers, nous analysons votre projet et vous présentons des professionnels dont les compétences et la sensibilité correspondent à vos attentes. Notre connaissance du marché parisien et notre réseau d'architectes d'intérieur qualifiés vous font gagner un temps précieux tout en sécurisant votre choix.
+
+Du studio au grand haussmannien, pour une clientèle française et internationale, nous proposons une approche humaine et structurée qui vous permet d'avancer sereinement dans votre projet.
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Laissez-nous vous suggérer un architecte d'intérieur</Button>
+</div>
+
+---
+
+<h2 id="faq">FAQ : Vos questions sur la recherche d'un architecte d'intérieur</h2>
+
+### Comment vérifier si un architecte d'intérieur est certifié CFAI ?
+
+Vous pouvez rechercher le nom du professionnel dans l'<a href="https://www.cfai.fr/fr" target="_blank" rel="noopener noreferrer">annuaire en ligne du CFAI</a>. Si son profil apparaît, cela signifie qu'il a été reconnu compétent par le Conseil Français des Architectes d'Intérieur après un processus exigeant incluant la vérification de sa formation et de son expérience professionnelle. Vous pouvez également contacter directement le secrétariat du CFAI pour confirmer son inscription.
+
+### Le premier rendez-vous avec un architecte d'intérieur est-il payant ?
+
+Les pratiques varient selon les professionnels. Certains offrent un premier rendez-vous gratuit (30 minutes à 1 heure) pour évaluer le projet et établir un premier contact. D'autres facturent cette consultation entre 80 € et 200 €, montant parfois déduit des honoraires si vous signez un contrat. **Posez systématiquement la question avant de prendre rendez-vous** pour éviter les surprises.
+
+### Combien d'architectes d'intérieur faut-il rencontrer avant de choisir ?
+
+Il est recommandé de rencontrer au minimum 2 à 3 professionnels pour avoir des points de comparaison pertinents. Cela vous permettra d'évaluer différentes approches, de comparer les tarifs et surtout de **sentir avec qui le courant passe le mieux**. Au-delà de 4 ou 5 rendez-vous, vous risquez de vous disperser et de perdre en efficacité.
+
+### Un architecte d'intérieur peut-il intervenir sur un bien que je n'ai pas encore acheté ?
+
+Oui, et c'est même recommandé. Un architecte d'intérieur peut vous accompagner dans l'évaluation d'un bien avant achat pour estimer le potentiel d'aménagement, identifier les contraintes techniques et chiffrer les travaux nécessaires. **Cette prestation de conseil avant acquisition peut vous éviter de mauvaises surprises** et vous aider à négocier le prix d'achat en connaissance de cause.
+
+---
+
+*Sources : CFAI (Conseil Français des Architectes d'Intérieur), Loi Spinetta 1978, Articles 1792 et suivants du Code civil*
+
+    </div>
+  </FadeIn>
+</Container>
+
