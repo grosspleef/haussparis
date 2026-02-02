@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/choix-mobilier-design-paris.jpg'
 import imageWhiteboard from '@/images/decoration-salon-contemporain-paris.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function DecorationService() {
   const t = useTranslations('DecorationService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.decoration}>
     <RootLayout>
       <PageIntro
         eyebrow={t('eyebrow')}
@@ -133,6 +136,7 @@ export default function DecorationService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

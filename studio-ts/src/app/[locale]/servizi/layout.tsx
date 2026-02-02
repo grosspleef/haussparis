@@ -19,6 +19,8 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
         'en': '/en/services',
         'fr': '/fr/services',
         'it': '/it/servizi',
+        'de': '/de/dienstleistungen',
+        'es': '/es/servicios',
         'x-default': '/en/services',
       },
     },

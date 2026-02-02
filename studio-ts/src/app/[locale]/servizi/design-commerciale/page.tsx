@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/architecture-commerciale-paris.jpg'
 import imageWhiteboard from '@/images/design-boutique-commerce-paris.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function CommercialDesignService() {
   const t = useTranslations('CommercialDesignService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.commercialDesign}>
     <RootLayout>
       <PageIntro
         eyebrow={t('eyebrow')}
@@ -133,6 +136,7 @@ export default function CommercialDesignService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

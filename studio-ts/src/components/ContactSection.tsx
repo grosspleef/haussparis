@@ -1,14 +1,18 @@
 'use client'
 
 import { useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { Offices } from '@/components/Offices'
+import { contactSlugs, type Locale } from '@/lib/routes'
 
 export function ContactSection() {
   const t = useTranslations('ContactSection')
-  
+  const params = useParams()
+  const locale = (params?.locale as Locale) || 'en'
+
   return (
     <Container className="mt-24 sm:mt-32 lg:mt-40">
       <FadeIn className="-mx-6 rounded-4xl bg-neutral-950 px-6 py-20 sm:mx-0 sm:py-32 md:px-12">
@@ -18,7 +22,7 @@ export function ContactSection() {
               {t('title')}
             </h2>
             <div className="mt-6 flex">
-              <Button href="/contact" invert>
+              <Button href={`/${contactSlugs[locale]}`} invert>
                 {t('button')}
               </Button>
             </div>

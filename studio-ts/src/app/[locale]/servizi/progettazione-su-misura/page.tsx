@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/conseil-decoration-interieure-paris.jpg'
 import imageWhiteboard from '@/images/amenagement-sur-mesure-paris-luxe.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function CustomLayoutService() {
   const t = useTranslations('CustomLayoutService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.customLayout}>
     <RootLayout>
       <PageIntro
         eyebrow={t('eyebrow')}
@@ -133,6 +136,7 @@ export default function CustomLayoutService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

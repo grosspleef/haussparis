@@ -34,6 +34,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
         'fr': '/fr/notre-processus',
         'it': '/it/il-processo',
         'de': '/de/unser-prozess',
+        'es': '/es/nuestro-proceso',
         'x-default': '/en/our-process',
       },
     },
@@ -58,12 +59,13 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 }
 
 // Languages available for this page (from alternates.languages in generateMetadata)
-const availableLocales: Locale[] = ['en', 'fr', 'it', 'de']
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
 const localeUrls: Partial<Record<Locale, string>> = {
   en: '/en/our-process',
   fr: '/fr/notre-processus',
   it: '/it/il-processo',
   de: '/de/unser-prozess',
+  es: '/es/nuestro-proceso',
 }
 
 export default async function UnserProzess(props: Props) {

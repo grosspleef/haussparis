@@ -11,6 +11,17 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { MainServices } from '@/components/MainServices'
 import { PageIntro } from '@/components/PageIntro'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import type { Locale } from '@/lib/routes'
+
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
+const localeUrls: Partial<Record<Locale, string>> = {
+  en: '/en/services',
+  fr: '/fr/services',
+  it: '/it/servizi',
+  de: '/de/dienstleistungen',
+  es: '/es/servicios',
+}
 
 function ArrowIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -82,6 +93,7 @@ export default function Servicios() {
   ]
 
   return (
+    <AvailableLocalesProvider availableLocales={availableLocales} localeUrls={localeUrls}>
     <RootLayout>
       <PageIntro
         eyebrow={t('eyebrow')}
@@ -158,6 +170,7 @@ export default function Servicios() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

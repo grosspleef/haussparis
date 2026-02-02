@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageBoutique1 from '@/images/design-boutique-commerce-paris.jpg'
 import imageBoutique2 from '@/images/architecture-commerciale-paris.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function DisenoComercialService() {
   const t = useTranslations('CommercialDesignService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.commercialDesign}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro')}</p>
@@ -94,6 +97,7 @@ export default function DisenoComercialService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

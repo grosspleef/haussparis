@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/conception-3d-architecte-interieur-paris.jpg'
 import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function GewerbedesignService() {
   const t = useTranslations('CommercialDesignService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.commercialDesign}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro')}</p>
@@ -94,6 +97,7 @@ export default function GewerbedesignService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

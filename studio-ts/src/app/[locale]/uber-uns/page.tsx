@@ -131,6 +131,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
         'fr': '/fr/a-propos',
         'it': '/it/chi-siamo',
         'de': '/de/uber-uns',
+        'es': '/es/sobre-nosotros',
         'x-default': '/en/about',
       },
     },
@@ -155,12 +156,13 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 }
 
 // Languages available for this page (from alternates.languages in generateMetadata)
-const availableLocales: Locale[] = ['en', 'fr', 'it', 'de']
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
 const localeUrls: Partial<Record<Locale, string>> = {
   en: '/en/about',
   fr: '/fr/a-propos',
   it: '/it/chi-siamo',
   de: '/de/uber-uns',
+  es: '/es/sobre-nosotros',
 }
 
 export default async function UberUns(props: Props) {

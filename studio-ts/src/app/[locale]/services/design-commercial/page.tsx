@@ -16,6 +16,8 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/architecture-commerciale-paris.jpg'
 import imageWhiteboard from '@/images/design-boutique-commerce-paris.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function CommercialDesignService() {
   const t = useTranslations('CommercialDesignService')
@@ -27,6 +29,7 @@ export default function CommercialDesignService() {
       : '/blog/tarif-architecte-interieur-paris'
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.commercialDesign}>
     <RootLayout>
       <PageIntro eyebrow={t('metadata.eyebrow')} title={t('metadata.title')}>
         <p>{t('metadata.description')}</p>
@@ -936,5 +939,6 @@ export default function CommercialDesignService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }

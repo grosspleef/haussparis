@@ -16,6 +16,8 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/conception-3d-architecte-interieur-paris.jpg'
 import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function DecoratorParisService() {
   const t = useTranslations('DecoratorParisService')
@@ -24,6 +26,7 @@ export default function DecoratorParisService() {
   const architectUrl = locale === 'en' ? '/services/interior-designer-paris' : '/services/architecte-interieur-paris'
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.decorateurInterieurParis}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro')}</p>
@@ -552,5 +555,6 @@ export default function DecoratorParisService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }

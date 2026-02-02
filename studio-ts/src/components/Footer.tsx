@@ -9,17 +9,24 @@ import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { Logo } from '@/components/Logo'
 import { socialMediaProfiles } from '@/components/SocialMedia'
+import {
+  aboutSlugs,
+  processSlugs,
+  contactSlugs,
+  servicesSlugs,
+  type Locale,
+} from '@/lib/routes'
 
 function Navigation() {
   const t = useTranslations('Footer')
   const params = useParams()
-  const locale = (params?.locale as string) || 'fr'
-  
-  // Determine URLs based on locale
-  const aboutUrl = locale === 'en' ? '/about' : locale === 'fr' ? '/a-propos' : locale === 'it' ? '/chi-siamo' : locale === 'de' ? '/uber-uns' : '/sobre-nosotros'
-  const processUrl = locale === 'en' ? '/our-process' : locale === 'fr' ? '/notre-processus' : locale === 'it' ? '/il-processo' : locale === 'de' ? '/unser-prozess' : '/nuestro-proceso'
-  const contactUrl = locale === 'it' ? '/contatti' : locale === 'de' ? '/kontakt' : locale === 'es' ? '/contacto' : '/contact'
-  const servicesUrl = locale === 'de' ? '/dienstleistungen' : locale === 'it' ? '/servizi' : locale === 'es' ? '/servicios' : '/services'
+  const locale = (params?.locale as Locale) || 'fr'
+
+  // Determine URLs based on locale using centralized routes
+  const aboutUrl = `/${aboutSlugs[locale]}`
+  const processUrl = `/${processSlugs[locale]}`
+  const contactUrl = `/${contactSlugs[locale]}`
+  const servicesUrl = `/${servicesSlugs[locale]}`
   const renovationUrl = locale === 'de' ? '/dienstleistungen/renovierung' : locale === 'it' ? '/servizi/ristrutturazione' : locale === 'es' ? '/servicios/renovacion' : '/services/renovation'
   const decorationUrl = locale === 'de' ? '/dienstleistungen/dekoration' : locale === 'it' ? '/servizi/decorazione' : locale === 'es' ? '/servicios/decoracion' : '/services/decoration'
   const furnishingUrl = locale === 'en' ? '/services/furnishing' : locale === 'fr' ? '/services/ameublement' : locale === 'it' ? '/servizi/arredamento' : locale === 'de' ? '/dienstleistungen/einrichtung' : '/servicios/mobiliario'

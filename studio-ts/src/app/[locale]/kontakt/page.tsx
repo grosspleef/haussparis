@@ -89,6 +89,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
         'fr': '/fr/contact',
         'it': '/it/contatti',
         'de': '/de/kontakt',
+        'es': '/es/contacto',
         'x-default': '/en/contact',
       },
     },
@@ -113,12 +114,13 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 }
 
 // Languages available for this page (from alternates.languages in generateMetadata)
-const availableLocales: Locale[] = ['en', 'fr', 'it', 'de']
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
 const localeUrls: Partial<Record<Locale, string>> = {
   en: '/en/contact',
   fr: '/fr/contact',
   it: '/it/contatti',
   de: '/de/kontakt',
+  es: '/es/contacto',
 }
 
 export default async function Kontakt(props: Props) {

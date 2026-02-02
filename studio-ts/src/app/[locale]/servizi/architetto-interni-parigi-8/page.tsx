@@ -16,6 +16,8 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/conception-3d-architecte-interieur-paris.jpg'
 import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function ArchitettoInterniParigi8Service() {
   const t = useTranslations('ArchitecteParis8Service')
@@ -26,6 +28,7 @@ export default function ArchitettoInterniParigi8Service() {
   const mainServiceUrl = locale === 'en' ? '/en/services/interior-designer-paris' : locale === 'fr' ? '/fr/services/architecte-interieur-paris' : locale === 'it' ? '/it/servizi/architetto-interni-parigi' : locale === 'de' ? '/de/dienstleistungen/innenarchitekt-paris' : '/es/servicios/disenador-interiores-paris'
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.architecteInterieurParis8}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro')}</p>
@@ -245,5 +248,6 @@ export default function ArchitettoInterniParigi8Service() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }

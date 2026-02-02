@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/salle-de-bain-marbre-paris-renovation.jpg'
 import imageWhiteboard from '@/images/cuisine-equipee-paris-design.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function KitchenBathroomService() {
   const t = useTranslations('KitchenBathroomService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.kitchenBathroom}>
     <RootLayout>
       <PageIntro
         eyebrow={t('eyebrow')}
@@ -133,6 +136,7 @@ export default function KitchenBathroomService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

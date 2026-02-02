@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageEclairage1 from '@/images/design-eclairage-appartement-paris.jpg'
 import imageEclairage2 from '@/images/luminaires-design-interieur-paris.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function DisenoIluminacionService() {
   const t = useTranslations('LightingDesignService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.lightingDesign}>
     <RootLayout>
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro')}</p>
@@ -94,6 +97,7 @@ export default function DisenoIluminacionService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

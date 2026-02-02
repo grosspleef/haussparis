@@ -88,6 +88,9 @@ export async function generateMetadata({
       languages: {
         'en': '/en',
         'fr': '/fr',
+        'it': '/it',
+        'de': '/de',
+        'es': '/es',
         'x-default': '/en',
       },
     },
@@ -111,10 +114,13 @@ export async function generateMetadata({
 }
 
 // Languages available for this page (from alternates.languages in generateMetadata)
-const availableLocales: Locale[] = ['en', 'fr']
+const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
 const localeUrls: Partial<Record<Locale, string>> = {
   en: '/en',
   fr: '/fr',
+  it: '/it',
+  de: '/de',
+  es: '/es',
 }
 
 export default function Home() {

@@ -24,6 +24,16 @@ export const frServiceSlugs = {
   commercialDesign: 'design-commercial',
   architecteInterieurParis: 'architecte-interieur-paris',
   decorateurInterieurParis: 'decorateur-interieur-paris',
+  architecteInterieurParis3: 'architecte-interieur-paris-3',
+  architecteInterieurParis4: 'architecte-interieur-paris-4',
+  architecteInterieurParis6: 'architecte-interieur-paris-6',
+  architecteInterieurParis7: 'architecte-interieur-paris-7',
+  architecteInterieurParis8: 'architecte-interieur-paris-8',
+  architecteInterieurParis9: 'architecte-interieur-paris-9',
+  architecteInterieurParis11: 'architecte-interieur-paris-11',
+  architecteInterieurParis15: 'architecte-interieur-paris-15',
+  architecteInterieurParis16: 'architecte-interieur-paris-16',
+  architecteInterieurParis17: 'architecte-interieur-paris-17',
 } as const
 
 export const enServiceSlugs = {
@@ -39,6 +49,16 @@ export const enServiceSlugs = {
   commercialDesign: 'commercial-design',
   architecteInterieurParis: 'interior-designer-paris',
   decorateurInterieurParis: 'interior-decorator-paris',
+  architecteInterieurParis3: 'interior-designer-paris-3',
+  architecteInterieurParis4: 'interior-designer-paris-4',
+  architecteInterieurParis6: 'interior-designer-paris-6',
+  architecteInterieurParis7: 'interior-designer-paris-7',
+  architecteInterieurParis8: 'interior-designer-paris-8',
+  architecteInterieurParis9: 'interior-designer-paris-9',
+  architecteInterieurParis11: 'interior-designer-paris-11',
+  architecteInterieurParis15: 'interior-designer-paris-15',
+  architecteInterieurParis16: 'interior-designer-paris-16',
+  architecteInterieurParis17: 'interior-designer-paris-17',
 } as const
 
 export const itServiceSlugs = {
@@ -54,6 +74,16 @@ export const itServiceSlugs = {
   commercialDesign: 'design-commerciale',
   architecteInterieurParis: 'architetto-interni-parigi',
   decorateurInterieurParis: 'decoratore-interni-parigi',
+  architecteInterieurParis3: 'architetto-interni-parigi-3',
+  architecteInterieurParis4: 'architetto-interni-parigi-4',
+  architecteInterieurParis6: 'architetto-interni-parigi-6',
+  architecteInterieurParis7: 'architetto-interni-parigi-7',
+  architecteInterieurParis8: 'architetto-interni-parigi-8',
+  architecteInterieurParis9: 'architetto-interni-parigi-9',
+  architecteInterieurParis11: 'architetto-interni-parigi-11',
+  architecteInterieurParis15: 'architetto-interni-parigi-15',
+  architecteInterieurParis16: 'architetto-interni-parigi-16',
+  architecteInterieurParis17: 'architetto-interni-parigi-17',
 } as const
 
 export const deServiceSlugs = {
@@ -69,6 +99,16 @@ export const deServiceSlugs = {
   commercialDesign: 'gewerbedesign',
   architecteInterieurParis: 'innenarchitekt-paris',
   decorateurInterieurParis: 'innendekorateur-paris',
+  architecteInterieurParis3: 'innenarchitekt-paris-3',
+  architecteInterieurParis4: 'innenarchitekt-paris-4',
+  architecteInterieurParis6: 'innenarchitekt-paris-6',
+  architecteInterieurParis7: 'innenarchitekt-paris-7',
+  architecteInterieurParis8: 'innenarchitekt-paris-8',
+  architecteInterieurParis9: 'innenarchitekt-paris-9',
+  architecteInterieurParis11: 'innenarchitekt-paris-11',
+  architecteInterieurParis15: 'innenarchitekt-paris-15',
+  architecteInterieurParis16: 'innenarchitekt-paris-16',
+  architecteInterieurParis17: 'innenarchitekt-paris-17',
 } as const
 
 export const esServiceSlugs = {
@@ -84,6 +124,16 @@ export const esServiceSlugs = {
   commercialDesign: 'diseno-comercial',
   architecteInterieurParis: 'disenador-interiores-paris',
   decorateurInterieurParis: 'decorador-interiores-paris',
+  architecteInterieurParis3: 'disenador-interiores-paris-3',
+  architecteInterieurParis4: 'disenador-interiores-paris-4',
+  architecteInterieurParis6: 'disenador-interiores-paris-6',
+  architecteInterieurParis7: 'disenador-interiores-paris-7',
+  architecteInterieurParis8: 'disenador-interiores-paris-8',
+  architecteInterieurParis9: 'disenador-interiores-paris-9',
+  architecteInterieurParis11: 'disenador-interiores-paris-11',
+  architecteInterieurParis15: 'disenador-interiores-paris-15',
+  architecteInterieurParis16: 'disenador-interiores-paris-16',
+  architecteInterieurParis17: 'disenador-interiores-paris-17',
 } as const
 
 export type ServiceKey = keyof typeof frServiceSlugs
@@ -224,5 +274,75 @@ export const routes: Record<ServiceKey, Record<Locale, string>> = {
     it: '/it/servizi/decoratore-interni-parigi',
     de: '/de/dienstleistungen/innendekorateur-paris',
     es: '/es/servicios/decorador-interiores-paris',
+  },
+  architecteInterieurParis3: {
+    en: '/en/services/interior-designer-paris-3',
+    fr: '/fr/services/architecte-interieur-paris-3',
+    it: '/it/servizi/architetto-interni-parigi-3',
+    de: '/de/dienstleistungen/innenarchitekt-paris-3',
+    es: '/es/servicios/disenador-interiores-paris-3',
+  },
+  architecteInterieurParis4: {
+    en: '/en/services/interior-designer-paris-4',
+    fr: '/fr/services/architecte-interieur-paris-4',
+    it: '/it/servizi/architetto-interni-parigi-4',
+    de: '/de/dienstleistungen/innenarchitekt-paris-4',
+    es: '/es/servicios/disenador-interiores-paris-4',
+  },
+  architecteInterieurParis6: {
+    en: '/en/services/interior-designer-paris-6',
+    fr: '/fr/services/architecte-interieur-paris-6',
+    it: '/it/servizi/architetto-interni-parigi-6',
+    de: '/de/dienstleistungen/innenarchitekt-paris-6',
+    es: '/es/servicios/disenador-interiores-paris-6',
+  },
+  architecteInterieurParis7: {
+    en: '/en/services/interior-designer-paris-7',
+    fr: '/fr/services/architecte-interieur-paris-7',
+    it: '/it/servizi/architetto-interni-parigi-7',
+    de: '/de/dienstleistungen/innenarchitekt-paris-7',
+    es: '/es/servicios/disenador-interiores-paris-7',
+  },
+  architecteInterieurParis8: {
+    en: '/en/services/interior-designer-paris-8',
+    fr: '/fr/services/architecte-interieur-paris-8',
+    it: '/it/servizi/architetto-interni-parigi-8',
+    de: '/de/dienstleistungen/innenarchitekt-paris-8',
+    es: '/es/servicios/disenador-interiores-paris-8',
+  },
+  architecteInterieurParis9: {
+    en: '/en/services/interior-designer-paris-9',
+    fr: '/fr/services/architecte-interieur-paris-9',
+    it: '/it/servizi/architetto-interni-parigi-9',
+    de: '/de/dienstleistungen/innenarchitekt-paris-9',
+    es: '/es/servicios/disenador-interiores-paris-9',
+  },
+  architecteInterieurParis11: {
+    en: '/en/services/interior-designer-paris-11',
+    fr: '/fr/services/architecte-interieur-paris-11',
+    it: '/it/servizi/architetto-interni-parigi-11',
+    de: '/de/dienstleistungen/innenarchitekt-paris-11',
+    es: '/es/servicios/disenador-interiores-paris-11',
+  },
+  architecteInterieurParis15: {
+    en: '/en/services/interior-designer-paris-15',
+    fr: '/fr/services/architecte-interieur-paris-15',
+    it: '/it/servizi/architetto-interni-parigi-15',
+    de: '/de/dienstleistungen/innenarchitekt-paris-15',
+    es: '/es/servicios/disenador-interiores-paris-15',
+  },
+  architecteInterieurParis16: {
+    en: '/en/services/interior-designer-paris-16',
+    fr: '/fr/services/architecte-interieur-paris-16',
+    it: '/it/servizi/architetto-interni-parigi-16',
+    de: '/de/dienstleistungen/innenarchitekt-paris-16',
+    es: '/es/servicios/disenador-interiores-paris-16',
+  },
+  architecteInterieurParis17: {
+    en: '/en/services/interior-designer-paris-17',
+    fr: '/fr/services/architecte-interieur-paris-17',
+    it: '/it/servizi/architetto-interni-parigi-17',
+    de: '/de/dienstleistungen/innenarchitekt-paris-17',
+    es: '/es/servicios/disenador-interiores-paris-17',
   },
 }

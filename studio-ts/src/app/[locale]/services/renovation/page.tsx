@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageConception3D from '@/images/conception-3d-architecte-interieur-paris.jpg'
 import imageAvantProjet from '@/images/renovation-appartement-paris-avant-projet.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function RenovationService() {
   const t = useTranslations('RenovationService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.renovation}>
     <RootLayout>
       <PageIntro
         eyebrow={t('eyebrow')}
@@ -133,6 +136,7 @@ export default function RenovationService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

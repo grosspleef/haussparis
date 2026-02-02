@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/design-espace-travail-paris.jpg'
 import imageWhiteboard from '@/images/amenagement-bureau-professionnel-paris.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function WorkplaceDesignService() {
   const t = useTranslations('WorkplaceDesignService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.officeDesign}>
     <RootLayout>
       <PageIntro
         eyebrow={t('eyebrow')}
@@ -133,6 +136,7 @@ export default function WorkplaceDesignService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 

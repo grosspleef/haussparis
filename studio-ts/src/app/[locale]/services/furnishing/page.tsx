@@ -14,11 +14,14 @@ import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/selection-meubles-architecte-interieur.jpg'
 import imageWhiteboard from '@/images/ameublement-appartement-parisien.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
+import { routes, locales } from '@/lib/routes'
 
 export default function FurnishingService() {
   const t = useTranslations('FurnishingService')
 
   return (
+    <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.furnishing}>
     <RootLayout>
       <PageIntro
         eyebrow={t('eyebrow')}
@@ -133,6 +136,7 @@ export default function FurnishingService() {
 
       <ContactSection />
     </RootLayout>
+    </AvailableLocalesProvider>
   )
 }
 
