@@ -12,6 +12,53 @@ import { RootLayout } from '@/components/RootLayout'
 import { formatDate } from '@/lib/formatDate'
 import { type Article, loadArticles } from '@/lib/mdx'
 
+// Article Schema component for SEO
+function ArticleSchema({
+  article,
+  articleUrl,
+}: {
+  article: Article
+  articleUrl: string
+}) {
+  const baseUrl = 'https://www.haussparis.com'
+
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.description,
+    datePublished: article.date,
+    dateModified: article.date,
+    author: {
+      '@type': 'Person',
+      name: article.author.name,
+      jobTitle: article.author.role,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Hauss Paris',
+      url: baseUrl,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${baseUrl}/logo.svg`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${baseUrl}${articleUrl}`,
+    },
+    image: `${baseUrl}/og-image.jpg`,
+    url: `${baseUrl}${articleUrl}`,
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
+}
+
 export default async function BlogArticleWrapper({
   article,
   children,
@@ -58,6 +105,8 @@ export default async function BlogArticleWrapper({
 
   return (
     <RootLayout>
+      {/* Article structured data for SEO */}
+      <ArticleSchema article={article} articleUrl={articleHref} />
       <Container as="article" className="mt-24 sm:mt-32 lg:mt-40">
         <FadeIn>
           {/* Breadcrumbs */}

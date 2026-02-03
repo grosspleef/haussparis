@@ -169,6 +169,8 @@
     "error": "Une erreur est survenue lors de l'envoi du message",
     "serverError": "Erreur du serveur. Vérifiez que le serveur est bien démarré et que la clé API Resend est configurée.",
     "requiredFields": "Les champs nom, email et message sont requis",
+    "invalidEmail": "Veuillez entrer une adresse email valide",
+    "inputTooLong": "Un ou plusieurs champs dépassent la longueur maximale autorisée",
     "emailSubjectConfirmation": "Confirmation de réception - HAUSS Paris",
     "emailSubjectNotification": "Nouveau contact : {name}",
     "emailConfirmation": {
@@ -2845,5 +2847,11 @@
       "button": "Contactez-nous",
       "servicesButton": "Découvrir nos services"
     }
+  },
+  "Error": {
+    "title": "Une erreur est survenue",
+    "description": "Nous nous excusons pour ce désagrément. Une erreur inattendue s'est produite. Veuillez réessayer ou retourner à la page d'accueil.",
+    "retry": "Réessayer",
+    "home": "Retour à l'accueil"
   }
 }

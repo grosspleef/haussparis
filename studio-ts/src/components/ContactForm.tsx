@@ -5,6 +5,12 @@ import { useTranslations, useLocale } from 'next-intl'
 import { Button } from '@/components/Button'
 import { FadeIn } from '@/components/FadeIn'
 
+// Validation constants
+const MAX_NAME_LENGTH = 100
+const MAX_EMAIL_LENGTH = 254
+const MAX_MESSAGE_LENGTH = 5000
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
 function TextInput({
   label,
   ...props
@@ -62,12 +68,44 @@ export function ContactForm() {
     setSubmitStatus({ type: null, message: '' })
 
     const formData = new FormData(e.currentTarget)
+    const name = (formData.get('name') as string)?.trim()
+    const email = (formData.get('email') as string)?.trim().toLowerCase()
+    const message = (formData.get('message') as string)?.trim()
+
+    // Client-side validation
+    if (!name || !email || !message) {
+      setSubmitStatus({
+        type: 'error',
+        message: t('requiredFields') || 'Please fill in all required fields',
+      })
+      setIsSubmitting(false)
+      return
+    }
+
+    if (!EMAIL_REGEX.test(email) || email.length > MAX_EMAIL_LENGTH) {
+      setSubmitStatus({
+        type: 'error',
+        message: t('invalidEmail') || 'Please enter a valid email address',
+      })
+      setIsSubmitting(false)
+      return
+    }
+
+    if (name.length > MAX_NAME_LENGTH || message.length > MAX_MESSAGE_LENGTH) {
+      setSubmitStatus({
+        type: 'error',
+        message: t('inputTooLong') || 'Input exceeds maximum length',
+      })
+      setIsSubmitting(false)
+      return
+    }
+
     const data = {
-      name: formData.get('name') as string,
-      email: formData.get('email') as string,
+      name,
+      email,
       company: formData.get('company') as string,
       phone: formData.get('phone') as string,
-      message: formData.get('message') as string,
+      message,
       budget: formData.get('budget') as string,
       locale: locale, // Passer la langue à l'API
     }
@@ -84,8 +122,10 @@ export function ContactForm() {
       // Vérifier si la réponse est bien du JSON
       const contentType = response.headers.get('content-type')
       if (!contentType || !contentType.includes('application/json')) {
-        const text = await response.text()
-        console.error('Réponse non-JSON reçue:', text.substring(0, 200))
+        if (process.env.NODE_ENV === 'development') {
+          const text = await response.text()
+          console.error('Réponse non-JSON reçue:', text.substring(0, 200))
+        }
         throw new Error(t('serverError'))
       }
 
@@ -105,7 +145,9 @@ export function ContactForm() {
         formRef.current.reset()
       }
     } catch (error) {
-      console.error('Erreur lors de l\'envoi:', error)
+      if (process.env.NODE_ENV === 'development') {
+        console.error('Erreur lors de l\'envoi:', error)
+      }
       setSubmitStatus({
         type: 'error',
         message: error instanceof Error ? error.message : t('error'),

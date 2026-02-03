@@ -1,0 +1,7 @@
+# Hauss Paris Security Policy
+# https://securitytxt.org/
+
+Contact: mailto:contact@haussparis.com
+Expires: 2027-02-04T00:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://www.haussparis.com/.well-known/security.txt

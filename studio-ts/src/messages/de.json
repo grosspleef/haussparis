@@ -169,6 +169,8 @@
     "error": "Beim Senden der Nachricht ist ein Fehler aufgetreten",
     "serverError": "Serverfehler. Bitte überprüfen Sie, ob der Server läuft und der Resend API-Schlüssel konfiguriert ist.",
     "requiredFields": "Die Felder Name, E-Mail und Nachricht sind erforderlich",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "inputTooLong": "Ein oder mehrere Felder überschreiten die maximale Länge",
     "emailSubjectConfirmation": "Empfangsbestätigung - HAUSS Paris",
     "emailSubjectNotification": "Neuer Kontakt: {name}",
     "emailConfirmation": {
@@ -2322,6 +2324,12 @@
       "button": "Kontaktieren Sie uns",
       "servicesButton": "Unsere Leistungen entdecken"
     }
+  },
+  "Error": {
+    "title": "Etwas ist schiefgelaufen",
+    "description": "Wir entschuldigen uns für die Unannehmlichkeiten. Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder kehren Sie zur Startseite zurück.",
+    "retry": "Erneut versuchen",
+    "home": "Zurück zur Startseite"
   }
 }
 

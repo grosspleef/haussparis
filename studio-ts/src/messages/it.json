@@ -169,6 +169,8 @@
     "error": "Si è verificato un errore durante l'invio del messaggio",
     "serverError": "Errore del server. Verifica che il server sia in esecuzione e che la chiave API Resend sia configurata.",
     "requiredFields": "I campi nome, email e messaggio sono obbligatori",
+    "invalidEmail": "Per favore inserisci un indirizzo email valido",
+    "inputTooLong": "Uno o più campi superano la lunghezza massima consentita",
     "emailSubjectConfirmation": "Conferma di ricezione - HAUSS Paris",
     "emailSubjectNotification": "Nuovo contatto: {name}",
     "emailConfirmation": {
@@ -2322,6 +2324,12 @@
       "button": "Contattaci",
       "servicesButton": "Scopri i nostri servizi"
     }
+  },
+  "Error": {
+    "title": "Qualcosa è andato storto",
+    "description": "Ci scusiamo per l'inconveniente. Si è verificato un errore imprevisto. Per favore riprova o torna alla pagina principale.",
+    "retry": "Riprova",
+    "home": "Torna alla home"
   }
 }
 

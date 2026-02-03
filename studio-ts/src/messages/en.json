@@ -169,6 +169,8 @@
     "error": "An error occurred while sending the message",
     "serverError": "Server error. Please check that the server is running and that the Resend API key is configured.",
     "requiredFields": "Name, email and message fields are required",
+    "invalidEmail": "Please enter a valid email address",
+    "inputTooLong": "One or more fields exceed the maximum allowed length",
     "emailSubjectConfirmation": "Receipt confirmation - HAUSS Paris",
     "emailSubjectNotification": "New contact: {name}",
     "emailConfirmation": {
@@ -2844,5 +2846,11 @@
       "button": "Contact Us",
       "servicesButton": "Discover Our Services"
     }
+  },
+  "Error": {
+    "title": "Something went wrong",
+    "description": "We apologize for the inconvenience. An unexpected error has occurred. Please try again or return to the homepage.",
+    "retry": "Try again",
+    "home": "Back to home"
   }
 }
