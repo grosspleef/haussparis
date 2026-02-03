@@ -14,8 +14,8 @@ const MotionImage = motion(Image)
 export function GrayscaleTransitionImage(
   props: Pick<
     ImageProps,
-    'src' | 'quality' | 'className' | 'sizes' | 'priority'
-  > & { alt?: string },
+    'src' | 'quality' | 'className' | 'sizes' | 'priority' | 'alt'
+  > & { alt: string },
 ) {
   let ref = useRef<React.ElementRef<'div'>>(null)
   let { scrollYProgress } = useScroll({
@@ -25,14 +25,15 @@ export function GrayscaleTransitionImage(
   let grayscale = useTransform(scrollYProgress, [0, 0.5, 1], [1, 0, 1])
   let filter = useMotionTemplate`grayscale(${grayscale})`
 
+  const { alt, ...restProps } = props
   return (
     <div ref={ref} className="group relative">
-      <MotionImage alt="" style={{ filter } as any} {...props} />
+      <MotionImage alt={alt} style={{ filter } as any} {...restProps} />
       <div
         className="pointer-events-none absolute top-0 left-0 w-full opacity-0 transition duration-300 group-hover:opacity-100"
         aria-hidden="true"
       >
-        <Image alt="" {...props} />
+        <Image alt="" aria-hidden="true" {...restProps} />
       </div>
     </div>
   )

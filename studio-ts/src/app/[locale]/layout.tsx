@@ -7,6 +7,7 @@ import type { ReactNode } from 'react'
 import '@/styles/tailwind.css'
 import { GoogleAnalytics } from '@/components/GoogleAnalytics'
 import { StructuredData } from '@/components/StructuredData'
+import { ReviewSchema } from '@/components/ReviewSchema'
 import { PerformanceHead } from './PerformanceHead'
 
 type Props = {
@@ -76,12 +77,14 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
       description: t('openGraph.description'),
       images: [`${baseUrl}/og-image.jpg`],
     },
+    manifest: '/manifest.json',
     icons: {
       icon: [
-        { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
+        { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+        { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
       ],
       apple: [
-        { url: '/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
+        { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
       ],
     },
     robots: {
@@ -171,6 +174,11 @@ export default async function Layout({
       postalCode: '75018',
       addressCountry: 'FR',
     },
+    geo: {
+      '@type': 'GeoCoordinates' as const,
+      latitude: 48.8920,
+      longitude: 2.3447,
+    },
     openingHoursSpecification: {
       '@type': 'OpeningHoursSpecification' as const,
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
@@ -190,6 +198,7 @@ export default async function Layout({
         <NextIntlClientProvider messages={messages}>
           <GoogleAnalytics />
           <StructuredData organization={organizationSchema} localBusiness={localBusinessSchema} />
+          <ReviewSchema />
           {children}
         </NextIntlClientProvider>
       </body>

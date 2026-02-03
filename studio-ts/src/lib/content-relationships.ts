@@ -15,6 +15,16 @@ export const serviceMetadataTranslationKeys: Record<ServiceKey, { nameKey: strin
   commercialDesign: { nameKey: 'Services.commercialDesign.name', descriptionKey: 'Services.commercialDesign.shortDescription' },
   architecteInterieurParis: { nameKey: 'Services.architecteInterieurParis.name', descriptionKey: 'Services.architecteInterieurParis.shortDescription' },
   decorateurInterieurParis: { nameKey: 'Services.decorateurInterieurParis.name', descriptionKey: 'Services.decorateurInterieurParis.shortDescription' },
+  architecteInterieurParis3: { nameKey: 'Services.architecteInterieurParis3.name', descriptionKey: 'Services.architecteInterieurParis3.shortDescription' },
+  architecteInterieurParis4: { nameKey: 'Services.architecteInterieurParis4.name', descriptionKey: 'Services.architecteInterieurParis4.shortDescription' },
+  architecteInterieurParis6: { nameKey: 'Services.architecteInterieurParis6.name', descriptionKey: 'Services.architecteInterieurParis6.shortDescription' },
+  architecteInterieurParis7: { nameKey: 'Services.architecteInterieurParis7.name', descriptionKey: 'Services.architecteInterieurParis7.shortDescription' },
+  architecteInterieurParis8: { nameKey: 'Services.architecteInterieurParis8.name', descriptionKey: 'Services.architecteInterieurParis8.shortDescription' },
+  architecteInterieurParis9: { nameKey: 'Services.architecteInterieurParis9.name', descriptionKey: 'Services.architecteInterieurParis9.shortDescription' },
+  architecteInterieurParis11: { nameKey: 'Services.architecteInterieurParis11.name', descriptionKey: 'Services.architecteInterieurParis11.shortDescription' },
+  architecteInterieurParis15: { nameKey: 'Services.architecteInterieurParis15.name', descriptionKey: 'Services.architecteInterieurParis15.shortDescription' },
+  architecteInterieurParis16: { nameKey: 'Services.architecteInterieurParis16.name', descriptionKey: 'Services.architecteInterieurParis16.shortDescription' },
+  architecteInterieurParis17: { nameKey: 'Services.architecteInterieurParis17.name', descriptionKey: 'Services.architecteInterieurParis17.shortDescription' },
 }
 
 export type { ServiceKey }
@@ -66,6 +76,16 @@ export const serviceToBlog: Record<ServiceKey, string[]> = {
   commercialDesign: ['tendances-decoration-2026', 'guide-choix-style-interieur'],
   architecteInterieurParis: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
   decorateurInterieurParis: ['decorateur-ou-architecte-interieur', 'trouver-architecte-interieur-paris'],
+  architecteInterieurParis3: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis4: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis6: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis7: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis8: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis9: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis11: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis15: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis16: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
+  architecteInterieurParis17: ['trouver-architecte-interieur-paris', 'tarif-architecte-interieur-paris'],
 }
 
 // Articles grouped by category

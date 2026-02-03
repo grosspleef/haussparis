@@ -86,7 +86,7 @@ export default function Layout({ children }: { children: ReactNode }) {
     description:
       'Service zur Vermittlung von Innenarchitekten in Paris. Persönliche Betreuung für internationale Kunden.',
     url: 'https://www.haussparis.com',
-    telephone: '+33-X-XX-XX-XX-XX',
+    telephone: '+33-6-19-44-92-55',
     email: 'contact@haussparis.com',
     address: {
       '@type': 'PostalAddress',
@@ -97,8 +97,8 @@ export default function Layout({ children }: { children: ReactNode }) {
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 48.8566,
-      longitude: 2.3522,
+      latitude: 48.8920,
+      longitude: 2.3447,
     },
     areaServed: [
       {
