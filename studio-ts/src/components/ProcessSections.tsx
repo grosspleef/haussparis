@@ -9,11 +9,11 @@ import { TagList, TagListItem } from '@/components/TagList'
 import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
 import imageWhiteboard from '@/images/whiteboard.jpg'
-import imageHaussinterior1 from '@/images/haussinterior1.jpg'
-import imageHaussinterior2 from '@/images/haussinterior2.jpg'
-import imageHaussinterior3 from '@/images/haussinterior3.jpg'
-import imageHaussinterior4 from '@/images/haussinterior4.jpg'
-import imageHaussinterior5 from '@/images/haussinterior5.jpg'
+import imageInterieurParisien from '@/images/interieur-parisien-elegant.jpg'
+import imageArchitectureConception from '@/images/projet-architecture-conception.jpg'
+import imageRealisationLuxe from '@/images/realisation-interieur-luxe.jpg'
+import imageConsultationMoodboard from '@/images/consultation-design-moodboard.jpg'
+import imageArtisanatMoulures from '@/images/artisanat-moulures-renovation.jpg'
 
 type SectionProps = {
   title: string
@@ -63,7 +63,7 @@ export function HomeDiscoverSection({
   title = 'Découverte',
 }: SectionOverrideProps) {
   return (
-    <Section title={title} image={{ src: imageHaussinterior1, alt: "Intérieur parisien élégant - Hauss Paris" }}>
+    <Section title={title} image={{ src: imageInterieurParisien, alt: "Intérieur parisien élégant - Hauss Paris" }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           À Paris, chaque projet est unique. Trouver l’architecte réellement
@@ -96,7 +96,7 @@ export function HomeDiscoverSection({
 
 export function HomeBuildSection({ title = 'Conception' }: SectionOverrideProps) {
   return (
-    <Section title={title} image={{ src: imageHaussinterior2, shape: 1, alt: "Projet d'architecture d'intérieur professionnel" }}>
+    <Section title={title} image={{ src: imageArchitectureConception, shape: 1, alt: "Projet d'architecture d'intérieur professionnel" }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Pour les professionnels, nous offrons un accès rapide et structuré à
@@ -131,7 +131,7 @@ export function ProcessDiscoverSection({
   title = 'Définition',
 }: SectionOverrideProps) {
   return (
-    <Section title={title} image={{ src: imageHaussinterior4, alt: "Définition de projet d'architecture d'intérieur" }}>
+    <Section title={title} image={{ src: imageConsultationMoodboard, alt: "Définition de projet d'architecture d'intérieur" }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Démarrer un projet d'architecture peut être intimidant. Notre première mission est de vous aider à <strong className="font-semibold text-neutral-950">franchir le pas</strong>.
@@ -164,7 +164,7 @@ export function ProcessDiscoverSection({
 
 export function ProcessBuildSection({ title = 'Sélection' }: SectionOverrideProps) {
   return (
-    <Section title={title} image={{ src: imageHaussinterior5, shape: 1, alt: "Sélection d'architectes d'intérieur à Paris" }}>
+    <Section title={title} image={{ src: imageArtisanatMoulures, shape: 1, alt: "Sélection d'architectes d'intérieur à Paris" }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           Une fois le projet défini, nous activons notre réseau. Notre force est de vous <strong className="font-semibold text-neutral-950">proposer des alternatives</strong>. 
