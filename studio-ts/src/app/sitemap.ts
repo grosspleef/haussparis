@@ -10,55 +10,60 @@ interface RouteConfig {
   changeFrequency: ChangeFrequency
 }
 
-// Blog articles (shared across all locales)
-const blogArticles: RouteConfig[] = [
-  // English articles
-  { path: '/blog/3-lessons-renovating-first-space', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/apartment-renovation-paris-16', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/apartment-renovation-paris-complete-guide', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/architect-vs-interior-designer-differences', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/decorator-vs-interior-designer', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/find-interior-designer-paris', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/future-interior-architecture-2026', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/interior-designer-fees-paris', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/interior-designer-role-guide', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/short-guide-choosing-interior-style', priority: 0.7, changeFrequency: 'monthly' },
-  // French articles
-  { path: '/blog/3-lecons-renovation-premier-espace', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/amenagement-cuisine-ouverte-salon', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/avenir-architecture-interieur-2023', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/choisir-parquet-appartement-haussmannien', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/comment-agrandir-visuellement-petit-appartement', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/decorateur-ou-architecte-interieur', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/difference-architecte-architecte-interieur', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/guide-choix-style-interieur', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/home-staging-paris-valoriser-bien', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/optimiser-rangement-appartement-parisien', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/renovation-appartement-ancien-erreurs-eviter', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/renovation-appartement-haussmannien-guide', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/renovation-appartement-paris-16', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/renovation-appartement-paris-guide-complet', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/renovation-salle-de-bain-paris-guide-complet', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/role-architecte-interieur', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/tarif-architecte-interieur-paris', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/tendances-decoration-2026', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/trouver-architecte-interieur-paris', priority: 0.8, changeFrequency: 'monthly' },
-  // Italian articles
-  { path: '/blog/decoratore-vs-architetto-interni', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/ristrutturazione-appartamento-parigi-guida-completa', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/tariffe-architetto-interni-parigi', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/trovare-architetto-interni-parigi', priority: 0.8, changeFrequency: 'monthly' },
-  // German articles
-  { path: '/blog/dekorateur-vs-innenarchitekt', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/innenarchitekt-paris-finden', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/kosten-innenarchitekt-paris', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/wohnungsrenovierung-paris-kompletter-leitfaden', priority: 0.8, changeFrequency: 'monthly' },
-  // Spanish articles
-  { path: '/blog/decorador-vs-disenador-interiores', priority: 0.7, changeFrequency: 'monthly' },
-  { path: '/blog/encontrar-disenador-interiores-paris', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/renovacion-apartamento-paris-guia-completa', priority: 0.8, changeFrequency: 'monthly' },
-  { path: '/blog/tarifas-disenador-interiores-paris', priority: 0.8, changeFrequency: 'monthly' },
-]
+// Blog articles organized by locale (each article belongs to ONE locale only)
+const blogArticlesByLocale: Record<string, RouteConfig[]> = {
+  fr: [
+    { path: '/blog/3-lecons-renovation-premier-espace', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/amenagement-cuisine-ouverte-salon', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/avenir-architecture-interieur-2023', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/choisir-parquet-appartement-haussmannien', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/comment-agrandir-visuellement-petit-appartement', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/decorateur-ou-architecte-interieur', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/difference-architecte-architecte-interieur', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/guide-choix-style-interieur', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/home-staging-paris-valoriser-bien', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/optimiser-rangement-appartement-parisien', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/renovation-appartement-ancien-erreurs-eviter', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/renovation-appartement-haussmannien-guide', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/renovation-appartement-paris-16', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/renovation-appartement-paris-guide-complet', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/renovation-salle-de-bain-paris-guide-complet', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/role-architecte-interieur', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/tarif-architecte-interieur-paris', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/tendances-decoration-2026', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/trouver-architecte-interieur-paris', priority: 0.8, changeFrequency: 'monthly' },
+  ],
+  en: [
+    { path: '/blog/3-lessons-renovating-first-space', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/apartment-renovation-paris-16', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/apartment-renovation-paris-complete-guide', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/architect-vs-interior-designer-differences', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/decorator-vs-interior-designer', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/find-interior-designer-paris', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/future-interior-architecture-2026', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/interior-designer-fees-paris', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/interior-designer-role-guide', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/short-guide-choosing-interior-style', priority: 0.7, changeFrequency: 'monthly' },
+  ],
+  it: [
+    { path: '/blog/decoratore-vs-architetto-interni', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/ristrutturazione-appartamento-parigi-guida-completa', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/tariffe-architetto-interni-parigi', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/trovare-architetto-interni-parigi', priority: 0.8, changeFrequency: 'monthly' },
+  ],
+  de: [
+    { path: '/blog/dekorateur-vs-innenarchitekt', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/innenarchitekt-paris-finden', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/kosten-innenarchitekt-paris', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/wohnungsrenovierung-paris-kompletter-leitfaden', priority: 0.8, changeFrequency: 'monthly' },
+  ],
+  es: [
+    { path: '/blog/decorador-vs-disenador-interiores', priority: 0.7, changeFrequency: 'monthly' },
+    { path: '/blog/encontrar-disenador-interiores-paris', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/renovacion-apartamento-paris-guia-completa', priority: 0.8, changeFrequency: 'monthly' },
+    { path: '/blog/tarifas-disenador-interiores-paris', priority: 0.8, changeFrequency: 'monthly' },
+  ],
+}
 
 // Routes by locale
 const localeRoutes: Record<string, RouteConfig[]> = {
@@ -112,8 +117,8 @@ const localeRoutes: Record<string, RouteConfig[]> = {
     { path: '/notre-processus', priority: 0.8, changeFrequency: 'weekly' },
     { path: '/faq', priority: 0.7, changeFrequency: 'weekly' },
     // Legal pages
-    { path: '/privacy-policy', priority: 0.5, changeFrequency: 'monthly' },
-    { path: '/terms-of-service', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/politique-de-confidentialite', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/conditions-generales', priority: 0.5, changeFrequency: 'monthly' },
     // SEO Paris pages
     { path: '/services/architecte-interieur-paris', priority: 0.9, changeFrequency: 'weekly' },
     { path: '/services/decorateur-interieur-paris', priority: 0.9, changeFrequency: 'weekly' },
@@ -189,8 +194,8 @@ const localeRoutes: Record<string, RouteConfig[]> = {
     { path: '/unser-prozess', priority: 0.8, changeFrequency: 'weekly' },
     { path: '/faq', priority: 0.7, changeFrequency: 'weekly' },
     // Legal pages
-    { path: '/privacy-policy', priority: 0.5, changeFrequency: 'monthly' },
-    { path: '/terms-of-service', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/datenschutz', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/nutzungsbedingungen', priority: 0.5, changeFrequency: 'monthly' },
     // SEO Paris pages
     { path: '/dienstleistungen/innenarchitekt-paris', priority: 0.9, changeFrequency: 'weekly' },
     // SEO Arrondissements pages
@@ -227,8 +232,8 @@ const localeRoutes: Record<string, RouteConfig[]> = {
     { path: '/nuestro-proceso', priority: 0.8, changeFrequency: 'weekly' },
     { path: '/faq', priority: 0.7, changeFrequency: 'weekly' },
     // Legal pages
-    { path: '/privacy-policy', priority: 0.5, changeFrequency: 'monthly' },
-    { path: '/terms-of-service', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/politica-de-privacidad', priority: 0.5, changeFrequency: 'monthly' },
+    { path: '/terminos-de-servicio', priority: 0.5, changeFrequency: 'monthly' },
     // SEO Paris pages
     { path: '/servicios/disenador-interiores-paris', priority: 0.9, changeFrequency: 'weekly' },
     // SEO Arrondissements pages
@@ -274,8 +279,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })
     }
 
-    // Add blog articles for each locale
-    for (const article of blogArticles) {
+    // Add blog articles only for the current locale (not all articles for all locales)
+    const localeBlogArticles = blogArticlesByLocale[locale] || []
+    for (const article of localeBlogArticles) {
       sitemapEntries.push({
         url: `${BASE_URL}/${locale}${article.path}`,
         lastModified,
