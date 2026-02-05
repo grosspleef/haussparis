@@ -1,4 +1,6 @@
-import Link from 'next/link'
+'use client'
+
+import { Link } from '@/i18n/routing'
 import clsx from 'clsx'
 
 type ButtonProps = {
