@@ -37,7 +37,7 @@ export default function RenovationService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageAvantProjet}
-                  alt="Avant-projet de rénovation d'appartement à Paris"
+                  alt={t('images.section1Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />
@@ -67,7 +67,7 @@ export default function RenovationService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageConception3D}
-                  alt="Conception 3D par architecte d'intérieur à Paris"
+                  alt={t('images.section2Alt')}
                   shape={1}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-start"

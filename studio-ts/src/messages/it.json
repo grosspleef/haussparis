@@ -38,7 +38,7 @@
     "decoration": "Decorazione",
     "furnishing": "Arredamento",
     "explore": "Esplora",
-    "studio": "Studio",
+    "studio": "Hauss Paris",
     "about": "Chi siamo",
     "process": "Il processo",
     "blog": "Blog",
@@ -440,6 +440,10 @@
       "delivered": "Progetti consegnati",
       "experience": "Anni di esperienza",
       "transformed": "Spazi trasformati"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Design 3D da architetto d'interni a Parigi"
     }
   },
   "CustomLayoutService": {
@@ -487,6 +491,10 @@
       "custom": "Su misura",
       "response": "Tempo di risposta",
       "warranty": "Garanzia"
+    },
+    "images": {
+      "section1Alt": "Design su misura di lusso Parigi",
+      "section2Alt": "Trasformazione spazi design Parigi"
     }
   },
   "FurnishingService": {
@@ -534,6 +542,10 @@
       "turnkey": "Chiavi in mano",
       "partners": "Partner",
       "tracking": "Tracking"
+    },
+    "images": {
+      "section1Alt": "Arredamento appartamento parigino di alta gamma",
+      "section2Alt": "Selezione mobili da architetto d'interni"
     }
   },
   "KitchenBathroomService": {
@@ -581,6 +593,10 @@
       "kitchens": "Cucine create",
       "bathrooms": "Bagni",
       "warranty": "Garanzia"
+    },
+    "images": {
+      "section1Alt": "Cucina di design Parigi",
+      "section2Alt": "Ristrutturazione bagno di lusso Parigi"
     }
   },
   "DecorationService": {
@@ -628,6 +644,10 @@
       "personalized": "Personalizzato",
       "partners": "Artigiani partner",
       "creativity": "Creatività"
+    },
+    "images": {
+      "section1Alt": "Decorazione soggiorno contemporaneo a Parigi",
+      "section2Alt": "Selezione mobili di design Parigi"
     }
   },
   "CommercialDesignService": {
@@ -675,6 +695,10 @@
       "revenue": "Fatturato medio",
       "spaces": "Spazi creati",
       "custom": "Su misura"
+    },
+    "images": {
+      "section1Alt": "Architettura commerciale Parigi",
+      "section2Alt": "Design negozio commerciale Parigi"
     }
   },
   "OutdoorDesignService": {
@@ -722,6 +746,10 @@
       "spaces": "Spazi creati",
       "custom": "Su misura",
       "seasons": "Utilizzo"
+    },
+    "images": {
+      "section1Alt": "Design terrazza parigina",
+      "section2Alt": "Sistemazione balcone haussmanniano"
     }
   },
   "LightingDesignService": {
@@ -769,6 +797,10 @@
       "consumption": "Consumo",
       "projects": "Progetti",
       "custom": "Su misura"
+    },
+    "images": {
+      "section1Alt": "Design illuminazione appartamento Parigi",
+      "section2Alt": "Illuminazione design interni Parigi"
     }
   },
   "WorkplaceDesignService": {
@@ -816,6 +848,10 @@
       "productivity": "Produttività",
       "offices": "Uffici progettati",
       "satisfaction": "Soddisfazione"
+    },
+    "images": {
+      "section1Alt": "Design ufficio professionale Parigi",
+      "section2Alt": "Design spazio di lavoro Parigi"
     }
   },
   "BlogPage": {
@@ -832,7 +868,8 @@
     "readArticle": "Leggi l'articolo: {title}",
     "by": "di",
     "moreArticles": "Altri articoli",
-    "filterAll": "Tutti gli articoli"
+    "filterAll": "Tutti gli articoli",
+    "noArticles": "Nessun articolo in questa categoria."
   },
   "Categories": {
     "renovation": "Ristrutturazione",
@@ -902,6 +939,10 @@
       "value": "Valore percepito",
       "visits": "Visite",
       "delay": "Tempi di vendita"
+    },
+    "images": {
+      "section1Alt": "Home staging prima-dopo appartamento Parigi",
+      "section2Alt": "Valorizzazione appartamento parigino"
     }
   },
   "NotFound": {
@@ -1340,6 +1381,12 @@
       "title": "Per approfondire",
       "description": "Scopri la nostra guida completa sulla ristrutturazione di appartamenti a Parigi con consigli pratici, budget dettagliati ed esempi di progetti.",
       "link": "Leggi la guida completa"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Design 3D da architetto d'interni a Parigi",
+      "section3Alt": "Consulenza con architetto d'interni parigino",
+      "section4Alt": "Progettazione di architettura d'interni"
     }
   },
   "ArchitecteParis16Service": {
@@ -1431,6 +1478,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 16° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis7Service": {
@@ -1522,6 +1574,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 7° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis8Service": {
@@ -1613,6 +1670,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 8° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis6Service": {
@@ -1704,6 +1766,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 6° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis17Service": {
@@ -1795,6 +1862,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 17° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis15Service": {
@@ -1886,6 +1958,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 15° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis9Service": {
@@ -1977,6 +2054,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 9° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis11Service": {
@@ -2068,6 +2150,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 11° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis4Service": {
@@ -2159,6 +2246,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 4° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "ArchitecteParis3Service": {
@@ -2250,6 +2342,11 @@
       "title": "Scopri tutti i nostri servizi",
       "description": "Esplora la nostra offerta completa di architettura d'interni a Parigi e la nostra rete di architetti selezionati in tutta la capitale.",
       "link": "Vedi i nostri servizi di architettura d'interni"
+    },
+    "images": {
+      "section1Alt": "Progetto preliminare di ristrutturazione appartamento a Parigi",
+      "section2Alt": "Architetto d'interni Parigi 3° arrondissement",
+      "section3Alt": "Soggiorno haussmanniano Parigi architetto d'interni"
     }
   },
   "FAQPage": {

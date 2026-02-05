@@ -38,7 +38,7 @@
     "decoration": "Décoration",
     "furnishing": "Ameublement",
     "explore": "Explorer",
-    "studio": "Studio",
+    "studio": "Hauss Paris",
     "about": "À propos",
     "process": "Processus",
     "blog": "Blog",
@@ -441,6 +441,10 @@
       "delivered": "Projets livrés",
       "experience": "Années d'expérience",
       "transformed": "Espaces transformés"
+    },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Conception 3D par architecte d'intérieur à Paris"
     }
   },
   "CustomLayoutService": {
@@ -488,6 +492,10 @@
       "custom": "Sur mesure",
       "response": "Délai de réponse",
       "warranty": "Garantie"
+    },
+    "images": {
+      "section1Alt": "Aménagement sur mesure Paris luxe",
+      "section2Alt": "Transformation espace design Paris"
     }
   },
   "FurnishingService": {
@@ -535,6 +543,10 @@
       "turnkey": "Clé-en-main",
       "partners": "Partenaires",
       "tracking": "Suivi"
+    },
+    "images": {
+      "section1Alt": "Ameublement appartement parisien haut de gamme",
+      "section2Alt": "Sélection meubles par architecte d'intérieur"
     }
   },
   "KitchenBathroomService": {
@@ -582,6 +594,10 @@
       "kitchens": "Cuisines créées",
       "bathrooms": "Salles de bain",
       "warranty": "Garantie"
+    },
+    "images": {
+      "section1Alt": "Cuisine équipée design Paris",
+      "section2Alt": "Salle de bain luxe rénovation Paris"
     }
   },
   "DecorationService": {
@@ -629,6 +645,10 @@
       "personalized": "Personnalisé",
       "partners": "Partenaires artisans",
       "creativity": "Créativité"
+    },
+    "images": {
+      "section1Alt": "Décoration salon contemporain à Paris",
+      "section2Alt": "Choix de mobilier design Paris"
     }
   },
   "CommercialDesignService": {
@@ -985,6 +1005,10 @@
       "title": "Lancez votre projet commercial à Paris",
       "description": "Vous avez un projet de commerce, restaurant, hôtel ou espace professionnel à Paris ? Parlons-en. Réservez une consultation gratuite avec notre équipe.",
       "button": "Demander une consultation gratuite"
+    },
+    "images": {
+      "section1Alt": "Architecture commerciale Paris",
+      "section2Alt": "Design boutique commerce Paris"
     }
   },
   "OutdoorDesignService": {
@@ -1032,6 +1056,10 @@
       "spaces": "Espaces créés",
       "custom": "Sur mesure",
       "seasons": "Utilisation"
+    },
+    "images": {
+      "section1Alt": "Terrasse parisienne design",
+      "section2Alt": "Balcon haussmannien aménagement"
     }
   },
   "LightingDesignService": {
@@ -1079,6 +1107,10 @@
       "consumption": "Consommation",
       "projects": "Projets",
       "custom": "Sur mesure"
+    },
+    "images": {
+      "section1Alt": "Design éclairage appartement Paris",
+      "section2Alt": "Luminaires design intérieur Paris"
     }
   },
   "WorkplaceDesignService": {
@@ -1126,6 +1158,10 @@
       "productivity": "Productivité",
       "offices": "Bureaux conçus",
       "satisfaction": "Satisfaction"
+    },
+    "images": {
+      "section1Alt": "Aménagement bureau professionnel Paris",
+      "section2Alt": "Design espace de travail Paris"
     }
   },
   "BlogPage": {
@@ -1142,7 +1178,8 @@
     "readArticle": "Lire la suite : {title}",
     "by": "par",
     "moreArticles": "Plus d'articles",
-    "filterAll": "Tous les articles"
+    "filterAll": "Tous les articles",
+    "noArticles": "Aucun article dans cette catégorie."
   },
   "Categories": {
     "renovation": "Rénovation",
@@ -1212,6 +1249,10 @@
       "value": "Valeur perçue",
       "visits": "Visites",
       "delay": "Délai de vente"
+    },
+    "images": {
+      "section1Alt": "Home staging avant-après appartement Paris",
+      "section2Alt": "Mise en valeur appartement parisien"
     }
   },
   "NotFound": {
@@ -1641,6 +1682,12 @@
       "description": "Vous avez un projet d'appartement à rénover à Paris ? Parlons-en. Réservez une consultation gratuite avec notre équipe.",
       "button": "Demander une consultation gratuite"
     },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Conception 3D par architecte d'intérieur à Paris",
+      "section3Alt": "Consultation avec architecte d'intérieur parisien",
+      "section4Alt": "Conception de projet d'architecture intérieure"
+    },
     "decoratorLink": {
       "title": "Vous cherchez plutôt un décorateur ?",
       "description": "Si votre projet ne nécessite pas de travaux structurels, découvrez notre service de décoration d'intérieur sans travaux : mobilier, couleurs, styling et accessoires.",
@@ -1859,6 +1906,12 @@
       "description": "Vous avez un projet de décoration à Paris ? Échangeons sur vos besoins. Consultation gratuite de 30 minutes avec notre équipe.",
       "button": "Demander une consultation gratuite"
     },
+    "images": {
+      "section1Alt": "Décoration d'intérieur élégante dans un appartement parisien",
+      "section2Alt": "Choix de mobilier design avec décorateur",
+      "section3Alt": "Consultation décoration intérieure Paris",
+      "section4Alt": "Mise en scène appartement par décorateur"
+    },
     "architectLink": {
       "title": "Votre projet nécessite des travaux ?",
       "description": "Si vous avez besoin de repenser l'espace avec des travaux structurels, découvrez notre service d'architecture d'intérieur avec rénovation complète.",
@@ -1949,6 +2002,11 @@
       "title": "Votre projet dans le 16ème commence ici",
       "description": "Que vous souhaitiez rénover un appartement familial près du Trocadéro ou transformer un bien d'investissement à Passy, nous avons l'architecte d'intérieur qu'il vous faut.",
       "button": "Demander une consultation gratuite"
+    },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 16ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
     },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",
@@ -2041,6 +2099,11 @@
       "description": "Que vous souhaitiez rénover un grand appartement près des Invalides ou transformer une résidence avec vue sur la Tour Eiffel, nous avons l'architecte d'intérieur qu'il vous faut.",
       "button": "Demander une consultation gratuite"
     },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 7ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
+    },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",
       "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
@@ -2131,6 +2194,11 @@
       "title": "Votre projet dans le 8ème commence ici",
       "description": "Que vous rêviez d'un appartement palatin avenue Montaigne ou d'un pied-à-terre raffiné près de Monceau, nous avons l'architecte d'intérieur pour réaliser votre vision.",
       "button": "Demander une consultation gratuite"
+    },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 8ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
     },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",
@@ -2223,6 +2291,11 @@
       "description": "Que vous rêviez d'un appartement donnant sur le Jardin du Luxembourg ou d'une retraite littéraire à Saint-Germain, nous avons l'architecte d'intérieur pour donner vie à votre vision.",
       "button": "Demander une consultation gratuite"
     },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 6ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
+    },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",
       "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
@@ -2313,6 +2386,11 @@
       "title": "Votre projet familial dans le 17ème commence ici",
       "description": "Que vous souhaitiez rénover un appartement familial près des Batignolles ou transformer un bien près du Parc Monceau, nous avons l'architecte d'intérieur pour les besoins de votre famille.",
       "button": "Demander une consultation gratuite"
+    },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 17ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
     },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",
@@ -2405,6 +2483,11 @@
       "description": "Que vous souhaitiez optimiser un espace compact près de Convention ou transformer un grand appartement au Front de Seine, nous avons l'architecte d'intérieur pour vos besoins.",
       "button": "Demander une consultation gratuite"
     },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 15ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
+    },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",
       "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
@@ -2495,6 +2578,11 @@
       "title": "Votre projet dans le 9ème commence ici",
       "description": "Que vous souhaitiez transformer un ancien atelier près de Pigalle ou rénover un appartement classique près de l'Opéra, nous avons l'architecte d'intérieur pour votre vision créative.",
       "button": "Demander une consultation gratuite"
+    },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 9ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
     },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",
@@ -2591,6 +2679,11 @@
       "title": "Découvrez tous nos services",
       "description": "Explorez notre offre complète d'architecture d'intérieur à Paris et notre réseau d'architectes sélectionnés dans toute la capitale.",
       "link": "Voir nos services d'architecture d'intérieur"
+    },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 11ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
     }
   },
   "ArchitecteParis4Service": {
@@ -2677,6 +2770,11 @@
       "title": "Votre projet dans le 4ème commence ici",
       "description": "Que vous souhaitiez restaurer un appartement près de la Place des Vosges ou créer un pied-à-terre raffiné sur l'Île Saint-Louis, nous avons des spécialistes du patrimoine qui honoreront votre bien.",
       "button": "Demander une consultation gratuite"
+    },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 4ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
     },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",
@@ -2768,6 +2866,11 @@
       "title": "Votre projet dans le 3ème commence ici",
       "description": "Que vous souhaitiez créer un appartement digne d'une galerie près de la Rue de Bretagne ou concevoir un espace de vie et travail dans le Haut Marais, nous avons des architectes qui partagent votre vision contemporaine.",
       "button": "Demander une consultation gratuite"
+    },
+    "images": {
+      "section1Alt": "Avant-projet de rénovation d'appartement à Paris",
+      "section2Alt": "Architecte intérieur Paris 3ème",
+      "section3Alt": "Salon haussmannien Paris architecte intérieur"
     },
     "mainServiceLink": {
       "title": "Découvrez tous nos services",

@@ -37,7 +37,7 @@ export default function WorkplaceDesignService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageWhiteboard}
-                  alt="Aménagement de bureau professionnel à Paris"
+                  alt={t('images.section1Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />
@@ -67,7 +67,7 @@ export default function WorkplaceDesignService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageLaptop}
-                  alt="Design d'espace de travail à Paris"
+                  alt={t('images.section2Alt')}
                   shape={1}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-start"

@@ -33,7 +33,7 @@ export default function LichtdesignService() {
             <div className="flex justify-center">
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage src={imageWhiteboard}
-                  alt="Avant-projet de rénovation d'appartement à Paris" sizes="(min-width: 1024px) 41rem, 31rem" className="justify-center lg:justify-end" />
+                  alt={t('images.section1Alt')} sizes="(min-width: 1024px) 41rem, 31rem" className="justify-center lg:justify-end" />
               </FadeIn>
             </div>
             <div className="mt-12 lg:mt-0 lg:w-148 lg:flex-none">
@@ -53,7 +53,7 @@ export default function LichtdesignService() {
             <div className="flex justify-center">
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage src={imageLaptop}
-                  alt="Conception 3D par architecte d'intérieur à Paris" shape={1} sizes="(min-width: 1024px) 41rem, 31rem" className="justify-center lg:justify-start" />
+                  alt={t('images.section2Alt')} shape={1} sizes="(min-width: 1024px) 41rem, 31rem" className="justify-center lg:justify-start" />
               </FadeIn>
             </div>
             <div className="mt-12 lg:mt-0 lg:w-148 lg:flex-none lg:order-first">

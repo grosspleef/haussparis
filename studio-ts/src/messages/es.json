@@ -38,7 +38,7 @@
     "decoration": "Decoración",
     "furnishing": "Mobiliario",
     "explore": "Explorar",
-    "studio": "Estudio",
+    "studio": "Hauss Paris",
     "about": "Sobre nosotros",
     "process": "Proceso",
     "blog": "Blog",
@@ -441,6 +441,10 @@
       "delivered": "Proyectos entregados",
       "experience": "Años de experiencia",
       "transformed": "Espacios transformados"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseño 3D por diseñador de interiores en París"
     }
   },
   "CustomLayoutService": {
@@ -488,6 +492,10 @@
       "custom": "A medida",
       "response": "Tiempo de respuesta",
       "warranty": "Garantía"
+    },
+    "images": {
+      "section1Alt": "Diseño a medida de lujo París",
+      "section2Alt": "Transformación de espacios diseño París"
     }
   },
   "FurnishingService": {
@@ -535,6 +543,10 @@
       "turnkey": "Llave en mano",
       "partners": "Socios",
       "tracking": "Seguimiento"
+    },
+    "images": {
+      "section1Alt": "Amueblamiento de apartamento parisino de alta gama",
+      "section2Alt": "Selección de muebles por diseñador de interiores"
     }
   },
   "KitchenBathroomService": {
@@ -582,6 +594,10 @@
       "kitchens": "Cocinas creadas",
       "bathrooms": "Baños",
       "warranty": "Garantía"
+    },
+    "images": {
+      "section1Alt": "Cocina de diseño París",
+      "section2Alt": "Renovación de baño de lujo París"
     }
   },
   "DecorationService": {
@@ -629,6 +645,10 @@
       "personalized": "Personalizado",
       "partners": "Socios artesanos",
       "creativity": "Creatividad"
+    },
+    "images": {
+      "section1Alt": "Decoración de salón contemporáneo en París",
+      "section2Alt": "Selección de muebles de diseño París"
     }
   },
   "CommercialDesignService": {
@@ -676,6 +696,10 @@
       "revenue": "Facturación media",
       "spaces": "Espacios creados",
       "custom": "A medida"
+    },
+    "images": {
+      "section1Alt": "Arquitectura comercial París",
+      "section2Alt": "Diseño de tienda comercial París"
     }
   },
   "OutdoorDesignService": {
@@ -723,6 +747,10 @@
       "spaces": "Espacios creados",
       "custom": "A medida",
       "seasons": "Utilización"
+    },
+    "images": {
+      "section1Alt": "Diseño de terraza parisina",
+      "section2Alt": "Acondicionamiento de balcón haussmanniano"
     }
   },
   "LightingDesignService": {
@@ -770,6 +798,10 @@
       "consumption": "Consumo",
       "projects": "Proyectos",
       "custom": "A medida"
+    },
+    "images": {
+      "section1Alt": "Diseño de iluminación de apartamento París",
+      "section2Alt": "Iluminación de diseño interior París"
     }
   },
   "WorkplaceDesignService": {
@@ -817,6 +849,10 @@
       "productivity": "Productividad",
       "offices": "Oficinas diseñadas",
       "satisfaction": "Satisfacción"
+    },
+    "images": {
+      "section1Alt": "Diseño de oficina profesional París",
+      "section2Alt": "Diseño de espacio de trabajo París"
     }
   },
   "BlogPage": {
@@ -833,7 +869,8 @@
     "readArticle": "Leer más: {title}",
     "by": "por",
     "moreArticles": "Más artículos",
-    "filterAll": "Todos los artículos"
+    "filterAll": "Todos los artículos",
+    "noArticles": "No hay artículos en esta categoría."
   },
   "Categories": {
     "renovation": "Renovación",
@@ -903,6 +940,10 @@
       "value": "Valor percibido",
       "visits": "Visitas",
       "delay": "Plazo de venta"
+    },
+    "images": {
+      "section1Alt": "Home staging antes-después apartamento París",
+      "section2Alt": "Puesta en valor de apartamento parisino"
     }
   },
   "NotFound": {
@@ -1343,6 +1384,12 @@
       "title": "Para profundizar",
       "description": "Descubre nuestra guía completa sobre la renovación de apartamentos en París con consejos prácticos, presupuestos detallados y ejemplos de proyectos.",
       "link": "Leer la guía completa"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseño 3D por diseñador de interiores en París",
+      "section3Alt": "Consulta con diseñador de interiores parisino",
+      "section4Alt": "Diseño de proyecto de arquitectura interior"
     }
   },
   "ArchitecteParis16Service": {
@@ -1434,6 +1481,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 16°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis7Service": {
@@ -1525,6 +1577,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 7°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis8Service": {
@@ -1616,6 +1673,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 8°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis6Service": {
@@ -1707,6 +1769,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 6°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis17Service": {
@@ -1798,6 +1865,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 17°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis15Service": {
@@ -1889,6 +1961,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 15°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis9Service": {
@@ -1980,6 +2057,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 9°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis11Service": {
@@ -2071,6 +2153,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 11°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis4Service": {
@@ -2162,6 +2249,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 4°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "ArchitecteParis3Service": {
@@ -2253,6 +2345,11 @@
       "title": "Descubre todos nuestros servicios",
       "description": "Explora nuestra oferta completa de diseño de interiores en París y nuestra red de diseñadores seleccionados en toda la capital.",
       "link": "Ver nuestros servicios de diseño de interiores"
+    },
+    "images": {
+      "section1Alt": "Anteproyecto de renovación de apartamento en París",
+      "section2Alt": "Diseñador de interiores París distrito 3°",
+      "section3Alt": "Salón haussmanniano París diseñador de interiores"
     }
   },
   "FAQPage": {

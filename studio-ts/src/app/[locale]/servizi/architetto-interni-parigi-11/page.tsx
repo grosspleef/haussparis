@@ -15,6 +15,7 @@ import { StatList, StatListItem } from '@/components/StatList'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/conception-3d-architecte-interieur-paris.jpg'
 import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
+import imageSection3 from '@/images/salon-haussmannien-paris-architecte-interieur.jpg'
 import { RootLayout } from '@/components/RootLayout'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
 import { routes, locales } from '@/lib/routes'
@@ -42,7 +43,7 @@ export default function ArchitettoInterniParigi11Service() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageWhiteboard}
-                  alt="Avant-projet de rénovation d'appartement à Paris"
+                  alt={t('images.section1Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />
@@ -73,7 +74,7 @@ export default function ArchitettoInterniParigi11Service() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageLaptop}
-                  alt="Conception 3D par architecte d'intérieur à Paris"
+                  alt={t('images.section2Alt')}
                   shape={1}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-start"
@@ -112,8 +113,8 @@ export default function ArchitettoInterniParigi11Service() {
             <div className="flex justify-center">
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
-                  src={imageWhiteboard}
-                  alt="Avant-projet de rénovation d'appartement à Paris"
+                  src={imageSection3}
+                  alt={t('images.section3Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />

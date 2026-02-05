@@ -37,7 +37,7 @@ export default function LightingDesignService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageWhiteboard}
-                  alt="Design d'éclairage pour appartement à Paris"
+                  alt={t('images.section1Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />
@@ -67,7 +67,7 @@ export default function LightingDesignService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageLaptop}
-                  alt="Luminaires design d'intérieur à Paris"
+                  alt={t('images.section2Alt')}
                   shape={1}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-start"

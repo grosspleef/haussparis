@@ -37,7 +37,7 @@ export default function CustomLayoutService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageWhiteboard}
-                  alt="Aménagement sur mesure de luxe à Paris"
+                  alt={t('images.section1Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />
@@ -67,7 +67,7 @@ export default function CustomLayoutService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageLaptop}
-                  alt="Conseil en décoration intérieure à Paris"
+                  alt={t('images.section2Alt')}
                   shape={1}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-start"

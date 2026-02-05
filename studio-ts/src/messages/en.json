@@ -38,7 +38,7 @@
     "decoration": "Decoration",
     "furnishing": "Furnishing",
     "explore": "Explore",
-    "studio": "Studio",
+    "studio": "Hauss Paris",
     "about": "About",
     "process": "Process",
     "blog": "Blog",
@@ -440,6 +440,10 @@
       "delivered": "Projects delivered",
       "experience": "Years of experience",
       "transformed": "Spaces transformed"
+    },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "3D design by interior designer in Paris"
     }
   },
   "CustomLayoutService": {
@@ -487,6 +491,10 @@
       "custom": "Custom-made",
       "response": "Response time",
       "warranty": "Warranty"
+    },
+    "images": {
+      "section1Alt": "Luxury custom layout Paris",
+      "section2Alt": "Space transformation design Paris"
     }
   },
   "FurnishingService": {
@@ -534,6 +542,10 @@
       "turnkey": "Turnkey",
       "partners": "Partners",
       "tracking": "Tracking"
+    },
+    "images": {
+      "section1Alt": "High-end Parisian apartment furnishing",
+      "section2Alt": "Furniture selection by interior designer"
     }
   },
   "KitchenBathroomService": {
@@ -581,6 +593,10 @@
       "kitchens": "Kitchens created",
       "bathrooms": "Bathrooms",
       "warranty": "Warranty"
+    },
+    "images": {
+      "section1Alt": "Designer kitchen Paris",
+      "section2Alt": "Luxury bathroom renovation Paris"
     }
   },
   "DecorationService": {
@@ -628,6 +644,10 @@
       "personalized": "Personalized",
       "partners": "Craftsmen partners",
       "creativity": "Creativity"
+    },
+    "images": {
+      "section1Alt": "Contemporary living room decoration in Paris",
+      "section2Alt": "Designer furniture selection Paris"
     }
   },
   "CommercialDesignService": {
@@ -984,6 +1004,10 @@
       "title": "Launch your commercial project in Paris",
       "description": "Have a business, restaurant, hotel or professional space project in Paris? Let's talk. Book a free consultation with our team.",
       "button": "Request a free consultation"
+    },
+    "images": {
+      "section1Alt": "Commercial architecture Paris",
+      "section2Alt": "Retail store design Paris"
     }
   },
   "OutdoorDesignService": {
@@ -1031,6 +1055,10 @@
       "spaces": "Spaces created",
       "custom": "Custom-made",
       "seasons": "Use"
+    },
+    "images": {
+      "section1Alt": "Parisian terrace design",
+      "section2Alt": "Haussmann balcony landscaping"
     }
   },
   "LightingDesignService": {
@@ -1078,6 +1106,10 @@
       "consumption": "Consumption",
       "projects": "Projects",
       "custom": "Custom-made"
+    },
+    "images": {
+      "section1Alt": "Apartment lighting design Paris",
+      "section2Alt": "Interior design lighting fixtures Paris"
     }
   },
   "WorkplaceDesignService": {
@@ -1125,6 +1157,10 @@
       "productivity": "Productivity",
       "offices": "Offices designed",
       "satisfaction": "Satisfaction"
+    },
+    "images": {
+      "section1Alt": "Professional office design Paris",
+      "section2Alt": "Workspace design Paris"
     }
   },
   "BlogPage": {
@@ -1141,7 +1177,8 @@
     "readArticle": "Read the article: {title}",
     "by": "by",
     "moreArticles": "More articles",
-    "filterAll": "All articles"
+    "filterAll": "All articles",
+    "noArticles": "No articles in this category."
   },
   "Categories": {
     "renovation": "Renovation",
@@ -1211,6 +1248,10 @@
       "value": "Perceived value",
       "visits": "Visits",
       "delay": "Sale delay"
+    },
+    "images": {
+      "section1Alt": "Home staging before-after Paris apartment",
+      "section2Alt": "Parisian apartment staging"
     }
   },
   "NotFound": {
@@ -1640,6 +1681,12 @@
       "description": "Have an apartment renovation project in Paris? Let's talk. Book a free consultation with our team.",
       "button": "Request a Free Consultation"
     },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "3D design by interior designer in Paris",
+      "section3Alt": "Consultation with Parisian interior designer",
+      "section4Alt": "Interior architecture project design"
+    },
     "decoratorLink": {
       "title": "Looking for a decorator instead?",
       "description": "If your project doesn't require structural work, discover our interior decoration service without construction: furniture, colors, styling and accessories.",
@@ -1858,6 +1905,12 @@
       "description": "Have a decoration project in Paris? Let's discuss your needs. Free 30-minute consultation with our team.",
       "button": "Request a Free Consultation"
     },
+    "images": {
+      "section1Alt": "Elegant interior decoration in a Parisian apartment",
+      "section2Alt": "Selecting designer furniture with decorator",
+      "section3Alt": "Interior decoration consultation Paris",
+      "section4Alt": "Apartment styling by decorator"
+    },
     "architectLink": {
       "title": "Does your project require construction work?",
       "description": "If you need to rethink the space with structural work, discover our interior design service with complete renovation.",
@@ -1948,6 +2001,11 @@
       "title": "Your Project in the 16th Starts Here",
       "description": "Whether you want to renovate a family apartment near Trocadéro or transform an investment property in Passy, we have the interior designer for you.",
       "button": "Request a Free Consultation"
+    },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 16th",
+      "section3Alt": "Haussmann living room Paris interior designer"
     },
     "mainServiceLink": {
       "title": "Discover All Our Services",
@@ -2040,6 +2098,11 @@
       "description": "Whether you want to renovate a grand apartment near the Invalides or transform a residence with Eiffel Tower views, we have the interior designer for you.",
       "button": "Request a Free Consultation"
     },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 7th",
+      "section3Alt": "Haussmann living room Paris interior designer"
+    },
     "mainServiceLink": {
       "title": "Discover All Our Services",
       "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
@@ -2130,6 +2193,11 @@
       "title": "Your Project in the 8th Starts Here",
       "description": "Whether you dream of a palatial apartment on Avenue Montaigne or a refined pied-a-terre near Monceau, we have the interior designer to realize your vision.",
       "button": "Request a Free Consultation"
+    },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 8th",
+      "section3Alt": "Haussmann living room Paris interior designer"
     },
     "mainServiceLink": {
       "title": "Discover All Our Services",
@@ -2222,6 +2290,11 @@
       "description": "Whether you dream of an apartment overlooking the Luxembourg Gardens or a literary retreat in Saint-Germain, we have the interior designer to bring your vision to life.",
       "button": "Request a Free Consultation"
     },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 6th",
+      "section3Alt": "Haussmann living room Paris interior designer"
+    },
     "mainServiceLink": {
       "title": "Discover All Our Services",
       "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
@@ -2312,6 +2385,11 @@
       "title": "Your Family Project in the 17th Starts Here",
       "description": "Whether you want to renovate a family apartment near Batignolles or transform a property by Parc Monceau, we have the interior designer for your family's needs.",
       "button": "Request a Free Consultation"
+    },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 17th",
+      "section3Alt": "Haussmann living room Paris interior designer"
     },
     "mainServiceLink": {
       "title": "Discover All Our Services",
@@ -2404,6 +2482,11 @@
       "description": "Whether you want to optimize a compact space near Convention or transform a large apartment at Front de Seine, we have the interior designer for your needs.",
       "button": "Request a Free Consultation"
     },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 15th",
+      "section3Alt": "Haussmann living room Paris interior designer"
+    },
     "mainServiceLink": {
       "title": "Discover All Our Services",
       "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
@@ -2494,6 +2577,11 @@
       "title": "Your Project in the 9th Starts Here",
       "description": "Whether you want to transform a former studio near Pigalle or renovate a classic apartment by Opera, we have the interior designer for your creative vision.",
       "button": "Request a Free Consultation"
+    },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 9th",
+      "section3Alt": "Haussmann living room Paris interior designer"
     },
     "mainServiceLink": {
       "title": "Discover All Our Services",
@@ -2586,6 +2674,11 @@
       "description": "Whether you want to convert a workshop near Bastille or renovate an apartment in Oberkampf, we have the interior designer who understands your vision.",
       "button": "Request a Free Consultation"
     },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 11th",
+      "section3Alt": "Haussmann living room Paris interior designer"
+    },
     "mainServiceLink": {
       "title": "Discover All Our Services",
       "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
@@ -2677,6 +2770,11 @@
       "description": "Whether you want to restore an apartment near Place des Vosges or create a refined pied-a-terre on Ile Saint-Louis, we have heritage specialists who will honor your property.",
       "button": "Request a Free Consultation"
     },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 4th",
+      "section3Alt": "Haussmann living room Paris interior designer"
+    },
     "mainServiceLink": {
       "title": "Discover All Our Services",
       "description": "Explore our complete interior design offering in Paris and our network of selected designers throughout the capital.",
@@ -2767,6 +2865,11 @@
       "title": "Your Project in the 3rd Starts Here",
       "description": "Whether you want to create a gallery-worthy apartment near Rue de Bretagne or design a live-work space in the Haut Marais, we have designers who share your contemporary vision.",
       "button": "Request a Free Consultation"
+    },
+    "images": {
+      "section1Alt": "Paris apartment renovation preliminary project",
+      "section2Alt": "Interior designer Paris 3rd",
+      "section3Alt": "Haussmann living room Paris interior designer"
     },
     "mainServiceLink": {
       "title": "Discover All Our Services",

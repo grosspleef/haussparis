@@ -37,7 +37,7 @@ export default function FurnishingService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageWhiteboard}
-                  alt="Ameublement d'appartement parisien"
+                  alt={t('images.section1Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />
@@ -67,7 +67,7 @@ export default function FurnishingService() {
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
                   src={imageLaptop}
-                  alt="Sélection de meubles par architecte d'intérieur"
+                  alt={t('images.section2Alt')}
                   shape={1}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-start"

@@ -132,15 +132,7 @@ export function BlogList({ articles, locale }: BlogListProps) {
       {filteredArticles.length === 0 && (
         <div className="text-center py-16">
           <p className="text-neutral-600">
-            {locale === 'fr'
-              ? 'Aucun article dans cette catégorie.'
-              : locale === 'de'
-                ? 'Keine Artikel in dieser Kategorie.'
-                : locale === 'it'
-                  ? 'Nessun articolo in questa categoria.'
-                  : locale === 'es'
-                    ? 'No hay artículos en esta categoría.'
-                    : 'No articles in this category.'}
+            {t('noArticles')}
           </p>
         </div>
       )}

@@ -13,8 +13,10 @@ import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
 import { StatList, StatListItem } from '@/components/StatList'
 import { StylizedImage } from '@/components/StylizedImage'
-import imageLaptop from '@/images/conception-3d-architecte-interieur-paris.jpg'
-import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
+import imageSection1 from '@/images/renovation-appartement-paris-avant-projet.jpg'
+import imageSection2 from '@/images/conception-3d-architecte-interieur-paris.jpg'
+import imageSection3 from '@/images/consultation-architecte-interieur-paris.jpg'
+import imageSection4 from '@/images/projet-architecture-conception.jpg'
 import { RootLayout } from '@/components/RootLayout'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
 import { routes, locales } from '@/lib/routes'
@@ -39,8 +41,8 @@ export default function ArchitecteInterieurParisService() {
             <div className="flex justify-center">
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
-                  src={imageWhiteboard}
-                  alt="Avant-projet de rénovation d'appartement à Paris"
+                  src={imageSection1}
+                  alt={t('images.section1Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />
@@ -78,8 +80,8 @@ export default function ArchitecteInterieurParisService() {
             <div className="flex justify-center">
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
-                  src={imageLaptop}
-                  alt="Conception 3D par architecte d'intérieur à Paris"
+                  src={imageSection2}
+                  alt={t('images.section2Alt')}
                   shape={1}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-start"
@@ -118,8 +120,8 @@ export default function ArchitecteInterieurParisService() {
             <div className="flex justify-center">
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
-                  src={imageWhiteboard}
-                  alt="Avant-projet de rénovation d'appartement à Paris"
+                  src={imageSection3}
+                  alt={t('images.section3Alt')}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-end"
                 />
@@ -149,8 +151,8 @@ export default function ArchitecteInterieurParisService() {
             <div className="flex justify-center">
               <FadeIn className="w-135 flex-none lg:w-180">
                 <StylizedImage
-                  src={imageLaptop}
-                  alt="Conception 3D par architecte d'intérieur à Paris"
+                  src={imageSection4}
+                  alt={t('images.section4Alt')}
                   shape={1}
                   sizes="(min-width: 1024px) 41rem, 31rem"
                   className="justify-center lg:justify-start"

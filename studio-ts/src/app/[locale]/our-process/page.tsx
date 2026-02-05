@@ -7,7 +7,7 @@ import {
   ProcessBuildSection,
   ProcessDeliverSection,
   ProcessDiscoverSection,
-} from '@/components/ProcessSections'
+} from '@/components/HomeDiscoverSection'
 import { ValuesSection } from '@/components/ValuesSection'
 import { RootLayout } from '@/components/RootLayout'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
