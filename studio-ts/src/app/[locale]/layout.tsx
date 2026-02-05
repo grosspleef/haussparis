@@ -196,6 +196,16 @@ export default async function Layout({
       <PerformanceHead />
       <body className="flex min-h-full flex-col">
         <NextIntlClientProvider messages={messages}>
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:text-neutral-950 focus:ring-2 focus:ring-neutral-950 focus:rounded"
+          >
+            {locale === 'fr' ? 'Aller au contenu principal' :
+             locale === 'de' ? 'Zum Hauptinhalt springen' :
+             locale === 'es' ? 'Ir al contenido principal' :
+             locale === 'it' ? 'Vai al contenuto principale' :
+             'Skip to main content'}
+          </a>
           <GoogleAnalytics />
           <StructuredData organization={organizationSchema} localBusiness={localBusinessSchema} />
           <ReviewSchema />

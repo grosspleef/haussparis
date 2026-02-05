@@ -221,6 +221,29 @@ function validateInputs(
 
 export async function POST(request: NextRequest) {
   try {
+    // Verify Content-Type header
+    const contentType = request.headers.get('content-type')
+    if (!contentType || !contentType.includes('application/json')) {
+      return NextResponse.json(
+        { error: 'Content-Type must be application/json' },
+        { status: 415 }
+      )
+    }
+
+    // CSRF protection: verify Origin header matches our domain
+    const origin = request.headers.get('origin')
+    const allowedOrigins = [
+      'https://www.haussparis.com',
+      'https://haussparis.com',
+      'http://localhost:3000', // Development only
+    ]
+    if (origin && !allowedOrigins.includes(origin)) {
+      return NextResponse.json(
+        { error: 'Invalid origin' },
+        { status: 403 }
+      )
+    }
+
     // Get client IP for rate limiting
     const clientIP = getClientIP(request)
 

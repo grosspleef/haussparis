@@ -8,6 +8,8 @@ export function PerformanceHead() {
       {/* Preconnect to external domains */}
       <link rel="preconnect" href="https://www.googletagmanager.com" />
       <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+      <link rel="preconnect" href="https://api.resend.com" />
+      <link rel="dns-prefetch" href="https://api.resend.com" />
 
       {/* Preload critical font */}
       <link

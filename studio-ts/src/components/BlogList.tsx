@@ -97,7 +97,7 @@ export function BlogList({ articles, locale }: BlogListProps) {
                       <dd className="mt-6 flex gap-x-4">
                         <div className="flex-none overflow-hidden rounded-xl bg-neutral-100">
                           <Image
-                            alt=""
+                            alt={`Portrait of ${article.author.name}`}
                             {...article.author.image}
                             className="h-12 w-12 object-cover grayscale"
                           />
