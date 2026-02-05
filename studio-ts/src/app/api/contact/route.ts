@@ -316,7 +316,7 @@ export async function POST(request: NextRequest) {
 
     // 1. Email de confirmation au client
     const confirmationEmail = await resend.emails.send({
-      from: 'HAUSS Paris <onboarding@resend.dev>', // À remplacer par votre domaine vérifié
+      from: 'HAUSS Paris <noreply@send.haussparis.com>',
       to: email,
       subject: t.subjectConfirmation,
       html: `
@@ -365,7 +365,7 @@ export async function POST(request: NextRequest) {
     // 2. Email récapitulatif pour l'équipe (utiliser variable d'environnement)
     const notificationRecipient = process.env.NOTIFICATION_EMAIL || 'contact@haussparis.com'
     const notificationEmail = await resend.emails.send({
-      from: 'HAUSS Paris <onboarding@resend.dev>', // À remplacer par votre domaine vérifié
+      from: 'HAUSS Paris <noreply@send.haussparis.com>',
       to: notificationRecipient,
       subject: t.subjectNotification.replace('{name}', safeName),
       html: `
