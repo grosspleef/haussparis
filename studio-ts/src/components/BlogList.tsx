@@ -114,7 +114,7 @@ export function BlogList({ articles, locale }: BlogListProps) {
                       {article.description}
                     </p>
                     <Button
-                      href={article.href}
+                      href={article.href.replace(`/${locale}`, '')}
                       aria-label={t('readArticle', { title: article.title })}
                       className="mt-8"
                     >
