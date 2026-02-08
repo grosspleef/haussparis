@@ -9,8 +9,10 @@ import { MDXComponents } from '@/components/MDXComponents'
 import { RelatedArticles } from '@/components/RelatedArticles'
 import { RelatedServices } from '@/components/RelatedServices'
 import { RootLayout } from '@/components/RootLayout'
+import { RootLayoutWithLocales } from '@/components/RootLayoutWithLocales'
 import { formatDate } from '@/lib/formatDate'
 import { type Article, loadArticles } from '@/lib/mdx'
+import { type Locale } from '@/lib/routes'
 
 // Article Schema component for SEO
 function ArticleSchema({
@@ -59,12 +61,17 @@ function ArticleSchema({
   )
 }
 
+// Extended Article type with alternates support
+type ArticleWithAlternates = Article & {
+  alternates?: Record<string, string>
+}
+
 export default async function BlogArticleWrapper({
   article,
   children,
   params,
 }: {
-  article: Article
+  article: ArticleWithAlternates
   children: React.ReactNode
   params?: { locale: string }
 }) {
@@ -103,8 +110,20 @@ export default async function BlogArticleWrapper({
     articleHref
   )
 
+  // Build localeUrls from article alternates
+  const localeUrls: Partial<Record<Locale, string>> = {}
+  if (article.alternates) {
+    for (const [loc, url] of Object.entries(article.alternates)) {
+      localeUrls[loc as Locale] = url
+    }
+  }
+
+  // Use RootLayoutWithLocales if we have alternates, otherwise use RootLayout
+  const LayoutComponent = Object.keys(localeUrls).length > 0 ? RootLayoutWithLocales : RootLayout
+  const layoutProps = Object.keys(localeUrls).length > 0 ? { localeUrls } : {}
+
   return (
-    <RootLayout>
+    <LayoutComponent {...layoutProps}>
       {/* Article structured data for SEO */}
       <ArticleSchema article={article} articleUrl={articleHref} />
       <Container as="article" className="mt-24 sm:mt-32 lg:mt-40">
@@ -156,6 +175,6 @@ export default async function BlogArticleWrapper({
       <RelatedServices articleSlug={articleSlug} className="mt-24 sm:mt-32" />
 
       <ContactSection />
-    </RootLayout>
+    </LayoutComponent>
   )
 }
