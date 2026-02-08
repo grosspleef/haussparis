@@ -1,3 +1,4 @@
+import path from 'path'
 import { type ImageProps } from 'next/image'
 import glob from 'fast-glob'
 import type { ArticleCategory } from './blog-metadata'
@@ -8,7 +9,7 @@ async function loadEntries<T extends { date: string }>(
 ): Promise<Array<MDXEntry<T>>> {
   return (
     await Promise.all(
-      (await glob('**/page.mdx', { cwd: `src/app/${directory}` })).map(
+      (await glob('**/page.mdx', { cwd: path.join(process.cwd(), `src/app/${directory}`) })).map(
         async (filename) => {
           let metadata = (await import(`../app/${directory}/${filename}`))[
             metaName
