@@ -1,0 +1,577 @@
+import { Container } from '@/components/Container'
+import { FadeIn } from '@/components/FadeIn'
+import { Button } from '@/components/Button'
+import { StatList, StatListItem } from '@/components/StatList'
+import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
+import Script from 'next/script'
+
+export const article = {
+  date: '2026-02-08',
+  title: 'Rénovation Cuisine Paris : Guide Complet et Prix 2026',
+  description: 'Guide complet pour rénover votre cuisine à Paris : prix au m², agencement, électroménager, matériaux, plans de travail. Conseils d\'experts pour cuisines parisiennes.',
+  author: {
+    name: 'Hugo Betscher',
+    role: 'Fondateur',
+    image: { src: imageHugoBetscher },
+  },
+  locale: 'fr',
+}
+
+export const metadata = {
+  title: 'Rénovation Cuisine Paris : Guide Complet et Prix 2026',
+  description: 'Guide complet pour rénover votre cuisine à Paris : prix au m², agencement, électroménager, matériaux, plans de travail. Conseils d\'experts pour cuisines parisiennes.',
+  keywords: [
+    'rénovation cuisine Paris',
+    'prix cuisine Paris',
+    'cuisiniste Paris',
+    'plan de travail cuisine',
+    'aménagement cuisine',
+    'cuisine équipée Paris',
+    'devis cuisine Paris',
+    'rénovation cuisine appartement',
+    'cuisine sur mesure Paris',
+    'électroménager encastrable'
+  ],
+  openGraph: {
+    title: 'Rénovation Cuisine Paris : Guide Complet et Prix 2026 | Hauss Paris',
+    description: 'Guide complet pour rénover votre cuisine à Paris : prix au m², agencement, électroménager, matériaux, plans de travail. Conseils d\'experts.',
+    type: 'article',
+    publishedTime: '2026-02-08T09:00:00Z',
+    authors: ['Hugo Betscher'],
+    images: [
+      {
+        url: '/blog/renovation-cuisine-paris-guide-complet/renovation-cuisine-hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Rénovation cuisine Paris',
+      },
+    ],
+  },
+  alternates: {
+    canonical: '/fr/blog/renovation-cuisine-paris-guide-complet',
+    languages: {
+      'fr': '/fr/blog/renovation-cuisine-paris-guide-complet',
+      'en': '/en/blog/kitchen-renovation-paris-complete-guide',
+    },
+  },
+}
+
+export const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quel budget prévoir pour rénover une cuisine à Paris ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le prix d'une rénovation de cuisine à Paris varie selon la gamme : économique (800-1200€/m²), milieu de gamme (1200-2000€/m²), haut de gamme (2000-3500€/m²). Pour une cuisine de 10m², comptez entre 8000€ et 35000€ selon les finitions, l'électroménager et les travaux de plomberie/électricité nécessaires."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Combien de temps dure une rénovation de cuisine ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Une rénovation complète de cuisine dure généralement 3 à 6 semaines : 1 semaine de dépose et préparation, 1-2 semaines de travaux techniques (électricité, plomberie), 1-2 semaines de pose des meubles et plans de travail, puis les finitions. Prévoyez des délais de livraison de 4 à 8 semaines pour les cuisines sur mesure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Faut-il un architecte pour rénover sa cuisine ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un architecte d'intérieur n'est pas obligatoire mais fortement recommandé pour optimiser l'espace, respecter le triangle d'activité, coordonner les artisans et éviter les erreurs coûteuses. Dans les cuisines parisiennes souvent petites, son expertise permet de maximiser chaque centimètre et de créer des solutions sur mesure."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Peut-on déplacer l'évier ou la plaque de cuisson ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui, mais avec des contraintes. Déplacer l'évier nécessite de prolonger les arrivées d'eau et l'évacuation (pente minimale de 1-2%). Déplacer une plaque à gaz est plus complexe (réglementation stricte). Les plaques à induction offrent plus de flexibilité. Dans tous les cas, le réseau électrique doit être adapté (circuit dédié 32A pour la plaque)."
+      }
+    }
+  ]
+}
+
+export const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Rénovation Cuisine Paris : Guide Complet et Prix 2026",
+  "description": "Guide complet pour rénover votre cuisine à Paris : prix au m², agencement, électroménager, matériaux, plans de travail.",
+  "image": "https://haussparis.com/blog/renovation-cuisine-paris-guide-complet/renovation-cuisine-hero.jpg",
+  "datePublished": "2026-02-08T09:00:00Z",
+  "dateModified": "2026-02-08T09:00:00Z",
+  "author": {
+    "@type": "Person",
+    "name": "Hugo Betscher",
+    "jobTitle": "Fondateur",
+    "url": "https://haussparis.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hauss Paris",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://haussparis.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haussparis.com/fr/blog/renovation-cuisine-paris-guide-complet"
+  },
+  "keywords": "rénovation cuisine Paris, prix cuisine Paris, cuisiniste Paris, plan de travail cuisine, aménagement cuisine, cuisine équipée Paris",
+  "articleSection": "Rénovation",
+  "inLanguage": "fr-FR"
+}
+
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+/>
+
+<Container className="mt-24 sm:mt-32 lg:mt-40">
+  <FadeIn>
+    <div className="typography mx-auto max-w-3xl">
+
+## Introduction
+
+La cuisine est le cœur de la maison. C'est là que l'on prépare les repas, que l'on partage des moments en famille, que l'on reçoit ses amis autour d'un verre. Dans les appartements parisiens, la cuisine mérite une attention particulière : souvent petite, parfois mal agencée, elle peut devenir un espace fonctionnel et élégant grâce à une rénovation bien pensée.
+
+Mais rénover une cuisine à Paris comporte des défis spécifiques : surfaces réduites, réseaux électriques et de plomberie anciens, contraintes de copropriété, et bien sûr les prix parisiens. Ce guide vous accompagne étape par étape pour réussir votre projet.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur spécialisés dans la rénovation de cuisines parisiennes. **Transformez votre cuisine, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Rénovez votre cuisine</Button>
+</div>
+
+<div className="text-center text-sm text-neutral-600">
+  Décrivez votre projet • Gratuit et sans engagement
+</div>
+
+<div className="not-prose my-12 rounded-2xl border border-neutral-200 bg-neutral-50 p-6">
+  <h3 className="font-display text-sm font-semibold text-neutral-950 uppercase tracking-wide">Sommaire</h3>
+  <nav className="mt-4">
+    <ol className="space-y-2 text-sm">
+      <li><a href="#prix" className="text-neutral-600 hover:text-neutral-950 transition">1. Prix d'une Rénovation de Cuisine à Paris</a></li>
+      <li><a href="#contraintes" className="text-neutral-600 hover:text-neutral-950 transition">2. Les Contraintes Techniques</a></li>
+      <li><a href="#materiaux" className="text-neutral-600 hover:text-neutral-950 transition">3. Choisir les Bons Matériaux</a></li>
+      <li><a href="#agencement" className="text-neutral-600 hover:text-neutral-950 transition">4. Agencement et Ergonomie</a></li>
+      <li><a href="#electromenager" className="text-neutral-600 hover:text-neutral-950 transition">5. Électroménager</a></li>
+      <li><a href="#faq" className="text-neutral-600 hover:text-neutral-950 transition">6. Questions Fréquentes</a></li>
+    </ol>
+  </nav>
+</div>
+
+---
+
+<h2 id="prix">Prix d'une Rénovation de Cuisine à Paris</h2>
+
+Le budget est souvent la première préoccupation. À Paris, les prix sont 20 à 30% plus élevés qu'en province, mais avec une planification rigoureuse, vous pouvez optimiser votre investissement.
+
+### Fourchettes de Prix par Gamme
+
+<StatList>
+  <StatListItem value="800-1,200 €/m²" label="Économique" />
+  <StatListItem value="1,200-2,000 €/m²" label="Milieu de gamme" />
+  <StatListItem value="2,000-3,500+ €/m²" label="Haut de gamme" />
+</StatList>
+
+### Exemple de Budget pour une Cuisine de 10m²
+
+#### Rénovation économique : 8,000-12,000€
+
+- Meubles en mélaminé ou stratifié
+- Plan de travail stratifié
+- Électroménager entrée de gamme (Beko, Candy)
+- Crédence en carrelage basique
+- Peinture des murs
+- Conservation de l'agencement existant
+
+#### Rénovation milieu de gamme : 12,000-20,000€
+
+- Meubles laqués ou en bois plaqué
+- Plan de travail en quartz ou granit
+- Électroménager de marque (Bosch, Siemens, Electrolux)
+- Crédence en verre ou carrelage design
+- Modification partielle de l'agencement
+- Éclairage LED intégré
+
+#### Rénovation haut de gamme : 20,000-35,000€+
+
+- Cuisine sur mesure
+- Plan de travail en pierre naturelle ou Dekton
+- Électroménager premium (Miele, Gaggenau, Sub-Zero)
+- Finitions soignées (poignées design, éclairage scénique)
+- Réagencement complet
+- Îlot central si l'espace le permet
+
+### Ce qui Fait Varier le Prix
+
+#### L'électricité
+
+La mise aux normes est souvent nécessaire dans les appartements anciens. Une cuisine moderne nécessite :
+- Un circuit dédié 32A pour la plaque de cuisson
+- Des prises en nombre suffisant (plan de travail)
+- Un disjoncteur différentiel adapté
+
+**Budget électricité** : 1,500 à 4,000€ selon l'état de l'installation.
+
+#### La plomberie
+
+Si vous déplacez l'évier ou ajoutez un lave-vaisselle, les travaux de plomberie augmentent significativement le budget.
+
+**Budget plomberie** : 500 à 3,000€ selon les modifications.
+
+#### Les meubles et le plan de travail
+
+C'est le poste le plus variable. Une cuisine IKEA équipée coûte 3,000-6,000€, une cuisine de cuisiniste 8,000-20,000€, une cuisine sur mesure 15,000-40,000€.
+
+#### L'électroménager
+
+De 1,500€ pour un équipement basique complet (four, plaque, hotte, réfrigérateur, lave-vaisselle) à plus de 15,000€ pour du haut de gamme.
+
+---
+
+<h2 id="contraintes">Les Contraintes Techniques</h2>
+
+Avant de vous lancer dans les choix esthétiques, il est crucial de comprendre les contraintes techniques propres aux cuisines parisiennes.
+
+### L'Électricité
+
+#### La puissance disponible
+
+Les appartements anciens ont souvent un abonnement électrique limité (6 ou 9 kVA). Une cuisine moderne avec plaque à induction (7 kW), four (3 kW) et autres appareils peut nécessiter un passage à 12 kVA ou plus.
+
+**Vérifiez votre compteur** et contactez votre fournisseur si nécessaire.
+
+#### Les circuits dédiés
+
+La norme NF C 15-100 impose :
+- 1 circuit 32A pour la plaque de cuisson
+- 1 circuit 20A pour le four
+- 1 circuit 20A pour le lave-vaisselle
+- Minimum 6 prises sur le plan de travail (circuit 16A)
+
+#### Le tableau électrique
+
+Si votre tableau est ancien (fusibles porcelaine), prévoyez une mise aux normes complète.
+
+### La Plomberie
+
+#### L'évacuation
+
+L'évier et le lave-vaisselle nécessitent une évacuation vers la colonne d'immeuble. Déplacer l'évier implique de créer une pente d'évacuation (1-2 cm par mètre) dans le sol ou en faux-plafond du voisin du dessous (avec son accord).
+
+#### Les arrivées d'eau
+
+L'eau froide est généralement disponible partout. L'eau chaude peut venir d'un chauffe-eau dédié ou de la production collective.
+
+#### Le gaz
+
+Si vous souhaitez conserver une plaque gaz, la réglementation est stricte :
+- Tuyau flexible à durée de vie limitée ou tuyau rigide
+- Robinet d'arrêt accessible
+- Ventilation obligatoire (grille haute et basse)
+- VMC ou hotte à extraction
+
+**L'alternative** : la plaque à induction, plus flexible et plus sûre.
+
+### La Ventilation et la Hotte
+
+#### La VMC
+
+Dans un appartement, la VMC (Ventilation Mécanique Contrôlée) est souvent collective. Vous ne pouvez pas la modifier sans accord de copropriété.
+
+#### La hotte
+
+- **Hotte à recyclage** : filtre les odeurs et rejette l'air dans la cuisine. Plus simple à installer.
+- **Hotte à extraction** : évacue l'air vers l'extérieur. Plus efficace mais nécessite un conduit (existant ou à créer).
+
+Si un conduit de cheminée inutilisé existe, il peut parfois être utilisé pour l'extraction (vérifiez avec un professionnel).
+
+---
+
+<h2 id="materiaux">Choisir les Bons Matériaux</h2>
+
+Les matériaux de votre cuisine déterminent son esthétique, sa durabilité et son entretien au quotidien.
+
+### Les Plans de Travail
+
+#### Le stratifié
+
+Le plus économique. Large choix de décors (imitation bois, pierre, béton). Résistant aux taches mais sensible à la chaleur et aux rayures profondes.
+
+**Prix** : 50 à 150€/mL posé.
+
+#### Le quartz (Silestone, Caesarstone)
+
+Composite de quartz naturel et résine. Très résistant, non poreux, facile d'entretien. Vaste palette de couleurs.
+
+**Prix** : 250 à 500€/mL posé.
+
+#### Le granit
+
+Pierre naturelle, chaque plan est unique. Très résistant à la chaleur. Nécessite un traitement hydrofuge périodique.
+
+**Prix** : 200 à 400€/mL posé.
+
+#### Le Dekton / céramique
+
+Ultra-résistant à la chaleur, aux rayures et aux UV. Idéal pour les cuisines ouvertes exposées au soleil.
+
+**Prix** : 300 à 600€/mL posé.
+
+#### Le bois massif
+
+Chaleureux et naturel. Nécessite un entretien régulier (huile) et attention aux taches et à l'eau.
+
+**Prix** : 200 à 400€/mL posé.
+
+#### L'inox
+
+Professionnel et hygiénique. Sensible aux rayures visibles. Parfait pour un style industriel.
+
+**Prix** : 300 à 500€/mL posé.
+
+### Les Façades de Meubles
+
+#### Le mélaminé
+
+Le plus répandu. Panneau de particules recouvert d'un décor imitation bois, uni, etc. Bon rapport qualité-prix.
+
+#### Le laqué
+
+Finition brillante ou mate, couleurs au choix. Plus fragile aux chocs mais très esthétique.
+
+#### Le bois massif ou plaqué
+
+Authentique et chaleureux. Le bois massif est plus cher mais plus durable que le plaqué.
+
+#### Le fenix
+
+Surface mate anti-traces, douce au toucher. Les micro-rayures disparaissent à la chaleur. Premium.
+
+### La Crédence
+
+#### Le carrelage
+
+Classique et durable. Le format métro reste intemporel. Les grands formats limitent les joints.
+
+#### Le verre laqué
+
+Lisse, facile à nettoyer, moderne. Peut être rétroéclairé.
+
+#### L'inox
+
+Professionnel, hygiénique, mais marque les traces de doigts.
+
+#### La peinture spéciale
+
+Solution économique mais moins durable. Préférez une peinture glycéro brillante, lessivable.
+
+### Le Sol
+
+#### Le carrelage
+
+Grès cérame grand format, facile d'entretien, résistant à l'eau. Le choix le plus courant.
+
+#### Le parquet
+
+Possible en cuisine avec un parquet vitrifié ou huilé, mais attention aux projections d'eau prolongées.
+
+#### Le vinyle / LVT
+
+Imitation bois ou carrelage, confortable sous les pieds, imperméable. Excellent rapport qualité-prix.
+
+---
+
+<h2 id="agencement">Agencement et Ergonomie</h2>
+
+L'agencement de votre cuisine détermine son confort d'utilisation au quotidien. Un bon agencement suit des principes ergonomiques éprouvés.
+
+### Le Triangle d'Activité
+
+Le concept fondamental : les trois zones principales (cuisson, lavage, stockage) doivent former un triangle dont le périmètre ne dépasse pas 6-7 mètres.
+
+- **Zone cuisson** : plaque et four
+- **Zone lavage** : évier et lave-vaisselle
+- **Zone stockage** : réfrigérateur et placards
+
+Ces zones doivent être proches mais pas trop, avec un plan de travail entre chaque.
+
+### Les Configurations de Cuisine
+
+#### Cuisine linéaire
+
+Tout sur un seul mur. Adaptée aux petits espaces (studios, kitchenettes). Le triangle est forcément étiré.
+
+**Astuce** : prévoyez au moins 3 mètres linéaires pour un minimum de fonctionnalité.
+
+#### Cuisine en L
+
+Deux murs perpendiculaires. La configuration la plus répandue dans les appartements parisiens. Permet un bon triangle d'activité.
+
+**Astuce** : placez l'évier dans l'angle ou à proximité pour optimiser le circuit.
+
+#### Cuisine en U
+
+Trois côtés. Très fonctionnelle si l'espace le permet (minimum 2m entre les deux côtés parallèles).
+
+**Astuce** : idéale pour les grandes cuisines fermées.
+
+#### Cuisine avec îlot
+
+L'îlot central apporte du rangement, un plan de travail supplémentaire, voire un coin repas. Nécessite une surface d'au moins 15m².
+
+**Astuce** : l'îlot peut accueillir la plaque ou l'évier (travaux de plomberie/électricité à prévoir).
+
+#### Cuisine ouverte sur salon
+
+Très tendance à Paris pour agrandir visuellement les espaces. Nécessite une bonne hotte (bruit et odeurs) et un rangement impeccable (tout est visible).
+
+### Solutions pour Petites Cuisines Parisiennes
+
+#### Gagner du plan de travail
+
+- Plan de travail escamotable ou rabattable
+- Planche à découper qui se pose sur l'évier
+- Desserte roulante à glisser sous le plan
+
+#### Optimiser le rangement
+
+- Meubles hauts jusqu'au plafond
+- Tiroirs plutôt que placards (meilleur accès)
+- Aménagements intérieurs (tiroirs à épices, range-couverts, plateaux tournants)
+- Crédence magnétique pour suspendre ustensiles et épices
+
+#### Agrandir visuellement
+
+- Couleurs claires (blanc, bois clair)
+- Façades sans poignées (push-to-open)
+- Plan de travail continu (pas de rupture visuelle)
+- Crédence miroir ou verre réfléchissant
+
+---
+
+<h2 id="electromenager">Électroménager</h2>
+
+L'électroménager représente un investissement important et impacte votre quotidien pendant 10-15 ans minimum.
+
+### Encastrable vs Pose Libre
+
+#### L'encastrable
+
+Intégré dans les meubles, il offre une cuisine épurée et optimise l'espace. Légèrement plus cher à l'achat mais valorise la cuisine.
+
+**Incontournables** : four, plaque, hotte, réfrigérateur, lave-vaisselle.
+
+#### La pose libre
+
+Plus économique, plus facile à remplacer, mais rompt l'harmonie visuelle. À réserver aux cuisines séparées ou aux budgets serrés.
+
+### Les Équipements Essentiels
+
+#### La plaque de cuisson
+
+- **Induction** : la plus efficace, rapide, sûre. Nécessite des casseroles compatibles (fond magnétique). Consomme moins qu'une plaque classique.
+- **Vitrocéramique** : moins chère que l'induction mais plus lente et moins économe.
+- **Gaz** : précision de cuisson appréciée des cuisiniers. Contraintes d'installation à Paris.
+
+**Notre conseil** : l'induction est le meilleur choix pour un appartement parisien.
+
+#### Le four
+
+- **Four multifonction** : chaleur tournante, convection naturelle, grill. Le standard actuel.
+- **Four vapeur** : cuisson saine, légumes croquants. En complément ou en combiné.
+- **Four pyrolyse** : nettoyage automatique par haute température. Pratique mais énergivore.
+
+#### La hotte
+
+- **Hotte tiroir** (escamotable) : discrète, s'intègre dans un meuble haut
+- **Hotte casquette** : économique, fixée sous un meuble
+- **Hotte décorative** : visible, design (inox, verre)
+- **Hotte plafond** : très discrète, pour les îlots
+
+**Critère clé** : le débit d'aspiration (300-700 m³/h) adapté à la surface de la cuisine.
+
+#### Le réfrigérateur
+
+- **Combiné** (réfrigérateur + congélateur en bas) : le plus courant
+- **Américain** (side-by-side) : grande capacité mais encombrant (rarement adapté à Paris)
+- **Intégrable** : se cache derrière une façade assortie aux meubles
+
+**Volume recommandé** : 100-150L par personne.
+
+#### Le lave-vaisselle
+
+- **60 cm** : capacité standard (12-14 couverts)
+- **45 cm** : compact, pour les petites cuisines ou les couples
+- **Tiroir** : très compact (6 couverts), se pose en hauteur
+
+### Marques Recommandées par Gamme
+
+#### Entrée de gamme
+Beko, Candy, Indesit, Whirlpool : fonctionnel, garanti 2 ans, durée de vie 7-10 ans.
+
+#### Milieu de gamme
+Bosch, Siemens, Electrolux, Samsung, LG : fiabilité, bonnes performances, garanties étendues disponibles.
+
+#### Haut de gamme
+Miele, Gaggenau, Sub-Zero, La Cornue : excellence, durabilité (15-20 ans), service après-vente premium.
+
+### Consommation Énergétique
+
+L'étiquette énergie va de A à G. Préférez :
+- **Four** : A+ minimum
+- **Réfrigérateur** : A ou B (les plus énergivores sur le long terme)
+- **Lave-vaisselle** : A minimum
+
+L'investissement initial dans un appareil économe est rentabilisé sur 5-7 ans.
+
+---
+
+<h2 id="faq">Questions Fréquentes</h2>
+
+### Quel budget prévoir pour rénover une cuisine à Paris ?
+
+Le prix d'une rénovation de cuisine à Paris varie considérablement selon la gamme. **Rénovation économique : 800-1200€/m²**, avec meubles en mélaminé et électroménager basique. **Milieu de gamme : 1200-2000€/m²**, avec plan de travail en quartz et électroménager de marque. **Haut de gamme : 2000-3500€/m²** et plus, avec cuisine sur mesure et équipements premium. Pour une cuisine de 10m², comptez donc entre 8000€ et 35000€. N'oubliez pas d'ajouter les travaux d'électricité et de plomberie si nécessaires (2000 à 6000€ supplémentaires).
+
+### Combien de temps dure une rénovation de cuisine ?
+
+Une rénovation complète de cuisine dure généralement **3 à 6 semaines** de travaux effectifs. Le planning type : 1 semaine de dépose et préparation, 1-2 semaines de travaux techniques (électricité, plomberie, sol), 1-2 semaines de pose des meubles et du plan de travail, puis 3-5 jours de finitions (crédence, peinture, raccords). Attention aux délais de livraison : une cuisine sur mesure nécessite 4 à 8 semaines de fabrication après la commande. Planifiez votre projet 2-3 mois à l'avance.
+
+### Faut-il un architecte pour rénover sa cuisine ?
+
+Un architecte d'intérieur n'est pas obligatoire mais **fortement recommandé**, surtout pour les cuisines parisiennes. Son expertise permet d'optimiser l'espace disponible, de respecter le triangle d'activité, de coordonner les différents corps de métier et d'éviter les erreurs coûteuses. Dans les petites cuisines, chaque centimètre compte : un professionnel saura créer des solutions sur mesure que vous n'auriez pas imaginées. Son coût (5-15% du budget travaux) est généralement rentabilisé par les économies réalisées et la valorisation de votre bien.
+
+### Peut-on déplacer l'évier ou la plaque de cuisson ?
+
+Oui, mais avec des contraintes à anticiper. **Déplacer l'évier** nécessite de prolonger les arrivées d'eau (relativement simple) et surtout l'évacuation (pente de 1-2 cm par mètre obligatoire). Si la distance à la colonne est importante, le diamètre du tuyau doit augmenter. **Déplacer une plaque gaz** est plus complexe car la réglementation est stricte (intervention d'un professionnel certifié obligatoire). **Les plaques à induction** offrent plus de flexibilité : il suffit de prévoir le circuit électrique 32A au bon endroit. Dans tous les cas, faites établir un diagnostic par un professionnel avant de vous lancer.
+
+---
+
+## Transformez Votre Cuisine en Espace de Vie
+
+Rénover une cuisine à Paris est un projet exigeant mais gratifiant. Entre les contraintes techniques des appartements anciens, les choix de matériaux et d'équipements, et l'optimisation de l'espace, un accompagnement professionnel fait toute la différence.
+
+Un architecte d'intérieur spécialisé conçoit l'agencement optimal, sélectionne les bons matériaux, coordonne les artisans et garantit une réalisation impeccable. Votre cuisine devient un véritable espace de vie, fonctionnel et élégant, où il fait bon cuisiner et recevoir.
+
+**Hauss Paris** vous met en relation avec des architectes d'intérieur experts en rénovation de cuisine à Paris. **Imaginez votre nouvelle cuisine, gratuitement et sans engagement.**
+
+<div className="not-prose my-12 flex justify-center">
+  <Button href="/contact">Trouvez votre architecte</Button>
+</div>
+
+    </div>
+  </FadeIn>
+</Container>

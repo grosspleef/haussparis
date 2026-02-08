@@ -35,6 +35,8 @@ export const blogToServices: Record<string, ServiceKey[]> = {
   'renovation-appartement-paris-guide-complet': ['renovation', 'architecteInterieurParis', 'kitchenBathroom'],
   'renovation-appartement-haussmannien-guide': ['renovation', 'architecteInterieurParis', 'decoration'],
   'renovation-salle-de-bain-paris-guide-complet': ['kitchenBathroom', 'renovation', 'customLayout'],
+  'renovation-cuisine-paris-guide-complet': ['kitchenBathroom', 'renovation', 'customLayout'],
+  'kitchen-renovation-paris-complete-guide': ['kitchenBathroom', 'renovation', 'customLayout'],
   'renovation-appartement-ancien-erreurs-eviter': ['renovation', 'architecteInterieurParis', 'customLayout'],
   'renovation-appartement-paris-16': ['renovation', 'architecteInterieurParis', 'decoration'],
 
@@ -68,7 +70,7 @@ export const serviceToBlog: Record<ServiceKey, string[]> = {
   decoration: ['tendances-decoration-2026', 'guide-choix-style-interieur'],
   furnishing: ['tendances-decoration-2026', 'guide-choix-style-interieur'],
   homeStaging: ['home-staging-paris-valoriser-bien', 'tendances-decoration-2026'],
-  kitchenBathroom: ['renovation-salle-de-bain-paris-guide-complet', 'amenagement-cuisine-ouverte-salon'],
+  kitchenBathroom: ['renovation-cuisine-paris-guide-complet', 'renovation-salle-de-bain-paris-guide-complet', 'amenagement-cuisine-ouverte-salon'],
   customLayout: ['optimiser-rangement-appartement-parisien', 'comment-agrandir-visuellement-petit-appartement'],
   lightingDesign: ['tendances-decoration-2026', 'comment-agrandir-visuellement-petit-appartement'],
   exteriorDesign: ['tendances-decoration-2026', 'guide-choix-style-interieur'],
@@ -96,6 +98,7 @@ export const articlesByCategory: Record<ArticleCategory, string[]> = {
     'renovation-salle-de-bain-paris-guide-complet',
     'renovation-appartement-ancien-erreurs-eviter',
     'renovation-appartement-paris-16',
+    'renovation-cuisine-paris-guide-complet',
   ],
   decoration: [
     'tendances-decoration-2026',

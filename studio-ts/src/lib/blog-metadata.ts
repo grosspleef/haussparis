@@ -17,6 +17,7 @@ export const articlesMetadata: ArticleMetadata[] = [
   { slug: 'renovation-appartement-paris-guide-complet', category: 'renovation', locale: 'fr' },
   { slug: 'renovation-appartement-haussmannien-guide', category: 'renovation', locale: 'fr' },
   { slug: 'renovation-salle-de-bain-paris-guide-complet', category: 'renovation', locale: 'fr' },
+  { slug: 'renovation-cuisine-paris-guide-complet', category: 'renovation', locale: 'fr' },
   { slug: 'renovation-appartement-ancien-erreurs-eviter', category: 'renovation', locale: 'fr' },
   { slug: 'renovation-appartement-paris-16', category: 'renovation', locale: 'fr' },
 
@@ -44,6 +45,7 @@ export const articlesMetadata: ArticleMetadata[] = [
   { slug: 'home-staging-paris-valoriser-bien', category: 'home-staging', locale: 'fr' },
 
   // English articles
+  { slug: 'kitchen-renovation-paris-complete-guide', category: 'renovation', locale: 'en' },
   { slug: 'interior-design-trends-2026', category: 'tendances', locale: 'en' },
   { slug: 'future-interior-design-2023', category: 'tendances', locale: 'en' },
   { slug: 'how-to-select-interior-designer', category: 'professionnels', locale: 'en' },
