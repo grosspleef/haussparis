@@ -108,8 +108,26 @@ export function ProjectFunnel() {
     }
   }
 
+  function validateStep(current: number): string | null {
+    if (current === 0 && !projectType) {
+      return t('validation.projectType')
+    }
+    if (
+      current === 1 &&
+      (!surface.trim() || !budget.trim() || !address.trim())
+    ) {
+      return t('validation.stepRequired')
+    }
+    return null
+  }
+
   function handleNext() {
     setError('')
+    const stepError = validateStep(step)
+    if (stepError) {
+      setError(stepError)
+      return
+    }
     if (step < STEP_COUNT - 1) {
       setStep(step + 1)
     } else {

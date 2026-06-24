@@ -3060,7 +3060,9 @@
     },
     "validation": {
       "required": "Please fill in your first name, last name and email.",
-      "invalidEmail": "Please enter a valid email address."
+      "invalidEmail": "Please enter a valid email address.",
+      "projectType": "Please select a project type.",
+      "stepRequired": "Please fill in the required fields."
     },
     "success": {
       "title": "Your project has been received",

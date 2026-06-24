@@ -3061,7 +3061,9 @@
     },
     "validation": {
       "required": "Merci de renseigner votre prénom, nom et email.",
-      "invalidEmail": "Merci de saisir une adresse email valide."
+      "invalidEmail": "Merci de saisir une adresse email valide.",
+      "projectType": "Merci de sélectionner un type de projet.",
+      "stepRequired": "Merci de remplir les champs obligatoires."
     },
     "success": {
       "title": "Votre projet a bien été reçu",

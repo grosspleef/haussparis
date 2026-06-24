@@ -2531,7 +2531,9 @@
     },
     "validation": {
       "required": "Inserisci nome, cognome ed email.",
-      "invalidEmail": "Inserisci un indirizzo email valido."
+      "invalidEmail": "Inserisci un indirizzo email valido.",
+      "projectType": "Seleziona un tipo di progetto.",
+      "stepRequired": "Compila i campi obbligatori."
     },
     "success": {
       "title": "Abbiamo ricevuto il tuo progetto",
