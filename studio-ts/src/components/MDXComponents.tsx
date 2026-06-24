@@ -3,10 +3,12 @@ import clsx from 'clsx'
 import { Blockquote } from '@/components/Blockquote'
 import { Border } from '@/components/Border'
 import { GrayscaleTransitionImage } from '@/components/GrayscaleTransitionImage'
+import { StartProjectButton } from '@/components/StartProjectButton'
 import { StatList, StatListItem } from '@/components/StatList'
 import { TagList, TagListItem } from '@/components/TagList'
 
 export const MDXComponents = {
+  StartProjectButton,
   Blockquote({
     className,
     ...props

@@ -6,7 +6,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { Offices } from '@/components/Offices'
-import { contactSlugs, type Locale } from '@/lib/routes'
+import { startSlugs, type Locale } from '@/lib/routes'
 
 export function ContactSection() {
   const t = useTranslations('ContactSection')
@@ -22,7 +22,7 @@ export function ContactSection() {
               {t('title')}
             </h2>
             <div className="mt-6 flex">
-              <Button href={`/${contactSlugs[locale]}`} invert>
+              <Button href={`/${startSlugs[locale]}`} invert>
                 {t('button')}
               </Button>
             </div>

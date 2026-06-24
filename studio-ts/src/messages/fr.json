@@ -2969,99 +2969,85 @@
       "intro": "Quelques questions suffisent pour cerner votre projet. Plus vous nous en dites, plus vite nous trouvons l'architecte qu'il vous faut."
     },
     "steps": {
-      "travaux": "Travaux",
-      "infos": "Infos pratiques",
-      "details": "Détails",
-      "coordonnees": "Coordonnées"
+      "projet": "Projet",
+      "bien": "Le bien",
+      "lieu": "Lieu",
+      "contact": "Contact"
     },
     "sidebar": {
       "stepLabel": "Étape {current} / {total}",
       "title": {
-        "travaux": "Faisons connaissance",
-        "infos": "Informations pratiques",
-        "details": "Détails du projet",
-        "coordonnees": "Vos coordonnées"
+        "projet": "Parlons de votre projet",
+        "bien": "Votre bien",
+        "lieu": "Localisation & échéance",
+        "contact": "Vos coordonnées"
       },
       "description": {
-        "travaux": "Notre mission : vous connecter à l'architecte d'intérieur fait pour votre projet. Décrivez-le, nous sélectionnons le profil le plus adapté à votre style et votre budget.",
-        "infos": "Ces informations nous aident à cerner votre projet et à identifier l'architecte le plus pertinent pour vous.",
-        "details": "Donnez-nous le contexte. Plus vous précisez, mieux nous ciblons l'architecte qu'il vous faut.",
-        "coordonnees": "Pour vous présenter l'architecte adapté et assurer le suivi. Vos données restent chez Hauss Paris et ne sont jamais cédées."
+        "projet": "Une question pour démarrer, rien à remplir. Choisissez ce qui correspond le mieux — on affine ensuite.",
+        "bien": "Le type de logement et sa surface nous aident à cerner l'ampleur du projet et à orienter le bon architecte.",
+        "lieu": "Où se trouve le bien et quand vous souhaitez démarrer. C'est notre meilleur repère pour vous rappeler au bon moment.",
+        "contact": "Pour vous présenter l'architecte adapté. Aucun architecte ne vous contactera tant que vous n'aurez pas validé son profil. Vos données restent chez Hauss Paris et ne sont jamais cédées."
       },
       "help": "Une question ?",
       "helpLink": "Contactez-nous."
     },
-    "stepTravaux": {
-      "types": {
-        "appart": {
-          "label": "Rénovation d'appartement",
-          "description": "sur-mesure"
-        },
-        "maison": {
-          "label": "Rénovation de maison",
-          "description": "extension, réhabilitation"
-        },
-        "sureleve": {
-          "label": "Surélévation d'immeuble",
-          "description": "particuliers, copropriété"
-        },
-        "bureaux": {
-          "label": "Création de bureaux",
-          "description": "startups, co-working"
-        },
-        "neuf": {
-          "label": "Construction neuve",
-          "description": "villa contemporaine"
-        },
-        "autre": {
-          "label": "Autre projet",
-          "description": "hôtel, château…"
-        }
-      }
-    },
-    "stepInfos": {
-      "surface": "Surface",
-      "surfacePlaceholder": "m²",
-      "budget": "Votre budget",
-      "budgetPlaceholder": "100 000 €",
-      "address": "Adresse du projet",
-      "addressPlaceholder": "Ex : 7 rue des Anges, Paris",
-      "planning": "Planning",
-      "planningOptions": {
-        "time": "J'ai tout mon temps",
-        "fast": "Je souhaite avancer rapidement",
-        "urgent": "Projet urgent"
-      }
-    },
-    "stepDetails": {
-      "question": "Êtes-vous ?",
+    "stepProjet": {
+      "question": "Votre projet, c'est quoi ?",
       "options": {
-        "prop": "Propriétaire du bien",
-        "promesse": "Signataire d'une promesse",
-        "acquis": "En cours d'acquisition",
-        "recherche": "En phase de recherche"
+        "renovation": "Rénovation complète d'un logement",
+        "reamenagement": "Réaménagement d'une ou plusieurs pièces",
+        "optimisation": "Optimisation / agencement d'un espace",
+        "unsure": "Je ne sais pas encore précisément"
+      }
+    },
+    "stepBien": {
+      "propertyQuestion": "Quel type de bien ?",
+      "propertyOptions": {
+        "appartement": "Appartement",
+        "maison": "Maison",
+        "local": "Local / autre"
       },
-      "detailsLabel": "Quelque chose à ajouter sur votre projet ?",
-      "detailsPlaceholder": "Ex : optimiser la lumière, refaire le plan…"
+      "surfaceQuestion": "Surface approximative ?",
+      "surfaceOptions": {
+        "lt50": "Moins de 50 m²",
+        "s50_90": "50–90 m²",
+        "s90_150": "90–150 m²",
+        "gt150": "Plus de 150 m²"
+      }
+    },
+    "stepLieu": {
+      "locationQuestion": "Où se situe le bien ?",
+      "locationPlaceholder": "Arrondissement de Paris ou commune",
+      "timelineQuestion": "Vous souhaitez démarrer…",
+      "timelineOptions": {
+        "asap": "Dès que possible",
+        "m3": "Dans les 3 mois",
+        "m6plus": "Dans 6 mois ou plus",
+        "researching": "Je me renseigne"
+      }
     },
     "stepContact": {
       "firstName": "Prénom",
-      "lastName": "Nom",
       "email": "Email",
       "emailPlaceholder": "vous@email.com",
       "phone": "Téléphone",
+      "phoneHint": "pour un échange plus rapide",
       "phonePlaceholder": "+33 6 …",
-      "rgpd": "Vos données restent chez Hauss Paris et ne sont jamais cédées à des tiers."
+      "consent": "J'accepte d'être recontacté(e) et le traitement de mes données.",
+      "privacyLink": "Politique de confidentialité."
     },
     "nav": {
       "previous": "Précédent",
       "next": "Suivant",
-      "submit": "Envoyer ma demande",
+      "submit": "Trouver mon architecte",
       "submitting": "Envoi en cours…"
     },
     "validation": {
       "required": "Merci de renseigner votre prénom, nom et email.",
-      "invalidEmail": "Merci de saisir une adresse email valide."
+      "invalidEmail": "Merci de saisir une adresse email valide.",
+      "projectType": "Merci de sélectionner un type de projet.",
+      "stepRequired": "Merci de remplir les champs obligatoires.",
+      "consent": "Merci d'accepter d'être recontacté(e) pour continuer."
     },
     "success": {
       "title": "Votre projet a bien été reçu",
