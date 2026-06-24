@@ -256,7 +256,13 @@ export async function POST(request: NextRequest) {
       'https://haussparis.com',
       'http://localhost:3000', // Development only
     ]
-    if (origin && !allowedOrigins.includes(origin)) {
+    // Allow Vercel preview deployments (non-production only) so the funnel and
+    // contact form can be tested before going live. Production stays locked down.
+    const isVercelPreview =
+      process.env.VERCEL_ENV === 'preview' &&
+      !!origin &&
+      /^https:\/\/[a-z0-9-]+\.vercel\.app$/.test(origin)
+    if (origin && !allowedOrigins.includes(origin) && !isVercelPreview) {
       return NextResponse.json(
         { error: 'Invalid origin' },
         { status: 403 }
