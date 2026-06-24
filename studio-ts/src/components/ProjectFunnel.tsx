@@ -143,6 +143,27 @@ export function ProjectFunnel() {
     }
   }
 
+  function goToStep(target: number) {
+    if (target === step) return
+    setError('')
+    // Going back is always allowed so the user can review/edit.
+    if (target < step) {
+      setStep(target)
+      return
+    }
+    // Jumping forward requires every preceding step to be valid,
+    // otherwise the stepper would bypass per-step validation.
+    for (let s = 0; s < target; s++) {
+      const stepError = validateStep(s)
+      if (stepError) {
+        setError(stepError)
+        setStep(s)
+        return
+      }
+    }
+    setStep(target)
+  }
+
   if (done) {
     return (
       <Container className="mt-24 sm:mt-32 lg:mt-40">
@@ -188,7 +209,7 @@ export function ProjectFunnel() {
             <li key={key} className="flex flex-1 items-center gap-x-3 last:flex-none">
               <button
                 type="button"
-                onClick={() => setStep(index)}
+                onClick={() => goToStep(index)}
                 className="flex items-center gap-x-3 text-left"
                 aria-current={index === step ? 'step' : undefined}
               >
