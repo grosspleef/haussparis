@@ -27,6 +27,7 @@ import {
   aboutSlugs,
   processSlugs,
   contactSlugs,
+  startSlugs,
   type Locale,
 } from '@/lib/routes'
 
@@ -92,10 +93,21 @@ function Header({
             filled={logoHovered}
           />
         </Link>
-        <div className="flex items-center gap-x-8">
+        <div className="flex items-center gap-x-4 sm:gap-x-6">
           <LanguageSelector invert={invert} />
-          <Button href={`/${contactSlugs[locale]}`} invert={invert}>
+          <Link
+            href={`/${contactSlugs[locale]}`}
+            className={clsx(
+              'hidden text-sm font-semibold transition sm:block',
+              invert
+                ? 'text-white hover:text-neutral-300'
+                : 'text-neutral-950 hover:text-neutral-600',
+            )}
+          >
             {t('contact')}
+          </Link>
+          <Button href={`/${startSlugs[locale]}`} invert={invert}>
+            {t('startProject')}
           </Button>
           <button
             ref={toggleRef}

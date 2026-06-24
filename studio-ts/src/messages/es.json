@@ -21,7 +21,8 @@
   "Header": {
     "home": "Inicio",
     "contact": "Contáctenos",
-    "menu": "Menú"
+    "menu": "Menú",
+    "startProject": "Iniciar un proyecto"
   },
   "Navigation": {
     "services": "Servicios",
@@ -1255,7 +1256,7 @@
     "pricing": {
       "title": "Tarifas: ¿cuánto cuesta un diseñador de interiores en París?",
       "intro": "La transparencia en los precios forma parte de nuestros compromisos. Aquí están los órdenes de magnitud a prever para tu proyecto. Nota: Precios en euros. Consulte para conversión a su moneda.",
-      "link": "Ver todas nuestras tarifas",
+      "link": "Solicitar un presupuesto",
       "fees": {
         "title": "Honorarios del diseñador de interiores",
         "consultation": {
@@ -1300,8 +1301,7 @@
         "works": "Obras: 80 × 1.500 € = 120.000 €",
         "fees": "Honorarios interiorista (10%): 12.000 €",
         "total": "Presupuesto total: aproximadamente 132.000 €"
-      },
-      "link": "Solicitar un presupuesto"
+      }
     },
     "projects": {
       "title": "¿Para qué tipos de proyectos?",
@@ -2430,6 +2430,134 @@
     "description": "Pedimos disculpas por las molestias. Ha ocurrido un error inesperado. Por favor, inténtalo de nuevo o vuelve a la página de inicio.",
     "retry": "Intentar de nuevo",
     "home": "Volver al inicio"
+  },
+  "ProjectFunnel": {
+    "metadata": {
+      "title": "Iniciar un proyecto",
+      "description": "Describe tu proyecto en unos pasos: te presentamos al arquitecto de interiores adecuado, con una primera estimación en 48 horas."
+    },
+    "page": {
+      "eyebrow": "Tu proyecto",
+      "title": "Diseña el espacio de tus sueños.",
+      "intro": "Unas pocas preguntas bastan para definir tu proyecto. Cuanto más nos cuentes, antes encontramos al arquitecto que necesitas."
+    },
+    "steps": {
+      "travaux": "Proyecto",
+      "infos": "Datos prácticos",
+      "details": "Detalles",
+      "coordonnees": "Contacto"
+    },
+    "sidebar": {
+      "stepLabel": "Paso {current} / {total}",
+      "title": {
+        "travaux": "Conozcámonos",
+        "infos": "Datos prácticos",
+        "details": "Detalles del proyecto",
+        "coordonnees": "Tus datos de contacto"
+      },
+      "description": {
+        "travaux": "Nuestra misión: conectarte con el arquitecto de interiores hecho para tu proyecto. Descríbelo y seleccionamos el perfil que mejor se adapta a tu estilo y tu presupuesto.",
+        "infos": "Estos datos nos ayudan a definir tu proyecto e identificar al arquitecto más adecuado para ti.",
+        "details": "Danos el contexto. Cuanto más preciso seas, mejor acertamos con el arquitecto que necesitas.",
+        "coordonnees": "Para presentarte al arquitecto adecuado y hacer el seguimiento. Tus datos permanecen en Hauss Paris y nunca se ceden."
+      },
+      "help": "¿Una pregunta?",
+      "helpLink": "Contáctanos."
+    },
+    "stepTravaux": {
+      "types": {
+        "appart": {
+          "label": "Reforma de apartamento",
+          "description": "a medida"
+        },
+        "maison": {
+          "label": "Reforma de casa",
+          "description": "ampliación, rehabilitación"
+        },
+        "sureleve": {
+          "label": "Sobreelevación de edificio",
+          "description": "particulares, comunidad"
+        },
+        "bureaux": {
+          "label": "Diseño de oficinas",
+          "description": "startups, co-working"
+        },
+        "neuf": {
+          "label": "Obra nueva",
+          "description": "villa contemporánea"
+        },
+        "autre": {
+          "label": "Otro proyecto",
+          "description": "hotel, castillo…"
+        }
+      }
+    },
+    "stepInfos": {
+      "surface": "Superficie",
+      "surfacePlaceholder": "m²",
+      "budget": "Tu presupuesto",
+      "budgetPlaceholder": "100 000 €",
+      "address": "Dirección del proyecto",
+      "addressPlaceholder": "Ej.: 7 rue des Anges, París",
+      "planning": "Calendario",
+      "planningOptions": {
+        "time": "Tengo todo el tiempo",
+        "fast": "Quiero avanzar rápido",
+        "urgent": "Proyecto urgente"
+      }
+    },
+    "stepDetails": {
+      "question": "¿Eres?",
+      "options": {
+        "prop": "Propietario del inmueble",
+        "promesse": "Firmante de un contrato de compra",
+        "acquis": "En proceso de adquisición",
+        "recherche": "En fase de búsqueda"
+      },
+      "detailsLabel": "¿Algo que añadir sobre tu proyecto?",
+      "detailsPlaceholder": "Ej.: optimizar la luz, rehacer el plano…"
+    },
+    "stepContact": {
+      "firstName": "Nombre",
+      "lastName": "Apellidos",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "phone": "Teléfono",
+      "phonePlaceholder": "+33 6 …",
+      "rgpd": "Tus datos permanecen en Hauss Paris y nunca se ceden a terceros."
+    },
+    "nav": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "submit": "Enviar mi solicitud",
+      "submitting": "Enviando…"
+    },
+    "validation": {
+      "required": "Indica tu nombre, apellidos y email.",
+      "invalidEmail": "Introduce una dirección de email válida."
+    },
+    "success": {
+      "title": "Hemos recibido tu proyecto",
+      "text": "Estamos estudiando tu solicitud y te responderemos en 48 horas para presentarte al arquitecto adecuado. Esto es lo que sigue.",
+      "steps": {
+        "1": {
+          "title": "Contacto en 48 h",
+          "description": "Un asesor de Hauss Paris te contacta para definir tu proyecto."
+        },
+        "2": {
+          "title": "Selección del arquitecto",
+          "description": "Identificamos al arquitecto de interiores adecuado a tu estilo y presupuesto."
+        },
+        "3": {
+          "title": "Encuentro y estimación",
+          "description": "Conoces a tu arquitecto y recibes una propuesta personalizada."
+        },
+        "4": {
+          "title": "Inicio",
+          "description": "Damos vida al espacio de tus sueños."
+        }
+      }
+    },
+    "errorGeneric": "Se ha producido un error. Inténtalo de nuevo."
   }
 }
-

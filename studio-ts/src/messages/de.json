@@ -21,7 +21,8 @@
   "Header": {
     "home": "Startseite",
     "contact": "Kontakt",
-    "menu": "Menü"
+    "menu": "Menü",
+    "startProject": "Projekt starten"
   },
   "Navigation": {
     "services": "Leistungen",
@@ -1252,7 +1253,7 @@
     "pricing": {
       "title": "Preise: Was kostet ein Innenarchitekt in Paris?",
       "intro": "Preistransparenz ist Teil unserer Verpflichtungen. Hier sind die Größenordnungen für Ihr Projekt. Hinweis: Alle Preise in Euro. Genaue Aufschlüsselung auf Anfrage verfügbar.",
-      "link": "Alle unsere Preise ansehen",
+      "link": "Kostenvoranschlag anfordern",
       "fees": {
         "title": "Honorare des Innenarchitekten",
         "consultation": {
@@ -1297,8 +1298,7 @@
         "works": "Arbeiten: 80 × 1.500 € = 120.000 €",
         "fees": "Architektenhonorar (10%): 12.000 €",
         "total": "Gesamtbudget: ca. 132.000 €"
-      },
-      "link": "Kostenvoranschlag anfordern"
+      }
     },
     "projects": {
       "title": "Für welche Projektarten?",
@@ -2427,6 +2427,134 @@
     "description": "Wir entschuldigen uns für die Unannehmlichkeiten. Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder kehren Sie zur Startseite zurück.",
     "retry": "Erneut versuchen",
     "home": "Zurück zur Startseite"
+  },
+  "ProjectFunnel": {
+    "metadata": {
+      "title": "Projekt starten",
+      "description": "Beschreiben Sie Ihr Projekt in wenigen Schritten: Wir vermitteln Ihnen den passenden Innenarchitekten – mit einer ersten Einschätzung innerhalb von 48 Stunden."
+    },
+    "page": {
+      "eyebrow": "Ihr Projekt",
+      "title": "Gestalten Sie den Raum Ihrer Träume.",
+      "intro": "Wenige Fragen genügen, um Ihr Projekt zu umreißen. Je mehr Sie uns verraten, desto schneller finden wir den Architekten, den Sie brauchen."
+    },
+    "steps": {
+      "travaux": "Vorhaben",
+      "infos": "Eckdaten",
+      "details": "Details",
+      "coordonnees": "Kontakt"
+    },
+    "sidebar": {
+      "stepLabel": "Schritt {current} / {total}",
+      "title": {
+        "travaux": "Lernen wir uns kennen",
+        "infos": "Eckdaten",
+        "details": "Projektdetails",
+        "coordonnees": "Ihre Kontaktdaten"
+      },
+      "description": {
+        "travaux": "Unsere Mission: Sie mit dem Innenarchitekten zu verbinden, der zu Ihrem Projekt passt. Beschreiben Sie es, und wir wählen das Profil, das am besten zu Ihrem Stil und Budget passt.",
+        "infos": "Diese Angaben helfen uns, Ihr Projekt zu umreißen und den passendsten Architekten für Sie zu finden.",
+        "details": "Geben Sie uns den Kontext. Je präziser Sie sind, desto besser finden wir den Architekten, den Sie brauchen.",
+        "coordonnees": "Damit wir Ihnen den passenden Architekten vorstellen und Sie begleiten können. Ihre Daten bleiben bei Hauss Paris und werden niemals weitergegeben."
+      },
+      "help": "Eine Frage?",
+      "helpLink": "Kontaktieren Sie uns."
+    },
+    "stepTravaux": {
+      "types": {
+        "appart": {
+          "label": "Wohnungsrenovierung",
+          "description": "maßgeschneidert"
+        },
+        "maison": {
+          "label": "Hausrenovierung",
+          "description": "Anbau, Sanierung"
+        },
+        "sureleve": {
+          "label": "Gebäudeaufstockung",
+          "description": "privat, Eigentümergemeinschaft"
+        },
+        "bureaux": {
+          "label": "Bürogestaltung",
+          "description": "Start-ups, Co-Working"
+        },
+        "neuf": {
+          "label": "Neubau",
+          "description": "moderne Villa"
+        },
+        "autre": {
+          "label": "Anderes Projekt",
+          "description": "Hotel, Schloss…"
+        }
+      }
+    },
+    "stepInfos": {
+      "surface": "Fläche",
+      "surfacePlaceholder": "m²",
+      "budget": "Ihr Budget",
+      "budgetPlaceholder": "100.000 €",
+      "address": "Projektadresse",
+      "addressPlaceholder": "z. B. 7 rue des Anges, Paris",
+      "planning": "Zeitplan",
+      "planningOptions": {
+        "time": "Ich habe alle Zeit",
+        "fast": "Ich möchte zügig vorankommen",
+        "urgent": "Dringendes Projekt"
+      }
+    },
+    "stepDetails": {
+      "question": "Sind Sie?",
+      "options": {
+        "prop": "Eigentümer der Immobilie",
+        "promesse": "Kaufvorvertrag unterzeichnet",
+        "acquis": "Im Erwerb",
+        "recherche": "Noch auf der Suche"
+      },
+      "detailsLabel": "Möchten Sie etwas zu Ihrem Projekt ergänzen?",
+      "detailsPlaceholder": "z. B. Licht optimieren, Grundriss ändern…"
+    },
+    "stepContact": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "emailPlaceholder": "sie@email.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+33 6 …",
+      "rgpd": "Ihre Daten bleiben bei Hauss Paris und werden niemals an Dritte weitergegeben."
+    },
+    "nav": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "submit": "Anfrage senden",
+      "submitting": "Wird gesendet…"
+    },
+    "validation": {
+      "required": "Bitte geben Sie Vorname, Nachname und E-Mail an.",
+      "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein."
+    },
+    "success": {
+      "title": "Ihr Projekt ist eingegangen",
+      "text": "Wir prüfen Ihre Anfrage und melden uns innerhalb von 48 Stunden, um Ihnen den passenden Architekten vorzustellen. So geht es weiter.",
+      "steps": {
+        "1": {
+          "title": "Gespräch binnen 48 h",
+          "description": "Ein Berater von Hauss Paris kontaktiert Sie, um Ihr Projekt abzustecken."
+        },
+        "2": {
+          "title": "Auswahl des Architekten",
+          "description": "Wir finden den Innenarchitekten, der zu Ihrem Stil und Budget passt."
+        },
+        "3": {
+          "title": "Treffen & Einschätzung",
+          "description": "Sie treffen Ihren Architekten und erhalten ein individuelles Angebot."
+        },
+        "4": {
+          "title": "Projektstart",
+          "description": "Wir erwecken den Raum Ihrer Träume zum Leben."
+        }
+      }
+    },
+    "errorGeneric": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
   }
 }
-

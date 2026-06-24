@@ -59,6 +59,15 @@ const translations = {
       actionRequired: 'Action requise :',
       actionText: 'N\'oubliez pas de recontacter ce prospect dans les 24-48h.',
       footer: 'Ce message a été envoyé automatiquement depuis le formulaire de contact de haussparis.com'
+    },
+    projectInfo: {
+      title: 'Détails du projet',
+      type: 'Type de projet :',
+      surface: 'Surface :',
+      budget: 'Budget :',
+      address: 'Adresse :',
+      planning: 'Planning :',
+      ownership: 'Situation :',
     }
   },
   en: {
@@ -104,6 +113,15 @@ const translations = {
       actionRequired: 'Action required:',
       actionText: 'Don\'t forget to contact this prospect within 24-48 hours.',
       footer: 'This message was sent automatically from the haussparis.com contact form'
+    },
+    projectInfo: {
+      title: 'Project details',
+      type: 'Project type:',
+      surface: 'Surface:',
+      budget: 'Budget:',
+      address: 'Address:',
+      planning: 'Timeline:',
+      ownership: 'Situation:',
     }
   }
 }
@@ -194,10 +212,11 @@ function validateInputs(
   email: string,
   message: string,
   company?: string,
-  phone?: string
+  phone?: string,
+  requireMessage: boolean = true
 ): { valid: boolean; error?: string } {
   // Check required fields
-  if (!name || !email || !message) {
+  if (!name || !email || (requireMessage && !message)) {
     return { valid: false, error: 'requiredFields' }
   }
 
@@ -277,21 +296,37 @@ export async function POST(request: NextRequest) {
       phone: rawPhone,
       message: rawMessage,
       budget,
+      source,
+      projectType: rawProjectType,
+      surface: rawSurface,
+      budgetAmount: rawBudgetAmount,
+      address: rawAddress,
+      planning: rawPlanning,
+      ownership: rawOwnership,
       locale = 'fr'
     } = body
 
-    // Sanitize inputs
+    const isFunnel = source === 'funnel'
+
+    // Sanitize inputs (cap structured fields to a safe length)
+    const cap = (value: string) => value.slice(0, 300)
     const name = sanitizeInput(rawName)
     const email = sanitizeInput(rawEmail)?.toLowerCase()
     const company = sanitizeInput(rawCompany)
     const phone = sanitizeInput(rawPhone)
     const message = sanitizeInput(rawMessage)
+    const projectType = cap(sanitizeInput(rawProjectType))
+    const surface = cap(sanitizeInput(rawSurface))
+    const budgetAmount = cap(sanitizeInput(rawBudgetAmount))
+    const address = cap(sanitizeInput(rawAddress))
+    const planning = cap(sanitizeInput(rawPlanning))
+    const ownership = cap(sanitizeInput(rawOwnership))
 
     // Obtenir les traductions selon la locale
     const t = translations[locale as keyof typeof translations] || translations.fr
 
-    // Validate inputs
-    const validation = validateInputs(name, email, message, company, phone)
+    // Validate inputs (the project funnel carries structured data, message optional)
+    const validation = validateInputs(name, email, message, company, phone, !isFunnel)
     if (!validation.valid) {
       const errorKey = validation.error as keyof typeof t
       return NextResponse.json(
@@ -303,9 +338,12 @@ export async function POST(request: NextRequest) {
     // Budget formaté (validate against allowed values)
     const validBudgets = ['50-100', '100-250', '250-500', '500+']
     const sanitizedBudget = validBudgets.includes(budget) ? budget : null
-    const budgetText = sanitizedBudget
-      ? t.budgetLabels[sanitizedBudget as keyof typeof t.budgetLabels]
-      : t.notSpecified
+    const safeBudgetAmount = escapeHtml(budgetAmount || '')
+    const budgetText = isFunnel
+      ? safeBudgetAmount || t.notSpecified
+      : sanitizedBudget
+        ? t.budgetLabels[sanitizedBudget as keyof typeof t.budgetLabels]
+        : t.notSpecified
 
     // Escape HTML for email display
     const safeName = escapeHtml(name)
@@ -313,6 +351,47 @@ export async function POST(request: NextRequest) {
     const safeCompany = escapeHtml(company || '')
     const safePhone = escapeHtml(phone || '')
     const safeMessage = escapeHtml(message)
+
+    // Structured project details (project funnel only)
+    const projectRows: Array<[string, string]> = isFunnel
+      ? ([
+          [t.projectInfo.type, escapeHtml(projectType || '')],
+          [t.projectInfo.surface, escapeHtml(surface || '')],
+          [t.projectInfo.address, escapeHtml(address || '')],
+          [t.projectInfo.planning, escapeHtml(planning || '')],
+          [t.projectInfo.ownership, escapeHtml(ownership || '')],
+        ].filter(([, value]) => value) as Array<[string, string]>)
+      : []
+
+    const confirmationProjectBlock =
+      projectRows.length > 0
+        ? `
+              <div style="background-color: white; padding: 20px; border-radius: 8px; margin: 25px 0;">
+                <h2 style="color: #0a0a0a; font-size: 18px; margin-bottom: 15px;">${t.projectInfo.title}</h2>
+                ${projectRows
+                  .map(
+                    ([label, value]) =>
+                      `<p style="margin: 8px 0;"><strong>${label}</strong> ${value}</p>`,
+                  )
+                  .join('')}
+              </div>`
+        : ''
+
+    const notificationProjectBlock =
+      projectRows.length > 0
+        ? `
+              <div style="background-color: white; padding: 25px; border-radius: 8px; margin: 20px 0;">
+                <h2 style="color: #0a0a0a; font-size: 18px; margin-bottom: 15px; border-bottom: 2px solid #0a0a0a; padding-bottom: 10px;">${t.projectInfo.title}</h2>
+                <table style="width: 100%; border-collapse: collapse;">
+                  ${projectRows
+                    .map(
+                      ([label, value]) =>
+                        `<tr><td style="padding: 10px 0; border-bottom: 1px solid #eee;"><strong style="color: #666;">${label}</strong></td><td style="padding: 10px 0; border-bottom: 1px solid #eee;">${value}</td></tr>`,
+                    )
+                    .join('')}
+                </table>
+              </div>`
+        : ''
 
     // 1. Email de confirmation au client
     const confirmationEmail = await resend.emails.send({
@@ -344,6 +423,7 @@ export async function POST(request: NextRequest) {
                 <p style="margin: 8px 0;"><strong>${t.confirmation.message}</strong></p>
                 <p style="margin: 8px 0; padding: 10px; background-color: #f8f8f8; border-radius: 5px;">${safeMessage}</p>
               </div>
+              ${confirmationProjectBlock}
 
               <p style="margin-bottom: 15px;">${t.confirmation.portfolio}</p>
 
@@ -438,6 +518,7 @@ export async function POST(request: NextRequest) {
                   </div>
                 </div>
               </div>
+              ${notificationProjectBlock}
 
               <div style="background-color: #fff3cd; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107; margin-top: 20px;">
                 <p style="margin: 0; color: #856404;">

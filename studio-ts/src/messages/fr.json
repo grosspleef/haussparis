@@ -21,7 +21,8 @@
   "Header": {
     "home": "Accueil",
     "contact": "Contactez-nous",
-    "menu": "Menu"
+    "menu": "Menu",
+    "startProject": "Démarrer un projet"
   },
   "Navigation": {
     "services": "Services",
@@ -2956,5 +2957,134 @@
     "description": "Nous nous excusons pour ce désagrément. Une erreur inattendue s'est produite. Veuillez réessayer ou retourner à la page d'accueil.",
     "retry": "Réessayer",
     "home": "Retour à l'accueil"
+  },
+  "ProjectFunnel": {
+    "metadata": {
+      "title": "Démarrer un projet",
+      "description": "Décrivez votre projet en quelques étapes : nous vous présentons l'architecte d'intérieur adapté, avec une première estimation sous 48 h."
+    },
+    "page": {
+      "eyebrow": "Votre projet",
+      "title": "Composez l'espace de vos rêves.",
+      "intro": "Quelques questions suffisent pour cerner votre projet. Plus vous nous en dites, plus vite nous trouvons l'architecte qu'il vous faut."
+    },
+    "steps": {
+      "travaux": "Travaux",
+      "infos": "Infos pratiques",
+      "details": "Détails",
+      "coordonnees": "Coordonnées"
+    },
+    "sidebar": {
+      "stepLabel": "Étape {current} / {total}",
+      "title": {
+        "travaux": "Faisons connaissance",
+        "infos": "Informations pratiques",
+        "details": "Détails du projet",
+        "coordonnees": "Vos coordonnées"
+      },
+      "description": {
+        "travaux": "Notre mission : vous connecter à l'architecte d'intérieur fait pour votre projet. Décrivez-le, nous sélectionnons le profil le plus adapté à votre style et votre budget.",
+        "infos": "Ces informations nous aident à cerner votre projet et à identifier l'architecte le plus pertinent pour vous.",
+        "details": "Donnez-nous le contexte. Plus vous précisez, mieux nous ciblons l'architecte qu'il vous faut.",
+        "coordonnees": "Pour vous présenter l'architecte adapté et assurer le suivi. Vos données restent chez Hauss Paris et ne sont jamais cédées."
+      },
+      "help": "Une question ?",
+      "helpLink": "Contactez-nous."
+    },
+    "stepTravaux": {
+      "types": {
+        "appart": {
+          "label": "Rénovation d'appartement",
+          "description": "sur-mesure"
+        },
+        "maison": {
+          "label": "Rénovation de maison",
+          "description": "extension, réhabilitation"
+        },
+        "sureleve": {
+          "label": "Surélévation d'immeuble",
+          "description": "particuliers, copropriété"
+        },
+        "bureaux": {
+          "label": "Création de bureaux",
+          "description": "startups, co-working"
+        },
+        "neuf": {
+          "label": "Construction neuve",
+          "description": "villa contemporaine"
+        },
+        "autre": {
+          "label": "Autre projet",
+          "description": "hôtel, château…"
+        }
+      }
+    },
+    "stepInfos": {
+      "surface": "Surface",
+      "surfacePlaceholder": "m²",
+      "budget": "Votre budget",
+      "budgetPlaceholder": "100 000 €",
+      "address": "Adresse du projet",
+      "addressPlaceholder": "Ex : 7 rue des Anges, Paris",
+      "planning": "Planning",
+      "planningOptions": {
+        "time": "J'ai tout mon temps",
+        "fast": "Je souhaite avancer rapidement",
+        "urgent": "Projet urgent"
+      }
+    },
+    "stepDetails": {
+      "question": "Êtes-vous ?",
+      "options": {
+        "prop": "Propriétaire du bien",
+        "promesse": "Signataire d'une promesse",
+        "acquis": "En cours d'acquisition",
+        "recherche": "En phase de recherche"
+      },
+      "detailsLabel": "Quelque chose à ajouter sur votre projet ?",
+      "detailsPlaceholder": "Ex : optimiser la lumière, refaire le plan…"
+    },
+    "stepContact": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "emailPlaceholder": "vous@email.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+33 6 …",
+      "rgpd": "Vos données restent chez Hauss Paris et ne sont jamais cédées à des tiers."
+    },
+    "nav": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "submit": "Envoyer ma demande",
+      "submitting": "Envoi en cours…"
+    },
+    "validation": {
+      "required": "Merci de renseigner votre prénom, nom et email.",
+      "invalidEmail": "Merci de saisir une adresse email valide."
+    },
+    "success": {
+      "title": "Votre projet a bien été reçu",
+      "text": "Nous étudions votre demande et revenons vers vous sous 48 h pour vous présenter l'architecte adapté. Voici la suite.",
+      "steps": {
+        "1": {
+          "title": "Échange sous 48 h",
+          "description": "Un conseiller Hauss Paris vous contacte pour cadrer votre projet."
+        },
+        "2": {
+          "title": "Sélection de l'architecte",
+          "description": "Nous identifions l'architecte d'intérieur adapté à votre style et votre budget."
+        },
+        "3": {
+          "title": "Rencontre & estimation",
+          "description": "Vous rencontrez votre architecte et recevez une proposition personnalisée."
+        },
+        "4": {
+          "title": "Lancement",
+          "description": "On donne vie à l'espace de vos rêves."
+        }
+      }
+    },
+    "errorGeneric": "Une erreur est survenue. Merci de réessayer."
   }
 }
