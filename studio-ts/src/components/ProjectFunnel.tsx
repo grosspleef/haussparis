@@ -8,6 +8,7 @@ import { Link } from '@/i18n/routing'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { contactSlugs, type Locale } from '@/lib/routes'
+import { trackMetaEvent } from '@/lib/metaPixel'
 
 const PROJECT_OPTIONS = [
   'renovation',
@@ -80,6 +81,7 @@ export function ProjectFunnel() {
   const [location, setLocation] = useState('')
   const [timeline, setTimeline] = useState<string | null>(null)
   const [firstName, setFirstName] = useState('')
+  const [lastName, setLastName] = useState('')
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
   const [consent, setConsent] = useState(false)
@@ -90,7 +92,7 @@ export function ProjectFunnel() {
   async function submit() {
     setError('')
 
-    if (!firstName.trim() || !email.trim()) {
+    if (!firstName.trim() || !lastName.trim() || !email.trim()) {
       setError(t('validation.stepRequired'))
       return
     }
@@ -109,7 +111,7 @@ export function ProjectFunnel() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: firstName.trim(),
+          name: `${firstName.trim()} ${lastName.trim()}`,
           email: email.trim().toLowerCase(),
           phone: phone.trim(),
           message: '',
@@ -136,6 +138,8 @@ export function ProjectFunnel() {
       }
 
       setDone(true)
+      // Conversion principale : prospect qualifié via le funnel.
+      trackMetaEvent('Lead')
     } catch (err) {
       setError(err instanceof Error ? err.message : t('errorGeneric'))
     } finally {
@@ -389,7 +393,7 @@ export function ProjectFunnel() {
             {/* Step 4 — contact */}
             {step === 3 && (
               <div className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2">
-                <div className="sm:col-span-2">
+                <div>
                   <FieldLabel required>{t('stepContact.firstName')}</FieldLabel>
                   <input
                     className={inputClasses}
@@ -397,6 +401,16 @@ export function ProjectFunnel() {
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                     placeholder={t('stepContact.firstName')}
+                  />
+                </div>
+                <div>
+                  <FieldLabel required>{t('stepContact.lastName')}</FieldLabel>
+                  <input
+                    className={inputClasses}
+                    autoComplete="family-name"
+                    value={lastName}
+                    onChange={(e) => setLastName(e.target.value)}
+                    placeholder={t('stepContact.lastName')}
                   />
                 </div>
                 <div className="sm:col-span-2">

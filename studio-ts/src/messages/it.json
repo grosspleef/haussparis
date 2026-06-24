@@ -2498,6 +2498,7 @@
     },
     "stepContact": {
       "firstName": "Nome",
+      "lastName": "Cognome",
       "email": "Email",
       "emailPlaceholder": "tu@email.com",
       "phone": "Telefono",

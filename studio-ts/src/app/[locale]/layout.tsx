@@ -6,6 +6,7 @@ import type { ReactNode } from 'react'
 
 import '@/styles/tailwind.css'
 import { GoogleAnalytics } from '@/components/GoogleAnalytics'
+import { MetaPixel } from '@/components/MetaPixel'
 import { StructuredData } from '@/components/StructuredData'
 import { ReviewSchema } from '@/components/ReviewSchema'
 import { PerformanceHead } from './PerformanceHead'
@@ -101,6 +102,16 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
     verification: {
       // Add your Google Search Console verification code here
       // google: 'your-verification-code',
+      // Meta / Facebook domain verification (Brand Safety → Domaines).
+      // Renseigner FACEBOOK_DOMAIN_VERIFICATION dans Vercel pour activer la balise.
+      ...(process.env.FACEBOOK_DOMAIN_VERIFICATION
+        ? {
+            other: {
+              'facebook-domain-verification':
+                process.env.FACEBOOK_DOMAIN_VERIFICATION,
+            },
+          }
+        : {}),
     },
     // Performance optimizations: other metadata
     other: {
@@ -207,6 +218,7 @@ export default async function Layout({
              'Skip to main content'}
           </a>
           <GoogleAnalytics />
+          <MetaPixel />
           <StructuredData organization={organizationSchema} localBusiness={localBusinessSchema} />
           <ReviewSchema />
           {children}

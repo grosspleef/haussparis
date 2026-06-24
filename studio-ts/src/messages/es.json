@@ -2501,6 +2501,7 @@
     },
     "stepContact": {
       "firstName": "Nombre",
+      "lastName": "Apellido",
       "email": "Email",
       "emailPlaceholder": "tu@email.com",
       "phone": "Teléfono",

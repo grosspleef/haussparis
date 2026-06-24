@@ -3028,6 +3028,7 @@
     },
     "stepContact": {
       "firstName": "Prénom",
+      "lastName": "Nom",
       "email": "Email",
       "emailPlaceholder": "vous@email.com",
       "phone": "Téléphone",

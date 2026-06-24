@@ -3027,6 +3027,7 @@
     },
     "stepContact": {
       "firstName": "First name",
+      "lastName": "Last name",
       "email": "Email",
       "emailPlaceholder": "you@email.com",
       "phone": "Phone",
