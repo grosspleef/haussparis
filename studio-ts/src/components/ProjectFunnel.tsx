@@ -60,8 +60,13 @@ export function ProjectFunnel() {
   async function submit() {
     setError('')
 
-    if (!firstName.trim() || !lastName.trim() || !email.trim()) {
-      setError(t('validation.required'))
+    if (
+      !firstName.trim() ||
+      !lastName.trim() ||
+      !email.trim() ||
+      !phone.trim()
+    ) {
+      setError(t('validation.stepRequired'))
       return
     }
     if (!EMAIL_REGEX.test(email.trim())) {
@@ -116,6 +121,9 @@ export function ProjectFunnel() {
       current === 1 &&
       (!surface.trim() || !budget.trim() || !address.trim())
     ) {
+      return t('validation.stepRequired')
+    }
+    if (current === 2 && (!ownership || !details.trim())) {
       return t('validation.stepRequired')
     }
     return null
@@ -299,7 +307,7 @@ export function ProjectFunnel() {
                   />
                 </div>
                 <div className="sm:col-span-2">
-                  <FieldLabel>{t('stepInfos.planning')}</FieldLabel>
+                  <FieldLabel required>{t('stepInfos.planning')}</FieldLabel>
                   <select
                     className={inputClasses}
                     value={planning}
@@ -319,7 +327,7 @@ export function ProjectFunnel() {
             {step === 2 && (
               <div className="space-y-8">
                 <div>
-                  <FieldLabel>{t('stepDetails.question')}</FieldLabel>
+                  <FieldLabel required>{t('stepDetails.question')}</FieldLabel>
                   <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
                     {OWNERSHIP_OPTIONS.map((opt) => (
                       <button
@@ -339,7 +347,7 @@ export function ProjectFunnel() {
                   </div>
                 </div>
                 <div>
-                  <FieldLabel>{t('stepDetails.detailsLabel')}</FieldLabel>
+                  <FieldLabel required>{t('stepDetails.detailsLabel')}</FieldLabel>
                   <textarea
                     rows={4}
                     className={inputClasses}
@@ -386,7 +394,7 @@ export function ProjectFunnel() {
                   />
                 </div>
                 <div className="sm:col-span-2">
-                  <FieldLabel>{t('stepContact.phone')}</FieldLabel>
+                  <FieldLabel required>{t('stepContact.phone')}</FieldLabel>
                   <input
                     className={inputClasses}
                     type="tel"
