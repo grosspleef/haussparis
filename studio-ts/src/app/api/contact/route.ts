@@ -64,11 +64,11 @@ const translations = {
     projectInfo: {
       title: 'Détails du projet',
       type: 'Type de projet :',
-      style: 'Style recherché :',
+      propertyType: 'Type de bien :',
       surface: 'Surface :',
       budget: 'Budget :',
-      address: 'Adresse :',
-      planning: 'Planning :',
+      address: 'Localisation :',
+      planning: 'Démarrage :',
       ownership: 'Situation :',
     }
   },
@@ -120,10 +120,10 @@ const translations = {
     projectInfo: {
       title: 'Project details',
       type: 'Project type:',
-      style: 'Desired style:',
+      propertyType: 'Property type:',
       surface: 'Surface:',
       budget: 'Budget:',
-      address: 'Address:',
+      address: 'Location:',
       planning: 'Timeline:',
       ownership: 'Situation:',
     }
@@ -308,12 +308,11 @@ export async function POST(request: NextRequest) {
       budget,
       source,
       projectType: rawProjectType,
-      style: rawStyle,
+      propertyType: rawPropertyType,
       surface: rawSurface,
       budgetAmount: rawBudgetAmount,
       address: rawAddress,
       planning: rawPlanning,
-      ownership: rawOwnership,
       locale = 'fr'
     } = body
 
@@ -327,12 +326,11 @@ export async function POST(request: NextRequest) {
     const phone = sanitizeInput(rawPhone)
     const message = sanitizeInput(rawMessage)
     const projectType = cap(sanitizeInput(rawProjectType))
-    const style = cap(sanitizeInput(rawStyle))
+    const propertyType = cap(sanitizeInput(rawPropertyType))
     const surface = cap(sanitizeInput(rawSurface))
     const budgetAmount = cap(sanitizeInput(rawBudgetAmount))
     const address = cap(sanitizeInput(rawAddress))
     const planning = cap(sanitizeInput(rawPlanning))
-    const ownership = cap(sanitizeInput(rawOwnership))
 
     // Obtenir les traductions selon la locale
     const t = translations[locale as keyof typeof translations] || translations.fr
@@ -368,11 +366,10 @@ export async function POST(request: NextRequest) {
     const projectRows: Array<[string, string]> = isFunnel
       ? ([
           [t.projectInfo.type, escapeHtml(projectType || '')],
-          [t.projectInfo.style, escapeHtml(style || '')],
+          [t.projectInfo.propertyType, escapeHtml(propertyType || '')],
           [t.projectInfo.surface, escapeHtml(surface || '')],
           [t.projectInfo.address, escapeHtml(address || '')],
           [t.projectInfo.planning, escapeHtml(planning || '')],
-          [t.projectInfo.ownership, escapeHtml(ownership || '')],
         ].filter(([, value]) => value) as Array<[string, string]>)
       : []
 
@@ -433,8 +430,8 @@ export async function POST(request: NextRequest) {
                 ${safeCompany ? `<p style="margin: 8px 0;"><strong>${t.confirmation.company}</strong> ${safeCompany}</p>` : ''}
                 ${safePhone ? `<p style="margin: 8px 0;"><strong>${t.confirmation.phone}</strong> ${safePhone}</p>` : ''}
                 <p style="margin: 8px 0;"><strong>${t.confirmation.budget}</strong> ${budgetText}</p>
-                <p style="margin: 8px 0;"><strong>${t.confirmation.message}</strong></p>
-                <p style="margin: 8px 0; padding: 10px; background-color: #f8f8f8; border-radius: 5px;">${safeMessage}</p>
+                ${safeMessage ? `<p style="margin: 8px 0;"><strong>${t.confirmation.message}</strong></p>
+                <p style="margin: 8px 0; padding: 10px; background-color: #f8f8f8; border-radius: 5px;">${safeMessage}</p>` : ''}
               </div>
               ${confirmationProjectBlock}
 
@@ -524,12 +521,12 @@ export async function POST(request: NextRequest) {
                   </tr>
                 </table>
 
-                <div style="margin-top: 20px;">
+                ${safeMessage ? `<div style="margin-top: 20px;">
                   <strong style="color: #666; display: block; margin-bottom: 10px;">${t.notification.message}</strong>
                   <div style="background-color: #f8f8f8; padding: 15px; border-radius: 5px; border-left: 4px solid #0a0a0a;">
                     ${safeMessage}
                   </div>
-                </div>
+                </div>` : ''}
               </div>
               ${notificationProjectBlock}
 

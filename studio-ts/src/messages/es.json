@@ -2442,117 +2442,85 @@
       "intro": "Unas pocas preguntas bastan para definir tu proyecto. Cuanto más nos cuentes, antes encontramos al arquitecto que necesitas."
     },
     "steps": {
-      "travaux": "Proyecto",
-      "infos": "Datos prácticos",
-      "details": "Detalles",
-      "coordonnees": "Contacto"
+      "projet": "Proyecto",
+      "bien": "Inmueble",
+      "lieu": "Ubicación",
+      "contact": "Contacto"
     },
     "sidebar": {
       "stepLabel": "Paso {current} / {total}",
       "title": {
-        "travaux": "Conozcámonos",
-        "infos": "Datos prácticos",
-        "details": "Detalles del proyecto",
-        "coordonnees": "Tus datos de contacto"
+        "projet": "Hablemos de tu proyecto",
+        "bien": "Tu inmueble",
+        "lieu": "Ubicación y plazos",
+        "contact": "Tus datos"
       },
       "description": {
-        "travaux": "Nuestra misión: conectarte con el arquitecto de interiores hecho para tu proyecto. Descríbelo y seleccionamos el perfil que mejor se adapta a tu estilo y tu presupuesto.",
-        "infos": "Estos datos nos ayudan a definir tu proyecto e identificar al arquitecto más adecuado para ti.",
-        "details": "Danos el contexto. Cuanto más preciso seas, mejor acertamos con el arquitecto que necesitas.",
-        "coordonnees": "Para presentarte al arquitecto adecuado y hacer el seguimiento. Ningún arquitecto te contactará hasta que hayas validado su perfil. Tus datos permanecen en Hauss Paris y nunca se ceden."
+        "projet": "Una pregunta para empezar, nada que rellenar. Elige lo que mejor encaje — el resto lo afinamos juntos.",
+        "bien": "El tipo de vivienda y su superficie nos ayudan a calibrar el alcance y orientarte al arquitecto adecuado.",
+        "lieu": "Dónde está el inmueble y cuándo quieres empezar. Es nuestra mejor referencia para contactarte en el momento justo.",
+        "contact": "Para presentarte al arquitecto adecuado. Ningún arquitecto te contactará hasta que hayas validado su perfil. Tus datos permanecen en Hauss Paris y nunca se ceden."
       },
       "help": "¿Una pregunta?",
       "helpLink": "Contáctanos."
     },
-    "stepTravaux": {
-      "types": {
-        "renovation": {
-          "label": "Renovación integral",
-          "description": "piso o casa"
-        },
-        "amenagement": {
-          "label": "Distribución de espacios",
-          "description": "optimización, a medida"
-        },
-        "decoration": {
-          "label": "Decoración y mobiliario",
-          "description": "muebles, materiales, ambiente"
-        },
-        "cuisinesdb": {
-          "label": "Cocina y baño",
-          "description": "diseño a medida"
-        },
-        "bureaux": {
-          "label": "Oficinas y espacios pro",
-          "description": "comercios, hostelería"
-        },
-        "homestaging": {
-          "label": "Home staging",
-          "description": "valorizar antes de vender"
-        },
-        "autre": {
-          "label": "Otro proyecto",
-          "description": "aún no lo sé"
-        }
-      }
-    },
-    "stepInfos": {
-      "surface": "Superficie",
-      "surfacePlaceholder": "m²",
-      "budget": "Tu presupuesto",
-      "budgetPlaceholder": "100 000 €",
-      "address": "Dirección del proyecto",
-      "addressPlaceholder": "Ej.: 7 rue des Anges, París",
-      "planning": "Calendario",
-      "planningOptions": {
-        "time": "Tengo todo el tiempo",
-        "fast": "Quiero avanzar rápido",
-        "urgent": "Proyecto urgente"
-      }
-    },
-    "stepDetails": {
-      "question": "¿Eres?",
+    "stepProjet": {
+      "question": "¿Cuál es tu proyecto?",
       "options": {
-        "prop": "Propietario del inmueble",
-        "promesse": "Firmante de un contrato de compra",
-        "acquis": "En proceso de adquisición",
-        "recherche": "En fase de búsqueda"
+        "renovation": "Renovación integral de una vivienda",
+        "reamenagement": "Reforma de una o varias estancias",
+        "optimisation": "Optimización / distribución de un espacio",
+        "unsure": "Aún no lo sé con precisión"
+      }
+    },
+    "stepBien": {
+      "propertyQuestion": "¿Qué tipo de inmueble?",
+      "propertyOptions": {
+        "appartement": "Piso",
+        "maison": "Casa",
+        "local": "Local / otro"
       },
-      "detailsLabel": "¿Algo que añadir sobre tu proyecto?",
-      "detailsPlaceholder": "Ej.: optimizar la luz, rehacer el plano…",
-      "styleQuestion": "¿Qué estilo buscas?",
-      "styles": {
-        "haussmannien": "Haussmann",
-        "contemporain": "Contemporáneo",
-        "minimaliste": "Minimalista",
-        "scandinave": "Escandinavo",
-        "classique": "Clásico",
-        "industriel": "Industrial",
-        "boheme": "Bohemio",
-        "unsure": "Aún no lo sé",
-        "other": "Otro / una mezcla"
+      "surfaceQuestion": "¿Superficie aproximada?",
+      "surfaceOptions": {
+        "lt50": "Menos de 50 m²",
+        "s50_90": "50–90 m²",
+        "s90_150": "90–150 m²",
+        "gt150": "Más de 150 m²"
+      }
+    },
+    "stepLieu": {
+      "locationQuestion": "¿Dónde está el inmueble?",
+      "locationPlaceholder": "Distrito de París o municipio",
+      "timelineQuestion": "Quieres empezar…",
+      "timelineOptions": {
+        "asap": "Lo antes posible",
+        "m3": "En los próximos 3 meses",
+        "m6plus": "En 6 meses o más",
+        "researching": "Solo me informo"
       }
     },
     "stepContact": {
       "firstName": "Nombre",
-      "lastName": "Apellidos",
       "email": "Email",
       "emailPlaceholder": "tu@email.com",
       "phone": "Teléfono",
+      "phoneHint": "para un contacto más rápido",
       "phonePlaceholder": "+33 6 …",
-      "rgpd": "Tus datos permanecen en Hauss Paris y nunca se ceden a terceros."
+      "consent": "Acepto ser contactado/a y el tratamiento de mis datos.",
+      "privacyLink": "Política de privacidad."
     },
     "nav": {
       "previous": "Anterior",
       "next": "Siguiente",
-      "submit": "Enviar mi solicitud",
+      "submit": "Encontrar mi arquitecto",
       "submitting": "Enviando…"
     },
     "validation": {
       "required": "Indica tu nombre, apellidos y email.",
       "invalidEmail": "Introduce una dirección de email válida.",
       "projectType": "Selecciona un tipo de proyecto.",
-      "stepRequired": "Completa los campos obligatorios."
+      "stepRequired": "Completa los campos obligatorios.",
+      "consent": "Acepta ser contactado/a para continuar."
     },
     "success": {
       "title": "Hemos recibido tu proyecto",

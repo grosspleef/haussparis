@@ -9,33 +9,28 @@ import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { contactSlugs, type Locale } from '@/lib/routes'
 
-const PROJECT_TYPES = [
+const PROJECT_OPTIONS = [
   'renovation',
-  'amenagement',
-  'decoration',
-  'cuisinesdb',
-  'bureaux',
-  'homestaging',
-  'autre',
-] as const
-const STYLE_OPTIONS = [
-  'haussmannien',
-  'contemporain',
-  'minimaliste',
-  'scandinave',
-  'classique',
-  'industriel',
-  'boheme',
+  'reamenagement',
+  'optimisation',
   'unsure',
-  'other',
 ] as const
-const PLANNING_OPTIONS = ['time', 'fast', 'urgent'] as const
-const OWNERSHIP_OPTIONS = ['prop', 'promesse', 'acquis', 'recherche'] as const
-const STEP_KEYS = ['travaux', 'infos', 'details', 'coordonnees'] as const
+const PROPERTY_OPTIONS = ['appartement', 'maison', 'local'] as const
+const SURFACE_OPTIONS = ['lt50', 's50_90', 's90_150', 'gt150'] as const
+const TIMELINE_OPTIONS = ['asap', 'm3', 'm6plus', 'researching'] as const
+const STEP_KEYS = ['projet', 'bien', 'lieu', 'contact'] as const
 const SUCCESS_STEPS = ['1', '2', '3', '4'] as const
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 const STEP_COUNT = 4
+
+const PRIVACY_SLUGS: Record<Locale, string> = {
+  en: 'privacy-policy',
+  fr: 'politique-de-confidentialite',
+  it: 'privacy-policy',
+  de: 'datenschutz',
+  es: 'politica-de-privacidad',
+}
 
 function FieldLabel({ children, required }: { children: React.ReactNode; required?: boolean }) {
   return (
@@ -43,6 +38,31 @@ function FieldLabel({ children, required }: { children: React.ReactNode; require
       {children}
       {required && <span className="ml-0.5 text-neutral-950">*</span>}
     </label>
+  )
+}
+
+function ChoiceButton({
+  selected,
+  onClick,
+  children,
+}: {
+  selected: boolean
+  onClick: () => void
+  children: React.ReactNode
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={clsx(
+        'rounded-xl border px-4 py-3 text-left text-sm transition',
+        selected
+          ? 'border-neutral-950 font-semibold ring-1 ring-neutral-950'
+          : 'border-neutral-300 text-neutral-700 hover:border-neutral-400',
+      )}
+    >
+      {children}
+    </button>
   )
 }
 
@@ -55,17 +75,14 @@ export function ProjectFunnel() {
 
   const [step, setStep] = useState(0)
   const [projectType, setProjectType] = useState<string | null>(null)
-  const [style, setStyle] = useState<string | null>(null)
-  const [ownership, setOwnership] = useState<string | null>(null)
-  const [planning, setPlanning] = useState<string>('time')
-  const [surface, setSurface] = useState('')
-  const [budget, setBudget] = useState('')
-  const [address, setAddress] = useState('')
-  const [details, setDetails] = useState('')
+  const [propertyType, setPropertyType] = useState<string | null>(null)
+  const [surface, setSurface] = useState<string | null>(null)
+  const [location, setLocation] = useState('')
+  const [timeline, setTimeline] = useState<string | null>(null)
   const [firstName, setFirstName] = useState('')
-  const [lastName, setLastName] = useState('')
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('')
+  const [consent, setConsent] = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [done, setDone] = useState(false)
   const [error, setError] = useState('')
@@ -73,17 +90,16 @@ export function ProjectFunnel() {
   async function submit() {
     setError('')
 
-    if (
-      !firstName.trim() ||
-      !lastName.trim() ||
-      !email.trim() ||
-      !phone.trim()
-    ) {
+    if (!firstName.trim() || !email.trim()) {
       setError(t('validation.stepRequired'))
       return
     }
     if (!EMAIL_REGEX.test(email.trim())) {
       setError(t('validation.invalidEmail'))
+      return
+    }
+    if (!consent) {
+      setError(t('validation.consent'))
       return
     }
 
@@ -93,18 +109,18 @@ export function ProjectFunnel() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: `${firstName.trim()} ${lastName.trim()}`.trim(),
+          name: firstName.trim(),
           email: email.trim().toLowerCase(),
           phone: phone.trim(),
-          message: details.trim(),
+          message: '',
           source: 'funnel',
-          projectType: projectType ? t(`stepTravaux.types.${projectType}.label`) : '',
-          style: style ? t(`stepDetails.styles.${style}`) : '',
-          surface: surface.trim(),
-          budgetAmount: budget.trim(),
-          address: address.trim(),
-          planning: t(`stepInfos.planningOptions.${planning}`),
-          ownership: ownership ? t(`stepDetails.options.${ownership}`) : '',
+          projectType: projectType ? t(`stepProjet.options.${projectType}`) : '',
+          propertyType: propertyType
+            ? t(`stepBien.propertyOptions.${propertyType}`)
+            : '',
+          surface: surface ? t(`stepBien.surfaceOptions.${surface}`) : '',
+          address: location.trim(),
+          planning: timeline ? t(`stepLieu.timelineOptions.${timeline}`) : '',
           locale,
         }),
       })
@@ -131,13 +147,10 @@ export function ProjectFunnel() {
     if (current === 0 && !projectType) {
       return t('validation.projectType')
     }
-    if (
-      current === 1 &&
-      (!surface.trim() || !budget.trim() || !address.trim())
-    ) {
+    if (current === 1 && (!propertyType || !surface)) {
       return t('validation.stepRequired')
     }
-    if (current === 2 && (!style || !ownership || !details.trim())) {
+    if (current === 2 && (!location.trim() || !timeline)) {
       return t('validation.stepRequired')
     }
     return null
@@ -284,132 +297,91 @@ export function ProjectFunnel() {
 
           {/* Main */}
           <div className="lg:col-span-2">
-            {/* Step 1 — project type */}
+            {/* Step 1 — project */}
             {step === 0 && (
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                {PROJECT_TYPES.map((type) => (
-                  <button
-                    key={type}
-                    type="button"
-                    onClick={() => setProjectType(type)}
-                    className={clsx(
-                      'rounded-2xl border px-5 py-6 text-left transition',
-                      projectType === type
-                        ? 'border-neutral-950 ring-1 ring-neutral-950'
-                        : 'border-neutral-200 hover:border-neutral-400',
-                    )}
-                  >
-                    <span className="block font-display text-base font-semibold text-neutral-950">
-                      {t(`stepTravaux.types.${type}.label`)}
-                    </span>
-                    <span className="mt-1 block text-sm text-neutral-500">
-                      {t(`stepTravaux.types.${type}.description`)}
-                    </span>
-                  </button>
-                ))}
+              <div>
+                <FieldLabel required>{t('stepProjet.question')}</FieldLabel>
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  {PROJECT_OPTIONS.map((opt) => (
+                    <button
+                      key={opt}
+                      type="button"
+                      onClick={() => setProjectType(opt)}
+                      className={clsx(
+                        'rounded-2xl border px-5 py-6 text-left transition',
+                        projectType === opt
+                          ? 'border-neutral-950 ring-1 ring-neutral-950'
+                          : 'border-neutral-200 hover:border-neutral-400',
+                      )}
+                    >
+                      <span className="block font-display text-base font-semibold text-neutral-950">
+                        {t(`stepProjet.options.${opt}`)}
+                      </span>
+                    </button>
+                  ))}
+                </div>
               </div>
             )}
 
-            {/* Step 2 — practical info */}
+            {/* Step 2 — property */}
             {step === 1 && (
-              <div className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2">
+              <div className="space-y-8">
                 <div>
-                  <FieldLabel required>{t('stepInfos.surface')}</FieldLabel>
-                  <input
-                    className={inputClasses}
-                    inputMode="numeric"
-                    value={surface}
-                    onChange={(e) => setSurface(e.target.value)}
-                    placeholder={t('stepInfos.surfacePlaceholder')}
-                  />
-                </div>
-                <div>
-                  <FieldLabel required>{t('stepInfos.budget')}</FieldLabel>
-                  <input
-                    className={inputClasses}
-                    value={budget}
-                    onChange={(e) => setBudget(e.target.value)}
-                    placeholder={t('stepInfos.budgetPlaceholder')}
-                  />
-                </div>
-                <div className="sm:col-span-2">
-                  <FieldLabel required>{t('stepInfos.address')}</FieldLabel>
-                  <input
-                    className={inputClasses}
-                    value={address}
-                    onChange={(e) => setAddress(e.target.value)}
-                    placeholder={t('stepInfos.addressPlaceholder')}
-                  />
-                </div>
-                <div className="sm:col-span-2">
-                  <FieldLabel required>{t('stepInfos.planning')}</FieldLabel>
-                  <select
-                    className={inputClasses}
-                    value={planning}
-                    onChange={(e) => setPlanning(e.target.value)}
-                  >
-                    {PLANNING_OPTIONS.map((opt) => (
-                      <option key={opt} value={opt}>
-                        {t(`stepInfos.planningOptions.${opt}`)}
-                      </option>
+                  <FieldLabel required>{t('stepBien.propertyQuestion')}</FieldLabel>
+                  <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+                    {PROPERTY_OPTIONS.map((opt) => (
+                      <ChoiceButton
+                        key={opt}
+                        selected={propertyType === opt}
+                        onClick={() => setPropertyType(opt)}
+                      >
+                        {t(`stepBien.propertyOptions.${opt}`)}
+                      </ChoiceButton>
                     ))}
-                  </select>
+                  </div>
+                </div>
+                <div>
+                  <FieldLabel required>{t('stepBien.surfaceQuestion')}</FieldLabel>
+                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+                    {SURFACE_OPTIONS.map((opt) => (
+                      <ChoiceButton
+                        key={opt}
+                        selected={surface === opt}
+                        onClick={() => setSurface(opt)}
+                      >
+                        {t(`stepBien.surfaceOptions.${opt}`)}
+                      </ChoiceButton>
+                    ))}
+                  </div>
                 </div>
               </div>
             )}
 
-            {/* Step 3 — details */}
+            {/* Step 3 — location & timeline */}
             {step === 2 && (
               <div className="space-y-8">
                 <div>
-                  <FieldLabel required>{t('stepDetails.styleQuestion')}</FieldLabel>
-                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-                    {STYLE_OPTIONS.map((opt) => (
-                      <button
-                        key={opt}
-                        type="button"
-                        onClick={() => setStyle(opt)}
-                        className={clsx(
-                          'rounded-xl border px-4 py-3 text-left text-sm transition',
-                          style === opt
-                            ? 'border-neutral-950 font-semibold ring-1 ring-neutral-950'
-                            : 'border-neutral-300 text-neutral-700 hover:border-neutral-400',
-                        )}
-                      >
-                        {t(`stepDetails.styles.${opt}`)}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <FieldLabel required>{t('stepDetails.question')}</FieldLabel>
-                  <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-                    {OWNERSHIP_OPTIONS.map((opt) => (
-                      <button
-                        key={opt}
-                        type="button"
-                        onClick={() => setOwnership(opt)}
-                        className={clsx(
-                          'rounded-xl border px-4 py-3 text-left text-sm transition',
-                          ownership === opt
-                            ? 'border-neutral-950 font-semibold ring-1 ring-neutral-950'
-                            : 'border-neutral-300 text-neutral-700 hover:border-neutral-400',
-                        )}
-                      >
-                        {t(`stepDetails.options.${opt}`)}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <FieldLabel required>{t('stepDetails.detailsLabel')}</FieldLabel>
-                  <textarea
-                    rows={4}
+                  <FieldLabel required>{t('stepLieu.locationQuestion')}</FieldLabel>
+                  <input
                     className={inputClasses}
-                    value={details}
-                    onChange={(e) => setDetails(e.target.value)}
-                    placeholder={t('stepDetails.detailsPlaceholder')}
+                    value={location}
+                    onChange={(e) => setLocation(e.target.value)}
+                    placeholder={t('stepLieu.locationPlaceholder')}
                   />
+                </div>
+                <div>
+                  <FieldLabel required>{t('stepLieu.timelineQuestion')}</FieldLabel>
+                  <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+                    {TIMELINE_OPTIONS.map((opt) => (
+                      <ChoiceButton
+                        key={opt}
+                        selected={timeline === opt}
+                        onClick={() => setTimeline(opt)}
+                      >
+                        {t(`stepLieu.timelineOptions.${opt}`)}
+                      </ChoiceButton>
+                    ))}
+                  </div>
                 </div>
               </div>
             )}
@@ -417,7 +389,7 @@ export function ProjectFunnel() {
             {/* Step 4 — contact */}
             {step === 3 && (
               <div className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2">
-                <div>
+                <div className="sm:col-span-2">
                   <FieldLabel required>{t('stepContact.firstName')}</FieldLabel>
                   <input
                     className={inputClasses}
@@ -425,16 +397,6 @@ export function ProjectFunnel() {
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                     placeholder={t('stepContact.firstName')}
-                  />
-                </div>
-                <div>
-                  <FieldLabel required>{t('stepContact.lastName')}</FieldLabel>
-                  <input
-                    className={inputClasses}
-                    autoComplete="family-name"
-                    value={lastName}
-                    onChange={(e) => setLastName(e.target.value)}
-                    placeholder={t('stepContact.lastName')}
                   />
                 </div>
                 <div className="sm:col-span-2">
@@ -449,7 +411,10 @@ export function ProjectFunnel() {
                   />
                 </div>
                 <div className="sm:col-span-2">
-                  <FieldLabel required>{t('stepContact.phone')}</FieldLabel>
+                  <FieldLabel>
+                    {t('stepContact.phone')}{' '}
+                    <span className="text-neutral-400">— {t('stepContact.phoneHint')}</span>
+                  </FieldLabel>
                   <input
                     className={inputClasses}
                     type="tel"
@@ -459,9 +424,23 @@ export function ProjectFunnel() {
                     placeholder={t('stepContact.phonePlaceholder')}
                   />
                 </div>
-                <p className="text-xs text-neutral-400 sm:col-span-2">
-                  {t('stepContact.rgpd')}
-                </p>
+                <label className="flex items-start gap-x-3 text-sm text-neutral-600 sm:col-span-2">
+                  <input
+                    type="checkbox"
+                    checked={consent}
+                    onChange={(e) => setConsent(e.target.checked)}
+                    className="mt-0.5 h-4 w-4 flex-none rounded border-neutral-300 text-neutral-950 focus:ring-neutral-950"
+                  />
+                  <span>
+                    {t('stepContact.consent')}{' '}
+                    <Link
+                      href={`/${PRIVACY_SLUGS[locale]}`}
+                      className="font-semibold text-neutral-950 underline underline-offset-2"
+                    >
+                      {t('stepContact.privacyLink')}
+                    </Link>
+                  </span>
+                </label>
               </div>
             )}
 
