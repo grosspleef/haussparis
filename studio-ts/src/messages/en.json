@@ -2992,29 +2992,33 @@
     },
     "stepTravaux": {
       "types": {
-        "appart": {
-          "label": "Apartment renovation",
-          "description": "bespoke"
+        "renovation": {
+          "label": "Full renovation",
+          "description": "apartment or house"
         },
-        "maison": {
-          "label": "House renovation",
-          "description": "extension, refurbishment"
+        "amenagement": {
+          "label": "Space planning",
+          "description": "layout & custom fit-out"
         },
-        "sureleve": {
-          "label": "Building extension",
-          "description": "private, co-ownership"
+        "decoration": {
+          "label": "Decoration & furnishing",
+          "description": "furniture, materials, mood"
+        },
+        "cuisinesdb": {
+          "label": "Kitchen & bathroom",
+          "description": "bespoke design"
         },
         "bureaux": {
-          "label": "Office design",
-          "description": "startups, co-working"
+          "label": "Offices & pro spaces",
+          "description": "retail, hospitality"
         },
-        "neuf": {
-          "label": "New build",
-          "description": "contemporary villa"
+        "homestaging": {
+          "label": "Home staging",
+          "description": "boost value before selling"
         },
         "autre": {
           "label": "Other project",
-          "description": "hotel, château…"
+          "description": "not sure yet"
         }
       }
     },
@@ -3041,7 +3045,19 @@
         "recherche": "Still searching"
       },
       "detailsLabel": "Anything to add about your project?",
-      "detailsPlaceholder": "e.g. optimise the light, redo the layout…"
+      "detailsPlaceholder": "e.g. optimise the light, redo the layout…",
+      "styleQuestion": "What style are you looking for?",
+      "styles": {
+        "haussmannien": "Haussmann",
+        "contemporain": "Contemporary",
+        "minimaliste": "Minimalist",
+        "scandinave": "Scandinavian",
+        "classique": "Classic",
+        "industriel": "Industrial",
+        "boheme": "Bohemian",
+        "unsure": "Not sure yet",
+        "other": "Other / a mix"
+      }
     },
     "stepContact": {
       "firstName": "First name",

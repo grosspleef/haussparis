@@ -10,12 +10,24 @@ import { FadeIn } from '@/components/FadeIn'
 import { contactSlugs, type Locale } from '@/lib/routes'
 
 const PROJECT_TYPES = [
-  'appart',
-  'maison',
-  'sureleve',
+  'renovation',
+  'amenagement',
+  'decoration',
+  'cuisinesdb',
   'bureaux',
-  'neuf',
+  'homestaging',
   'autre',
+] as const
+const STYLE_OPTIONS = [
+  'haussmannien',
+  'contemporain',
+  'minimaliste',
+  'scandinave',
+  'classique',
+  'industriel',
+  'boheme',
+  'unsure',
+  'other',
 ] as const
 const PLANNING_OPTIONS = ['time', 'fast', 'urgent'] as const
 const OWNERSHIP_OPTIONS = ['prop', 'promesse', 'acquis', 'recherche'] as const
@@ -43,6 +55,7 @@ export function ProjectFunnel() {
 
   const [step, setStep] = useState(0)
   const [projectType, setProjectType] = useState<string | null>(null)
+  const [style, setStyle] = useState<string | null>(null)
   const [ownership, setOwnership] = useState<string | null>(null)
   const [planning, setPlanning] = useState<string>('time')
   const [surface, setSurface] = useState('')
@@ -86,6 +99,7 @@ export function ProjectFunnel() {
           message: details.trim(),
           source: 'funnel',
           projectType: projectType ? t(`stepTravaux.types.${projectType}.label`) : '',
+          style: style ? t(`stepDetails.styles.${style}`) : '',
           surface: surface.trim(),
           budgetAmount: budget.trim(),
           address: address.trim(),
@@ -123,7 +137,7 @@ export function ProjectFunnel() {
     ) {
       return t('validation.stepRequired')
     }
-    if (current === 2 && (!ownership || !details.trim())) {
+    if (current === 2 && (!style || !ownership || !details.trim())) {
       return t('validation.stepRequired')
     }
     return null
@@ -347,6 +361,26 @@ export function ProjectFunnel() {
             {/* Step 3 — details */}
             {step === 2 && (
               <div className="space-y-8">
+                <div>
+                  <FieldLabel required>{t('stepDetails.styleQuestion')}</FieldLabel>
+                  <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+                    {STYLE_OPTIONS.map((opt) => (
+                      <button
+                        key={opt}
+                        type="button"
+                        onClick={() => setStyle(opt)}
+                        className={clsx(
+                          'rounded-xl border px-4 py-3 text-left text-sm transition',
+                          style === opt
+                            ? 'border-neutral-950 font-semibold ring-1 ring-neutral-950'
+                            : 'border-neutral-300 text-neutral-700 hover:border-neutral-400',
+                        )}
+                      >
+                        {t(`stepDetails.styles.${opt}`)}
+                      </button>
+                    ))}
+                  </div>
+                </div>
                 <div>
                   <FieldLabel required>{t('stepDetails.question')}</FieldLabel>
                   <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">

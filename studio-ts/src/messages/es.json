@@ -2466,29 +2466,33 @@
     },
     "stepTravaux": {
       "types": {
-        "appart": {
-          "label": "Reforma de apartamento",
-          "description": "a medida"
+        "renovation": {
+          "label": "Renovación integral",
+          "description": "piso o casa"
         },
-        "maison": {
-          "label": "Reforma de casa",
-          "description": "ampliación, rehabilitación"
+        "amenagement": {
+          "label": "Distribución de espacios",
+          "description": "optimización, a medida"
         },
-        "sureleve": {
-          "label": "Sobreelevación de edificio",
-          "description": "particulares, comunidad"
+        "decoration": {
+          "label": "Decoración y mobiliario",
+          "description": "muebles, materiales, ambiente"
+        },
+        "cuisinesdb": {
+          "label": "Cocina y baño",
+          "description": "diseño a medida"
         },
         "bureaux": {
-          "label": "Diseño de oficinas",
-          "description": "startups, co-working"
+          "label": "Oficinas y espacios pro",
+          "description": "comercios, hostelería"
         },
-        "neuf": {
-          "label": "Obra nueva",
-          "description": "villa contemporánea"
+        "homestaging": {
+          "label": "Home staging",
+          "description": "valorizar antes de vender"
         },
         "autre": {
           "label": "Otro proyecto",
-          "description": "hotel, castillo…"
+          "description": "aún no lo sé"
         }
       }
     },
@@ -2515,7 +2519,19 @@
         "recherche": "En fase de búsqueda"
       },
       "detailsLabel": "¿Algo que añadir sobre tu proyecto?",
-      "detailsPlaceholder": "Ej.: optimizar la luz, rehacer el plano…"
+      "detailsPlaceholder": "Ej.: optimizar la luz, rehacer el plano…",
+      "styleQuestion": "¿Qué estilo buscas?",
+      "styles": {
+        "haussmannien": "Haussmann",
+        "contemporain": "Contemporáneo",
+        "minimaliste": "Minimalista",
+        "scandinave": "Escandinavo",
+        "classique": "Clásico",
+        "industriel": "Industrial",
+        "boheme": "Bohemio",
+        "unsure": "Aún no lo sé",
+        "other": "Otro / una mezcla"
+      }
     },
     "stepContact": {
       "firstName": "Nombre",

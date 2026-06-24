@@ -2463,29 +2463,33 @@
     },
     "stepTravaux": {
       "types": {
-        "appart": {
-          "label": "Wohnungsrenovierung",
+        "renovation": {
+          "label": "Komplettsanierung",
+          "description": "Wohnung oder Haus"
+        },
+        "amenagement": {
+          "label": "Raumplanung",
+          "description": "Optimierung, Maßanfertigung"
+        },
+        "decoration": {
+          "label": "Dekoration & Einrichtung",
+          "description": "Möbel, Materialien, Ambiente"
+        },
+        "cuisinesdb": {
+          "label": "Küche & Bad",
           "description": "maßgeschneidert"
         },
-        "maison": {
-          "label": "Hausrenovierung",
-          "description": "Anbau, Sanierung"
-        },
-        "sureleve": {
-          "label": "Gebäudeaufstockung",
-          "description": "privat, Eigentümergemeinschaft"
-        },
         "bureaux": {
-          "label": "Bürogestaltung",
-          "description": "Start-ups, Co-Working"
+          "label": "Büros & Gewerbe",
+          "description": "Handel, Hotellerie"
         },
-        "neuf": {
-          "label": "Neubau",
-          "description": "moderne Villa"
+        "homestaging": {
+          "label": "Home Staging",
+          "description": "Wert vor dem Verkauf steigern"
         },
         "autre": {
           "label": "Anderes Projekt",
-          "description": "Hotel, Schloss…"
+          "description": "noch unsicher"
         }
       }
     },
@@ -2512,7 +2516,19 @@
         "recherche": "Noch auf der Suche"
       },
       "detailsLabel": "Möchten Sie etwas zu Ihrem Projekt ergänzen?",
-      "detailsPlaceholder": "z. B. Licht optimieren, Grundriss ändern…"
+      "detailsPlaceholder": "z. B. Licht optimieren, Grundriss ändern…",
+      "styleQuestion": "Welchen Stil suchen Sie?",
+      "styles": {
+        "haussmannien": "Haussmann",
+        "contemporain": "Modern",
+        "minimaliste": "Minimalistisch",
+        "scandinave": "Skandinavisch",
+        "classique": "Klassisch",
+        "industriel": "Industriell",
+        "boheme": "Boho",
+        "unsure": "Noch unsicher",
+        "other": "Andere / ein Mix"
+      }
     },
     "stepContact": {
       "firstName": "Vorname",

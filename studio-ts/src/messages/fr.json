@@ -2993,29 +2993,33 @@
     },
     "stepTravaux": {
       "types": {
-        "appart": {
-          "label": "Rénovation d'appartement",
-          "description": "sur-mesure"
+        "renovation": {
+          "label": "Rénovation complète",
+          "description": "appartement ou maison"
         },
-        "maison": {
-          "label": "Rénovation de maison",
-          "description": "extension, réhabilitation"
+        "amenagement": {
+          "label": "Aménagement d'espace",
+          "description": "optimisation, agencement sur-mesure"
         },
-        "sureleve": {
-          "label": "Surélévation d'immeuble",
-          "description": "particuliers, copropriété"
+        "decoration": {
+          "label": "Décoration & ameublement",
+          "description": "mobilier, matières, ambiance"
+        },
+        "cuisinesdb": {
+          "label": "Cuisine & salle de bains",
+          "description": "conception sur-mesure"
         },
         "bureaux": {
-          "label": "Création de bureaux",
-          "description": "startups, co-working"
+          "label": "Bureaux & espaces pro",
+          "description": "commerces, hôtellerie"
         },
-        "neuf": {
-          "label": "Construction neuve",
-          "description": "villa contemporaine"
+        "homestaging": {
+          "label": "Home staging",
+          "description": "valoriser avant la vente"
         },
         "autre": {
           "label": "Autre projet",
-          "description": "hôtel, château…"
+          "description": "je ne sais pas encore"
         }
       }
     },
@@ -3042,7 +3046,19 @@
         "recherche": "En phase de recherche"
       },
       "detailsLabel": "Quelque chose à ajouter sur votre projet ?",
-      "detailsPlaceholder": "Ex : optimiser la lumière, refaire le plan…"
+      "detailsPlaceholder": "Ex : optimiser la lumière, refaire le plan…",
+      "styleQuestion": "Quel style recherchez-vous ?",
+      "styles": {
+        "haussmannien": "Haussmannien",
+        "contemporain": "Contemporain",
+        "minimaliste": "Minimaliste",
+        "scandinave": "Scandinave",
+        "classique": "Classique",
+        "industriel": "Industriel",
+        "boheme": "Bohème",
+        "unsure": "Je ne sais pas encore",
+        "other": "Autre / un mélange"
+      }
     },
     "stepContact": {
       "firstName": "Prénom",

@@ -64,6 +64,7 @@ const translations = {
     projectInfo: {
       title: 'Détails du projet',
       type: 'Type de projet :',
+      style: 'Style recherché :',
       surface: 'Surface :',
       budget: 'Budget :',
       address: 'Adresse :',
@@ -119,6 +120,7 @@ const translations = {
     projectInfo: {
       title: 'Project details',
       type: 'Project type:',
+      style: 'Desired style:',
       surface: 'Surface:',
       budget: 'Budget:',
       address: 'Address:',
@@ -306,6 +308,7 @@ export async function POST(request: NextRequest) {
       budget,
       source,
       projectType: rawProjectType,
+      style: rawStyle,
       surface: rawSurface,
       budgetAmount: rawBudgetAmount,
       address: rawAddress,
@@ -324,6 +327,7 @@ export async function POST(request: NextRequest) {
     const phone = sanitizeInput(rawPhone)
     const message = sanitizeInput(rawMessage)
     const projectType = cap(sanitizeInput(rawProjectType))
+    const style = cap(sanitizeInput(rawStyle))
     const surface = cap(sanitizeInput(rawSurface))
     const budgetAmount = cap(sanitizeInput(rawBudgetAmount))
     const address = cap(sanitizeInput(rawAddress))
@@ -364,6 +368,7 @@ export async function POST(request: NextRequest) {
     const projectRows: Array<[string, string]> = isFunnel
       ? ([
           [t.projectInfo.type, escapeHtml(projectType || '')],
+          [t.projectInfo.style, escapeHtml(style || '')],
           [t.projectInfo.surface, escapeHtml(surface || '')],
           [t.projectInfo.address, escapeHtml(address || '')],
           [t.projectInfo.planning, escapeHtml(planning || '')],

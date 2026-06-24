@@ -2463,29 +2463,33 @@
     },
     "stepTravaux": {
       "types": {
-        "appart": {
-          "label": "Ristrutturazione appartamento",
-          "description": "su misura"
+        "renovation": {
+          "label": "Ristrutturazione completa",
+          "description": "appartamento o casa"
         },
-        "maison": {
-          "label": "Ristrutturazione casa",
-          "description": "ampliamento, riqualificazione"
+        "amenagement": {
+          "label": "Progettazione degli spazi",
+          "description": "ottimizzazione, su misura"
         },
-        "sureleve": {
-          "label": "Sopraelevazione edificio",
-          "description": "privati, condominio"
+        "decoration": {
+          "label": "Decorazione e arredo",
+          "description": "mobili, materiali, atmosfera"
+        },
+        "cuisinesdb": {
+          "label": "Cucina e bagno",
+          "description": "progettazione su misura"
         },
         "bureaux": {
-          "label": "Progettazione uffici",
-          "description": "startup, co-working"
+          "label": "Uffici & spazi pro",
+          "description": "negozi, hotellerie"
         },
-        "neuf": {
-          "label": "Nuova costruzione",
-          "description": "villa contemporanea"
+        "homestaging": {
+          "label": "Home staging",
+          "description": "valorizzare prima della vendita"
         },
         "autre": {
           "label": "Altro progetto",
-          "description": "hotel, castello…"
+          "description": "non so ancora"
         }
       }
     },
@@ -2512,7 +2516,19 @@
         "recherche": "In fase di ricerca"
       },
       "detailsLabel": "Vuoi aggiungere qualcosa sul tuo progetto?",
-      "detailsPlaceholder": "Es.: ottimizzare la luce, rifare la pianta…"
+      "detailsPlaceholder": "Es.: ottimizzare la luce, rifare la pianta…",
+      "styleQuestion": "Che stile cerchi?",
+      "styles": {
+        "haussmannien": "Haussmann",
+        "contemporain": "Contemporaneo",
+        "minimaliste": "Minimalista",
+        "scandinave": "Scandinavo",
+        "classique": "Classico",
+        "industriel": "Industriale",
+        "boheme": "Bohémien",
+        "unsure": "Non so ancora",
+        "other": "Altro / un mix"
+      }
     },
     "stepContact": {
       "firstName": "Nome",
