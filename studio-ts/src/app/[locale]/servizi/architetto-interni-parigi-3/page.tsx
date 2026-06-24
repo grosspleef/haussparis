@@ -25,7 +25,7 @@ export default function ArchitettoInterniParigi3Service() {
   const params = useParams()
   const locale = (params?.locale as string) || 'en'
 
-  const contactUrl = locale === 'en' ? '/en/contact' : locale === 'fr' ? '/fr/contact' : locale === 'it' ? '/it/contatti' : locale === 'de' ? '/de/kontakt' : '/es/contacto'
+  const startUrl = locale === 'en' ? '/en/start' : locale === 'fr' ? '/fr/demarrer' : locale === 'it' ? '/it/inizia' : locale === 'de' ? '/de/projekt-starten' : '/es/empezar'
   const mainServiceUrl = locale === 'en' ? '/en/services/interior-designer-paris' : locale === 'fr' ? '/fr/services/architecte-interieur-paris' : locale === 'it' ? '/it/servizi/architetto-interni-parigi' : locale === 'de' ? '/de/dienstleistungen/innenarchitekt-paris' : '/es/servicios/disenador-interiores-paris'
 
   return (
@@ -96,7 +96,7 @@ export default function ArchitettoInterniParigi3Service() {
                 </div>
                 <div className="mt-8">
                   <Link
-                    href={contactUrl}
+                    href={startUrl}
                     className="inline-flex items-center text-sm font-semibold text-neutral-950 hover:text-neutral-700"
                   >
                     {t('section2.cta')} →
@@ -214,7 +214,7 @@ export default function ArchitettoInterniParigi3Service() {
               <p className="mt-6 text-lg text-neutral-300">{t('cta.description')}</p>
               <div className="mt-10">
                 <Link
-                  href={contactUrl}
+                  href={startUrl}
                   className="inline-flex rounded-full bg-white px-8 py-3 text-sm font-semibold text-neutral-950 hover:bg-neutral-100"
                 >
                   {t('cta.button')}
