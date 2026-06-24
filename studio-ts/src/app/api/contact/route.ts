@@ -28,6 +28,7 @@ const translations = {
     invalidEmail: 'Format d\'email invalide',
     rateLimitExceeded: 'Trop de requêtes. Veuillez réessayer dans une minute.',
     inputTooLong: 'Un ou plusieurs champs dépassent la longueur maximale autorisée',
+    emailError: 'L\'envoi de votre demande a échoué. Merci de réessayer dans un instant.',
     subjectConfirmation: 'Confirmation de réception - HAUSS Paris',
     subjectNotification: 'Nouveau contact : {name}',
     confirmation: {
@@ -82,6 +83,7 @@ const translations = {
     invalidEmail: 'Invalid email format',
     rateLimitExceeded: 'Too many requests. Please try again in a minute.',
     inputTooLong: 'One or more fields exceed the maximum allowed length',
+    emailError: 'Your request could not be sent. Please try again shortly.',
     subjectConfirmation: 'Receipt confirmation - HAUSS Paris',
     subjectNotification: 'New contact: {name}',
     confirmation: {
@@ -540,6 +542,27 @@ export async function POST(request: NextRequest) {
         </html>
       `,
     })
+
+    // Resend returns { data, error } and does NOT throw on API failures
+    // (e.g. an unverified sender domain). Check explicitly so a failed send
+    // is never reported to the client as success.
+    if (confirmationEmail.error || notificationEmail.error) {
+      const resendError = confirmationEmail.error || notificationEmail.error
+      console.error('Resend send failed:', {
+        confirmation: confirmationEmail.error,
+        notification: notificationEmail.error,
+      })
+      const exposeDetail = process.env.VERCEL_ENV !== 'production'
+      return NextResponse.json(
+        {
+          error: t.emailError,
+          ...(exposeDetail
+            ? { detail: resendError?.message || String(resendError) }
+            : {}),
+        },
+        { status: 502 }
+      )
+    }
 
     return NextResponse.json({
       success: true,
