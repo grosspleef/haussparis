@@ -21,7 +21,8 @@
   "Header": {
     "home": "Home",
     "contact": "Contattaci",
-    "menu": "Menu"
+    "menu": "Menu",
+    "startProject": "Avviare un progetto"
   },
   "Navigation": {
     "services": "Servizi",
@@ -1252,7 +1253,7 @@
     "pricing": {
       "title": "Tariffe: quanto costa un architetto d'interni a Parigi?",
       "intro": "La trasparenza sui prezzi fa parte dei nostri impegni. Ecco gli ordini di grandezza da prevedere per il tuo progetto. Nota: I prezzi sono in euro. Contattaci per chiarimenti sulla conversione nella tua valuta.",
-      "link": "Vedi tutte le nostre tariffe",
+      "link": "Richiedi un preventivo",
       "fees": {
         "title": "Onorari dell'architetto d'interni",
         "consultation": {
@@ -1297,8 +1298,7 @@
         "works": "Lavori: 80 × 1.500 € = 120.000 €",
         "fees": "Onorari architetto (10%): 12.000 €",
         "total": "Budget totale: circa 132.000 €"
-      },
-      "link": "Richiedi un preventivo"
+      }
     },
     "projects": {
       "title": "Per quali tipi di progetti?",
@@ -2427,6 +2427,134 @@
     "description": "Ci scusiamo per l'inconveniente. Si è verificato un errore imprevisto. Per favore riprova o torna alla pagina principale.",
     "retry": "Riprova",
     "home": "Torna alla home"
+  },
+  "ProjectFunnel": {
+    "metadata": {
+      "title": "Avviare un progetto",
+      "description": "Descrivi il tuo progetto in pochi passaggi: ti presentiamo l'architetto d'interni adatto, con una prima stima entro 48 ore."
+    },
+    "page": {
+      "eyebrow": "Il tuo progetto",
+      "title": "Progetta lo spazio dei tuoi sogni.",
+      "intro": "Bastano poche domande per inquadrare il tuo progetto. Più ci racconti, prima troviamo l'architetto che fa per te."
+    },
+    "steps": {
+      "travaux": "Progetto",
+      "infos": "Info pratiche",
+      "details": "Dettagli",
+      "coordonnees": "Contatti"
+    },
+    "sidebar": {
+      "stepLabel": "Passo {current} / {total}",
+      "title": {
+        "travaux": "Conosciamoci",
+        "infos": "Informazioni pratiche",
+        "details": "Dettagli del progetto",
+        "coordonnees": "I tuoi recapiti"
+      },
+      "description": {
+        "travaux": "La nostra missione: metterti in contatto con l'architetto d'interni giusto per il tuo progetto. Descrivilo e selezioniamo il profilo più adatto al tuo stile e al tuo budget.",
+        "infos": "Queste informazioni ci aiutano a inquadrare il tuo progetto e a individuare l'architetto più adatto a te.",
+        "details": "Dacci il contesto. Più sei preciso, meglio individuiamo l'architetto che fa per te.",
+        "coordonnees": "Per presentarti l'architetto giusto e seguirti nel progetto. I tuoi dati restano in Hauss Paris e non vengono mai ceduti."
+      },
+      "help": "Una domanda?",
+      "helpLink": "Contattaci."
+    },
+    "stepTravaux": {
+      "types": {
+        "appart": {
+          "label": "Ristrutturazione appartamento",
+          "description": "su misura"
+        },
+        "maison": {
+          "label": "Ristrutturazione casa",
+          "description": "ampliamento, riqualificazione"
+        },
+        "sureleve": {
+          "label": "Sopraelevazione edificio",
+          "description": "privati, condominio"
+        },
+        "bureaux": {
+          "label": "Progettazione uffici",
+          "description": "startup, co-working"
+        },
+        "neuf": {
+          "label": "Nuova costruzione",
+          "description": "villa contemporanea"
+        },
+        "autre": {
+          "label": "Altro progetto",
+          "description": "hotel, castello…"
+        }
+      }
+    },
+    "stepInfos": {
+      "surface": "Superficie",
+      "surfacePlaceholder": "m²",
+      "budget": "Il tuo budget",
+      "budgetPlaceholder": "100.000 €",
+      "address": "Indirizzo del progetto",
+      "addressPlaceholder": "Es.: 7 rue des Anges, Parigi",
+      "planning": "Tempistiche",
+      "planningOptions": {
+        "time": "Ho tutto il tempo",
+        "fast": "Voglio procedere rapidamente",
+        "urgent": "Progetto urgente"
+      }
+    },
+    "stepDetails": {
+      "question": "Sei?",
+      "options": {
+        "prop": "Proprietario dell'immobile",
+        "promesse": "Firmatario di un preliminare",
+        "acquis": "In fase di acquisto",
+        "recherche": "In fase di ricerca"
+      },
+      "detailsLabel": "Vuoi aggiungere qualcosa sul tuo progetto?",
+      "detailsPlaceholder": "Es.: ottimizzare la luce, rifare la pianta…"
+    },
+    "stepContact": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "phone": "Telefono",
+      "phonePlaceholder": "+33 6 …",
+      "rgpd": "I tuoi dati restano in Hauss Paris e non vengono mai ceduti a terzi."
+    },
+    "nav": {
+      "previous": "Indietro",
+      "next": "Avanti",
+      "submit": "Invia la richiesta",
+      "submitting": "Invio in corso…"
+    },
+    "validation": {
+      "required": "Inserisci nome, cognome ed email.",
+      "invalidEmail": "Inserisci un indirizzo email valido."
+    },
+    "success": {
+      "title": "Abbiamo ricevuto il tuo progetto",
+      "text": "Stiamo esaminando la tua richiesta e ti risponderemo entro 48 ore per presentarti l'architetto adatto. Ecco i prossimi passi.",
+      "steps": {
+        "1": {
+          "title": "Contatto entro 48 h",
+          "description": "Un consulente di Hauss Paris ti contatta per inquadrare il tuo progetto."
+        },
+        "2": {
+          "title": "Selezione dell'architetto",
+          "description": "Individuiamo l'architetto d'interni adatto al tuo stile e al tuo budget."
+        },
+        "3": {
+          "title": "Incontro e stima",
+          "description": "Incontri il tuo architetto e ricevi una proposta personalizzata."
+        },
+        "4": {
+          "title": "Avvio",
+          "description": "Diamo vita allo spazio dei tuoi sogni."
+        }
+      }
+    },
+    "errorGeneric": "Si è verificato un errore. Riprova."
   }
 }
-

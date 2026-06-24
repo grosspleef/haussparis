@@ -171,6 +171,14 @@ export const contactSlugs = {
   es: 'contacto',
 } as const
 
+export const startSlugs = {
+  en: 'start',
+  fr: 'demarrer',
+  it: 'inizia',
+  de: 'projekt-starten',
+  es: 'empezar',
+} as const
+
 // Helper function to get service URL
 export function getServiceUrl(locale: Locale, serviceKey: ServiceKey): string {
   const servicesSlug = servicesSlugs[locale]
@@ -185,6 +193,7 @@ export function isValidLocaleSlug(slug: string, locale: Locale): boolean {
     aboutSlugs[locale],
     processSlugs[locale],
     contactSlugs[locale],
+    startSlugs[locale],
   ]
   return validSlugs.includes(slug)
 }

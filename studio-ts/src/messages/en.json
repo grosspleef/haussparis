@@ -21,7 +21,8 @@
   "Header": {
     "home": "Home",
     "contact": "Contact us",
-    "menu": "Menu"
+    "menu": "Menu",
+    "startProject": "Start a project"
   },
   "Navigation": {
     "services": "Services",
@@ -2955,5 +2956,134 @@
     "description": "We apologize for the inconvenience. An unexpected error has occurred. Please try again or return to the homepage.",
     "retry": "Try again",
     "home": "Back to home"
+  },
+  "ProjectFunnel": {
+    "metadata": {
+      "title": "Start a project",
+      "description": "Describe your project in a few steps: we'll match you with the right interior architect, plus a first estimate within 48 hours."
+    },
+    "page": {
+      "eyebrow": "Your project",
+      "title": "Design the space of your dreams.",
+      "intro": "A few questions are enough to frame your project. The more you tell us, the faster we find the architect you need."
+    },
+    "steps": {
+      "travaux": "Project",
+      "infos": "Practical info",
+      "details": "Details",
+      "coordonnees": "Contact"
+    },
+    "sidebar": {
+      "stepLabel": "Step {current} / {total}",
+      "title": {
+        "travaux": "Let's get to know each other",
+        "infos": "Practical information",
+        "details": "Project details",
+        "coordonnees": "Your contact details"
+      },
+      "description": {
+        "travaux": "Our mission: connect you with the interior architect made for your project. Describe it and we'll select the profile best suited to your style and budget.",
+        "infos": "These details help us frame your project and identify the most relevant architect for you.",
+        "details": "Give us the context. The more precise you are, the better we target the architect you need.",
+        "coordonnees": "So we can introduce the right architect and follow up with you. Your data stays with Hauss Paris and is never shared."
+      },
+      "help": "A question?",
+      "helpLink": "Contact us."
+    },
+    "stepTravaux": {
+      "types": {
+        "appart": {
+          "label": "Apartment renovation",
+          "description": "bespoke"
+        },
+        "maison": {
+          "label": "House renovation",
+          "description": "extension, refurbishment"
+        },
+        "sureleve": {
+          "label": "Building extension",
+          "description": "private, co-ownership"
+        },
+        "bureaux": {
+          "label": "Office design",
+          "description": "startups, co-working"
+        },
+        "neuf": {
+          "label": "New build",
+          "description": "contemporary villa"
+        },
+        "autre": {
+          "label": "Other project",
+          "description": "hotel, château…"
+        }
+      }
+    },
+    "stepInfos": {
+      "surface": "Surface",
+      "surfacePlaceholder": "m²",
+      "budget": "Your budget",
+      "budgetPlaceholder": "€100,000",
+      "address": "Project address",
+      "addressPlaceholder": "e.g. 7 rue des Anges, Paris",
+      "planning": "Timeline",
+      "planningOptions": {
+        "time": "I have plenty of time",
+        "fast": "I'd like to move quickly",
+        "urgent": "Urgent project"
+      }
+    },
+    "stepDetails": {
+      "question": "Are you?",
+      "options": {
+        "prop": "Owner of the property",
+        "promesse": "Signed a purchase offer",
+        "acquis": "In the process of buying",
+        "recherche": "Still searching"
+      },
+      "detailsLabel": "Anything to add about your project?",
+      "detailsPlaceholder": "e.g. optimise the light, redo the layout…"
+    },
+    "stepContact": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+33 6 …",
+      "rgpd": "Your data stays with Hauss Paris and is never shared with third parties."
+    },
+    "nav": {
+      "previous": "Back",
+      "next": "Next",
+      "submit": "Send my request",
+      "submitting": "Sending…"
+    },
+    "validation": {
+      "required": "Please fill in your first name, last name and email.",
+      "invalidEmail": "Please enter a valid email address."
+    },
+    "success": {
+      "title": "Your project has been received",
+      "text": "We're reviewing your request and will get back to you within 48 hours to introduce the right architect. Here's what comes next.",
+      "steps": {
+        "1": {
+          "title": "Call within 48h",
+          "description": "A Hauss Paris advisor contacts you to frame your project."
+        },
+        "2": {
+          "title": "Architect selection",
+          "description": "We identify the interior architect suited to your style and budget."
+        },
+        "3": {
+          "title": "Meeting & estimate",
+          "description": "You meet your architect and receive a tailored proposal."
+        },
+        "4": {
+          "title": "Kick-off",
+          "description": "We bring the space of your dreams to life."
+        }
+      }
+    },
+    "errorGeneric": "Something went wrong. Please try again."
   }
 }
