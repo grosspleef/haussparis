@@ -2443,8 +2443,8 @@
     "page": {
       "eyebrow": "Il tuo progetto",
       "title": "Troviamo l'architetto d'interni giusto per il tuo progetto.",
-      "intro": "Ti mettiamo in contatto con un architetto d'interni selezionato, scelto per adattarsi al tuo progetto, al tuo stile e al tuo budget. Bastano poche domande — è gratuito e senza impegno.",
-      "reassurance": ["Gratuito", "Senza impegno", "2 minuti", "Architetti selezionati"]
+      "intro": "Rispondi a qualche domanda sul tuo progetto e sul tuo immobile, e ti mettiamo in contatto con un architetto d'interni con cui abbiamo già lavorato, adatto alle tue esigenze. È gratuito e senza impegno.",
+      "reassurance": ["Gratuito", "Senza impegno", "2 minuti", "Architetti collaudati"]
     },
     "steps": {
       "projet": "Progetto",

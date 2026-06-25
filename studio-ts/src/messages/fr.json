@@ -2973,8 +2973,8 @@
     "page": {
       "eyebrow": "Votre projet",
       "title": "Trouvons l'architecte d'intérieur fait pour votre projet.",
-      "intro": "Nous vous mettons en relation avec un architecte d'intérieur sélectionné, choisi pour correspondre à votre projet, votre style et votre budget. Quelques questions suffisent — c'est gratuit et sans engagement.",
-      "reassurance": ["Gratuit", "Sans engagement", "2 minutes", "Architectes sélectionnés"]
+      "intro": "En quelques questions sur votre projet et votre bien, nous vous mettons en relation avec un architecte d'intérieur avec qui nous avons déjà travaillé, qui correspond à vos besoins. C'est gratuit et sans engagement.",
+      "reassurance": ["Gratuit", "Sans engagement", "2 minutes", "Architectes éprouvés"]
     },
     "steps": {
       "projet": "Projet",

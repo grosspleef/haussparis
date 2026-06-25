@@ -2446,8 +2446,8 @@
     "page": {
       "eyebrow": "Tu proyecto",
       "title": "Encontremos al arquitecto de interiores ideal para tu proyecto.",
-      "intro": "Te ponemos en contacto con un arquitecto de interiores seleccionado, elegido para encajar con tu proyecto, tu estilo y tu presupuesto. Solo unas preguntas — es gratis y sin compromiso.",
-      "reassurance": ["Gratis", "Sin compromiso", "2 minutos", "Arquitectos seleccionados"]
+      "intro": "Responde a unas preguntas sobre tu proyecto y tu vivienda, y te ponemos en contacto con un arquitecto de interiores con el que ya hemos trabajado, adaptado a tus necesidades. Es gratis y sin compromiso.",
+      "reassurance": ["Gratis", "Sin compromiso", "2 minutos", "Arquitectos probados"]
     },
     "steps": {
       "projet": "Proyecto",

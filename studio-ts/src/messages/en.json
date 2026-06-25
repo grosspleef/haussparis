@@ -2972,8 +2972,8 @@
     "page": {
       "eyebrow": "Your project",
       "title": "Let's find the interior architect made for your project.",
-      "intro": "We connect you with a hand-picked interior architect, chosen to match your project, your style and your budget. Just a few questions — it's free and with no commitment.",
-      "reassurance": ["Free", "No commitment", "2 minutes", "Hand-picked architects"]
+      "intro": "Answer a few questions about your project and your property, and we connect you with an interior architect we've already worked with, matched to your needs. It's free and with no commitment.",
+      "reassurance": ["Free", "No commitment", "2 minutes", "Proven architects"]
     },
     "steps": {
       "projet": "Project",
