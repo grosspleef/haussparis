@@ -1,4 +1,11 @@
 {
+  "CookieConsent": {
+    "title": "Cookies & confidentialité",
+    "message": "Nous utilisons des cookies de mesure d'audience et publicitaires (Google Analytics, Meta) pour améliorer votre expérience et nos campagnes. Vous pouvez accepter ou refuser.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "learnMore": "En savoir plus"
+  },
   "HomePage": {
     "hero": {
       "title": "Laissez-nous trouver votre architecte d'intérieur.",

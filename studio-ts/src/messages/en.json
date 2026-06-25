@@ -1,4 +1,11 @@
 {
+  "CookieConsent": {
+    "title": "Cookies & privacy",
+    "message": "We use analytics and advertising cookies (Google Analytics, Meta) to improve your experience and our campaigns. You can accept or decline.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Learn more"
+  },
   "HomePage": {
     "hero": {
       "title": "Let us|find your|interior designer",

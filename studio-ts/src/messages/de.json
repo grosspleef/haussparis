@@ -1,4 +1,11 @@
 {
+  "CookieConsent": {
+    "title": "Cookies & Datenschutz",
+    "message": "Wir verwenden Analyse- und Werbe-Cookies (Google Analytics, Meta), um Ihr Erlebnis und unsere Kampagnen zu verbessern. Sie können zustimmen oder ablehnen.",
+    "accept": "Zustimmen",
+    "decline": "Ablehnen",
+    "learnMore": "Mehr erfahren"
+  },
   "HomePage": {
     "hero": {
       "title": "Finden Sie Ihren|Innenarchitekten|in Paris",

@@ -1,4 +1,11 @@
 {
+  "CookieConsent": {
+    "title": "Cookies y privacidad",
+    "message": "Utilizamos cookies de análisis y publicidad (Google Analytics, Meta) para mejorar tu experiencia y nuestras campañas. Puedes aceptar o rechazar.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "learnMore": "Más información"
+  },
   "HomePage": {
     "hero": {
       "title": "Encuentre a su|diseñador de interiores|en París",

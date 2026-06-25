@@ -5,8 +5,7 @@ import { notFound } from 'next/navigation'
 import type { ReactNode } from 'react'
 
 import '@/styles/tailwind.css'
-import { GoogleAnalytics } from '@/components/GoogleAnalytics'
-import { MetaPixel } from '@/components/MetaPixel'
+import { CookieConsent } from '@/components/CookieConsent'
 import { StructuredData } from '@/components/StructuredData'
 import { ReviewSchema } from '@/components/ReviewSchema'
 import { PerformanceHead } from './PerformanceHead'
@@ -217,8 +216,7 @@ export default async function Layout({
              locale === 'it' ? 'Vai al contenuto principale' :
              'Skip to main content'}
           </a>
-          <GoogleAnalytics />
-          <MetaPixel />
+          <CookieConsent />
           <StructuredData organization={organizationSchema} localBusiness={localBusinessSchema} />
           <ReviewSchema />
           {children}

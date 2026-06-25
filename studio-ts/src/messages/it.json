@@ -1,4 +1,11 @@
 {
+  "CookieConsent": {
+    "title": "Cookie e privacy",
+    "message": "Utilizziamo cookie di analisi e pubblicitari (Google Analytics, Meta) per migliorare la tua esperienza e le nostre campagne. Puoi accettare o rifiutare.",
+    "accept": "Accetta",
+    "decline": "Rifiuta",
+    "learnMore": "Scopri di più"
+  },
   "HomePage": {
     "hero": {
       "title": "Trova il tuo|architetto|d'interni",
