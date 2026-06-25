@@ -68,6 +68,25 @@ export default async function StartProjectPage(props: Props) {
       <RootLayout>
         <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
           <p>{t('intro')}</p>
+          <ul className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-base font-medium text-neutral-950">
+            {(t.raw('reassurance') as string[]).map((item) => (
+              <li key={item} className="flex items-center gap-2">
+                <svg
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  className="h-4 w-4 flex-none"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M16.704 5.29a1 1 0 0 1 .006 1.414l-7.5 7.6a1 1 0 0 1-1.42.005l-3.5-3.5a1 1 0 1 1 1.414-1.414l2.79 2.79 6.795-6.889a1 1 0 0 1 1.415-.006Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                {item}
+              </li>
+            ))}
+          </ul>
         </PageIntro>
 
         <ProjectFunnel />

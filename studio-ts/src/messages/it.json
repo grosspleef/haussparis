@@ -2442,8 +2442,9 @@
     },
     "page": {
       "eyebrow": "Il tuo progetto",
-      "title": "Progetta lo spazio dei tuoi sogni.",
-      "intro": "Bastano poche domande per inquadrare il tuo progetto. Più ci racconti, prima troviamo l'architetto che fa per te."
+      "title": "Troviamo l'architetto d'interni giusto per il tuo progetto.",
+      "intro": "Ti mettiamo in contatto con un architetto d'interni selezionato, scelto per adattarsi al tuo progetto, al tuo stile e al tuo budget. Bastano poche domande — è gratuito e senza impegno.",
+      "reassurance": ["Gratuito", "Senza impegno", "2 minuti", "Architetti selezionati"]
     },
     "steps": {
       "projet": "Progetto",

@@ -2971,8 +2971,9 @@
     },
     "page": {
       "eyebrow": "Your project",
-      "title": "Design the space of your dreams.",
-      "intro": "A few questions are enough to frame your project. The more you tell us, the faster we find the architect you need."
+      "title": "Let's find the interior architect made for your project.",
+      "intro": "We connect you with a hand-picked interior architect, chosen to match your project, your style and your budget. Just a few questions — it's free and with no commitment.",
+      "reassurance": ["Free", "No commitment", "2 minutes", "Hand-picked architects"]
     },
     "steps": {
       "projet": "Project",

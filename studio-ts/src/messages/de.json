@@ -2442,8 +2442,9 @@
     },
     "page": {
       "eyebrow": "Ihr Projekt",
-      "title": "Gestalten Sie den Raum Ihrer Träume.",
-      "intro": "Wenige Fragen genügen, um Ihr Projekt zu umreißen. Je mehr Sie uns verraten, desto schneller finden wir den Architekten, den Sie brauchen."
+      "title": "Finden wir den Innenarchitekten, der zu Ihrem Projekt passt.",
+      "intro": "Wir bringen Sie mit einem ausgewählten Innenarchitekten zusammen, der zu Ihrem Projekt, Ihrem Stil und Ihrem Budget passt. Nur ein paar Fragen — kostenlos und unverbindlich.",
+      "reassurance": ["Kostenlos", "Unverbindlich", "2 Minuten", "Ausgewählte Architekten"]
     },
     "steps": {
       "projet": "Projekt",

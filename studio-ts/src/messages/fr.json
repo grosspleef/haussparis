@@ -2972,8 +2972,9 @@
     },
     "page": {
       "eyebrow": "Votre projet",
-      "title": "Composez l'espace de vos rêves.",
-      "intro": "Quelques questions suffisent pour cerner votre projet. Plus vous nous en dites, plus vite nous trouvons l'architecte qu'il vous faut."
+      "title": "Trouvons l'architecte d'intérieur fait pour votre projet.",
+      "intro": "Nous vous mettons en relation avec un architecte d'intérieur sélectionné, choisi pour correspondre à votre projet, votre style et votre budget. Quelques questions suffisent — c'est gratuit et sans engagement.",
+      "reassurance": ["Gratuit", "Sans engagement", "2 minutes", "Architectes sélectionnés"]
     },
     "steps": {
       "projet": "Projet",

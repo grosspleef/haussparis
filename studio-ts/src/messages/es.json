@@ -2445,8 +2445,9 @@
     },
     "page": {
       "eyebrow": "Tu proyecto",
-      "title": "Diseña el espacio de tus sueños.",
-      "intro": "Unas pocas preguntas bastan para definir tu proyecto. Cuanto más nos cuentes, antes encontramos al arquitecto que necesitas."
+      "title": "Encontremos al arquitecto de interiores ideal para tu proyecto.",
+      "intro": "Te ponemos en contacto con un arquitecto de interiores seleccionado, elegido para encajar con tu proyecto, tu estilo y tu presupuesto. Solo unas preguntas — es gratis y sin compromiso.",
+      "reassurance": ["Gratis", "Sin compromiso", "2 minutos", "Arquitectos seleccionados"]
     },
     "steps": {
       "projet": "Proyecto",
