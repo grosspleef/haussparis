@@ -62,6 +62,15 @@ npm run lint     # Run ESLint
 - Project-initiation CTAs across the site point to the funnel; genuine contact links (footer, FAQ, funnel sidebar) still point to the contact form
 - The `/start` page intro is in `StartProjectPage.tsx` (`title`/`intro`/`reassurance` keys under `ProjectFunnel.page` in messages) — tuned for paid (Meta Ads) traffic: connector wording ("architects we've already worked with") + a reassurance row (free · no commitment · 2 min · proven architects). The intro should match the fields the funnel actually collects (project + property), not style/budget
 
+### Copy & discourse rules (aligned site-wide 2026-06)
+
+Applies to **all** marketing/legal copy in every locale (funnel, blog MDX, service pages, ToS, transactional emails). Established when the whole site was reconciled with the real matching process:
+
+- **No numeric turnaround promises** — never "48h"/"24h"/"sous 48h"/"within 48h"/"in 48 hours". Use qualitative wording: "dans les plus brefs délais", "rapidement", "en quelques jours". (Construction/works durations in months/weeks are fine — they're not response-time promises. The `stats.response` service-page badges were removed for this reason.)
+- **Flexible architect count** — "un ou plusieurs / one or more / einen oder mehrere / uno o varios / uno o più". Never a rigid "2-3" **nor** "un seul / only one". (Existing "1 à 3"/"1 à 2" consultation ranges are already fine.)
+- **style/budget** are legitimate matching criteria in process descriptions (gathered at the consultation) and in the ToS — but they stay **out of the `/start` funnel copy**, which only collects project + property + location.
+- When reviewing copy, grep for `48`, `24-48`, and `2-3 (architect|profil)` across `*.json`/`*.mdx`/`*.tsx`.
+
 ### API
 
 - `POST /api/contact` - Handles both the contact form and the project funnel (the funnel sends `source: 'funnel'`, which adds structured project fields to the emails and makes the free-text message optional)
