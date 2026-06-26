@@ -184,7 +184,7 @@
     "emailConfirmation": {
       "greeting": "Grazie {name}!",
       "received": "Abbiamo ricevuto la tua richiesta di contatto e ti ringraziamo.",
-      "response": "Il nostro team esaminerà attentamente il tuo progetto e ti ricontatterà il prima possibile, di solito entro 24-48 ore.",
+      "response": "Il nostro team esaminerà attentamente il tuo progetto e ti ricontatterà il prima possibile.",
       "summaryTitle": "Riepilogo della tua richiesta",
       "name": "Nome:",
       "email": "Email:",
@@ -208,7 +208,7 @@
       "budget": "Budget:",
       "message": "Messaggio:",
       "actionRequired": "Azione richiesta:",
-      "actionText": "Non dimenticare di contattare questo potenziale cliente entro 24-48 ore.",
+      "actionText": "Non dimenticare di contattare questo potenziale cliente tempestivamente.",
       "footer": "Questo messaggio è stato inviato automaticamente dal modulo di contatto haussparis.com"
     }
   },
@@ -1067,7 +1067,7 @@
     },
     "section3": {
       "title": "3. Il nostro servizio di matching",
-      "paragraph1": "Quando invii una richiesta di progetto tramite il nostro sito web o i moduli di contatto, noi: esamineremo i requisiti e le preferenze del tuo progetto, selezioneremo 2-3 architetti d'interni dalla nostra rete che corrispondono ai tuoi criteri specifici (in base a stile, budget, disponibilità e tipo di progetto), ti forniremo profili, portfolio e informazioni rilevanti dei designer, e faciliteremo la presentazione iniziale tra te e i designer selezionati.",
+      "paragraph1": "Quando invii una richiesta di progetto tramite il nostro sito web o i moduli di contatto, noi: esamineremo i requisiti e le preferenze del tuo progetto, selezioneremo uno o più architetti d'interni dalla nostra rete che corrispondono ai tuoi criteri specifici (in base a stile, budget, disponibilità e tipo di progetto), ti forniremo profili, portfolio e informazioni rilevanti dei designer, e faciliteremo la presentazione iniziale tra te e i designer selezionati.",
       "paragraph2": "Il servizio di matching è fornito gratuitamente ai clienti. Qualsiasi coinvolgimento successivo con un architetto d'interni è un accordo contrattuale separato tra te e il designer, indipendente da Hauss Paris. Non riceviamo commissioni o tariffe dai designer per i match."
     },
     "section4": {
@@ -2438,12 +2438,12 @@
   "ProjectFunnel": {
     "metadata": {
       "title": "Avviare un progetto",
-      "description": "Descrivi il tuo progetto in pochi passaggi: ti presentiamo l'architetto d'interni adatto, con una prima stima entro 48 ore."
+      "description": "Descrivi il tuo progetto in pochi passaggi: ti presentiamo l'architetto d'interni giusto per il tuo progetto. Gratuito e senza impegno."
     },
     "page": {
       "eyebrow": "Il tuo progetto",
       "title": "Troviamo l'architetto d'interni giusto per il tuo progetto.",
-      "intro": "Rispondi a qualche domanda sul tuo progetto e sul tuo immobile, e ti mettiamo in contatto con un architetto d'interni con cui abbiamo già lavorato, adatto alle tue esigenze. È gratuito e senza impegno.",
+      "intro": "Rispondi a qualche domanda sul tuo progetto e sul tuo immobile, e ti mettiamo in contatto con un architetto d'interni con cui abbiamo già lavorato, adatto alle tue esigenze.",
       "reassurance": ["Gratuito", "Senza impegno", "2 minuti", "Architetti collaudati"]
     },
     "steps": {
@@ -2530,15 +2530,15 @@
     },
     "success": {
       "title": "Abbiamo ricevuto il tuo progetto",
-      "text": "Stiamo esaminando la tua richiesta e ti risponderemo entro 48 ore per presentarti l'architetto adatto. Ecco i prossimi passi.",
+      "text": "Stiamo esaminando la tua richiesta: ti presenteremo il prima possibile uno o più architetti d'interni adatti al tuo progetto. Ecco i prossimi passi.",
       "steps": {
         "1": {
-          "title": "Contatto entro 48 h",
-          "description": "Un consulente di Hauss Paris ti contatta per inquadrare il tuo progetto."
+          "title": "Primo contatto",
+          "description": "Un consulente di Hauss Paris ti contatta il prima possibile per inquadrare il tuo progetto."
         },
         "2": {
           "title": "Selezione dell'architetto",
-          "description": "Individuiamo l'architetto d'interni adatto al tuo stile e al tuo budget."
+          "description": "Individuiamo, nella nostra rete, l'architetto d'interni giusto per il tuo tipo di progetto, il tuo immobile e la tua zona."
         },
         "3": {
           "title": "Incontro e stima",

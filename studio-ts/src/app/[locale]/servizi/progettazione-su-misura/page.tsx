@@ -128,9 +128,7 @@ export default function CustomLayoutService() {
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
         <StatList>
-          <StatListItem value="100%" label={t('stats.custom')} />
-          <StatListItem value="24h" label={t('stats.response')} />
-          <StatListItem value="5 anni" label={t('stats.warranty')} />
+          <StatListItem value="100%" label={t('stats.custom')} />          <StatListItem value="5 anni" label={t('stats.warranty')} />
         </StatList>
       </Container>
 

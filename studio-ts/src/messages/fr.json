@@ -184,7 +184,7 @@
     "emailConfirmation": {
       "greeting": "Merci {name} !",
       "received": "Nous avons bien reçu votre demande de contact et nous vous en remercions.",
-      "response": "Notre équipe va étudier votre projet avec attention et reviendra vers vous dans les plus brefs délais, généralement sous 24 à 48 heures.",
+      "response": "Notre équipe va étudier votre projet avec attention et reviendra vers vous dans les plus brefs délais.",
       "summaryTitle": "Récapitulatif de votre demande",
       "name": "Nom :",
       "email": "Email :",
@@ -208,7 +208,7 @@
       "budget": "Budget :",
       "message": "Message :",
       "actionRequired": "Action requise :",
-      "actionText": "N'oubliez pas de recontacter ce prospect dans les 24-48h.",
+      "actionText": "N'oubliez pas de recontacter ce prospect rapidement.",
       "footer": "Ce message a été envoyé automatiquement depuis le formulaire de contact de haussparis.com"
     }
   },
@@ -1377,7 +1377,7 @@
     },
     "section3": {
       "title": "3. Notre service de mise en relation",
-      "paragraph1": "Lorsque vous soumettez une demande de projet via notre site Web ou nos formulaires de contact, nous allons : examiner les exigences et préférences de votre projet, sélectionner 2 à 3 architectes d'intérieur de notre réseau qui correspondent à vos critères spécifiques (en fonction du style, du budget, de la disponibilité et du type de projet), vous fournir des profils d'architectes, des portfolios et des informations pertinentes, et faciliter la présentation initiale entre vous et les architectes sélectionnés.",
+      "paragraph1": "Lorsque vous soumettez une demande de projet via notre site Web ou nos formulaires de contact, nous allons : examiner les exigences et préférences de votre projet, sélectionner un ou plusieurs architectes d'intérieur de notre réseau qui correspondent à vos critères spécifiques (en fonction du style, du budget, de la disponibilité et du type de projet), vous fournir des profils d'architectes, des portfolios et des informations pertinentes, et faciliter la présentation initiale entre vous et les architectes sélectionnés.",
       "paragraph2": "Le service de mise en relation est fourni gratuitement aux clients. Tout engagement ultérieur avec un architecte d'intérieur est un accord contractuel distinct entre vous et l'architecte, indépendant de Hauss Paris. Nous ne recevons pas de commissions ou de frais des architectes pour les mises en relation."
     },
     "section4": {
@@ -1723,7 +1723,7 @@
     "section3": {
       "title": "Notre réseau de décorateurs d'intérieur à Paris",
       "paragraph1": "Hauss Paris a constitué un réseau de décorateurs spécialisés dans les projets parisiens : pied-à-terre, résidences secondaires, investissements locatifs et home staging. Chaque professionnel possède minimum 3 ans d'expérience et un portfolio vérifié.",
-      "paragraph2": "Nous sélectionnons votre décorateur selon votre budget, votre style (haussmannien chic, contemporain épuré, bohème parisien) et vos contraintes de délai. Vous recevez une proposition personnalisée en 48h avec planches d'ambiance et estimation budgétaire."
+      "paragraph2": "Nous sélectionnons votre décorateur selon votre budget, votre style (haussmannien chic, contemporain épuré, bohème parisien) et vos contraintes de délai. Vous recevez rapidement une proposition personnalisée avec planches d'ambiance et estimation budgétaire."
     },
     "section4": {
       "title": "Comment se déroule votre projet de décoration ?",
@@ -2968,12 +2968,12 @@
   "ProjectFunnel": {
     "metadata": {
       "title": "Démarrer un projet",
-      "description": "Décrivez votre projet en quelques étapes : nous vous présentons l'architecte d'intérieur adapté, avec une première estimation sous 48 h."
+      "description": "Décrivez votre projet en quelques étapes : nous vous présentons l'architecte d'intérieur fait pour votre projet. Gratuit et sans engagement."
     },
     "page": {
       "eyebrow": "Votre projet",
       "title": "Trouvons l'architecte d'intérieur fait pour votre projet.",
-      "intro": "En quelques questions sur votre projet et votre bien, nous vous mettons en relation avec un architecte d'intérieur avec qui nous avons déjà travaillé, qui correspond à vos besoins. C'est gratuit et sans engagement.",
+      "intro": "En quelques questions sur votre projet et votre bien, nous vous mettons en relation avec un architecte d'intérieur avec qui nous avons déjà travaillé, qui correspond à vos besoins.",
       "reassurance": ["Gratuit", "Sans engagement", "2 minutes", "Architectes éprouvés"]
     },
     "steps": {
@@ -3060,15 +3060,15 @@
     },
     "success": {
       "title": "Votre projet a bien été reçu",
-      "text": "Nous étudions votre demande et revenons vers vous sous 48 h pour vous présenter l'architecte adapté. Voici la suite.",
+      "text": "Nous étudions votre demande : nous vous présenterons un ou plusieurs architectes d'intérieur adaptés à votre projet, dans les plus brefs délais. Voici la suite.",
       "steps": {
         "1": {
-          "title": "Échange sous 48 h",
-          "description": "Un conseiller Hauss Paris vous contacte pour cadrer votre projet."
+          "title": "Premier échange",
+          "description": "Un conseiller Hauss Paris vous recontacte dans les plus brefs délais pour cadrer votre projet."
         },
         "2": {
           "title": "Sélection de l'architecte",
-          "description": "Nous identifions l'architecte d'intérieur adapté à votre style et votre budget."
+          "description": "Nous identifions, dans notre réseau, l'architecte d'intérieur fait pour votre type de projet, votre bien et votre secteur."
         },
         "3": {
           "title": "Rencontre & estimation",

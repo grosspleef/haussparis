@@ -184,7 +184,7 @@
     "emailConfirmation": {
       "greeting": "Thank you {name}!",
       "received": "We have received your contact request and we thank you.",
-      "response": "Our team will carefully review your project and get back to you as soon as possible, usually within 24 to 48 hours.",
+      "response": "Our team will carefully review your project and get back to you as soon as possible.",
       "summaryTitle": "Summary of your request",
       "name": "Name:",
       "email": "Email:",
@@ -208,7 +208,7 @@
       "budget": "Budget:",
       "message": "Message:",
       "actionRequired": "Action required:",
-      "actionText": "Don't forget to contact this prospect within 24-48 hours.",
+      "actionText": "Don't forget to contact this prospect promptly.",
       "footer": "This message was sent automatically from the haussparis.com contact form"
     }
   },
@@ -1376,7 +1376,7 @@
     },
     "section3": {
       "title": "3. Our Matching Service",
-      "paragraph1": "When you submit a project request through our website or contact forms, we will: review your project requirements and preferences, select 2-3 interior designers from our network who match your specific criteria (based on style, budget, availability, and project type), provide you with designer profiles, portfolios, and relevant information, and facilitate the initial introduction between you and the selected designers.",
+      "paragraph1": "When you submit a project request through our website or contact forms, we will: review your project requirements and preferences, select one or more interior designers from our network who match your specific criteria (based on style, budget, availability, and project type), provide you with designer profiles, portfolios, and relevant information, and facilitate the initial introduction between you and the selected designers.",
       "paragraph2": "The matching service is provided free of charge to clients. Any subsequent engagement with an interior designer is a separate contractual agreement between you and the designer, independent of Hauss Paris. We do not receive commissions or fees from designers for matches."
     },
     "section4": {
@@ -1722,7 +1722,7 @@
     "section3": {
       "title": "Our Network of Interior Decorators in Paris",
       "paragraph1": "Hauss Paris has built a network of decorators specialized in Parisian projects: pied-à-terre, second homes, rental investments and home staging. Each professional has minimum 3 years experience and verified portfolio.",
-      "paragraph2": "We select your decorator based on your budget, style (chic Haussmannian, minimalist contemporary, Parisian bohemian) and timeline constraints. You receive a personalized proposal within 48h with mood boards and budget estimate."
+      "paragraph2": "We select your decorator based on your budget, style (chic Haussmannian, minimalist contemporary, Parisian bohemian) and timeline constraints. You receive a personalized proposal quickly, with mood boards and budget estimate."
     },
     "section4": {
       "title": "How Does Your Decoration Project Work?",
@@ -2967,12 +2967,12 @@
   "ProjectFunnel": {
     "metadata": {
       "title": "Start a project",
-      "description": "Describe your project in a few steps: we'll match you with the right interior architect, plus a first estimate within 48 hours."
+      "description": "Describe your project in a few steps: we'll match you with the interior architect made for your project. Free and with no commitment."
     },
     "page": {
       "eyebrow": "Your project",
       "title": "Let's find the interior architect made for your project.",
-      "intro": "Answer a few questions about your project and your property, and we connect you with an interior architect we've already worked with, matched to your needs. It's free and with no commitment.",
+      "intro": "Answer a few questions about your project and your property, and we connect you with an interior architect we've already worked with, matched to your needs.",
       "reassurance": ["Free", "No commitment", "2 minutes", "Proven architects"]
     },
     "steps": {
@@ -3059,15 +3059,15 @@
     },
     "success": {
       "title": "Your project has been received",
-      "text": "We're reviewing your request and will get back to you within 48 hours to introduce the right architect. Here's what comes next.",
+      "text": "We're reviewing your request: we'll introduce you to one or more interior architects suited to your project, as soon as possible. Here's what comes next.",
       "steps": {
         "1": {
-          "title": "Call within 48h",
-          "description": "A Hauss Paris advisor contacts you to frame your project."
+          "title": "First call",
+          "description": "A Hauss Paris advisor reaches out as soon as possible to frame your project."
         },
         "2": {
           "title": "Architect selection",
-          "description": "We identify the interior architect suited to your style and budget."
+          "description": "We identify, within our network, the interior architect made for your type of project, your property and your area."
         },
         "3": {
           "title": "Meeting & estimate",

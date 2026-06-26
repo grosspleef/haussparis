@@ -93,7 +93,7 @@ export function ProjectFunnel() {
     setError('')
 
     if (!firstName.trim() || !lastName.trim() || !email.trim()) {
-      setError(t('validation.stepRequired'))
+      setError(t('validation.required'))
       return
     }
     if (!EMAIL_REGEX.test(email.trim())) {

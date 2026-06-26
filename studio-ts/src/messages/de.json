@@ -184,7 +184,7 @@
     "emailConfirmation": {
       "greeting": "Vielen Dank {name}!",
       "received": "Wir haben Ihre Kontaktanfrage erhalten und bedanken uns.",
-      "response": "Unser Team wird Ihr Projekt sorgfältig prüfen und sich so schnell wie möglich bei Ihnen melden, normalerweise innerhalb von 24-48 Stunden.",
+      "response": "Unser Team wird Ihr Projekt sorgfältig prüfen und sich so schnell wie möglich bei Ihnen melden.",
       "summaryTitle": "Zusammenfassung Ihrer Anfrage",
       "name": "Name:",
       "email": "E-Mail:",
@@ -208,7 +208,7 @@
       "budget": "Budget:",
       "message": "Nachricht:",
       "actionRequired": "Erforderliche Aktion:",
-      "actionText": "Vergessen Sie nicht, diesen potenziellen Kunden innerhalb von 24-48 Stunden zu kontaktieren.",
+      "actionText": "Vergessen Sie nicht, diesen potenziellen Kunden zeitnah zu kontaktieren.",
       "footer": "Diese Nachricht wurde automatisch vom haussparis.com Kontaktformular gesendet"
     }
   },
@@ -1067,7 +1067,7 @@
     },
     "section3": {
       "title": "3. Unser Vermittlungsservice",
-      "paragraph1": "Wenn Sie eine Projektanfrage über unsere Website oder Kontaktformulare einreichen, werden wir: Ihre Projektanforderungen und -präferenzen überprüfen, 2-3 Innenarchitekten aus unserem Netzwerk auswählen, die Ihren spezifischen Kriterien entsprechen (basierend auf Stil, Budget, Verfügbarkeit und Projekttyp), Ihnen Designer-Profile, Portfolios und relevante Informationen zur Verfügung stellen und die erste Vorstellung zwischen Ihnen und den ausgewählten Designern erleichtern.",
+      "paragraph1": "Wenn Sie eine Projektanfrage über unsere Website oder Kontaktformulare einreichen, werden wir: Ihre Projektanforderungen und -präferenzen überprüfen, einen oder mehrere Innenarchitekten aus unserem Netzwerk auswählen, die Ihren spezifischen Kriterien entsprechen (basierend auf Stil, Budget, Verfügbarkeit und Projekttyp), Ihnen Designer-Profile, Portfolios und relevante Informationen zur Verfügung stellen und die erste Vorstellung zwischen Ihnen und den ausgewählten Designern erleichtern.",
       "paragraph2": "Der Vermittlungsservice wird Kunden kostenlos zur Verfügung gestellt. Jede nachfolgende Zusammenarbeit mit einem Innenarchitekten ist eine separate vertragliche Vereinbarung zwischen Ihnen und dem Designer, unabhängig von Hauss Paris. Wir erhalten keine Provisionen oder Gebühren von Designern für Vermittlungen."
     },
     "section4": {
@@ -2438,12 +2438,12 @@
   "ProjectFunnel": {
     "metadata": {
       "title": "Projekt starten",
-      "description": "Beschreiben Sie Ihr Projekt in wenigen Schritten: Wir vermitteln Ihnen den passenden Innenarchitekten – mit einer ersten Einschätzung innerhalb von 48 Stunden."
+      "description": "Beschreiben Sie Ihr Projekt in wenigen Schritten: Wir vermitteln Ihnen den Innenarchitekten, der zu Ihrem Projekt passt. Kostenlos und unverbindlich."
     },
     "page": {
       "eyebrow": "Ihr Projekt",
       "title": "Finden wir den Innenarchitekten, der zu Ihrem Projekt passt.",
-      "intro": "Ein paar Fragen zu Ihrem Projekt und Ihrer Immobilie genügen, und wir bringen Sie mit einem Innenarchitekten zusammen, mit dem wir bereits zusammengearbeitet haben und der zu Ihren Bedürfnissen passt. Kostenlos und unverbindlich.",
+      "intro": "Ein paar Fragen zu Ihrem Projekt und Ihrer Immobilie genügen, und wir bringen Sie mit einem Innenarchitekten zusammen, mit dem wir bereits zusammengearbeitet haben und der zu Ihren Bedürfnissen passt.",
       "reassurance": ["Kostenlos", "Unverbindlich", "2 Minuten", "Erprobte Architekten"]
     },
     "steps": {
@@ -2530,15 +2530,15 @@
     },
     "success": {
       "title": "Ihr Projekt ist eingegangen",
-      "text": "Wir prüfen Ihre Anfrage und melden uns innerhalb von 48 Stunden, um Ihnen den passenden Architekten vorzustellen. So geht es weiter.",
+      "text": "Wir prüfen Ihre Anfrage: Wir stellen Ihnen schnellstmöglich einen oder mehrere Innenarchitekten vor, die zu Ihrem Projekt passen. So geht es weiter.",
       "steps": {
         "1": {
-          "title": "Gespräch binnen 48 h",
-          "description": "Ein Berater von Hauss Paris kontaktiert Sie, um Ihr Projekt abzustecken."
+          "title": "Erstes Gespräch",
+          "description": "Ein Berater von Hauss Paris meldet sich schnellstmöglich bei Ihnen, um Ihr Projekt abzustecken."
         },
         "2": {
           "title": "Auswahl des Architekten",
-          "description": "Wir finden den Innenarchitekten, der zu Ihrem Stil und Budget passt."
+          "description": "Wir finden in unserem Netzwerk den Innenarchitekten, der zu Ihrer Projektart, Ihrer Immobilie und Ihrer Lage passt."
         },
         "3": {
           "title": "Treffen & Einschätzung",
