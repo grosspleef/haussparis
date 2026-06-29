@@ -3,7 +3,6 @@
 import { type ComponentPropsWithoutRef, type ReactNode } from 'react'
 import { useTranslations } from 'next-intl'
 
-import { Blockquote } from '@/components/Blockquote'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { List, ListItem } from '@/components/List'
@@ -102,13 +101,6 @@ export function HomeBuildSection({ title }: SectionOverrideProps) {
         <p dangerouslySetInnerHTML={{ __html: t.raw('paragraph2') }} />
         <p dangerouslySetInnerHTML={{ __html: t.raw('paragraph3') }} />
       </div>
-
-      <Blockquote
-        author={{ name: t('testimonial.author'), role: t('testimonial.role') }}
-        className="mt-12"
-      >
-        {t('testimonial.quote')}
-      </Blockquote>
     </Section>
   )
 }

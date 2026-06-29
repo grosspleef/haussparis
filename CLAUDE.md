@@ -17,7 +17,7 @@ npm run start    # Start production server
 npm run lint     # Run ESLint
 ```
 
-> ⚠️ **`npm run dev` is currently broken** (Next 15.5.10 Webpack dev): it throws `Cannot read properties of undefined (reading 'call')` while rendering the `CookieConsent` client component in the root layout. **Production is unaffected** — `npm run build` + `npm run start` work fine. To test locally, build and start (the consent banner + Pixel/GA only load on a production build with the `NEXT_PUBLIC_*` env vars set). Turbopack is not an option (MDX loader isn't serializable); likely fixed by bumping Next.
+> ✅ **`npm run dev` works** (Webpack dev, port 3000). It previously threw `Cannot read properties of undefined (reading 'call')` at `<CookieConsent />` in the root layout — a static `next/script` client-import chain (`CookieConsent` → `GoogleAnalytics`/`MetaPixel` → `next/script`) tripped webpack-dev module resolution. **Fix:** `GoogleAnalytics`/`MetaPixel` are now lazy-loaded via `next/dynamic` (`ssr: false`) inside `CookieConsent.tsx`, which breaks that chain. If the `'call'` error ever recurs, `rm -rf .next` and restart. Turbopack is still not an option (MDX loader isn't serializable). The consent banner + Pixel/GA only do something once the `NEXT_PUBLIC_*` env vars are set.
 
 ## Architecture
 

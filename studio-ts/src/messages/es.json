@@ -9,13 +9,15 @@
   "HomePage": {
     "hero": {
       "title": "Encuentre a su|diseñador de interiores|en París",
-      "description": "Conectamos a particulares y profesionales con diseñadores de interiores seleccionados según sus necesidades. Un servicio a medida, pensado para todo tipo de proyectos en París o a nivel internacional."
+      "description": "Describe tu proyecto: lo confiamos a uno o varios arquitectos de interiores de nuestra red, seleccionados según tus necesidades — en París y a nivel internacional.",
+      "cta": "Iniciar un proyecto",
+      "reassurance": "Gratis · Sin compromiso · Arquitectos probados"
     },
     "highlights": {
-      "title": "Un servicio gratuito, sin compromiso.",
-      "1": "Para una clientela española e internacional.",
-      "2": "Usted describe, nosotros seleccionamos y conectamos.",
-      "3": "Un arquitecto le será presentado, según sus plazos."
+      "title": "Cómo funciona",
+      "1": "Describe tu proyecto — en solo unos minutos.",
+      "2": "Seleccionamos al arquitecto o arquitectos más adecuados de nuestra red.",
+      "3": "Te ponemos en contacto — tú eliges, sin compromiso."
     },
     "process": {
       "individuals": "Particulares",
@@ -24,6 +26,30 @@
     "metadata": {
       "description": "Hauss Paris conecta a particulares y profesionales con los mejores diseñadores de interiores parisinos. Un servicio a medida para todos sus proyectos de renovación y decoración."
     }
+  },
+  "WhyHauss": {
+    "eyebrow": "Por qué Hauss",
+    "title": "El arquitecto de interiores adecuado, sin búsquedas a ciegas.",
+    "description": "En lugar de comparar decenas de perfiles al azar, nos confías tu proyecto — nosotros filtramos y solo te presentamos arquitectos que realmente encajan.",
+    "reasons": {
+      "free": {
+        "title": "Gratis y sin compromiso",
+        "description": "La puesta en contacto es totalmente gratuita y no te compromete a nada."
+      },
+      "selected": {
+        "title": "Arquitectos seleccionados",
+        "description": "Trabajamos con arquitectos de interiores verificados y probados. Se acabaron las búsquedas a ciegas y las malas sorpresas."
+      },
+      "tailored": {
+        "title": "Una selección a medida",
+        "description": "Basta con un brief: identificamos el perfil o los perfiles alineados con tu estilo, tu presupuesto y tus limitaciones."
+      },
+      "audience": {
+        "title": "Particulares y profesionales",
+        "description": "Desde la renovación de un piso hasta el rediseño de oficinas, en París y a nivel internacional."
+      }
+    },
+    "note": "« Sin exclusividad: Hauss se suma a tus gestiones, nunca las reemplaza — sigues siendo libre en cada paso. »"
   },
   "Header": {
     "home": "Inicio",
@@ -113,7 +139,7 @@
   },
   "ContactSection": {
     "title": "El diseñador de interiores ideal nunca está lejos.",
-    "button": "Comenzar",
+    "button": "Iniciar un proyecto",
     "ourOffice": "Nuestra oficina"
   },
   "ProcessSections": {
@@ -135,12 +161,7 @@
       "title": "Concepción",
       "paragraph1": "Para los profesionales, ofrecemos un acceso rápido y estructurado a diseñadores de interiores capaces de acompañar todo tipo de proyectos: <strong>oficinas, comercios, restaurantes, hoteles</strong>.",
       "paragraph2": "Seleccionamos el perfil más pertinente — desde el arquitecto independiente hasta el <strong>estudio de gran envergadura</strong> — según la naturaleza del proyecto, su identidad, sus restricciones técnicas y su calendario.",
-      "paragraph3": "Ya sea un espacio reducido o un <strong>edificio entero a repensar</strong>, gana tiempo y se beneficia de una experiencia inmediatamente operativa, perfectamente adaptada a sus necesidades profesionales.",
-      "testimonial": {
-        "quote": "Gracias a Hauss Paris, encontramos el estudio ideal para la renovación de nuestra sede social en tiempo récord.",
-        "author": "Marc L.",
-        "role": "Director Inmobiliario"
-      }
+      "paragraph3": "Ya sea un espacio reducido o un <strong>edificio entero a repensar</strong>, gana tiempo y se beneficia de una experiencia inmediatamente operativa, perfectamente adaptada a sus necesidades profesionales."
     }
   },
   "ContactPage": {
@@ -1113,73 +1134,6 @@
       "phone": "Teléfono:",
       "address": "Dirección:",
       "company": "Empresa:"
-    }
-  },
-  "TestimonialsSection": {
-    "title": "Lo que dicen nuestros clientes",
-    "subtitle": "Descubra los testimonios de particulares y profesionales que confiaron en nosotros para sus proyectos de diseño de interiores en París.",
-    "seeMore": "Ver todas las reseñas",
-    "testimonials": {
-      "1": {
-        "name": "Zoé Dupont-Mercier",
-        "location": "París 7º",
-        "project": "Renovación de cocina y baño",
-        "text": "El equipo de Hauss Paris escuchó nuestras limitaciones presupuestarias y plazos ajustados. El arquitecto recomendado realizó un trabajo notable. Nuestros espacios ahora son modernos y funcionales."
-      },
-      "2": {
-        "name": "Yann Kowalski",
-        "location": "París 8º",
-        "project": "Rediseño de oficinas profesionales",
-        "text": "Como empresario, necesitaba un servicio rápido y eficiente. Hauss Paris identificó exactamente el perfil de arquitecto que necesitábamos para nuestras nuevas oficinas. Excelente trabajo."
-      },
-      "3": {
-        "name": "Léa Benkacem",
-        "location": "París 16º",
-        "project": "Renovación apartamento haussmanniano",
-        "text": "Hauss Paris comprendió nuestras expectativas y nos conectó con un arquitecto excepcional. Nuestro apartamento fue transformado más allá de nuestras esperanzas. Un servicio profesional y personalizado de principio a fin."
-      },
-      "4": {
-        "name": "Malik Diouf",
-        "location": "París 11º",
-        "project": "Diseño de loft contemporáneo",
-        "text": "El proceso fue fluido y eficiente. En solo unos días, nos pusieron en contacto con el arquitecto perfecto para nuestro proyecto de loft. El resultado es absolutamente magnífico."
-      },
-      "5": {
-        "name": "Agathe Villiers",
-        "location": "Neuilly-sur-Seine",
-        "project": "Decoración interior completa",
-        "text": "Un servicio gratuito y sin compromiso que cumple todas sus promesas. El arquitecto recomendado creó un ambiente elegante y acogedor en nuestra casa. Recomiendo encarecidamente Hauss Paris."
-      },
-      "6": {
-        "name": "Raphaël Nguyen",
-        "location": "París 3º",
-        "project": "Diseño de boutique de moda",
-        "text": "Para la apertura de mi boutique en el Marais, buscaba un diseñador que entendiera el mundo de la moda. Hauss Paris me presentó al candidato ideal. El resultado superó mis expectativas."
-      },
-      "7": {
-        "name": "Élodie Chevalier",
-        "location": "Boulogne-Billancourt",
-        "project": "Diseño de casa familiar",
-        "text": "Teníamos un proyecto complejo con niños pequeños. El arquitecto recomendado creó espacios que son estéticos y prácticos para toda la familia. Servicio impecable de principio a fin."
-      },
-      "8": {
-        "name": "Samir El Khoury",
-        "location": "París 17º",
-        "project": "Transformación de estudio en dos habitaciones",
-        "text": "Maximizar el espacio en un pequeño apartamento parisino es un verdadero desafío. Gracias a Hauss Paris, encontramos un arquitecto creativo que optimizó cada metro cuadrado. Estamos encantados."
-      },
-      "9": {
-        "name": "Inès Beaumont",
-        "location": "París 6º",
-        "project": "Renovación de apartamento de prestigio",
-        "text": "Para nuestro apartamento en Saint-Germain-des-Prés, buscábamos la excelencia. El servicio de conexión fue impecable y el arquitecto propuesto posee un talento raro. Una inversión que valió la pena."
-      },
-      "10": {
-        "name": "Julien Arnaud-Tessier",
-        "location": "París 9º",
-        "project": "Diseño de restaurante gastronómico",
-        "text": "Abrir un restaurante requiere una visión arquitectónica precisa. Hauss Paris nos guió hacia un profesional que captó perfectamente nuestro concepto. La atmósfera creada contribuye al éxito de nuestro establecimiento."
-      }
     }
   },
   "ArchitecteInterieurParisService": {
