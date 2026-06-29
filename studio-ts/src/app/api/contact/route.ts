@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
+import { sendCapiLead } from '@/lib/metaCapi'
 
 // Rate limiting: Map to track requests per IP
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>()
@@ -313,6 +314,7 @@ export async function POST(request: NextRequest) {
       budgetAmount: rawBudgetAmount,
       address: rawAddress,
       planning: rawPlanning,
+      eventId: rawEventId,
       locale = 'fr'
     } = body
 
@@ -331,6 +333,7 @@ export async function POST(request: NextRequest) {
     const budgetAmount = cap(sanitizeInput(rawBudgetAmount))
     const address = cap(sanitizeInput(rawAddress))
     const planning = cap(sanitizeInput(rawPlanning))
+    const eventId = cap(sanitizeInput(rawEventId))
 
     // Obtenir les traductions selon la locale
     const t = translations[locale as keyof typeof translations] || translations.fr
@@ -567,6 +570,24 @@ export async function POST(request: NextRequest) {
         },
         { status: 502 }
       )
+    }
+
+    // Conversion serveur (CAPI) pour les leads du funnel : complète le Pixel
+    // navigateur et déduplique via le même eventId. Best-effort (ne jette pas).
+    if (isFunnel && eventId) {
+      await sendCapiLead({
+        eventId,
+        email: email || undefined,
+        phone: phone || undefined,
+        clientIp:
+          request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
+          request.headers.get('x-real-ip') ||
+          undefined,
+        userAgent: request.headers.get('user-agent') || undefined,
+        fbp: request.cookies.get('_fbp')?.value,
+        fbc: request.cookies.get('_fbc')?.value,
+        eventSourceUrl: request.headers.get('referer') || undefined,
+      })
     }
 
     return NextResponse.json({

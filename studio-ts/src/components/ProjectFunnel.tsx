@@ -106,6 +106,11 @@ export function ProjectFunnel() {
     }
 
     setSubmitting(true)
+    // Identifiant d'événement partagé avec la CAPI serveur pour la déduplication Meta.
+    const eventId =
+      typeof crypto !== 'undefined' && 'randomUUID' in crypto
+        ? crypto.randomUUID()
+        : `${Date.now()}-${Math.random().toString(36).slice(2)}`
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
@@ -124,6 +129,7 @@ export function ProjectFunnel() {
           address: location.trim(),
           planning: timeline ? t(`stepLieu.timelineOptions.${timeline}`) : '',
           locale,
+          eventId,
         }),
       })
 
@@ -139,7 +145,8 @@ export function ProjectFunnel() {
 
       setDone(true)
       // Conversion principale : prospect qualifié via le funnel.
-      trackMetaEvent('Lead')
+      // eventId partagé avec la CAPI serveur (/api/contact) → Meta déduplique.
+      trackMetaEvent('Lead', undefined, eventId)
     } catch (err) {
       setError(err instanceof Error ? err.message : t('errorGeneric'))
     } finally {
