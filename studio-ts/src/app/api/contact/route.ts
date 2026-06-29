@@ -34,7 +34,7 @@ const translations = {
     confirmation: {
       greeting: 'Merci {name} !',
       received: 'Nous avons bien reçu votre demande de contact et nous vous en remercions.',
-      response: 'Notre équipe va étudier votre projet avec attention et reviendra vers vous dans les plus brefs délais, généralement sous 24 à 48 heures.',
+      response: 'Notre équipe va étudier votre projet avec attention et reviendra vers vous dans les plus brefs délais.',
       summaryTitle: 'Récapitulatif de votre demande',
       name: 'Nom :',
       email: 'Email :',
@@ -58,7 +58,7 @@ const translations = {
       budget: 'Budget :',
       message: 'Message :',
       actionRequired: 'Action requise :',
-      actionText: 'N\'oubliez pas de recontacter ce prospect dans les 24-48h.',
+      actionText: 'N\'oubliez pas de recontacter ce prospect rapidement.',
       footer: 'Ce message a été envoyé automatiquement depuis le formulaire de contact de haussparis.com'
     },
     projectInfo: {
@@ -90,7 +90,7 @@ const translations = {
     confirmation: {
       greeting: 'Thank you {name}!',
       received: 'We have received your contact request and we thank you.',
-      response: 'Our team will carefully review your project and get back to you as soon as possible, usually within 24 to 48 hours.',
+      response: 'Our team will carefully review your project and get back to you as soon as possible.',
       summaryTitle: 'Summary of your request',
       name: 'Name:',
       email: 'Email:',
@@ -114,7 +114,7 @@ const translations = {
       budget: 'Budget:',
       message: 'Message:',
       actionRequired: 'Action required:',
-      actionText: 'Don\'t forget to contact this prospect within 24-48 hours.',
+      actionText: 'Don\'t forget to contact this prospect promptly.',
       footer: 'This message was sent automatically from the haussparis.com contact form'
     },
     projectInfo: {
@@ -354,6 +354,9 @@ export async function POST(request: NextRequest) {
       : sanitizedBudget
         ? t.budgetLabels[sanitizedBudget as keyof typeof t.budgetLabels]
         : t.notSpecified
+    // Le budget n'est demandé que par le formulaire de contact ; le funnel ne le
+    // collecte pas, donc on n'affiche pas de ligne budget vide/« Non spécifié ».
+    const hasBudget = isFunnel ? Boolean(budgetAmount) : Boolean(sanitizedBudget)
 
     // Escape HTML for email display
     const safeName = escapeHtml(name)
@@ -429,7 +432,7 @@ export async function POST(request: NextRequest) {
                 <p style="margin: 8px 0;"><strong>${t.confirmation.email}</strong> ${safeEmail}</p>
                 ${safeCompany ? `<p style="margin: 8px 0;"><strong>${t.confirmation.company}</strong> ${safeCompany}</p>` : ''}
                 ${safePhone ? `<p style="margin: 8px 0;"><strong>${t.confirmation.phone}</strong> ${safePhone}</p>` : ''}
-                <p style="margin: 8px 0;"><strong>${t.confirmation.budget}</strong> ${budgetText}</p>
+                ${hasBudget ? `<p style="margin: 8px 0;"><strong>${t.confirmation.budget}</strong> ${budgetText}</p>` : ''}
                 ${safeMessage ? `<p style="margin: 8px 0;"><strong>${t.confirmation.message}</strong></p>
                 <p style="margin: 8px 0; padding: 10px; background-color: #f8f8f8; border-radius: 5px;">${safeMessage}</p>` : ''}
               </div>
@@ -511,14 +514,14 @@ export async function POST(request: NextRequest) {
                     </td>
                   </tr>
                   ` : ''}
-                  <tr>
+                  ${hasBudget ? `<tr>
                     <td style="padding: 10px 0; border-bottom: 1px solid #eee;">
                       <strong style="color: #666;">${t.notification.budget}</strong>
                     </td>
                     <td style="padding: 10px 0; border-bottom: 1px solid #eee;">
                       <span style="background-color: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 4px; font-weight: 600;">${budgetText}</span>
                     </td>
-                  </tr>
+                  </tr>` : ''}
                 </table>
 
                 ${safeMessage ? `<div style="margin-top: 20px;">
