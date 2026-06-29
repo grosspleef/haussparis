@@ -9,15 +9,15 @@
   "HomePage": {
     "hero": {
       "title": "Laissez-nous trouver votre architecte d'intérieur.",
-      "description": "Décrivez votre projet : nous le confions à un ou plusieurs architectes d'intérieur de notre réseau, sélectionnés pour vos besoins — à Paris comme à l'international.",
+      "description": "Décrivez votre projet : nous le confions à un ou plusieurs architectes d'intérieur de notre réseau, sélectionnés pour vos besoins, à Paris comme à l'international.",
       "cta": "Démarrer un projet",
       "reassurance": "Gratuit · Sans engagement · Architectes éprouvés"
     },
     "highlights": {
       "title": "Comment ça marche",
-      "1": "Vous décrivez votre projet — en quelques minutes.",
+      "1": "Vous décrivez votre projet, en quelques minutes.",
       "2": "Nous sélectionnons le ou les architectes les plus pertinents de notre réseau.",
-      "3": "Nous vous mettons en relation — vous choisissez, sans engagement."
+      "3": "Nous vous mettons en relation : vous choisissez, sans engagement."
     },
     "process": {
       "individuals": "Particuliers",
@@ -30,7 +30,7 @@
   "WhyHauss": {
     "eyebrow": "Pourquoi Hauss",
     "title": "Le bon architecte d'intérieur, sans la recherche à l'aveugle.",
-    "description": "Plutôt que de comparer des dizaines de profils au hasard, vous nous confiez votre projet — nous faisons le tri et ne vous présentons que des architectes pertinents.",
+    "description": "Plutôt que de comparer des dizaines de profils au hasard, vous nous confiez votre projet : nous faisons le tri et ne vous présentons que des architectes pertinents.",
     "reasons": {
       "free": {
         "title": "Gratuit et sans engagement",
@@ -49,7 +49,7 @@
         "description": "De la rénovation d'un appartement au réaménagement de bureaux, à Paris comme à l'international."
       }
     },
-    "note": "« Aucune exclusivité : Hauss vient en plus de vos démarches, jamais à leur place — vous restez libre à chaque étape. »"
+    "note": "« Aucune exclusivité : Hauss vient en plus de vos démarches, jamais à leur place. Vous restez libre à chaque étape. »"
   },
   "Header": {
     "home": "Accueil",
@@ -145,8 +145,8 @@
   "ProcessSections": {
     "homeDiscover": {
       "title": "Découverte",
-      "paragraph1": "À Paris, chaque projet est unique. Trouver l'architecte réellement aligné avec votre vision demande une sélection précise — c'est là que nous intervenons, avec <strong>clarté</strong> et <strong>exigence</strong>.",
-      "paragraph2": "Nous identifions pour vous l'architecte répondant à vos <strong>critères essentiels</strong> : style, langue parlée, disponibilité et type de projet — du petit studio au grand appartement haussmannien, de la rénovation intégrale au simple ameublement.",
+      "paragraph1": "À Paris, chaque projet est unique. Trouver l'architecte réellement aligné avec votre vision demande une sélection précise : c'est là que nous intervenons, avec <strong>clarté</strong> et <strong>exigence</strong>.",
+      "paragraph2": "Nous identifions pour vous l'architecte répondant à vos <strong>critères essentiels</strong> : style, langue parlée, disponibilité et type de projet, du petit studio au grand appartement haussmannien, de la rénovation intégrale au simple ameublement.",
       "paragraph3": "Avec un <strong>brief unique</strong>, vous accédez à une sélection fiable et sur mesure de professionnels qualifiés, pour un projet qui démarre simplement et sereinement.",
       "includedTitle": "Inclus dans notre accompagnement",
       "tags": {
@@ -160,7 +160,7 @@
     "homeBuild": {
       "title": "Conception",
       "paragraph1": "Pour les professionnels, nous offrons un accès rapide et structuré à des architectes d'intérieur capables d'accompagner tous types de projets : <strong>bureaux, commerces, restaurants, hôtels</strong>.",
-      "paragraph2": "Nous sélectionnons le profil le plus pertinent — de l'architecte indépendant au <strong>cabinet d'envergure</strong> — selon la nature du projet, son identité, ses contraintes techniques et son calendrier.",
+      "paragraph2": "Nous sélectionnons le profil le plus pertinent (de l'architecte indépendant au <strong>cabinet d'envergure</strong>) selon la nature du projet, son identité, ses contraintes techniques et son calendrier.",
       "paragraph3": "Qu'il s'agisse d'un espace restreint ou d'un <strong>immeuble entier à repenser</strong>, vous gagnez du temps et bénéficiez d'une expertise immédiatement opérationnelle, parfaitement adaptée à vos besoins professionnels."
     }
   },
@@ -2945,7 +2945,7 @@
         "contact": "Vos coordonnées"
       },
       "description": {
-        "projet": "Une question pour démarrer, rien à remplir. Choisissez ce qui correspond le mieux — on affine ensuite.",
+        "projet": "Une question pour démarrer, rien à remplir. Choisissez ce qui correspond le mieux, on affine ensuite.",
         "bien": "Le type de logement et sa surface nous aident à cerner l'ampleur du projet et à orienter le bon architecte.",
         "lieu": "Où se trouve le bien et quand vous souhaitez démarrer. C'est notre meilleur repère pour vous rappeler au bon moment.",
         "contact": "Pour vous présenter l'architecte adapté. Aucun architecte ne vous contactera tant que vous n'aurez pas validé son profil. Vos données restent chez Hauss Paris et ne sont jamais cédées."

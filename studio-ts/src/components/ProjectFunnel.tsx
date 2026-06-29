@@ -434,7 +434,7 @@ export function ProjectFunnel() {
                 <div className="sm:col-span-2">
                   <FieldLabel>
                     {t('stepContact.phone')}{' '}
-                    <span className="text-neutral-400">— {t('stepContact.phoneHint')}</span>
+                    <span className="text-neutral-400">({t('stepContact.phoneHint')})</span>
                   </FieldLabel>
                   <input
                     className={inputClasses}

@@ -9,15 +9,15 @@
   "HomePage": {
     "hero": {
       "title": "Finden Sie Ihren|Innenarchitekten|in Paris",
-      "description": "Beschreiben Sie Ihr Projekt: Wir vertrauen es einem oder mehreren Innenarchitekten aus unserem Netzwerk an, ausgewählt nach Ihren Bedürfnissen — in Paris wie international.",
+      "description": "Beschreiben Sie Ihr Projekt: Wir vertrauen es einem oder mehreren Innenarchitekten aus unserem Netzwerk an, ausgewählt nach Ihren Bedürfnissen, in Paris wie international.",
       "cta": "Projekt starten",
       "reassurance": "Kostenlos · Unverbindlich · Erprobte Architekten"
     },
     "highlights": {
       "title": "So funktioniert's",
-      "1": "Sie beschreiben Ihr Projekt — in wenigen Minuten.",
+      "1": "Sie beschreiben Ihr Projekt, in wenigen Minuten.",
       "2": "Wir wählen den oder die passendsten Architekten aus unserem Netzwerk aus.",
-      "3": "Wir stellen den Kontakt her — Sie entscheiden, unverbindlich."
+      "3": "Wir stellen den Kontakt her: Sie entscheiden, unverbindlich."
     },
     "process": {
       "individuals": "Privatpersonen",
@@ -29,8 +29,8 @@
   },
   "WhyHauss": {
     "eyebrow": "Warum Hauss",
-    "title": "Der richtige Innenarchitekt — ohne die Suche ins Blaue.",
-    "description": "Statt Dutzende Profile auf gut Glück zu vergleichen, vertrauen Sie uns Ihr Projekt an — wir treffen die Vorauswahl und stellen Ihnen nur passende Innenarchitekten vor.",
+    "title": "Der richtige Innenarchitekt, ohne die Suche ins Blaue.",
+    "description": "Statt Dutzende Profile auf gut Glück zu vergleichen, vertrauen Sie uns Ihr Projekt an: wir treffen die Vorauswahl und stellen Ihnen nur passende Innenarchitekten vor.",
     "reasons": {
       "free": {
         "title": "Kostenlos und unverbindlich",
@@ -49,7 +49,7 @@
         "description": "Von der Renovierung einer Wohnung bis zur Neugestaltung von Büros, in Paris wie international."
       }
     },
-    "note": "„Keine Exklusivität: Hauss ergänzt Ihre eigene Suche, ersetzt sie aber nie — Sie bleiben bei jedem Schritt frei.“"
+    "note": "„Keine Exklusivität: Hauss ergänzt Ihre eigene Suche, ersetzt sie aber nie. Sie bleiben bei jedem Schritt frei.“"
   },
   "Header": {
     "home": "Startseite",
@@ -145,8 +145,8 @@
   "ProcessSections": {
     "homeDiscover": {
       "title": "Entdeckung",
-      "paragraph1": "In Paris ist jedes Projekt einzigartig. Den Architekten zu finden, der wirklich mit Ihrer Vision übereinstimmt, erfordert eine präzise Auswahl — hier kommen wir ins Spiel, mit <strong>Klarheit</strong> und <strong>Exzellenz</strong>.",
-      "paragraph2": "Wir identifizieren den Architekten, der Ihre <strong>wesentlichen Kriterien</strong> erfüllt: Stil, gesprochene Sprache, Verfügbarkeit und Projekttyp — von kleinen Studios bis zu großen Haussmann-Wohnungen, von der Komplettrenovierung bis zur einfachen Einrichtung.",
+      "paragraph1": "In Paris ist jedes Projekt einzigartig. Den Architekten zu finden, der wirklich mit Ihrer Vision übereinstimmt, erfordert eine präzise Auswahl: hier kommen wir ins Spiel, mit <strong>Klarheit</strong> und <strong>Exzellenz</strong>.",
+      "paragraph2": "Wir identifizieren den Architekten, der Ihre <strong>wesentlichen Kriterien</strong> erfüllt: Stil, gesprochene Sprache, Verfügbarkeit und Projekttyp, von kleinen Studios bis zu großen Haussmann-Wohnungen, von der Komplettrenovierung bis zur einfachen Einrichtung.",
       "paragraph3": "Mit einem <strong>einzigen Briefing</strong> erhalten Sie Zugang zu einer vertrauenswürdigen und maßgeschneiderten Auswahl qualifizierter Fachleute, für einen einfachen und entspannten Projektstart.",
       "includedTitle": "In unserer Begleitung enthalten",
       "tags": {
@@ -160,7 +160,7 @@
     "homeBuild": {
       "title": "Planung",
       "paragraph1": "Für Unternehmen bieten wir schnellen und strukturierten Zugang zu Innenarchitekten, die jede Art von Projekt begleiten können: <strong>Büros, Geschäfte, Restaurants, Hotels</strong>.",
-      "paragraph2": "Wir wählen das passendste Profil aus — vom unabhängigen Architekten bis zum <strong>großen Studio</strong> — basierend auf der Art des Projekts, der Identität, den technischen Einschränkungen und dem Zeitplan.",
+      "paragraph2": "Wir wählen das passendste Profil aus (vom unabhängigen Architekten bis zum <strong>großen Studio</strong>) basierend auf der Art des Projekts, der Identität, den technischen Einschränkungen und dem Zeitplan.",
       "paragraph3": "Ob es sich um einen kleinen Raum oder ein <strong>ganzes Gebäude handelt</strong>, Sie sparen Zeit und profitieren von sofort einsatzbereiter Expertise, perfekt auf Ihre beruflichen Bedürfnisse zugeschnitten."
     }
   },
@@ -2415,7 +2415,7 @@
         "contact": "Ihre Kontaktdaten"
       },
       "description": {
-        "projet": "Eine Frage zum Einstieg, nichts auszufüllen. Wählen Sie, was am besten passt — den Rest verfeinern wir gemeinsam.",
+        "projet": "Eine Frage zum Einstieg, nichts auszufüllen. Wählen Sie, was am besten passt, den Rest verfeinern wir gemeinsam.",
         "bien": "Art und Größe der Immobilie helfen uns, den Umfang einzuschätzen und den passenden Architekten zu finden.",
         "lieu": "Wo sich die Immobilie befindet und wann Sie starten möchten. Unser bester Anhaltspunkt, um Sie zum richtigen Zeitpunkt zu kontaktieren.",
         "contact": "Damit wir Ihnen den passenden Architekten vorstellen. Kein Architekt wird Sie kontaktieren, bevor Sie sein Profil bestätigt haben. Ihre Daten bleiben bei Hauss Paris und werden niemals weitergegeben."

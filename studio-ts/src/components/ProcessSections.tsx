@@ -67,11 +67,11 @@ export function HomeDiscoverSection({
       <div className="space-y-6 text-base text-neutral-600">
         <p>
           À Paris, chaque projet est unique. Trouver l’architecte réellement
-          aligné avec votre vision demande une sélection précise — c’est là que
+          aligné avec votre vision demande une sélection précise : c’est là que
           nous intervenons, avec <strong className="font-semibold text-neutral-950">clarté</strong> et <strong className="font-semibold text-neutral-950">exigence</strong>.
         </p>
         <p>
-          Nous identifions pour vous l’architecte répondant à vos <strong className="font-semibold text-neutral-950">critères essentiels</strong> : style, langue parlée, disponibilité et type de projet — du petit
+          Nous identifions pour vous l’architecte répondant à vos <strong className="font-semibold text-neutral-950">critères essentiels</strong> : style, langue parlée, disponibilité et type de projet, du petit
           studio au grand appartement haussmannien, de la rénovation intégrale
           au simple ameublement.
         </p>
@@ -104,7 +104,7 @@ export function HomeBuildSection({ title = 'Conception' }: SectionOverrideProps)
           projets : <strong className="font-semibold text-neutral-950">bureaux, commerces, restaurants, hôtels</strong>.
         </p>
         <p>
-          Nous sélectionnons le profil le plus pertinent — de l’architecte indépendant au <strong className="font-semibold text-neutral-950">cabinet d’envergure</strong> — selon la nature du projet, son identité, ses contraintes techniques
+          Nous sélectionnons le profil le plus pertinent (de l’architecte indépendant au <strong className="font-semibold text-neutral-950">cabinet d’envergure</strong>) selon la nature du projet, son identité, ses contraintes techniques
           et son calendrier.
         </p>
         <p>

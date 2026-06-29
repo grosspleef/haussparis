@@ -69,7 +69,8 @@ Applies to **all** marketing/legal copy in every locale (funnel, blog MDX, servi
 - **No numeric turnaround promises** — never "48h"/"24h"/"sous 48h"/"within 48h"/"in 48 hours". Use qualitative wording: "dans les plus brefs délais", "rapidement", "en quelques jours". (Construction/works durations in months/weeks are fine — they're not response-time promises. The `stats.response` service-page badges were removed for this reason.)
 - **Flexible architect count** — "un ou plusieurs / one or more / einen oder mehrere / uno o varios / uno o più". Never a rigid "2-3" **nor** "un seul / only one". (Existing "1 à 3"/"1 à 2" consultation ranges are already fine.)
 - **style/budget** are legitimate matching criteria in process descriptions (gathered at the consultation) and in the ToS — but they stay **out of the `/start` funnel copy**, which only collects project + property + location.
-- When reviewing copy, grep for `48`, `24-48`, and `2-3 (architect|profil)` across `*.json`/`*.mdx`/`*.tsx`.
+- **No em-dashes `—`**: the typographic em-dash (U+2014) reads as AI-generated content and is banned from copy in **every** locale (not just French). Replace by role: end-of-sentence aside → comma; two clauses → colon (French ` : ` with surrounding spaces, en/de/es/it `: ` with no space before); paired incise → commas or parentheses; if the sentence already has a colon, use a comma or period instead of a second colon. Code comments (`{/* … */}`) are exempt (invisible on the site); en-dashes `–` in numeric ranges (e.g. `50–70 €/m²`) are fine. Swept site-wide 2026-06-29.
+- When reviewing copy, grep for `48`, `24-48`, `2-3 (architect|profil)`, and the em-dash `—` across `*.json`/`*.mdx`/`*.tsx`.
 
 ### API
 

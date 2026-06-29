@@ -9,15 +9,15 @@
   "HomePage": {
     "hero": {
       "title": "Trova il tuo|architetto|d'interni",
-      "description": "Descrivi il tuo progetto: lo affidiamo a uno o più architetti d'interni della nostra rete, selezionati per le tue esigenze — a Parigi e a livello internazionale.",
+      "description": "Descrivi il tuo progetto: lo affidiamo a uno o più architetti d'interni della nostra rete, selezionati per le tue esigenze, a Parigi e a livello internazionale.",
       "cta": "Avviare un progetto",
       "reassurance": "Gratuito · Senza impegno · Architetti collaudati"
     },
     "highlights": {
       "title": "Come funziona",
-      "1": "Descrivi il tuo progetto — in pochi minuti.",
+      "1": "Descrivi il tuo progetto, in pochi minuti.",
       "2": "Selezioniamo l'architetto o gli architetti più adatti della nostra rete.",
-      "3": "Ti mettiamo in contatto — scegli tu, senza impegno."
+      "3": "Ti mettiamo in contatto: scegli tu, senza impegno."
     },
     "process": {
       "individuals": "Privati",
@@ -30,7 +30,7 @@
   "WhyHauss": {
     "eyebrow": "Perché Hauss",
     "title": "L'architetto d'interni giusto, senza ricerche alla cieca.",
-    "description": "Invece di confrontare decine di profili a caso, ci affidi il tuo progetto — pensiamo noi alla selezione e ti presentiamo solo architetti davvero pertinenti.",
+    "description": "Invece di confrontare decine di profili a caso, ci affidi il tuo progetto: pensiamo noi alla selezione e ti presentiamo solo architetti davvero pertinenti.",
     "reasons": {
       "free": {
         "title": "Gratuito e senza impegno",
@@ -49,7 +49,7 @@
         "description": "Dalla ristrutturazione di un appartamento al riprogetto di uffici, a Parigi e a livello internazionale."
       }
     },
-    "note": "« Nessuna esclusività: Hauss si aggiunge alle tue ricerche, senza mai sostituirle — resti libero in ogni fase. »"
+    "note": "« Nessuna esclusività: Hauss si aggiunge alle tue ricerche, senza mai sostituirle. Resti libero in ogni fase. »"
   },
   "Header": {
     "home": "Home",
@@ -145,8 +145,8 @@
   "ProcessSections": {
     "homeDiscover": {
       "title": "Scoperta",
-      "paragraph1": "A Parigi, ogni progetto è unico. Trovare l'architetto veramente allineato alla tua visione richiede una selezione precisa — è qui che interveniamo, con <strong>chiarezza</strong> ed <strong>eccellenza</strong>.",
-      "paragraph2": "Identifichiamo l'architetto che soddisfa i tuoi <strong>criteri essenziali</strong>: stile, lingua parlata, disponibilità e tipo di progetto — dai piccoli monolocali ai grandi appartamenti haussmanniani, dalla ristrutturazione completa al semplice arredamento.",
+      "paragraph1": "A Parigi, ogni progetto è unico. Trovare l'architetto veramente allineato alla tua visione richiede una selezione precisa: è qui che interveniamo, con <strong>chiarezza</strong> ed <strong>eccellenza</strong>.",
+      "paragraph2": "Identifichiamo l'architetto che soddisfa i tuoi <strong>criteri essenziali</strong>: stile, lingua parlata, disponibilità e tipo di progetto, dai piccoli monolocali ai grandi appartamenti haussmanniani, dalla ristrutturazione completa al semplice arredamento.",
       "paragraph3": "Con un <strong>brief unico</strong>, accedi a una selezione affidabile e su misura di professionisti qualificati, per un progetto che inizia in modo semplice e sereno.",
       "includedTitle": "Incluso nel nostro supporto",
       "tags": {
@@ -160,7 +160,7 @@
     "homeBuild": {
       "title": "Progettazione",
       "paragraph1": "Per i professionisti, offriamo un accesso rapido e strutturato ad architetti d'interni capaci di seguire ogni tipo di progetto: <strong>uffici, negozi, ristoranti, hotel</strong>.",
-      "paragraph2": "Selezioniamo il profilo più pertinente — dall'architetto indipendente al <strong>grande studio</strong> — in base alla natura del progetto, all'identità, ai vincoli tecnici e al calendario.",
+      "paragraph2": "Selezioniamo il profilo più pertinente (dall'architetto indipendente al <strong>grande studio</strong>) in base alla natura del progetto, all'identità, ai vincoli tecnici e al calendario.",
       "paragraph3": "Che si tratti di un piccolo spazio o di un <strong>intero edificio da riprogettare</strong>, risparmi tempo e benefici di una competenza immediatamente operativa, perfettamente adattata alle tue esigenze professionali."
     }
   },
@@ -2415,7 +2415,7 @@
         "contact": "I tuoi dati"
       },
       "description": {
-        "projet": "Una domanda per iniziare, niente da compilare. Scegli ciò che ti rappresenta di più — il resto lo affiniamo insieme.",
+        "projet": "Una domanda per iniziare, niente da compilare. Scegli ciò che ti rappresenta di più, il resto lo affiniamo insieme.",
         "bien": "Il tipo di immobile e la sua superficie ci aiutano a capire l'ampiezza del progetto e a orientarti verso l'architetto giusto.",
         "lieu": "Dove si trova l'immobile e quando vuoi iniziare. È il nostro miglior riferimento per ricontattarti al momento giusto.",
         "contact": "Per presentarti l'architetto adatto. Nessun architetto ti contatterà prima che tu abbia confermato il suo profilo. I tuoi dati restano in Hauss Paris e non vengono mai ceduti."
