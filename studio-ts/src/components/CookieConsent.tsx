@@ -2,9 +2,19 @@
 
 import { useEffect, useState } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
+import dynamic from 'next/dynamic'
 
-import { GoogleAnalytics } from '@/components/GoogleAnalytics'
-import { MetaPixel } from '@/components/MetaPixel'
+// Chargés dynamiquement (côté client uniquement) : ils ne se montent qu'après
+// consentement explicite, et cela évite un bug de résolution de module
+// webpack-dev déclenché par l'import statique de `next/script` dans le root layout.
+const GoogleAnalytics = dynamic(
+  () => import('@/components/GoogleAnalytics').then((m) => m.GoogleAnalytics),
+  { ssr: false },
+)
+const MetaPixel = dynamic(
+  () => import('@/components/MetaPixel').then((m) => m.MetaPixel),
+  { ssr: false },
+)
 
 const STORAGE_KEY = 'hauss-consent'
 type Consent = 'granted' | 'denied' | 'unknown'

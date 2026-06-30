@@ -7,7 +7,6 @@ import type { ReactNode } from 'react'
 import '@/styles/tailwind.css'
 import { CookieConsent } from '@/components/CookieConsent'
 import { StructuredData } from '@/components/StructuredData'
-import { ReviewSchema } from '@/components/ReviewSchema'
 import { PerformanceHead } from './PerformanceHead'
 
 type Props = {
@@ -218,7 +217,6 @@ export default async function Layout({
           </a>
           <CookieConsent />
           <StructuredData organization={organizationSchema} localBusiness={localBusinessSchema} />
-          <ReviewSchema />
           {children}
         </NextIntlClientProvider>
       </body>

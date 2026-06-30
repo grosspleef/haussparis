@@ -5,15 +5,16 @@ import { Container } from '@/components/Container'
 import { FadeIn, FadeInStagger } from '@/components/FadeIn'
 import { HomeBuildSection, HomeDiscoverSection } from '@/components/HomeDiscoverSection'
 import { ValuesSection } from '@/components/ValuesSection'
-import { TestimonialsSection } from '@/components/TestimonialsSection'
+import { WhyHaussSection } from '@/components/WhyHaussSection'
 import { RootLayout } from '@/components/RootLayout'
+import { StartProjectButton } from '@/components/StartProjectButton'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
 import type { Locale } from '@/lib/routes'
 
-function Clients() {
+function HowItWorks() {
   const t = useTranslations('HomePage.highlights')
 
-  const activityHighlights = [
+  const steps = [
     {
       number: '01',
       text: t('1'),
@@ -42,7 +43,7 @@ function Clients() {
             role="list"
             className="mt-10 grid grid-cols-1 gap-y-8 text-white lg:grid-cols-3 lg:items-start lg:gap-x-8 lg:gap-y-0"
           >
-            {activityHighlights.map(({ number, text }) => (
+            {steps.map(({ number, text }) => (
               <li key={number}>
                 <FadeIn>
                   <div className="flex items-start gap-x-4">
@@ -141,16 +142,20 @@ export default function Home() {
           <p className="mt-6 text-xl text-neutral-600">
             {t('description')}
           </p>
+          <div className="mt-8 flex flex-col items-start gap-y-4 sm:flex-row sm:items-center sm:gap-x-6">
+            <StartProjectButton>{t('cta')}</StartProjectButton>
+            <p className="text-sm text-neutral-500">{t('reassurance')}</p>
+          </div>
         </FadeIn>
       </Container>
 
-      <Clients />
+      <HowItWorks />
+
+      <WhyHaussSection />
 
       <ProcessPreview />
 
       <ValuesSection />
-
-      <TestimonialsSection />
 
       <ContactSection />
     </RootLayout>

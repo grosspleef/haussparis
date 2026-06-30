@@ -17,7 +17,7 @@ npm run start    # Start production server
 npm run lint     # Run ESLint
 ```
 
-> ⚠️ **`npm run dev` is currently broken** (Next 15.5.10 Webpack dev): it throws `Cannot read properties of undefined (reading 'call')` while rendering the `CookieConsent` client component in the root layout. **Production is unaffected** — `npm run build` + `npm run start` work fine. To test locally, build and start (the consent banner + Pixel/GA only load on a production build with the `NEXT_PUBLIC_*` env vars set). Turbopack is not an option (MDX loader isn't serializable); likely fixed by bumping Next.
+> ✅ **`npm run dev` works** (Webpack dev, port 3000). It previously threw `Cannot read properties of undefined (reading 'call')` at `<CookieConsent />` in the root layout — a static `next/script` client-import chain (`CookieConsent` → `GoogleAnalytics`/`MetaPixel` → `next/script`) tripped webpack-dev module resolution. **Fix:** `GoogleAnalytics`/`MetaPixel` are now lazy-loaded via `next/dynamic` (`ssr: false`) inside `CookieConsent.tsx`, which breaks that chain. If the `'call'` error ever recurs, `rm -rf .next` and restart. Turbopack is still not an option (MDX loader isn't serializable). The consent banner + Pixel/GA only do something once the `NEXT_PUBLIC_*` env vars are set.
 
 ## Architecture
 
@@ -69,7 +69,8 @@ Applies to **all** marketing/legal copy in every locale (funnel, blog MDX, servi
 - **No numeric turnaround promises** — never "48h"/"24h"/"sous 48h"/"within 48h"/"in 48 hours". Use qualitative wording: "dans les plus brefs délais", "rapidement", "en quelques jours". (Construction/works durations in months/weeks are fine — they're not response-time promises. The `stats.response` service-page badges were removed for this reason.)
 - **Flexible architect count** — "un ou plusieurs / one or more / einen oder mehrere / uno o varios / uno o più". Never a rigid "2-3" **nor** "un seul / only one". (Existing "1 à 3"/"1 à 2" consultation ranges are already fine.)
 - **style/budget** are legitimate matching criteria in process descriptions (gathered at the consultation) and in the ToS — but they stay **out of the `/start` funnel copy**, which only collects project + property + location.
-- When reviewing copy, grep for `48`, `24-48`, and `2-3 (architect|profil)` across `*.json`/`*.mdx`/`*.tsx`.
+- **No em-dashes `—`**: the typographic em-dash (U+2014) reads as AI-generated content and is banned from copy in **every** locale (not just French). Replace by role: end-of-sentence aside → comma; two clauses → colon (French ` : ` with surrounding spaces, en/de/es/it `: ` with no space before); paired incise → commas or parentheses; if the sentence already has a colon, use a comma or period instead of a second colon. Code comments (`{/* … */}`) are exempt (invisible on the site); en-dashes `–` in numeric ranges (e.g. `50–70 €/m²`) are fine. Swept site-wide 2026-06-29.
+- When reviewing copy, grep for `48`, `24-48`, `2-3 (architect|profil)`, and the em-dash `—` across `*.json`/`*.mdx`/`*.tsx`.
 
 ### API
 
@@ -81,6 +82,7 @@ Applies to **all** marketing/legal copy in every locale (funnel, blog MDX, servi
 
 - **Consent-gated**: `CookieConsent.tsx` (rendered in `[locale]/layout.tsx`) shows an RGPD banner and stores the choice in `localStorage` under `hauss-consent`. `GoogleAnalytics.tsx` and `MetaPixel.tsx` render **only after the user accepts** — nothing loads before consent. All three are client components (`'use client'`).
 - **Meta Pixel**: gated on `NEXT_PUBLIC_META_PIXEL_ID` (build-time inlined → must be set before the build). The funnel fires a `Lead` conversion event on successful submit via `trackMetaEvent` in `@/lib/metaPixel.ts`. ⚠️ In Meta's **French** UI, the standard `Lead` event is displayed as **"Prospect"**.
+- **Meta Conversions API (CAPI)**: the funnel `Lead` is **also** sent server-side from `POST /api/contact` via `sendCapiLead` in `@/lib/metaCapi.ts`, gated on `META_CAPI_ACCESS_TOKEN` (+ a pixel id — reuses `NEXT_PUBLIC_META_PIXEL_ID` when `META_PIXEL_ID` is unset). It shares the browser Pixel's `eventID` (generated in `ProjectFunnel.tsx`, passed through the POST body) so Meta **deduplicates** the two. Server-to-server → **not** subject to the CSP. Recovers conversions the browser Pixel misses (ad-blockers, iOS/Safari). Hashed email/phone (SHA-256) are sent for every funnel lead; `_fbp`/`_fbc` are included only when present (i.e. after cookie consent).
 - **Facebook domain verification**: `FACEBOOK_DOMAIN_VERIFICATION` env (read at runtime in `generateMetadata`) injects the `facebook-domain-verification` meta tag.
 - **Google Analytics**: gated on `NEXT_PUBLIC_GA_MEASUREMENT_ID` (note: `.env.example` mislabels this var as `NEXT_PUBLIC_GA_ID`).
 - ⚠️ **CSP gotcha**: the `Content-Security-Policy` header in `next.config.mjs` must whitelist every third-party script/endpoint, otherwise it is **silently blocked**. This already broke the Meta Pixel (fixed: `script-src` allows `connect.facebook.net`; `connect-src` allows `www.facebook.com` + `connect.facebook.net`). **Add any new tracking/embed domain here.**

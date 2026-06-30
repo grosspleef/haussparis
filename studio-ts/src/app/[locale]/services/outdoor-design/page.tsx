@@ -9,7 +9,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/terrasse-parisienne-design.jpg'
 import imageWhiteboard from '@/images/balcon-haussmannien-amenagement.jpg'
@@ -127,11 +127,7 @@ export default function OutdoorDesignService() {
       </div>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="250+" label={t('stats.spaces')} />
-          <StatListItem value="100%" label={t('stats.custom')} />
-          <StatListItem value="4 saisons" label={t('stats.seasons')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       <ContactSection />

@@ -1,4 +1,9 @@
 {
+  "ServiceStats": {
+    "s1": { "value": "Maßgeschneidert", "label": "Eine auf Ihr Projekt abgestimmte Auswahl" },
+    "s2": { "value": "Geprüftes Netzwerk", "label": "Ausgewählte, referenzierte Architekten" },
+    "s3": { "value": "Unverbindlich", "label": "Sie bleiben bei jedem Schritt frei" }
+  },
   "CookieConsent": {
     "title": "Cookies & Datenschutz",
     "message": "Wir verwenden Analyse- und Werbe-Cookies (Google Analytics, Meta), um Ihr Erlebnis und unsere Kampagnen zu verbessern. Sie können zustimmen oder ablehnen.",
@@ -9,13 +14,15 @@
   "HomePage": {
     "hero": {
       "title": "Finden Sie Ihren|Innenarchitekten|in Paris",
-      "description": "Wir verbinden Privatpersonen und Unternehmen mit handverlesenen Innenarchitekten, die auf ihre Bedürfnisse zugeschnitten sind. Ein maßgeschneiderter Service für jedes Projekt in Paris oder international."
+      "description": "Beschreiben Sie Ihr Projekt: Wir vertrauen es einem oder mehreren Innenarchitekten aus unserem Netzwerk an, ausgewählt nach Ihren Bedürfnissen, in Paris wie international.",
+      "cta": "Projekt starten",
+      "reassurance": "Kostenlos · Unverbindlich · Erprobte Architekten"
     },
     "highlights": {
-      "title": "Ein kostenloser Service, unverbindlich.",
-      "1": "Für eine deutsche und internationale Klientel.",
-      "2": "Sie beschreiben, wir wählen aus und verbinden Sie.",
-      "3": "Ein Architekt wird Ihnen vorgestellt, nach Ihrem Zeitplan."
+      "title": "So funktioniert's",
+      "1": "Sie beschreiben Ihr Projekt, in wenigen Minuten.",
+      "2": "Wir wählen den oder die passendsten Architekten aus unserem Netzwerk aus.",
+      "3": "Wir stellen den Kontakt her: Sie entscheiden, unverbindlich."
     },
     "process": {
       "individuals": "Privatpersonen",
@@ -24,6 +31,30 @@
     "metadata": {
       "description": "Hauss Paris verbindet Privatpersonen und Unternehmen mit den besten Pariser Innenarchitekten. Ein maßgeschneiderter Service für all Ihre Renovierungs- und Einrichtungsprojekte."
     }
+  },
+  "WhyHauss": {
+    "eyebrow": "Warum Hauss",
+    "title": "Der richtige Innenarchitekt, ohne die Suche ins Blaue.",
+    "description": "Statt Dutzende Profile auf gut Glück zu vergleichen, vertrauen Sie uns Ihr Projekt an: wir treffen die Vorauswahl und stellen Ihnen nur passende Innenarchitekten vor.",
+    "reasons": {
+      "free": {
+        "title": "Kostenlos und unverbindlich",
+        "description": "Die Vermittlung ist vollständig kostenlos und verpflichtet zu nichts."
+      },
+      "selected": {
+        "title": "Handverlesene Architekten",
+        "description": "Wir arbeiten mit geprüften, erprobten Innenarchitekten. Schluss mit der Suche ins Blaue und bösen Überraschungen."
+      },
+      "tailored": {
+        "title": "Eine maßgeschneiderte Auswahl",
+        "description": "Ein Briefing genügt: Wir finden das oder die Profile, die zu Ihrem Stil, Ihrem Budget und Ihren Anforderungen passen."
+      },
+      "audience": {
+        "title": "Privatpersonen und Unternehmen",
+        "description": "Von der Renovierung einer Wohnung bis zur Neugestaltung von Büros, in Paris wie international."
+      }
+    },
+    "note": "„Keine Exklusivität: Hauss ergänzt Ihre eigene Suche, ersetzt sie aber nie. Sie bleiben bei jedem Schritt frei.“"
   },
   "Header": {
     "home": "Startseite",
@@ -113,14 +144,14 @@
   },
   "ContactSection": {
     "title": "Der ideale Innenarchitekt ist nie weit entfernt.",
-    "button": "Jetzt starten",
+    "button": "Projekt starten",
     "ourOffice": "Unser Büro"
   },
   "ProcessSections": {
     "homeDiscover": {
       "title": "Entdeckung",
-      "paragraph1": "In Paris ist jedes Projekt einzigartig. Den Architekten zu finden, der wirklich mit Ihrer Vision übereinstimmt, erfordert eine präzise Auswahl — hier kommen wir ins Spiel, mit <strong>Klarheit</strong> und <strong>Exzellenz</strong>.",
-      "paragraph2": "Wir identifizieren den Architekten, der Ihre <strong>wesentlichen Kriterien</strong> erfüllt: Stil, gesprochene Sprache, Verfügbarkeit und Projekttyp — von kleinen Studios bis zu großen Haussmann-Wohnungen, von der Komplettrenovierung bis zur einfachen Einrichtung.",
+      "paragraph1": "In Paris ist jedes Projekt einzigartig. Den Architekten zu finden, der wirklich mit Ihrer Vision übereinstimmt, erfordert eine präzise Auswahl: hier kommen wir ins Spiel, mit <strong>Klarheit</strong> und <strong>Exzellenz</strong>.",
+      "paragraph2": "Wir identifizieren den Architekten, der Ihre <strong>wesentlichen Kriterien</strong> erfüllt: Stil, gesprochene Sprache, Verfügbarkeit und Projekttyp, von kleinen Studios bis zu großen Haussmann-Wohnungen, von der Komplettrenovierung bis zur einfachen Einrichtung.",
       "paragraph3": "Mit einem <strong>einzigen Briefing</strong> erhalten Sie Zugang zu einer vertrauenswürdigen und maßgeschneiderten Auswahl qualifizierter Fachleute, für einen einfachen und entspannten Projektstart.",
       "includedTitle": "In unserer Begleitung enthalten",
       "tags": {
@@ -134,13 +165,8 @@
     "homeBuild": {
       "title": "Planung",
       "paragraph1": "Für Unternehmen bieten wir schnellen und strukturierten Zugang zu Innenarchitekten, die jede Art von Projekt begleiten können: <strong>Büros, Geschäfte, Restaurants, Hotels</strong>.",
-      "paragraph2": "Wir wählen das passendste Profil aus — vom unabhängigen Architekten bis zum <strong>großen Studio</strong> — basierend auf der Art des Projekts, der Identität, den technischen Einschränkungen und dem Zeitplan.",
-      "paragraph3": "Ob es sich um einen kleinen Raum oder ein <strong>ganzes Gebäude handelt</strong>, Sie sparen Zeit und profitieren von sofort einsatzbereiter Expertise, perfekt auf Ihre beruflichen Bedürfnisse zugeschnitten.",
-      "testimonial": {
-        "quote": "Dank Hauss Paris haben wir in Rekordzeit das ideale Studio für die Renovierung unserer Zentrale gefunden.",
-        "author": "Markus L.",
-        "role": "Immobiliendirektor"
-      }
+      "paragraph2": "Wir wählen das passendste Profil aus (vom unabhängigen Architekten bis zum <strong>großen Studio</strong>) basierend auf der Art des Projekts, der Identität, den technischen Einschränkungen und dem Zeitplan.",
+      "paragraph3": "Ob es sich um einen kleinen Raum oder ein <strong>ganzes Gebäude handelt</strong>, Sie sparen Zeit und profitieren von sofort einsatzbereiter Expertise, perfekt auf Ihre beruflichen Bedürfnisse zugeschnitten."
     }
   },
   "ContactPage": {
@@ -192,7 +218,7 @@
       "phone": "Telefon:",
       "budget": "Budget:",
       "message": "Nachricht:",
-      "portfolio": "In der Zwischenzeit können Sie gerne unser Portfolio ansehen und unsere Realisierungen auf unserer Website entdecken.",
+      "portfolio": "In der Zwischenzeit können Sie gerne unsere Ratgeber und Tipps in unserem Blog durchstöbern, um Ihr Projekt vorzubereiten.",
       "signature": "Bis bald,",
       "team": "Das HAUSS Paris Team",
       "footer": "E-Mail: contact@haussparis.com | Telefon: +33 6 19 44 92 55"
@@ -1112,73 +1138,6 @@
       "company": "Unternehmen:"
     }
   },
-  "TestimonialsSection": {
-    "title": "Was unsere Kunden sagen",
-    "subtitle": "Entdecken Sie Erfahrungsberichte von Privatpersonen und Unternehmen, die uns für ihre Innenarchitekturprojekte in Paris vertraut haben.",
-    "seeMore": "Alle Bewertungen anzeigen",
-    "testimonials": {
-      "1": {
-        "name": "Zoé Dupont-Mercier",
-        "location": "Paris 7.",
-        "project": "Küchen- und Badrenovierung",
-        "text": "Das Team von Hauss Paris hat unsere Budgetbeschränkungen und engen Fristen berücksichtigt. Der empfohlene Architekt hat hervorragende Arbeit geleistet. Unsere Räume sind jetzt modern und funktional."
-      },
-      "2": {
-        "name": "Yann Kowalski",
-        "location": "Paris 8.",
-        "project": "Neugestaltung professioneller Büros",
-        "text": "Als Unternehmer brauchte ich einen schnellen und effizienten Service. Hauss Paris hat genau das Architekten-Profil identifiziert, das wir für unsere neuen Büros benötigten. Ausgezeichnete Arbeit."
-      },
-      "3": {
-        "name": "Léa Benkacem",
-        "location": "Paris 16.",
-        "project": "Renovierung Haussmann-Wohnung",
-        "text": "Hauss Paris hat unsere Erwartungen verstanden und uns mit einem außergewöhnlichen Architekten verbunden. Unsere Wohnung wurde über unsere Hoffnungen hinaus verwandelt. Ein professioneller und personalisierter Service von Anfang bis Ende."
-      },
-      "4": {
-        "name": "Malik Diouf",
-        "location": "Paris 11.",
-        "project": "Zeitgenössisches Loft-Design",
-        "text": "Der Prozess war reibungslos und effizient. In nur wenigen Tagen wurden wir mit dem perfekten Architekten für unser Loft-Projekt in Kontakt gebracht. Das Ergebnis ist absolut großartig."
-      },
-      "5": {
-        "name": "Agathe Villiers",
-        "location": "Neuilly-sur-Seine",
-        "project": "Vollständige Inneneinrichtung",
-        "text": "Ein kostenloser und unverbindlicher Service, der alle seine Versprechen hält. Der empfohlene Architekt schuf eine elegante und warme Atmosphäre in unserem Haus. Ich empfehle Hauss Paris wärmstens."
-      },
-      "6": {
-        "name": "Raphaël Nguyen",
-        "location": "Paris 3.",
-        "project": "Modeboutique-Design",
-        "text": "Für die Eröffnung meiner Boutique im Marais suchte ich einen Designer, der die Modewelt versteht. Hauss Paris stellte mir den idealen Kandidaten vor. Das Ergebnis übertraf meine Erwartungen."
-      },
-      "7": {
-        "name": "Élodie Chevalier",
-        "location": "Boulogne-Billancourt",
-        "project": "Familienhaus-Gestaltung",
-        "text": "Wir hatten ein komplexes Projekt mit kleinen Kindern. Der empfohlene Architekt schuf Räume, die sowohl ästhetisch als auch praktisch für die ganze Familie sind. Tadellose Leistung von A bis Z."
-      },
-      "8": {
-        "name": "Samir El Khoury",
-        "location": "Paris 17.",
-        "project": "Umwandlung von Studio in Zweizimmerwohnung",
-        "text": "Den Raum in einer kleinen Pariser Wohnung zu maximieren ist eine echte Herausforderung. Dank Hauss Paris fanden wir einen kreativen Architekten, der jeden Quadratmeter optimiert hat. Wir sind begeistert."
-      },
-      "9": {
-        "name": "Inès Beaumont",
-        "location": "Paris 6.",
-        "project": "Renovierung Prestigewohnung",
-        "text": "Für unsere Wohnung in Saint-Germain-des-Prés suchten wir nach Exzellenz. Der Vermittlungsservice war tadellos und der vorgeschlagene Architekt besitzt ein seltenes Talent. Eine Investigung, die sich gelohnt hat."
-      },
-      "10": {
-        "name": "Julien Arnaud-Tessier",
-        "location": "Paris 9.",
-        "project": "Gastronomisches Restaurant-Design",
-        "text": "Die Eröffnung eines Restaurants erfordert eine präzise architektonische Vision. Hauss Paris führte uns zu einem Fachmann, der unser Konzept perfekt erfasst hat. Die geschaffene Atmosphäre trägt zum Erfolg unseres Restaurants bei."
-      }
-    }
-  },
   "ArchitecteInterieurParisService": {
     "metadata": {
       "title": "Innenarchitekt Paris | Hauss Paris - Schlüsselfertige Renovierung",
@@ -1359,24 +1318,6 @@
       "q7": {
         "question": "Was passiert, wenn ich mit dem vorgeschlagenen Architekten nicht zufrieden bin?",
         "answer": "Sie können unseren Vorschlag ablehnen und ein anderes Profil anfordern. Die Erstberatung mit Hauss Paris ist kostenlos und unverbindlich."
-      }
-    },
-    "testimonials": {
-      "title": "Sie haben Hauss Paris vertraut",
-      "t1": {
-        "quote": "Wir leben in Berlin und haben eine Wohnung im Marais gekauft. Hauss Paris fand uns einen perfekten Architekten: Er sprach Deutsch, verstand unseren Geschmack und hielt uns jede Woche per Video auf dem Laufenden. Das Ergebnis übertrifft unsere Erwartungen.",
-        "author": "Thomas & Anna M.",
-        "location": "Berlin"
-      },
-      "t2": {
-        "quote": "Als Investor in Paris seit 10 Jahren habe ich endlich einen zuverlässigen Partner für meine Renovierungen gefunden. Die von Hauss Paris empfohlenen Architekten sind seriös und halten Budgets ein.",
-        "author": "Klaus S.",
-        "location": "München"
-      },
-      "t3": {
-        "quote": "Als Expatriate befürchtete ich, Arbeiten aus der Ferne zu verwalten. Die Begleitung von Hauss Paris hat mich von Anfang bis Ende beruhigt. Sehr empfehlenswert.",
-        "author": "Sabine W.",
-        "location": "Hamburg"
       }
     },
     "cta": {
@@ -2461,7 +2402,7 @@
         "contact": "Ihre Kontaktdaten"
       },
       "description": {
-        "projet": "Eine Frage zum Einstieg, nichts auszufüllen. Wählen Sie, was am besten passt — den Rest verfeinern wir gemeinsam.",
+        "projet": "Eine Frage zum Einstieg, nichts auszufüllen. Wählen Sie, was am besten passt, den Rest verfeinern wir gemeinsam.",
         "bien": "Art und Größe der Immobilie helfen uns, den Umfang einzuschätzen und den passenden Architekten zu finden.",
         "lieu": "Wo sich die Immobilie befindet und wann Sie starten möchten. Unser bester Anhaltspunkt, um Sie zum richtigen Zeitpunkt zu kontaktieren.",
         "contact": "Damit wir Ihnen den passenden Architekten vorstellen. Kein Architekt wird Sie kontaktieren, bevor Sie sein Profil bestätigt haben. Ihre Daten bleiben bei Hauss Paris und werden niemals weitergegeben."

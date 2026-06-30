@@ -3,7 +3,6 @@
 import { type ComponentPropsWithoutRef, type ReactNode } from 'react'
 import { useTranslations } from 'next-intl'
 
-import { Blockquote } from '@/components/Blockquote'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { List, ListItem } from '@/components/List'
@@ -12,8 +11,8 @@ import { TagList, TagListItem } from '@/components/TagList'
 import imageLaptop from '@/images/travail-architecte-interieur-conception.jpg'
 import imageMeeting from '@/images/consultation-architecte-interieur-paris.jpg'
 import imageWhiteboard from '@/images/planification-projet-renovation-paris.jpg'
-import imageSalonHaussmannien from '@/images/salon-haussmannien-paris-architecte-interieur.jpg'
-import imageAppartementRenovation from '@/images/appartement-parisien-renovation-luxe.jpg'
+import imageSalonHomeStaging from '@/images/home-staging-salon-architecte-interieur.jpg'
+import imageBoutiqueHotelLobby from '@/images/boutique-hotel-lobby-architecte-interieur.jpg'
 import imageDecorationHautDeGamme from '@/images/decoration-interieure-paris-haut-de-gamme.jpg'
 import imageBureauDomicile from '@/images/bureau-domicile-appartement-haussmannien.jpg'
 import imageCuisineOuverte from '@/images/amenagement-cuisine-ouverte-paris.jpg'
@@ -70,7 +69,7 @@ export function HomeDiscoverSection({
   const displayTitle = title || t('title')
 
   return (
-    <Section title={displayTitle} image={{ src: imageSalonHaussmannien, priority: true, alt: "Salon haussmannien à Paris par architecte d'intérieur" }}>
+    <Section title={displayTitle} image={{ src: imageSalonHomeStaging, priority: true, alt: "Salon contemporain lumineux mis en valeur par home staging, réalisation d'architecture d'intérieur" }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p dangerouslySetInnerHTML={{ __html: t.raw('paragraph1') }} />
         <p dangerouslySetInnerHTML={{ __html: t.raw('paragraph2') }} />
@@ -96,19 +95,12 @@ export function HomeBuildSection({ title }: SectionOverrideProps) {
   const displayTitle = title || t('title')
   
   return (
-    <Section title={displayTitle} image={{ src: imageAppartementRenovation, shape: 1, alt: "Appartement parisien rénové avec luxe" }}>
+    <Section title={displayTitle} image={{ src: imageBoutiqueHotelLobby, shape: 1, alt: "Lobby d'un boutique-hôtel aménagé par un architecte d'intérieur" }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p dangerouslySetInnerHTML={{ __html: t.raw('paragraph1') }} />
         <p dangerouslySetInnerHTML={{ __html: t.raw('paragraph2') }} />
         <p dangerouslySetInnerHTML={{ __html: t.raw('paragraph3') }} />
       </div>
-
-      <Blockquote
-        author={{ name: t('testimonial.author'), role: t('testimonial.role') }}
-        className="mt-12"
-      >
-        {t('testimonial.quote')}
-      </Blockquote>
     </Section>
   )
 }

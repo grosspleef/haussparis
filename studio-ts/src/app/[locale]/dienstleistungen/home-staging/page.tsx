@@ -9,7 +9,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/home-staging-appartement-paris.jpg'
 import imageWhiteboard from '@/images/home-staging-avant-apres-paris.jpg'
@@ -88,11 +88,7 @@ export default function HomeStagingService() {
       </div>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="+15%" label={t('stats.value')} />
-          <StatListItem value="x2" label={t('stats.visits')} />
-          <StatListItem value="-30%" label={t('stats.delay')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       <ContactSection />

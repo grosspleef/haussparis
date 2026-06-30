@@ -9,7 +9,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/salle-de-bain-marbre-paris-renovation.jpg'
 import imageWhiteboard from '@/images/cuisine-equipee-paris-design.jpg'
@@ -127,11 +127,7 @@ export default function KitchenBathroomService() {
       </div>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="500+" label={t('stats.kitchens')} />
-          <StatListItem value="300+" label={t('stats.bathrooms')} />
-          <StatListItem value="10 ans" label={t('stats.warranty')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       <ContactSection />

@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
+import { sendCapiLead } from '@/lib/metaCapi'
 
 // Rate limiting: Map to track requests per IP
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>()
@@ -34,7 +35,7 @@ const translations = {
     confirmation: {
       greeting: 'Merci {name} !',
       received: 'Nous avons bien reçu votre demande de contact et nous vous en remercions.',
-      response: 'Notre équipe va étudier votre projet avec attention et reviendra vers vous dans les plus brefs délais, généralement sous 24 à 48 heures.',
+      response: 'Notre équipe va étudier votre projet avec attention et reviendra vers vous dans les plus brefs délais.',
       summaryTitle: 'Récapitulatif de votre demande',
       name: 'Nom :',
       email: 'Email :',
@@ -42,7 +43,7 @@ const translations = {
       phone: 'Téléphone :',
       budget: 'Budget :',
       message: 'Message :',
-      portfolio: 'En attendant, n\'hésitez pas à consulter notre portfolio et découvrir nos réalisations sur notre site.',
+      portfolio: 'En attendant, n\'hésitez pas à parcourir nos guides et conseils sur notre blog pour préparer votre projet en toute sérénité.',
       signature: 'À très bientôt,',
       team: 'L\'équipe HAUSS Paris',
       footer: 'Email : contact@haussparis.com | Téléphone : +33 6 19 44 92 55'
@@ -58,7 +59,7 @@ const translations = {
       budget: 'Budget :',
       message: 'Message :',
       actionRequired: 'Action requise :',
-      actionText: 'N\'oubliez pas de recontacter ce prospect dans les 24-48h.',
+      actionText: 'N\'oubliez pas de recontacter ce prospect rapidement.',
       footer: 'Ce message a été envoyé automatiquement depuis le formulaire de contact de haussparis.com'
     },
     projectInfo: {
@@ -90,7 +91,7 @@ const translations = {
     confirmation: {
       greeting: 'Thank you {name}!',
       received: 'We have received your contact request and we thank you.',
-      response: 'Our team will carefully review your project and get back to you as soon as possible, usually within 24 to 48 hours.',
+      response: 'Our team will carefully review your project and get back to you as soon as possible.',
       summaryTitle: 'Summary of your request',
       name: 'Name:',
       email: 'Email:',
@@ -98,7 +99,7 @@ const translations = {
       phone: 'Phone:',
       budget: 'Budget:',
       message: 'Message:',
-      portfolio: 'In the meantime, feel free to consult our portfolio and discover our achievements on our site.',
+      portfolio: 'In the meantime, feel free to browse our guides and tips on our blog to help prepare your project.',
       signature: 'See you soon,',
       team: 'The HAUSS Paris team',
       footer: 'Email: contact@haussparis.com | Phone: +33 6 19 44 92 55'
@@ -114,7 +115,7 @@ const translations = {
       budget: 'Budget:',
       message: 'Message:',
       actionRequired: 'Action required:',
-      actionText: 'Don\'t forget to contact this prospect within 24-48 hours.',
+      actionText: 'Don\'t forget to contact this prospect promptly.',
       footer: 'This message was sent automatically from the haussparis.com contact form'
     },
     projectInfo: {
@@ -126,6 +127,174 @@ const translations = {
       address: 'Location:',
       planning: 'Timeline:',
       ownership: 'Situation:',
+    }
+  },
+  de: {
+    budgetLabels: {
+      '50-100': '50K € – 100K €',
+      '100-250': '100K € – 250K €',
+      '250-500': '250K € – 500K €',
+      '500+': 'Mehr als 500K €',
+    },
+    notSpecified: 'Nicht angegeben',
+    requiredFields: 'Die Felder Name, E-Mail und Nachricht sind erforderlich',
+    invalidEmail: 'Ungültiges E-Mail-Format',
+    rateLimitExceeded: 'Zu viele Anfragen. Bitte versuchen Sie es in einer Minute erneut.',
+    inputTooLong: 'Ein oder mehrere Felder überschreiten die maximal zulässige Länge',
+    emailError: 'Ihre Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es gleich erneut.',
+    subjectConfirmation: 'Empfangsbestätigung - HAUSS Paris',
+    subjectNotification: 'Neuer Kontakt: {name}',
+    confirmation: {
+      greeting: 'Vielen Dank, {name}!',
+      received: 'Wir haben Ihre Kontaktanfrage erhalten und danken Ihnen dafür.',
+      response: 'Unser Team prüft Ihr Projekt sorgfältig und meldet sich schnellstmöglich bei Ihnen.',
+      summaryTitle: 'Zusammenfassung Ihrer Anfrage',
+      name: 'Name:',
+      email: 'E-Mail:',
+      company: 'Unternehmen:',
+      phone: 'Telefon:',
+      budget: 'Budget:',
+      message: 'Nachricht:',
+      portfolio: 'In der Zwischenzeit können Sie gerne unsere Ratgeber und Tipps in unserem Blog durchstöbern, um Ihr Projekt vorzubereiten.',
+      signature: 'Bis bald,',
+      team: 'Das HAUSS Paris Team',
+      footer: 'E-Mail: contact@haussparis.com | Telefon: +33 6 19 44 92 55'
+    },
+    notification: {
+      title: '📨 Neue Kontaktanfrage',
+      intro: 'Eine neue Anfrage ist über das Kontaktformular der Website eingegangen.',
+      infoTitle: 'Kontaktinformationen',
+      name: 'Name:',
+      email: 'E-Mail:',
+      company: 'Unternehmen:',
+      phone: 'Telefon:',
+      budget: 'Budget:',
+      message: 'Nachricht:',
+      actionRequired: 'Erforderliche Aktion:',
+      actionText: 'Vergessen Sie nicht, diesen Interessenten zeitnah zu kontaktieren.',
+      footer: 'Diese Nachricht wurde automatisch über das Kontaktformular von haussparis.com gesendet'
+    },
+    projectInfo: {
+      title: 'Projektdetails',
+      type: 'Projektart:',
+      propertyType: 'Objektart:',
+      surface: 'Fläche:',
+      budget: 'Budget:',
+      address: 'Standort:',
+      planning: 'Beginn:',
+      ownership: 'Situation:',
+    }
+  },
+  es: {
+    budgetLabels: {
+      '50-100': '50K € – 100K €',
+      '100-250': '100K € – 250K €',
+      '250-500': '250K € – 500K €',
+      '500+': 'Más de 500K €',
+    },
+    notSpecified: 'No especificado',
+    requiredFields: 'Los campos nombre, email y mensaje son obligatorios',
+    invalidEmail: 'Formato de email no válido',
+    rateLimitExceeded: 'Demasiadas solicitudes. Vuelve a intentarlo en un minuto.',
+    inputTooLong: 'Uno o varios campos superan la longitud máxima permitida',
+    emailError: 'No se ha podido enviar tu solicitud. Inténtalo de nuevo en un momento.',
+    subjectConfirmation: 'Confirmación de recepción - HAUSS Paris',
+    subjectNotification: 'Nuevo contacto: {name}',
+    confirmation: {
+      greeting: '¡Gracias, {name}!',
+      received: 'Hemos recibido tu solicitud de contacto y te lo agradecemos.',
+      response: 'Nuestro equipo estudiará tu proyecto con atención y te responderá lo antes posible.',
+      summaryTitle: 'Resumen de tu solicitud',
+      name: 'Nombre:',
+      email: 'Email:',
+      company: 'Empresa:',
+      phone: 'Teléfono:',
+      budget: 'Presupuesto:',
+      message: 'Mensaje:',
+      portfolio: 'Mientras tanto, no dudes en consultar nuestras guías y consejos en nuestro blog para preparar tu proyecto con tranquilidad.',
+      signature: 'Hasta pronto,',
+      team: 'El equipo de HAUSS Paris',
+      footer: 'Email: contact@haussparis.com | Teléfono: +33 6 19 44 92 55'
+    },
+    notification: {
+      title: '📨 Nueva solicitud de contacto',
+      intro: 'Se ha recibido una nueva solicitud a través del formulario de contacto de la web.',
+      infoTitle: 'Información del contacto',
+      name: 'Nombre:',
+      email: 'Email:',
+      company: 'Empresa:',
+      phone: 'Teléfono:',
+      budget: 'Presupuesto:',
+      message: 'Mensaje:',
+      actionRequired: 'Acción requerida:',
+      actionText: 'No olvides volver a contactar con este prospecto rápidamente.',
+      footer: 'Este mensaje se ha enviado automáticamente desde el formulario de contacto de haussparis.com'
+    },
+    projectInfo: {
+      title: 'Detalles del proyecto',
+      type: 'Tipo de proyecto:',
+      propertyType: 'Tipo de inmueble:',
+      surface: 'Superficie:',
+      budget: 'Presupuesto:',
+      address: 'Ubicación:',
+      planning: 'Inicio:',
+      ownership: 'Situación:',
+    }
+  },
+  it: {
+    budgetLabels: {
+      '50-100': '50K € – 100K €',
+      '100-250': '100K € – 250K €',
+      '250-500': '250K € – 500K €',
+      '500+': 'Più di 500K €',
+    },
+    notSpecified: 'Non specificato',
+    requiredFields: 'I campi nome, email e messaggio sono obbligatori',
+    invalidEmail: 'Formato email non valido',
+    rateLimitExceeded: 'Troppe richieste. Riprova tra un minuto.',
+    inputTooLong: 'Uno o più campi superano la lunghezza massima consentita',
+    emailError: 'Invio della tua richiesta non riuscito. Riprova tra un istante.',
+    subjectConfirmation: 'Conferma di ricezione - HAUSS Paris',
+    subjectNotification: 'Nuovo contatto: {name}',
+    confirmation: {
+      greeting: 'Grazie, {name}!',
+      received: 'Abbiamo ricevuto la tua richiesta di contatto e ti ringraziamo.',
+      response: 'Il nostro team esaminerà il tuo progetto con attenzione e ti risponderà al più presto.',
+      summaryTitle: 'Riepilogo della tua richiesta',
+      name: 'Nome:',
+      email: 'Email:',
+      company: 'Azienda:',
+      phone: 'Telefono:',
+      budget: 'Budget:',
+      message: 'Messaggio:',
+      portfolio: 'Nel frattempo, non esitare a sfogliare le nostre guide e i nostri consigli sul nostro blog per preparare con serenità il tuo progetto.',
+      signature: 'A presto,',
+      team: 'Il team di HAUSS Paris',
+      footer: 'Email: contact@haussparis.com | Telefono: +33 6 19 44 92 55'
+    },
+    notification: {
+      title: '📨 Nuova richiesta di contatto',
+      intro: 'È stata ricevuta una nuova richiesta tramite il modulo di contatto del sito.',
+      infoTitle: 'Informazioni di contatto',
+      name: 'Nome:',
+      email: 'Email:',
+      company: 'Azienda:',
+      phone: 'Telefono:',
+      budget: 'Budget:',
+      message: 'Messaggio:',
+      actionRequired: 'Azione richiesta:',
+      actionText: 'Non dimenticare di ricontattare questo potenziale cliente rapidamente.',
+      footer: 'Questo messaggio è stato inviato automaticamente dal modulo di contatto di haussparis.com'
+    },
+    projectInfo: {
+      title: 'Dettagli del progetto',
+      type: 'Tipo di progetto:',
+      propertyType: 'Tipo di immobile:',
+      surface: 'Superficie:',
+      budget: 'Budget:',
+      address: 'Località:',
+      planning: 'Inizio:',
+      ownership: 'Situazione:',
     }
   }
 }
@@ -313,6 +482,7 @@ export async function POST(request: NextRequest) {
       budgetAmount: rawBudgetAmount,
       address: rawAddress,
       planning: rawPlanning,
+      eventId: rawEventId,
       locale = 'fr'
     } = body
 
@@ -331,6 +501,7 @@ export async function POST(request: NextRequest) {
     const budgetAmount = cap(sanitizeInput(rawBudgetAmount))
     const address = cap(sanitizeInput(rawAddress))
     const planning = cap(sanitizeInput(rawPlanning))
+    const eventId = cap(sanitizeInput(rawEventId))
 
     // Obtenir les traductions selon la locale
     const t = translations[locale as keyof typeof translations] || translations.fr
@@ -354,6 +525,9 @@ export async function POST(request: NextRequest) {
       : sanitizedBudget
         ? t.budgetLabels[sanitizedBudget as keyof typeof t.budgetLabels]
         : t.notSpecified
+    // Le budget n'est demandé que par le formulaire de contact ; le funnel ne le
+    // collecte pas, donc on n'affiche pas de ligne budget vide/« Non spécifié ».
+    const hasBudget = isFunnel ? Boolean(budgetAmount) : Boolean(sanitizedBudget)
 
     // Escape HTML for email display
     const safeName = escapeHtml(name)
@@ -429,7 +603,7 @@ export async function POST(request: NextRequest) {
                 <p style="margin: 8px 0;"><strong>${t.confirmation.email}</strong> ${safeEmail}</p>
                 ${safeCompany ? `<p style="margin: 8px 0;"><strong>${t.confirmation.company}</strong> ${safeCompany}</p>` : ''}
                 ${safePhone ? `<p style="margin: 8px 0;"><strong>${t.confirmation.phone}</strong> ${safePhone}</p>` : ''}
-                <p style="margin: 8px 0;"><strong>${t.confirmation.budget}</strong> ${budgetText}</p>
+                ${hasBudget ? `<p style="margin: 8px 0;"><strong>${t.confirmation.budget}</strong> ${budgetText}</p>` : ''}
                 ${safeMessage ? `<p style="margin: 8px 0;"><strong>${t.confirmation.message}</strong></p>
                 <p style="margin: 8px 0; padding: 10px; background-color: #f8f8f8; border-radius: 5px;">${safeMessage}</p>` : ''}
               </div>
@@ -511,14 +685,14 @@ export async function POST(request: NextRequest) {
                     </td>
                   </tr>
                   ` : ''}
-                  <tr>
+                  ${hasBudget ? `<tr>
                     <td style="padding: 10px 0; border-bottom: 1px solid #eee;">
                       <strong style="color: #666;">${t.notification.budget}</strong>
                     </td>
                     <td style="padding: 10px 0; border-bottom: 1px solid #eee;">
                       <span style="background-color: #e8f5e9; color: #2e7d32; padding: 4px 12px; border-radius: 4px; font-weight: 600;">${budgetText}</span>
                     </td>
-                  </tr>
+                  </tr>` : ''}
                 </table>
 
                 ${safeMessage ? `<div style="margin-top: 20px;">
@@ -564,6 +738,24 @@ export async function POST(request: NextRequest) {
         },
         { status: 502 }
       )
+    }
+
+    // Conversion serveur (CAPI) pour les leads du funnel : complète le Pixel
+    // navigateur et déduplique via le même eventId. Best-effort (ne jette pas).
+    if (isFunnel && eventId) {
+      await sendCapiLead({
+        eventId,
+        email: email || undefined,
+        phone: phone || undefined,
+        clientIp:
+          request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
+          request.headers.get('x-real-ip') ||
+          undefined,
+        userAgent: request.headers.get('user-agent') || undefined,
+        fbp: request.cookies.get('_fbp')?.value,
+        fbc: request.cookies.get('_fbc')?.value,
+        eventSourceUrl: request.headers.get('referer') || undefined,
+      })
     }
 
     return NextResponse.json({

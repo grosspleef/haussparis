@@ -4,11 +4,18 @@ type FbqParams = Record<string, string | number | boolean>
  * Déclenche un événement Meta Pixel côté client (ex: `Lead`, `Contact`).
  * No-op si le Pixel n'est pas chargé (dev, ID non configuré, ou bloqueur de pub).
  */
-export function trackMetaEvent(event: string, params?: FbqParams) {
+export function trackMetaEvent(
+  event: string,
+  params?: FbqParams,
+  eventId?: string,
+) {
   if (typeof window === 'undefined') return
   const fbq = (window as unknown as { fbq?: (...args: unknown[]) => void }).fbq
   if (typeof fbq !== 'function') return
-  if (params) {
+  if (eventId) {
+    // 4e argument = options ; eventID partagé avec la CAPI serveur (déduplication).
+    fbq('track', event, params ?? {}, { eventID: eventId })
+  } else if (params) {
     fbq('track', event, params)
   } else {
     fbq('track', event)

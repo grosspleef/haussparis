@@ -11,7 +11,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/architecture-commerciale-paris.jpg'
 import imageWhiteboard from '@/images/design-boutique-commerce-paris.jpg'
@@ -454,11 +454,7 @@ export default function CommercialDesignService() {
 
       {/* Stats Section */}
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="150+" label={t('stats.projects')} />
-          <StatListItem value="25+" label={t('stats.architects')} />
-          <StatListItem value="4-6 months" label={t('stats.timeline')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       {/* Pricing Section */}
@@ -831,37 +827,6 @@ export default function CommercialDesignService() {
         </FadeIn>
       </Container>
 
-      {/* Projects Section */}
-      <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <FadeIn>
-          <h2 className="font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
-            {t('projects.title')}
-          </h2>
-          <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {[1, 2, 3, 4, 5].map((num) => (
-              <div key={num} className="rounded-3xl border border-neutral-200 p-8">
-                <h3 className="font-display text-lg font-semibold text-neutral-950">
-                  {t(`projects.p${num}.title`)}
-                </h3>
-                <p className="mt-4 text-sm text-neutral-600">
-                  {t(`projects.p${num}.description`)}
-                </p>
-                <dl className="mt-6 space-y-2 text-xs text-neutral-600">
-                  <div>
-                    <dt className="font-semibold">Budget:</dt>
-                    <dd>{t(`projects.p${num}.budget`)}</dd>
-                  </div>
-                  <div>
-                    <dt className="font-semibold">Timeline:</dt>
-                    <dd>{t(`projects.p${num}.timeline`)}</dd>
-                  </div>
-                </dl>
-              </div>
-            ))}
-          </div>
-        </FadeIn>
-      </Container>
-
       {/* FAQ Section */}
       <Container className="mt-24 sm:mt-32 lg:mt-40">
         <FadeIn>
@@ -880,38 +845,6 @@ export default function CommercialDesignService() {
               </div>
             ))}
           </dl>
-        </FadeIn>
-      </Container>
-
-      {/* Testimonials Section */}
-      <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <FadeIn>
-          <h2 className="font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
-            {t('testimonials.title')}
-          </h2>
-          <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-            {[1, 2, 3, 4].map((num) => (
-              <div
-                key={num}
-                className="rounded-3xl border border-neutral-200 bg-neutral-50 p-8"
-              >
-                <blockquote className="text-sm text-neutral-600">
-                  &ldquo;{t(`testimonials.t${num}.quote`)}&rdquo;
-                </blockquote>
-                <div className="mt-6">
-                  <p className="font-semibold text-neutral-950">
-                    {t(`testimonials.t${num}.author`)}
-                  </p>
-                  <p className="text-sm text-neutral-600">
-                    {t(`testimonials.t${num}.location`)}
-                  </p>
-                  <p className="text-xs text-neutral-500">
-                    {t(`testimonials.t${num}.project`)}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
         </FadeIn>
       </Container>
 
