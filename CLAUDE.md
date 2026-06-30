@@ -52,6 +52,7 @@ npm run lint     # Run ESLint
 - `StartProjectButton.tsx` - Locale-aware CTA that links to the funnel; registered in `MDXComponents.tsx` so blog/service content can use it without imports
 - `ContactForm.tsx` - Simple contact form (secondary; for general inquiries)
 - `ProcessSections.tsx` - Home page process sections
+- `ServiceStats.tsx` - Honest connector trust badges (tailored / vetted network / no commitment) shown on every service + About page **in place of the former fabricated stats**; wording lives once per locale in the `ServiceStats` messages namespace (edit there to change all pages)
 - `Footer.tsx` - Site footer with navigation
 - `CookieConsent.tsx` - RGPD consent banner in the root layout; **gates `GoogleAnalytics.tsx` + `MetaPixel.tsx`** so no tracker loads before explicit consent (see Analytics section)
 
@@ -70,7 +71,8 @@ Applies to **all** marketing/legal copy in every locale (funnel, blog MDX, servi
 - **Flexible architect count** — "un ou plusieurs / one or more / einen oder mehrere / uno o varios / uno o più". Never a rigid "2-3" **nor** "un seul / only one". (Existing "1 à 3"/"1 à 2" consultation ranges are already fine.)
 - **style/budget** are legitimate matching criteria in process descriptions (gathered at the consultation) and in the ToS — but they stay **out of the `/start` funnel copy**, which only collects project + property + location.
 - **No em-dashes `—`**: the typographic em-dash (U+2014) reads as AI-generated content and is banned from copy in **every** locale (not just French). Replace by role: end-of-sentence aside → comma; two clauses → colon (French ` : ` with surrounding spaces, en/de/es/it `: ` with no space before); paired incise → commas or parentheses; if the sentence already has a colon, use a comma or period instead of a second colon. Code comments (`{/* … */}`) are exempt (invisible on the site); en-dashes `–` in numeric ranges (e.g. `50–70 €/m²`) are fine. Swept site-wide 2026-06-29.
-- When reviewing copy, grep for `48`, `24-48`, `2-3 (architect|profil)`, and the em-dash `—` across `*.json`/`*.mdx`/`*.tsx`.
+- **No fabricated social proof** — Hauss is a young connector with no completed-project track record, so never invent stats (project counts, "98% satisfaction", "15+ ans d'expérience"), client testimonials (named quotes like "Dr Catherine L., Paris 16e"), or case studies with budgets/timelines. Removed site-wide 2026-06-30: service + About pages now render the honest `<ServiceStats/>` badges instead of `<StatList>` numbers, and the fake `testimonials`/`projects` (réalisations) blocks were dropped from all 5 catalogs. **Legitimate, keep:** the network architects' own qualifications/portfolios/references, pricing tiers/ranges, and project-TYPE lists (haussmannien, studio, Airbnb…). Blog MDX `<StatList>` figures are editorial and were intentionally left.
+- When reviewing copy, grep for `48`, `24-48`, `2-3 (architect|profil)`, the em-dash `—`, and fabricated social proof (`testimonials`, `projets réalisés`, `% satisfaction`, hardcoded `<StatListItem value="…+"`) across `*.json`/`*.mdx`/`*.tsx`.
 
 ### API
 
