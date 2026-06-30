@@ -758,6 +758,55 @@ export async function POST(request: NextRequest) {
       })
     }
 
+    // Automatisation n8n (best-effort) : on transmet le lead structuré à un
+    // workflow n8n (alerte Telegram, log Google Sheets, brouillon IA...). Comme
+    // le CAPI, c'est non bloquant : une panne n8n ne casse jamais le formulaire,
+    // et l'email Resend ci-dessus reste le filet de sécurité. Inactif tant que
+    // N8N_WEBHOOK_URL n'est pas défini.
+    if (process.env.N8N_WEBHOOK_URL) {
+      try {
+        await fetch(process.env.N8N_WEBHOOK_URL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            ...(process.env.N8N_WEBHOOK_SECRET
+              ? { 'x-webhook-secret': process.env.N8N_WEBHOOK_SECRET }
+              : {}),
+          },
+          body: JSON.stringify({
+            source: isFunnel ? 'funnel' : 'contact',
+            locale,
+            name,
+            email,
+            phone: phone || null,
+            company: company || null,
+            message: message || null,
+            budget: isFunnel ? null : sanitizedBudget,
+            project: isFunnel
+              ? {
+                  projectType: projectType || null,
+                  propertyType: propertyType || null,
+                  surface: surface || null,
+                  budgetAmount: budgetAmount || null,
+                  address: address || null,
+                  planning: planning || null,
+                }
+              : null,
+            eventId: eventId || null,
+            page: request.headers.get('referer') || null,
+            submittedAt: new Date().toISOString(),
+          }),
+          // Évite de bloquer la réponse si n8n est lent/indisponible.
+          signal: AbortSignal.timeout(4000),
+        })
+      } catch (err) {
+        // Non fatal : le lead est déjà sécurisé par les emails Resend.
+        if (process.env.NODE_ENV === 'development') {
+          console.error('n8n webhook failed:', err)
+        }
+      }
+    }
+
     return NextResponse.json({
       success: true,
       message: 'Emails envoyés avec succès',
