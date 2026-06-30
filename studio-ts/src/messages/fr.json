@@ -1,4 +1,9 @@
 {
+  "ServiceStats": {
+    "s1": { "value": "Sur mesure", "label": "Une sélection adaptée à votre projet" },
+    "s2": { "value": "Réseau vérifié", "label": "Architectes sélectionnés et référencés" },
+    "s3": { "value": "Sans engagement", "label": "Vous restez libre à chaque étape" }
+  },
   "CookieConsent": {
     "title": "Cookies & confidentialité",
     "message": "Nous utilisons des cookies de mesure d'audience et publicitaires (Google Analytics, Meta) pour améliorer votre expérience et nos campagnes. Vous pouvez accepter ou refuser.",
@@ -213,7 +218,7 @@
       "phone": "Téléphone :",
       "budget": "Budget :",
       "message": "Message :",
-      "portfolio": "En attendant, n'hésitez pas à consulter notre portfolio et découvrir nos réalisations sur notre site.",
+      "portfolio": "En attendant, n'hésitez pas à parcourir nos guides et conseils sur notre blog pour préparer votre projet en toute sérénité.",
       "signature": "À très bientôt,",
       "team": "L'équipe HAUSS Paris",
       "footer": "Email : contact@haussparis.com | Téléphone : +33 6 19 44 92 55"
@@ -970,66 +975,6 @@
         "answer": "Oui. Notre réseau couvre Paris et toute l'Île-de-France : Boulogne, Neuilly, Saint-Germain-en-Laye, Versailles, et les départements 92, 93, 94, 78, 91, 77, 95."
       }
     },
-    "testimonials": {
-      "title": "Ils nous ont fait confiance",
-      "t1": {
-        "quote": "On ouvrait notre premier restaurant et on ne connaissait rien aux normes parisiennes. L'architecte recommandé par Hauss Paris a tout géré : les plans, le dossier ERP, le suivi de chantier. On a ouvert dans les temps et dans le budget. Merci !",
-        "author": "Sophie & Julien M.",
-        "location": "Paris 11e",
-        "project": "Restaurant Le Comptoir"
-      },
-      "t2": {
-        "quote": "Pour notre 3e boutique à Paris, on cherchait un architecte qui comprenne notre univers de marque. Hauss Paris nous a mis en relation avec le bon profil du premier coup. Résultat impeccable.",
-        "author": "Amélie R.",
-        "location": "Fondatrice",
-        "project": "Maison Amélie (décoration)"
-      },
-      "t3": {
-        "quote": "J'ai investi dans un local pour en faire un hôtel boutique. Vivant à Lyon, je ne pouvais pas suivre le chantier au quotidien. L'architecte a tout piloté, je recevais un compte-rendu chaque semaine. Très professionnel.",
-        "author": "Marc D.",
-        "location": "Lyon",
-        "project": "Investisseur hôtelier"
-      },
-      "t4": {
-        "quote": "La transformation de notre cabinet médical s'est faite en continuant à recevoir des patients. L'architecte a phasé les travaux intelligemment. Nos patients adorent le nouveau cadre.",
-        "author": "Dr Catherine L.",
-        "location": "Paris 16e",
-        "project": "Médecin généraliste"
-      }
-    },
-    "projects": {
-      "title": "Nos réalisations commerciales",
-      "p1": {
-        "title": "Restaurant bistronomique – Paris 11e",
-        "description": "Transformation d'un ancien atelier de 90 m² en restaurant de 45 couverts. Cuisine ouverte, cave vitrée, mobilier sur mesure.",
-        "budget": "180 000 €",
-        "timeline": "4 mois"
-      },
-      "p2": {
-        "title": "Boutique de mode – Le Marais",
-        "description": "Aménagement d'une boutique de créateur de 55 m². Travail sur la lumière, cabines d'essayage, vitrine scénographiée.",
-        "budget": "75 000 €",
-        "timeline": "2,5 mois"
-      },
-      "p3": {
-        "title": "Hôtel boutique 12 chambres – Paris 6e",
-        "description": "Restructuration complète d'un immeuble en hôtel 4 étoiles. Décoration contemporaine, matériaux nobles, petit-déjeuner en verrière.",
-        "budget": "850 000 €",
-        "timeline": "10 mois"
-      },
-      "p4": {
-        "title": "Coffee shop – Paris 9e",
-        "description": "Création d'un café de spécialité de 35 m² dans un local brut. Comptoir en terrazzo, banquette sur mesure, ambiance végétale.",
-        "budget": "55 000 €",
-        "timeline": "2 mois"
-      },
-      "p5": {
-        "title": "Cabinet dentaire – Neuilly",
-        "description": "Aménagement d'un cabinet de 3 fauteuils sur 120 m². Parcours patient optimisé, salle de stérilisation, accueil premium.",
-        "budget": "150 000 € (hors équipements dentaires)",
-        "timeline": "3 mois"
-      }
-    },
     "cta": {
       "title": "Lancez votre projet commercial à Paris",
       "description": "Vous avez un projet de commerce, restaurant, hôtel ou espace professionnel à Paris ? Parlons-en. Réservez une consultation gratuite avec notre équipe.",
@@ -1621,24 +1566,6 @@
         "answer": "Vous êtes libre de refuser notre proposition et de demander un autre profil. La consultation initiale avec Hauss Paris est gratuite et sans engagement."
       }
     },
-    "testimonials": {
-      "title": "Ils ont fait confiance à Hauss Paris",
-      "t1": {
-        "quote": "Nous vivons à Londres et avons acheté un appartement dans le Marais. Hauss Paris nous a trouvé un architecte parfait : il parlait anglais, comprenait nos goûts et nous a tenu informés chaque semaine par visio. Le résultat dépasse nos attentes.",
-        "author": "James & Sophie M.",
-        "location": "Londres"
-      },
-      "t2": {
-        "quote": "Investisseur depuis 10 ans à Paris, j'ai enfin trouvé un partenaire fiable pour mes rénovations. Les architectes recommandés par Hauss Paris sont sérieux et respectent les budgets.",
-        "author": "Marco T.",
-        "location": "Milan"
-      },
-      "t3": {
-        "quote": "En tant qu'expatriée, je redoutais de gérer des travaux à distance. L'accompagnement de Hauss Paris m'a rassurée du début à la fin. Je recommande vivement.",
-        "author": "Catherine L.",
-        "location": "New York"
-      }
-    },
     "cta": {
       "title": "Lancez votre projet de rénovation à Paris",
       "description": "Vous avez un projet d'appartement à rénover à Paris ? Parlons-en. Réservez une consultation gratuite avec notre équipe.",
@@ -1838,29 +1765,6 @@
       "q8": {
         "question": "Intervenez-vous en dehors de Paris ?",
         "answer": "Oui. Notre réseau couvre Paris intra-muros et toute l'Île-de-France : Neuilly, Boulogne, Versailles, Saint-Cloud et les départements 92, 93, 94, 78, 91, 77, 95."
-      }
-    },
-    "testimonials": {
-      "title": "Ils ont transformé leur appartement parisien",
-      "t1": {
-        "quote": "Nous vivons à Genève et avons acheté un pied-à-terre dans le 7ème. En 6 semaines, le décorateur a tout géré : mobilier, installation, décoration. Nous sommes arrivés dans un appartement parfait, exactement comme sur les planches. Aucun stress.",
-        "author": "Claire & Thomas B.",
-        "location": "Genève"
-      },
-      "t2": {
-        "quote": "J'ai fait appel à Hauss Paris pour préparer mon appartement pour Airbnb. Le décorateur a créé un intérieur chaleureux et photogénique. Depuis, je suis booké à 90% avec d'excellentes notes. L'investissement est rentabilisé.",
-        "author": "David L.",
-        "location": "Londres"
-      },
-      "t3": {
-        "quote": "Expatriée à New York, je voulais refaire mon appartement parisien avant de le louer meublé. Le décorateur m'a proposé 3 ambiances, j'ai validé par email, et 5 semaines plus tard c'était installé. Service impeccable.",
-        "author": "Sarah M.",
-        "location": "New York"
-      },
-      "t4": {
-        "quote": "Pour mon investissement locatif, je cherchais un résultat chic sans exploser le budget. Le décorateur a sourcé du mobilier design abordable et créé un appartement qui se loue immédiatement. Excellent rapport qualité-prix.",
-        "author": "Antoine R.",
-        "location": "Lyon"
       }
     },
     "cta": {

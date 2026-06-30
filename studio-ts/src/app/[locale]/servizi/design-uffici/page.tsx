@@ -9,7 +9,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/design-espace-travail-paris.jpg'
 import imageWhiteboard from '@/images/amenagement-bureau-professionnel-paris.jpg'
@@ -127,11 +127,7 @@ export default function WorkplaceDesignService() {
       </div>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="+40%" label={t('stats.productivity')} />
-          <StatListItem value="100+" label={t('stats.offices')} />
-          <StatListItem value="95%" label={t('stats.satisfaction')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       <ContactSection />

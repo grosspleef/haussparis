@@ -11,7 +11,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageSection1 from '@/images/renovation-appartement-paris-avant-projet.jpg'
 import imageSection2 from '@/images/conception-3d-architecte-interieur-paris.jpg'
@@ -221,11 +221,7 @@ export default function ArchitecteInterieurParisService() {
 
       {/* Stats Section */}
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="50+" label={t('stats.international')} />
-          <StatListItem value="30+" label={t('stats.network')} />
-          <StatListItem value="98%" label={t('stats.satisfaction')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       {/* Pricing Section */}
@@ -419,35 +415,6 @@ export default function ArchitecteInterieurParisService() {
               </div>
             ))}
           </dl>
-        </FadeIn>
-      </Container>
-
-      {/* Testimonials Section */}
-      <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <FadeIn>
-          <h2 className="font-display text-3xl font-medium tracking-tight text-neutral-950 sm:text-4xl">
-            {t('testimonials.title')}
-          </h2>
-          <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {[1, 2, 3].map((num) => (
-              <div
-                key={num}
-                className="rounded-3xl border border-neutral-200 bg-neutral-50 p-8"
-              >
-                <blockquote className="text-sm text-neutral-600">
-                  &ldquo;{t(`testimonials.t${num}.quote`)}&rdquo;
-                </blockquote>
-                <div className="mt-6">
-                  <p className="font-semibold text-neutral-950">
-                    {t(`testimonials.t${num}.author`)}
-                  </p>
-                  <p className="text-sm text-neutral-600">
-                    {t(`testimonials.t${num}.location`)}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
         </FadeIn>
       </Container>
 

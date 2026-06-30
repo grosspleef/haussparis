@@ -1,4 +1,9 @@
 {
+  "ServiceStats": {
+    "s1": { "value": "Su misura", "label": "Una selezione su misura per il tuo progetto" },
+    "s2": { "value": "Rete verificata", "label": "Architetti selezionati e referenziati" },
+    "s3": { "value": "Senza impegno", "label": "Resti libero in ogni fase" }
+  },
   "CookieConsent": {
     "title": "Cookie e privacy",
     "message": "Utilizziamo cookie di analisi e pubblicitari (Google Analytics, Meta) per migliorare la tua esperienza e le nostre campagne. Puoi accettare o rifiutare.",
@@ -213,7 +218,7 @@
       "phone": "Telefono:",
       "budget": "Budget:",
       "message": "Messaggio:",
-      "portfolio": "Nel frattempo, sentiti libero di consultare il nostro portfolio e scoprire le nostre realizzazioni sul nostro sito.",
+      "portfolio": "Nel frattempo, non esitare a sfogliare le nostre guide e i nostri consigli sul nostro blog per preparare con serenità il tuo progetto.",
       "signature": "A presto,",
       "team": "Il team HAUSS Paris",
       "footer": "Email: contact@haussparis.com | Telefono: +33 6 19 44 92 55"
@@ -1313,24 +1318,6 @@
       "q7": {
         "question": "Cosa succede se non sono soddisfatto dell'architetto proposto?",
         "answer": "Sei libero di rifiutare la nostra proposta e richiedere un altro profilo. La consulenza iniziale con Hauss Paris è gratuita e senza impegno."
-      }
-    },
-    "testimonials": {
-      "title": "Hanno riposto la loro fiducia in Hauss Paris",
-      "t1": {
-        "quote": "Viviamo a Milano e abbiamo acquistato un appartamento nel Marais. Hauss Paris ci ha trovato un architetto perfetto: parlava italiano, comprendeva i nostri gusti e ci ha tenuti informati ogni settimana via video. Il risultato supera le nostre aspettative.",
-        "author": "Giovanni & Sofia R.",
-        "location": "Milano"
-      },
-      "t2": {
-        "quote": "Investitore da 10 anni a Parigi, ho finalmente trovato un partner affidabile per le mie ristrutturazioni. Gli architetti raccomandati da Hauss Paris sono seri e rispettano i budget.",
-        "author": "Marco T.",
-        "location": "Roma"
-      },
-      "t3": {
-        "quote": "Come espatriata, temevo di gestire i lavori a distanza. L'accompagnamento di Hauss Paris mi ha rassicurato dall'inizio alla fine. Raccomando vivamente.",
-        "author": "Francesca B.",
-        "location": "Firenze"
       }
     },
     "cta": {

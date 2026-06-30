@@ -9,7 +9,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/conception-3d-architecte-interieur-paris.jpg'
 import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
@@ -88,11 +88,7 @@ export default function DekorationService() {
       </div>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="100%" label={t('stats.personalized')} />
-          <StatListItem value="50+" label={t('stats.partners')} />
-          <StatListItem value="∞" label={t('stats.creativity')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       <ContactSection />

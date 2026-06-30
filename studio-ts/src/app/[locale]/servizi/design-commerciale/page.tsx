@@ -9,7 +9,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/architecture-commerciale-paris.jpg'
 import imageWhiteboard from '@/images/design-boutique-commerce-paris.jpg'
@@ -127,11 +127,7 @@ export default function CommercialDesignService() {
       </div>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="+25%" label={t('stats.revenue')} />
-          <StatListItem value="150+" label={t('stats.spaces')} />
-          <StatListItem value="100%" label={t('stats.custom')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       <ContactSection />

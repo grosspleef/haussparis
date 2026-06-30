@@ -10,7 +10,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { PageIntro } from '@/components/PageIntro'
 import { PageLinks } from '@/components/PageLinks'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import imageHugoBetscher from '@/images/team/hugo-betscher-fondateur-hauss-paris.jpg'
 import { loadArticles } from '@/lib/mdx'
 import { RootLayout } from '@/components/RootLayout'
@@ -189,11 +189,7 @@ export default async function About(props: Props) {
         </div>
       </PageIntro>
       <Container className="mt-16">
-        <StatList>
-          <StatListItem value="70+" label={tStats('connections')} />
-          <StatListItem value="Top 1%" label={tStats('architects')} />
-          <StatListItem value="100%" label={tStats('independence')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       <Culture locale={params.locale} />

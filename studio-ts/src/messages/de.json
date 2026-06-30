@@ -1,4 +1,9 @@
 {
+  "ServiceStats": {
+    "s1": { "value": "Maßgeschneidert", "label": "Eine auf Ihr Projekt abgestimmte Auswahl" },
+    "s2": { "value": "Geprüftes Netzwerk", "label": "Ausgewählte, referenzierte Architekten" },
+    "s3": { "value": "Unverbindlich", "label": "Sie bleiben bei jedem Schritt frei" }
+  },
   "CookieConsent": {
     "title": "Cookies & Datenschutz",
     "message": "Wir verwenden Analyse- und Werbe-Cookies (Google Analytics, Meta), um Ihr Erlebnis und unsere Kampagnen zu verbessern. Sie können zustimmen oder ablehnen.",
@@ -213,7 +218,7 @@
       "phone": "Telefon:",
       "budget": "Budget:",
       "message": "Nachricht:",
-      "portfolio": "In der Zwischenzeit können Sie gerne unser Portfolio ansehen und unsere Realisierungen auf unserer Website entdecken.",
+      "portfolio": "In der Zwischenzeit können Sie gerne unsere Ratgeber und Tipps in unserem Blog durchstöbern, um Ihr Projekt vorzubereiten.",
       "signature": "Bis bald,",
       "team": "Das HAUSS Paris Team",
       "footer": "E-Mail: contact@haussparis.com | Telefon: +33 6 19 44 92 55"
@@ -1313,24 +1318,6 @@
       "q7": {
         "question": "Was passiert, wenn ich mit dem vorgeschlagenen Architekten nicht zufrieden bin?",
         "answer": "Sie können unseren Vorschlag ablehnen und ein anderes Profil anfordern. Die Erstberatung mit Hauss Paris ist kostenlos und unverbindlich."
-      }
-    },
-    "testimonials": {
-      "title": "Sie haben Hauss Paris vertraut",
-      "t1": {
-        "quote": "Wir leben in Berlin und haben eine Wohnung im Marais gekauft. Hauss Paris fand uns einen perfekten Architekten: Er sprach Deutsch, verstand unseren Geschmack und hielt uns jede Woche per Video auf dem Laufenden. Das Ergebnis übertrifft unsere Erwartungen.",
-        "author": "Thomas & Anna M.",
-        "location": "Berlin"
-      },
-      "t2": {
-        "quote": "Als Investor in Paris seit 10 Jahren habe ich endlich einen zuverlässigen Partner für meine Renovierungen gefunden. Die von Hauss Paris empfohlenen Architekten sind seriös und halten Budgets ein.",
-        "author": "Klaus S.",
-        "location": "München"
-      },
-      "t3": {
-        "quote": "Als Expatriate befürchtete ich, Arbeiten aus der Ferne zu verwalten. Die Begleitung von Hauss Paris hat mich von Anfang bis Ende beruhigt. Sehr empfehlenswert.",
-        "author": "Sabine W.",
-        "location": "Hamburg"
       }
     },
     "cta": {

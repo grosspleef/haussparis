@@ -11,7 +11,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/architecte-interieur-paris-6-saint-germain.jpg'
 import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
@@ -175,11 +175,7 @@ export default function ArchitecteInterieurParis6Service() {
 
       {/* Stats Section */}
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value={t('stats.projects.value')} label={t('stats.projects.label')} />
-          <StatListItem value={t('stats.satisfaction.value')} label={t('stats.satisfaction.label')} />
-          <StatListItem value={t('stats.network.value')} label={t('stats.network.label')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       {/* FAQ Section */}

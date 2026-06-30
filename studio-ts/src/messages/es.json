@@ -1,4 +1,9 @@
 {
+  "ServiceStats": {
+    "s1": { "value": "A medida", "label": "Una selección adaptada a tu proyecto" },
+    "s2": { "value": "Red verificada", "label": "Arquitectos seleccionados y referenciados" },
+    "s3": { "value": "Sin compromiso", "label": "Sigues siendo libre en cada paso" }
+  },
   "CookieConsent": {
     "title": "Cookies y privacidad",
     "message": "Utilizamos cookies de análisis y publicidad (Google Analytics, Meta) para mejorar tu experiencia y nuestras campañas. Puedes aceptar o rechazar.",
@@ -213,7 +218,7 @@
       "phone": "Teléfono:",
       "budget": "Presupuesto:",
       "message": "Mensaje:",
-      "portfolio": "Mientras tanto, no dude en consultar nuestro portafolio y descubrir nuestras realizaciones en nuestro sitio.",
+      "portfolio": "Mientras tanto, no dudes en consultar nuestras guías y consejos en nuestro blog para preparar tu proyecto con tranquilidad.",
       "signature": "Hasta pronto,",
       "team": "El equipo HAUSS Paris",
       "footer": "Email: contact@haussparis.com | Teléfono: +33 6 19 44 92 55"
@@ -1316,24 +1321,6 @@
       "q7": {
         "question": "¿Qué pasa si no estoy satisfecho con el interiorista propuesto?",
         "answer": "Eres libre de rechazar nuestra propuesta y solicitar otro perfil. La consulta inicial con Hauss Paris es gratuita y sin compromiso."
-      }
-    },
-    "testimonials": {
-      "title": "Han depositado su confianza en Hauss Paris",
-      "t1": {
-        "quote": "Vivimos en Madrid y compramos un apartamento en el Marais. Hauss Paris nos encontró un interiorista perfecto: hablaba español, comprendía nuestros gustos y nos mantenía informados cada semana por video. El resultado supera nuestras expectativas.",
-        "author": "Carlos & Elena G.",
-        "location": "Madrid"
-      },
-      "t2": {
-        "quote": "Inversor desde hace 10 años en París, finalmente he encontrado un socio fiable para mis renovaciones. Los interioristas recomendados por Hauss Paris son serios y respetan los presupuestos.",
-        "author": "Roberto M.",
-        "location": "Barcelona"
-      },
-      "t3": {
-        "quote": "Como expatriada, temía gestionar las obras a distancia. El acompañamiento de Hauss Paris me tranquilizó del principio al fin. Recomiendo ampliamente.",
-        "author": "Patricia L.",
-        "location": "Buenos Aires"
       }
     },
     "cta": {

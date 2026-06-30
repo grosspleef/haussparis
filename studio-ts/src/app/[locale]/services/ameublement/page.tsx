@@ -9,7 +9,7 @@ import { GridList, GridListItem } from '@/components/GridList'
 import { GridPattern } from '@/components/GridPattern'
 import { PageIntro } from '@/components/PageIntro'
 import { SectionIntro } from '@/components/SectionIntro'
-import { StatList, StatListItem } from '@/components/StatList'
+import { ServiceStats } from '@/components/ServiceStats'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/selection-meubles-architecte-interieur.jpg'
 import imageWhiteboard from '@/images/ameublement-appartement-parisien.jpg'
@@ -127,11 +127,7 @@ export default function FurnishingService() {
       </div>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
-        <StatList>
-          <StatListItem value="100%" label={t('stats.turnkey')} />
-          <StatListItem value="200+" label={t('stats.partners')} />
-          <StatListItem value="24/7" label={t('stats.tracking')} />
-        </StatList>
+        <ServiceStats />
       </Container>
 
       <ContactSection />
