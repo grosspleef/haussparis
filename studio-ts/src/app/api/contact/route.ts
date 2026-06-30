@@ -43,7 +43,7 @@ const translations = {
       phone: 'Téléphone :',
       budget: 'Budget :',
       message: 'Message :',
-      portfolio: 'En attendant, n\'hésitez pas à consulter notre portfolio et découvrir nos réalisations sur notre site.',
+      portfolio: 'En attendant, n\'hésitez pas à parcourir nos guides et conseils sur notre blog pour préparer votre projet en toute sérénité.',
       signature: 'À très bientôt,',
       team: 'L\'équipe HAUSS Paris',
       footer: 'Email : contact@haussparis.com | Téléphone : +33 6 19 44 92 55'
@@ -99,7 +99,7 @@ const translations = {
       phone: 'Phone:',
       budget: 'Budget:',
       message: 'Message:',
-      portfolio: 'In the meantime, feel free to consult our portfolio and discover our achievements on our site.',
+      portfolio: 'In the meantime, feel free to browse our guides and tips on our blog to help prepare your project.',
       signature: 'See you soon,',
       team: 'The HAUSS Paris team',
       footer: 'Email: contact@haussparis.com | Phone: +33 6 19 44 92 55'
@@ -155,7 +155,7 @@ const translations = {
       phone: 'Telefon:',
       budget: 'Budget:',
       message: 'Nachricht:',
-      portfolio: 'In der Zwischenzeit können Sie gerne unser Portfolio ansehen und unsere Projekte auf unserer Website entdecken.',
+      portfolio: 'In der Zwischenzeit können Sie gerne unsere Ratgeber und Tipps in unserem Blog durchstöbern, um Ihr Projekt vorzubereiten.',
       signature: 'Bis bald,',
       team: 'Das HAUSS Paris Team',
       footer: 'E-Mail: contact@haussparis.com | Telefon: +33 6 19 44 92 55'
@@ -211,7 +211,7 @@ const translations = {
       phone: 'Teléfono:',
       budget: 'Presupuesto:',
       message: 'Mensaje:',
-      portfolio: 'Mientras tanto, no dudes en consultar nuestro portafolio y descubrir nuestros proyectos en nuestra web.',
+      portfolio: 'Mientras tanto, no dudes en consultar nuestras guías y consejos en nuestro blog para preparar tu proyecto con tranquilidad.',
       signature: 'Hasta pronto,',
       team: 'El equipo de HAUSS Paris',
       footer: 'Email: contact@haussparis.com | Teléfono: +33 6 19 44 92 55'
@@ -267,7 +267,7 @@ const translations = {
       phone: 'Telefono:',
       budget: 'Budget:',
       message: 'Messaggio:',
-      portfolio: 'Nel frattempo, non esitare a consultare il nostro portfolio e a scoprire i nostri progetti sul nostro sito.',
+      portfolio: 'Nel frattempo, non esitare a sfogliare le nostre guide e i nostri consigli sul nostro blog per preparare con serenità il tuo progetto.',
       signature: 'A presto,',
       team: 'Il team di HAUSS Paris',
       footer: 'Email: contact@haussparis.com | Telefono: +33 6 19 44 92 55'
