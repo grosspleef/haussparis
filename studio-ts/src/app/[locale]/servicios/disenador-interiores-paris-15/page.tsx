@@ -19,6 +19,7 @@ import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.
 import imageSection3 from '@/images/salon-haussmannien-paris-architecte-interieur.jpg'
 import { RootLayout } from '@/components/RootLayout'
 import { ArrondissementSchema } from '@/components/ArrondissementSchema'
+import { ArrondissementBreadcrumb } from '@/components/ArrondissementBreadcrumb'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
 import { routes, locales } from '@/lib/routes'
 
@@ -34,6 +35,7 @@ export default function DisenadorInterioresParis15Service() {
     <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.architecteInterieurParis15}>
     <RootLayout>
       <ArrondissementSchema namespace="ArchitecteParis15Service" arrondissement={15} />
+      <ArrondissementBreadcrumb arrondissement={15} />
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro')}</p>
       </PageIntro>
