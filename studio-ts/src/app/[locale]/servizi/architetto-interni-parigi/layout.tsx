@@ -2,6 +2,7 @@ import { type Metadata } from 'next'
 import type { ReactNode } from 'react'
 import Script from 'next/script'
 import { generateServiceMetadata } from '@/lib/serviceMetadata'
+import { ServiceFaqSchema } from '@/components/ServiceFaqSchema'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -12,71 +13,14 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   return generateServiceMetadata(params.locale, 'architecteInterieurParis')
 }
 
-export default function Layout({ children }: { children: ReactNode }) {
-  // FAQPage Schema
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'Vivo all\'estero, come gestire il mio progetto di ristrutturazione a Parigi?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'È la nostra specialità. Organizziamo scambi per videoconferenza, condividiamo i documenti online e garantiamo un reporting regolare con foto del cantiere. Molti dei nostri clienti hanno condotto il loro progetto senza recarsi a Parigi.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Parlate inglese o francese?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Sì. Il nostro team e diversi architetti della nostra rete sono bilingui o trilingui. Possiamo condurre l\'intero vostro progetto in inglese o in francese.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Come selezionate gli architetti d\'interni della vostra rete?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Verifichiamo i diplomi, le assicurazioni, i riferimenti e incontriamo ogni professionista prima di integrarlo nella nostra rete. Monitoriamo la soddisfazione dei clienti per garantire un livello di qualità costante.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Qual è il budget minimo per ricorrere a un architetto d\'interni?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Non c\'è un budget minimo imposto. In pratica, l\'intervento di un architetto d\'interni è pienamente giustificato a partire da 30.000 € di lavori. Al di sotto, un servizio di consulenza mirata può essere sufficiente.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Quanto tempo dura una ristrutturazione di appartamento a Parigi?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Contate 2-3 mesi per una ristrutturazione parziale, 4-6 mesi per una ristrutturazione completa. I tempi dipendono dall\'entità dei lavori, dalla disponibilità degli artigiani e dalle autorizzazioni amministrative.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Intervenite al di fuori di Parigi?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Sì. La nostra rete copre Parigi intra-muros e tutta l\'Île-de-France: Neuilly, Boulogne, Saint-Cloud, Versailles e i dipartimenti 92, 93, 94, 78, 91, 77, 95.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Cosa succede se non sono soddisfatto dell\'architetto proposto?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Siete liberi di rifiutare la nostra proposta e di richiedere un altro profilo. La consultazione iniziale con Hauss Paris è gratuita e senza impegno.',
-        },
-      },
-    ],
-  }
-
+export default async function Layout({
+  children,
+  params,
+}: {
+  children: ReactNode
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
   // LocalBusiness Schema
   const localBusinessSchema = {
     '@context': 'https://schema.org',
@@ -160,11 +104,7 @@ export default function Layout({ children }: { children: ReactNode }) {
 
   return (
     <>
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+      <ServiceFaqSchema locale={locale} namespace="ArchitecteInterieurParisService" />
       <Script
         id="local-business-schema"
         type="application/ld+json"
