@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useParams } from 'next/navigation'
 
 import { ContactSection } from '@/components/ContactSection'
+import { ArrondissementLinks } from '@/components/ArrondissementLinks'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { GridList, GridListItem } from '@/components/GridList'
@@ -462,6 +463,7 @@ export default function ArchitecteInterieurParisService() {
         </FadeIn>
       </Container>
 
+      <ArrondissementLinks />
       <ContactSection />
     </RootLayout>
     </AvailableLocalesProvider>

@@ -1831,20 +1831,6 @@
         "description": "Service complet pour propriétaires non-résidents : de la conception à l'installation, votre appartement livré prêt à vivre."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "40+",
-        "label": "projets réalisés dans le 16ème"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "de clients satisfaits"
-      },
-      "network": {
-        "value": "15+",
-        "label": "architectes spécialisés"
-      }
-    },
     "faq": {
       "title": "Questions fréquentes - Paris 16ème",
       "q1": {
@@ -1925,20 +1911,6 @@
       "furnishing": {
         "title": "Clé en main diplomatique",
         "description": "Service complet pour clients internationaux : de la conception à l'installation, incluant systèmes de sécurité et logements du personnel."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "25+",
-        "label": "projets réalisés dans le 7ème"
-      },
-      "satisfaction": {
-        "value": "100%",
-        "label": "de satisfaction client"
-      },
-      "network": {
-        "value": "12+",
-        "label": "architectes spécialisés"
       }
     },
     "faq": {
@@ -2023,20 +1995,6 @@
         "description": "Clé en main complet pour clients internationaux : installation de collections d'art, intégration domotique et gestion continue de la propriété."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "projets réalisés dans le 8ème"
-      },
-      "satisfaction": {
-        "value": "100%",
-        "label": "de satisfaction client"
-      },
-      "network": {
-        "value": "18+",
-        "label": "architectes spécialisés"
-      }
-    },
     "faq": {
       "title": "Questions fréquentes - Paris 8ème",
       "q1": {
@@ -2117,20 +2075,6 @@
       "furnishing": {
         "title": "Collectionné au fil du temps",
         "description": "Création d'intérieurs qui semblent hérités plutôt qu'achetés. Mélange des époques et styles avec l'assurance des générations."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "projets réalisés dans le 6ème"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "de clients satisfaits"
-      },
-      "network": {
-        "value": "14+",
-        "label": "architectes spécialisés"
       }
     },
     "faq": {
@@ -2215,20 +2159,6 @@
         "description": "Service complet d'ameublement : de la conception à l'installation, votre appartement livré prêt pour la vie de famille avec tous les détails pratiques pensés."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "projets réalisés dans le 17ème"
-      },
-      "satisfaction": {
-        "value": "97%",
-        "label": "de clients satisfaits"
-      },
-      "network": {
-        "value": "12+",
-        "label": "architectes spécialisés"
-      }
-    },
     "faq": {
       "title": "Questions fréquentes - Paris 17ème",
       "q1": {
@@ -2309,20 +2239,6 @@
       "furnishing": {
         "title": "Ameublement complet",
         "description": "Service d'ameublement de A à Z : plan d'implantation, sélection du mobilier et installation. Votre appartement livré prêt à habiter."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "45+",
-        "label": "projets réalisés dans le 15ème"
-      },
-      "satisfaction": {
-        "value": "96%",
-        "label": "de clients satisfaits"
-      },
-      "network": {
-        "value": "14+",
-        "label": "architectes spécialisés"
       }
     },
     "faq": {
@@ -2407,20 +2323,6 @@
         "description": "Accès à des pièces uniques, trouvailles vintage et design contemporain. Votre espace meublé avec le même œil pour la découverte qui fait la particularité du 9ème."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "projets réalisés dans le 9ème"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "de clients satisfaits"
-      },
-      "network": {
-        "value": "10+",
-        "label": "architectes spécialisés"
-      }
-    },
     "faq": {
       "title": "Questions fréquentes - Paris 9ème",
       "q1": {
@@ -2501,20 +2403,6 @@
       "furnishing": {
         "title": "Ameublement clé en main",
         "description": "Service complet pour investisseurs et professionnels occupés : de la conception à l'installation, votre appartement livré prêt à vivre."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "projets réalisés dans le 11ème"
-      },
-      "satisfaction": {
-        "value": "97%",
-        "label": "de clients satisfaits"
-      },
-      "network": {
-        "value": "12+",
-        "label": "architectes spécialisés"
       }
     },
     "faq": {
@@ -2599,20 +2487,6 @@
         "description": "Service intégral pour propriétaires internationaux : de l'évaluation patrimoniale à la livraison clé en main d'un appartement du Marais authentiquement restauré."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "25+",
-        "label": "projets réalisés dans le 4ème"
-      },
-      "satisfaction": {
-        "value": "99%",
-        "label": "de clients satisfaits"
-      },
-      "network": {
-        "value": "10+",
-        "label": "spécialistes du patrimoine"
-      }
-    },
     "faq": {
       "title": "Questions fréquentes - Paris 4ème",
       "q1": {
@@ -2693,20 +2567,6 @@
       "furnishing": {
         "title": "Ameublement contemporain curé",
         "description": "Sélection de mobilier design, éditions limitées et pièces commanditées. Accès aux showrooms, galeries et designers émergents."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "projets réalisés dans le 3ème"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "de clients satisfaits"
-      },
-      "network": {
-        "value": "10+",
-        "label": "spécialistes du design"
       }
     },
     "faq": {

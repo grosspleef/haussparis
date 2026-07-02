@@ -1830,20 +1830,6 @@
         "description": "Complete service for non-resident owners: from design to installation, your apartment delivered ready to live in."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "40+",
-        "label": "projects completed in the 16th"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "satisfied clients"
-      },
-      "network": {
-        "value": "15+",
-        "label": "specialized designers"
-      }
-    },
     "faq": {
       "title": "Frequently Asked Questions - Paris 16th",
       "q1": {
@@ -1924,20 +1910,6 @@
       "furnishing": {
         "title": "Diplomatic Turnkey",
         "description": "Complete service for international clients: from design to installation, including security systems and staff quarters."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "25+",
-        "label": "projects completed in the 7th"
-      },
-      "satisfaction": {
-        "value": "100%",
-        "label": "client satisfaction"
-      },
-      "network": {
-        "value": "12+",
-        "label": "specialized designers"
       }
     },
     "faq": {
@@ -2022,20 +1994,6 @@
         "description": "Complete turnkey for international clients: art collection installation, smart home integration, and ongoing property management."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "projects completed in the 8th"
-      },
-      "satisfaction": {
-        "value": "100%",
-        "label": "client satisfaction"
-      },
-      "network": {
-        "value": "18+",
-        "label": "specialized designers"
-      }
-    },
     "faq": {
       "title": "Frequently Asked Questions - Paris 8th",
       "q1": {
@@ -2116,20 +2074,6 @@
       "furnishing": {
         "title": "Collected Over Time",
         "description": "Creating interiors that feel inherited rather than purchased. Mixing periods and styles with the confidence of generations."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "projects completed in the 6th"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "satisfied clients"
-      },
-      "network": {
-        "value": "14+",
-        "label": "specialized designers"
       }
     },
     "faq": {
@@ -2214,20 +2158,6 @@
         "description": "Complete furnishing service: from design to installation, your apartment delivered ready for family life with all practical details considered."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "projects completed in the 17th"
-      },
-      "satisfaction": {
-        "value": "97%",
-        "label": "satisfied clients"
-      },
-      "network": {
-        "value": "12+",
-        "label": "specialized designers"
-      }
-    },
     "faq": {
       "title": "Frequently Asked Questions - Paris 17th",
       "q1": {
@@ -2308,20 +2238,6 @@
       "furnishing": {
         "title": "Complete Furnishing",
         "description": "End-to-end furnishing service: space planning, furniture selection, and installation. Your apartment delivered move-in ready."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "45+",
-        "label": "projects completed in the 15th"
-      },
-      "satisfaction": {
-        "value": "96%",
-        "label": "satisfied clients"
-      },
-      "network": {
-        "value": "14+",
-        "label": "specialized designers"
       }
     },
     "faq": {
@@ -2406,20 +2322,6 @@
         "description": "Access to unique pieces, vintage finds, and contemporary design. Your space furnished with the same eye for discovery that makes the 9th special."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "projects completed in the 9th"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "satisfied clients"
-      },
-      "network": {
-        "value": "10+",
-        "label": "specialized designers"
-      }
-    },
     "faq": {
       "title": "Frequently Asked Questions - Paris 9th",
       "q1": {
@@ -2500,20 +2402,6 @@
       "furnishing": {
         "title": "Turnkey Furnishing",
         "description": "Complete service for investors and busy professionals: from design to installation, your apartment delivered ready to enjoy."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "projects completed in the 11th"
-      },
-      "satisfaction": {
-        "value": "97%",
-        "label": "satisfied clients"
-      },
-      "network": {
-        "value": "12+",
-        "label": "specialized designers"
       }
     },
     "faq": {
@@ -2598,20 +2486,6 @@
         "description": "Full service for international owners: from heritage assessment to turnkey delivery of an authentically restored Marais apartment."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "25+",
-        "label": "projects completed in the 4th"
-      },
-      "satisfaction": {
-        "value": "99%",
-        "label": "satisfied clients"
-      },
-      "network": {
-        "value": "10+",
-        "label": "heritage specialists"
-      }
-    },
     "faq": {
       "title": "Frequently Asked Questions - Paris 4th",
       "q1": {
@@ -2692,20 +2566,6 @@
       "furnishing": {
         "title": "Curated Contemporary Furnishing",
         "description": "Selection of design furniture, limited editions and commissioned pieces. Access to showrooms, galleries and emerging designers."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "projects completed in the 3rd"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "satisfied clients"
-      },
-      "network": {
-        "value": "10+",
-        "label": "design specialists"
       }
     },
     "faq": {

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslations, useLocale } from 'next-intl'
 import clsx from 'clsx'
 
@@ -88,6 +88,18 @@ export function ProjectFunnel() {
   const [submitting, setSubmitting] = useState(false)
   const [done, setDone] = useState(false)
   const [error, setError] = useState('')
+
+  // Prefill the location from an ?arr=N handoff (arrondissement service pages
+  // link here with the district). Tags every lead by arrondissement in the
+  // POST payload (address) and saves the visitor a field. Read from the URL
+  // directly to avoid a useSearchParams Suspense boundary.
+  useEffect(() => {
+    const arr = new URLSearchParams(window.location.search).get('arr')
+    const n = arr ? parseInt(arr, 10) : NaN
+    if (n >= 1 && n <= 20) {
+      setLocation((prev) => prev || `Paris ${n}`)
+    }
+  }, [])
 
   async function submit() {
     setError('')

@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation'
 import Link from 'next/link'
 
 import { ContactSection } from '@/components/ContactSection'
+import { ArrondissementLinks } from '@/components/ArrondissementLinks'
 import { Container } from '@/components/Container'
 import { FadeIn } from '@/components/FadeIn'
 import { GridList, GridListItem } from '@/components/GridList'
@@ -17,6 +18,8 @@ import imageLaptop from '@/images/architecte-interieur-paris-17-batignolles.jpg'
 import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
 import imageSection3 from '@/images/salon-haussmannien-paris-architecte-interieur.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { ArrondissementSchema } from '@/components/ArrondissementSchema'
+import { ArrondissementBreadcrumb } from '@/components/ArrondissementBreadcrumb'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
 import { routes, locales } from '@/lib/routes'
 
@@ -25,12 +28,14 @@ export default function ArchitecteInterieurParis17Service() {
   const params = useParams()
   const locale = (params?.locale as string) || 'en'
 
-  const startUrl = locale === 'en' ? '/en/start' : locale === 'fr' ? '/fr/demarrer' : locale === 'it' ? '/it/inizia' : locale === 'de' ? '/de/projekt-starten' : '/es/empezar'
+  const startUrl = (locale === 'en' ? '/en/start' : locale === 'fr' ? '/fr/demarrer' : locale === 'it' ? '/it/inizia' : locale === 'de' ? '/de/projekt-starten' : '/es/empezar') + '?arr=17'
   const mainServiceUrl = locale === 'en' ? '/en/services/interior-designer-paris' : locale === 'fr' ? '/fr/services/architecte-interieur-paris' : locale === 'it' ? '/it/servizi/architetto-interni-parigi' : locale === 'de' ? '/de/dienstleistungen/innenarchitekt-paris' : '/es/servicios/disenador-interiores-paris'
 
   return (
     <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.architecteInterieurParis17}>
     <RootLayout>
+      <ArrondissementSchema namespace="ArchitecteParis17Service" arrondissement={17} />
+      <ArrondissementBreadcrumb arrondissement={17} />
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro')}</p>
       </PageIntro>
@@ -243,6 +248,7 @@ export default function ArchitecteInterieurParis17Service() {
         </FadeIn>
       </Container>
 
+      <ArrondissementLinks current={17} />
       <ContactSection />
     </RootLayout>
     </AvailableLocalesProvider>

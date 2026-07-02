@@ -2,6 +2,7 @@ import { type Metadata } from 'next'
 import type { ReactNode } from 'react'
 import Script from 'next/script'
 import { generateServiceMetadata } from '@/lib/serviceMetadata'
+import { ServiceFaqSchema } from '@/components/ServiceFaqSchema'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -12,71 +13,14 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   return generateServiceMetadata(params.locale, 'architecteInterieurParis')
 }
 
-export default function Layout({ children }: { children: ReactNode }) {
-  // FAQPage Schema
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'Je vis à l\'étranger, comment gérer mon projet de rénovation à Paris ?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'C\'est notre spécialité. Nous organisons les échanges par visioconférence, partageons les documents en ligne et assurons un reporting régulier avec photos du chantier. Plusieurs de nos clients ont mené leur projet sans se déplacer à Paris.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Parlez-vous anglais ou italien ?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Oui. Notre équipe et plusieurs architectes de notre réseau sont bilingues ou trilingues. Nous pouvons conduire l\'intégralité de votre projet en anglais ou en italien.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Comment sélectionnez-vous les architectes d\'intérieur de votre réseau ?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Nous vérifions les diplômes, les assurances, les références et rencontrons chaque professionnel avant de l\'intégrer à notre réseau. Nous suivons la satisfaction des clients pour garantir un niveau de qualité constant.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Quel budget minimum pour faire appel à un architecte d\'intérieur ?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Il n\'y a pas de budget minimum imposé. En pratique, l\'intervention d\'un architecte d\'intérieur se justifie pleinement à partir de 30 000 € de travaux. En dessous, une prestation de conseil ponctuel peut suffire.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Combien de temps dure une rénovation d\'appartement à Paris ?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Comptez 2 à 3 mois pour une rénovation partielle, 4 à 6 mois pour une rénovation complète. Les délais dépendent de l\'ampleur des travaux, de la disponibilité des artisans et des autorisations administratives.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Intervenez-vous en dehors de Paris ?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Oui. Notre réseau couvre Paris intra-muros et toute l\'Île-de-France : Neuilly, Boulogne, Saint-Cloud, Versailles, et les départements 92, 93, 94, 78, 91, 77, 95.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Que se passe-t-il si je ne suis pas satisfait de l\'architecte proposé ?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Vous êtes libre de refuser notre proposition et de demander un autre profil. La consultation initiale avec Hauss Paris est gratuite et sans engagement.',
-        },
-      },
-    ],
-  }
-
+export default async function Layout({
+  children,
+  params,
+}: {
+  children: ReactNode
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
   // LocalBusiness Schema
   const localBusinessSchema = {
     '@context': 'https://schema.org',
@@ -160,11 +104,7 @@ export default function Layout({ children }: { children: ReactNode }) {
 
   return (
     <>
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
+      <ServiceFaqSchema locale={locale} namespace="ArchitecteInterieurParisService" />
       <Script
         id="local-business-schema"
         type="application/ld+json"

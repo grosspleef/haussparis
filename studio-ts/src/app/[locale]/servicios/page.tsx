@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
 import { useTranslations } from 'next-intl'
 
 import { ContactSection } from '@/components/ContactSection'
@@ -12,7 +11,7 @@ import { MainServices } from '@/components/MainServices'
 import { PageIntro } from '@/components/PageIntro'
 import { RootLayout } from '@/components/RootLayout'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
-import type { Locale } from '@/lib/routes'
+import { routes, type Locale } from '@/lib/routes'
 
 const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
 const localeUrls: Partial<Record<Locale, string>> = {
@@ -36,7 +35,6 @@ function ArrowIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export default function Servicios() {
-  const [showAll, setShowAll] = useState(false)
   const t = useTranslations('ServicesPage')
   
   const services = [
@@ -92,6 +90,15 @@ export default function Servicios() {
     },
   ]
 
+  // Arrondissement landing pages, linked here with their correct localized
+  // URLs from routes.ts so the Spanish index stops orphaning them.
+  const arrondissementServices = [3, 4, 6, 7, 8, 9, 11, 15, 16, 17].map((n) => ({
+    title: t(`services.paris${n}.title`),
+    description: t(`services.paris${n}.description`),
+    href: routes[`architecteInterieurParis${n}` as keyof typeof routes].es as string,
+  }))
+  const allServices = [...services, ...arrondissementServices]
+
   return (
     <AvailableLocalesProvider availableLocales={availableLocales} localeUrls={localeUrls}>
     <RootLayout>
@@ -112,17 +119,15 @@ export default function Servicios() {
         </FadeIn>
         <div className="relative">
           <GridList lgColumns={2}>
-            {services.slice(0, 6).map((service, index) => (
-              <GridListItem 
-                key={service.href} 
-                title={service.title} 
-                className={`group transition-all duration-300 ${
-                  !showAll && index >= 4 && index < 6 ? 'blur-sm opacity-50' : ''
-                }`}
+            {allServices.map((service) => (
+              <GridListItem
+                key={service.href}
+                title={service.title}
+                className="group"
               >
                 {service.description}
                 <div className="mt-6 flex justify-end">
-                  <Link 
+                  <Link
                     href={service.href}
                     aria-label={`${t('learnMore')} ${service.title}`}
                   >
@@ -132,39 +137,6 @@ export default function Servicios() {
               </GridListItem>
             ))}
           </GridList>
-          {showAll && (
-            <div className="mt-10">
-              <GridList lgColumns={2}>
-                {services.slice(6).map((service) => (
-                  <GridListItem 
-                    key={service.href} 
-                    title={service.title} 
-                    className="group"
-                  >
-                    {service.description}
-                    <div className="mt-6 flex justify-end">
-                      <Link 
-                        href={service.href}
-                        aria-label={`${t('learnMore')} ${service.title}`}
-                      >
-                        <ArrowIcon className="w-6 fill-current text-neutral-300 transition-colors group-hover:text-neutral-950" />
-                      </Link>
-                    </div>
-                  </GridListItem>
-                ))}
-              </GridList>
-            </div>
-          )}
-          {!showAll && (
-            <FadeIn className="flex justify-center mt-12">
-              <button
-                onClick={() => setShowAll(true)}
-                className="text-neutral-950 font-light hover:text-neutral-600 transition cursor-pointer"
-              >
-                {t('seeMore')}
-              </button>
-            </FadeIn>
-          )}
         </div>
       </Container>
 
