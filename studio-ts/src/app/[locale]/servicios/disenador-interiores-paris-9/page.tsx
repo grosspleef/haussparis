@@ -17,6 +17,7 @@ import imageLaptop from '@/images/architecte-interieur-paris-9-opera.jpg'
 import imageWhiteboard from '@/images/renovation-appartement-paris-avant-projet.jpg'
 import imageSection3 from '@/images/salon-haussmannien-paris-architecte-interieur.jpg'
 import { RootLayout } from '@/components/RootLayout'
+import { ArrondissementSchema } from '@/components/ArrondissementSchema'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
 import { routes, locales } from '@/lib/routes'
 
@@ -25,12 +26,13 @@ export default function DisenadorInterioresParis9Service() {
   const params = useParams()
   const locale = (params?.locale as string) || 'en'
 
-  const startUrl = locale === 'en' ? '/en/start' : locale === 'fr' ? '/fr/demarrer' : locale === 'it' ? '/it/inizia' : locale === 'de' ? '/de/projekt-starten' : '/es/empezar'
+  const startUrl = (locale === 'en' ? '/en/start' : locale === 'fr' ? '/fr/demarrer' : locale === 'it' ? '/it/inizia' : locale === 'de' ? '/de/projekt-starten' : '/es/empezar') + '?arr=9'
   const mainServiceUrl = locale === 'en' ? '/en/services/interior-designer-paris' : locale === 'fr' ? '/fr/services/architecte-interieur-paris' : locale === 'it' ? '/it/servizi/architetto-interni-parigi' : locale === 'de' ? '/de/dienstleistungen/innenarchitekt-paris' : '/es/servicios/disenador-interiores-paris'
 
   return (
     <AvailableLocalesProvider availableLocales={[...locales]} localeUrls={routes.architecteInterieurParis9}>
     <RootLayout>
+      <ArrondissementSchema namespace="ArchitecteParis9Service" arrondissement={9} />
       <PageIntro eyebrow={t('eyebrow')} title={t('title')}>
         <p>{t('intro')}</p>
       </PageIntro>

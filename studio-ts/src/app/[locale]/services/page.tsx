@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import { useState } from 'react'
 import { useParams } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 import { type Metadata } from 'next'
@@ -14,7 +13,7 @@ import { MainServices } from '@/components/MainServices'
 import { PageIntro } from '@/components/PageIntro'
 import { RootLayout } from '@/components/RootLayout'
 import { AvailableLocalesProvider } from '@/contexts/AvailableLocalesContext'
-import type { Locale } from '@/lib/routes'
+import { routes, type Locale } from '@/lib/routes'
 
 const availableLocales: Locale[] = ['en', 'fr', 'it', 'de', 'es']
 const localeUrls: Partial<Record<Locale, string>> = {
@@ -38,13 +37,33 @@ function ArrowIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 }
 
 export default function Services() {
-  const [showAll, setShowAll] = useState(false)
   const t = useTranslations('ServicesPage')
   const params = useParams()
   const locale = (params?.locale as string) || 'fr'
-  
+
+  // Arrondissement pages resolve through routes.ts (the source of truth) so
+  // every locale gets its correct localized, locale-prefixed URL. The former
+  // inline map sent it/de/es to the English slug, which broke those links.
+  const arrondissementRoutes: Record<string, keyof typeof routes> = {
+    paris3: 'architecteInterieurParis3',
+    paris4: 'architecteInterieurParis4',
+    paris6: 'architecteInterieurParis6',
+    paris7: 'architecteInterieurParis7',
+    paris8: 'architecteInterieurParis8',
+    paris9: 'architecteInterieurParis9',
+    paris11: 'architecteInterieurParis11',
+    paris15: 'architecteInterieurParis15',
+    paris16: 'architecteInterieurParis16',
+    paris17: 'architecteInterieurParis17',
+  }
+
   // Determine service URLs based on locale
   const getServiceUrl = (service: string) => {
+    const routeKey = arrondissementRoutes[service]
+    if (routeKey) {
+      const localized = routes[routeKey] as Partial<Record<Locale, string>>
+      return localized[locale as Locale] || localized.en!
+    }
     const urls: Record<string, { fr: string; en: string; it: string; de?: string; es?: string }> = {
       renovation: { fr: '/services/renovation', en: '/services/renovation', it: '/servizi/ristrutturazione' },
       customLayout: { fr: '/services/amenagement-sur-mesure', en: '/services/custom-layout', it: '/servizi/progettazione-su-misura' },
@@ -58,16 +77,6 @@ export default function Services() {
       outdoor: { fr: '/services/design-exterieur', en: '/services/outdoor-design', it: '/servizi/design-esterni' },
       interiorDesignerParis: { fr: '/services/architecte-interieur-paris', en: '/services/interior-designer-paris', it: '/servizi/architetto-interni-parigi', de: '/dienstleistungen/innenarchitekt-paris', es: '/servicios/disenador-interiores-paris' },
       interiorDecoratorParis: { fr: '/services/decorateur-interieur-paris', en: '/services/interior-decorator-paris', it: '/services/interior-decorator-paris', de: '/services/interior-decorator-paris', es: '/services/interior-decorator-paris' },
-      paris16: { fr: '/services/architecte-interieur-paris-16', en: '/services/interior-designer-paris-16', it: '/services/interior-designer-paris-16', de: '/services/interior-designer-paris-16', es: '/services/interior-designer-paris-16' },
-      paris7: { fr: '/services/architecte-interieur-paris-7', en: '/services/interior-designer-paris-7', it: '/services/interior-designer-paris-7', de: '/services/interior-designer-paris-7', es: '/services/interior-designer-paris-7' },
-      paris8: { fr: '/services/architecte-interieur-paris-8', en: '/services/interior-designer-paris-8', it: '/services/interior-designer-paris-8', de: '/services/interior-designer-paris-8', es: '/services/interior-designer-paris-8' },
-      paris6: { fr: '/services/architecte-interieur-paris-6', en: '/services/interior-designer-paris-6', it: '/services/interior-designer-paris-6', de: '/services/interior-designer-paris-6', es: '/services/interior-designer-paris-6' },
-      paris17: { fr: '/services/architecte-interieur-paris-17', en: '/services/interior-designer-paris-17', it: '/services/interior-designer-paris-17', de: '/services/interior-designer-paris-17', es: '/services/interior-designer-paris-17' },
-      paris15: { fr: '/services/architecte-interieur-paris-15', en: '/services/interior-designer-paris-15', it: '/services/interior-designer-paris-15', de: '/services/interior-designer-paris-15', es: '/services/interior-designer-paris-15' },
-      paris9: { fr: '/services/architecte-interieur-paris-9', en: '/services/interior-designer-paris-9', it: '/services/interior-designer-paris-9', de: '/services/interior-designer-paris-9', es: '/services/interior-designer-paris-9' },
-      paris11: { fr: '/services/architecte-interieur-paris-11', en: '/services/interior-designer-paris-11', it: '/services/interior-designer-paris-11', de: '/services/interior-designer-paris-11', es: '/services/interior-designer-paris-11' },
-      paris4: { fr: '/services/architecte-interieur-paris-4', en: '/services/interior-designer-paris-4', it: '/services/interior-designer-paris-4', de: '/services/interior-designer-paris-4', es: '/services/interior-designer-paris-4' },
-      paris3: { fr: '/services/architecte-interieur-paris-3', en: '/services/interior-designer-paris-3', it: '/services/interior-designer-paris-3', de: '/services/interior-designer-paris-3', es: '/services/interior-designer-paris-3' },
     }
     const url = urls[service][locale as 'fr' | 'en' | 'it' | 'de' | 'es']
     // Fallback to English if translation not available for DE/ES
@@ -207,17 +216,15 @@ export default function Services() {
         </FadeIn>
         <div className="relative">
           <GridList lgColumns={2}>
-            {services.slice(0, 6).map((service, index) => (
-              <GridListItem 
-                key={service.href} 
-                title={service.title} 
-                className={`group transition-all duration-300 ${
-                  !showAll && index >= 4 && index < 6 ? 'blur-sm opacity-50' : ''
-                }`}
+            {services.map((service) => (
+              <GridListItem
+                key={service.href}
+                title={service.title}
+                className="group"
               >
                 {service.description}
                 <div className="mt-6 flex justify-end">
-                  <Link 
+                  <Link
                     href={service.href}
                     aria-label={`${t('learnMore')} ${service.title}`}
                   >
@@ -227,39 +234,6 @@ export default function Services() {
               </GridListItem>
             ))}
           </GridList>
-          {showAll && (
-            <div className="mt-10">
-              <GridList lgColumns={2}>
-                {services.slice(6).map((service) => (
-                  <GridListItem 
-                    key={service.href} 
-                    title={service.title} 
-                    className="group"
-                  >
-                    {service.description}
-                    <div className="mt-6 flex justify-end">
-                      <Link 
-                        href={service.href}
-                        aria-label={`${t('learnMore')} ${service.title}`}
-                      >
-                        <ArrowIcon className="w-6 fill-current text-neutral-300 transition-colors group-hover:text-neutral-950" />
-                      </Link>
-                    </div>
-                  </GridListItem>
-                ))}
-              </GridList>
-            </div>
-          )}
-          {!showAll && (
-            <FadeIn className="flex justify-center mt-12">
-              <button
-                onClick={() => setShowAll(true)}
-                className="text-neutral-950 font-light hover:text-neutral-600 transition cursor-pointer"
-              >
-                {t('seeMore')}
-              </button>
-            </FadeIn>
-          )}
         </div>
       </Container>
 

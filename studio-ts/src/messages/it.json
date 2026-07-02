@@ -1384,20 +1384,6 @@
         "description": "Servizio completo per proprietari non residenti: dalla progettazione all'installazione, il vostro appartamento consegnato pronto da abitare."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "40+",
-        "label": "progetti realizzati nel 16°"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "di clienti soddisfatti"
-      },
-      "network": {
-        "value": "15+",
-        "label": "architetti specializzati"
-      }
-    },
     "faq": {
       "title": "Domande frequenti - Parigi 16°",
       "q1": {
@@ -1478,20 +1464,6 @@
       "furnishing": {
         "title": "Chiavi in mano diplomatico",
         "description": "Servizio completo per clienti internazionali: dalla progettazione all'installazione, inclusi sistemi di sicurezza e alloggi per il personale."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "25+",
-        "label": "progetti realizzati nel 7°"
-      },
-      "satisfaction": {
-        "value": "100%",
-        "label": "di soddisfazione cliente"
-      },
-      "network": {
-        "value": "12+",
-        "label": "architetti specializzati"
       }
     },
     "faq": {
@@ -1576,20 +1548,6 @@
         "description": "Chiavi in mano completo per clienti internazionali: installazione di collezioni d'arte, integrazione domotica e gestione continua della proprietà."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "progetti realizzati nell'8°"
-      },
-      "satisfaction": {
-        "value": "100%",
-        "label": "di soddisfazione cliente"
-      },
-      "network": {
-        "value": "18+",
-        "label": "architetti specializzati"
-      }
-    },
     "faq": {
       "title": "Domande frequenti - Parigi 8°",
       "q1": {
@@ -1670,20 +1628,6 @@
       "furnishing": {
         "title": "Collezionato nel tempo",
         "description": "Creazione di interni che sembrano ereditati piuttosto che acquistati. Mescolanza di epoche e stili con la sicurezza delle generazioni."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "progetti realizzati nel 6°"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "di clienti soddisfatti"
-      },
-      "network": {
-        "value": "14+",
-        "label": "architetti specializzati"
       }
     },
     "faq": {
@@ -1768,20 +1712,6 @@
         "description": "Servizio di arredamento completo: dalla progettazione all'installazione, il vostro appartamento consegnato pronto per la vita familiare con tutti i dettagli pratici considerati."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "progetti realizzati nel 17°"
-      },
-      "satisfaction": {
-        "value": "97%",
-        "label": "clienti soddisfatti"
-      },
-      "network": {
-        "value": "12+",
-        "label": "architetti specializzati"
-      }
-    },
     "faq": {
       "title": "Domande frequenti - Parigi 17°",
       "q1": {
@@ -1862,20 +1792,6 @@
       "furnishing": {
         "title": "Arredamento completo",
         "description": "Servizio di arredamento end-to-end: pianificazione dello spazio, selezione dei mobili e installazione. Il vostro appartamento consegnato pronto per trasferirsi."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "45+",
-        "label": "progetti realizzati nel 15°"
-      },
-      "satisfaction": {
-        "value": "96%",
-        "label": "clienti soddisfatti"
-      },
-      "network": {
-        "value": "14+",
-        "label": "architetti specializzati"
       }
     },
     "faq": {
@@ -1960,20 +1876,6 @@
         "description": "Accesso a pezzi unici, trovate vintage e design contemporaneo. Il tuo spazio arredato con lo stesso occhio per la scoperta che rende speciale il 9°."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "progetti realizzati nel 9°"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "clienti soddisfatti"
-      },
-      "network": {
-        "value": "10+",
-        "label": "architetti specializzati"
-      }
-    },
     "faq": {
       "title": "Domande frequenti - Parigi 9°",
       "q1": {
@@ -2054,20 +1956,6 @@
       "furnishing": {
         "title": "Arredamento chiavi in mano",
         "description": "Servizio completo per investitori e professionisti impegnati: dalla progettazione all'installazione, il vostro appartamento consegnato pronto da vivere."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "35+",
-        "label": "progetti realizzati nell'11°"
-      },
-      "satisfaction": {
-        "value": "97%",
-        "label": "di clienti soddisfatti"
-      },
-      "network": {
-        "value": "12+",
-        "label": "architetti specializzati"
       }
     },
     "faq": {
@@ -2152,20 +2040,6 @@
         "description": "Servizio integrale per proprietari internazionali: dalla valutazione patrimoniale alla consegna chiavi in mano di un appartamento del Marais autenticamente restaurato."
       }
     },
-    "stats": {
-      "projects": {
-        "value": "25+",
-        "label": "progetti realizzati nel 4°"
-      },
-      "satisfaction": {
-        "value": "99%",
-        "label": "di clienti soddisfatti"
-      },
-      "network": {
-        "value": "10+",
-        "label": "specialisti del patrimonio"
-      }
-    },
     "faq": {
       "title": "Domande frequenti - Parigi 4°",
       "q1": {
@@ -2246,20 +2120,6 @@
       "furnishing": {
         "title": "Arredamento contemporaneo curato",
         "description": "Selezione di mobili di design, edizioni limitate e pezzi commissionati. Accesso a showroom, gallerie e designer emergenti."
-      }
-    },
-    "stats": {
-      "projects": {
-        "value": "30+",
-        "label": "progetti realizzati nel 3°"
-      },
-      "satisfaction": {
-        "value": "98%",
-        "label": "di clienti soddisfatti"
-      },
-      "network": {
-        "value": "10+",
-        "label": "specialisti del design"
       }
     },
     "faq": {
