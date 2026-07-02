@@ -80,7 +80,7 @@ export function ArrondissementSchema({
     },
     areaServed: {
       '@type': 'AdministrativeArea',
-      name: `Paris ${arrondissement}e`,
+      name: plain(t('eyebrow')),
       address: {
         '@type': 'PostalAddress',
         postalCode: arrondissementPostalCode(arrondissement),
